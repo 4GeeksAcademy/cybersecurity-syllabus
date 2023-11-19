@@ -57,7 +57,7 @@ Los lenguajes de programación de alto nivel se asemejan más al lenguaje humano
 
 El **IoT** (Internet of Things), o internet de las cosas, es una nueva tendencia tecnológica que consiste en dotar a dispositivos y aparatos de la capacidad de comunicarse con el usuario y entre ellos. Gracias al uso de sensores, conexiones de red, software y otras tecnologías; elementos y dispositivos tradicionales como relojes y electrodomésticos, entre otros, intercambian información.
 
-![IOT](./assets/IOT.png)
+![IOT](../assets/IOT.png)
 
 Con la llegada de **IoT** en la que pasamos de solo conectar computadores y móviles a internet a conectar relojes, lavadoras, consolas de videojuegos entre otros electrónicos; llega un nuevo fenómeno conocido como el “*big data”*. Definimos **big data** como un conjunto de datos masivos y voluminosos generados desde diferentes fuentes. Cuanto más digitalizado está el mundo más datos se generan por segundo. Alguien debe mantener segura toda esta información, por ello la demanda de profesionales en ciberseguridad va en aumento.
 
@@ -69,7 +69,7 @@ En un mundo donde la comunicación se limitaba a distancias geográficas, un nue
 
 ARPANET unió a universidades y centros de investigación en una tela digital. Pero fue Tim Berners-Lee quien agregó un nuevo capítulo, al inventar la World Wide Web en 1989.
 
-![Navegadorea](./assets/internet.png)
+![Navegadorea](../assets/internet.png)
 
 Con la Web, la información se convirtió en algo accesible para todos. Aparecieron navegadores como Netscape y Explorer, abriendo la puerta a un mundo en línea de posibilidades infinitas.  El nuevo milenio trajo consigo un auge tecnológico. Las redes sociales emergieron, transformando la forma en que las personas se conectan y comparten. Luego, los dispositivos móviles ingresaron al escenario. Los smartphones llevaron Internet a los bolsillos de todos, creando una sociedad permanentemente conectada.
 
