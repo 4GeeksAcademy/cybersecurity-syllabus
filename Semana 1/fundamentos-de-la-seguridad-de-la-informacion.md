@@ -1,4 +1,4 @@
-# Fundamentos de la seguridad de la información
+# Lectura 5📕: Fundamentos de la seguridad de la información
 
 ## Triada de la seguridad
 
@@ -95,9 +95,9 @@ Entre los tipos comunes de ataques de fuerza bruta encontramos:
 - **Ataques de diccionario:** Los atacantes comienzan con un nombre de usuario individual y prueban posibles contraseñas extraídas de diccionarios, pero modificando las palabras con caracteres especiales y números.
 - **Ataques de fuerza bruta híbridos:** En este caso se utiliza lógica externa para determinar las variaciones de contraseñas y las posibles combinaciones con las que es más probable conseguir el objetivo previsto y, a continuación, se prueban todas las variaciones posibles.
 
-## ****Seguridad de Contraseñas y Autenticación****
+## Seguridad de Contraseñas y Autenticación
 
-### **Contraseñas seguras**
+### Contraseñas seguras
 
 Conocida también como password, una contraseña es una palabra, frase o señal que solo conoce determinada o determinadas personas y les permite reconocerse entre sí o acceder a un sitio que antes era inaccesible. Hoy en día, una contraseña sirve como método de autenticación para acceder a un recurso o sitio o grupo controlado.
 
@@ -105,7 +105,7 @@ Una contraseña segura es una palabra o frase caracterizada por su dificultad de
 
 Las contraseñas más difíciles de vencer por los hackers y los delincuentes cibernéticos son aquellas que tienen más de doce caracteres, tienen números, letras y símbolos y no guardan relación alguna entre los datos de los usuarios que las generan.
 
-### **Autenticación**
+### Autenticación
 
 Autenticación es el proceso que debe seguir un usuario para tener acceso a los recursos de un sistema o de una red de computadoras. Este proceso implica identificación (decirle al sistema quién es) y autenticación (demostrar que el usuario es quien dice ser). La autenticación por sí sola no verifica derechos de acceso del usuario; estos se confirman en el proceso de autorización.
 
@@ -133,7 +133,7 @@ La Autenticación de **Dos Factores** es una herramienta que ofrecen varios prov
 
 ## Control de acceso
 
-### C**ontrol de acceso físico**
+### Control de acceso físico
 
 El **control de acceso físico** es un conjunto de políticas para controlar a quién se le concede acceso a un lugar físico. Hay varios ejemplos de control de acceso físico en el mundo real, como los siguientes:
 
@@ -144,7 +144,7 @@ El **control de acceso físico** es un conjunto de políticas para controlar a q
 
 En todos estos ejemplos, una persona o dispositivo sigue un conjunto de políticas para decidir quién tiene acceso a un lugar físico restringido. Por ejemplo, el escáner de la tarjeta de acceso de un hotel solo permite el acceso a los huéspedes autorizados que cuentan con una llave del hotel.
 
-### **Control de Acceso en Sistemas**
+### Control de Acceso en Sistemas
 
 Si hablamos de **sistemas**, el control de acceso a la información restringe el acceso a los datos y al software utilizado para manipularlos. Algunos ejemplos son los siguientes:
 
@@ -152,7 +152,7 @@ Si hablamos de **sistemas**, el control de acceso a la información restringe el
 - Desbloquear un teléfono inteligente con una huella dactilar
 - Acceder en remoto a la red interna de la empresa con una VPN
 
-****Autenticación y Autorización****
+**Autenticación y Autorización**
 
 En todos estos casos, el software se utiliza para autenticar y conceder autorización a los usuarios que necesitan acceder a la información digital. Autenticación y autorización son componentes integrales del control de acceso a la información.
 
@@ -173,7 +173,7 @@ Estos son los distintos tipos de cuentas que podemos conseguir
 | Usuarios normales | Estos tienen pocos permisos, y son sobre los que se aplican todos los que podemos crear para gestionar los accesos. |
 | Usuarios de ejecución | Son usuarios que no pueden realizar un login, simplemente se dedican a lanzar procesos, entre otros. |
 
-### Tipos de permisos****:****
+### Tipos de permisos:
 
 - **Lectura (r)**: Es el primer permiso que podemos encontrarnos. Este nos da la opción de que un usuario pueda ver el contenido al que quiere acceder.
 - **Escritura (w)**: Nos da la posibilidad de otorgar poder sobre sobre un archivo. De esta forma podrá ser modificado, al igual que un directorio.
@@ -186,7 +186,7 @@ Estos son los distintos tipos de cuentas que podemos conseguir
 - **Permisos de grupo**: Cuando un usuario pertenece a un grupo dentro del directorio de Linux, quiere decir que se le otorgan los mismos permisos que tienen los demás usuarios que pertenecen a ese mismo grupo. El sistema identifica esto con el parámetro «g».
 - **Permisos del resto de usuarios**: En este caso nos referimos a los usuarios que no son los creadores del archivo, ni pertenecen al grupo que hemos indicado anteriormente. Los permisos y accesos de estos usuarios los puede establecer el propietario. El sistema los establece con el parámetro «o».
 
-### ****Gestión de Permisos en Windows y Linux:****
+### Gestión de Permisos en Windows y Linux:
 
 **Para Windows:**
 
@@ -201,7 +201,4 @@ Desde la terminal aplicamos el comando `ls -l` ; con este comando podemos ver to
 - Si queremos cambiar permisos del archivo usaremos el comando `chmod` seguido del permiso.
 - Si queremos cambiar el propietario del archivo usaremos el comando `chown` seguido del nuevo propietario.
 
-<aside>
-👉 Saber que permisos tiene el archivo le permitiria a un atacante saber si puede manipular el archivo para su conveniencia, por lo que es importante cuando se trabaja con varios usuarios mantener el metodo del menor privilegio y asi no permitir que usuarios no autorizados puedan acceder al archivo.
-
-</aside>
+> 👉 Saber que permisos tiene el archivo le permitiria a un atacante saber si puede manipular el archivo para su conveniencia, por lo que es importante cuando se trabaja con varios usuarios mantener el metodo del menor privilegio y asi no permitir que usuarios no autorizados puedan acceder al archivo.

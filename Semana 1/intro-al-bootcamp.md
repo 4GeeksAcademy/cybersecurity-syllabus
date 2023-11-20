@@ -1,4 +1,4 @@
-# Introducción al Bootcamp
+# Lectura 9📕: Introducción al Bootcamp
 
 Bienvenido al bootcamp de ciberseguridad de 4Geeks Academy. Durante este programa intensivo de 16 semanas experimentarás un muy sustancioso e intenso aprendizaje en materia de ciberseguridad y hacking que te preparará para encontrar tu primer trabajo en una de las profesiones mejor pagadas de la actualidad.
 
@@ -25,14 +25,3 @@ Nuestra formación tiene como objetivo que nuestros egresados sean profesionales
 
 Los egresados de nuestra formación están capacitados para desempeñarse en diferentes roles como el de administrador de sistemas con enfoque en seguridad informática, pentester, consultor de ciberseguridad en empresas, analista técnico de seguridad. Al finalizar esta formación puedes trabajar en cualquiera de los perfiles mencionados. Un analista de ciberseguridad o pentester junior podría ganar entre 20.000. 36.000 dólares al año según el promedio en LinkedIn.
 
-### 💡Quiz: Introducción a la ciberseguridad 
-
-Antes de empezar, te vamos a hacer tres preguntas muy simples. Puedes utilizar tu editor de texto favorito o lápiz y papel para analizar y responderlas:
-
-1. ¿Qué es la ciberseguridad para ti?
-2. ¿Qué importancia tiene un profesional de ciberseguridad en una empresa?
-3. ¿Cuál es tu meta ahora que has emprendido tu formación en ciberseguridad?
-
-Al final de la formación te las volveremos a preguntar para evaluar si tus respuestas han cambiado después de realizar el curso.
-
-¡Ahora si, si estás listo para empezar a aprender, continúa a la siguiente lectura!.

@@ -1,4 +1,4 @@
-# Redes y comunicaciones
+# Lectura 4📕: Redes y comunicaciones
 
 Podemos definir a la red como la tecnología que permite que las computadoras se conecten entre sí, para poder compartir y enviar datos entre ellas, en la actualidad no solo podemos conectar computadoras, podemos conectar en la red cualquier dispositivo inteligente desde teléfonos hasta televisores.
 

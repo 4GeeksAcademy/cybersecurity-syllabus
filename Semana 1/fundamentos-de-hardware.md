@@ -1,4 +1,4 @@
-# Fundamentos de hardware
+# Lectura 2 📕: Fundamentos de hardware
 
 Para conocer más sobre los componentes básicos de una computadora debemos conocer primero qué es una computadora.
 
