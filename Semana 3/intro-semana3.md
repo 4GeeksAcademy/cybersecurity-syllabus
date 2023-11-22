@@ -1,0 +1,3 @@
+# Lectura 0📕: Introducción a este módulo
+
+¡Felicidades! Has llegado a la tercera semana de este gran reto de convertirte en un profesional de ciberseguridad. Ahora cuentas con nociones básicas de **IT** y también con conocimientos de redes ¡has avanzado mucho! y aunque todavía te queda camino por delante, a partir de esta semana comenzarás a entrar en materia de ciberseguridad. En esta tercera semana de tu Bootcamp aprenderás la teoría necesaria para entender el contexto de ciberseguridad en una empresa de cara a tu primer empleo, recuerda que para poner en práctica los conocimientos debemos entender a qué nos estamos dedicando, vamos a ello.
