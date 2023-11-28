@@ -1,0 +1,35 @@
+# Lectura 6 📕: Introducción a la seguridad de Linux
+
+## Conceptos básicos de seguridad en linux
+
+La seguridad es un aspecto fundamental en cualquier sistema operativo, y a medida que más personas y organizaciones utilizan Linux, es importante comprender los conceptos básicos de seguridad para proteger nuestros sistemas y datos.
+
+- **Usuarios y permisos**: En Linux, cada usuario tiene su propia cuenta y conjunto de permisos. Es importante crear cuentas de usuario separadas para cada persona que acceda al sistema y asignar los permisos adecuados. Los permisos determinan qué acciones pueden realizar los usuarios en archivos y directorios, como leer, escribir o ejecutar.
+- **Contraseñas seguras**: Es importante utilizar contraseñas seguras que sean difíciles de adivinar. Una contraseña segura debe tener una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Además, se recomienda cambiar las contraseñas periódicamente.
+- **Actualizaciones del sistema**: Mantener el sistema operativo Linux actualizado es esencial para garantizar la seguridad. Las actualizaciones del sistema incluyen parches de seguridad que corrigen vulnerabilidades conocidas. Es importante instalar regularmente las actualizaciones del sistema para protegerse contra posibles amenazas.
+- **Firewall**: Un firewall es una herramienta de seguridad que controla el tráfico de red entrante y saliente. Linux cuenta con un firewall incorporado llamado iptables, que permite configurar reglas para permitir o bloquear el tráfico según nuestras necesidades. Configurar un firewall adecuado puede ayudar a proteger el sistema contra ataques externos.
+- **Antivirus y software de seguridad**: Aunque Linux es menos susceptible a virus y malware en comparación con otros sistemas operativos, aún es importante utilizar software de seguridad, como antivirus y herramientas de detección de intrusiones. Estas herramientas pueden ayudar a identificar y eliminar amenazas potenciales.
+- **Auditoría de seguridad**: Realizar auditorías de seguridad periódicas es una buena práctica para identificar posibles vulnerabilidades en el sistema. Las auditorías de seguridad pueden incluir la revisión de registros de actividad, análisis de vulnerabilidades y pruebas de penetración. Estas actividades nos permiten detectar y corregir posibles problemas de seguridad antes de que sean explotados.
+
+## Gestión de cuentas de usuario y contraseñas seguras
+
+Algunos aspectos que podemos tomar en cuenta para la gestión de cuentas de usuarios:
+
+- **Creación de cuentas de usuario**: En Linux, se pueden crear cuentas de usuario utilizando comandos como "**useradd**" o "**adduser**". Al crear una cuenta de usuario, es importante asignar un nombre de usuario único y una contraseña segura. Además, se pueden establecer otros detalles como el directorio de inicio y el grupo primario.
+- **Contraseñas seguras**: Es fundamental utilizar contraseñas seguras que sean difíciles de adivinar. Se recomienda utilizar una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Evita utilizar contraseñas obvias o información personal fácilmente accesible.
+- **Políticas de contraseñas**: Establecer políticas de contraseñas es una práctica recomendada para garantizar que los usuarios utilicen contraseñas seguras. Estas políticas pueden incluir requisitos como una longitud mínima de contraseña, la necesidad de cambiar las contraseñas periódicamente y la prohibición de reutilizar contraseñas antiguas. Estas políticas se pueden configurar en el archivo "/etc/login.defs" o utilizando herramientas de gestión de contraseñas como "pam_cracklib".
+- **Autenticación de dos factores**: La autenticación de dos factores (2FA) proporciona una capa adicional de seguridad al requerir un segundo método de verificación, además de la contraseña, para acceder a una cuenta. Esto ayuda a prevenir el acceso no autorizado incluso si la contraseña se ve comprometida.
+- **Gestión de privilegios**: Es importante asignar los privilegios adecuados a cada cuenta de usuario en Linux. No todos los usuarios necesitan tener acceso de administrador o privilegios de superusuario. Siguiendo el principio de "menos privilegios", se deben otorgar sólo los privilegios necesarios para realizar las tareas requeridas. Esto ayuda a limitar el impacto de posibles ataques o errores humanos.
+
+## Configuración de cortafuegos y protección de servicios
+
+La configuración de un cortafuegos y la protección de servicios son aspectos fundamentales para garantizar la seguridad de un sistema. Estas medidas ayudan a prevenir accesos no autorizados y proteger los servicios que se ejecutan en el sistema. Aquí hay algunos conceptos clave a tener en cuenta:
+
+- **Cortafuegos**: Un cortafuegos es una barrera de seguridad que controla el tráfico de red entrante y saliente. Su objetivo principal es permitir o bloquear el tráfico según las reglas establecidas. En Linux, el cortafuegos más comúnmente utilizado es iptables. Permite configurar reglas para filtrar el tráfico basado en direcciones IP, puertos y protocolos.
+- **Reglas del cortafuegos**: Al configurar un cortafuegos, es importante definir reglas específicas para permitir o bloquear el tráfico. Por ejemplo, se pueden establecer reglas para permitir el acceso a servicios específicos, como SSH o HTTP, desde direcciones IP confiables. También se pueden bloquear puertos no utilizados o restringir el acceso a servicios sensibles.
+- **Protección de servicios**: Los servicios que se ejecutan en un sistema, como servidores web, bases de datos o servidores de correo electrónico, pueden ser objetivos de ataques. Para proteger estos servicios, se deben tomar medidas adicionales, como:
+- **Mantener los servicios actualizados**: Es importante aplicar regularmente las actualizaciones de seguridad para los servicios instalados. Esto ayuda a corregir vulnerabilidades conocidas y proteger contra ataques conocidos.
+- **Configuración segura**: Asegúrate de configurar los servicios de manera segura, siguiendo las mejores prácticas recomendadas. Esto incluye deshabilitar funciones innecesarias, establecer permisos adecuados en los archivos y directorios, y utilizar contraseñas seguras para las cuentas asociadas con los servicios.
+- **Monitoreo y registro**: Implementa herramientas de monitoreo y registro para supervisar la actividad de los servicios. Esto permite detectar posibles intrusiones o comportamientos anómalos y tomar medidas preventivas.
+- **Limitar el acceso**: Restringe el acceso a los servicios solo a las direcciones IP o rangos de IP necesarios. Esto ayuda a reducir la superficie de ataque y limitar la exposición a posibles amenazas.
+- **Herramientas de seguridad adicionales**: Además de un cortafuegos, existen otras herramientas de seguridad que se pueden utilizar para proteger los servicios en Linux. Por ejemplo, se pueden implementar sistemas de detección y prevención de intrusiones (IDS/IPS) para monitorear y bloquear actividades sospechosas. También se pueden utilizar herramientas de escaneo de vulnerabilidades para identificar posibles debilidades en los servicios.

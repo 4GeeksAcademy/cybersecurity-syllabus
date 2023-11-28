@@ -18,11 +18,11 @@ Un dia en el monitoreo de actividades observa una actividad inusual en la red de
 
 ¿Que determinar si este incidente es una equivocación (falso positivo) o una acción que puede escalar (verdadero positivo)
 
-1. **Contención**
+2. **Contención**
 
 ¿Qué acciones podemos tomar para contener el ataque?
 
-1. **Investigación**
+3. **Investigación**
 
 ¿Qué podemos tomar en cuenta para hacer una investigación exhaustiva del incidente?
 

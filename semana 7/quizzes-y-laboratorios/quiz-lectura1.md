@@ -8,7 +8,7 @@ b) Gestion de riesgos
 
 c) Amenaza
 
-1. Es un plan de accion para mitigar un riesgo 
+2. Es un plan de accion para mitigar un riesgo 
 
 a) identificacion de riesgo 
 
@@ -16,7 +16,7 @@ b) Riesgo
 
 c) Planificacion de respuesta 
 
-1. Posibilidad de que un riesgo ocurra 
+3. Posibilidad de que un riesgo ocurra 
 
 a) Amenaza
 

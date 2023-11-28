@@ -8,7 +8,7 @@ b) consultores externos contratados
 
 c) Departamento de IT
 
-1. Cual es la metrica que indica la capacidad de DLP para detectar y alertar sobre posibles incidentes de pérdida de datos 
+2. Cual es la metrica que indica la capacidad de DLP para detectar y alertar sobre posibles incidentes de pérdida de datos 
 
 a) tasa de deteccion de incidentes
 

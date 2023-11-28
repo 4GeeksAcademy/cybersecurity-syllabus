@@ -1,4 +1,4 @@
-### ⚡ Quiz: Planificación y tratamiento de riesgos
+# ⚡ Quiz: Planificación y tratamiento de riesgos
 
 ¿Puedes mencionar algunos tipos de controles de seguridad para la información de una organización?
 

@@ -1,4 +1,4 @@
-## ⚡Quiz: integración de la gestión de riesgos y DLP en la cultura de la empresa
+# ⚡Quiz: integración de la gestión de riesgos y DLP en la cultura de la empresa
 
 - ¿Cual es la importancia de tener una cultura de concientizacion en DLP dentro de una organizacion?
 

@@ -1,4 +1,4 @@
-### ⚡️Quiz: Seguridad en los dispositivos
+# ⚡️Quiz: Seguridad en los dispositivos
 
 1. ¿Cuál de las siguientes es una medida de seguridad recomendada para dispositivos móviles?
 a) Descargar aplicaciones de fuentes desconocidas.

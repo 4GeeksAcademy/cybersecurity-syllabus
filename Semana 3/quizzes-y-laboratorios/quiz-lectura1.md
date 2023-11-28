@@ -20,7 +20,7 @@ b) **Disponibilidad**
     
 ---
 
-1. La ciberseguridad y el hacking tienen el mismo concepto
+2. La ciberseguridad y el hacking tienen el mismo concepto
 
 a) **Verdadero**
 
@@ -34,7 +34,7 @@ b) **Falso**
 
 ---
 
-1. Todas las empresas requieren ciberseguridad sin importar el sector, tamaño y ubicación geográfica
+3. Todas las empresas requieren ciberseguridad sin importar el sector, tamaño y ubicación geográfica
 
 a) **Verdadero** 
 
