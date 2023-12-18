@@ -137,3 +137,9 @@ esto se resume a otorgar permiso de lectura al usuario propietario, premios de l
 ```jsx
 r---wxrwx 1 user group 0 sep 17 10:53 file
 ```
+
+## 💡Laboratorio: Comando básico de navegación y manipulación de archivos y directorios
+
+Abrimos nuestro intérprete de comandos y comienza a explorar por los distintos comandos básicos que les dejamos. 
+
+Sientete libre tambien de experimentar con la asignacion de permisos a usuario y archivos 

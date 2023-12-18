@@ -39,3 +39,7 @@ Además, el analista de ciberseguridad sigue de cerca las tendencias y amenazas 
 3. **CISO (Chief Information Security Officer - Director de Seguridad de la Información):** El CISO es un subconjunto del CSO y se centra específicamente en la seguridad de la información y la ciberseguridad. Su responsabilidad principal es proteger los activos digitales de la empresa, como datos confidenciales y sistemas de información, de amenazas cibernéticas. El CISO trabaja en el diseño de estrategias de seguridad, la implementación de medidas de seguridad, la supervisión de la infraestructura de seguridad de TI y la gestión de incidentes de seguridad. Este rol se enfoca en la protección de datos y la mitigación de riesgos cibernéticos.
 
 > 👉 Algunas empresas tienen una estructura diferente por lo que podrías encontrarte con una empresa sin CISO o sin CSO, en ese caso siempre podrás acudir a tus superiores.
+
+## 💡Laboratorio: Resuelve el caso (Desarrollo)
+
+Elephant es una fábrica de vinos con más 10 años en el mercado, distribuyen por internet y casi todo el trabajo de sus empleados es por internet y la red local de la empresa pero el CEO no conoce nada sobre ciberseguridad ¿Cómo podrías convencer al CEO de implementar esta cultura?
