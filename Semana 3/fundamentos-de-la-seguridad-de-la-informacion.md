@@ -44,3 +44,11 @@ Es importante que sepas que los principales actores y partícipes en el manejo d
 Cuando sales a la calle siempre tomas medidas de precaución, sabes cuáles son las calles más seguras, el horario más seguro, intentas verificar que el domicilio que vas a visitar se encuentra disponible, evalúas el transporte público y la ruta más segura para caminar, también verificas el clima para saber si debes salir con un paraguas o no es necesario. Sabes que si algo te ocurre, están los cuerpos de seguridad en la calle para respaldarte cuando ya has sido vulnerado o tu integridad física corre peligro. 
 
 Lo mismo ocurre en el espacio cibernético. Tú como usuario eres el principal responsable de tu integridad en la red, y como profesional de ciberseguridad eres responsable en labores de prevención, detección y mitigación de ataques cuando un sistema ha sido vulnerado.
+
+## 💡 Laboratorio: Resuelve el problema
+
+Eres el administrador de sistemas de 4Geeks Academy y has notado que algunos usuarios de la red de la empresa están utilizando contraseñas muy débiles o incluso contraseñas predeterminadas en sus cuentas de usuario. Esto plantea un riesgo significativo de seguridad. El administrador de sistemas necesita tomar medidas para abordar este problema.
+
+**¿Cómo solucionarías este problema?**
+
+> 👉 Recuerda que los usuarios son los principales responsables de su información, debes darles indicaciones sobre qué hacer y cómo. Establece políticas de cambio de contraseñas.

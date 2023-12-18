@@ -47,3 +47,35 @@ El mantenimiento del programa de gestión de riesgos y DLP implica las siguiente
 | Monitoreo y análisis de incidentes | El monitoreo y análisis de incidentes son actividades clave para el mantenimiento del programa de gestión de riesgos y DLP. Al analizar los incidentes pasados y las brechas de datos, se pueden identificar áreas de mejora y tomar medidas correctivas para prevenir futuros incidentes similares. Además, el monitoreo continuo de las actividades y eventos relacionados con la seguridad de la información ayuda a detectar posibles amenazas y vulnerabilidades. |
 
 > 📖 En resumen, el mantenimiento y la actualización del programa de gestión de riesgos y DLP son esenciales para garantizar una protección efectiva de los datos sensibles. Al realizar revisiones periódicas, actualizar políticas y procedimientos, evaluar tecnologías, proporcionar capacitación y concienciación, y monitorear y analizar incidentes, las organizaciones pueden mantener su programa de gestión de riesgos y DLP actualizado y adaptado a los cambios en el entorno de seguridad de la información.
+
+## 💡 Laboratorio
+
+**Descripción del Escenario**
+
+**Eres analista de ciberseguridad en la empresa “KAPECI.INC” donde tu labor es monitorear las actividades en la red y tomar acciones en caso de alguna amenaza a la información de la empresa**
+
+**Un dia en el monitoreo de actividades observa una actividad inusual en la red del departamento de marketing donde están accediendo a documentos sensibles del departamento IT**
+
+**Preguntas y desafíos**
+
+1. **Evaluación inicial**
+
+¿Cuál sería el primer paso que haría como analista de ciberseguridad?
+
+¿Que determinar si este incidente es una equivocación (falso positivo) o una acción que puede escalar (verdadero positivo)
+
+1. **Contención**
+
+¿Qué acciones podemos tomar para contener el ataque?
+
+1. **Investigación**
+
+¿Qué podemos tomar en cuenta para hacer una investigación exhaustiva del incidente?
+
+¿Qué información o logro podemos obtener con esta investigación?
+
+**Recuperación y mejora**
+
+¿Como analista de ciberseguridad, cuáles serían sus recomendaciones para mejorar el sistema y evitar que este tipo de incidentes se repita?
+
+De haber datos perdidos ¿Se podría recuperar estos datos?
