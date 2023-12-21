@@ -1,4 +1,4 @@
-# Lectura 0📕: Introducción a las tecnologías de información
+# Lectura 1 📕: Introducción a las tecnologías de información
 
 Para tu formación profesional es necesario que sepas que conocer los aspectos básicos de **IT** es muy importante. Recuerda que todo tu trabajo será a través de sistemas de tecnología de información y de comunicaciones, por ello es necesario entrar en contexto y conocer más de lo básico acerca de **IT** y **TIC’s** para avanzar en tu carrera. 
 
