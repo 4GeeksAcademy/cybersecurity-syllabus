@@ -1,4 +1,4 @@
-# Lectura 2 📕:  Preparación del entorno de Virtualizacin
+# Lectura 2 📕:  Preparación del entorno de Virtualizacion
 
 ## Preparación del entorno de virtualización
 
