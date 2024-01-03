@@ -1,4 +1,4 @@
-# Lectura 1**📕**: Introducción a Linux
+# Lectura 1 📕: Introducción a Linux
 
 ## Qué es Linux y su importancia en el mundo de la informática
 
