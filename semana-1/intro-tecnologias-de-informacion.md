@@ -1,4 +1,10 @@
-# Lectura 1 📕: Introducción a las tecnologías de información
+---
+title: "Introducción a las tecnologías de información"
+subtitle: "Explore los fundamentos de IT y TICs, lenguajes de programación, comprenda la importancia de la ciberseguridad y sumérjase en la historia de la informática."
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "Lorenagubaira"]
+
+---
 
 Para tu formación profesional es necesario que sepas que conocer los aspectos básicos de **IT** es muy importante. Recuerda que todo tu trabajo será a través de sistemas de tecnología de información y de comunicaciones, por ello es necesario entrar en contexto y conocer más de lo básico acerca de **IT** y **TIC’s** para avanzar en tu carrera. 
 
