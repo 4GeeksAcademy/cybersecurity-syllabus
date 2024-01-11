@@ -1,4 +1,10 @@
-# Lectura 2 📕: Fundamentos de hardware
+---
+title: "Fundamentos de hardware".
+subtitle: "Descubre los aspectos esenciales que componen una computadora, desde el hardware interno hasta los dispositivos periféricos. ¡Aprende cómo funciona tu máquina!"
+tags: ["cybersecurity"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Para conocer más sobre los componentes básicos de una computadora debemos conocer primero qué es una computadora.
 
@@ -70,7 +76,7 @@ Actualmente son varios los dispositivos usados para el almacenamiento de datos d
 
 1. **Disco Duro:**
 
-Un **disco duro** o **disco rígido** es un dispositivo de almacenamiento de datos no volátil que emplea un sistema de grabación magnética para almacenar datos digitales de forma rápida y segura. Es decir, para almacenar datos se utilizan únicamente dos valores representados por 0 y 1 como código binario . Un *bit* es la unidad mínima y elemental utilizada para almacenar información en los discos duros. Como es una unidad muy pequeña se suele utilizar el byte que equivale a 8 bits.
+Un **disco duro** o **disco rígido** es un dispositivo de almacenamiento de datos no volátil que emplea un sistema de grabación magnética para almacenar datos digitales de forma rápida y segura. Es decir, para almacenar datos se utilizan únicamente dos valores representados por 0 y 1 como código binario. Un *bit* es la unidad mínima y elemental utilizada para almacenar información en los discos duros. Como es una unidad muy pequeña se suele utilizar el byte que equivale a 8 bits.
 
 Físicamente un disco duro se compone de uno o más discos (también conocidos como platos) rígidos generalmente de aluminio y recubiertos de una capa de material magnetizable, unidos por un mismo eje que gira a gran velocidad dentro de una caja metálica sellada. Sobre cada plato, y en cada una de sus caras, se sitúa un cabezal de lectura/escritura que flota sobre una delgada lámina de aire generada por la rotación de los discos. En un disco duro magnético la información se guarda en sectores de disco en formato binario organizado por bloques. Por lo tanto, se usa como unidad básica de almacenamiento de información los bytes junto a un prefijo de cantidad. Se ha establecido como acuerdo general la utilización de una **b** para indicar bits, y una **B** para indicar bytes.
 
@@ -94,7 +100,7 @@ Generalmente conseguimos los dispositivos de almacenamiento flash en memorias US
 
 - USB 3.0 preparado para recibir 640 mb/s y lo reconocemos por ser de color azul.
 
-- **Dispositivos periféricos**
+3. **Dispositivos periféricos**
 
 Es un dispositivo independiente, conectado externa o internamente a la tarjeta madre, que permite al sistema informático realizar una función extra. Como tal, no forma parte del proceso central de una computadora, sino que sirve a nivel de complemento para aumentar sus capacidades funcionales.
 
