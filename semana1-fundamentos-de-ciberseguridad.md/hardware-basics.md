@@ -1,8 +1,14 @@
-# Lectura 2 📕: Fundamentos de hardware
+---
+title: "Hardware Fundamentals".
+subtitle: "Discover the essential aspects that make up a computer, from internal hardware to peripheral devices. Learn how your machine works!"
+tags: ["cybersecurity"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 To learn more about the basic components of a computer we must first know what a computer is.
 
-A computer is a programmable digital electronic machine that executes a series of commands to process input data, obtaining information that is then sent to the output units. A computer is composed of many different integrated circuits and various support, extension and accessory elements, which together can execute various tasks very quickly and under the control of a program.
+A computer is a programmable digital electronic machine that executes a series of commands to process input data, obtaining information that is then sent to the output units. A computer is composed of many different integrated circuits and various support, extension, and accessory elements, which together can execute various tasks very quickly and under the control of a program.
 
 A computer is composed of two basic aspects: the **hardware** which are the parts and components of the computer and the **software** which are all the programs and systems that the computer has.
 
@@ -26,7 +32,7 @@ This is the Central Processing Unit (**CPU**), i.e. the brain of the computer, t
 
 It is the memory that stores information, temporarily and quickly, so that the computer can use it at the moment. Its storage capacity is measured in units called *gigabytes *****(**GB**). The larger the amount of RAM, the faster the computer can run. For example, to open and use several programs at once. The contents of the RAM memory are deleted as soon as the computer is turned off because it does not store data (files, videos, programs, etc.), but retains information about the actions being performed with that data. It does not store the file or the program itself, but the information to execute it.
 
-The ram memories can be DDR2, DDR3, DDR4 and DDR5 and will depend on the type of ram slots or ports that the motherboard has.
+The RAMs can be DDR2, DDR3, DDR4, and DDR5 and will depend on the type of RAM slots or ports that the motherboard has.
 
 - Internal Memory ROM
 
@@ -37,15 +43,15 @@ It is the memory that stores information permanently and is called "read-only", 
 Also known as **graphics card** or **video card** is an internal hardware device that connects to the motherboard and allows the computer to display images on the monitor.  There are two types of GPUs:
 
 1. **Integrated GPU - T**also called "integrated graphics", refers to the fact that the CPU and graphics card share the same random access memory. This means that all the tasks to be executed in the system, together with those of a graphical nature, are supported by the same RAM.
-2. **Dedicated graphics cards -** Also called "discrete", are those that have a separate RAM that is exclusively used by the GPU. This memory is called VRAM and the more memory the video card has, the more visual tasks it can run at the same time.
+2. **Dedicated graphics cards -** Also called "discrete", are those that have a separate RAM that is exclusively used by the GPU. This memory is called VRAM, and the more memory the video card has, the more visual tasks it can run at the same time.
 
 - **Sound card**.
 
-It is an internal hardware device that connects to the motherboard and is classified according to the channels it uses. For example: stereo, quadraphonic (surround sound), MIDI (professional use connector), among others. The main function of the board is to allow the computer to reproduce sounds through speakers or headphones. It also receives sounds from the user through the connection of a microphone.
+It is an internal hardware device that connects to the motherboard and is classified according to the channels it uses. For example: stereo, quadraphonic (surround sound), and MIDI (professional use connector), among others. The main function of the board is to allow the computer to reproduce sounds through speakers or headphones. It also receives sounds from the user through the connection of a microphone.
 
 - Secondary storage device
 
-It is the memory that stores data permanently (or until the user deletes it), such as documents, spreadsheets, images, videos, audios, backups of files, among others. These are stored data that the computer does not need immediately or quickly for its operation, but are used directly by the user. There are two types of secondary storage devices: internal (the hard disk drive) and external (external hard disk, memory card, pendrive, CD ROM, etc.).
+It is the memory that stores data permanently (or until the user deletes it), such as documents, spreadsheets, images, videos, audios, backups of files, among others. These are stored data that the computer does not need immediately or quickly for its operation, but are used directly by the user. There are two types of secondary storage devices: internal (the hard disk drive) and external (external hard disk, memory card, pen drive, CD-ROM, etc.).
 
 ![Internal Hardware](../assets/hardware-interno.png)
 
@@ -66,75 +72,77 @@ These are parts that send out the data processed by the computer. There are two 
 
 These are devices that allow the recording of information that is generally found in RAM, and that both the user and the operating system have at their disposal for their daily work and operation. We can consider this type of storage as non-volatile, that is, both programs and data do not disappear, even when the computer is turned off. This means that the user can save his programs and information with the certainty that they will not be deleted even when the computer is not turned on.
 
-Currently there are several devices used for computer data storage, entre ellos tenemos:
+Currently, there are several devices used for computer data storage, among them, we have:
 
-1. **Disco Duro:**
+1. **Hard Disk:**
 
-Un **disco duro** o **disco rígido** es un dispositivo de almacenamiento de datos no volátil que emplea un sistema de grabación magnética para almacenar datos digitales de forma rápida y segura. Es decir, para almacenar datos se utilizan únicamente dos valores representados por 0 y 1 como código binario . Un *bit* es la unidad mínima y elemental utilizada para almacenar información en los discos duros. Como es una unidad muy pequeña se suele utilizar el byte que equivale a 8 bits.
+A **hard disk** is a non-volatile data storage device that uses a magnetic recording system to store digital data quickly and securely. That is, only two values represented by 0 and 1 as binary code are used to store data. A *bit* is the minimum and elementary unit used to store information on hard disks. As it is a very small unit, the byte is usually used, which is equivalent to 8 bits.
 
-Físicamente un disco duro se compone de uno o más discos (también conocidos como platos) rígidos generalmente de aluminio y recubiertos de una capa de material magnetizable, unidos por un mismo eje que gira a gran velocidad dentro de una caja metálica sellada. Sobre cada plato, y en cada una de sus caras, se sitúa un cabezal de lectura/escritura que flota sobre una delgada lámina de aire generada por la rotación de los discos. En un disco duro magnético la información se guarda en sectores de disco en formato binario organizado por bloques. Por lo tanto, se usa como unidad básica de almacenamiento de información los bytes junto a un prefijo de cantidad. Se ha establecido como acuerdo general la utilización de una **b** para indicar bits, y una **B** para indicar bytes.
+Physically, a hard disk is composed of one or more rigid disks (also known as platters) generally made of aluminum and covered with a layer of magnetizable material, joined by a single shaft that rotates at high speed inside a sealed metal box. On each platter, and each of its faces, there is a read/write head that floats on a thin sheet of air generated by the rotation of the disks. In a magnetic hard disk, the information is stored in disk sectors in binary format organized by blocks. Therefore, bytes are used as the basic unit of information storage together with a quantity prefix. It has been established as a general agreement to use a **b** to indicate bits, and a **B** to indicate bytes.
 
-Entre los discos duros podemos conseguir:
+Among the hard disks we can get:
 
-**1.1** Disco duro Rigido (Hard drive disk o HDD) modelo de 3.5” , con formato de conexión sata y una velocidad de transmisión cercana de datos a 80 MB/s en operaciones de lectura y a 60 MB/s en escritura.
+**1.1** Hard Disk Drive (HDD) 3.5" model, with SATA connection format and a data transmission speed close to 80 MB/s in read operations and 60 MB/s in write operations.
 
-**1.2** Discos duro Solido (Solid State drive o SSD) modelo de 2.5”, con formato de conexión sata y una velocidad de transmisión de datos cercana a 250 MB/s en lectura y a 230 MB/s en escritura de datos.
+**1.2** Solid State Drive (SSD) 2.5" model, with SATA connection format and a data transmission speed close to 250 MB/s in read and 230 MB/s in write operations.
 
-**1.3** Disco duro Solido M2, modelos de tamaño reducido de 22mm, con un formato de conexión con el bus PCIe 4.0, con una velocidad de transmisión de hasta 10gbps
+**1.3** M.2 Solid State Drive, compact 22mm models, with a connection format using the PCIe 4.0 bus, with a transmission speed of up to 10 Gbps.
 
-2. **Memoria Flash:**
+2. **Flash Memory:**
 
-El almacenamiento flash es una tecnología de almacenamiento de datos basada en una memoria de alta velocidad que se programa eléctricamente. La velocidad del almacenamiento flash es lo que le dio el nombre: escribe datos y realiza operaciones de entradas y salidas aleatorias a la velocidad del flash.
+Flash storage is a data storage technology based on high-speed electrically programmable memory. The speed of flash storage is what gave it its name: it writes data and performs random input and output operations at the speed of flash.
 
-El almacenamiento flash utiliza un tipo de memoria no volátil que se denomina “**memoria flash**”. La memoria no volátil no requiere alimentación para mantener la integridad de los datos almacenados con lo que, si se interrumpe el suministro, no se pierde nada. Dicho de otro modo, la memoria no volátil no olvida los datos que ha almacenado cuando el disco se desconecta.
+Flash storage uses a type of non-volatile memory called "**flash memory**." Non-volatile memory does not require power to maintain the integrity of stored data, so if the power supply is interrupted, nothing is lost. In other words, non-volatile memory does not forget the data it has stored when the disk is disconnected.
 
-Generalmente conseguimos los dispositivos de almacenamiento flash en memorias USB (Universal Serial bus), hoy en contamos con distintos formatos de usb:
+We commonly find flash storage devices in USB (Universal Serial Bus) drives, and today we have different USB formats:
 
-- USB 2.0 entre 240 mb/s a 480 mb/s, y los reconocemos por ser de color negro.
+- USB 2.0 with speeds between 240 MB/s to 480 MB/s, recognizable by their black color.
+- USB 3.0 ready to achieve 640 MB/s, recognizable by their blue color.
 
-- USB 3.0 preparado para recibir 640 mb/s y lo reconocemos por ser de color azul.
+3. **Peripheral devices**
 
-- **Dispositivos periféricos**
+It is an independent device, connected externally or internally to the motherboard, that allows the computer system to perform an extra function. As such, it is not part of the central process of a computer, but rather serves as a complement to increase its functional capabilities.
 
-Es un dispositivo independiente, conectado externa o internamente a la tarjeta madre, que permite al sistema informático realizar una función extra. Como tal, no forma parte del proceso central de una computadora, sino que sirve a nivel de complemento para aumentar sus capacidades funcionales.
+![External Hardware](../assets/hardware-externo.png)
 
-![Hardware Externo](../assets/hardware-externo.png)
+There are 5 types of computer peripherals:
 
-Existen 5 tipos de periféricos de computadora:
-
-| Periféricos de entrada | Aquellos que permiten el ingreso de datos desde el exterior. Ejemplos: mouse, teclado, micrófono y escáner. |
+| Input Peripherals | These allow the entry of data from the external environment. Examples: mouse, keyboard, microphone, and scanner. |
 | --- | --- |
-| Periféricos de salida | Proyectan la información desde el interior de un sistema informático hacia el exterior. La información proyectada es, por lo general, en formato auditivo, visual o impreso. Ejemplos: pantalla, impresora, altavoces y tarjeta gráfica. |
-| Periféricos de entrada/salida (E/S) | Son los dispositivos que pueden tanto recibir como emitir información. Es decir, a diferencia de un periférico de entrada o salida, los dispositivos de E/S pueden cumplir con ambas funciones (recepción y emisión), no limitándose únicamente a una. Ejemplos: pantalla táctil, impresora multifuncional, casco de realidad virtual y módem. |
-| Periféricos de comunicación | Elementos físicos que permiten la conexión entre dos o más dispositivos. Ejemplos: tarjeta de red, hub USB, módem, fax y conmutador de red. |
+| Output Peripherals | Project information from inside a computer system to the external environment. The projected information is generally in auditory, visual, or printed format. Examples: screen, printer, speakers, and graphics card. |
+| Input/Output (I/O) Peripherals | Devices that can both receive and transmit information. Unlike input or output peripherals, I/O devices can perform both functions (reception and emission), not limiting themselves to just one. Examples: touch screen, multifunction printer, virtual reality headset, and modem. |
+| Communication Peripherals | Physical elements that enable the connection between two or more devices. Examples: network card, USB hub, modem, fax, and network switch. |
 
-## Arquitectura de computadoras
+## Computer Architecture
 
-La arquitectura de la computadora se refiere a una serie de ideas similares dentro de los campos de la informática y la tecnología. A nivel de **software**, se refiere a los sistemas de lenguaje ensamblador que conectan las diversas partes del hardware de la computadora en un solo sistema en funcionamiento. Cuando se trata de **hardware**, se aplica igualmente a los métodos de creación y utilización de hardware y al proceso de construcción de componentes informáticos. Cada una de estas definiciones describe un proceso similar, la idea de comenzar con un sistema informático que no funciona y hacerlo funcional, pero todas miran el proceso desde un punto de vista diferente. En otras palabras, el concepto de arquitectura de computadora se refiere a la integración de su estructura física con su estructura lógica.
+Computer architecture refers to a series of related ideas within the fields of computer science and technology. On the **software** level, it refers to assembly language systems that connect various parts of computer hardware into a single operating system. Concerning **hardware**, it applies equally to the methods of creating and using hardware and the process of building computer components. Each of these definitions describes a similar process—the idea of starting with a non-functional computer system and making it functional—but all look at the process from a different perspective. In other words, the concept of computer architecture refers to the integration of its physical structure with its logical structure.
 
-La arquitectura de los ordenadores es importante en el sentido de que determina cómo funcionará un ordenador y para qué se puede utilizar. Determina el rendimiento, el consumo de energía, el tamaño y el coste del ordenador.
+Computer architecture is crucial as it determines how a computer will operate and what it can be used for. It influences the performance, power consumption, size, and cost of the computer.
 
-Una arquitectura de ordenador puede ser una combinación entre hardware y software, o sólo una de las dos. Una arquitectura de hardware es la implementación de la lógica de un ordenador, mientras que la arquitectura de software es la implementación de la funcionalidad de un ordenador. Sin embargo, la arquitectura de software depende en gran medida de la arquitectura de hardware.
+A computer architecture can be a combination of both hardware and software or just one of the two. Hardware architecture is the implementation of a computer's logic, while software architecture is the implementation of a computer's functionality. However, software architecture heavily depends on hardware architecture.
 
-### Arquitectura de ordenadores y arquitectura de software
+### Computer Architecture and Software Architecture
 
-Los términos arquitectura de computadoras y arquitectura de software no son lo mismo y tienen significados totalmente diferentes. Mientras que la arquitectura de los ordenadores es la lógica que dirige un dispositivo físico, la arquitectura del software es la lógica que dirige la funcionalidad de un dispositivo.
+The terms computer architecture and software architecture are not the same and have entirely different meanings. While computer architecture is the logic directing a physical device, software architecture is the logic directing a device's functionality.
 
-Entre los componentes principales de la arquitectura tenemos
+Among the main components of the architecture, we have
 
-1. CPU o procesador.
+1. CPU or processor.
 2. Bus.
-3. Memoria principal (Memoria Ram).
-4. Sistema de entrada y salida.
+3. Main memory (RAM).
+4. Input and output system.
 
-> 👉 Existen distintos tipos de arquitectura de datos, entre los cuales contamos con:
+> 👉 There are different types of data architecture, including:
 
-| Arquitectura de flujo de datos | Es una arquitectura paralela en la que los datos pasan por las diferentes etapas del cálculo. En esta arquitectura, el resultado de un cálculo se utiliza como entrada para otro cálculo. |
+| Data Flow Architecture | It is a parallel architecture in which data passes through different calculation stages. In this architecture, the result of one calculation is used as input for another calculation. |
 | --- | --- |
-| Arquitectura von Neumann | La arquitectura von Neumann es una arquitectura secuencial en la que el cálculo se ejecuta secuencialmente. El cálculo se realiza en un orden secuencial. Esta arquitectura tiene una unidad central de procesamiento (CPU), una memoria y dispositivos de entrada-salida. |
-| Arquitectura Harvard | Esta arquitectura es una versión modificada de la arquitectura von Neumann. Tiene dos memorias separadas: una para las instrucciones del programa y otra para los datos. |
-| Arquitectura Harvard modificada | Es una combinación de la arquitectura de flujo de datos y la arquitectura Harvard. En esta arquitectura, hay una memoria de programa y una memoria de datos. |
+| von Neumann Architecture | The von Neumann architecture is a sequential architecture in which calculations are executed sequentially. The calculation is performed in sequential order. This architecture has a central processing unit (CPU), memory, and input-output devices. |
+| Harvard Architecture | This architecture is a modified version of the von Neumann architecture. It has two separate memories: one for program instructions and another for data. |
+| Modified Harvard Architecture | It is a combination of data flow architecture and Harvard architecture. In this architecture, there is a program memory and a data memory. |
 
-### 💪 **Ejercicio**
+### 💪 **Exercise**
 
-Haz una lista con las caracteristicas de la PC que te gustaria armar o no todas las tarjetas madres son compatibles con todos los procesadores, asi que investiga cual es la tarjeta madre ideal para el procesador que te gustaria tener, la cantidad de RAM, el tipo de disco de almacenamiento y si en su arqutectura tambien incluye una tarjeta de video.
+Make a list of the features of the PC you would like to build. Not all motherboards are compatible with all processors, so research which motherboard is ideal for the processor you would like to have, the amount of RAM, the type of storage disk, and if the architecture also includes a graphics card.
+
+
+
