@@ -1,3 +1,11 @@
+---
+title: "Introduction to Information Technology".
+subtitle: "Explore the basics of IT and ICT, programming languages, understand the importance of cybersecurity and dive into the history of computer science."
+tags: ["cybersecurity"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 # Lectura 2 📕: Fundamentos de hardware
 
 Para conocer más sobre los componentes básicos de una computadora debemos conocer primero qué es una computadora.
