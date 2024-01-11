@@ -1,4 +1,10 @@
-# Lectura 1 📕: Introducción a las tecnologías de información
+---
+title: "Introducción a las tecnologías de información"
+subtitle: "Explora los fundamentos de IT y TICs, lenguajes de programación, comprende la importancia de la ciberseguridad y sumérgete en la historia de la informática."
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Para tu formación profesional es necesario que sepas que conocer los aspectos básicos de **IT** es muy importante. Recuerda que todo tu trabajo será a través de sistemas de tecnología de información y de comunicaciones, por ello es necesario entrar en contexto y conocer más de lo básico acerca de **IT** y **TIC’s** para avanzar en tu carrera. 
 
@@ -26,17 +32,16 @@ En la actualidad vivimos en una era de digitalización donde todos los procesos 
 | **Hardware** | Son los elementos físicos o materiales que forman parte de un ordenador o cualquier otro dispositivo informático, como puede ser el disco duro, la memoria RAM o la tarjeta madre. Dentro del hardware podemos conseguir dos grupos: **La CPU o Unidad Central de Proceso:** Es la que controla todo lo que ocurre en el ordenador, la que hace posible que se ejecuten las diferentes órdenes que introducimos. Junto con ella, también están los demás elementos que se encuentran en el interior, como la memoria RAM, la tarjeta de sonido o la tarjeta gráfica. Por otra parte **Los Periféricos:** Pueden ser de entrada, que permiten introducir información al ordenador (como el teclado, un escáner o el ratón); o de salida, que hacen posible que el ordenador nos devuelva la información (por ejemplo, un monitor, unos altavoces o una impresora). |
 | **Software** | Sería la parte intangible, los distintos programas y aplicaciones que el usuario utilizará para determinadas funciones como procesadores de texto o videojuegos y el sistema operativo que lleve instalado el dispositivo como Windows, GNU/Linux o MacOS. El sistema operativo hará posible el funcionamiento del sistema, y cada uno tendrá una serie de características, como un diseño propio o funciones exclusivas. |
 | **Memoria RAM** | Es la memoria de acceso aleatorio o Random Access Memory y en ella, el dispositivo almacena temporalmente los datos que necesita para trabajar, cuanta más memoria RAM tenga el ordenador, su funcionamiento será más fluido, permitiendo una multitarea más efectiva. |
-| **Memoria ROM** | Es la memoria de sólo lectura o Read Only Memory, donde están almacenadas las instrucciones básicas del procesador. |
-| **Disco duro** | Es donde se almacena la información en nuestros equipos informáticos, la capacidad de almacenamiento se mide normalmente en gigas (Gb).  Hasta hace poco tiempo se utilizaban los discos duros HDD (Hard drive disk), pero en los últimos años se han popularizado los SSD (Solid state disk), que permiten un acceso mucho más rápido a la información y un mejor funcionamiento general del ordenador. |
+| **Memoria ROM** | Es la memoria de solo lectura o Read Only Memory, donde están almacenadas las instrucciones básicas del procesador. |
+| **Disco duro** | Es donde se almacena la información en nuestros equipos informáticos, la capacidad de almacenamiento se mide normalmente en gigas (Gb). Hasta hace poco tiempo se utilizaban los discos duros HDD (Hard drive disk), pero en los últimos años se han popularizado los SSD (Solid state disk), que permiten un acceso mucho más rápido a la información y un mejor funcionamiento general del ordenador. |
 | **Lenguajes de programación** | Los lenguajes de programación son un conjunto de reglas que permiten al humano interactuar con el computador para darle instrucciones y obtener una respuesta. Hablaremos de ellos más profundamente en los siguientes párrafos. |
 | **IoT (Internet de las Cosas)** | El IoT (Internet of Things), o internet de las cosas, es una nueva tendencia tecnológica que consiste en dotar a dispositivos y aparatos de la capacidad de comunicarse con el usuario y entre ellos. Gracias al uso de sensores, conexiones de red, software y otras tecnologías, elementos y dispositivos tradicionales como relojes y electrodomésticos, entre otros, intercambian información. |
-
 
 ## Lenguajes de programación
 
 Los lenguajes de programación son un conjunto de reglas que permiten al humano interactuar con el computador para darle instrucciones y obtener una respuesta. Existen dos tipos de lenguajes de programación: **Lenguajes de bajo nivel** y **lenguajes de alto nivel**. 
 
-### **Lenguajes de Bajo Nivel:**
+### Lenguajes de Bajo Nivel:
 
 Los lenguajes de bajo nivel son aquellos que están más cerca del **hardware** y permiten un control detallado sobre el sistema. Estos lenguajes suelen estar más directamente relacionados con la arquitectura del procesador y la memoria de la computadora. Algunos ejemplos de lenguajes de bajo nivel son:
 
@@ -47,7 +52,7 @@ Los lenguajes de bajo nivel son aquellos que están más cerca del **hardware** 
 
 ### Lenguajes de Alto Nivel:
 
-Los lenguajes de programación de alto nivel se asemejan más al lenguaje humano y a diferencia de los lenguajes de bajo nivel, estos actúan por encima del hardware enfocándose directamente en el software; aunque existen lenguajes de programación de alto nivel como C o C++ que tienen lo mejor de los dos mundos. Algunos especialistas los sitúan como lenguajes “**nivel medio**” ya que pueden actuar en el bajo nivel y también en el alto nivel. 
+Los lenguajes de programación de alto nivel se asemejan más al lenguaje humano y a diferencia de los lenguajes de bajo nivel, estos actúan por encima del hardware, enfocándose directamente en el software; aunque existen lenguajes de programación de alto nivel como C o C++ que tienen lo mejor de los dos mundos. Algunos especialistas los sitúan como lenguajes “**nivel medio**”, ya que pueden actuar en el bajo nivel y también en el alto nivel. 
 
 > ⚠️ Muchos tipos de malware son programados bajo lenguaje **C**, **C++** y **Python**. PHP, Javascript, Ruby y otros lenguajes populares en la industria están más asociados a aplicaciones a nivel de usuario.
 
@@ -59,7 +64,7 @@ El **IoT** (Internet of Things), o internet de las cosas, es una nueva tendencia
 
 ![IOT](../assets/IOT.png)
 
-Con la llegada de **IoT** en la que pasamos de solo conectar computadores y móviles a internet a conectar relojes, lavadoras, consolas de videojuegos entre otros electrónicos; llega un nuevo fenómeno conocido como el “*big data”*. Definimos **big data** como un conjunto de datos masivos y voluminosos generados desde diferentes fuentes. Cuanto más digitalizado está el mundo más datos se generan por segundo. Alguien debe mantener segura toda esta información, por ello la demanda de profesionales en ciberseguridad va en aumento.
+Con la llegada de **IoT** en la que pasamos de solo conectar computadores y móviles a internet a conectar relojes, lavadoras, consolas de videojuegos entre otros electrónicos; llega un nuevo fenómeno conocido como el “*big data”*. Definimos **big data** como un conjunto de datos masivos y voluminosos generados desde diferentes fuentes. Cuanto más digitalizado está el mundo, más datos se generan por segundo. Alguien debe mantener segura toda esta información, por ello la demanda de profesionales en ciberseguridad va en aumento.
 
 > *El concepto de IoT es uno de los tantos con el que debes estar familiarizado ya que en tu primer día trabajando en ciberseguridad podrías llegar a una empresa que cuenta con una red de IoT.*
 
@@ -73,7 +78,7 @@ ARPANET unió a universidades y centros de investigación en una tela digital. P
 
 Con la Web, la información se convirtió en algo accesible para todos. Aparecieron navegadores como Netscape y Explorer, abriendo la puerta a un mundo en línea de posibilidades infinitas.  El nuevo milenio trajo consigo un auge tecnológico. Las redes sociales emergieron, transformando la forma en que las personas se conectan y comparten. Luego, los dispositivos móviles ingresaron al escenario. Los smartphones llevaron Internet a los bolsillos de todos, creando una sociedad permanentemente conectada.
 
-La nube se convirtió en el refugio digital, almacenando datos y permitiendo servicios remotos. grandes data centers se levantaron como pilares del ciberespacio. El comercio electrónico floreció, y junto a él; las criptomonedas como **Bitcoin** desafiaron las nociones convencionales de moneda y valor. La expansión no tuvo límites. La realidad virtual llevó la experiencia en línea a nuevas dimensiones, y la brecha digital se cerró lentamente, conectando incluso a regiones remotas.
+La nube se convirtió en el refugio digital, almacenando datos y permitiendo servicios remotos. Grandes data centers se levantaron como pilares del ciberespacio. El comercio electrónico floreció, y junto a él; las criptomonedas como **Bitcoin** desafiaron las nociones convencionales de moneda y valor. La expansión no tuvo límites. La realidad virtual llevó la experiencia en línea a nuevas dimensiones, y la brecha digital se cerró lentamente, conectando incluso a regiones remotas.
 
 Sin embargo, con la promesa de avances, surgieron desafíos. La ciberseguridad se convirtió en una prioridad urgente, enfrentando amenazas y ataques incesantes.
 
@@ -93,7 +98,7 @@ A principios de los 2000, la web evolucionó aún más. Plataformas como Friends
 
 Luego, con la llegada de los dispositivos móviles, la web se volvió más accesible que nunca. Aplicaciones como Facebook y Twitter transformaron los smartphones en ventanas a un mundo siempre conectado.
 
-Hoy, la Web es un vasto ecosistema de información, donde millones de sitios y servicios abarcan temas desde la educación hasta el entretenimiento. Y mientras avanzamos, tecnologías emergentes como la realidad virtual y la inteligencia artificial están dando forma a una nueva era de experiencias en línea.
+Hoy, la Web es un vasto ecosistema de información, donde millones de sitios y servicios abarcan temas, desde la educación hasta el entretenimiento. Y mientras avanzamos, tecnologías emergentes como la realidad virtual y la inteligencia artificial están dando forma a una nueva era de experiencias en línea.
 
 En la siguiente tabla, se encuentran algunos términos fundamentales en la industria de la tecnología y el desarrollo de software; cada uno desempeña un papel importante en la creación y entrega de aplicaciones y servicios en línea.
 
@@ -105,7 +110,7 @@ En la siguiente tabla, se encuentran algunos términos fundamentales en la indus
 
 ## Importancia de la IT en las empresas
 
-Hoy en dia es dificil discutir la importancia de la tecnología de la información en las empresas, ya que de ellas depende gran parte de la operatividad diaria, la optimización de recursos de todo tipo y la protección de datos sensibles; pensar en una organización o empresa que funcione sin un equipo de ingeniería en computación e informática es casi improbable.
+Hoy en día, es dificil discutir la importancia de la tecnología de la información en las empresas, ya que de ellas depende gran parte de la operatividad diaria, la optimización de recursos de todo tipo y la protección de datos sensibles; pensar en una organización o empresa que funcione sin un equipo de ingeniería en computación e informática es casi improbable.
 
 Algunas de las funciones que dependen de las competencias del equipo informático en las empresas son las siguientes:
 
