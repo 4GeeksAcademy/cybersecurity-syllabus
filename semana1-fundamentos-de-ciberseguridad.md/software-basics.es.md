@@ -1,4 +1,10 @@
-# Lectura 3 📕: Fundamentos de software
+---
+title: "Fundamentos de Software".
+subtitle: "Explora los fundamentos de los sistemas operativos, desde interfaces gráficas hasta vulnerabilidades. Windows, macOS y Linux desmitificados."
+tags: ["Software"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 El **sistema operativo** es el **software** que coordina y dirige todos los servicios y aplicaciones que utiliza el usuario en una computadora, por eso es el más importante y fundamental. Se trata de programas que permiten y regulan los aspectos más básicos del sistema.
 
