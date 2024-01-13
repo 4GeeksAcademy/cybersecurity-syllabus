@@ -1,4 +1,10 @@
-# Lectura 4📕: Redes y comunicaciones
+---
+title: "Redes y comunicaciones".
+subtitle: "Explora los fundamentos de las redes informáticas, desde diferentes tipos hasta protocolos clave y dispositivos esenciales. ¡Obtén más información sobre direcciones IP, enrutadores y conmutadores!"
+tags: ["networking"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Podemos definir a la red como la tecnología que permite que las computadoras se conecten entre sí, para poder compartir y enviar datos entre ellas, en la actualidad no solo podemos conectar computadoras, podemos conectar en la red cualquier dispositivo inteligente desde teléfonos hasta televisores.
 
@@ -56,11 +62,11 @@ La dirección IP puede cambiar a menudo debido a cambios en la red, o porque el 
 
 Los dispositivos se conectan entre sí mediante sus respectivas direcciones IP. Sin embargo, para las personas es más fácil recordar un nombre de dominio que los números de la dirección IP. Los servidores de nombres de dominio DNS, "traducen" el nombre de dominio en una dirección IP. Si la dirección IP dinámica cambia, es suficiente actualizar la información en el servidor DNS. El resto de las personas seguirán accediendo al dispositivo por el nombre de dominio.
 
-Las direcciones IPV4 se expresan mediante un número binario de 32 bits permitiendo un espacio de direcciones de hasta 4.294.967.296 (232) direcciones posibles.34
+Las direcciones IPV4 se expresan mediante un número binario de 32 bits permitiendo un espacio de direcciones de hasta 4.294.967.296 (2^32) direcciones posibles.
 
-Las direcciones IP se pueden expresar como números de notación decimal: se dividen los 32 bits de la dirección en cuatro octetos. El valor decimal de cada octeto está comprendido en el intervalo de 0 a 255 [el número binario de 8 bits más alto es 11111111 y esos bits, de derecha a izquierda, tienen valores decimales de 1, 2, 4, 8, 16, 32, 64 y 128, lo que suma 255.
+Las direcciones IP se pueden expresar como números de notación decimal: se dividen los 32 bits de la dirección en cuatro octetos. El valor decimal de cada octeto está comprendido en el intervalo de 0 a 255 [el número binario de 8 bits más alto es 11111111 y esos bits, de derecha a izquierda, tienen valores decimales de 1, 2, 4, 8, 16, 32, 64 y 128, lo que suma 255].
 
-### **Dispositivos de red**
+### Dispositivos de red
 
 Un **enrutador** es un dispositivo que conecta dos o más redes o subredes de conmutación de paquetes. Cumple dos funciones principales: gestionar el tráfico entre estas redes mediante el reenvío de paquetes de datos a sus direcciones IP previstas, y permite que varios dispositivos utilizan la misma conexión a Internet.
 
