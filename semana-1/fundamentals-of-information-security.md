@@ -1,4 +1,10 @@
-# Lectura 5📕: Fundamentos de la seguridad de la información
+---
+title: "Information Security Fundamentals".
+subtitle: "Explore the fundamentals of the Security Triad (CIA: Confidentiality, Integrity, Availability) and safeguard your data in the digital realm."
+tags: ["security-triad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Security Triad
 
@@ -63,7 +69,7 @@ The world of malware is diverse, but many types of malware share similar warning
 1. **Sudden decreases in performance**: Malware can consume a significant amount of the device's processing power, leading to severe slowdowns.
 2. **Frequent system crashes and shutdowns**: Some types of malware will cause system shutdowns or computer crashes, while others may trigger locks by consuming too much RAM or raising CPU temperature. High and sustained CPU usage can be a sign of malware.
 3. **Deleted or damaged files**: Malware often deletes or damages files as part of its plan to cause as much chaos as possible.
-4. **A large number of pop-up ads**: The role of adware is to flood you with spam through pop-up windows. Other types of malware can also cause pop-up ads and alerts.
+4. **Numerous pop-up ads**: The role of adware is to flood you with spam through pop-up windows. Other types of malware can also cause pop-up ads and alerts.
 5. **Unknown applications**: Malware can install additional applications on the device. If you see new programs that you didn't install, it could be the result of a malware attack.
 
 Certain strains of malware are easier to detect than others. **Ransomware** and **adware** are typically immediately visible, while **spyware** remains hidden. The only secure way to detect all malware before it infects your device is with a specific antivirus tool.
@@ -72,16 +78,16 @@ Certain strains of malware are easier to detect than others. **Ransomware** and 
 
 Social engineering is the illegitimate practice of obtaining confidential information through the manipulation of legitimate users. It is a set of techniques that certain individuals can use to obtain information, access, or permissions in information systems that allow them to cause harm to the compromised person or organization. It is used in various forms of scams and identity theft. The principle that underlies social engineering is that, in any system, users are the weak link.
 
-In practice, a social engineer will commonly use the phone or the internet to deceive people, pretending to be, for example, a bank employee, another company employee, a technician, or a customer. Via internet, the sending of fake requests for access permission renewals to web pages or fake emails requesting responses is also used. Even the famous chains, leading individuals to reveal their login credentials or sensitive, confidential, or critical information.
+In practice, a social engineer will commonly use the phone or the internet to deceive people, pretending to be, for example, a bank employee, another company employee, a technician, or a customer. Via the internet, the sending of fake requests for access permission renewals to web pages or fake emails requesting responses is also used. Even the famous chains, leading individuals to reveal their login credentials or sensitive, confidential, or critical information.
 
 ### Phishing Attacks
 
 Phishing attacks can be classified according to the target against which the attack is directed, the purpose, the medium used, or according to the mode of operation. A specific case may belong to several types at once. Currently, more than 10,000 forms of phishing have been identified. The most common types of phishing attacks are:
 
 - **General Phishing**: Traditional phishing, Bulk Phishing, or Spray and pray. It consists of the mass sending of emails to users. These emails impersonate trusted entities (e.g., banks) and aim to deceive the user and obtain information. For example, the message includes links to malicious domains. To disguise these links, it is common for the text of the link to be the correct URL, but the link itself points to the malicious site.
-- **Vishing:** Similar to traditional phishing, but deception occurs through a phone call. The term is derived from the combination of two English words: 'voice' and 'phishing.' A typical example of using this technique is when a cybercriminal has already stolen confidential information through a phishing attack but needs the SMS code or digital token to perform and validate a transaction. At that moment, the cybercriminal calls the client, identifying themselves as bank personnel and, with particularly alarming messages, tries to get the client to reveal the number of their SMS code or digital token, which is necessary to authorize the transaction.
-- **Qrishing:** Phishing through QR codes, which involves manipulating QR codes and subsequently deceiving victims by impersonating the website or application accessed by scanning the code, directing the user to a fraudulent link used to obtain private information from victims.
-- **Smishing:** Similar to traditional phishing, but deception occurs through text messages, whether SMS or instant messaging (like WhatsApp). A typical example of this technique is when the client receives a text message, where the sender pretends to be the bank, and informs them that a suspicious purchase has been made with their credit card. The text also requests the client to contact the bank by phone and provides a fake number. The client returns the call, and it is then that the cybercriminal, posing as the bank, requests confidential information to supposedly cancel the purchase. In a variant of this modality, the message could also include a link to a fraudulent website to request sensitive information.
+- **Vishing:** Similar to traditional phishing, deception occurs through a phone call. The term is derived from the combination of two English words: 'voice' and 'phishing.' A typical example of using this technique is when a cybercriminal has already stolen confidential information through a phishing attack but needs the SMS code or digital token to perform and validate a transaction. At that moment, the cybercriminal calls the client, identifying themselves as bank personnel and, with particularly alarming messages, tries to get the client to reveal the number of their SMS code or digital token, which is necessary to authorize the transaction.
+- **Qrishing:** Phishing through QR codes involves manipulating QR codes and subsequently deceiving victims by impersonating the website or application accessed by scanning the code, directing the user to a fraudulent link used to obtain private information from victims.
+- **Smishing:** Similar to traditional phishing, deception occurs through text messages, whether SMS or instant messaging (like WhatsApp). A typical example of this technique is when the client receives a text message, where the sender pretends to be the bank, and informs them that a suspicious purchase has been made with their credit card. The text also requests the client to contact the bank by phone and provides a fake number. The client returns the call, and it is then that the cybercriminal, posing as the bank, requests confidential information to supposedly cancel the purchase. In a variant of this modality, the message could also include a link to a fraudulent website to request sensitive information.
 
 ### Brute Force Attacks
 
@@ -99,11 +105,11 @@ Common types of brute force attacks include:
 
 ### Strong Passwords
 
-Also known as a password, a password is a word, phrase, or signal known only to certain individuals, allowing them to recognize each other or access a previously inaccessible site. Nowadays, a password serves as an authentication method to access a controlled resource, site, or group.
+Also known as a password, a password is a word, phrase, or signal known only to certain individuals, allowing them to recognize each other or access a previously inaccessible site. Nowadays, a password is an authentication method to access a controlled resource, site, or group.
 
-A strong password is a word or phrase characterized by its difficulty to guess or decipher by any automated program. It can include numbers, uppercase letters, special characters, or even better, be an **alphanumeric** password.
+A strong password is a word or phrase characterized by its difficulty to guess or decipher by any automated program. It can include numbers, uppercase letters, special characters, or even better, an **alphanumeric** password.
 
-Passwords that are most challenging for hackers and cybercriminals to defeat are those with more than twelve characters, including numbers, letters, and symbols, and have no relation to the user's personal data.
+Passwords that are most challenging for hackers and cybercriminals to defeat are those with more than twelve characters, including numbers, letters, and symbols, and have no relation to the user's data.
 
 ## Authentication
 
@@ -115,7 +121,7 @@ In general, the security of data networks requires three processes to grant acce
 
 1. **Authentication:** The process by which the user is uniquely identified; that is, without a doubt or mistake, proving they are who they say they are.
 2. **Authorization:** The process by which the data network authorizes the identified user to access certain resources.
-3. **Accounting:** The process by which the network records each and every access to resources made by the user, whether authorized or not.
+3. **Accounting:** The process by which the network records every access to resources made by the user, whether authorized or not.
 
 These three processes are known by the acronym AAA: Authentication, Authorization, and Accounting.
 
@@ -127,13 +133,13 @@ Authentication can be carried out using one or more of the following methods:
 - Possession-based Authentication - based on something the user possesses.
 - Characteristics-based Authentication - based on a physical characteristic of the user.
 
-Authorization is a part of the operating system that protects system resources by allowing them to be used only by those consumers who have been granted authorization to do so. Resources include files and other data objects, programs, devices, and functionalities provided by applications. Examples of consumers are system users, programs, and other devices.
+Authorization is a part of the operating system that protects system resources by allowing them to be used only by those consumers who have been granted authorization. Resources include files and other data objects, programs, devices, and functionalities provided by applications. Examples of consumers are system users, programs, and other devices.
 
 The authorization process is used to decide whether the person, program, or device "X" has permission to access the data, functionality, or service.
 
 ## Two-Factor Authentication
 
-**Two-Factor** Authentication is a tool provided by various online service providers that adds an additional layer of security to the login process of your internet accounts. The mechanics are simple: when a user logs into their personal account on an online service, this tool requests them to confirm the ownership of their account by providing two distinct factors. The first of these is the password. The second can be various things, depending on the service. In the most common cases, it is often a code sent to a mobile phone via SMS or to an email account. The fundamental essence of this tool boils down to the fact that if you want to log into one of your personal accounts, you must "know something" and "own something." For example, to access a company's virtual private network, you might need both a password and a USB key.
+**Two-Factor** Authentication is a tool provided by various online service providers that adds a layer of security to the login process of your internet accounts. The mechanics are simple: when a user logs into their account on an online service, this tool requests them to confirm the ownership of their account by providing two distinct factors. The first of these is the password. The second can be various things, depending on the service. In the most common cases, it is often a code sent to a mobile phone via SMS or to an email account. The fundamental essence of this tool boils down to the fact that if you want to log into one of your accounts, you must "know something" and "own something." For example, to access a company's virtual private network, you might need both a password and a USB key.
 
 ## Access Control
 
@@ -162,7 +168,7 @@ In all these cases, software is used to authenticate and grant authorization to 
 
 User security is managed through privileges and permissions. Permissions define the level of access that users and groups have regarding an object.
 
-Even if a user has the privilege to perform certain actions, the user may also need permission to perform the action on a specific object.
+Even if a user has the privilege to perform certain actions, the user may also need permission to act on a specific object.
 
 In operating systems, we can have permissions on all our files for network users; these permissions can be for editing, viewing, or executing files.
 
@@ -188,7 +194,7 @@ Here are the different types of accounts we can obtain:
 
 **For Windows:**
 
-In Windows, we can view the permissions of a file through the properties window.
+On Windows, we can view the permissions of a file through the properties window.
 
 Using the command prompt (cmd), we can view the file owners with the command `dir /q`.
 
