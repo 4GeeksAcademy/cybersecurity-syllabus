@@ -1,6 +1,11 @@
-# Lectura 8📕: Gestión de incidentes de seguridad
+---
+title: "Gestión de incidentes de seguridad".
+subtitle: "Explore the world of security incidents, incident response, and the importance of an Incident Response Plan (IRP) in cybersecurity."
+tags: [""]
+authors: ["blindma1den", "lorenagubaira"]
 
-### Deteccion de incidentes de seguridad
+---
+
 
 Un incidente de seguridad, o suceso de seguridad, es cualquier infracción digital o física que amenace la confidencialidad, la integridad o la disponibilidad de los sistemas de información o datos confidenciales de una organización. Los incidentes de seguridad engloban desde ciberataques intencionales realizados por hackers o usuarios no autorizados, hasta violaciones no intencionadas de la política de seguridad por parte de usuarios legítimos autorizados.
 
