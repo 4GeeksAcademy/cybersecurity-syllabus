@@ -1,7 +1,7 @@
 ---
-title: "Communication & Networking".
+title: "Communication & Networking"
 subtitle: "Explore the fundamentals of computer networks, from different types to key protocols and essential devices. Learn more about IP addresses, routers, and switches!"
-tags: ["networking"]
+tags: ["networking", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
