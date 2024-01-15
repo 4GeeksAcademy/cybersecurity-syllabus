@@ -1,4 +1,10 @@
-# Lectura 6 📕: Criptografía Básica
+---
+title: "Criptografía Básica".
+subtitle: "Explora el papel vital de la criptografía para garantizar la confidencialidad, integridad y autenticidad en el ámbito digital. Obtén información sobre cifrado simétrico y asimétrico, tipos de cifrados y aplicaciones comunes."
+tags: ["criptografia"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 La criptografía en informática es el campo que se ocupa de desarrollar técnicas y métodos para cifrar y descifrar información con el objetivo de asegurar su confidencialidad, integridad y autenticidad en el entorno digital. La criptografía permite que los datos se transmitan y almacenen de manera segura, incluso si son interceptados por personas no autorizadas.
 
