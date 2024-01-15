@@ -1,7 +1,7 @@
 ---
-title: "Redes y comunicaciones".
+title: "Redes y comunicaciones"
 subtitle: "Explora los fundamentos de las redes informáticas, desde diferentes tipos hasta protocolos clave y dispositivos esenciales. ¡Obtén más información sobre direcciones IP, enrutadores y conmutadores!"
-tags: ["networking"]
+tags: ["networking", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
