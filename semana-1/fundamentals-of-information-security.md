@@ -1,7 +1,7 @@
 ---
-title: "Information Security Fundamentals".
+title: "Information Security Fundamentals"
 subtitle: "Explore the fundamentals of the Security Triad (CIA: Confidentiality, Integrity, Availability) and safeguard your data in the digital realm."
-tags: ["security-triad"]
+tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
