@@ -1,5 +1,5 @@
 ---
-title: "Basic Cryptograpgy"
+title: "Basic Cryptography"
 subtitle: "Explore the vital role of cryptography in ensuring confidentiality, integrity, and authenticity in the digital realm. Learn about symmetric and asymmetric encryption, types of ciphers, and common applications."
 tags: ["cryptography", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
