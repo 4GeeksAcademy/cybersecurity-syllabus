@@ -1,7 +1,7 @@
 ---
 title: "Fundamentos de hardware"
 subtitle: "Descubre los aspectos esenciales que componen una computadora, desde el hardware interno hasta los dispositivos periféricos. ¡Aprende cómo funciona tu máquina!"
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "hardware"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
