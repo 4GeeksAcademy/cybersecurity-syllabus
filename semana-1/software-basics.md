@@ -1,7 +1,7 @@
 ---
-title: "Software Fundamentals".
+title: "Software Fundamentals"
 subtitle: "Explore the fundamentals of operating systems - from graphical interfaces to vulnerabilities. Windows, macOS, and Linux demystified."
-tags: ["software"]
+tags: ["cybersecurity","software"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
