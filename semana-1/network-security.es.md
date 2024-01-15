@@ -1,4 +1,10 @@
-# Lectura 7📕: Seguridad en la red
+---
+title: "Seguridad de red".
+subtitle: "Aprende cómo mejorar la seguridad de la red configurando reglas de filtrado de paquetes en un firewall."
+tags: ["seguridad-de-red"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Firewall y filtrado de paquetes
 
