@@ -1,5 +1,5 @@
 ---
-title: "Fundamentos de Software".
+title: "Fundamentos de Software"
 subtitle: "Explora los fundamentos de los sistemas operativos, desde interfaces gráficas hasta vulnerabilidades. Windows, macOS y Linux desmitificados."
 tags: ["Software"]
 authors: ["blindma1den", "lorenagubaira"]
