@@ -76,7 +76,7 @@ En la práctica, un ingeniero social usará comúnmente el teléfono o Internet 
 
 ### Ataques de phishing
 
-Los ataques de phishing se pueden clasificar según el objetivo contra el que se dirige el ataque, el fin, el medio que se utiliza o según el modo de operación. Un caso concreto puede pertenecer a varios tipos a la vez.  Actualmente se han contado más de 10 000 formas de phishing. Los tipos de ataques de phising más frecuentes son:
+Los ataques de phishing se pueden clasificar según el objetivo contra el que se dirige el ataque, el fin, el medio que se utiliza o según el modo de operación. Un caso concreto puede pertenecer a varios tipos a la vez. Actualmente se han contado más de 10 000 formas de phishing. Los tipos de ataques de phising más frecuentes son:
 
 - **Phishing general**: Phishing tradicional, Bulk Phishing o Spray and pray. Consiste en la emisión masiva de correos electrónicos a usuarios. Estos correos suplantan a entidades de confianza (ejemplo bancos) y persiguen el engaño del usuario y la consecución de información. Por ejemplo, en el mensaje se incluyen enlaces a dominios maliciosos. Para camuflar estos enlaces es habitual que el texto del enlace sea la URL correcta, pero el enlace en sí apunte al sitio malicioso.
 - **Vishing:** Es similar al phishing tradicional pero el engaño se produce a través de una llamada telefónica. El término deriva de la unión de dos palabras en inglés: ‘'voice'’ y ‘'phishing’'. Un ejemplo típico de uso de esta técnica es cuando un ciberdelincuente ha robado ya información confidencial a través de un ataque de phising, pero necesita la clave SMS o token digital para realizar y validar una operación. Es en ese momento el ciberdelincuente llama por teléfono al cliente identificándose como personal del banco y, con mensajes particularmente alarmistas, intenta de que el cliente revele el número de su clave SMS o token digital, que son los necesarios para autorizar la transacción.
@@ -105,7 +105,9 @@ Una contraseña segura es una palabra o frase caracterizada por su dificultad de
 
 Las contraseñas más difíciles de vencer por los hackers y los delincuentes cibernéticos son aquellas que tienen más de doce caracteres, tienen números, letras y símbolos y no guardan relación alguna entre los datos de los usuarios que las generan.
 
-### Autenticación
+## Autenticación
+
+### Autenticación y Autorización
 
 Autenticación es el proceso que debe seguir un usuario para tener acceso a los recursos de un sistema o de una red de computadoras. Este proceso implica identificación (decirle al sistema quién es) y autenticación (demostrar que el usuario es quien dice ser). La autenticación por sí sola no verifica derechos de acceso del usuario; estos se confirman en el proceso de autorización.
 
@@ -123,7 +125,7 @@ Se puede efectuar autenticación usando uno o varios de los siguientes métodos:
 
 - Autenticación por conocimientos - basada en información que sólo conoce el usuario.
 - Autenticación por pertenencia -  basada en algo que posee el usuario.
-- Autenticación por características-  basada en alguna característica física del usuario.
+- Autenticación por características - basada en alguna característica física del usuario.
 
 La autorización es una parte del sistema operativo que protege los recursos del sistema permitiendo que sólo sean usados por aquellos consumidores a los que se les ha concedido autorización para ello. Los recursos incluyen archivos y otros objetos de datos, programas, dispositivos y funcionalidades provistas por aplicaciones. Ejemplos de consumidores son usuarios del sistema, programas y otros dispositivos.
 
@@ -137,10 +139,10 @@ La Autenticación de **Dos Factores** es una herramienta que ofrecen varios prov
 
 El **control de acceso físico** es un conjunto de políticas para controlar a quién se le concede acceso a un lugar físico. Hay varios ejemplos de control de acceso físico en el mundo real, como los siguientes:
 
-- Porteros de discoteca
-- Torniquetes de metro
-- Agentes de aduanas en los aeropuertos
-- Escáneres de tarjetas de acceso o insignias de identificación en las oficinas corporativas
+- Porteros de discoteca.
+- Torniquetes de metro.
+- Agentes de aduanas en los aeropuertos.
+- Escáneres de tarjetas de acceso o insignias de identificación en las oficinas corporativas.
 
 En todos estos ejemplos, una persona o dispositivo sigue un conjunto de políticas para decidir quién tiene acceso a un lugar físico restringido. Por ejemplo, el escáner de la tarjeta de acceso de un hotel solo permite el acceso a los huéspedes autorizados que cuentan con una llave del hotel.
 
@@ -148,9 +150,9 @@ En todos estos ejemplos, una persona o dispositivo sigue un conjunto de polític
 
 Si hablamos de **sistemas**, el control de acceso a la información restringe el acceso a los datos y al software utilizado para manipularlos. Algunos ejemplos son los siguientes:
 
-- Iniciar sesión en un portátil usando una contraseña
-- Desbloquear un teléfono inteligente con una huella dactilar
-- Acceder en remoto a la red interna de la empresa con una VPN
+- Iniciar sesión en un portátil usando una contraseña.
+- Desbloquear un teléfono inteligente con una huella dactilar.
+- Acceder en remoto a la red interna de la empresa con una VPN.
 
 **Autenticación y Autorización**
 
@@ -192,7 +194,7 @@ Estos son los distintos tipos de cuentas que podemos conseguir
 
 En windows podemos ver los permisos de un archivo a traves del la ventana de propiedades.
 
-Por la consola de comando (cmd) podemos ver los propietarios del archivo con el comando dir /q 
+Por la consola de comando (cmd) podemos ver los propietarios del archivo con el comando `dir /q`.
 
 **Para linux:**
 
