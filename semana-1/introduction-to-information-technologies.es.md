@@ -224,3 +224,4 @@ Las funciones del personal de desarrollo de aplicaciones suelen incluir:
 - Desarrollo del código que realiza tareas específicas.
 - Desarrollo de manuales de usuario y otros medios para ayudar a los usuarios a operar sus aplicaciones.
 - Solución de problemas, pruebas y control de calidad para nuevas aplicaciones.
+
