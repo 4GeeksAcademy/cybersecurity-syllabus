@@ -1,7 +1,7 @@
 ---
 title: "Hardware Fundamentals"
 subtitle: "Discover the essential aspects that make up a computer, from internal hardware to peripheral devices. Learn how your machine works!"
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "hardware"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
