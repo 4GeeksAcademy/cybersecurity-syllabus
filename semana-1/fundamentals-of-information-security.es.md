@@ -1,7 +1,7 @@
 ---
-title: "Fundamentos de la Seguridad de la Información".
+title: "Fundamentos de la Seguridad de la Información"
 subtitle: "Explora los fundamentos de la Tríada de Seguridad (CIA: Confidencialidad, Integridad, Disponibilidad) y proteja sus datos en el ámbito digital."
-tags: ["triada-de-la-seguridad"]
+tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
