@@ -8,6 +8,11 @@ Durante 16 semanas aprenderás mediante lecturas amenas conceptos teóricos sobr
 
 Si estás listo para aprender habilidades de hacking y potenciarlas hasta sentirte listo para encontrar tu primer trabajo ¡vamos!
 
+## ¿Qué retos me esperan en este bootcamp?
+
+Como puedes imaginar hay mucha informacion interesante que debes asimilar para adquirir las habilidades que te ofrece el bootcamp, para lograr esto implementamos una metodología proactiva e intensiva. El reto para ti es seguir el ritmo del bootcamp y progresivamente incorporar en la practica todo lo que vas aprendiendo. Dicho de otra forma, en cada clase vas a implementar lo aprendido en la clase anterior ademas de ver nuevo contenido, así iras evolucionando hasta convertirte en todo un profesional de ciberseguridad. Esto va a significar horas extra de estudio, desvelos, tener que pausar la serie que estabas viendo o quizas faltar a aquella fiesta que tenias planificada😢... Pero esto es lo que separa a los heroes 🦹 de la gente común, grandes esfuerzos llevan a grandes recompensas.
+
+
 ## ¿Qué seré capaz de hacer después de esta formación?
 
 Nuestra formación tiene como objetivo que nuestros egresados sean profesionales integrales. Al finalizar el bootcamp de ciberseguridad  serás capaz de:
