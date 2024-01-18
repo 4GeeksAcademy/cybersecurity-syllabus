@@ -1,4 +1,10 @@
-# Lectura 5 📕: Seguridad en la red
+---
+title: "Seguridad en la red"
+subtitle: "Explora los aspectos críticos de la seguridad de la red, incluida la autenticación, el control de acceso, la gestión de amenazas y la protección de datos."
+tags: ["seguridad-de-red", "ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 La seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información que fluye a través de ella. Implica una serie de medidas y prácticas diseñadas para garantizar la confidencialidad, la integridad y la disponibilidad de los datos en un entorno de red. Aquí tienes información en formato de texto continuo sobre seguridad en la red:
 
@@ -12,7 +18,7 @@ La seguridad de los **datos en tránsito** es fundamental para proteger la infor
 
 La seguridad en la red también implica la protección contra amenazas específicas, como malware, virus y ataques de denegación de servicio (DDoS). Esto se logra mediante el uso de software antivirus, firewalls y la implementación de políticas de seguridad que incluyen actualizaciones de software y parches regulares.
 
-En resumen, la seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información en un entorno de red. Implica la autenticación, el control de acceso, la gestión de amenazas y la protección de datos en tránsito, entre otros aspectos, para garantizar que las redes sean seguras y confiables en un mundo cada vez más digital y conectado.
+> En resumen, la seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información en un entorno de red. Implica la autenticación, el control de acceso, la gestión de amenazas y la protección de datos en tránsito, entre otros aspectos, para garantizar que las redes sean seguras y confiables en un mundo cada vez más digital y conectado.
 
 ![Seguridad de la Red](../assets/seguridad.png)
 
