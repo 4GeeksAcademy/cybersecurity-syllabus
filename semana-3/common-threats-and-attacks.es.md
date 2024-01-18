@@ -1,4 +1,11 @@
-# Lectura 3📕: Amenazas y ataques comunes
+---
+title: "Amenazas y Ataques Comunes"
+subtitle: "Explora el ámbito de la ciberseguridad mientras profundizamos en las diferencias entre las ciberamenazas y los ciberataques. Descubra las diez ciberamenazas más comunes y obtén información sobre los ciberataques más frecuentes."
+tags: ["amenazas-y-ataques"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 
 Ciberamenazas, ciberincidentes, ciberataques. La lucha contra los tres anteriores es el día a día de los profesionales de ciberseguridad y por ello es hora de que conozcas las ciberamenazas y ciberataques más comunes. 
 
@@ -33,14 +40,4 @@ La diferencia entre un ciberataque y una ciberamenaza radica en su naturaleza y 
 8. **Ataque de Suplantación de Identidad (Spoofing):** Engañar a sistemas o usuarios haciéndose pasar por otra entidad.
 9. **Ataque de Exfiltración de Datos:** Robo y transferencia no autorizada de datos sensibles.
 10. **Ataque de Acceso No Autorizado:** Infiltración en sistemas o redes sin permiso.
-
-## 💡Laboratorio: Completa la siguiente tabla
-
-| Ciberataque       | Ciberamenaza: ¿Cómo pudo haber entrado? | Consecuencias: ¿Qué secuelas negativas puede dejar? | Prevención: ¿Cómo se puede prevenir este ataque? | Identificación: ¿Cómo puedo darme cuenta de que estoy bajo este ataque? | Mitigación: ¿Cómo puedo deshacerme de este ataque? | Post-Mortem: ¿Qué debo hacer una vez el ataque fue mitigado? |
-|-------------------|----------------------------------------|----------------------------------------------------|--------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|
-| Ransomware        |                                        |                                                    |                                                  |                                                                        |                                                      |                                                       |
-| DDoS              |                                        |                                                    |                                                  |                                                                        |                                                      |                                                       |
-| Troyano           |                                        |                                                    |                                                  |                                                                        |                                                      |                                                       |
-| SQL Injection     |                                        |                                                    |                                                  |                                                                        |                                                      |                                                       |
-| XSS               |                                        |                                                    |                                                  |                                                                        |                                                      |                                                       |
 
