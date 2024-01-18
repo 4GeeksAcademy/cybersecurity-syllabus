@@ -1,4 +1,10 @@
-# Lectura 4📕: Políticas y procedimientos de seguridad
+---
+title: "Políticas y procedimientos de seguridad"
+subtitle: "Explora los aspectos fundamentales de las políticas y procedimientos de ciberseguridad y su papel crucial en la protección de los activos digitales."
+tags: ["políticas-de-seguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Las políticas y procedimientos de ciberseguridad son documentos fundamentales para establecer y mantener un entorno seguro en una organización. Estas directrices proporcionan un marco claro para la protección de los activos digitales y la mitigación de riesgos cibernéticos. Esto lo aprenderás más a fondo en las tres siguientes semanas en las que aprenderás sobre ISO 27001, ENS y NIST. Durante esta semana te familiarizarás con conceptos básicos de cara a las tres siguientes: 
 
@@ -50,7 +56,7 @@ La creación y aplicación de políticas de seguridad es un proceso fundamental 
 
 ### Gestión de contraseñas seguras
 
-La gestión de contraseñas seguras es un aspecto crítico de la ciberseguridad, ya que las contraseñas son la primera línea de defensa contra el acceso no autorizado a cuentas y sistemas. Aquí tienes información sobre cómo gestionar contraseñas de manera segura:\
+La gestión de contraseñas seguras es un aspecto crítico de la ciberseguridad, ya que las contraseñas son la primera línea de defensa contra el acceso no autorizado a cuentas y sistemas. Aquí tienes información sobre cómo gestionar contraseñas de manera segura:
 
 **1. Contraseñas Fuertes:** Utiliza contraseñas fuertes y únicas para cada cuenta. Una contraseña fuerte suele incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Evita contraseñas obvias o predecibles, como "123456" o "password".
 
