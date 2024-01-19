@@ -9,7 +9,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 Ciberamenazas, ciberincidentes, ciberataques. La lucha contra los tres anteriores es el día a día de los profesionales de ciberseguridad y por ello es hora de que conozcas las ciberamenazas y ciberataques más comunes. 
 
-### Diferencia entre ciberataque y ciberamenaz
+### Diferencia entre ciberataque y ciberamenaza
 
 La diferencia entre un ciberataque y una ciberamenaza radica en su naturaleza y etapas:
 
