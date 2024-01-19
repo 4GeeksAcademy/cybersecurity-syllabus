@@ -1,4 +1,10 @@
-# Lectura 7 📕: Protección de la información
+---
+title: "Protección de la información"
+subtitle: "Explora los aspectos cruciales de la protección de la información y la privacidad de los datos. Obtén información sobre el cifrado de datos, el control de acceso y las medidas para salvaguardar la información confidencial."
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 La protección de la información y la privacidad de los datos son aspectos críticos en la era digital actual. Se refieren a las prácticas y medidas destinadas a salvaguardar la información, ya sea personal o empresarial, de accesos no autorizados, robo, pérdida o uso indebido. Estas son consideraciones clave:
 
@@ -113,8 +119,4 @@ Existen varias medidas de ciberseguridad que una empresa puede implementar para 
 11. **Cumplimiento Normativo:** Cumplir con las regulaciones y normativas de seguridad y privacidad de datos que sean aplicables a la industria y la ubicación de la empresa.
 12. **Evaluación de Riesgos:** Realizar evaluaciones regulares de riesgos y análisis de vulnerabilidades para identificar y abordar posibles debilidades en la seguridad.
 
-Estas medidas de ciberseguridad deben adaptarse a las necesidades y el entorno específico de cada empresa. La seguridad de la información confidencial es un proceso continuo que requiere atención constante y actualización para proteger de manera efectiva los activos más valiosos de una organización.
-
-## 💡Laboratorio: 
-
-Un reconocido banco se enfrenta al desafío de proteger la información confidencial de sus clientes, que incluye datos personales, financieros y transaccionales. La empresa busca garantizar la seguridad de estos datos para cumplir con las regulaciones de privacidad, mantener la confianza de los clientes y protegerse contra posibles brechas de seguridad ¿Qué debe hacer el equipo de seguridad? 
+Estas medidas de ciberseguridad deben adaptarse a las necesidades y el entorno específico de cada empresa. La seguridad de la información confidencial es un proceso continuo que requiere atención constante y actualización para proteger de manera efectiva los activos más valiosos de una organización. 
