@@ -1,4 +1,11 @@
-# Lectura 1📕: Introducción a la ciberseguridad
+---
+title: "Introducción a la ciberseguridad"
+subtitle: "Explora las diversas disciplinas dentro de la ciberseguridad, su papel crucial en la protección de datos confidenciales y los tres pilares: confidencialidad, disponibilidad e integridad."
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 
 La ciberseguridad engloba una serie de prácticas que a menudo se confunden con el hacking, así que salgamos de la duda. La **ciberseguridad** es un conjunto de prácticas interdisciplinarias que engloba la seguridad de la información, la seguridad de los datos, la privacidad, la infraestructura segura, políticas y regulaciones y por supuesto, el hacking. Es decir, la ciberseguridad es el universo en el que todas estas prácticas son posibles. Cada disciplina mencionada anteriormente es un planeta en este gran universo llamado ciberseguridad.
 
@@ -28,13 +35,18 @@ En la ciberseguridad existen tres pilares: **Confidencialidad**, **disponibilida
 ![Pilares de la Ciberseguridad](../assets/ciberseguridad.png)
 
 1. **Confidencialidad:**
+
     - La confidencialidad se refiere a la **capacidad** de proteger la información para que solo las personas autorizadas puedan acceder a ella. Esto significa que la información confidencial no debe estar al alcance de personas no autorizadas o entidades externas.
     - La confidencialidad se logra mediante el uso de técnicas como el cifrado de datos, la autenticación de usuarios y la gestión de accesos. El objetivo es garantizar que solo aquellos que tienen permiso para ver ciertos datos puedan hacerlo, manteniendo los datos seguros y protegiendo la privacidad.
     - La confidencialidad hace referencia a que la información solo esté disponible para aquellos que la necesitan. Por ejemplo, si eres un ejecutivo de ventas necesitas información sobre productos y clientes pero no necesitas información sobre las versiones y configuración de los servidores de la empresa. La confidencialidad garantiza que la información que reciba cada persona sea la correcta para evitar fugas de información que puedan comprometer a la empresa y perpetuar un ciberataque.
+
 2. **Disponibilidad:**
+
     - La disponibilidad se refiere a **garantizar** que la información y los recursos estén disponibles y accesibles cuando se necesiten. Esto significa que los sistemas y datos críticos deben estar disponibles para su uso en todo momento, sin interrupciones no planificadas.
     - Para garantizar la disponibilidad, se implementan medidas de seguridad y planes de recuperación ante desastres para prevenir y mitigar interrupciones, como: ataques cibernéticos, fallos de hardware, desastres naturales, etc.
+
 3. **Integridad:**
+
     - La integridad se relaciona con la exactitud y la confiabilidad de la información. Se refiere a la garantía de que los datos no han sido alterados de manera no autorizada y que siguen siendo precisos y completos.
     - Para proteger la integridad de los datos, se utilizan técnicas como el control de cambios, firmas digitales y registros de auditoría. Estas medidas ayudan a detectar y prevenir modificaciones no autorizadas de datos, lo que podría conducir a decisiones erróneas o acciones incorrectas.
     
