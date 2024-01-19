@@ -1,7 +1,7 @@
 ---
 title: "Cumplimiento Legal y Normativo"
 subtitle: "Explora el mundo de los incidentes de seguridad, la respuesta a incidentes y la importancia de un Plan de respuesta a incidentes (IRP) en ciberseguridad."
-tags: ["incidentes-seguridad"]
+tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
