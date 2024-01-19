@@ -1,7 +1,7 @@
 ---
-title: "Network security".
+title: "Network security"
 subtitle: "Learn how to enhance network security by configuring packet filtering rules in a firewall."
-tags: ["network-security"]
+tags: ["networking", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Criptografía Básica".
+title: "Criptografía Básica"
 subtitle: "Explora el papel vital de la criptografía para garantizar la confidencialidad, integridad y autenticidad en el ámbito digital. Obtén información sobre cifrado simétrico y asimétrico, tipos de cifrados y aplicaciones comunes."
-tags: ["criptografia"]
+tags: ["criptografia", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---

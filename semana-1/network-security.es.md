@@ -1,7 +1,7 @@
 ---
-title: "Seguridad de red".
+title: "Seguridad de red"
 subtitle: "Aprende cómo mejorar la seguridad de la red configurando reglas de filtrado de paquetes en un firewall."
-tags: ["seguridad-de-red"]
+tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
