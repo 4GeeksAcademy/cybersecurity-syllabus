@@ -1,5 +1,5 @@
 ---
-title: "Security incident management"
+title: "Security Incident Management"
 subtitle: "Explore the essential functions of security incident management. Learn how organizations detect, respond to, and mitigate security threats for damage minimization and regulatory compliance"
 tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
