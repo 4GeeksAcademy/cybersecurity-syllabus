@@ -1,7 +1,7 @@
 ---
 title: "Network Security"
 subtitle: "Explore the critical aspects of network security, including authentication, access control, threat management, and data protection."
-tags: ["network-security", "cybersecurity"]
+tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
