@@ -1,7 +1,7 @@
 ---
 title: "Seguridad en los dispositivos"
 subtitle: "Explora el papel fundamental de la seguridad en la protección de los datos de la empresa en computadoras de escritorio y portátiles. Comprende los riesgos, las medidas preventivas y la relevancia de la seguridad para la continuidad del negocio."
-tags: ["device-security"]
+tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
