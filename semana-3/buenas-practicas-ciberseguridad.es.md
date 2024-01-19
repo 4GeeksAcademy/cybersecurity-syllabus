@@ -1,5 +1,5 @@
 ---
-title: "Los Fundamentos de Seguridad de la Información"
+title: "B"
 subtitle: "Explora los principios y prácticas esenciales para salvaguardar la confidencialidad, disponibilidad e integridad de la información en las organizaciones. Conoce las prácticas de seguridad centradas en el usuario, las mejores prácticas para administradores de sistemas y el aspecto cultural de la ciberseguridad."
 tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
