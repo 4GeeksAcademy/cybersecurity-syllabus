@@ -1,5 +1,5 @@
 ---
-title: "Gestión de incidentes de seguridad"
+title: "Gestión de incidentes de seguridad Básico"
 subtitle: "Explore the world of security incidents, incident response, and the importance of an Incident Response Plan (IRP) in cybersecurity."
 tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
