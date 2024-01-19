@@ -1,7 +1,7 @@
 ---
 title: "Políticas y procedimientos de seguridad"
 subtitle: "Explora los aspectos fundamentales de las políticas y procedimientos de ciberseguridad y su papel crucial en la protección de los activos digitales."
-tags: ["políticas-de-seguridad"]
+tags: ["cibersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
