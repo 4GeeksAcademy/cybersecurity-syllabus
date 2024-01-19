@@ -1,7 +1,7 @@
 ---
 title: "Amenazas y Ataques Comunes"
 subtitle: "Explora el ámbito de la ciberseguridad mientras profundizamos en las diferencias entre las ciberamenazas y los ciberataques. Descubra las diez ciberamenazas más comunes y obtén información sobre los ciberataques más frecuentes."
-tags: ["amenazas-y-ataques"]
+tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
