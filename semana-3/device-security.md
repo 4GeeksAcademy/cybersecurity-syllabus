@@ -1,7 +1,7 @@
 ---
 title: "Device Security"
 subtitle: "Explore the critical role of security in safeguarding company data on desktop and laptop computers. Understand the risks, preventive measures, and the relevance of security for business continuity."
-tags: ["device-security"]
+tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
