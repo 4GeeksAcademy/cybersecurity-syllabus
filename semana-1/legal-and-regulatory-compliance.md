@@ -1,7 +1,7 @@
 ---
 title: "Legal and Regulatory Compliance"
 subtitle: "Explore the world of security incidents, incident response, and the importance of an Incident Response Plan (IRP) in cybersecurity."
-tags: ["security-incidents"]
+tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
