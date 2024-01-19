@@ -1,7 +1,7 @@
 ---
 title: "Common Threats and Attacks"
 subtitle: "Explore the realm of cybersecurity as we delve into the differences between cyber threats and cyber attacks. Uncover the ten most common cyber threats and gain insights into prevalent cyber attacks."
-tags: ["threats-and-attacks"]
+tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
