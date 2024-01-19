@@ -1,4 +1,10 @@
-# Lectura 6📕: Seguridad en los dispositivos
+---
+title: "Seguridad en los dispositivos"
+subtitle: "Explora el papel fundamental de la seguridad en la protección de los datos de la empresa en computadoras de escritorio y portátiles. Comprende los riesgos, las medidas preventivas y la relevancia de la seguridad para la continuidad del negocio."
+tags: ["device-security"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 La importancia de la seguridad en equipos de **escritorio** y **portátiles** para la ciberseguridad de una empresa no puede subestimarse en la era digital actual. Estos dispositivos son puntos de acceso críticos a la infraestructura tecnológica de una organización y almacenan una gran cantidad de información sensible. Aquí se destaca la relevancia de esta seguridad:
 
