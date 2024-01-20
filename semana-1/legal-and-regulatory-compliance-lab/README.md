@@ -1,2 +1,2 @@
-https://github.com/Lorenagubaira/legal-and-regulatory-compliance-lab/tree/main
+https://github.com/breatheco-de/legal-and-regulatory-compliance-lab/tree/main
 
