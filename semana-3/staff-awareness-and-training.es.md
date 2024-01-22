@@ -40,6 +40,6 @@ Además, el analista de ciberseguridad sigue de cerca las tendencias y amenazas 
 
 > 👉 Algunas empresas tienen una estructura diferente por lo que podrías encontrarte con una empresa sin CISO o sin CSO, en ese caso siempre podrás acudir a tus superiores.
 
-## 💡Laboratorio: Resuelve el caso (Desarrollo)
+### 💡Laboratorio: Resuelve el caso (Desarrollo)
 
 Elephant es una fábrica de vinos con más 10 años en el mercado, distribuyen por internet y casi todo el trabajo de sus empleados es por internet y la red local de la empresa pero el CEO no conoce nada sobre ciberseguridad ¿Cómo podrías convencer al CEO de implementar esta cultura?
