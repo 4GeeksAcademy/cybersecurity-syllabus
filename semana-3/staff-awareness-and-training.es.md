@@ -1,4 +1,10 @@
-# Lectura 9📕: Concienciación y formación del personal
+---
+title: "Concienciación y formación del personal"
+subtitle: "Explora la importancia de la concienciación sobre la ciberseguridad en el panorama digital actual y su papel crucial en la protección de personas y organizaciones."
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 La concienciación en ciberseguridad es fundamental para todos los **usuarios** en el mundo digital actual. Esto se debe a que nuestras vidas están cada vez más conectadas en línea, y existen amenazas constantes que pueden comprometer la seguridad de nuestra información y actividades en línea.
 
