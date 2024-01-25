@@ -4,7 +4,7 @@
 - Semana 2: Fundamentos de redes
 - Semana 3: Linux
 - Semana 4: Administración de servidores
-- Semana 5: Seguridad en redes.
+- Semana 5: Seguridad en redes
 - Semana 6: Entornos Cloud
 - Semana 7: Introducción al pentesting
 - Semana 8: Pentesting Blue team 
