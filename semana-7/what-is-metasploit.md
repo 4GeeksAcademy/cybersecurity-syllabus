@@ -1,0 +1,17 @@
+## **Metasploit:**
+
+> Función: Marco de desarrollo de pruebas de penetración con módulos de explotación.
+ 
+> Uso: Automatización de exploits y pruebas de seguridad.
+
+[Metasploit](https://www.metasploit.com/) es una de las mejores herramientas de código abierto que nos permite localizar y explotar vulnerabilidades de seguridad en sistemas y servicios, esta herramienta es fundamental para realizar pentesting. El proyecto más popular es Metasploit Framework, el cual se encuentra instalado de manera predeterminada en distribuciones Linux como Kali Linux. Gracias a la potencia de Metasploit, podremos realizar pruebas de penetración a servicios, aplicaciones y demás ataques. Es una de las herramientas que debes tener en tu arsenal de herramientas para realizar pentesting, se complementa con el resto de herramientas que hemos hablado anteriormente. Metasploit tiene una gran comunidad detrás, y se han diseñado herramientas basadas en esta para facilitar enormemente todas las tareas automatizándolas.
+
+Metasploit es un framework de pruebas de penetración que se utiliza para realizar una amplia gama de ataques contra sistemas y aplicaciones. Es una herramienta poderosa que puede ser utilizada por pentesters experimentados, pero también es relativamente fácil de aprender a usar para principiantes. Metasploit se basa en una base de datos de exploits, que son programas que explotan vulnerabilidades conocidas en sistemas y aplicaciones. El framework proporciona una interfaz fácil de usar para buscar y seleccionar exploits, así como para ejecutarlos. Esta herramienta facilita muchísimo el trabajo de encontrar vulnerabilidades porque no es necesario trabajar a bajo nivel para explotar errores. Metasploit automatiza ese trabajo siendo muy sencillo analizar y explotar algún defecto de software. Existe muchísima documentación gratuita para aprender a usar Metasploit, por lo que no te será difícil aprender a usar esta herramienta.
+
+[Armitage](https://www.offensive-security.com/metasploit-unleashed/armitage/) es otra herramienta que proporciona una capa visual gratuita para usar Metasploit. Con este software podrás usar Metasploit sin la necesidad de utilizarlo con comandos, todo se hace de forma visual. Esto facilita aún más su uso para las personas que no están familiarizados con la terminal de Metsasploit y están aprendiendo.
+
+[Cobalt Strike](https://www.cobaltstrike.com/) es otra capa visual para Metasploit con la diferencia sobre Armitage que es de pago. Esta herramienta es claramente una versión mejorada de Armitage que permite hacer lo mismo, pero con más funcionalidades llegando incluso a incorporar otras herramientas para mejorar su practicidad, como [Mimikatz](https://github.com/ParrotSec/mimikatz).
+
+![Untitled%2031926b223b9f4460a5fb7b6b11712a5b/image34.jpg](Untitled%2031926b223b9f4460a5fb7b6b11712a5b/image34.jpg)
+
+Una vez ejecutado el comando para iniciar la herramienta, tendremos acceso a una terminal de comandos en la misma. Aquí podremos elegir entre los exploits ya cargados para la explotación y seleccionar alguno de ellos. Luego, debemos configurar parámetros propios del exploit que hayamos elegido como, por ejemplo, la IP o puertos destino, servidores HTTP de escucha, y más. Finalmente, podemos comenzar a correr la explotación.
