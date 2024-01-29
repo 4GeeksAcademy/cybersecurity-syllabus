@@ -6,7 +6,6 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-
 La ciberseguridad engloba una serie de prácticas que a menudo se confunden con el hacking, así que salgamos de la duda. La **ciberseguridad** es un conjunto de prácticas interdisciplinarias que engloba la seguridad de la información, la seguridad de los datos, la privacidad, la infraestructura segura, políticas y regulaciones y por supuesto, el hacking. Es decir, la ciberseguridad es el universo en el que todas estas prácticas son posibles. Cada disciplina mencionada anteriormente es un planeta en este gran universo llamado ciberseguridad.
 
 Habitualmente la ciberseguridad es erróneamente confundida con el *hacking*, y es que el hacking forma parte de la ciberseguridad, pero la ciberseguridad es una caja llena de múltiples disciplinas como las mencionadas anteriormente, y por tanto, un profesional en ciberseguridad puede desempeñar diversos roles como: Analista SOC, pentester, analista de ciberseguridad, administrador de sistemas, analista de malware, analista de riesgos entre otros. 
