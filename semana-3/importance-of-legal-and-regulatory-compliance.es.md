@@ -1,4 +1,10 @@
-# Lectura 10📕: Cumplimiento legal y normativo
+---
+title: "Importancia del cumplimiento legal y normativo"
+subtitle: "Descubre el papel vital del cumplimiento legal y normativo en la ciberseguridad. Conoce los estándares ISO 27001, ENS y NIST."
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 El cumplimiento legal y normativo en ciberseguridad es un aspecto crítico en la protección de la información y la mitigación de riesgos en el mundo digital. Su historia y su importancia se entrelazan con la evolución de las amenazas cibernéticas y la necesidad de regulaciones y estándares para abordar estos desafíos.
 
@@ -19,7 +25,7 @@ La importancia del cumplimiento legal y normativo en ciberseguridad radica en va
 
 Las normativas y estándares de seguridad, como ISO 27001, ENS (Esquema Nacional de Seguridad) y NIST (Instituto Nacional de Estándares y Tecnología), están diseñados para ayudar a las organizaciones a establecer medidas de seguridad sólidas y cumplir con los requisitos de seguridad cibernética. Aquí te proporciono una relación entre las medidas de cumplimiento mencionadas anteriormente y estos estándares:
 
-**ISO 27001 (Norma ISO/IEC 27001):**
+### ISO 27001 (Norma ISO/IEC 27001):
 
 - **Políticas y Procedimientos de Seguridad:** ISO 27001 requiere la documentación de políticas de seguridad de la información y procedimientos de gestión de la seguridad.
 - **Evaluación de Riesgos:** La norma ISO 27001 enfatiza la necesidad de realizar evaluaciones de riesgos periódicas y tomar medidas basadas en los resultados.
@@ -31,11 +37,11 @@ Las normativas y estándares de seguridad, como ISO 27001, ENS (Esquema Nacional
 - **Notificación de Brechas de Datos:** Establece procedimientos para la notificación de incidentes de seguridad.
 - **Cumplimiento de Estándares Específicos:** ISO 27001 permite la alineación con otros estándares, como ISO 27002, que ofrece recomendaciones detalladas.
 
-**Esquema Nacional de Seguridad (ENS):**
+### Esquema Nacional de Seguridad (ENS):
 
 - El ENS es una normativa española que establece medidas específicas de seguridad para las administraciones públicas de España. Incorpora elementos similares a ISO 27001 pero adapta las medidas a las necesidades gubernamentales específicas.
 
-**NIST (Marco de Ciberseguridad NIST):**
+### NIST (Marco de Ciberseguridad NIST):
 
 - El Marco de Ciberseguridad NIST es ampliamente utilizado en Estados Unidos y ofrece directrices detalladas para la gestión de la seguridad de la información y la ciberseguridad. Se alinea con muchas de las mejores prácticas mencionadas anteriormente y proporciona una estructura detallada para gestionar la seguridad.
 
