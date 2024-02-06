@@ -1,4 +1,10 @@
-# Lectura 1 📕: Introducción a las redes y comunicaciones
+---
+title: "Introducción a las redes y comunicaciones"
+subtitle: "Decodificación de Redes: OSI 7 capas y TCP/IP 4 capas. Explora el lenguaje de red para solución de problemas y diseño seguro"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Introducción a las Redes: Un Viaje a través de la Conectividad**
 
