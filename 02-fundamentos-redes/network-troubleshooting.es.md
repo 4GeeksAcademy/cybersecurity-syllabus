@@ -1,6 +1,10 @@
-# Lectura 8📕: Solución de problemas de red
+---
+title: "Solución de problemas de red"
+subtitle: "Domina la resolución de problemas de la red: herramientas de diagnóstico, identificación de problemas, resolución y monitoreo de eventos para un rendimiento óptimo."
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
 
-## **Herramientas de diagnóstico de red**
+---
 
 A veces podemos tener problemas de rendimiento en nuestra red y es necesario saber la razón para así poder tomar los correctivos. Para ello tenemos herramientas que pueden realizar un diagnóstico de red.
 
@@ -22,7 +26,7 @@ Conociendo los puntos de entrada y los cables, nos dirigiremos al tráfico de la
 
 Ya teniendo todos estos datos, tendremos que confirmar e identificar la seguridad que tiene la red con respecto a la navegación por Internet a través de firewall y de otros dispositivos de seguridad tanto en hardware como en software.
 
-## **Identificacion de y resolución de problemas comunes**
+## **Identificación de y resolución de problemas comunes**
 
 Cuando sabemos que algo funciona mal en nuestra red lo primero que tendremos que hacer es enfocarnos directamente en nuestro dispositivo.
 

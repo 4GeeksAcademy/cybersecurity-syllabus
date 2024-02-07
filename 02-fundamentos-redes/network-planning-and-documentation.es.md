@@ -1,4 +1,10 @@
-# Lectura 10 📕: Planificación y documentación de redes
+---
+title: "Planificación y documentación de redes"
+subtitle: "Planificación estratégica de redes: lograr escalabilidad y eficiencia a través de documentación, topología y estrategias de crecimiento"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 La planificación y documentación de redes es un proceso esencial para garantizar el diseño, implementación y mantenimiento efectivo de una red. Consiste en la creación de un plan estratégico que define los objetivos, requisitos y recursos necesarios para construir y gestionar una red de manera eficiente y segura esoimplica identificar las necesidades específicas de la organización, como el número de usuarios, los servicios requeridos y el volumen de tráfico esperado. También implica evaluar las tecnologías disponibles y seleccionar las más adecuadas para satisfacer las necesidades de la red.
 
@@ -111,23 +117,25 @@ b) Proteger la red al filtrar el tráfico no autorizado.
 c) Proporcionar direcciones IP a los dispositivos de la red.
 d) Optimizar la topología de la red.
 
-1. ¿Cuántas capas conforman el Modelo OSI (Modelo de Interconexión de Sistemas Abiertos)?
+2. ¿Cuántas capas conforman el Modelo OSI (Modelo de Interconexión de Sistemas Abiertos)?
 a) 4
 b) 5
 c) 6
 d) 7 ✅
 
-1. ¿Cuál de los siguientes dispositivos de red opera en la capa 2 (capa de enlace de datos) del Modelo OSI y se utiliza para interconectar segmentos de red en la misma subred?
+3. ¿Cuál de los siguientes dispositivos de red opera en la capa 2 (capa de enlace de datos) del Modelo OSI y se utiliza para interconectar segmentos de red en la misma subred?
 a) Enrutador (router)
 b) Concentrador (hub)
 c) Conmutador (switch) ✅
 d) Firewall
-2. ¿Cuál de las siguientes topologías de red utiliza un nodo central para conectar todos los dispositivos de la red, formando una estructura de estrella?
+
+4. ¿Cuál de las siguientes topologías de red utiliza un nodo central para conectar todos los dispositivos de la red, formando una estructura de estrella?
 a) Topología de bus
 b) Topología de anillo
 c) Topología de malla
 d) Topología de estrella ✅
-3. ¿Qué representa la sigla "DMZ" en el contexto de seguridad de redes?
+
+5. ¿Qué representa la sigla "DMZ" en el contexto de seguridad de redes?
 a) Zona de Acceso Directo
 b) Zona de Mantenimiento de Datos
 c) Zona Desmilitarizada ✅

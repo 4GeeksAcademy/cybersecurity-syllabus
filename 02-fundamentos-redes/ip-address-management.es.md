@@ -1,4 +1,10 @@
-# Lectura 7📕: Gestión de dirección IP
+---
+title: "Gestión de dirección IP"
+subtitle: "Mastering IP Address Management: Vital Skills for Network and Cybersecurity Pros. Learn How IP Addresses Drive Network Infrastructure and Cybersecurity."
+tags: ["ip-address"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Es fundamental que un profesional de redes y ciberseguridad sepa gestionar direcciones IP debido a que las direcciones IP son elementos esenciales en la infraestructura de cualquier red, y desempeñan un papel crítico en la ciberseguridad.
 
@@ -76,16 +82,10 @@ En la siguiente tabla podemos ver cómo se diferencian cada uno de las clases de
 | Clase | Bits | N de redes | N direcciones por red | N hosts por red | Máscara de red |
 | --- | --- | --- | --- | --- | --- |
 | A | 0 | 0.0.0.0 - 127.255.255.255 | 224 = 16.777.216 | 224 - 2 16.777.214 | 255.0.0.0 |
-| B | 10 | 128.0.0.0 - 191.255.255.255 | 216 = 65.536 | 216  - 2 
- 65.534 | 255.255.0.0 |
-| C | 110 | 192.0.0.0 - 233.255.255.255 | 28 = 256 | 28 - 2 
-254 | 255.255.255.0 |
-| D 
-(Multicast) | 1110 | 224.0.0.0 -
-239.255.255.255 |  |  |  |
-| E 
-(Experimental) | 1111 | 240.0.0.0 -
-255.255.255.254 |  |  |  |
+| B | 10 | 128.0.0.0 - 191.255.255.255 | 216 = 65.536 | 216  - 2 65.534 | 255.255.0.0 |
+| C | 110 | 192.0.0.0 - 233.255.255.255 | 28 = 256 | 28 - 2 254 | 255.255.255.0 |
+| D (Multicast) | 1110 | 224.0.0.0 - 239.255.255.255 |  |  |  |
+| E (Experimental) | 1111 | 240.0.0.0 - 255.255.255.254 |  |  |  |
 
 - **Direcciones IPv6**
 
