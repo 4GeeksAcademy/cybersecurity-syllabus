@@ -1,180 +1,185 @@
-# Lectura 6 📕:  Seguridad de red Básica
+---
+title: "Basic Network Security"
+subtitle: "Fortifying Networks: The Crucial Role of Firewalls in Shielding Against Unauthorized Access and DDoS Attacks, Enhancing Security."
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
 
-## La función de los Firewall en las redes
+---
 
-El firewall o cortafuego es una herramienta esencial en la seguridad de redes ya que su función principal es proteger toda la red informática al controlar el tráfico de datos que entra y sale de ella, Actúa como especie de barrera entre la red interna y el mundo exterior, filtrando y bloqueando el acceso no autorizado y potencialmente peligroso, Una de sus funciones más importantes es la prevención de intrusiones, es decir, detecta y bloquea intentos de acceso no autorizado a la red ya sea desde el exterior o desde dispositivos internos comprometidos, y lo más importante es que un firewall puede evitar ataques de denegación de servicio (DDoS) al limitar el tráfico que puede ingresar a la red.
+## The role of Firewalls in networks
+
+The firewall is an essential tool in network security since its main function is to protect the entire computer network by controlling the data traffic entering and leaving it. It acts as a kind of barrier between the internal network and the outside world, filtering and blocking unauthorized and potentially dangerous access, One of its most important functions is intrusion prevention, i.e. it detects and blocks unauthorized access attempts to the network either from the outside or from compromised internal devices, and most importantly, a firewall can prevent denial of service (DDoS) attacks by limiting the traffic that can enter the network.
 
 ## **Firewall**
 
-Ya que conocemos un poco mejor la función de un firewall en la red, hablemos en sí, que es un firewall…
+Since we know a little better the function of a firewall in the network, let's talk about what a firewall is...
 
-Un firewall es un sistema de seguridad en la red, el cual restringe el tráfico de internet entrante, saliente o dentro de una red privada, el término proviene del concepto de paredes físicas que actúan como barreras para ralentizar la propagación del fuego hasta que los servicios de emergencia puedan extinguir.
+A firewall is a network security system, which restricts internet traffic incoming, outgoing or within a private network, the term comes from the concept of physical walls that act as barriers to slow the spread of fire until the emergency services can extinguish it.
 
-Los firewalls pueden ser un software o una unidad de hardware y software dedicado que funciona bloqueando o permitiendo el acceso a los paquetes de datos de forma selectiva.
+Firewalls can be software or a dedicated hardware and software unit that works by selectively blocking or allowing access to data packets.
 
-Una explicación más simple es considerarlo como fronteras o puertas que se van a delimitar en una red privada o los dispositivos host para administrar el flujo de la actividad que se permite o se prohíbe en dicha red, podemos decir que están destinados a ralentizar la propagación de las amenazas en la red.
+A simpler explanation is to consider them as boundaries or gates that are to be delimited on a private network or host devices to manage the flow of activity that is allowed or prohibited on that network, we can say that they are intended to slow down the spread of threats on the network.
 
-Estas barreras por lo general se encuentran en dos ubicaciones: En dispositivos específicos dentro de la red y en otros puntos de conexión (hosts)
+These barriers are usually found in two locations: On specific devices within the network and at other connection points (hosts).
 
-### **¿Cómo funcionan los firewall?**
+### **How do firewalls work?**
 
-El firewall decide que tráfico de red se admite o se considera peligroso, básicamente separa el tráfico bueno del malo, o el seguro del no fiable. Su objetivo principal es proteger las redes privadas y los dispositivos de punto de conexión que se encuentran en ellas, conocidos como hosts de red. Estos hosts se comunican con otros hosts en la red, envían y reciben tráfico entre las redes internas y también pueden recibir tráfico de redes externas.
+The firewall decides which network traffic is allowed or considered dangerous, basically separating good traffic from bad, or safe traffic from untrusted traffic. Its main purpose is to protect private networks and the point-of-connection devices on them, known as network hosts. These hosts communicate with other hosts on the network, send and receive traffic between internal networks and may also receive traffic from external networks.
 
-Las computadoras y otros dispositivos de punto de conexión utilizan redes para acceder a Internet y comunicarse entre ellos. Sin embargo, el mismo internet está segmentado en subredes por motivos de seguridad y privacidad
+Computers and other point-of-attachment devices use networks to access the Internet and communicate with each other. However, the Internet itself is segmented into subnets for security and privacy reasons.
 
-En un firewall el filtrado del tráfico se logra mediante reglas preestablecidas o aprendidas dinámicamente para permitir y denegar los intentos de conexión. Estas reglas determinan cómo el firewall regula el flujo de tráfico web a través de la red privada y los dispositivos informáticos privados. Independientemente del tipo, todos los firewalls pueden realizar el filtrado mediante una combinación de lo siguiente:
+In a firewall, traffic filtering is achieved through preset or dynamically learned rules for allowing and denying connection attempts. These rules determine how the firewall regulates the flow of web traffic through the private network and private computing devices. Regardless of type, all firewalls can perform filtering using a combination of the following:
 
-- **Origen**: lugar desde donde se intenta establecer la conexión.
-- **Destino:** lugar al que se intenta dirigir la conexión.
-- **Contenido**: información que la conexión está intentando enviar.
+- **Source**: location from where the connection is attempted to be established.
+- **Destination**: the place to which the connection is intended to be directed.
+- **Content**: information that the connection is trying to send.
 
-**Protocolos del paquete**: el “lenguaje” que se utiliza para transmitir el mensaje al intentar establecer la conexión. Entre los protocolos de red que los hosts utilizan para “comunicarse” entre sí, los protocolos TCP/IP se usan principalmente para comunicarse por Internet y entre intranets o subredes.
+**Packet protocols**: the "language" used to transmit the message when attempting to establish the connection. Among the network protocols that hosts use to "communicate" with each other, TCP/IP protocols are primarily used to communicate over the Internet and between intranets or subnets.
 
-**Protocolos de aplicaciones:** los protocolos comunes incluyen HTTP, Telnet, FTP, DNS y SSH.
+**Application protocols:** common protocols include HTTP, Telnet, FTP, DNS and SSH.
 
-### **Tipos de firewall**
+### **Types of firewall**
 
-Los tipos de firewall incluyen varios métodos de filtrado y se distinguen según su método en relación a lo siguiente.
+Firewall types include various filtering methods and are distinguished according to their method in relation to the following.
 
-- Seguimiento de la conexión.
-- Reglas de filtrado.
-- Registro de auditoría.
+- Connection tracking.
+- Filtering rules.
+- Audit logging.
 
-Por lo general los firewall más comunes en el mercado son:
+Generally the most common firewalls on the market are:
 
-- **Firewall de filtrado de paquetes**
+- **Packet filtering firewall**
 
-Su función es filtrar los paquetes con base en direcciones de red, protocolos o puertos. Las reglas para el filtrado se establecen según una lista de control de acceso creada manualmente. Estas reglas son muy rígidas y es difícil abordar correctamente el tráfico no deseado, sin poner en riesgo la usabilidad de la red.
+Its function is to filter packets based on network addresses, protocols or ports. The rules for filtering are set according to a manually created access control list. These rules are very rigid and it is difficult to correctly address unwanted traffic without compromising the usability of the network.
 
-La incapacidad de leer protocolos de aplicación significa que no pueden leerse los contenidos de un mensaje enviado dentro de un paquete. Sin leer el contenido, los firewalls con filtrado de paquete tienen una calidad de protección limitada.
+The inability to read application protocols means that the contents of a message sent within a packet cannot be read. Without reading the contents, firewalls with packet filtering have a limited quality of protection.
 
-- **Firewall de puerta de enlace**
+- **Gateway firewall**
 
-Estos firewalls comprueban si hay paquetes funcionales en el intento de conexión y, si funciona correctamente, permiten establecer una conexión abierta persistente entre las dos redes. Después de esto, el firewall deja de supervisar la conexión.
+These firewalls check for functional packets in the connection attempt and, if successful, allow a persistent open connection to be established between the two networks. After this, the firewall stops monitoring the connection.
 
-Aparte de su estrategia en cuanto a las conexiones, la puerta de enlace de nivel de circuito puede ser similar a los firewalls proxy.
+Apart from its connection strategy, the circuit-level gateway can be similar to proxy firewalls.
 
-- **Firewall de inspección con estado**
+- **Stateful inspection firewall**
 
-Los firewalls de inspección con estado, también llamados firewalls de filtrado dinámico de paquetes, son únicos en comparación al filtrado estático debido a su capacidad para supervisar conexiones en curso y recordar las anteriores. Comenzaron actuando en la capa de transporte , pero en la actualidad, estos firewalls pueden supervisar muchas capas, incluida la capa de aplicación.
+Stateful inspection firewalls, also called dynamic packet filtering firewalls, are unique compared to static filtering because of their ability to monitor ongoing connections and remember previous connections. They started out acting at the transport layer, but today, these firewalls can monitor many layers, including the application layer.
 
-Del mismo modo que el firewall de filtrado estático, los firewalls de inspección con estado permiten o bloquean el tráfico en función de las propiedades técnicas, como los protocolos de paquete específicos, las direcciones IP o los puertos
+Like the static filtering firewall, stateful inspection firewalls allow or block traffic based on technical properties, such as specific packet protocols, IP addresses or ports.
 
-- **Firewall de última generación (NGFW)**
+- **New generation firewall (NGFW)**
 
-La constante evolución de las amenazas implica contar con soluciones más sólidas. Los firewalls de última generación superan este problema porque combinan las funciones de un firewall tradicional con sistemas de prevención de intrusiones en la red.
+The constant evolution of threats requires more robust solutions. Next-generation firewalls overcome this problem by combining the functions of a traditional firewall with network intrusion prevention systems.
 
-Los firewalls de última generación están diseñados para examinar e identificar amenazas específicas, como malware avanzado, en un nivel más detallado. Este es el tipo de firewall más utilizado por empresas y redes sofisticadas, ya que proporciona una solución integral para filtrar y descartar cualquier amenaza.
+Next-generation firewalls are designed to examine and identify specific threats, such as advanced malware, at a more detailed level. This is the type of firewall most commonly used by enterprises and sophisticated networks, as it provides a comprehensive solution to filter out and discard any threats.
 
-## **Seguridad en redes wifi**
+## **Wireless networks security**
 
-Una red inalámbrica o una red wifi es una señal de frecuencia por ondas, que puede conectar a los equipos en internet sin necesidad de usar cables, como esta conexión es por transmisión en vez de cables, es posible que usuarios no autorizados puedan acceder a esta red. Esto puede reducir la velocidad de la conexión o generar vulnerabilidad en situaciones como robo de identidad. Por lo que es necesario tomar ciertas medidas de seguridad para proteger nuestra información en WiFi tales como:
+A wireless network or a wifi network is a frequency signal by waves, which can connect computers to the internet without using cables, as this connection is by transmission instead of cables, it is possible that unauthorized users can access this network. This can reduce the speed of the connection or generate vulnerability in situations such as identity theft. Therefore it is necessary to take certain security measures to protect our information in WiFi such as:
 
-- **Encriptación**
+- **Encryption**
 
-La encriptación de las redes inalámbricas se utilizan para añadir seguridad mediante un protocolo de autenticación, el cual solicita una contraseña o una clave de red cuando un usuario o dispositivo intenta conectarse. Si la red Wifi no está asegurada con algún tipo de cifrado, es posible que algún usuario no autorizado pueda acceder a ella y obtener información personal, además de reducir la velocidad y el rendimiento de la red.
+Encryption of wireless networks is used to add security through an authentication protocol, which prompts for a password or network key when a user or device attempts to connect. If the Wifi network is not secured with some form of encryption, it is possible that an unauthorized user can access it and obtain personal information, as well as reducing the speed and performance of the network.
 
-> 💡 Existen diferentes tipos de cifrados para redes LAN inalámbricas (WIFI)
+> 💡 Different types of encryption are available for wireless LANs (WIFI)
 
 - **Wired Encryption Protocol (WEP)**
 
-Este protocolo utiliza una clave secreta compartida entre un punto de acceso y un host, y todos los datos enviados y recibidos pueden ser cifrados utilizando esta clave compartida.
+This protocol uses a secret key shared between an access point and a host, and all data sent and received can be encrypted using this shared key.
 
-El estándar 802.11 no especifica cómo se establece la clave privada, pero permite que haya una tabla que asocia una clave exclusiva con cada estación. Sin embargo, en práctica general, una misma clave es compartida entre todas las estaciones y puntos de acceso.
+The 802.11 standard does not specify how the private key is established, but allows for a table that associates a unique key with each station. However, in general practice, the same key is shared among all stations and access points.
 
-**WEP proporciona dos tipos de autenticación:**
+**WEP provides two types of authentication:**
 
-1. Un sistema abierto, en el que todos los usuarios tienen permiso para acceder a la WLAN.
-2. Una autenticación mediante clave compartida, que controla el acceso a la WLAN y evita accesos no autorizados a la red.
+1. An open system, where all users are allowed to access the WLAN.
+2. A shared key authentication, which controls access to the WLAN and prevents unauthorized access to the network.
 
-> 👉 De los dos niveles, la autenticación mediante clave compartida es el modo seguro, en el que se utiliza una clave privada compartida entre todas las estaciones y puntos de acceso al sistema WLAN.
+> 👉 From the two levels, shared key authentication is the secure mode, in which a private key is shared between all stations and access points to the WLAN system.
 
-Para proteger el texto cifrado frente a modificaciones no autorizadas mientras está en tránsito, WEP aplica un algoritmo de comprobación de integridad (CRC-32) al texto en claro.
+To protect the encoded text from unauthorized modification while in transit, WEP applies an integrity check algorithm (CRC-32) to the plaintext.
 
-La autenticación mediante clave compartida funciona sólo si está habilitado el cifrado WEP, de no estarlo, el sistema revertirá de manera predeterminada al modo de sistema abierto
+Shared key authentication works only if WEP encryption is enabled, otherwise the system will revert to open system mode by default.
 
-Según el estándar, WEP debe proporcionar confidencialidad, autenticación y control de acceso en redes WLAN.
+According to the standard, WEP should provide confidentiality, authentication and access control in WLAN networks.
 
-WEP utiliza una misma clave simétrica y estática en las estaciones y el punto de acceso. El estándar no contempla ningún mecanismo de distribución automática de claves, lo que obliga a escribir la clave manualmente en cada uno de los elementos de red.
+WEP uses the same symmetric and static key at the stations and the access point. The standard does not provide for any automatic key distribution mechanism, which means that the key must be written manually on each network element.
 
-Esto genera varios inconvenientes, por un lado la clave está almacenada en todas las estaciones, aumentando las posibilidades de que sea comprometida.
+This generates several inconveniences, on one hand the key is stored in all the stations, increasing the chances of it being compromised.
 
-Por otro lado, la distribución manual de claves provoca un aumento de mantenimiento por parte del administrador de red, lo que conlleva, en la mayoría de las ocasiones, que la clave se cambie poco o nunca
+On the other hand, the manual distribution of keys leads to increased maintenance by the network administrator, which means that the key is rarely or never changed.
 
 - **WiFi Protected Access (WPA)**
 
-Este sistema de cifrado surgió para solucionar los problemas de seguridad que ofrecía el sistema WEP.Para ello hace uso del TKIP (Temporal Key Integrity Protocol). Este protocolo sirve para gestionar claves dinámicas por lo que resuelve muchos de los problemas que tenía el WEP como la longitud de la clave.
+This encryption system was developed to solve the security problems of the WEP system by using TKIP (Temporal Key Integrity Protocol). This protocol is used to manage dynamic keys and therefore solves many of the problems that WEP had, such as the length of the key.
 
-En líneas generales, podemos decir que la WPA funciona similar a WEP, pero usando las claves dinámicas, además utiliza el algoritmo RC4 para generar un flujo de bits que se usan para cifrar.
+In general terms, we can say that WPA works similarly to WEP, but using dynamic keys, and also uses the RC4 algorithm to generate a stream of bits that are used for encryption.
 
-WPA adopta la autenticación de usuarios mediante el uso de un servidor, donde se almacenan las credenciales y contraseñas de los usuarios en la red. y para no obligar al uso de tal servidor para el despliegue de redes, WPA permite la autenticación mediante una clave precompartida.
+WPA adopts user authentication through the use of a server, where the credentials and passwords of users on the network are stored. In order not to force the use of such a server for network deployment, WPA allows authentication through a pre-shared key.
 
-De un modo similar al WEP, requiere introducir la misma clave en todos los equipos de la red, por tanto, con WPA al estar la clave cambiando constantemente, las incursiones en la red inalámbrica es más difícil que con WEP.
+In a similar way to WEP, it requires the same key to be entered on all devices on the network, so with WPA, as the key is constantly changing, incursions into the wireless network are more difficult than with WEP.
 
-PSK o Pre Shared Key (clave compartida previamente), se basa en la seguridad de una contraseña compartida formada entre 8 y 63 caracteres. Es un sistema fácil de utilizar y configurar, por lo que es recomendable en entornos familiares o pequeñas empresas. Cualquier equipo que tenga la clave podrá conectarse a la red.
+PSK or Pre Shared Key, is based on the security of a shared password formed between 8 and 63 characters. It is easy to use and configure, so it is recommended in family or small business environments. Any computer that has the key will be able to connect to the network.
 
-La principal debilidad que presenta WPA-PSK es precisamente el uso de clave compartida entre estaciones ya que cuando un sistema basa su seguridad en una contraseña, siempre es susceptible de sufrir un ataque de fuerza bruta, aunque si la longitud de la contraseña es adecuada y además está bien elegida no debería suponer mayor problema.
+The main weakness of WPA-PSK is precisely the use of a shared key between stations, since when a system bases its security on a password, it is always susceptible to a brute force attack, although if the length of the password is adequate and it is well chosen it should not be a major problem.
 
 - **WiFi Protected Access 2 (WPA2)**
 
-WPA2 es un protocolo de cifrado WiFi que surge con la finalidad de solucionar los problemas de vulnerabilidad detectados en la primera versión (WAP).
+WPA2 is a WiFi encryption protocol that was developed to solve the vulnerability problems detected in the first version (WPA).
 
-Las especificaciones de WPA2, no son públicas por lo que la cantidad de información disponible es realmente escasa. Se sabe que WPA2 incluye el algoritmo de cifrado AES (Advanced Encryption Standard), desarrollado por el NIS.
+WPA2 specifications are not public, so the amount of information available is really scarce. It is known that WPA2 includes the AES (Advanced Encryption Standard) encryption algorithm, developed by NIS.
 
-Como ya se ha comentado, se trata de un algoritmo de cifrado WiFi de bloque con clave de 128 bits.
+As already mentioned, this is a WiFi block cipher algorithm with a 128-bit key.
 
-Es necesario un hardware potente para realizar los algoritmos de WPA2, lo que significa que dispositivos antiguos sin suficientes capacidades de procesamiento no podrán incorporar WPA2.
+Powerful hardware is required to perform WPA2 algorithms, which means that older devices without sufficient processing capabilities will not be able to incorporate WPA2.
 
-El modo personal o Pre-Shared Key (PSK) funciona igual que en la seguridad WAP, y es el protocolo de cifrado WiFi más fácil de instalar ya que requiere que se cree una contraseña simple. Aunque WPA2 proporciona una fuerte encriptación y seguridad, y es “potencialmente indescifrable” por los atacantes si se utiliza una contraseña larga y fuerte.
+Personal Mode or Pre-Shared Key (PSK) works in the same way as WAP security, and is the easiest WiFi encryption protocol to install as it requires a simple password to be created. Although WPA2 provides strong encryption and security, and is "potentially uncrackable" by attackers if a long and strong password is used.
 
-### **Filtrado MAC**
+### **MAC filtering**
 
-La misión del filtrado MAC es restringir el acceso a la red a un dispositivo en concreto o un grupo de equipos. Pongamos por ejemplo que tenemos un ordenador y no queremos que se conecte a la red doméstica. Tendríamos que saber cuál es su dirección MAC y crear un filtro en el router.
+The purpose of MAC filtering is to restrict network access to a specific device or group of devices. For example, let's say we have a computer and we don't want it to connect to the home network. We would have to know what its MAC address is and create a filter on the router.
 
-Podríamos crear un filtrado MAC en el router para que determinados dispositivos no puedan conectarse cuando lo activemos. Por ejemplo, si vamos a estar fuera de casa durante un tiempo prolongado y no queremos que la televisión o cualquier aparato se conecte al router y que pueda suponer un problema de seguridad en caso de que aparezca alguna vulnerabilidad.
+We could create a MAC filtering in the router so that certain devices cannot connect when we activate it. For example, if we are going to be away from home for a long time and we do not want the TV or any device to connect to the router and that could pose a security problem in case a vulnerability appears.
 
-Por tanto, un filtrado MAC tiene un doble enfoque. Si solo nos interesa bloquear un dispositivo en concreto o unos cuantos, lo mejor es crear una lista negra e incluirlos. En cambio, si lo que queremos es bloquear todas las conexiones y solo permitir los equipos de nuestra confianza, tendríamos que crear una lista blanca e incluirlos allí.
+Therefore, MAC filtering has a twofold approach. If we are only interested in blocking a specific device or a few devices, it is best to create a blacklist and include them. On the other hand, if we want to block all connections and only allow devices we trust, we would have to create a whitelist and include them there.
 
-Lo que hace el router es identificar cada dispositivo según su dirección MAC. Si encuentra que esa dirección está en alguna lista que hemos creado, entonces es cuando actuaría. Esa dirección es única para cada tarjeta de red que tiene un dispositivo. Por ejemplo un simple reloj inteligente que tenga Wi-Fi, va a tener una MAC única
+What the router does is to identify each device according to its MAC address. If it finds that that address is on any list that we have created, then that is when it would act. That address is unique to each network card that a device has. For example a simple smart watch that has Wi-Fi, is going to have a unique MAC.
 
-### **SSID Oculto**
+### **Hidden SSID**
 
-El ssid wifi oculto es uno de los mecanismos de seguridad que implementan las redes Wifi ocultando su nombre, de este modo, sólo si conoces el SSID podrás conectarte a ella.
+The hidden wifi ssid is one of the security mechanisms implemented by Wifi networks by hiding its name, so that only if you know the SSID you can connect to it.
 
-Para poder conectarnos a una red, lo primero que necesitamos es saber que está disponible. Esto es posible gracias a que la tecnología wifi (802.11) especifica que para dar a conocer una red se han de enviar paquetes de balizamiento (Management Beacon) ininterrumpidamente. De este modo los dispositivos cercanos con capacidades WiFi reciben estos paquetes de modo que saben que la red está disponible.
+In order to connect to a network, the first thing we need to know is that it is available. This is possible because wifi technology (802.11) specifies that in order to make a network known, beacon packets (Management Beacon) must be sent continuously. In this way, nearby devices with WiFi capabilities receive these packets so that they know that the network is available.
 
-De este modo cuando en un dispositivo quiera visualizar la lista de redes disponibles, aparecerán aquellas de las cuales se ha recibido un paquete de este tipo, teniendo el listado siempre actualizado, útil cuando nos desplazamos o cambiamos de ubicación.
+In this way, when a device wants to display the list of available networks, those from which a packet of this type has been received will appear, keeping the list always updated, useful when we move or change location.
 
-Cuando activamos el filtrado por ocultar SSID, todos los equipos que reciban los paquetes de balizamiento, recibirán el paquete vacío, por lo que los usuarios que quieran conectarse a la red, tendrían que agregar el SSID manualmente. Esto no significa que este método sea 100% efectivo ya que existen algunos software que pueden capturar todos los paquetes en la red, analizarlos y extraer el nombre de la red para que aparezca en la interfaz.
+When we activate the filtering by hiding SSID, all the devices that receive the beaconing packets will receive the empty packet, so users who want to connect to the network will have to add the SSID manually. This does not mean that this method is 100% effective as there are some software that can capture all the packets on the network, analyze them and extract the network name to be displayed on the interface.
 
-- **VPN (Virtual Private Network): concepto y configuración básica.**
+- **VPN (Virtual Private Network): concept and basic configuration.**
 
-Una VPN o red privada virtual crea una conexión de red privada entre dispositivos a través de Internet. Las VPN se utilizan para transmitir datos de forma segura y anónima a través de redes públicas. Su funcionamiento consiste en ocultar las direcciones IP de los usuarios y cifrar los datos para que nadie que no esté autorizado a recibirlos pueda leerlos.
+A VPN or virtual private network creates a private network connection between devices over the Internet. VPNs are used to transmit data securely and anonymously over public networks. They work by hiding users' IP addresses and encrypting data so that no one who is not authorized to receive it can read it.
 
-Sus tres funciones principales son:
+Its three main functions are:
 
-1. Privacidad
+1. Privacy
 
-Las VPN utilizan el cifrado para mantener la privacidad de esta información confidencial, en especial cuando se conecta a través de redes wifi públicas.
+VPNs use encryption to maintain the privacy of sensitive information, especially when connecting over public wifi networks.
 
-2. Anonimato
+2. Anonymity
 
-Una conexión VPN oculta su dirección IP para que permanezca en el anonimato en Internet.
+A VPN connection hides your IP address so that you remain anonymous on the Internet.
 
-3. Seguridad
+3. Security
 
-Las VPN utilizan la criptografía para proteger su conexión a Internet de accesos no autorizados.
+VPNs use cryptography to protect your Internet connection from unauthorized access.
 
-### 💡Laboratorio: Configuración de Firewall
+### 💡Lab: Firewall Configuration
 
-En el siguiente laboratorio vamos a aprender a configurar un firewall con la ayuda de cisco packet tracer, siguiendo los siguientes pasos
+In the following lab we are going to learn how to configure a firewall with the help of cisco packet tracer, following these steps:
 
-1. Abrimos Cisco Packet Tracer y creamos un entorno simulado con:
-2. Dos computadoras conectadas a un Switch, el Switch estará conectado un router y el router a un servidor web como en la siguiente imagen:
+1. We open Cisco Packet Tracer and create a simulated environment with two computers connected to a Switch, the Switch will be connected to a router and the router to a web server as in the following image:
 
-![Configuración de Firewall](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/confirguracion-firewall.png?raw=true)
+![Firewall Configuration](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/confirguracion-firewall.png?raw=true)
 
-1. Configuramos PC0 Y PC0 con ip estáticas, haciendo click en cada una e ingresando en la pestaña Desktop
+2. We configure PC0 and PC0 with static ip, clicking on each one and entering in the Desktop tab:
 
 IP Address 192.168.1.2 / 192.168.1.3
 
@@ -182,9 +187,9 @@ Subnet Mask 255.255.255.0
 
 Default gateway 192.168.1.10
 
-Podemos hacer ping a cada ip para verificar que la conexión entre ambas PC esté establecida
+We can ping each ip to verify that the connection between both PCs is established.
 
-1. Configuramos la IP del servidor
+3. Configure the server IP:
 
 IP Address 200.200.200.200
 
@@ -192,14 +197,18 @@ Subnet Mask 255.255.255.0
 
 Default gateway 200.200.200.201
 
-1. Configurarmos el router en las opciones de FastEthernet0/0 y FastEthernet0/1. La dirección IP serán los Default Gateway de los dispositivos
+4. Configure the router in the FastEthernet0/0 and FastEthernet0/1 options.
 
-ip address 192.168.1.10 (Para FastEthernet0/0) 200.200.200.201 (Para FastEthernet0/1)
+The IP address will be the Default Gateway of the devices.
 
-1. Emitimos un ping desde las computadoras clientes al servidor web haciendo un ping 200.200.200.200 para confirmar que hay conexion entre ambos dispositivos
-2. Entramos de nuevo al router y nos dirigimos a la pestaña cli donde ingresamos los siguientes comandos
+ip address 192.168.1.10 (For FastEthernet0/0) 200.200.200.201 (For FastEthernet0/1)
 
-![Pestaña Cli](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/pestana-cli.png?raw=true)
+5. Ping from the client computers to the web server by pinging 200.200.200.200 to confirm that there is a connection between the two devices.
 
-1. Hacemos ping de nuevo al servidor desde las computadoras clientes, se perderán todos los paquetes enviados ya que desde el router con los comandos anteriores programamos para que el protocolo ICMP quedará deshabilitado y solo se permitirá a los clientes acceder al servicio web
-2. Por último desde cualquier computadora cliente accederemos al servicio web, ingresando a la opcion web browser e ingresando 200.200.200.200 en el buscador. nos mostrará una página llamada index.html
+6. Log back in to the router and go to the cli tab where we enter the following commands
+
+![Cli Tab](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/pestana-cli.png?raw=true)
+
+7. We ping the server again from the client computers, all the packets sent will be lost, since from the router with the previous commands we programmed so that the ICMP protocol will be disabled and only the clients will be allowed to access the web service.
+
+8. Finally from any client computer we will access the web service, entering the web browser option and entering 200.200.200.200 in the search engine. it will show us a page called index.html

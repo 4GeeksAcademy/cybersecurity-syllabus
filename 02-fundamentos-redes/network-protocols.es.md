@@ -1,4 +1,11 @@
-# Lectura 5📕: Protocolos de red
+---
+title: "Protocolos de red"
+subtitle: "Descifrando protocolos de red: pilares digitales para la interoperabilidad, confiabilidad, seguridad, eficiencia y escalabilidad en Pentesting"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 
 Los protocolos de red son una parte fundamental de la comunicación en la era digital. Son conjuntos de reglas y estándares que permiten que dispositivos y sistemas informáticos se comuniquen y compartan datos de manera efectiva en una red. Estos protocolos establecen las pautas para el formato de los datos, la secuencia de eventos y las acciones a seguir durante la comunicación entre dispositivos.
 
@@ -28,6 +35,7 @@ Algunos protocolos de red que como pentester debes conocer son:
 - **SMTP/POP/IMAP:** Estos protocolos se utilizan para el correo electrónico, permitiendo el envío, recepción y almacenamiento de mensajes electrónicos.
 - **DNS:** El Sistema de Nombres de Dominio (DNS) se encarga de traducir nombres de dominio en direcciones IP, lo que facilita la navegación en la web.
 - **FTP:** El Protocolo de Transferencia de Archivos (FTP) se usa para transferir archivos entre dispositivos en una red.
+
 1. **SNMP:** Para pruebas de seguridad en la administración de dispositivos de red.
 2. **BGP:** Para evaluar la seguridad de enrutamiento en redes.
 3. **ICMP:** Para el análisis de respuestas de ping y trazas de ruta, y también para detectar posibles problemas de red.

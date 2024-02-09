@@ -1,4 +1,10 @@
-# Lectura 4📕: Dispositivos de red
+---
+title: "Dispositivos de red"
+subtitle: "Explora y conoce que es un enrutador, módem, conmutador, punto de acceso, firewall y más. ¡Diseñe su red LAN con Cisco Packet Tracer Lab Challenge!"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Los dispositivos de red son como las herramientas que permiten que los dispositivos electrónicos se comuniquen entre sí, como cuando usas internet en tu computadora o teléfono. Aquí te explico algunos de los dispositivos de red más comunes en un lenguaje sencillo:
 
@@ -20,6 +26,6 @@ Eres un administrador de red contratado por 4Geeks Academy y en tu primer día d
 
 1. Descargar el software gratuito de Cisco: Cisco Packet Tracer, con este programa podrás diseñar una red LAN de forma visual
 2. Investigar sobre precios y características de los dispositivos de red que necesitarás para diseñar tu red LAN y elaborar un presupuesto
-1. Elabora un informe técnico en el que expliques el diseño de la red LAN 
+3. Elabora un informe técnico en el que expliques el diseño de la red LAN 
 
 > 💡Pistas: Elige la topología de red que estimes conveniente (No hay respuestas incorrectas), recuerda que no es necesario utilizar todos los dispositivos de red vistos durante tu aprendizaje y que a veces menos es más. En tu informe técnico, explica tus decisiones y porqué es la forma más óptima de crear una red LAN.

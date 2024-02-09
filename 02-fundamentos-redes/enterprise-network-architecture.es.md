@@ -1,4 +1,10 @@
-# Lectura 3📕: Arquitectura de red empresarial
+---
+title: "Arquitectura de red empresarial"
+subtitle: "Creación de arquitecturas de redes empresariales óptimas: equilibrio entre rendimiento, seguridad y escalabilidad para operaciones y crecimiento fluidos"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Una arquitectura de red es un conjunto estructurado de componentes y protocolos que se utilizan para diseñar, implementar y gestionar una red de computadoras. Esta arquitectura proporciona una visión general de cómo se interconectan y comunican los dispositivos dentro de una red, así como cómo se administran y se garantiza su rendimiento y seguridad. La elección de una arquitectura de red adecuada es esencial para garantizar que la red cumpla con los objetivos y requisitos de una organización.
 
@@ -10,7 +16,7 @@ Las arquitecturas de red pueden variar significativamente en tamaño y complejid
 | Protocolos de red |  Los protocolos son reglas y normas que gobiernan la comunicación entre dispositivos en una red. Ejemplos de protocolos de red incluyen TCP/IP, HTTP, FTP, DNS, DHCP, entre otros. |
 | Segmentación de red | Las redes suelen dividirse en segmentos para mejorar la administración y la seguridad. Esto puede incluir la creación de subredes para aislar tráfico y limitar el acceso a ciertas partes de la red. |
 | Seguridad de red | La seguridad de la red es un componente crítico en cualquier arquitectura de red. Esto implica la implementación de firewalls, sistemas de detección de intrusiones, autenticación de usuarios y cifrado de datos para proteger la red contra amenazas y ataques cibernéticos. |
-| Escalabilidad y rendimiento: | La arquitectura de red debe ser capaz de adaptarse al crecimiento de la organización y garantizar un rendimiento óptimo. Esto puede incluir la capacidad de agregar nuevos dispositivos o aumentar el ancho de banda según sea necesario. |
+| Escalabilidad y rendimiento | La arquitectura de red debe ser capaz de adaptarse al crecimiento de la organización y garantizar un rendimiento óptimo. Esto puede incluir la capacidad de agregar nuevos dispositivos o aumentar el ancho de banda según sea necesario. |
 | Redundancia | La redundancia implica la duplicación de componentes críticos en la red para garantizar la disponibilidad continua. Esto puede incluir la implementación de enlaces de respaldo, servidores redundantes y rutas alternativas de comunicación. |
 | Gestión de red | La administración de la red implica el monitoreo, la configuración, el mantenimiento y la solución de problemas de la red. Se utilizan herramientas de gestión de red para facilitar estas tareas. |
 | Políticas y procedimientos | Las políticas y procedimientos de seguridad, así como las políticas de uso aceptable, son parte integral de la arquitectura de red para establecer reglas y regulaciones para el uso de la red por parte de los usuarios. |
@@ -58,12 +64,14 @@ Diseñar e implementar una arquitectura de red en una empresa es un proceso que 
 - Es importante crear documentación detallada que describa la arquitectura de la red, la configuración de dispositivos, los procedimientos de mantenimiento y las políticas de seguridad. Esta documentación es valiosa para la gestión y el equipo de soporte de TI.
 
 **10. Implementación gradual:**
+
 -  La implementación de una nueva arquitectura de red se puede hacer gradualmente para minimizar la interrupción de las operaciones normales. Esto implica migrar progresivamente los servicios y dispositivos existentes a la nueva red.
 
 **11. Mantenimiento y supervisión:**
 - Una vez que la red está en funcionamiento, se debe realizar un mantenimiento continuo y monitoreo para garantizar su disponibilidad y seguridad. Esto incluye la aplicación de actualizaciones de seguridad y la resolución de problemas.
 
 **12. Capacitación del personal:**
+
 - Es importante capacitar al personal de la empresa en el uso de la nueva red y en las mejores prácticas de seguridad. Esto ayuda a minimizar errores y riesgos relacionados con la seguridad.
 
 La implementación de una arquitectura de red en una empresa es un proyecto complejo que involucra varios equipos, incluyendo ingenieros de red, administradores de sistemas y expertos en ciberseguridad. La planificación cuidadosa y la documentación adecuada son esenciales para el éxito del proyecto y para garantizar que la red cumpla con los objetivos de la empresa.
@@ -71,13 +79,13 @@ La implementación de una arquitectura de red en una empresa es un proyecto comp
 ### 💡Laboratorio:
 
 **Descripción del Escenario:**
+
 Eres un consultor de redes y te han contratado para mejorar la arquitectura de red de una pequeña empresa. La empresa actualmente tiene una red que ha crecido orgánicamente con el tiempo y está experimentando problemas de rendimiento y seguridad. Tu tarea es evaluar la situación actual y proponer mejoras. Cuentas con la siguiente información:
 
 1. Se trata de una red LAN de 10 equipos y 1 servidor web
-
-1. Los usuarios manifiestan que la red es lenta y no hay una topología precisa establecida
-2. Los dispositivos de red son obsoletos
-3. Todos los equipos tienen acceso a internet y también a la intranet de la empresa, esta última  a través del servidor web de la red local
+2. Los usuarios manifiestan que la red es lenta y no hay una topología precisa establecida
+3. Los dispositivos de red son obsoletos
+4. Todos los equipos tienen acceso a internet y también a la intranet de la empresa, esta última  a través del servidor web de la red local
 
 **Preguntas y Desafíos:**
 
