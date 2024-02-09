@@ -1,5 +1,5 @@
 ---
-title: "Importancia del cumplimiento legal y normativo"
+title: "Importancia del cumplimiento legal y normativo en Ciberseguridad"
 subtitle: "Descubre el papel vital del cumplimiento legal y normativo en la ciberseguridad. Conoce los estándares ISO 27001, ENS y NIST."
 tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
