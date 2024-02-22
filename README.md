@@ -1,5 +1,11 @@
 # Cybersecurity Syllabus
 
+Requirements:
+- Computer 4 cores, 8 threads. 8gm RAM. 50 GB hard drive. Your CPU must support virtualization.
+- PC Computers with windows, linux, or Inte-Based MacOS.
+Warning: Computers with CPU M1, M2, or M3 are not compatible.
+
+Syllabs:
 - Semana 0: Prework
 - Semana 1: Fundamentos de ciberseguridad
 - Semana 2: Fundamentos de redes
