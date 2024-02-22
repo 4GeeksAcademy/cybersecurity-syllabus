@@ -33,7 +33,7 @@ Por lo general, los planes los elabora y ejecuta un equipo de respuesta a incide
 - Un plan de comunicaciones para informar a los líderes de la compañía, a los empleados, a los clientes e incluso a las fuerzas policiales sobre incidentes.
 - Instrucciones sobre cómo documentar y recopilar la información y documentar incidentes para su revisión posterior y (si es necesario) para procedimientos legales.
 
-**Ejercicio** - Idea un plan de accion para respuesta de incidente: 
+**Ejercicio** - Idea un plan de accion para respuesta de incidente:
 
 Una buena metodologia es la que da el **framework Nist,** el cual es un marco de trabajo para comprender y mejorar los riesgos de seguridad en una empresa 
 
