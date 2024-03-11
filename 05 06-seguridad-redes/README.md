@@ -92,7 +92,7 @@
       6. Bitdefender Antivirus Free Edition
       7. Avira Free Antivirus
       8. Malwarebytes
-25. AntiSpyware
+5. AntiSpyware
       1. Los mejores Spyware
 
 ## 5. ¿En qué consiste un IDS y cómo funciona?

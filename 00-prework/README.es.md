@@ -2,8 +2,8 @@
 
 ## Día 1 - Intro a VirtualBox
 
-- 📗Intro al bootcamp
-- 📗Intro a VirtualBox
+- 📗[Intro al bootcamp](intro-al-bootcamp.es.md)
+- 📗[Intro a VirtualBox](introduction-virtualbox-es.md)
 - 📗Herramientas de VirtualBox
 - 🧪Exploración de una maquina virtual Windows 10
 
