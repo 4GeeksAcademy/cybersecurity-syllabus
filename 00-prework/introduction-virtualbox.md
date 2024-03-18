@@ -43,33 +43,33 @@ Determina cómo se asigna la memoria a la máquina virtual. El valor asignado se
 
 Puede determinarse al momento de crear la maquina:
 
-![Memoria de maquina virtual VirtualBox](./assets/vb-memoria.png)
+![Memoria de maquina virtual VirtualBox](../assets/vb-memoria.png)
 
 O puede modificarse después de haber sido creada la maquina, pero solo se puede cambiar mientras el huésped este apagado.
-![Memoria de maquina virtual VirtualBox](./assets/vb-maquina-config-memoria.png)
+![Memoria de maquina virtual VirtualBox](../assets/vb-maquina-config-memoria.png)
 
 ### CPU
 
 En este apartado se asignan la cantidad de procesadores que puede usar la maquina virtual. La cantidad de procesadores disponibles para asignar corresponde a los procesadores lógicos que tenga el anfitrión, por ejemplo: Con un procesador de 4 núcleos y 8 hilos, aparecen disponibles 8 procesadores.
-![Procesadores de maquina virtual VirtualBox](./assets/vb-maquina-creacion-cpu.png)
+![Procesadores de maquina virtual VirtualBox](../assets/vb-maquina-creacion-cpu.png)
 
 Una vez creada la máquina tambien se pueden modificar los procesadores del huesped, e incluso se puede limitar el porcentaje del procesador anfitrion que tendrán permitido utilizar.
-![Procesadores de maquina virtual VirtualBox](./assets/vb-maquina-config-memoria-cpu.png)
+![Procesadores de maquina virtual VirtualBox](../assets/vb-maquina-config-memoria-cpu.png)
 
 ### Almacenamiento y medios virtuales
 
 El sistema operativo huesped se aloja en un disco duro virtual, es un archivo que simula un disco duro físico para la máquina virtual, y que ademas es portable (se puede mover facilmente a otra maquina) y tambien comprime los datos para ahorrar espacio de almacenamiento en el anfitrion.
 
 Al momento de crear la maquina se determina el nombre del archivo y la capacidad máxima del disco duro virtual. El archivo ira creciendo a medida que el huesped tenga mas y mas datos, hasta llegar a su capacidad máxima. De la misma forma, se pueden agregar discos preexistentes a una maquina virtual.
-![Disco duro de maquina virtual VirtualBox](./assets/vb-maquina-creacion-dd.png)
+![Disco duro de maquina virtual VirtualBox](../assets/vb-maquina-creacion-dd.png)
 
 Una vez creada la maquina con su respectivo disco, podremos ver y modificar las unidades virtuales en el "Administrador de medios virtuales". Esta herramienta nos muestra todos los discos duros virtuales, las Unidades de disco virtuales. En cada una de sus pestañas tendremos opciones de importar nuevas medios virtuales o importar alguno que ya exista, de esta manera podemos configurar maquinas virtuales con cualquier tipo de medios conectados para lograr simular el entorno que sea necesario.
-![Menú de medios virtuales VirtualBox](./assets/vb-menu-virtual-media.png)
-![Discos duros virtuales VirtualBox](./assets/vb-virtual-media-drives.png)
+![Menú de medios virtuales VirtualBox](../assets/vb-menu-virtual-media.png)
+![Discos duros virtuales VirtualBox](../assets/vb-virtual-media-drives.png)
 
 En cuanto a los medios ópticos, estos son compuestos por archivos ISO que pueden ser descargados desde distintas partes y agregados a las maquinas virtuales. Estos archivos son el estándar mas utilizado para instaladores de sistemas operativos, tanto Windows como sistemas GNU/Linux; ambos disponibles desde sus respectivas web oficiales. Con la opcion "Añadir" de la pestaña de "Discos opticos"
-![Discos ópticos virtuales VirtualBox](./assets/vb-virtual-media-optical.png)
-![Discos ópticos virtuales VirtualBox](./assets/vb-maquina-config-optical-es.png)
+![Discos ópticos virtuales VirtualBox](../assets/vb-virtual-media-optical.png)
+![Discos ópticos virtuales VirtualBox](../assets/vb-maquina-config-optical-es.png)
 
 ### Red
 
