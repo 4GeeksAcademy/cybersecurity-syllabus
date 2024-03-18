@@ -130,7 +130,7 @@ Wi-Fi security refers to the practices and measures implemented to protect a wir
 
 ### Router Security
 
-1. **Strong Passwords:** Change default router passwords and set strong passwords for access to the administration panel. Avoid using easily guessable information, such as names or birthdates.
+1. **Strong Passwords:** Change default router passwords and set strong passwords for access to the administration panel. Avoid using easily guessable information, such as names or birthdays.
 2. **Firmware Updates:** Keep the router firmware up to date. Manufacturers often release security updates that fix known vulnerabilities.
 3. **Firewall:** Enable the built-in firewall on the router to filter unwanted traffic and block potential threats. Configure firewall rules according to your needs.
 4. **Disable Unnecessary Services:** Turn off any service or port that you don't need. The fewer enabled services, the fewer chances of exploiting vulnerabilities.
