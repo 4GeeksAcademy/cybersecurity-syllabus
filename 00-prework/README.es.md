@@ -43,11 +43,10 @@
 - 📗Gestión de incidentes
 - 📗Estandares de cumplimento legal y regulatorio
 - 📝Quiz: Gestión de incidentes y estandares de seguridad
-- 🧪Implementacion de buenas prácticas de segurida de en la Maquina Virtual Windows10
+- 🧪Implementacion de buenas prácticas de segurida de en la Maquina Virtual Windows10 *
 
 ## Día 6 - Packet Tracer
 
 - 📗Comunicaciones y redes
 - 📗Introduccion a Packet Tracer
-- 📗Dispositivos y conexiones en Packet Tracer
 - 🧪Montaje de una topología en Packet Tracer
