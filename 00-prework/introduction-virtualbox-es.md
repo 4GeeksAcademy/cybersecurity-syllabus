@@ -3,6 +3,7 @@ title: "Introducción a VirtualBox"
 subtitle: "Conoce como funciona esta poderosa herramienta, y aprende a crear una maquina virtual."
 tags: ["cybersecurity"]
 authors: ["arnaldoperez"]
+
 ---
 
 ## ¿Qué es VirtualBox?
