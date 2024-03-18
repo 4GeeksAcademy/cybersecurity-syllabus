@@ -1,5 +1,5 @@
 ---
-title: "Introducción a VirtualBox"
+title: "Introduction to VirtualBox"
 subtitle: "Conoce como funciona esta poderosa herramienta, y aprende a crear una maquina virtual."
 tags: ["cybersecurity"]
 authors: ["arnaldoperez"]
