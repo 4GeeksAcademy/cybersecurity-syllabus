@@ -2,15 +2,14 @@
 
 ## Día 1 - Intro a VirtualBox
 
-- 📗[Intro al bootcamp](intro-al-bootcamp.es.md)
-- 📗[Intro a VirtualBox](introduction-virtualbox-es.md)
-- 📗Herramientas de VirtualBox
-- 🧪Exploración de una maquina virtual Windows 10
+- 📗[Intro al bootcamp](./intro-al-bootcamp.es.md)
+- 📗[Intro a VirtualBox](./introduction-virtualbox.es.md)
+- 🧪[Instalación de una maquina virtual Windows 10](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine)
 
 ## Día 2 - Redes entre MV VirtualBox
 
 - 📗Redes en VirtualBox
-- 🧪Instalación de una maquina Debian en VirtualBox
+- 🧪Instalación de Kali Linux en VirtualBox
 - 🧪Comunicación entre maquinas virtuales
 
 ## Día 3 - Intro a seguridad de la información
