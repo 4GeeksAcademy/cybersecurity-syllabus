@@ -1,61 +1,147 @@
 ---
-title: "Seguridad de red Básica"
-subtitle: "Aprende cómo mejorar la seguridad de la red configurando reglas de filtrado de paquetes en un firewall."
+title: "Seguridad en la red"
+subtitle: "Explora los aspectos críticos de la seguridad de la red, incluida la autenticación, el control de acceso, la gestión de amenazas y la protección de datos."
 tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## Firewall y filtrado de paquetes
+La seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información que fluye a través de ella. Implica una serie de medidas y prácticas diseñadas para garantizar la confidencialidad, la integridad y la disponibilidad de los datos en un entorno de red. Aquí tienes información en formato de texto continuo sobre seguridad en la red:
 
-Un firewall es un dispositivo o software que se utiliza para proteger una red de amenazas externas. Funciona monitoreando y filtrando el tráfico de red que entra y sale de la red, permitiendo solo el tráfico seguro.
+La seguridad en la red abarca una variedad de aspectos y desafíos. Uno de los principales enfoques es la **autenticación**, que asegura que solo los usuarios autorizados tengan acceso a los recursos de la red. Esto implica la implementación de contraseñas seguras, la autenticación de dos factores (2FA) y, en algunos casos, la autenticación biométrica para verificar la identidad de los usuarios.
 
-El **filtrado de paquetes** es una de las funciones principales de los firewalls. Este proceso implica inspeccionar cada paquete de datos que entra o sale de la red y compararlo con un conjunto de reglas de seguridad configuradas previamente. Si un paquete no cumple con las reglas, se bloquea y no se permite su transmisión.
+Otro aspecto clave de la seguridad en la red es el **control de acceso**, que determina quién tiene permiso para acceder a qué recursos de la red. El principio de "menor privilegio" dicta que los usuarios deben tener acceso solo a los recursos necesarios para realizar sus tareas laborales, lo que minimiza el riesgo de accesos no autorizados.
 
-El filtrado de paquetes puede basarse en diversos criterios, como la dirección IP, el puerto, la dirección MAC, el protocolo, el contenido de los paquetes, etc.
+La **gestión de amenazas en la red** es esencial para identificar y mitigar riesgos potenciales. Esto incluye la detección y la prevención de intrusiones, así como la supervisión continua del tráfico de red en busca de actividades inusuales o maliciosas. Las herramientas como los sistemas de detección de intrusiones (IDS) y los sistemas de prevención de intrusiones (IPS) son comunes en este contexto.
 
-Además de proteger la red de ataques externos, los firewalls también pueden utilizarse para controlar el acceso de los usuarios a Internet y para limitar el tráfico de red interno, por ejemplo, para bloquear el acceso a sitios web no deseados.
+La seguridad de los **datos en tránsito** es fundamental para proteger la información mientras se mueve a través de la red. Esto se logra mediante el cifrado de datos, que codifica la información de manera que solo los destinatarios autorizados puedan decodificarla. Los protocolos seguros como HTTPS y VPN se utilizan para proteger la comunicación en línea.
 
-La configuración de reglas de filtrado de paquetes en un firewall implica especificar las condiciones que se deben cumplir para que un paquete de datos sea permitido o bloqueado. Estas reglas se basan en criterios como la dirección IP de origen y destino, el puerto, el protocolo, etc.
+La seguridad en la red también implica la protección contra amenazas específicas, como malware, virus y ataques de denegación de servicio (DDoS). Esto se logra mediante el uso de software antivirus, firewalls y la implementación de políticas de seguridad que incluyen actualizaciones de software y parches regulares.
 
-### Pasos para configurar reglas de filtrado en un firewall:
+> En resumen, la seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información en un entorno de red. Implica la autenticación, el control de acceso, la gestión de amenazas y la protección de datos en tránsito, entre otros aspectos, para garantizar que las redes sean seguras y confiables en un mundo cada vez más digital y conectado.
 
-1. **Acceder al firewall**: Para acceder al firewall y configurar las reglas de filtrado de paquetes, se requiere acceso a una consola de administración o a una interfaz web de gestión.
-2. **Definir las reglas de filtrado**: Una vez dentro de la consola de administración, se pueden definir las reglas de filtrado de paquetes especificando los criterios para cada regla.
-3. **Aplicar las reglas**: Una vez definidas las reglas, es necesario aplicarlas para que el firewall las utilice para filtrar el tráfico de red.
-4. **Verificar el funcionamiento**: Finalmente, es importante verificar que las reglas de filtrado de paquetes se están aplicando correctamente y que no hay errores o conflictos.
+![Seguridad de la Red](../assets/seguridad.png)
 
->🔥 **Ejercicio** - Investiga sobre las reglas de firewall y crea 5 reglas y explique que tipo de trafico filtraria
+## **Firewall y filtrado de paquetes**
 
+Un **firewall** y el **filtrado de paquetes** son componentes clave de la seguridad de red que se utilizan para proteger una red y sus sistemas contra amenazas cibernéticas. 
 
-### Tecnologías de Seguridad para Redes y Comunicaciones
+### **Firewall**
 
-**Virtual private network (VPN)**
+Un firewall es una barrera de seguridad que se encuentra entre una red interna y una red externa, como Internet. Su función principal es controlar el tráfico de red y decidir qué paquetes de datos se permiten o se bloquean según un conjunto de reglas predefinidas. Los firewalls pueden ser dispositivos físicos o software que se ejecuta en servidores o enrutadores.
 
-Una **VPN** o **red privada** virtual crea una conexión de red privada entre dispositivos a través de Internet. Las VPN se utilizan para transmitir datos de forma segura y anónima a través de redes públicas. Su funcionamiento consiste en ocultar las direcciones IP de los usuarios y cifrar los datos para que nadie que no esté autorizado a recibirlos pueda leerlos.
+Los firewalls se utilizan para varios propósitos, que incluyen:
 
-Una conexión VPN redirige los paquetes de datos de una maquina a otro servidor remoto antes de enviarlos a terceros a traves de internet
+1. **Control de Acceso:** Los firewalls determinan qué tráfico de red puede ingresar o salir de una red protegida. Esto se basa en reglas que definen qué direcciones IP, puertos y protocolos son permitidos o bloqueados.
+2. **Protección contra Amenazas:** Ayudan a proteger una red contra amenazas cibernéticas, como intrusiones, malware y ataques de denegación de servicio (DDoS). Pueden bloquear tráfico malicioso o sospechoso.
+3. **Segmentación de Red:** Los firewalls se utilizan para dividir una red en segmentos o zonas de seguridad. Esto reduce la superficie de ataque y limita la propagación de amenazas dentro de la red.
+4. **Registro y Auditoría:** Los firewalls suelen tener capacidad de registro para registrar actividades de red. Esto es útil para la monitorización y la revisión de eventos de seguridad.
 
-Las principales características de la tecnología VPN son las siguientes:
+![Firewall](../assets/firewall.png)
 
-- **Protocolo de túnel**
+### Filtrado de Paquetes
 
-Una red privada virtual crea un túnel de datos seguro entre su máquina local y otro servidor VPN situado a miles de kilómetros. Cuando se conecta, este servidor VPN se convierte en el origen de todos sus datos. El proveedor de servicios de Internet (ISP) y otros terceros ya no pueden ver el contenido de su tráfico de Internet.
+El filtrado de paquetes es una técnica que se utiliza en firewalls y routers para examinar y controlar el tráfico de red a nivel de paquete. Cada paquete de datos que atraviesa el dispositivo de filtrado de paquetes se compara con reglas específicas y se toma una decisión sobre si permitir o bloquear ese paquete.
 
-- **Cifrado**
+Los criterios de filtrado de paquetes pueden incluir:
 
-Los protocolos VPN como IPSec codifican sus datos antes de enviarlos a través del túnel de datos. IPsec es un conjunto de protocolos para proteger las comunicaciones por protocolo de Internet (IP) mediante la autenticación y el cifrado de todos los paquetes IP de una secuencia de datos. El servicio de VPN actúa como un filtro, lo que hace que sus datos sean ilegibles en un extremo y solo los descodifica en el otro, lo que evita el uso indebido de datos personales, incluso si su conexión de red se viera comprometida. El tráfico de red ya no es vulnerable a los ataques, y su conexión a Internet es segura.
+- Dirección IP de origen y destino.
+- Número de puerto.
+- Protocolo de transporte (por ejemplo, TCP o UDP).
+- Contenido o patrones de datos específicos.
 
-- **Acceso wifi protegido (WPA)**
+El filtrado de paquetes es una técnica eficaz para bloquear tráfico no deseado o peligroso en la red, pero se basa en reglas específicas y no tiene la inteligencia contextual de un firewall de próxima generación (NGFW). Los NGFW combinan el filtrado de paquetes con inspección profunda de paquetes y capacidades de seguridad avanzadas para una protección más completa.
 
-El WPA (acceso Wi-Fi protegido) es un protocolo de seguridad inalámbrica lanzado en 2003 para solucionar las crecientes vulnerabilidades de su predecesor, WEP. El protocolo Wi-Fi WPA es más seguro que el WEP, porque usa una clave de 256 bits para el cifrado, lo que supone una gran mejora respecto a las claves de 64 y 128 bits que usa el sistema WEP.
+> 📖 En resumen, los firewalls y el filtrado de paquetes son esenciales para la seguridad de la red al controlar y proteger el tráfico de datos que entra y sale de una red. Estas tecnologías ayudan a prevenir amenazas cibernéticas y garantizan que solo el tráfico legítimo y seguro tenga acceso a los sistemas y recursos de una red protegida.
 
-El WPA también usa el Protocolo de integridad de clave temporal (TKIP), que genera de forma dinámica una nueva clave para cada paquete o unidad de datos. El TKIP es mucho más seguro que el sistema de clave fija que usa WEP.
+## VPN (Virtual Private Network)
 
-Aun así, el WPA no está exento de defectos. El TKIP, el componente principal de WPA, se diseñó para implementarse en los sistemas con WEP a través de actualizaciones de firmware. Esto hizo que el WPA siguiera basándose en elementos fácilmente explotables.
+Una **VPN** (Virtual Private Network, en español Red Privada Virtual) es una tecnología que crea una conexión segura y cifrada entre dos puntos en una red, a menudo a través de Internet. La VPN se utiliza para proteger la privacidad y la seguridad de la comunicación, así como para acceder a recursos de red de manera segura, incluso cuando se utiliza una red no confiable como Internet. 
 
-- **Acceso WiFi protegido 2 (WPA2)**
+### Funcionamiento de una VPN
 
-El WPA2 (acceso Wi-Fi protegido 2) es la segunda generación del protocolo de seguridad inalámbrica de acceso Wi-Fi protegido. Al igual que su predecesor, el WPA2 se diseñó para asegurar y proteger las redes Wi-Fi. El WPA2 garantiza que los datos enviados o recibidos a través de la red inalámbrica estén cifrados y que solo tengan acceso a ellos las personas que tengan la contraseña de la red.
+1. **Túnel Seguro:** Una VPN establece un túnel de comunicación cifrado entre tu dispositivo (como una computadora, un teléfono o una tableta) y un servidor VPN. Este túnel actúa como un conducto seguro a través del cual fluyen los datos.
+2. **Cifrado de Datos:** Todos los datos que se envían a través de la VPN se cifran antes de salir de tu dispositivo y se descifran en el servidor VPN. Esto asegura que incluso si alguien intercepta los datos en tránsito, no pueda entenderlos sin la clave de descifrado.
+3. **Dirección IP Cambiada:** Cuando te conectas a una VPN, tu dirección IP real se oculta y se reemplaza por la dirección IP del servidor VPN. Esto mejora la privacidad al hacer que tu ubicación y tu identidad sean menos rastreables.
 
-Una de las ventajas del sistema WPA2 fue que introdujo el sistema de cifrado avanzado (AES) para sustituir al sistema TKIP, más vulnerable, usado en el protocolo WPA original. El AES proporciona un cifrado potente y lo utiliza el gobierno de Estados Unidos para proteger los datos clasificados.
+**Beneficios de una VPN**
+
+✅ **Seguridad en Redes Públicas:** Las VPN son ideales para proteger la comunicación en redes Wi-Fi públicas o no seguras, como las que se encuentran en cafeterías, hoteles o aeropuertos.
+
+✅ **Acceso Remoto Seguro:** Las VPN permiten a los empleados acceder de forma segura a la red de la empresa desde ubicaciones remotas, lo que facilita el trabajo a distancia.
+
+✅ **Privacidad en Línea:** Una VPN oculta tu dirección IP y cifra tus datos, lo que dificulta que los anunciantes y los rastreadores en línea te sigan en línea.
+
+✅ **Acceso a Contenido Restringido:** Puedes utilizar una VPN para acceder a contenido en línea que podría estar bloqueado geográficamente en tu ubicación.
+
+**Tipos de VPN:**
+
+| VPN de Acceso Remoto | Permite que un usuario se conecte a la red de la empresa de forma segura desde una ubicación remota. Es útil para empleados que trabajan desde casa o en movimiento. |
+| --- | --- |
+| VPN de Sitio a Sitio | Conecta dos redes enteras, como las oficinas de una empresa en diferentes ubicaciones geográficas. Estas VPN son comunes en empresas multinacionales. |
+| VPN de Acceso Público | Ofrece servicios de VPN a través de proveedores de servicios públicos. Los usuarios pueden suscribirse a estos servicios para proteger su privacidad en línea. |
+| VPN de Capa 2 y Capa 3 | Diferentes tipos de VPN pueden operar en capas de red diferentes (como la capa 2 o la capa 3) y tener aplicaciones específicas según las necesidades de la organización. |
+
+![VPN](../assets/VPN.png)
+
+> 📖 Una **VPN** es una herramienta esencial para proteger la privacidad y la seguridad en línea, así como para establecer conexiones seguras en redes públicas o para acceder a recursos de red de forma remota. Su capacidad para cifrar datos y ocultar direcciones IP la hace valiosa tanto para usuarios individuales como para empresas que buscan proteger la confidencialidad de sus comunicaciones y datos.
+
+La diferencia clave entre una **VPN** (Virtual Private Network) y un **proxy** es cómo manejan la privacidad y la seguridad:
+
+| VPN | Proxy |
+| --- | --- |
+| Una VPN crea una conexión segura y cifrada entre tu dispositivo y un servidor remoto, ocultando tu dirección IP y protegiendo tus datos. Es más adecuada para la privacidad y la seguridad, ideal para proteger la comunicación en redes públicas o acceder a la red de una empresa de forma segura. | Un proxy actúa como un intermediario entre tu dispositivo y la web. Puede ocultar tu dirección IP, pero generalmente no cifra los datos. Los proxies son útiles para el acceso a contenido bloqueado geográficamente o para ocultar tu ubicación, pero pueden ser menos seguros que una VPN. |
+
+> 💡 Utiliza una VPN cuando necesites una conexión segura y cifrada para la privacidad y la seguridad. Emplea un proxy cuando desees cambiar tu ubicación o acceder a contenido geográficamente restringido, pero no necesites una protección de datos tan sólida.
+
+## Seguridad en redes WiFi
+
+La seguridad de Wi-Fi se refiere a las prácticas y medidas que se implementan para proteger una red inalámbrica (Wi-Fi) de amenazas y accesos no autorizados. Es esencial asegurarse de que tu red Wi-Fi esté protegida adecuadamente para evitar intrusiones y proteger la privacidad de los dispositivos y datos conectados.
+
+### Principales Aspectos de la Seguridad de Wi-Fi
+
+1. **Contraseña Fuerte:** Utiliza una contraseña segura para proteger tu red Wi-Fi. Evita contraseñas fáciles de adivinar y opta por combinaciones de letras, números y caracteres especiales.
+2. **Encriptación:** Habilita la encriptación en tu router Wi-Fi. El estándar más común es WPA3 (o WPA2 si WPA3 no está disponible), que cifra la comunicación entre dispositivos y el router.
+3. **Nombre de Red (SSID) Oculto:** Si es posible, oculta el SSID de tu red para que no sea visible para dispositivos cercanos. Esto añade una capa adicional de seguridad al hacer que la red sea menos visible para posibles atacantes.
+4. **Filtro de Direcciones MAC:** Configura tu router para permitir solo dispositivos con direcciones MAC específicas. Si bien esto no es una medida de seguridad infalible, puede agregar una capa adicional de protección.
+5. **Actualizaciones del Firmware:** Mantén el firmware de tu router actualizado. Las actualizaciones a menudo incluyen correcciones de seguridad que protegen contra vulnerabilidades conocidas.
+6. **Red de Invitados:** Si tu router lo admite, crea una red de invitados separada para visitantes. Esto evita que los dispositivos de invitados tengan acceso completo a tu red principal.
+7. **Cambio de Contraseñas Predeterminadas:** Cambia las contraseñas predeterminadas del router y de las cuentas de administrador. Las contraseñas predeterminadas son conocidas por los ciberdelincuentes.
+
+**Casos de Uso y Recomendaciones:**
+
+✅ En el hogar, asegúrate de que tu red Wi-Fi esté protegida con una contraseña fuerte y la encriptación adecuada. Limita el acceso solo a dispositivos autorizados.
+
+✅ En entornos empresariales, utiliza autenticación de usuario y encriptación robusta. Considera implementar redes separadas para empleados y visitantes.
+
+✅ Si necesitas acceso remoto a tu red, utiliza una VPN para una conexión segura desde fuera de tu red local.
+
+✅ Realiza auditorías de seguridad de tu red Wi-Fi de forma regular para identificar posibles vulnerabilidades y mejorar la protección.
+
+### Buenas prácticas
+
+1. **Encriptación WPA3/WPA2:** Utiliza encriptación WPA3 o WPA2 en tu red Wi-Fi. Estos protocolos de seguridad cifran la comunicación entre dispositivos y el router. Evita el uso de WEP, que es menos seguro.
+2. **Contraseñas Fuertes:** Configura contraseñas fuertes tanto para el acceso a la red Wi-Fi como para el panel de administración del router. Evita contraseñas predefinidas o débiles.
+3. **Actualizaciones de Firmware:** Mantén el firmware del router actualizado. Las actualizaciones a menudo incluyen correcciones de seguridad que protegen contra vulnerabilidades conocidas.
+4. **Red de Invitados:** Si es posible, configura una red de invitados separada con acceso a Internet pero sin acceso a la red principal. Esto limita la exposición de la red principal a dispositivos no confiables.
+5. **Monitoreo y Auditoría:** Implementa herramientas de monitoreo y realiza auditorías regulares de seguridad en la red Wi-Fi. Esto te ayudará a detectar y mitigar posibles amenazas y vulnerabilidades.
+
+> 📖 La seguridad en el enrutador y el switch es esencial para proteger una red empresarial o doméstica contra amenazas cibernéticas y garantizar un funcionamiento seguro y confiable. Recuerda que los dispositivos de red también son actores en el escenario de ciberseguridad:
+
+### Seguridad en el Enrutador
+
+1. **Contraseñas Fuertes:** Cambia las contraseñas predeterminadas del enrutador y establece contraseñas fuertes para el acceso al panel de administración. Evita utilizar información fácilmente adivinable, como nombres o fechas de nacimiento.
+2. **Actualizaciones de Firmware:** Mantén el firmware del enrutador actualizado. Los fabricantes suelen lanzar actualizaciones de seguridad que corrigen vulnerabilidades conocidas.
+3. **Cortafuegos (Firewall):** Habilita el cortafuegos integrado en el enrutador para filtrar el tráfico no deseado y bloquear posibles amenazas. Configura las reglas del cortafuegos según tus necesidades.
+4. **Desactiva Servicios Innecesarios:** Desactiva cualquier servicio o puerto que no necesites. Cuantos menos servicios estén habilitados, menos posibilidades hay de que se exploten vulnerabilidades.
+5. **Acceso Remoto Seguro:** Si habilitas el acceso remoto al enrutador, hazlo de manera segura utilizando una VPN u otras medidas de autenticación fuertes. Limita el acceso solo a direcciones IP autorizadas.
+
+### Seguridad en el Switch
+
+1. **VLAN (Virtual LAN):** Utiliza VLAN para segmentar la red en grupos lógicos. Esto mejora la seguridad al limitar la comunicación entre dispositivos y restringir el acceso a áreas críticas de la red.
+2. **Control de Acceso basado en Puertos (Port-Based Access Control):** Configura el switch para limitar el acceso a puertos específicos. Esto evita que dispositivos no autorizados se conecten a la red.
+3. **Monitoreo de Tráfico:** Implementa herramientas de monitoreo de tráfico para detectar actividades inusuales o no autorizadas en la red. Esto facilita la detección de posibles amenazas.
+4. **Actualizaciones de Firmware:** Al igual que con los enrutadores, mantén el firmware del switch actualizado para beneficiarte de las correcciones de seguridad.
+5. **Autenticación 802.1X:** Utiliza autenticación basada en estándar 802.1X para controlar el acceso a la red. Requiere que los dispositivos se autentiquen antes de permitirles conectarse.
+
+> 📖 En conjunto, estas prácticas ayudan a fortalecer la seguridad en el enrutador y el switch, formando una sólida defensa contra amenazas cibernéticas y proporcionando un entorno de red más seguro y confiable.
