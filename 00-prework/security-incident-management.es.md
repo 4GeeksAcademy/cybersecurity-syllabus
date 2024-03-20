@@ -75,10 +75,14 @@ Los procedimientos de gestión de incidentes son un conjunto de pasos y acciones
 
 **9. Documentación y Lecciones Aprendidas:**
 
-- Se documenta el incidente, incluidas las acciones tomadas y los hallazgos de la investigación. Esto es valioso para futuras referencias y lecciones aprendidas.
+Se documenta el incidente, incluidas las acciones tomadas y los hallazgos de la investigación. Esto es valioso para futuras referencias y lecciones aprendidas.
+
 1. **Informe Final:**
-- Se presenta un informe final que resume el incidente, las acciones tomadas y las recomendaciones para mejorar la seguridad y prevenir incidentes similares en el futuro.
-1. **Mejora Continua**
+
+Se presenta un informe final que resume el incidente, las acciones tomadas y las recomendaciones para mejorar la seguridad y prevenir incidentes similares en el futuro.
+
+2. **Mejora Continua**
+
 - Se utilizan las lecciones aprendidas del incidente para mejorar las políticas, procedimientos y medidas de seguridad de la organización de manera continua.
 
 > 📖 Los procedimientos de gestión de incidentes son esenciales para ayudar a las organizaciones a responder de manera efectiva a incidentes de seguridad, minimizar el impacto y prevenir futuros incidentes. Establecer un proceso claro y bien definido garantiza que la organización esté preparada para abordar los desafíos de seguridad cibernética de manera eficaz.
