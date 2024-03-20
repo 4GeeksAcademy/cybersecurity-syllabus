@@ -37,7 +37,7 @@
 
 ## Día 5 - Cultura de ciberseguridad
 
-- 📗[Concienciacion y formacion del personal](./staff-awareness-and-training.es.md)
+- 📗[Concienciación y formación del personal](./staff-awareness-and-training.es.md)
 - 📗[Políticas y procedimientos de seguridad](./security-policies-and-procedures.es.md)
 - 📝Quiz: Ciberseguridad personal y organizacional
 - 📗[Gestión de incidentes de seguridad](./security-incident-management.es.md)
