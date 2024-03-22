@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "introduction-cybersecurity-es",
+    "name":    "Introducción a la ciberseguridad",
+    "status":    "draft",
+    "main":    "Quiz del preework de ciberseguridad",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "¿Qué es la seguridad en la red?",
+      "a": [
+        {
+          "option": "Un conjunto de medidas para proteger la información que fluye a través de Internet.",
+          "correct": false
+        },
+        {
+          "option": "La práctica de proteger la infraestructura de comunicaciones y la información en un entorno de red.",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software antivirus que protege contra ataques específicos en la red.",
+          "correct": false
+        },
+        {
+          "option": "Un método de autenticación que utiliza tres factores para verificar la identidad del usuario en la red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo de la autenticación en la seguridad de la red?",
+      "a": [
+        {
+          "option": "Permitir que cualquier usuario acceda a los recursos de la red sin restricciones.",
+          "correct": false
+        },
+        {
+          "option": "Garantizar que solo los usuarios autorizados tengan acceso a los recursos de la red.",
+          "correct": true
+        },
+        {
+          "option": "Aumentar la velocidad de la red para una mejor experiencia de navegación.",
+          "correct": false
+        },
+        {
+          "option": "Reducir el consumo de energía en los dispositivos conectados a la red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el control de acceso en la seguridad de la red?",
+      "a": [
+        {
+          "option": "Un método para determinar qué usuarios tienen acceso a qué recursos de la red.",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software que protege contra malware y virus en la red.",
+          "correct": false
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red.",
+          "correct": false
+        },
+        {
+          "option": "Un método para segmentar la red en diferentes zonas de seguridad.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el filtrado de paquetes en la seguridad de la red?",
+      "a": [
+        {
+          "option": "Un método para controlar el tráfico de red que ingresa o sale de una red.",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software que protege contra ataques de denegación de servicio (DDoS).",
+          "correct": false
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red.",
+          "correct": false
+        },
+        {
+          "option": "Un método para segmentar la red en diferentes zonas de seguridad.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es una VPN (Virtual Private Network)?",
+      "a": [
+        {
+          "option": "Un tipo de software antivirus que protege contra malware específico.",
+          "correct": false
+        },
+        {
+          "option": "Un método para segmentar la red en diferentes zonas de seguridad.",
+          "correct": false
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red y ocultar la dirección IP del usuario.",
+          "correct": true
+        },
+        {
+          "option": "Un método para controlar el tráfico de red que ingresa o sale de una red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es un firewall y cuál es su función principal?",
+      "a": [
+        {
+          "option": "Un dispositivo que conecta dos redes diferentes.",
+          "correct": false
+        },
+        {
+          "option": "Un software que protege contra malware y virus en la red.",
+          "correct": false
+        },
+        {
+          "option": "Un dispositivo o software que protege una red de amenazas externas mediante el filtrado de tráfico.",
+          "correct": true
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el filtrado de paquetes en el contexto de firewalls?",
+      "a": [
+        {
+          "option": "Un método para segmentar la red en diferentes zonas de seguridad.",
+          "correct": false
+        },
+        {
+          "option": "Un tipo de software antivirus que protege contra ataques específicos en la red.",
+          "correct": false
+        },
+        {
+          "option": "Un método para controlar el tráfico de red que ingresa o sale de una red.",
+          "correct": true
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es una VPN (Virtual Private Network)?",
+      "a": [
+        {
+          "option": "Un tipo de software antivirus que protege contra malware específico.",
+          "correct": false
+        },
+        {
+          "option": "Un método para segmentar la red en diferentes zonas de seguridad.",
+          "correct": false
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red y ocultar la dirección IP del usuario.",
+          "correct": true
+        },
+        {
+          "option": "Un método para controlar el tráfico de red que ingresa o sale de una red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son las principales características de la tecnología VPN?",
+      "a": [
+        {
+          "option": "Solo utiliza el protocolo de túnel para la conexión.",
+          "correct": false
+        },
+        {
+          "option": "No utiliza cifrado para la seguridad de los datos.",
+          "correct": false
+        },
+        {
+          "option": "Utiliza un protocolo de túnel y cifrado para la seguridad de los datos.",
+          "correct": true
+        },
+        {
+          "option": "No ofrece acceso a redes Wi-Fi públicas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la diferencia entre WPA y WPA2 en seguridad Wi-Fi?",
+      "a": [
+        {
+          "option": "WPA2 es una versión anterior de WPA con menor seguridad.",
+          "correct": false
+        },
+        {
+          "option": "No hay diferencia significativa entre WPA y WPA2.",
+          "correct": false
+        },
+        {
+          "option": "WPA2 es una versión más reciente de WPA con mayor seguridad y utiliza el cifrado AES.",
+          "correct": true
+        },
+        {
+          "option": "WPA2 solo funciona en redes de 2.4 GHz, mientras que WPA funciona en 5 GHz.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

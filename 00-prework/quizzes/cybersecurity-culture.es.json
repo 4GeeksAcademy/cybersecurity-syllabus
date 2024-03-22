@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "cybersecurity-culture-es",
+    "name":    "Cultura de la ciberseguridad",
+    "status":    "draft",
+    "main":    "Quiz del preework de ciberseguridad",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "¿Qué es la concienciación en ciberseguridad y por qué es importante?",
+      "a": [
+        {
+          "option": "Es la comprensión de las amenazas cibernéticas y las medidas para proteger la información y la seguridad en línea.",
+          "correct": true
+        },
+        {
+          "option": "Es un software antivirus que protege las computadoras de virus y malware.",
+          "correct": false
+        },
+        {
+          "option": "Es una ley que regula el uso de internet y las redes sociales.",
+          "correct": false
+        },
+        {
+          "option": "Es una forma de controlar el acceso a los datos personales en las redes sociales.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por qué la concienciación en ciberseguridad es importante para los trabajadores de una empresa?",
+      "a": [
+        {
+          "option": "Para proteger los datos y sistemas de la empresa de ataques cibernéticos.",
+          "correct": true
+        },
+        {
+          "option": "Para aumentar la productividad de los empleados en el trabajo.",
+          "correct": false
+        },
+        {
+          "option": "Para reducir el costo de las licencias de software.",
+          "correct": false
+        },
+        {
+          "option": "Para mejorar la experiencia del cliente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué acciones puede llevar a cabo un analista de ciberseguridad para promover una cultura de seguridad en una empresa?",
+      "a": [
+        {
+          "option": "Organizar sesiones de formación y concienciación en ciberseguridad.",
+          "correct": true
+        },
+        {
+          "option": "Enviar correos electrónicos con consejos de seguridad a los empleados.",
+          "correct": false
+        },
+        {
+          "option": "Instalar software antivirus en los computadores de la empresa.",
+          "correct": false
+        },
+        {
+          "option": "Bloquear el acceso a las redes sociales en el trabajo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué roles ejecutivos dentro de una empresa son responsables de la cultura de ciberseguridad?",
+      "a": [
+        {
+          "option": "CEO, CSO y CISO.",
+          "correct": true
+        },
+        {
+          "option": "Gerente de TI, Director de Recursos Humanos y Director de Marketing.",
+          "correct": false
+        },
+        {
+          "option": "Jefe de seguridad física, Contador y Jefe de Operaciones.",
+          "correct": false
+        },
+        {
+          "option": "Todos los empleados de la empresa.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cómo podrías convencer al CEO de una empresa sin cultura de ciberseguridad de la importancia de implementarla?",
+      "a": [
+        {
+          "option": "Presentar un informe con datos sobre las amenazas cibernéticas y el impacto económico de los ataques.",
+          "correct": true
+        },
+        {
+          "option": "Amenazar con renunciar si no se implementa una cultura de ciberseguridad.",
+          "correct": false
+        },
+        {
+          "option": "Compartir historias de éxito de otras empresas que han implementado una cultura de ciberseguridad.",
+          "correct": false
+        },
+        {
+          "option": "Exigir al CEO que tome un curso de formación en ciberseguridad.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el cumplimiento legal y normativo en ciberseguridad?",
+      "a": [
+        {
+          "option": "Conjunto de leyes y regulaciones que las organizaciones deben cumplir para proteger la información y mitigar riesgos cibernéticos.",
+          "correct": true
+        },
+        {
+          "option": "Software antivirus que protege los computadores de malware y virus.",
+          "correct": false
+        },
+        {
+          "option": "Conjunto de normas para el diseño de sitios web y aplicaciones móviles.",
+          "correct": false
+        },
+        {
+          "option": "Guía para la creación de contraseñas seguras y robustas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por qué es importante el cumplimiento legal y normativo en ciberseguridad?",
+      "a": [
+        {
+          "option": "Protege los datos personales, previene brechas de datos, aumenta la confianza del cliente y mitiga riesgos cibernéticos.",
+          "correct": true
+        },
+        {
+          "option": "Reduce el costo de las licencias de software y aumenta la productividad de los empleados.",
+          "correct": false
+        },
+        {
+          "option": "Mejora la experiencia del usuario en las redes sociales.",
+          "correct": false
+        },
+        {
+          "option": "Disminuye la cantidad de correos electrónicos spam que reciben los empleados.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué medidas de cumplimiento se pueden implementar para cumplir con las regulaciones de seguridad cibernética?",
+      "a": [
+        {
+          "option": "Implementar políticas y procedimientos de seguridad, realizar evaluaciones de riesgos, y brindar formación en seguridad a los empleados.",
+          "correct": true
+        },
+        {
+          "option": "Utilizar software de control parental para bloquear contenido inapropiado en internet.",
+          "correct": false
+        },
+        {
+          "option": "Comprar un seguro contra robo de datos para proteger la información financiera de la empresa.",
+          "correct": false
+        },
+        {
+          "option": "Deshabilitar el uso de dispositivos móviles en el trabajo para evitar accesos no autorizados.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué son las normas y estándares de seguridad, como ISO 27001, ENS y NIST?",
+      "a": [
+        {
+          "option": "Marcos y directrices que ayudan a las organizaciones a implementar medidas de cumplimiento de forma efectiva.",
+          "correct": true
+        },
+        {
+          "option": "Leyes que regulan el uso de internet y las redes sociales en diferentes países.",
+          "correct": false
+        },
+        {
+          "option": "Programas de certificación para profesionales en ciberseguridad.",
+          "correct": false
+        },
+        {
+          "option": "Herramientas para la gestión de contraseñas y la protección de datos personales.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué beneficios ofrece el cumplimiento de las normas y estándares de seguridad?",
+      "a": [
+        {
+          "option": "Mejora la postura de seguridad, protege los activos de información y cumple con las regulaciones de seguridad.",
+          "correct": true
+        },
+        {
+          "option": "Aumenta las ventas de la empresa y mejora la satisfacción del cliente.",
+          "correct": false
+        },
+        {
+          "option": "Reduce el costo de mantenimiento de los sistemas informáticos.",
+          "correct": false
+        },
+        {
+          "option": "Disminuye la cantidad de horas de trabajo de los empleados.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

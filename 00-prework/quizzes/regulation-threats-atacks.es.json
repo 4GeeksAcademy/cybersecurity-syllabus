@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "regulation-threats-atacks-es",
+    "name":    "Regulaciones, amenazas y ataques",
+    "status":    "draft",
+    "main":    "Quiz del preework de ciberseguridad",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "¿Cuál es la principal ley que regula la protección de datos personales en España?",
+      "a": [
+        {
+          "option": "Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales (LOPDGDD)",
+          "correct": true
+        },
+        {
+          "option": "Código Penal",
+          "correct": false
+        },
+        {
+          "option": "Esquema Nacional de Seguridad (ENS)",
+          "correct": false
+        },
+        {
+          "option": "Reglamento General de Protección de Datos (GDPR)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué organismo público se dedica a la promoción de la ciberseguridad en España?",
+      "a": [
+        {
+          "option": "Instituto Nacional de Ciberseguridad (INCIBE)",
+          "correct": true
+        },
+        {
+          "option": "Ministerio del Interior",
+          "correct": false
+        },
+        {
+          "option": "Guardia Civil",
+          "correct": false
+        },
+        {
+          "option": "Agencia Española de Protección de Datos (AEPD)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué normativa establece los principios y requisitos de seguridad que deben cumplir los sistemas y servicios electrónicos de las administraciones públicas en España?",
+      "a": [
+        {
+          "option": "Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales (LOPDGDD)",
+          "correct": false
+        },
+        {
+          "option": "Código Penal",
+          "correct": false
+        },
+        {
+          "option": "Esquema Nacional de Seguridad (ENS)",
+          "correct": true
+        },
+        {
+          "option": "Reglamento General de Protección de Datos (GDPR)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué ley de la Unión Europea establece normas para la protección de datos personales y la privacidad de los ciudadanos?",
+      "a": [
+        {
+          "option": "Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales (LOPDGDD)",
+          "correct": false
+        },
+        {
+          "option": "Código Penal",
+          "correct": false
+        },
+        {
+          "option": "Esquema Nacional de Seguridad (ENS)",
+          "correct": false
+        },
+        {
+          "option": "Reglamento General de Protección de Datos (GDPR)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes NO es una consecuencia del incumplimiento de las leyes y regulaciones en ciberseguridad y protección de datos?",
+      "a": [
+        {
+          "option": "Daño a la reputación",
+          "correct": false
+        },
+        {
+          "option": "Aumento de las ventas",
+          "correct": true
+        },
+        {
+          "option": "Interrupción del negocio",
+          "correct": false
+        },
+        {
+          "option": "Pérdida de oportunidades de negocio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿En qué se diferencia una ciberamenaza de un ciberataque?",
+      "a": [
+        {
+          "option": "La ciberamenaza es un evento potencial, mientras que el ciberataque es una acción concreta.",
+          "correct": true
+        },
+        {
+          "option": "La ciberamenaza es siempre externa, mientras que el ciberataque puede ser interno o externo.",
+          "correct": false
+        },
+        {
+          "option": "La ciberamenaza no tiene como objetivo causar daño, mientras que el ciberataque sí.",
+          "correct": false
+        },
+        {
+          "option": "La ciberamenaza solo afecta a sistemas informáticos, mientras que el ciberataque puede afectar también a datos y redes.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes NO es una ciberamenaza común?",
+      "a": [
+        {
+          "option": "Vulnerabilidades de software",
+          "correct": false
+        },
+        {
+          "option": "Software o hardware obsoleto",
+          "correct": false
+        },
+        {
+          "option": "Actualizaciones de software",
+          "correct": true
+        },
+        {
+          "option": "Redes WiFi débiles o de libre acceso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes NO es un ciberataque común?",
+      "a": [
+        {
+          "option": "Ransomware",
+          "correct": false
+        },
+        {
+          "option": "Phishing",
+          "correct": false
+        },
+        {
+          "option": "Actualización de software",
+          "correct": true
+        },
+        {
+          "option": "Ataque de Día Cero",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal de un ataque de ransomware?",
+      "a": [
+        {
+          "option": "Robar información confidencial",
+          "correct": false
+        },
+        {
+          "option": "Inutilizar un sistema o red",
+          "correct": false
+        },
+        {
+          "option": "Secuestrar la información y solicitar un rescate",
+          "correct": true
+        },
+        {
+          "option": "Suplantar la identidad de un usuario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es un ataque de 'Hombre en el Medio' (MitM)?",
+      "a": [
+        {
+          "option": "Un ataque que satura un servidor o red con tráfico falso.",
+          "correct": false
+        },
+        {
+          "option": "Un ataque que intenta adivinar una contraseña mediante fuerza bruta.",
+          "correct": false
+        },
+        {
+          "option": "Un ataque que intercepta y manipula la comunicación entre dos partes.",
+          "correct": true
+        },
+        {
+          "option": "Un ataque que inyecta código malicioso en aplicaciones web.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
