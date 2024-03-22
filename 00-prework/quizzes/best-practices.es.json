@@ -1,0 +1,329 @@
+{
+  "info": {
+    "slug":    "best-practices-es",
+    "name":    "Buenas prácticas en ciberseguridad",
+    "status":    "draft",
+    "main":    "Quiz del preework de ciberseguridad",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "¿Qué es la criptografía en informática y cuál es su objetivo principal?",
+      "a": [
+        {
+          "option": "Es la ciencia que estudia los códigos secretos.",
+          "correct": false
+        },
+        {
+          "option": "Es una rama de la informática que se ocupa de la seguridad de las comunicaciones.",
+          "correct": false
+        },
+        {
+          "option": "Es un conjunto de técnicas para cifrar y descifrar información.",
+          "correct": true
+        },
+        {
+          "option": "Es un método para proteger la integridad de los datos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son los dos tipos principales de criptografía?",
+      "a": [
+        {
+          "option": "Criptografía simétrica y asimétrica.",
+          "correct": true
+        },
+        {
+          "option": "Criptografía de clave pública y privada.",
+          "correct": false
+        },
+        {
+          "option": "Criptografía de bloque y flujo.",
+          "correct": false
+        },
+        {
+          "option": "Criptografía hash y digital.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿En qué se diferencia la criptografía simétrica de la asimétrica?",
+      "a": [
+        {
+          "option": "La criptografía simétrica usa una sola clave para cifrar y descifrar, mientras que la asimétrica usa dos claves diferentes.",
+          "correct": true
+        },
+        {
+          "option": "La criptografía simétrica es más rápida que la asimétrica.",
+          "correct": true
+        },
+        {
+          "option": "La criptografía asimétrica es más segura que la simétrica.",
+          "correct": false
+        },
+        {
+          "option": "La criptografía simétrica solo se usa para comunicaciones en línea, mientras que la asimétrica se usa para almacenamiento de datos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son algunos ejemplos de algoritmos de cifrado simétrico y asimétrico?",
+      "a": [
+        {
+          "option": "Simétrico: AES, DES. Asimétrico: RSA, ECC.",
+          "correct": true
+        },
+        {
+          "option": "Simétrico: RSA, ECC. Asimétrico: AES, DES.",
+          "correct": false
+        },
+        {
+          "option": "Simétrico: Hash, Digital. Asimétrico: Bloque, Flujo.",
+          "correct": false
+        },
+        {
+          "option": "No existen algoritmos de cifrado simétrico y asimétrico.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Para qué se utiliza la criptografía en informática?",
+      "a": [
+        {
+          "option": "Para proteger la confidencialidad de la información.",
+          "correct": true
+        },
+        {
+          "option": "Para garantizar la integridad de los datos.",
+          "correct": true
+        },
+        {
+          "option": "Para permitir la autenticación de usuarios y sistemas.",
+          "correct": true
+        },
+        {
+          "option": "Para todas las a anteriores.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal de la seguridad de la información en una organización?",
+      "a": [
+        {
+          "option": "Proteger la confidencialidad, disponibilidad e integridad de la información.",
+          "correct": true
+        },
+        {
+          "option": "Reducir costos operativos.",
+          "correct": false
+        },
+        {
+          "option": "Aumentar la productividad de los empleados.",
+          "correct": false
+        },
+        {
+          "option": "Mejorar la experiencia del cliente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la principal responsabilidad de los usuarios en la seguridad de la información?",
+      "a": [
+        {
+          "option": "Utilizar contraseñas seguras y únicas para todas las cuentas.",
+          "correct": true
+        },
+        {
+          "option": "Mantener el sistema operativo y las aplicaciones actualizadas.",
+          "correct": false
+        },
+        {
+          "option": "Reportar incidentes de seguridad al equipo de TI.",
+          "correct": false
+        },
+        {
+          "option": "Todas las a anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es una buena práctica para proteger los datos en dispositivos USB?",
+      "a": [
+        {
+          "option": "Formatear el dispositivo USB antes de usarlo.",
+          "correct": false
+        },
+        {
+          "option": "Utilizar un software antivirus para escanear el dispositivo USB.",
+          "correct": true
+        },
+        {
+          "option": "Compartir el dispositivo USB con otros usuarios.",
+          "correct": false
+        },
+        {
+          "option": "Almacenar información confidencial en el dispositivo USB sin protección.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el acceso basado en el principio de menor privilegio?",
+      "a": [
+        {
+          "option": "Otorgar a los usuarios el mínimo acceso necesario para realizar sus tareas.",
+          "correct": true
+        },
+        {
+          "option": "Otorgar a los usuarios acceso a todos los sistemas y datos de la organización.",
+          "correct": false
+        },
+        {
+          "option": "Permitir a los usuarios cambiar sus propios permisos de acceso.",
+          "correct": false
+        },
+        {
+          "option": "Restringir el acceso a la información confidencial solo a la alta gerencia.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la mejor manera de proteger los datos confidenciales en caso de un robo de computadora portátil?",
+      "a": [
+        {
+          "option": "Utilizar un software de cifrado de disco.",
+          "correct": true
+        },
+        {
+          "option": "Almacenar la información confidencial en la nube.",
+          "correct": false
+        },
+        {
+          "option": "Compartir la contraseña de la computadora portátil con un compañero de trabajo.",
+          "correct": false
+        },
+        {
+          "option": "No tomar ninguna medida, ya que el robo de computadoras portátiles es inevitable.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la protección de la información y la privacidad de datos?",
+      "a": [
+        {
+          "option": "Prácticas y medidas para salvaguardar la información y datos contra accesos no autorizados, robo, pérdida o uso indebido.",
+          "correct": true
+        },
+        {
+          "option": "Conjunto de leyes que regulan el uso de internet y las redes sociales.",
+          "correct": false
+        },
+        {
+          "option": "Técnicas para mejorar la velocidad y el rendimiento de la red.",
+          "correct": false
+        },
+        {
+          "option": "Forma de controlar el acceso a los datos personales en las redes sociales.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el cifrado de datos y cómo contribuye a la protección de la información?",
+      "a": [
+        {
+          "option": "Proceso de convertir datos en un formato ilegible para proteger la confidencialidad.",
+          "correct": true
+        },
+        {
+          "option": "Método para comprimir datos y ahorrar espacio de almacenamiento.",
+          "correct": false
+        },
+        {
+          "option": "Técnica para eliminar datos sensibles de forma permanente.",
+          "correct": false
+        },
+        {
+          "option": "Sistema para crear copias de seguridad de datos en la nube.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el control de acceso físico y lógico y cómo se implementa?",
+      "a": [
+        {
+          "option": "Conjunto de medidas para restringir el acceso a recursos físicos y digitales.",
+          "correct": true
+        },
+        {
+          "option": "Sistema para monitorear el tráfico en la red y detectar intrusiones.",
+          "correct": false
+        },
+        {
+          "option": "Método para autenticar usuarios y dispositivos en una red.",
+          "correct": false
+        },
+        {
+          "option": "Herramienta para crear y administrar contraseñas seguras.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la protección de la información confidencial y por qué es importante?",
+      "a": [
+        {
+          "option": "Prácticas para salvaguardar información crítica, sensible o de valor estratégico para la empresa.",
+          "correct": true
+        },
+        {
+          "option": "Conjunto de leyes que regulan la protección de datos personales.",
+          "correct": false
+        },
+        {
+          "option": "Técnica para enmascarar datos confidenciales en una base de datos.",
+          "correct": false
+        },
+        {
+          "option": "Sistema para controlar el acceso a información pública en internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué medidas de ciberseguridad se pueden implementar para proteger la información confidencial?",
+      "a": [
+        {
+          "option": "Cifrado de datos, control de acceso, gestión de identidades y accesos, auditoría y monitorización.",
+          "correct": true
+        },
+        {
+          "option": "Utilizar software antivirus y mantener el sistema operativo actualizado.",
+          "correct": false
+        },
+        {
+          "option": "Crear copias de seguridad de datos en un disco duro externo.",
+          "correct": false
+        },
+        {
+          "option": "Compartir contraseñas con compañeros de trabajo para facilitar el acceso a la información.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

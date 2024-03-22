@@ -1,0 +1,333 @@
+{
+  "info": {
+    "slug":    "basic-concepts-es",
+    "name":    "Conceptos básicos",
+    "status":    "draft",
+    "main":    "Quiz del preework de ciberseguridad",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "q": [
+    {
+      "q": "¿Qué es la tecnología de la información (IT)?",
+      "a": [
+        {
+          "option": "Es la rama de la ingeniería que se encarga del diseño y construcción de robots.",
+          "correct": false
+        },
+        {
+          "option": "Es el conjunto de herramientas y procesos que permiten el tratamiento automático de la información.",
+          "correct": true
+        },
+        {
+          "option": "Es el estudio de las redes sociales y cómo estas impactan en la sociedad.",
+          "correct": false
+        },
+        {
+          "option": "Es la ciencia que estudia la creación de inteligencia artificial.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son los principales componentes de un computador?",
+      "a": [
+        {
+          "option": "Software, hardware y firmware.",
+          "correct": true
+        },
+        {
+          "option": "Memoria RAM, disco duro y tarjeta madre.",
+          "correct": false
+        },
+        {
+          "option": "Procesador, teclado y monitor.",
+          "correct": false
+        },
+        {
+          "option": "Batería, cámara y puertos USB.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el IoT (Internet de las Cosas)?",
+      "a": [
+        {
+          "option": "Es una red global de computadoras que conecta a personas y organizaciones.",
+          "correct": false
+        },
+        {
+          "option": "Es una tecnología que permite a los dispositivos físicos conectarse a internet y entre sí.",
+          "correct": true
+        },
+        {
+          "option": "Es un tipo de software que se utiliza para proteger los datos de los usuarios.",
+          "correct": false
+        },
+        {
+          "option": "Es un lenguaje de programación que se utiliza para crear aplicaciones web.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la ciberseguridad?",
+      "a": [
+        {
+          "option": "Es la práctica de proteger los sistemas informáticos y las redes de ataques.",
+          "correct": true
+        },
+        {
+          "option": "Es el estudio de las leyes que regulan el uso de internet.",
+          "correct": false
+        },
+        {
+          "option": "Es un tipo de software que se utiliza para detectar y eliminar malware.",
+          "correct": false
+        },
+        {
+          "option": "Es una profesión que se dedica a la investigación de delitos informáticos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué son los lenguajes de programación y por qué son importantes en la ciberseguridad?",
+      "a": [
+        {
+          "option": "Son herramientas que permiten a los humanos crear instrucciones para que las computadoras las ejecuten. Son importantes en la ciberseguridad porque se utilizan para crear software de seguridad y para analizar malware.",
+          "correct": true
+        },
+        {
+          "option": "Son conjuntos de reglas que rigen la comunicación entre dispositivos en una red. Son importantes en la ciberseguridad porque permiten asegurar la comunicación entre diferentes equipos.",
+          "correct": false
+        },
+        {
+          "option": "Son tipos de software que se utilizan para almacenar información de forma segura. Son importantes en la ciberseguridad porque permiten proteger los datos de los usuarios.",
+          "correct": false
+        },
+        {
+          "option": "Son métodos para encriptar información y protegerla de accesos no autorizados. Son importantes en la ciberseguridad porque permiten asegurar la confidencialidad de los datos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la ciberseguridad?",
+      "a": [
+        {
+          "option": "Es la práctica de proteger los sistemas informáticos y las redes de ataques.",
+          "correct": true
+        },
+        {
+          "option": "Es el estudio de las leyes que regulan el uso de internet.",
+          "correct": false
+        },
+        {
+          "option": "Es un tipo de software que se utiliza para detectar y eliminar malware.",
+          "correct": false
+        },
+        {
+          "option": "Es una profesión que se dedica a la investigación de delitos informáticos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son los tres pilares de la ciberseguridad?",
+      "a": [
+        {
+          "option": "Confidencialidad, disponibilidad e integridad.",
+          "correct": true
+        },
+        {
+          "option": "Prevención, detección y respuesta.",
+          "correct": false
+        },
+        {
+          "option": "Hardware, software y redes.",
+          "correct": false
+        },
+        {
+          "option": "Ataques, amenazas y vulnerabilidades.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es un ciberataque?",
+      "a": [
+        {
+          "option": "Es cualquier acción realizada intencionalmente que rompa uno o más de los tres pilares de la ciberseguridad.",
+          "correct": true
+        },
+        {
+          "option": "Es un accidente cibernético que ocasiona un desastre pero que no fue ejecutado intencionalmente.",
+          "correct": false
+        },
+        {
+          "option": "Es un tipo de software que se utiliza para proteger los datos de los usuarios.",
+          "correct": false
+        },
+        {
+          "option": "Es un canal por el que puede ser posible un ciberataque.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué tipos de ataques cibernéticos se mencionan en el artículo?",
+      "a": [
+        {
+          "option": "Phishing, ingeniería social, robo de datos y extorsión.",
+          "correct": true
+        },
+        {
+          "option": "Malware, ransomware, ataques DDoS y ataques a la cadena de suministro.",
+          "correct": false
+        },
+        {
+          "option": "Ataques de fuerza bruta, ataques de diccionario y ataques de inyección de código.",
+          "correct": false
+        },
+        {
+          "option": "Suplantación de identidad, denegación de servicio y ataques a servidores web.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por qué la ciberseguridad es importante para las empresas?",
+      "a": [
+        {
+          "option": "Para proteger sus datos e información confidencial.",
+          "correct": true
+        },
+        {
+          "option": "Para ahorrar dinero en costes de seguridad.",
+          "correct": false
+        },
+        {
+          "option": "Para cumplir con las regulaciones legales.",
+          "correct": true
+        },
+        {
+          "option": "Para mejorar la imagen y reputación de la empresa.",
+          "correct": true
+        },
+        {
+          "option": "Todas las anteriores.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la tríada de la seguridad informática?",
+      "a": [
+        {
+          "option": "Un conjunto de tres principios básicos para proteger la información: Confidencialidad, Integridad y Disponibilidad.",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software antivirus que protege contra tres tipos específicos de malware.",
+          "correct": false
+        },
+        {
+          "option": "Un método de autenticación que utiliza tres factores para verificar la identidad del usuario.",
+          "correct": false
+        },
+        {
+          "option": "Una forma de controlar el acceso a los recursos informáticos mediante tres niveles de permisos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué significa que la información sea confidencial?",
+      "a": [
+        {
+          "option": "Que solo las personas autorizadas puedan acceder a ella.",
+          "correct": true
+        },
+        {
+          "option": "Que sea precisa y completa.",
+          "correct": false
+        },
+        {
+          "option": "Que esté disponible para su uso cuando sea necesario.",
+          "correct": false
+        },
+        {
+          "option": "Que sea protegida contra el malware y otras amenazas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué medidas se pueden tomar para garantizar la integridad de la información?",
+      "a": [
+        {
+          "option": "Utilizar firmas digitales para verificar la autenticidad de los datos.",
+          "correct": true
+        },
+        {
+          "option": "Realizar copias de seguridad regulares de la información.",
+          "correct": true
+        },
+        {
+          "option": "Implementar políticas de seguridad para controlar el acceso a la información.",
+          "correct": true
+        },
+        {
+          "option": "Todas las anteriores.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la disponibilidad en el contexto de la seguridad informática?",
+      "a": [
+        {
+          "option": "Que la información esté disponible para su uso cuando sea necesario.",
+          "correct": true
+        },
+        {
+          "option": "Que la información sea confidencial y no pueda ser accedida por personas no autorizadas.",
+          "correct": false
+        },
+        {
+          "option": "Que la información sea precisa y completa.",
+          "correct": false
+        },
+        {
+          "option": "Que la información esté protegida contra el malware y otras amenazas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué tipo de ataque utiliza técnicas de ingeniería social para engañar a los usuarios y obtener información confidencial?",
+      "a": [
+        {
+          "option": "Phishing",
+          "correct": true
+        },
+        {
+          "option": "Malware",
+          "correct": false
+        },
+        {
+          "option": "Ataque de fuerza bruta",
+          "correct": false
+        },
+        {
+          "option": "Denegación de servicio (DoS)",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "incident-management-security-standards-es",
+    "name":    "Manejo de incidentes y estándares de seguridad",
+    "status":    "draft",
+    "main":    "Quiz del preework de ciberseguridad",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "¿Qué son las políticas y procedimientos de ciberseguridad y por qué son importantes?",
+      "a": [
+        {
+          "option": "Son directrices que establecen las reglas y pasos a seguir para proteger los activos digitales y mitigar riesgos cibernéticos.",
+          "correct": true
+        },
+        {
+          "option": "Son programas informáticos que detectan y eliminan virus del computador.",
+          "correct": false
+        },
+        {
+          "option": "Son leyes que regulan el uso de internet y las redes sociales.",
+          "correct": false
+        },
+        {
+          "option": "Son cursos online que enseñan sobre seguridad informática.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué tipos de políticas y procedimientos de ciberseguridad existen?",
+      "a": [
+        {
+          "option": "Políticas de seguridad de la información, políticas de acceso y control de usuarios, políticas de contraseñas, etc.",
+          "correct": true
+        },
+        {
+          "option": "Políticas de vacaciones, políticas de vestimenta, políticas de uso del comedor.",
+          "correct": false
+        },
+        {
+          "option": "Políticas de precios, políticas de devoluciones, políticas de envío.",
+          "correct": false
+        },
+        {
+          "option": "Políticas de privacidad, políticas de cookies, políticas de publicidad.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son los pasos clave para crear e implementar políticas de seguridad?",
+      "a": [
+        {
+          "option": "Identificar objetivos, obtener compromiso de la alta dirección, formar un equipo de seguridad, evaluar riesgos, desarrollar políticas y aplicarlas.",
+          "correct": true
+        },
+        {
+          "option": "Comprar software antivirus, instalar firewalls, contratar a un hacker ético.",
+          "correct": false
+        },
+        {
+          "option": "Realizar copias de seguridad, actualizar software, crear un plan de respuesta a incidentes.",
+          "correct": false
+        },
+        {
+          "option": "Cambiar las contraseñas regularmente, usar autenticación de dos factores, educar a los empleados.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la gestión de contraseñas seguras y por qué es importante?",
+      "a": [
+        {
+          "option": "Es la práctica de crear y utilizar contraseñas seguras y únicas para cada cuenta, para protegerlas del acceso no autorizado.",
+          "correct": true
+        },
+        {
+          "option": "Es la práctica de utilizar la misma contraseña para todas las cuentas, para facilitar el acceso.",
+          "correct": false
+        },
+        {
+          "option": "Es la práctica de compartir las contraseñas con amigos y familiares, para que puedan acceder a las cuentas en caso de necesidad.",
+          "correct": false
+        },
+        {
+          "option": "Es la práctica de escribir las contraseñas en un papel y guardarlas en un lugar seguro.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son las mejores prácticas para la gestión de contraseñas seguras?",
+      "a": [
+        {
+          "option": "Utilizar contraseñas largas y complejas, no reutilizarlas, usar un gestor de contraseñas, habilitar la autenticación de dos factores.",
+          "correct": true
+        },
+        {
+          "option": "Utilizar contraseñas cortas y fáciles de recordar, cambiarlas frequently, compartirlas con compañeros de trabajo.",
+          "correct": false
+        },
+        {
+          "option": "Utilizar la misma contraseña para todas las cuentas, escribirlas en un papel y guardarlas en el computador.",
+          "correct": false
+        },
+        {
+          "option": "No usar contraseñas, usar solo biometría para acceder a las cuentas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la gestión de incidentes de seguridad y por qué es importante?",
+      "a": [
+        {
+          "option": "Es un proceso para identificar, responder y mitigar amenazas y eventos de seguridad en una organización.",
+          "correct": true
+        },
+        {
+          "option": "Es un software que protege a los computadores de virus y malware.",
+          "correct": false
+        },
+        {
+          "option": "Es un conjunto de leyes que regulan el uso de internet y las redes sociales.",
+          "correct": false
+        },
+        {
+          "option": "Es un curso online que enseña sobre seguridad informática.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son las funciones clave de la gestión de incidentes de seguridad?",
+      "a": [
+        {
+          "option": "Detección, respuesta, investigación, mitigación y notificación.",
+          "correct": true
+        },
+        {
+          "option": "Comprar software antivirus, instalar firewalls, contratar a un hacker ético.",
+          "correct": false
+        },
+        {
+          "option": "Realizar copias de seguridad, actualizar software, crear un plan de respuesta a incidentes.",
+          "correct": false
+        },
+        {
+          "option": "Cambiar las contraseñas regularmente, usar autenticación de dos factores, educar a los empleados.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué son los procedimientos de gestión de incidentes y qué incluyen?",
+      "a": [
+        {
+          "option": "Son un conjunto de pasos y acciones para responder a incidentes de seguridad, incluyendo detección, evaluación, clasificación, contención, mitigación, recolección de evidencia, notificación, investigación, recuperación y documentación.",
+          "correct": true
+        },
+        {
+          "option": "Son políticas para el uso de internet y las redes sociales en la empresa.",
+          "correct": false
+        },
+        {
+          "option": "Son medidas para proteger los computadores de virus y malware.",
+          "correct": false
+        },
+        {
+          "option": "Son cursos online para enseñar a los empleados sobre seguridad informática.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la notificación y el manejo de brechas de seguridad?",
+      "a": [
+        {
+          "option": "Es el proceso de alertar a las partes interesadas sobre una brecha de seguridad y las acciones para contenerla, investigar, recuperar y comunicar.",
+          "correct": true
+        },
+        {
+          "option": "Es un software que protege a los computadores de hackers.",
+          "correct": false
+        },
+        {
+          "option": "Es un conjunto de leyes que regulan la privacidad de datos.",
+          "correct": false
+        },
+        {
+          "option": "Es un curso online que enseña sobre seguridad informática.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por qué es importante la notificación y el manejo adecuado de las brechas de seguridad?",
+      "a": [
+        {
+          "option": "Para cumplir con las regulaciones, preservar la reputación, minimizar daños y mejorar la seguridad.",
+          "correct": true
+        },
+        {
+          "option": "Para ahorrar dinero en la empresa.",
+          "correct": false
+        },
+        {
+          "option": "Para aumentar las ventas de la empresa.",
+          "correct": false
+        },
+        {
+          "option": "Para mejorar la imagen del CEO de la empresa.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
