@@ -71,7 +71,7 @@ Physical and logical access control are two critical components of information s
 
 | Definition | Importance | Example of Implementation |
 | --- | --- | --- |
-| Physical access control refers to the restriction of access to physical areas or resources within an organization, such as buildings, server rooms, offices, warehouses, and other physical locations. It is implemented to protect physical assets and ensure the security of facilities. | Physical access control is important because it prevents unauthorized entry to sensitive or valuable areas. This can help prevent theft, damage, and intrusion and ensure the safety of employees and visitors. | A simple example is the use of 
+| Physical access control refers to the restriction of access to physical areas or resources within an organization, such as buildings, server rooms, offices, warehouses, and other physical locations. It is implemented to protect physical assets and ensure the security of facilities. | Physical access control is important because it prevents unauthorized entry to sensitive or valuable areas. This can help prevent theft, damage, and intrusion and ensure the safety of employees and visitors. | A simple example is the use of access cards or electronic keys to enter an office building. Only people with authorized cards can unlock the doors and gain access to the interior. Biometric-based access control systems, such as fingerprint readers, can also be used to ensure more secure identification.
 
 ![Data Encryption](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/control-de-acceso.png?raw=true)
 
