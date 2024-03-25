@@ -31,7 +31,7 @@ Las empresas emiten facturas de miles o millones de dólares todos los días, im
 
 En la ciberseguridad existen tres pilares: **Confidencialidad**, **disponibilidad e integridad**. Tu deber como profesional es proteger esos pilares como un objeto muy valioso.
 
-![Pilares de la Ciberseguridad](../assets/ciberseguridad.png)
+![Pilares de la Ciberseguridad](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ciberseguridad.png?raw=true)
 
 1. **Confidencialidad:**
 
