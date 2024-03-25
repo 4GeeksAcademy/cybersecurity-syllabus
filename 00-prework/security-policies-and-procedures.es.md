@@ -33,7 +33,7 @@ Estos son solo algunos ejemplos de políticas y procedimientos de ciberseguridad
 
 La creación y aplicación de políticas de seguridad es un proceso fundamental para garantizar la protección de los activos digitales y la gestión efectiva de riesgos cibernéticos en una organización. Aquí se describen los pasos clave para crear y aplicar políticas de seguridad:
 
-![ISO](../assets/ISO.png)
+![ISO](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ISO.png?raw=true)
 
 ### Creación de Políticas de Seguridad:
 
@@ -58,25 +58,25 @@ La creación y aplicación de políticas de seguridad es un proceso fundamental 
 
 La gestión de contraseñas seguras es un aspecto crítico de la ciberseguridad, ya que las contraseñas son la primera línea de defensa contra el acceso no autorizado a cuentas y sistemas. Aquí tienes información sobre cómo gestionar contraseñas de manera segura:
 
-**1. Contraseñas Fuertes:** Utiliza contraseñas fuertes y únicas para cada cuenta. Una contraseña fuerte suele incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Evita contraseñas obvias o predecibles, como "123456" o "password".
+1. **Contraseñas Fuertes:** Utiliza contraseñas fuertes y únicas para cada cuenta. Una contraseña fuerte suele incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Evita contraseñas obvias o predecibles, como "123456" o "password".
 
-**2. Longitud:** Cuanto más larga sea una contraseña, más segura será. Se recomienda una longitud mínima de 12 caracteres.
+2. **Longitud:** Cuanto más larga sea una contraseña, más segura será. Se recomienda una longitud mínima de 12 caracteres.
 
-**3. Evitar Información Personal:** Evita utilizar información personal, como nombres, fechas de nacimiento o números de teléfono, en tus contraseñas. Esta información es fácilmente accesible o adivinable por los atacantes.
+3. **Evitar Información Personal:** Evita utilizar información personal, como nombres, fechas de nacimiento o números de teléfono, en tus contraseñas. Esta información es fácilmente accesible o adivinable por los atacantes.
 
-**4. No Reutilizar Contraseñas:** No uses la misma contraseña para múltiples cuentas. Si un sitio web o servicio es comprometido y utilizas la misma contraseña en otros lugares, todas tus cuentas estarán en riesgo.
+4. **No Reutilizar Contraseñas:** No uses la misma contraseña para múltiples cuentas. Si un sitio web o servicio es comprometido y utilizas la misma contraseña en otros lugares, todas tus cuentas estarán en riesgo.
 
-**5. Uso de Gestor de Contraseñas:** Considera utilizar un gestor de contraseñas confiable para almacenar y administrar tus contraseñas de manera segura. Estas herramientas generan contraseñas complejas y las almacenan en un repositorio cifrado.
+5. **Uso de Gestor de Contraseñas:** Considera utilizar un gestor de contraseñas confiable para almacenar y administrar tus contraseñas de manera segura. Estas herramientas generan contraseñas complejas y las almacenan en un repositorio cifrado.
 
-**6. Autenticación de Dos Factores (2FA):** Donde sea posible, habilita la autenticación de dos factores (2FA) en tus cuentas. Esto agrega una capa adicional de seguridad al requerir un segundo método de autenticación, como un código enviado a tu teléfono, además de la contraseña.
+6. **Autenticación de Dos Factores (2FA):** Donde sea posible, habilita la autenticación de dos factores (2FA) en tus cuentas. Esto agrega una capa adicional de seguridad al requerir un segundo método de autenticación, como un código enviado a tu teléfono, además de la contraseña.
 
-**7. Cambio Regular de Contraseñas:** Cambia tus contraseñas regularmente, especialmente en cuentas sensibles. Sin embargo, no es necesario cambiarlas excesivamente; el enfoque debe estar en la calidad de la contraseña en lugar de la frecuencia de cambio.
+7. **Cambio Regular de Contraseñas:** Cambia tus contraseñas regularmente, especialmente en cuentas sensibles. Sin embargo, no es necesario cambiarlas excesivamente; el enfoque debe estar en la calidad de la contraseña en lugar de la frecuencia de cambio.
 
-**8. Cuidado con el Phishing:** Ten precaución al ingresar tus contraseñas en sitios web o correos electrónicos sospechosos. Los atacantes a menudo utilizan tácticas de phishing para robar contraseñas.
+8. **Cuidado con el Phishing:** Ten precaución al ingresar tus contraseñas en sitios web o correos electrónicos sospechosos. Los atacantes a menudo utilizan tácticas de phishing para robar contraseñas.
 
-**9. Almacenamiento Seguro:** Si decides no utilizar un gestor de contraseñas, almacena tus contraseñas en un lugar físico seguro y fuera de la vista de otros.
+9. **Almacenamiento Seguro:** Si decides no utilizar un gestor de contraseñas, almacena tus contraseñas en un lugar físico seguro y fuera de la vista de otros.
 
-**10. Concienciación:** Educa a tus empleados, familiares o compañeros de trabajo sobre la importancia de las contraseñas seguras y las prácticas de seguridad cibernética en general.
+10. **Concienciación:** Educa a tus empleados, familiares o compañeros de trabajo sobre la importancia de las contraseñas seguras y las prácticas de seguridad cibernética en general.
 
 La gestión de contraseñas seguras es esencial para proteger cuentas en línea y la información personal o empresarial. Una contraseña segura y bien administrada es una parte fundamental de la estrategia general de ciberseguridad.
 
