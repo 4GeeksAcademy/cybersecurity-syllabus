@@ -20,7 +20,7 @@ Network security also involves protection against specific threats such as malwa
 
 > In summary, network security is a critical aspect of cybersecurity that focuses on protecting communication infrastructure and information in a network environment. It involves authentication, access control, threat management, and the protection of data in transit, among other aspects, to ensure that networks are secure and reliable in an increasingly digital and connected world.
 
-![Network Security](../assets/seguridad.png)
+![Network Security](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/seguridad.png?raw=true)
 
 ## **Firewall and Packet Filtering**
 
@@ -37,7 +37,7 @@ Firewalls serve various purposes, including:
 3. **Network Segmentation:** Firewalls are used to divide a network into segments or security zones. This reduces the attack surface and limits the spread of threats within the network.
 4. **Logging and Auditing:** Firewalls often have logging capability to record network activities. This is useful for monitoring and reviewing security events.
 
-![Firewall](../assets/firewall.png)
+![Firewall](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/firewall.png?raw=true)
 
 ### Packet Filtering
 
@@ -82,7 +82,7 @@ A **VPN** (Virtual Private Network) is a technology that creates a secure and en
 | Public Access VPN | Offers VPN services through public service providers. Users can subscribe to these services to protect their online privacy. |
 | Layer 2 and Layer 3 VPN | Different types of VPNs can operate at different network layers (such as Layer 2 or Layer 3) and have specific applications based on the organization's needs. |
 
-![VPN](../assets/VPN.png)
+![VPN](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/VPN.png?raw=true)
 
 > 📖 A **VPN** is an essential tool for protecting online privacy and security, as well as for establishing secure connections on public networks or accessing network resources remotely. Its ability to encrypt data and hide IP addresses makes it valuable for both individual users and companies looking to protect the confidentiality of their communications and data.
 
