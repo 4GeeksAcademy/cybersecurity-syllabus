@@ -20,7 +20,7 @@ La seguridad en la red también implica la protección contra amenazas específi
 
 > En resumen, la seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información en un entorno de red. Implica la autenticación, el control de acceso, la gestión de amenazas y la protección de datos en tránsito, entre otros aspectos, para garantizar que las redes sean seguras y confiables en un mundo cada vez más digital y conectado.
 
-![Seguridad de la Red](../assets/seguridad.png)
+![Seguridad de la Red](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/seguridad.png?raw=true)
 
 ## **Firewall y filtrado de paquetes**
 
@@ -37,7 +37,7 @@ Los firewalls se utilizan para varios propósitos, que incluyen:
 3. **Segmentación de Red:** Los firewalls se utilizan para dividir una red en segmentos o zonas de seguridad. Esto reduce la superficie de ataque y limita la propagación de amenazas dentro de la red.
 4. **Registro y Auditoría:** Los firewalls suelen tener capacidad de registro para registrar actividades de red. Esto es útil para la monitorización y la revisión de eventos de seguridad.
 
-![Firewall](../assets/firewall.png)
+![Firewall](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/firewall.png?raw=true)
 
 ### Filtrado de Paquetes
 
@@ -82,7 +82,7 @@ Una **VPN** (Virtual Private Network, en español Red Privada Virtual) es una te
 | VPN de Acceso Público | Ofrece servicios de VPN a través de proveedores de servicios públicos. Los usuarios pueden suscribirse a estos servicios para proteger su privacidad en línea. |
 | VPN de Capa 2 y Capa 3 | Diferentes tipos de VPN pueden operar en capas de red diferentes (como la capa 2 o la capa 3) y tener aplicaciones específicas según las necesidades de la organización. |
 
-![VPN](../assets/VPN.png)
+![VPN](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/VPN.png?raw=true)
 
 > 📖 Una **VPN** es una herramienta esencial para proteger la privacidad y la seguridad en línea, así como para establecer conexiones seguras en redes públicas o para acceder a recursos de red de forma remota. Su capacidad para cifrar datos y ocultar direcciones IP la hace valiosa tanto para usuarios individuales como para empresas que buscan proteger la confidencialidad de sus comunicaciones y datos.
 
