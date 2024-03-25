@@ -46,14 +46,17 @@ Puede determinarse al momento de crear la maquina:
 ![Memoria de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-memoria.png?raw=true)
 
 O puede modificarse después de haber sido creada la maquina, pero solo se puede cambiar mientras el huésped este apagado.
+
 ![Memoria de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-config-memoria.png?raw=true)
 
 ### CPU
 
 En este apartado se asignan la cantidad de procesadores que puede usar la maquina virtual. La cantidad de procesadores disponibles para asignar corresponde a los procesadores lógicos que tenga el anfitrión, por ejemplo: Con un procesador de 4 núcleos y 8 hilos, aparecen disponibles 8 procesadores.
+
 ![Procesadores de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-creacion-cpu.png?raw=true)
 
 Una vez creada la máquina tambien se pueden modificar los procesadores del huesped, e incluso se puede limitar el porcentaje del procesador anfitrion que tendrán permitido utilizar.
+
 ![Procesadores de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-config-memoria-cpu.png?raw=true)
 
 ### Almacenamiento y medios virtuales
@@ -61,34 +64,39 @@ Una vez creada la máquina tambien se pueden modificar los procesadores del hues
 El sistema operativo huesped se aloja en un disco duro virtual, es un archivo que simula un disco duro físico para la máquina virtual, y que ademas es portable (se puede mover facilmente a otra maquina) y tambien comprime los datos para ahorrar espacio de almacenamiento en el anfitrion.
 
 Al momento de crear la maquina se determina el nombre del archivo y la capacidad máxima del disco duro virtual. El archivo ira creciendo a medida que el huesped tenga mas y mas datos, hasta llegar a su capacidad máxima. De la misma forma, se pueden agregar discos preexistentes a una maquina virtual.
+
 ![Disco duro de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-creacion-dd.png?raw=true)
 
 Una vez creada la maquina con su respectivo disco, podremos ver y modificar las unidades virtuales en el "Administrador de medios virtuales". Esta herramienta nos muestra todos los discos duros virtuales, las Unidades de disco virtuales. En cada una de sus pestañas tendremos opciones de importar nuevas medios virtuales o importar alguno que ya exista, de esta manera podemos configurar maquinas virtuales con cualquier tipo de medios conectados para lograr simular el entorno que sea necesario.
+
 ![Menú de medios virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-menu-virtual-media.png?raw=true)
+
 ![Discos duros virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-virtual-media-drives.png?raw=true)
 
 En cuanto a los medios ópticos, estos son compuestos por archivos ISO que pueden ser descargados desde distintas partes y agregados a las maquinas virtuales. Estos archivos son el estándar mas utilizado para instaladores de sistemas operativos, tanto Windows como sistemas GNU/Linux; ambos disponibles desde sus respectivas web oficiales. Con la opcion "Añadir" de la pestaña de "Discos opticos"
+
 ![Discos ópticos virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-virtual-media-optical.png?raw=true)
+
 ![Discos ópticos virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-config-optical-es.png?raw=true)
 
 ### Red
 
-Tipo de adaptador de red: Determina cómo la máquina virtual se conecta a la red.
-Modo de red: Determina cómo la máquina virtual interactúa con la red del host.
+- Tipo de adaptador de red: Determina cómo la máquina virtual se conecta a la red.
+- Modo de red: Determina cómo la máquina virtual interactúa con la red del host.
 
 ### Otros recursos
 
-Dispositivos USB: Puedes conectar dispositivos USB a la máquina virtual.
-Sonido: Puedes configurar la salida de sonido de la máquina virtual.
-Carpetas compartidas: Puedes compartir carpetas entre la máquina virtual y el sistema operativo host.
+1. Dispositivos USB: Puedes conectar dispositivos USB a la máquina virtual.
+2. Sonido: Puedes configurar la salida de sonido de la máquina virtual.
+3. Carpetas compartidas: Puedes compartir carpetas entre la máquina virtual y el sistema operativo host.
 
-Para administrar los recursos de una máquina virtual en VirtualBox:
+#### Para administrar los recursos de una máquina virtual en VirtualBox:
 
-Abre VirtualBox y selecciona la máquina virtual que deseas configurar.
-Haz clic en "Configuración".
-Selecciona la pestaña de recursos que deseas configurar (memoria, CPU, almacenamiento, red, etc.).
-Modifica los valores de configuración según tus necesidades.
-Haz clic en "Aceptar" para guardar los cambios.
+1. Abre VirtualBox y selecciona la máquina virtual que deseas configurar.
+2. Haz clic en "Configuración".
+3. Selecciona la pestaña de recursos que deseas configurar (memoria, CPU, almacenamiento, red, etc).
+4. Modifica los valores de configuración según tus necesidades.
+5. Haz clic en "Aceptar" para guardar los cambios.
 
 ## Consejos para administrar los recursos de una máquina virtual:
 
@@ -97,4 +105,4 @@ Haz clic en "Aceptar" para guardar los cambios.
 - Configura el tipo de adaptador de red adecuado para la máquina virtual y al entorno que intentas simular, puede que necesites tener varias conexiones de red.
 - Comparte carpetas entre la máquina virtual y el sistema operativo host solo si es necesario.
 
-Es importante tener en cuenta que la cantidad de recursos que puedes asignar a una máquina virtual está limitada por los recursos disponibles en el sistema operativo host.
+> Es importante tener en cuenta que la cantidad de recursos que puedes asignar a una máquina virtual está limitada por los recursos disponibles en el sistema operativo host.
