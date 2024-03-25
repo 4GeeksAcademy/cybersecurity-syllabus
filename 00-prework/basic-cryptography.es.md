@@ -41,17 +41,17 @@ En general, tanto el cifrado simétrico como el cifrado asimétrico desempeñan 
 
 La criptografía se utiliza en una amplia variedad de aplicaciones para proteger la confidencialidad, integridad y autenticidad de la información en el mundo digital. Aquí tienes algunos de los usos más comunes de la criptografía:
 
-| Comunicaciones Seguras | La criptografía se utiliza para cifrar las comunicaciones en línea, como correos electrónicos, mensajes de texto y llamadas telefónicas. Esto garantiza que solo el destinatario autorizado pueda acceder y comprender el contenido del mensaje. |
+| **Comunicaciones Seguras** | La criptografía se utiliza para cifrar las comunicaciones en línea, como correos electrónicos, mensajes de texto y llamadas telefónicas. Esto garantiza que solo el destinatario autorizado pueda acceder y comprender el contenido del mensaje. |
 | --- | --- |
-| Transacciones Financieras: | La criptografía se emplea en las transacciones en línea y las operaciones bancarias para proteger la información financiera, como los números de tarjetas de crédito y las contraseñas. Esto evita el robo de datos y el fraude. |
-| Autenticación de Usuarios | En la autenticación, la criptografía se utiliza para generar y verificar firmas digitales, contraseñas y certificados digitales. Ayuda a confirmar que los usuarios son quienes dicen ser antes de permitirles acceder a sistemas y datos sensibles. |
-| Almacenamiento de Datos Seguro | La información almacenada en dispositivos, como discos duros y unidades USB, puede cifrarse para protegerla en caso de pérdida o robo. Incluso si un dispositivo se pierde, los datos permanecen inaccesibles sin la clave adecuada. |
-| Navegación Web Segura | La criptografía se utiliza para habilitar conexiones seguras a través del protocolo HTTPS en sitios web. Esto asegura que los datos transmitidos entre el navegador del usuario y el servidor web estén cifrados y protegidos. |
-| Protección de la Privacidad | En aplicaciones que tratan con datos personales, la criptografía ayuda a proteger la privacidad de los usuarios. Esto incluye aplicaciones de mensajería, redes sociales y servicios de almacenamiento en la nube. |
-| Firmas Digitales | La criptografía permite la creación de firmas digitales para documentos y transacciones electrónicas. Esto garantiza la autenticidad y la integridad de los documentos, ya que cualquier modificación sería detectable. |
-| Seguridad en Redes y Sistemas | La criptografía se utiliza en redes privadas virtuales (VPNs) para crear canales seguros entre dispositivos y encriptar el tráfico. También se emplea para proteger las contraseñas almacenadas en sistemas y para verificar la integridad de los archivos descargados. |
-| Protección de Propiedad Intelectual | Los creadores de contenido pueden utilizar la criptografía para proteger sus creaciones digitales, como música, películas y libros electrónicos, y evitar la piratería. |
-| Internet de las Cosas (IoT) | La criptografía asegura la comunicación entre dispositivos conectados en IoT, protegiendo los datos y evitando la manipulación no autorizada de dispositivos. |
+| **Transacciones Financieras **| La criptografía se emplea en las transacciones en línea y las operaciones bancarias para proteger la información financiera, como los números de tarjetas de crédito y las contraseñas. Esto evita el robo de datos y el fraude. |
+| **Autenticación de Usuarios** | En la autenticación, la criptografía se utiliza para generar y verificar firmas digitales, contraseñas y certificados digitales. Ayuda a confirmar que los usuarios son quienes dicen ser antes de permitirles acceder a sistemas y datos sensibles. |
+| **Almacenamiento de Datos Seguro** | La información almacenada en dispositivos, como discos duros y unidades USB, puede cifrarse para protegerla en caso de pérdida o robo. Incluso si un dispositivo se pierde, los datos permanecen inaccesibles sin la clave adecuada. |
+| **Navegación Web Segura** | La criptografía se utiliza para habilitar conexiones seguras a través del protocolo HTTPS en sitios web. Esto asegura que los datos transmitidos entre el navegador del usuario y el servidor web estén cifrados y protegidos. |
+| **Protección de la Privacidad** | En aplicaciones que tratan con datos personales, la criptografía ayuda a proteger la privacidad de los usuarios. Esto incluye aplicaciones de mensajería, redes sociales y servicios de almacenamiento en la nube. |
+| **Firmas Digitales** | La criptografía permite la creación de firmas digitales para documentos y transacciones electrónicas. Esto garantiza la autenticidad y la integridad de los documentos, ya que cualquier modificación sería detectable. |
+| **Seguridad en Redes y Sistemas** | La criptografía se utiliza en redes privadas virtuales (VPNs) para crear canales seguros entre dispositivos y encriptar el tráfico. También se emplea para proteger las contraseñas almacenadas en sistemas y para verificar la integridad de los archivos descargados. |
+| **Protección de Propiedad Intelectual** | Los creadores de contenido pueden utilizar la criptografía para proteger sus creaciones digitales, como música, películas y libros electrónicos, y evitar la piratería. |
+| **Internet de las Cosas (IoT)** | La criptografía asegura la comunicación entre dispositivos conectados en IoT, protegiendo los datos y evitando la manipulación no autorizada de dispositivos. |
 
 En resumen, la criptografía es esencial para salvaguardar la seguridad y la privacidad en el mundo digital. A través de una variedad de aplicaciones y usos, la criptografía desempeña un papel fundamental en la protección de información sensible y en el establecimiento de confianza en las comunicaciones y las transacciones en línea.
 
@@ -59,7 +59,7 @@ Hace siglos, en tiempos de la antigua Grecia y Roma, la criptografía ya estaba 
 
 Sin embargo, uno de los momentos más destacados en la historia de la criptografía ocurrió durante la Segunda Guerra Mundial. Los alemanes utilizaron una máquina de cifrado llamada "Enigma" para codificar sus comunicaciones militares, creyendo que eran indescifrables. Pero un equipo de matemáticos y criptógrafos liderado por Alan Turing en Bletchley Park, Reino Unido, logró descifrar la Enigma, un logro crucial que ayudó a los Aliados a obtener información clave y cambiar el curso de la guerra.
 
-![critografia](../assets/criptografia.png)
+![critografia](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/criptografia.png?raw=true)
 
 Después de la guerra, la criptografía continuó evolucionando con el advenimiento de la informática. La criptografía de clave pública, desarrollada en la década de 1970 por Whitfield Diffie y Martin Hellman, permitió el intercambio seguro de claves sin necesidad de compartir secretos previos. Esto allanó el camino para la seguridad en línea, incluida la navegación segura por internet y las transacciones electrónicas.
 
