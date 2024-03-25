@@ -59,7 +59,7 @@ Centuries ago, during Ancient Greece and Rome, cryptography was already in use t
 
 However, one of the highlights in the history of cryptography occurred during World War II. The Germans used an encryption machine called "Enigma" to encode their military communications, believing them to be indecipherable. But a team of mathematicians and cryptographers led by Alan Turing at Bletchley Park, UK, managed to decipher the Enigma, a crucial achievement that helped the Allies gather key information and alter the course of the war.
 
-![cryptography](../assets/criptografia.png)
+![cryptography](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/criptografia.png?raw=true)
 
 After the war, cryptography continued to evolve with the advent of computing. Public-key cryptography, developed in the 1970s by Whitfield Diffie and Martin Hellman, allowed the secure exchange of keys without the need for sharing prior secrets. This paved the way for online security, including secure internet browsing and electronic transactions.
 

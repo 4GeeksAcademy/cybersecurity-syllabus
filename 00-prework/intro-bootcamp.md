@@ -1,30 +1,35 @@
-# Lectura 0📕: Introducción al Bootcamp
+---
+title: "Introduction to Cybersecurity Bootcamp"
+subtitle: "Empowering Tomorrow's Cyber Guardians: Dive Into Our Intensive 16-Week Cybersecurity Bootcamp for Lucrative Career Opportunities!"
+tags: ["networking", "cybersecurity"]
+authors: ["arnaldoperez"]
 
-Bienvenido al bootcamp de ciberseguridad de 4Geeks Academy. Durante este programa intensivo de 16 semanas experimentarás un muy sustancioso e intenso aprendizaje en materia de ciberseguridad y hacking que te preparará para encontrar tu primer trabajo en una de las profesiones mejor pagadas de la actualidad.
+---
 
-## ¿Qué esperar de este programa?
+Welcome to 4Geeks Academy's cybersecurity bootcamp. During this intensive 16-week program you will experience very substantial and intense cybersecurity and hacking learning that will prepare you to find your first job in one of today's highest paying professions.
 
-Durante 16 semanas aprenderás mediante lecturas amenas conceptos teóricos sobre ciberseguridad y hacking ético que luego llevarás a práctica con los laboratorios. Cada laboratorio del bootcamp ha sido diseñado con base a casos reales en empresas. El objetivo de este programa es convertirte en un profesional mediante un trabajo intensivo de 16 semanas en el que aprenderás sobre gestión de riesgos, ciberseguridad en empresas, regulación y normativas de seguridad, redes informáticas, comunicaciones empresariales, pentesting y hacking ético. Puedes consultar el temario para información más detallada.
+## What to expect from this program?
 
-Si estás listo para aprender habilidades de hacking y potenciarlas hasta sentirte listo para encontrar tu primer trabajo ¡vamos!
+During 16 weeks you will learn through enjoyable lectures theoretical concepts about cybersecurity and ethical hacking that you will then put into practice with the labs. Each lab of the bootcamp has been designed based on real cases in companies. The objective of this program is to turn you into a professional through an intensive 16 weeks of work in which you will learn about risk management, cybersecurity in companies, regulation and security standards, computer networks, business communications, pentesting and ethical hacking. You can consult the syllabus for more detailed information.
 
-## ¿Qué retos me esperan en este bootcamp?
+If you're ready to learn hacking skills and build on them until you feel ready to find your first job, let's go!
 
-Como puedes imaginar hay mucha información interesante que debes asimilar para adquirir las habilidades que te ofrece el bootcamp, para lograr esto implementamos una metodología proactiva e intensiva. El reto para ti es seguir el ritmo del bootcamp y progresivamente incorporar en la practica todo lo que vas aprendiendo. Dicho de otra forma, en cada clase vas a implementar lo aprendido en la clase anterior ademas de ver nuevo contenido, así iras evolucionando hasta convertirte en todo un profesional de ciberseguridad. Esto va a significar horas extra de estudio, desvelos, tener que pausar la serie que estabas viendo o quizás faltar a aquella fiesta que tenias planificada😢... Pero esto es lo que separa a los heroes 🦹 de la gente común, grandes esfuerzos llevan a grandes recompensas.
+## What challenges await me in this bootcamp?
 
-## ¿Qué seré capaz de hacer después de esta formación?
+As you can imagine there is a lot of interesting information that you must assimilate to acquire the skills that the bootcamp offers you, to achieve this we implemented a proactive and intensive methodology. The challenge for you is to follow the rhythm of the bootcamp and progressively incorporate in practice everything you learn. In other words, in each class you will implement what you learned in the previous class in addition to seeing new content, so you will evolve until you become a cybersecurity professional. This will mean extra hours of study, sleepless nights, having to pause the series you were watching or maybe miss that party you had planned😢.... But this is what separates the heroes 🦹 from the common people, great efforts lead to great rewards.
 
-Nuestra formación tiene como objetivo que nuestros egresados sean profesionales integrales. Al finalizar el bootcamp de ciberseguridad  serás capaz de:
+## What will I be able to do after this training?
 
-1. Conocer a profundidad cómo funcionan las computadoras desde la electrónica hasta las aplicaciones
-2. Conocer cómo funcionan las comunicaciones.
-3. Dominarás la terminal de Linux.
-4. Configurar y administrar servidores tanto linux como Windows.
-5. Adquirirás conocimiento sólido sobre protección de datos, privacidad, seguridad en internet, seguridad en empresas.
-6. Entender sobre normativas y regulaciones de ciberseguridad.
-7. Aprenderás y desarrollarás a través de la práctica habilidades de hacking con enfoque a la seguridad de las empresas.
-8. Diseñar e implementar soluciones de seguridad en las redes empresariales y gestionar riesgos además de mitigar ciberataques.
+Our training aims for our graduates to be well-rounded professionals. Upon completion of the cybersecurity bootcamp you will be able to:
 
-## ¿Dónde puedo trabajar y cuánto puedo ganar?
+1. Know in depth how computers work from electronics to applications.
+2. Know how communications work.
+3. You will master the Linux terminal.
+4. Configure and administer both Linux and Windows servers.
+5. You will acquire solid knowledge about data protection, privacy, internet security, enterprise security.
+6. Understand about cybersecurity rules and regulations.
+7. You will learn and develop through practice hacking skills with a focus on enterprise security.
+8. Design and implement enterprise network security solutions and manage risks, and mitigate cyber-attacks.
 
-Los egresados de nuestra formación están capacitados para desempeñarse en diferentes roles como el de administrador de sistemas con enfoque en seguridad informática, pentester, consultor de ciberseguridad en empresas, analista técnico de seguridad. Al finalizar esta formación puedes trabajar en cualquiera de los perfiles mencionados. Un analista de ciberseguridad o pentester junior podría ganar entre 20.000. 36.000 dólares al año según el promedio en LinkedIn.
+## Where can I work and how much can I earn?
+Graduates of our training can perform in different roles such as system administrator with a focus on computer security, pentester, cybersecurity consultant in companies, technical security analyst. At the end of this training you can work in any of the mentioned profiles. A cybersecurity analyst or junior pentester could earn between $20,000. 36,000 dollars a year according to the average on LinkedIn.
