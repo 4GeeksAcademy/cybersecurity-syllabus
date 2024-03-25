@@ -1,4 +1,11 @@
- 
+---
+title: "Introduction to Cybersecurity Bootcamp"
+subtitle: "Empowering Tomorrow's Cyber Guardians: Dive Into Our Intensive 16-Week Cybersecurity Bootcamp for Lucrative Career Opportunities!"
+tags: ["networking", "cybersecurity"]
+authors: ["arnaldoperez"]
+
+---
+
 Welcome to 4Geeks Academy's cybersecurity bootcamp. During this intensive 16-week program you will experience very substantial and intense cybersecurity and hacking learning that will prepare you to find your first job in one of today's highest paying professions.
 
 ## What to expect from this program?
