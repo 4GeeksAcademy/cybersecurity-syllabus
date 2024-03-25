@@ -61,7 +61,7 @@ Data encryption plays a key role in protecting information and data privacy, pro
 
 - Data encryption is essential to protect the information stored in mobile devices and storage services in the cloud.
 
-![Data Encryption](../assets/cifrado-de-datos.png)
+![Data Encryption](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/cifrado-de-datos.png?raw=true)
 
 ## Physical and logical access control
 
@@ -69,18 +69,17 @@ Physical and logical access control are two critical components of information s
 
 ### Physical Access Control:
 
-| Definition | Importance | Example of Implementation | |
+| Definition | Importance | Example of Implementation |
 | --- | --- | --- |
-| Physical access control refers to the restriction of access to physical areas or resources within an organization, such as buildings, server rooms, offices, warehouses, and other physical locations. It is implemented to protect physical assets and ensure the security of facilities. | Physical access control is important because it prevents unauthorized entry to sensitive or valuable areas. This can help prevent theft, damage, and intrusion and ensure the safety of employees and visitors. | A simple example is the use of access cards or electronic keys to enter an office building. Only people with authorized cards can unlock the doors and gain access to the interior. Biometric-based access control systems, such as fingerprint readers, can also be used to ensure more secure identification. |
+| Physical access control refers to the restriction of access to physical areas or resources within an organization, such as buildings, server rooms, offices, warehouses, and other physical locations. It is implemented to protect physical assets and ensure the security of facilities. | Physical access control is important because it prevents unauthorized entry to sensitive or valuable areas. This can help prevent theft, damage, and intrusion and ensure the safety of employees and visitors. | A simple example is the use of 
 
-![Access Control](../assets/control-de-acceso.png)
+![Data Encryption](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/control-de-acceso.png?raw=true)
 
 ### Logical Access Control
 
-| Definition | Importance | Example of Implementation | |
+| Definition | Importance | Example of Implementation |
 | --- | --- | --- |
 | Logical access control refers to the restriction of access to systems, networks, applications, and digital data. It is used to ensure that only authorized individuals have access to information and electronic resources. | Logical access control is essential to protect the confidentiality and integrity of digital data. It helps prevent unauthorized access to systems and avoids leakage of sensitive information. | A common example is logging on to a computer with a username and password. Only people with valid credentials can access the system. Two-factor authentication systems, such as a code sent to the user's cell phone, can also be used to add a layer of security. |
-|  |  |  |
 
 **Combined Importance:**.
 
