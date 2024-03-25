@@ -1,6 +1,6 @@
 ---
 title: "Introduction to VirtualBox"
-subtitle: "Conoce como funciona esta poderosa herramienta, y aprende a crear una maquina virtual."
+subtitle: "Learn how this powerful tool works, and learn how to create a virtual machine."
 tags: ["cybersecurity"]
 authors: ["arnaldoperez"]
 
@@ -8,93 +8,100 @@ authors: ["arnaldoperez"]
 
 ## What is VirtualBox?
 
-VirtualBox es un programa gratuito que te permite instalar diferentes sistemas operativos dentro de tu computadora actual, como si fueran programas independientes. Es como tener varias computadoras en una sola.
+VirtualBox is a free program that allows you to install different operating systems inside your current computer, as if they were independent programs. It's like having several computers in one.
 
-VirtualBox es relativamente fácil de usar, incluso para personas sin experiencia en computación.
+VirtualBox is relatively easy to use, even for people with no computer experience.
 
-## ¿Qué necesitas para usar VirtualBox?
+## What do you need to use VirtualBox?
 
-- Una computadora con un procesador relativamente potente (al menos 2 núcleos) y suficiente memoria RAM (al menos 4 GB).
-- Espacio libre en tu disco duro para instalar los sistemas operativos que deseas probar.
-- Un sistema operativo principal compatible con VirtualBox (Windows, Linux).
+- A computer with a relatively powerful processor (at least 2 cores) and enough RAM (at least 4 GB).
+- Free space on your hard drive to install the operating systems you want to test.
+- A primary operating system compatible with VirtualBox (Windows, Linux).
 
-## ¿Qué es una maquina virtual(MV)?
+## What is a virtual machine (VM)?
 
-### Imagina que tu computadora es como una casa
+#### Imagine that your computer is like a house...
+The host operating system (also called host) is like the owner of the house. It controls everything and allows you to use programs, browse the internet, etc.
+A virtual machine (also called a guest) is like a room inside the house. In it, you can install a different operating system, as if it were an independent tenant.
+In other words, a virtual machine is a program that allows you to run another operating system inside your current operating system. It is like having two computers in one.
 
-El sistema operativo anfitrión (también llamado host) es como el dueño de la casa. Controla todo y te permite usar programas, navegar por internet, etc.
-Una máquina virtual (también llamado huésped) es como una habitación dentro de la casa. En ella, puedes instalar un sistema operativo diferente, como si fuera un inquilino independiente.
-En otras palabras, una máquina virtual es un programa que te permite ejecutar otro sistema operativo dentro de tu sistema operativo actual. Es como tener dos computadoras en una.
+### What is a virtual machine for?
 
-### ¿Para qué sirve una máquina virtual?
+- To test new operating systems without risk: You can install a different operating system in a virtual "room" and test it without affecting your main operating system. If you don't like it, you can easily remove it.
+- Learn about different operating systems: You can use a virtual machine to practice with different operating systems and learn how they work.
+- Run programs that only work on a specific operating system: If you need to use a program that only works on Windows, for example, you can install it in a Windows virtual machine inside your Mac or Linux.
+- Isolate insecure software: You can install untrusted software in a virtual machine to prevent it from affecting your main operating system.
 
-- Probar nuevos sistemas operativos sin riesgo: Puedes instalar un sistema operativo diferente en una "habitación" virtual y probarlo sin afectar tu sistema operativo principal. Si no te gusta, puedes eliminarlo fácilmente.
-- Aprender sobre diferentes sistemas operativos: Puedes usar una máquina virtual para practicar con diferentes sistemas operativos y aprender cómo funcionan.
-- Ejecutar programas que solo funcionan en un sistema operativo específico: Si necesitas usar un programa que solo funciona en Windows, por ejemplo, puedes instalarlo en una maquina virtual de Windows dentro de tu Mac o Linux.
-- Aislar software inseguro: Puedes instalar software que no es de confianza en una maquina virtual para evitar que afecte a tu sistema operativo principal.
+## VM resource management
 
-## Manejo de recursos de una MV
+In VirtualBox, resource management for virtual machines is based on the configuration of the following items. These can be assigned at the time of creating a new machine and can be modified later if necessary.
 
-En VirtualBox, la administración de recursos para las máquinas virtuales se basa en la configuración de los siguientes elementos. Estos se puede asignar al momento de crear una nueva máquina y pueden modificarse posteriormente de ser necesario.
+### RAM memory
 
-### Memoria RAM
+Determines how memory is allocated to the virtual machine. The value assigned will be the one available for the guest machine to use to operate. 
 
-Determina cómo se asigna la memoria a la máquina virtual. El valor asignado será el que tenga disponible para utilizar la maquina huésped para funcionar. 
+It can be determined when the machine is created:
 
-Puede determinarse al momento de crear la maquina:
+![Memoria de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-memoria.png?raw=true)
 
-![Memoria de maquina virtual VirtualBox](../assets/vb-memoria.png)
+Or it can be changed after the machine has been created, but can only be changed while the guest is turned off.
 
-O puede modificarse después de haber sido creada la maquina, pero solo se puede cambiar mientras el huésped este apagado.
-![Memoria de maquina virtual VirtualBox](../assets/vb-maquina-config-memoria.png)
+![Memoria de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-config-memoria.png?raw=true)
 
 ### CPU
 
-En este apartado se asignan la cantidad de procesadores que puede usar la maquina virtual. La cantidad de procesadores disponibles para asignar corresponde a los procesadores lógicos que tenga el anfitrión, por ejemplo: Con un procesador de 4 núcleos y 8 hilos, aparecen disponibles 8 procesadores.
-![Procesadores de maquina virtual VirtualBox](../assets/vb-maquina-creacion-cpu.png)
+In this section you assign the number of processors that can be used by the virtual machine. The number of processors available to assign corresponds to the logical processors that the host has, for example: With a processor with 4 cores and 8 threads, 8 processors are available.
 
-Una vez creada la máquina tambien se pueden modificar los procesadores del huesped, e incluso se puede limitar el porcentaje del procesador anfitrion que tendrán permitido utilizar.
-![Procesadores de maquina virtual VirtualBox](../assets/vb-maquina-config-memoria-cpu.png)
+![Procesadores de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-creacion-cpu.png?raw=true)
 
-### Almacenamiento y medios virtuales
+Once the machine is created you can also modify the guest processors, and you can even limit the percentage of the host processor that you will be allowed to use.
 
-El sistema operativo huesped se aloja en un disco duro virtual, es un archivo que simula un disco duro físico para la máquina virtual, y que ademas es portable (se puede mover facilmente a otra maquina) y tambien comprime los datos para ahorrar espacio de almacenamiento en el anfitrion.
+![Procesadores de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-config-memoria-cpu.png?raw=true)
 
-Al momento de crear la maquina se determina el nombre del archivo y la capacidad máxima del disco duro virtual. El archivo ira creciendo a medida que el huesped tenga mas y mas datos, hasta llegar a su capacidad máxima. De la misma forma, se pueden agregar discos preexistentes a una maquina virtual.
-![Disco duro de maquina virtual VirtualBox](../assets/vb-maquina-creacion-dd.png)
+### Storage and virtual media
 
-Una vez creada la maquina con su respectivo disco, podremos ver y modificar las unidades virtuales en el "Administrador de medios virtuales". Esta herramienta nos muestra todos los discos duros virtuales, las Unidades de disco virtuales. En cada una de sus pestañas tendremos opciones de importar nuevas medios virtuales o importar alguno que ya exista, de esta manera podemos configurar maquinas virtuales con cualquier tipo de medios conectados para lograr simular el entorno que sea necesario.
-![Menú de medios virtuales VirtualBox](../assets/vb-menu-virtual-media.png)
-![Discos duros virtuales VirtualBox](../assets/vb-virtual-media-drives.png)
+The host operating system is hosted on a virtual hard disk, which is a file that simulates a physical hard disk for the virtual machine, and is also portable (it can be easily moved to another machine) and also compresses the data to save storage space on the host.
 
-En cuanto a los medios ópticos, estos son compuestos por archivos ISO que pueden ser descargados desde distintas partes y agregados a las maquinas virtuales. Estos archivos son el estándar mas utilizado para instaladores de sistemas operativos, tanto Windows como sistemas GNU/Linux; ambos disponibles desde sus respectivas web oficiales. Con la opcion "Añadir" de la pestaña de "Discos opticos"
-![Discos ópticos virtuales VirtualBox](../assets/vb-virtual-media-optical.png)
-![Discos ópticos virtuales VirtualBox](../assets/vb-maquina-config-optical-es.png)
+When the machine is created, the name of the file and the maximum capacity of the virtual hard disk are determined. The file will grow as the host has more and more data, until it reaches its maximum capacity. In the same way, pre-existing disks can be added to a virtual machine.
 
-### Red
+![Disco duro de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-creacion-dd.png?raw=true)
 
-Tipo de adaptador de red: Determina cómo la máquina virtual se conecta a la red.
-Modo de red: Determina cómo la máquina virtual interactúa con la red del host.
+Once created the machine with its respective disk, we will be able to see and modify the virtual units in the "Virtual Media Manager". This tool shows us all the virtual hard disks, the Virtual Disk Drives. In each of its tabs we will have options to import new virtual media or import some that already exists, in this way we can configure virtual machines with any type of connected media to simulate the necessary environment.
 
-### Otros recursos
+![Menú de medios virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-menu-virtual-media.png?raw=true)
 
-Dispositivos USB: Puedes conectar dispositivos USB a la máquina virtual.
-Sonido: Puedes configurar la salida de sonido de la máquina virtual.
-Carpetas compartidas: Puedes compartir carpetas entre la máquina virtual y el sistema operativo host.
+![Discos duros virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-virtual-media-drives.png?raw=true)
 
-Para administrar los recursos de una máquina virtual en VirtualBox:
+Regarding optical media, these are comprised of ISO files that can be downloaded from various sources and added to virtual machines. These files are the most commonly used standard for operating system installers, both Windows and GNU/Linux systems, both available from their respective official websites. Using the "Add" option in the "Optical Discs" tab.
 
-Abre VirtualBox y selecciona la máquina virtual que deseas configurar.
-Haz clic en "Configuración".
-Selecciona la pestaña de recursos que deseas configurar (memoria, CPU, almacenamiento, red, etc.).
-Modifica los valores de configuración según tus necesidades.
-Haz clic en "Aceptar" para guardar los cambios.
+![Discos ópticos virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-virtual-media-optical.png?raw=true)
 
-## Consejos para administrar los recursos de una máquina virtual:
+![Discos ópticos virtuales VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-maquina-config-optical-es.png?raw=true)
+ 
+### Network
 
-- Asigna la cantidad de memoria RAM y CPU que necesita la máquina virtual para un funcionamiento optimo sin comprometer el desempeño del anfitrion. Si asignas demasiada memoria RAM o CPU, el sistema operativo host podría ralentizarse.
-- Utiliza un disco duro virtual de tamaño adecuado. Si el disco duro virtual es demasiado pequeño, la máquina virtual podría quedarse sin espacio en disco.
-- Configura el tipo de adaptador de red adecuado para la máquina virtual y al entorno que intentas simular, puede que necesites tener varias conexiones de red.
-- Comparte carpetas entre la máquina virtual y el sistema operativo host solo si es necesario.
+- Network adapter type: Determines how the virtual machine connects to the network.
+- Network Mode: Determines how the virtual machine interacts with the host network.
 
-Es importante tener en cuenta que la cantidad de recursos que puedes asignar a una máquina virtual está limitada por los recursos disponibles en el sistema operativo host.
+### Other resources
+
+1. USB devices: You can connect USB devices to the virtual machine.
+2. Sound: You can configure the sound output of the virtual machine.
+3. Shared folders: You can share folders between the virtual machine and the host operating system.
+
+#### To manage the resources of a virtual machine in VirtualBox:
+
+1. Open VirtualBox and select the virtual machine you want to configure.
+2. Click on "Settings".
+3. Select the resources tab you want to configure (memory, CPU, storage, network, etc.).
+4. Modify the configuration values according to your needs.
+5. Click "OK" to save your changes.
+
+## Tips for managing the resources of a virtual machine:
+
+- Allocate the amount of RAM and CPU the virtual machine needs for optimal operation without compromising host performance. If you allocate too much RAM or CPU, the host operating system may slow down.
+- Use an appropriately sized virtual hard disk. If the virtual hard disk is too small, the virtual machine may run out of disk space.
+- Configure the right type of network adapter for the virtual machine and the environment you are trying to simulate, you may need to have several network connections.
+- Share folders between the virtual machine and the host operating system only if necessary.
+
+> It is important to note that the amount of resources you can allocate to a virtual machine is limited by the resources available on the host operating system.
