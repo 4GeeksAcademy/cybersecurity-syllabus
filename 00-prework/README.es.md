@@ -6,13 +6,7 @@
 - 📗[Intro a VirtualBox](./introduction-virtualbox.es.md)
 - 🧪[Instalación de una maquina virtual Windows 10](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine)
 
-## Día 2 - Redes entre MV VirtualBox
-
-- 📗Redes en VirtualBox
-- 🧪Instalación de Kali Linux en VirtualBox
-- 🧪Comunicación entre maquinas virtuales
-
-## Día 3 - Intro a seguridad de la información
+## Día 2 - Intro a seguridad de la información
 
 - 📗[Introducción a TI](./introduction-to-information-technologies.es.md)
 - 📗[Introducción a ciberseguridad](./introduction-to-cybersecurity.es.md)
@@ -22,7 +16,7 @@
 - 📗[Conceptos básicos de seguridad en redes](./basics-concepts-in-network-security.es.md)
 - 📝[Quiz: Fundamentos de seguridad](./quizzes/introduction-cybersecurity.es.json)
 
-## Día 4 - Buenas prácticas de seguridad de la información
+## Día 3 - Buenas prácticas de seguridad de la información
 
 - 📗[Cumplimiento y regulaciones legales](./legal-and-regulatory-compliance.es.md)
 - 📗[Amenazas y ataques comunes](./common-threats-and-attacks.es.md)
@@ -32,7 +26,7 @@
 - 📗[Protección de la información](./information-protection.es.md)
 - 📝[Quiz: Buenas prácticas](./quizzes/best-practices.es.json)
 
-## Día 5 - Cultura de ciberseguridad
+## Día 4 - Cultura de ciberseguridad
 
 - 📗[Concienciación y formación del personal](./staff-awareness-and-training.es.md)
 - 📗[Importancia del cumplimento legal y regulatorio](./importance-of-legal-and-regulatory-compliance.es.md)
@@ -42,7 +36,7 @@
 - 📝[Quiz: Gestión de incidentes y estándares de seguridad](./quizzes/incident-management-security-standards.es.json)
 - 🧪Implementación de buenas prácticas de seguridad de en la Maquina Virtual Windows10 *
 
-## Día 6 - Packet Tracer
+## Día 5-6 - Packet Tracer
 
 - 📗[Comunicaciones y redes](./communication-and-networking.es.md)
 - 📗[Introducción a Packet Tracer](./intro-packet-tracer.es.md)
