@@ -62,7 +62,7 @@ High-level programming languages are more similar to human language and unlike l
 
 The **IoT** or Internet of Things is a new technological trend that consists of providing devices and appliances with the ability to communicate with the user and with each other. Thanks to the use of sensors, network connections, software, and other technologies, traditional elements and devices such as watches and household appliances, among others, exchange information.
 
-![IOT](/assets/IOT.png)
+![IOT](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/IOT.png?raw=true)
 
 With the arrival of **IoT**, from just connecting computers and cell phones to the internet to connecting watches, washing machines, and video game consoles among other electronics; a new phenomenon known as *"big data"* arrives. We define **big data** as a set of massive and voluminous data generated from different sources. The more digitized the world becomes, the more data is generated per second. Someone must keep all this information secure, which is why the demand for cybersecurity professionals is on the rise.
 
@@ -74,7 +74,7 @@ In a world where communication was limited to geographical distances, a new hori
 
 ARPANET united universities and research centers in a digital fabric. But it was Tim Berners-Lee who added a new chapter by inventing the World Wide Web in 1989.
 
-![Browser](/assets/internet.png)
+![Browser](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/internet.png?raw=true)
 
 With the Web, information has become accessible to everyone. Browsers such as Netscape and Explorer appeared, opening the door to an online world of infinite possibilities.  The new millennium brought with it a technological boom. Social networks emerged, transforming the way people connect and share. Then, mobile devices entered the scene. Smartphones brought the Internet into everyone's pockets, creating a permanently connected society.
 

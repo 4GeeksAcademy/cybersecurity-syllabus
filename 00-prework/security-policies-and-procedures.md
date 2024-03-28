@@ -33,7 +33,7 @@ These are just a few examples of cybersecurity policies and procedures. The crea
 
 The creation and implementation of security policies are a fundamental process to ensure the protection of digital assets and effective management of cybersecurity risks within an organization. Here are the key steps for creating and applying security policies:
 
-![ISO](../assets/ISO.png)
+![ISO](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ISO.png?raw=true)
 
 ### Creation of Security Policies:
 
@@ -58,25 +58,25 @@ The creation and implementation of security policies are a fundamental process t
 
 Secure password management is a critical aspect of cybersecurity, as passwords are the first line of defense against unauthorized access to accounts and systems. Here is information on how to manage passwords securely:
 
-**1. Strong Passwords:** Use strong and unique passwords for each account. A strong password typically includes a combination of uppercase and lowercase letters, numbers, and special characters. Avoid obvious or predictable passwords, such as "123456" or "password."
+1. **Strong Passwords:** Use strong and unique passwords for each account. A strong password typically includes a combination of uppercase and lowercase letters, numbers, and special characters. Avoid obvious or predictable passwords, such as "123456" or "password."
 
-**2. Length:** The longer a password, the more secure it is. A minimum length of 12 characters is recommended.
+2. **Length:** The longer a password, the more secure it is. A minimum length of 12 characters is recommended.
 
-**3. Avoid Personal Information:** Avoid using personal information, such as names, birthdates, or phone numbers, in your passwords. This information is easily accessible or guessable by attackers.
+3. **Avoid Personal Information:** Avoid using personal information, such as names, birthdates, or phone numbers, in your passwords. This information is easily accessible or guessable by attackers.
 
-**4. Do Not Reuse Passwords:** Do not use the same password for multiple accounts. If a website or service is compromised, and you use the same password elsewhere, all your accounts are at risk.
+4. **Do Not Reuse Passwords:** Do not use the same password for multiple accounts. If a website or service is compromised, and you use the same password elsewhere, all your accounts are at risk.
 
-**5. Use a Password Manager:** Consider using a reliable password manager to securely store and manage your passwords. These tools generate complex passwords and store them in an encrypted repository.
+5. **Use a Password Manager:** Consider using a reliable password manager to securely store and manage your passwords. These tools generate complex passwords and store them in an encrypted repository.
 
-**6. Two-Factor Authentication (2FA):** Where possible, enable two-factor authentication (2FA) on your accounts. This adds an extra layer of security by requiring a second authentication method, such as a code sent to your phone, in addition to the password.
+6. **Two-Factor Authentication (2FA):** Where possible, enable two-factor authentication (2FA) on your accounts. This adds an extra layer of security by requiring a second authentication method, such as a code sent to your phone, in addition to the password.
 
-**7. Regular Password Changes:** Change your passwords regularly, especially on sensitive accounts. However, excessive changing is not necessary; the focus should be on password quality rather than frequency of change.
+7. **Regular Password Changes:** Change your passwords regularly, especially on sensitive accounts. However, excessive changing is not necessary; the focus should be on password quality rather than frequency of change.
 
-**8. Beware of Phishing:** Exercise caution when entering passwords on suspicious websites or emails. Attackers often use phishing tactics to steal passwords.
+8. **Beware of Phishing:** Exercise caution when entering passwords on suspicious websites or emails. Attackers often use phishing tactics to steal passwords.
 
-**9. Secure Storage:** If you choose not to use a password manager, store your passwords in a physically secure place and out of sight of others.
+9. **Secure Storage:** If you choose not to use a password manager, store your passwords in a physically secure place and out of sight of others.
 
-**10. Awareness:** Educate your employees, family, or coworkers about the importance of secure passwords and cybersecurity practices in general.
+10. **Awareness:** Educate your employees, family, or coworkers about the importance of secure passwords and cybersecurity practices in general.
 
 Secure password management is essential for protecting online accounts and personal or business information. A secure and well-managed password is a fundamental part of the overall cybersecurity strategy.
 

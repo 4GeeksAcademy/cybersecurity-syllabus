@@ -61,7 +61,7 @@ El cifrado de datos desempeña un papel fundamental en la protección de la info
 
 - En dispositivos móviles y servicios de almacenamiento en la nube, el cifrado de datos es esencial para proteger la información almacenada en estos dispositivos y plataformas.
 
-![Cifrado de Datos](../assets/cifrado-de-datos.png)
+![Cifrado de Datos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/cifrado-de-datos.png?raw=true)
 
 ## Control de acceso físico y lógico
 
@@ -73,7 +73,7 @@ El control de acceso físico y lógico son dos componentes críticos de la segur
 | --- | --- | --- |
 | El control de acceso físico se refiere a la restricción de acceso a áreas físicas o recursos dentro de una organización, como edificios, salas de servidores, oficinas, almacenes y otros lugares físicos. Se implementa para proteger activos físicos y garantizar la seguridad de las instalaciones. | El control de acceso físico es importante porque evita la entrada no autorizada a áreas sensibles o valiosas. Esto puede ayudar a prevenir robos, daños, intrusiones y garantizar la seguridad de los empleados y visitantes. | Un ejemplo sencillo es el uso de tarjetas de acceso o llaves electrónicas para ingresar a un edificio de oficinas. Solo las personas con tarjetas autorizadas pueden desbloquear las puertas y acceder al interior. También se pueden utilizar sistemas de control de acceso basados en biometría, como lectores de huellas dactilares, para garantizar una identificación más segura. |
 
-![Control de acceso](../assets/control-de-acceso.png)
+![Control de acceso](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/control-de-acceso.png?raw=true)
 
 ### Control de Acceso Lógico
 
