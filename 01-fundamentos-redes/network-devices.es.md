@@ -18,14 +18,3 @@ Los dispositivos de red son como las herramientas que permiten que los dispositi
 8. **Servidor**: Puedes pensar en un servidor como una computadora poderosa que almacena información o aplicaciones importantes. En las redes empresariales, los servidores son esenciales para compartir datos y aplicaciones entre muchos usuarios.
 9. **Dispositivos finales**: Estos son tus dispositivos personales, como tu computadora, teléfono, tablet, impresora, etc. Se conectan a la red para acceder a internet y compartir información.
 
-### 💡Laboratorio: Diseña una red LAN
-
-Con todo lo anterior mencionado descarga el software gratuito de Cisco llamado Cisco Packet Tracer y resuelve el siguiente desafío:
-
-Eres un administrador de red contratado por 4Geeks Academy y en tu primer día de trabajo, el jefe de seguridad y comunicaciones te asigna el diseño de una red LAN que conecta a los 8 computadores que conforman la red del departamento de educación y entregar un presupuesto estimado sobre el costo total de la instalación de la red. Para resolver este desafío deberás:
-
-1. Descargar el software gratuito de Cisco: Cisco Packet Tracer, con este programa podrás diseñar una red LAN de forma visual
-2. Investigar sobre precios y características de los dispositivos de red que necesitarás para diseñar tu red LAN y elaborar un presupuesto
-3. Elabora un informe técnico en el que expliques el diseño de la red LAN 
-
-> 💡Pistas: Elige la topología de red que estimes conveniente (No hay respuestas incorrectas), recuerda que no es necesario utilizar todos los dispositivos de red vistos durante tu aprendizaje y que a veces menos es más. En tu informe técnico, explica tus decisiones y porqué es la forma más óptima de crear una red LAN.

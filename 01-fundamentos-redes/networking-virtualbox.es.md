@@ -1,7 +1,7 @@
 ---
-title: "Networking on VirtualBox"
-subtitle: "Conoce las posibilidades de conexion entre maquinas virtuales en VirtualBox y descubre "
-tags: ["criptografia", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
+title: "Redes en VirtualBox"
+subtitle: "Conoce las posibilidades de conexión entre maquinas virtuales en VirtualBox y descubre "
+tags: ["redes", "ciberseguridad"]
+authors: ["arnaldoperez"]
 
 ---

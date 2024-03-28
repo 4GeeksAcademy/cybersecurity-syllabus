@@ -18,17 +18,5 @@ Network devices are tools that allow electronic devices to communicate with each
 8. **Server**: You can think of a server as a powerful computer that stores important information or applications. In enterprise networks, servers are essential for sharing data and applications among many users.
 9. **End Devices**: These are your devices, such as your computer, phone, tablet, printer, etc. They connect to the network to access the internet and share information.
 
-### 💡Lab: Design a LAN Network
-
-With all the above mentioned download the free software from Cisco called Cisco Packet Tracer and solve the following challenge:
-
-You are a network administrator hired by 4Geeks Academy. On your first day of work, the head of security and communications assigns you to design a LAN network connecting the 8 computers that make up the education department's network and deliver a budget estimate on the total cost of the network installation. To solve this challenge you must:
-
-1. Download Cisco's free software: Cisco Packet Tracer, with this program you will be able to design a LAN network visually.
-2. Research the prices and features of the network devices you will need to design your LAN and prepare a quotation.
-3. Produce a technical report in which you explain the LAN design 2.
-
-> 💡Hints: Choose the network topology you deem appropriate (There are no wrong answers), remember that it is not necessary to use all the network devices seen during your learning and that sometimes less is more. In your technical report, explain your choices and why this is the most optimal way to create a LAN.
-
 
 
