@@ -4,7 +4,7 @@
 
 En el mercado actual, existen diferentes tipos de soluciones de DLP (Data Loss Prevention) disponibles para ayudar a las organizaciones a proteger su información confidencial y sensible. Estas soluciones se centran en prevenir la pérdida o filtración de datos críticos, ya sea intencional o accidentalmente. 
 
-![Tipos de soluciones DPL](../assets/tipos-de-soluciones-dlp.png)
+![Tipos de soluciones DPL](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/tipos-de-soluciones-dlp.png?raw=true)
 
 A continuación, se presentan algunos de los tipos más comunes de soluciones de DLP:
 
