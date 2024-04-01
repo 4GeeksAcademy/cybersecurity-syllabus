@@ -6,7 +6,7 @@ Cuando hablamos de la gestión de riesgos, nos referimos a un conjunto de práct
 
 La gestión de riesgos en **DLP** implica la identificación de los datos críticos y confidenciales de una empresa, así como la evaluación de las amenazas y vulnerabilidades que podrían poner en peligro su seguridad. Estas amenazas pueden incluir ataques cibernéticos, fugas de información, errores humanos, desastres naturales, entre otros. Una vez identificados los riesgos, se implementan medidas de seguridad y controles para minimizar su impacto y prevenir la pérdida de datos.
 
-![DPL](../assets/DPL.png)
+![DPL](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/DPL.png?raw=true)
 
 ## Importancia
 

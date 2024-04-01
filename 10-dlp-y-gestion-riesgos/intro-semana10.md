@@ -4,4 +4,4 @@ Continuando por todos estos modulos que te enseñarán lo necesario para que pue
 
 Proteger la informacion es labor de todas las personas de la organizacion, y en este modulo aprenderas por que es necesario hacer concientizacion de la DLP a todos los miembros de la organizacion 
 
-> 💡 **Ejercicio: Piensa en la informacion personal confidencial , ¿Que medidas tomarias para proteger tu informacion y evitar llegue a manos de otra persona**
+> 💡 **Ejercicio: Piensa en la informacion personal confidencial , ¿Que medidas tomarías para proteger tu informacion y evitar llegue a manos de otra persona**
