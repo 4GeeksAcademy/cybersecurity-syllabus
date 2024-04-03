@@ -50,5 +50,5 @@ The coursework's last 2-3 weeks are reserved for a final project.
 
 ## Aditional notes
 
-- The pentesting practices are based on the laboratories of the EJPT certification.
-- No bootcamp in the world leaves you ready to certify in anything (EJPT, CEH, etc.), but if you wish to get certified after the bootcamp, you will have a large part of the study already done.
+- The pentesting practices are based on the laboratories of the eJPT certification.
+- No bootcamp in the world leaves you ready to certify in anything (eJPT, CEH, etc.), but if you wish to get certified after the bootcamp, you will have a large part of the study already done.
