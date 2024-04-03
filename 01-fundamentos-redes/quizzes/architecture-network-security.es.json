@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "network-security-architecture-es",
+    "name":    "Arquitectura y seguridad de redes",
+    "status":    "draft",
+    "main":    "Veamos un poco mas allá de lo evidente en cuanto a redes, profundizar en estos temas te ayudará a ser un profesional mas competente",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "q": [
+    {
+      "q": "¿Qué es una arquitectura de red y por qué es importante para una empresa?",
+      "a": [
+        {
+          "option": "Un conjunto de herramientas para la gestión de redes.",
+          "correct": false
+        },
+        {
+          "option": "Un marco estructurado para el diseño, implementación y gestión de una red.",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software para la seguridad de redes.",
+          "correct": false
+        },
+        {
+          "option": "Un dispositivo físico que permite la conexión a internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son algunos elementos clave que suelen formar parte de una arquitectura de red?",
+      "a": [
+        {
+          "option": "Topología de red, componentes de red, protocolos de red.",
+          "correct": true
+        },
+        {
+          "option": "Servidores, firewalls, routers, switches.",
+          "correct": false
+        },
+        {
+          "option": "Usuarios, aplicaciones, datos.",
+          "correct": false
+        },
+        {
+          "option": "Todas las a anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué pasos se deben seguir para diseñar e implementar una arquitectura de red en una empresa?",
+      "a": [
+        {
+          "option": "Definir la topología, elegir los componentes, configurar los dispositivos.",
+          "correct": false
+        },
+        {
+          "option": "Identificar los requisitos, seleccionar la topología, planificar la seguridad.",
+          "correct": true
+        },
+        {
+          "option": "Instalar el cableado, conectar los dispositivos, probar la red.",
+          "correct": false
+        },
+        {
+          "option": "Capacitar al personal, documentar la arquitectura, realizar mantenimiento.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por qué es importante la documentación en una arquitectura de red?",
+      "a": [
+        {
+          "option": "Para facilitar la gestión y el soporte de la red.",
+          "correct": true
+        },
+        {
+          "option": "Para cumplir con las normas y regulaciones de seguridad.",
+          "correct": false
+        },
+        {
+          "option": "Para ahorrar costes en la implementación de la red.",
+          "correct": false
+        },
+        {
+          "option": "Para tener un registro histórico de la evolución de la red.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la implementación gradual y por qué se utiliza en la implementación de una nueva arquitectura de red?",
+      "a": [
+        {
+          "option": "Es la instalación simultánea de todos los componentes de la red.",
+          "correct": false
+        },
+        {
+          "option": "Es la migración progresiva de los servicios y dispositivos a la nueva red.",
+          "correct": true
+        },
+        {
+          "option": "Es la configuración manual de cada dispositivo en la red.",
+          "correct": false
+        },
+        {
+          "option": "Es la prueba y validación de la red antes de su implementación.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la función principal de un firewall en una red?",
+      "a": [
+        {
+          "option": "Compartir archivos entre dispositivos.",
+          "correct": false
+        },
+        {
+          "option": "Controlar el tráfico de datos que entra y sale de la red.",
+          "correct": true
+        },
+        {
+          "option": "Almacenar datos en la nube.",
+          "correct": false
+        },
+        {
+          "option": "Conectar dispositivos a internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué tipos de firewalls existen y cómo se diferencian entre sí?",
+      "a": [
+        {
+          "option": "Solo existen firewalls de software.",
+          "correct": false
+        },
+        {
+          "option": "Los firewalls de filtrado de paquetes solo analizan las direcciones IP.",
+          "correct": true
+        },
+        {
+          "option": "Los firewalls de última generación no son necesarios para empresas pequeñas.",
+          "correct": false
+        },
+        {
+          "option": "Todos los firewalls funcionan de la misma manera.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué medidas de seguridad se pueden tomar para proteger una red WiFi?",
+      "a": [
+        {
+          "option": "Utilizar una contraseña compleja y segura.",
+          "correct": true
+        },
+        {
+          "option": "Dejar la red abierta sin contraseña.",
+          "correct": false
+        },
+        {
+          "option": "Desactivar el cifrado de la red.",
+          "correct": false
+        },
+        {
+          "option": "Compartir la contraseña con todos los vecinos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué ventajas y desventajas tiene el uso de un SSID oculto en una red WiFi?",
+      "a": [
+        {
+          "option": "Un SSID oculto hace que la red sea completamente invisible.",
+          "correct": false
+        },
+        {
+          "option": "Un SSID oculto no ofrece ninguna mejora en la seguridad.",
+          "correct": false
+        },
+        {
+          "option": "Un SSID oculto puede dificultar la conexión a la red para algunos dispositivos.",
+          "correct": true
+        },
+        {
+          "option": "Un SSID oculto no es compatible con todos los routers.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es una VPN y qué beneficios ofrece?",
+      "a": [
+        {
+          "option": "Una VPN es una red privada para compartir archivos.",
+          "correct": false
+        },
+        {
+          "option": "Una VPN oculta su dirección IP y cifra sus datos para mayor seguridad.",
+          "correct": true
+        },
+        {
+          "option": "Una VPN solo funciona en redes privadas.",
+          "correct": false
+        },
+        {
+          "option": "Una VPN no es compatible con dispositivos móviles.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

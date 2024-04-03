@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "ip-addresses-protocols-es",
+    "name":    "Protocolos y direcciones IP",
+    "status":    "draft",
+    "main":    "Veamos que tan bien entiendes como funciona el protocolo IP",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+  },
+  "q": [
+    {
+      "q": "¿Cuál es la función principal de una dirección IP en una red?",
+      "a": [
+        {
+          "option": "Identificar y ubicar un dispositivo en la red.",
+          "correct": true
+        },
+        {
+          "option": "Compartir archivos entre dispositivos.",
+          "correct": false
+        },
+        {
+          "option": "Controlar el tráfico de datos en la red.",
+          "correct": false
+        },
+        {
+          "option": "Conectar dispositivos a internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué diferencia hay entre una dirección IP pública y una privada?",
+      "a": [
+        {
+          "option": "Las direcciones IP públicas son fijas y las privadas son dinámicas.",
+          "correct": false
+        },
+        {
+          "option": "Las direcciones IP públicas son únicas en internet, mientras que las privadas se pueden repetir en diferentes redes.",
+          "correct": true
+        },
+        {
+          "option": "Las direcciones IP públicas solo se usan para servidores, mientras que las privadas solo se usan para dispositivos personales.",
+          "correct": false
+        },
+        {
+          "option": "No hay diferencia entre una dirección IP pública y una privada.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el subnetting y por qué se utiliza?",
+      "a": [
+        {
+          "option": "El subnetting es un método para dividir una red en subredes más pequeñas.",
+          "correct": true
+        },
+        {
+          "option": "El subnetting es un tipo de conexión a internet.",
+          "correct": false
+        },
+        {
+          "option": "El subnetting solo se utiliza en redes privadas.",
+          "correct": false
+        },
+        {
+          "option": "El subnetting no tiene ninguna utilidad en las redes.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué ventaja tiene el uso de DHCP para la asignación de direcciones IP?",
+      "a": [
+        {
+          "option": "El DHCP es más seguro que la configuración manual de direcciones IP.",
+          "correct": false
+        },
+        {
+          "option": "El DHCP es más eficiente y fácil de administrar que la configuración manual.",
+          "correct": true
+        },
+        {
+          "option": "El DHCP no es compatible con todos los dispositivos.",
+          "correct": false
+        },
+        {
+          "option": "El DHCP puede generar conflictos de direcciones IP.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Qué medidas de seguridad se pueden tomar para proteger las direcciones IP y las redes?",
+      "a": [
+        {
+          "option": "Utilizar una contraseña segura para la red Wi-Fi.",
+          "correct": true
+        },
+        {
+          "option": "Dejar la red Wi-Fi abierta sin contraseña.",
+          "correct": false
+        },
+        {
+          "option": "Desactivar el cifrado de la red Wi-Fi.",
+          "correct": false
+        },
+        {
+          "option": "Compartir la contraseña de la red Wi-Fi con todos los vecinos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es un diagnóstico de red y por qué es importante realizarlo?",
+      "a": [
+        {
+          "option": "Un diagnóstico de red es un proceso para identificar y corregir problemas en una red.",
+          "correct": true
+        },
+        {
+          "option": "Un diagnóstico de red es una herramienta para medir la velocidad de internet.",
+          "correct": false
+        },
+        {
+          "option": "Un diagnóstico de red solo es necesario para redes grandes y complejas.",
+          "correct": false
+        },
+        {
+          "option": "Un diagnóstico de red no es necesario si la red funciona correctmente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son los pasos a seguir para realizar un diagnóstico de red efectivo?",
+      "a": [
+        {
+          "option": "1. Recopilar información sobre la estructura y el diseño de la red. 2. Analizar el tráfico de la red. 3. Evaluar la seguridad de la red.",
+          "correct": true
+        },
+        {
+          "option": "1. Reiniciar el router. 2. Verificar las conexiones de los cables. 3. Contactar al proveedor de internet.",
+          "correct": false
+        },
+        {
+          "option": "1. Instalar un antivirus en todos los dispositivos. 2. Cambiar la contraseña del router. 3. Activar el firewall.",
+          "correct": false
+        },
+        {
+          "option": "No hay un proceso específico para realizar un diagnóstico de red efectivo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué herramientas se pueden utilizar para realizar un diagnóstico de red?",
+      "a": [
+        {
+          "option": "Herramientas integradas en Windows como el solucionador de problemas de red.",
+          "correct": true
+        },
+        {
+          "option": "Herramientas de terceros como Uptrends Uptime Monitor y Wifi Explorer.",
+          "correct": true
+        },
+        {
+          "option": "Un antivirus actualizado.",
+          "correct": false
+        },
+        {
+          "option": "Un software de limpieza de archivos temporales.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son algunos de los problemas de red más comunes?",
+      "a": [
+        {
+          "option": "Red lenta.",
+          "correct": true
+        },
+        {
+          "option": "Problemas de conectividad física.",
+          "correct": true
+        },
+        {
+          "option": "Búsquedas DNS lentas.",
+          "correct": true
+        },
+        {
+          "option": "Todas las anteriores.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es el monitoreo de eventos y cómo se puede utilizar para mejorar la seguridad de la red?",
+      "a": [
+        {
+          "option": "El monitoreo de eventos es el proceso de registrar y analizar las actividades en la red.",
+          "correct": true
+        },
+        {
+          "option": "El monitoreo de eventos solo se utiliza para solucionar problemas de rendimiento de la red.",
+          "correct": false
+        },
+        {
+          "option": "El monitoreo de eventos no es necesario para redes pequeñas.",
+          "correct": false
+        },
+        {
+          "option": "El monitoreo de eventos no tiene relación con la seguridad de la red.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

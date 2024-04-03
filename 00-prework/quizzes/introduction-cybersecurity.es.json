@@ -3,7 +3,7 @@
     "slug":    "introduction-cybersecurity-es",
     "name":    "Introducción a la ciberseguridad",
     "status":    "draft",
-    "main":    "Quiz del preework de ciberseguridad",
+    "main":    "Quiz de introducción a la ciberseguridad",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
     "badges": [
         { "slug": "cybersecurity_guru", "points": 5 }

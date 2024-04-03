@@ -6,8 +6,8 @@ Requirements:
 Warning: Computers with CPU M1, M2, or M3 are not compatible.
 
 Syllabs:
-- Semana 0: Prework
-- Semana 1: Fundamentos de redes
+- [Semana 0: Prework](./00-prework/README.es.md)
+- [Semana 1: Fundamentos de redes](./01-fundamentos-redes/README.es.md)
 - Semana 2: Linux
 - Semana 3: Administración de servidores
 - Semana 4: Seguridad en redes
