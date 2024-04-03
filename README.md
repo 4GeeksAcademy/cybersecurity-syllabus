@@ -11,20 +11,21 @@ Cybersecurity professionals are in high demand, and the shortage of skilled work
 
 ## Syllabus
 
-- Semana 0: Prework
-- Semana 1: Fundamentos de redes
-- Semana 2: Linux
-- Semana 3: Administración de servidores
-- Semana 4: Seguridad en redes
-- Semana 5: Entornos Cloud
-- Semana 6: Introducción al pentesting
-- Semana 7: Pentesting Blue team
-- Semana 8: Pentesting red team
-- Semana 9: Ciberinteligencia y OSINT
-- Semana 10: DLP y gestion de riesgo
-- Semana 11: ISO 27001
-- Semana 12: NIST
-- Semana 13: ENS
+- Week 0: Prework
+- Week 1: Fundamentos de redes
+- Week 2: Linux
+- Week 3: Administración de servidores
+- Week 4: Seguridad en redes
+- Week 5: Entornos Cloud
+- Week 6: Introducción al pentesting
+- Week 7: Pentesting Blue team
+- Week 8: Pentesting red team
+- Week 9: Ciberinteligencia y OSINT
+- Week 10: DLP y gestion de riesgo
+- Week 11: ISO 27001
+- Week 12: NIST
+- Week 13: ENS
+- Weeks 13-16: Final Project
 
 ## Outcomes
 
