@@ -36,8 +36,16 @@
 - 📝[Quiz: Gestión de incidentes y estándares de seguridad](./quizzes/incident-management-security-standards.es.json)
 - 🧪Implementación de buenas prácticas de seguridad de en la Maquina Virtual Windows10 *
 
-## Día 5-6 - Packet Tracer
+## Día 5 - Packet Tracer
 
 - 📗[Comunicaciones y redes](./communication-and-networking.es.md)
 - 📗[Introducción a Packet Tracer](./intro-packet-tracer.es.md)
 - 🧪Montaje de una topología en Packet Tracer(https://github.com/4GeeksAcademy/intro-packettracer)
+
+## Día 6 - Python
+
+- 📗[Para que sirve Python?](https://4geeks.com/es/syllabus/cybersecurity-prework/read/what-is-python-used-for)
+- 📗[Que es Python, introduccion](https://4geeks.com/es/syllabus/cybersecurity-prework/read/intro-to-python)
+- 📗[Aprendiendo a programar con Python](https://4geeks.com/es/syllabus/cybersecurity-prework/read/learning-to-code-with-python)
+- 📗 [Condicionales en la programación en Python](https://4geeks.com/es/syllabus/cybersecurity-prework/read/conditionals-in-programing-python)
+- 🧪 [Aprende Python Interactivamente (Principiante)](https://4geeks.com/es/syllabus/cybersecurity-prework/practice/python-beginner-exercises)

@@ -4,24 +4,22 @@
 - 📗[introduction-networks-and-communications](./introduction-networks-and-communications.es.md)
 - 📗[network-reference-models](./network-reference-models.es.md)
 - 📝[Quiz: Introducción a redes](./quizzes/best-practices.es.json)
-- 📗[network-devices](./network-devices.es.md)
-- 📗[ip-address-management](./ip-address-management.es.md)
-- 📗[network-protocols](./network-protocols.es.md)
-- 📝[Quiz: Dispositivos y protocolos de red](./quizzes/best-practices.es.json)
+- 📗[enterprise-network-architecture](./enterprise-network-architecture.es.md)
+- 📗[basic-network-security](./basic-network-security.es.md)
+- 📝[Quiz: Arquitectura y seguridad de redes](./quizzes/best-practices.es.json)
 
 ## Dia 2
 
-- 📗[enterprise-network-architecture](./enterprise-network-architecture.es.md)
+- 📗[ip-address-management](./ip-address-management.es.md)
+- 📗[network-protocols](./network-protocols.es.md)
+- 📝[Quiz: Direcciones y protocolos de red](./quizzes/best-practices.es.json)
+- 📗[network-devices](./network-devices.es.md)
 - 📗[network-troubleshooting](./network-troubleshooting.es.md)
-- 📗[basic-network-security](./basic-network-security.es.md)
 - 🧪[Corregir red en Packet Tracer](???)
 
 ## Dia 3
 
 - 📗[network-planning-and-documentation](./network-planning-and-documentation.es.md)
-- 📗[Redes en VirtualBox]
-- 🧪Despliegue de maquina virtual Debian
-- 🧪Comunicación entre maquinas virtuales
-
-
-- 📝[Quiz: Buenas prácticas](./quizzes/best-practices.es.json)
+- 📗[Redes en VirtualBox](./networking-virtualbox.es.md)
+- 🧪[Despliegue de maquina virtual Debian](???)
+- 🧪[Comunicación entre maquinas virtuales](???)
