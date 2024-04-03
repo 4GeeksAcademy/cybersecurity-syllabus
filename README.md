@@ -34,18 +34,18 @@ The coursework's last 2-3 weeks are reserved for a final project.
 
 ## Outcomes
 
-- Foundational Cybersecurity Knowledge: Understand basic to advanced cybersecurity concepts, including network structures, Linux operations, and server administration.
-- Practical Technical Skills: Acquire hands-on skills in navigating and securing Linux and Windows environments, managing servers, and implementing network security measures.
-- Cloud Computing Security: Gain insights into cloud environments and understand the security challenges and strategies for IaaS, PaaS, and SaaS.
-- Penetration Testing Expertise: Develop offensive (Red Team) and defensive (Blue Team) penetration testing skills to identify, exploit, and protect against vulnerabilities.
-- Cyber Intelligence Application: Learn to gather and analyze open-source intelligence (OSINT) for cyber threat prevention and mitigation.
-- Comprehensive Risk Management: Understand and apply principles of Data Loss Prevention (DLP), risk management, and compliance with international standards like ISO 27001 and NIST.
-- Regulatory Compliance and Standards: Become familiar with critical cybersecurity frameworks and regulations, including the National Security Scheme (ENS), to ensure the protection of information systems in various sectors.
+- **Foundational Cybersecurity Knowledge**: Understand basic to advanced cybersecurity concepts, including network structures, Linux operations, and server administration.
+- **Practical Technical Skills**: Acquire hands-on skills in navigating and securing Linux and Windows environments, managing servers, and implementing network security measures.
+- **Cloud Computing Security**: Gain insights into cloud environments and understand the security challenges and strategies for IaaS, PaaS, and SaaS.
+- **Penetration Testing Expertise**: Develop offensive (Red Team) and defensive (Blue Team) penetration testing skills to identify, exploit, and protect against vulnerabilities.
+- **Cyber Intelligence Application**: Learn to gather and analyze open-source intelligence (OSINT) for cyber threat prevention and mitigation.
+- **Comprehensive Risk Management**: Understand and apply principles of Data Loss Prevention (DLP), risk management, and compliance with international standards like ISO 27001 and NIST.
+- **Regulatory Compliance and Standards**: Become familiar with critical cybersecurity frameworks and regulations, including the National Security Scheme (ENS), to protect information systems in various sectors.
 
 ## Career Outcomes
 
-- Portfolio Development The bootcamp covers a broad range of topics from basic networking fundamentals to advanced penetration testing, cloud security, and compliance standards. This breadth of knowledge is crucial for entry-level positions in cybersecurity.
-- **Hands-On Experience:** We will emphasize practical, hands-on experience, which is highly valued by employers. Demonstrating that you've applied your learning in real-world scenarios can will make you an attractive candidate.
+- **Essential Knowledge**: The bootcamp covers a broad range of topics from basic networking fundamentals to advanced penetration testing, cloud security, and compliance standards. This breadth of knowledge is crucial for entry-level positions in cybersecurity.
+- **Hands-On Experience:** We will emphasize practical, hands-on experience, which employers highly value. Demonstrating that you've applied your learning in real-world scenarios will make you an attractive candidate.
 - **Portfolio Development:** You'll complete projects that demonstrate your skills in identifying and mitigating security vulnerabilities, among other things. A portfolio of such projects is a strong addition to your resume.
 
 ## Aditional notes
