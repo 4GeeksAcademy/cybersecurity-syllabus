@@ -4,7 +4,7 @@
 
 La planificación de medidas de control y mitigación de riesgos es fundamental para proteger la información confidencial y sensible de una organización. En este punto nos referimos a las estrategias y tecnologías utilizadas para prevenir la pérdida o filtración de datos críticos, ya sea intencional o accidentalmente.
 
-![Medidas de control](../assets/medidas-de-control.png)
+![Medidas de control](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/medidas-de-control.png?raw=true)
 
 Algunos pasos clave para la planificación de medidas de control y mitigación de riesgos en DLP son:
 
