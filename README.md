@@ -1,6 +1,11 @@
 # Cybersecurity Syllabus
 
-Cybersecurity professionals are in high demand, and the shortage of skilled workers in the field means that qualified candidates are often quickly hired. The skills gap in cybersecurity can work to your advantage, especially if you're willing to continue learning and advancing your skills after the bootcamp.
+Cybersecurity professionals are in high demand, and the shortage of skilled workers in the field means that qualified candidates are often quickly hired. The skills gap in cybersecurity can work to your advantage, especially if you're willing to continue learning and advancing your skills after the BootCamp.
+
+## Duration
+
+2 Week Prework (mandatory) + 16 weeks coursework.
+The coursework's last 2-3 weeks are reserved for a final project.
 
 ## Requirements
 
