@@ -32,7 +32,7 @@ La pérdida de datos puede tener consecuencias graves para una organización, in
 - **Encriptación de datos**: La encriptación de datos es una medida efectiva para proteger la información confidencial. Al encriptar los datos tanto en reposo como en tránsito, se dificulta su acceso no autorizado en caso de una brecha de seguridad.
 - **Monitoreo y detección de amenazas**: Implementar sistemas de monitoreo y detección de amenazas ayuda a identificar actividades sospechosas o intentos de acceso no autorizado a los datos. Esto permite una respuesta rápida y eficiente ante posibles incidentes de pérdida de datos.
 
-![Perdida de Datos](../assets/perdida-de-datos.png)
+![Perdida de Datos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/perdida-de-datos.png?raw=true)
 
 > 📖 En resumen, seguir prácticas recomendadas para prevenir la pérdida de datos es esencial para proteger la información sensible de una organización. Al establecer políticas de seguridad, educar a los empleados, controlar el acceso, realizar copias de seguridad, mantener el software actualizado, encriptar los datos y monitorear las amenazas, las organizaciones pueden reducir significativamente el riesgo de pérdida de datos y salvaguardar la confidencialidad e integridad de su información.
 

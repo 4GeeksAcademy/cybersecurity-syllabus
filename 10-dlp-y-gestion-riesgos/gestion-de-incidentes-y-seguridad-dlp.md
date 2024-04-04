@@ -29,7 +29,7 @@ A continuación, se describen los principales procesos y procedimientos para la 
 - **Investigación y análisis**: Una vez que se ha contenido el incidente, se debe llevar a cabo una investigación exhaustiva para determinar las causas y el alcance del incidente. Esto implica analizar la evidencia recopilada, identificar las vulnerabilidades explotadas y determinar las lecciones aprendidas. Esta información es crucial para fortalecer las medidas de seguridad y prevenir futuros incidentes.
 - **Informe y seguimiento**: Es importante documentar todos los aspectos del incidente, incluyendo las acciones tomadas, los resultados de la investigación y las recomendaciones para mejorar la seguridad. Además, se debe realizar un seguimiento para garantizar que las medidas correctivas se implementen de manera efectiva y se realicen las mejoras necesarias en los procesos y procedimientos existentes.
 
-![Gestión de incidentes de Seguridad](../assets/gestion-de-incidentes.png)
+![Gestión de incidentes de Seguridad](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/gestion-de-incidentes.png?raw=true)
 
 ## **Investigacion y analisis de incidentes de pérdida de datos**
 
@@ -44,39 +44,3 @@ A continuación, describimos los principales aspectos para la investigación y a
 - **Informe y recomendaciones**: Una vez que se ha completado la investigación y el análisis, es importante documentar los hallazgos en un informe detallado. Este informe debe incluir una descripción del incidente, los resultados del análisis forense, la causa raíz identificada, el impacto del incidente y las recomendaciones para mejorar la seguridad. Estas recomendaciones pueden incluir la implementación de medidas adicionales de seguridad, la actualización de políticas y procedimientos, y la capacitación del personal.
 
 > 📖 En resumen, la investigación y análisis de incidentes de pérdida de datos son fundamentales para comprender cómo ocurrió una brecha de seguridad y qué medidas se deben tomar para prevenir incidentes similares en el futuro. Al recopilar información, realizar análisis forenses, determinar la causa raíz, evaluar el impacto y documentar los hallazgos, las organizaciones pueden fortalecer su seguridad y proteger la información confidencial de manera más efectiva.
-
-# ⚡**Quiz: Gestión de incidentes de seguridad y DLP
-
-1. ¿En qué situación usted considera que exista una amenaza sobre la información de la organización?
-2. Existe un marco de trabajo llamado nist framework el cual consta de medidas para ayudar a reducir los riesgos y tener una mejor administración de la información.
-3. ¿En qué consta este marco y cómo se puede aplicar a la DLP?
-
-**Descripción del Escenario**
-
-Eres analista de ciberseguridad en la empresa “KAPECI.INC” donde tu labor es monitorear las actividades en la red y tomar acciones en caso de alguna amenaza a la información de la empresa
-
-Un dia en el monitoreo de actividades observa una actividad inusual en la red del departamento de marketing donde están accediendo a documentos sensibles del departamento IT.
-
-**Preguntas y desafíos**
-
-1. **Evaluación inicial**
-
-¿Cuál sería el primer paso que haría como analista de ciberseguridad?
-
-¿Que determinar si este incidente es una equivocación (falso positivo) o una acción que puede escalar (verdadero positivo)
-
-1. **Contención**
-
-¿Qué acciones podemos tomar para contener el ataque?
-
-1. **Investigación**
-
-¿Qué podemos tomar en cuenta para hacer una investigación exhaustiva del incidente?
-
-¿Qué información o logro podemos obtener con esta investigación?
-
-**Recuperación y mejora**
-
-¿Como analista de ciberseguridad, cuáles serían sus recomendaciones para mejorar el sistema y evitar que este tipo de incidentes se repita?
-
-De haber datos perdidos ¿Se podría recuperar estos datos?
