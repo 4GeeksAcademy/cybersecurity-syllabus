@@ -1,4 +1,10 @@
-# Lectura 5 📕: Tecnología y herramientas de DLP
+---
+title: "Tecnología y herramientas de DLP"
+subtitle: "Protegiendo la Información Confidencial: Tecnología y Herramientas de DLP"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Tipos de soluciones de DLP disponibles en el mercado
 
