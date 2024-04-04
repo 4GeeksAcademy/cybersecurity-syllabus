@@ -1,4 +1,10 @@
-# Lectura 9 📕: Auditoría y evaluación del programa de gestión de riesgos y DLP
+---
+title: "Auditoría y evaluación del programa de gestión de riesgos y DLP"
+subtitle: "Optimizando la Seguridad: Auditorías y Mejora Continua en Gestión de Riesgos y DLP"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Auditorías internas y externas del programa de gestión de riesgos
 
