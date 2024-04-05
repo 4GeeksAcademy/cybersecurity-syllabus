@@ -1,4 +1,10 @@
-# Lectura 10 📕 : Integración de la gestión de riesgos y DLP en la cultura de la empresa
+---
+title: "Integración de la gestión de riesgos y DLP en la cultura de la empresa"
+subtitle: "Integración de la gestión de riesgos y DLP en los procesos empresariales: Un Enfoque Holístico para la Protección de Datos"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Comunicación y colaboración con las partes interesadas
 

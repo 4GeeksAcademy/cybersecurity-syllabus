@@ -1,4 +1,10 @@
-# Lectura 2 📕: Identificación de activos y evaluación de riesgos:
+---
+title: "Identificación de activos y evaluación de riesgos"
+subtitle: "Protegiendo tus Activos: Identificación y Evaluación de Riesgos de Información"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Identificación y clasificación de activos de información
 

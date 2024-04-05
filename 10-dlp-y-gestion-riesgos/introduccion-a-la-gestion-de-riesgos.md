@@ -1,4 +1,10 @@
-# Lectura 1: 📕 Introducción a la gestión de riesgos
+---
+title: "Introducción a la gestión de riesgos"
+subtitle: "Navegando por la Gestión de Riesgos: Protegiendo los Activos en el Mundo Digital"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Qué es la gestión de riesgos y su importancia en las empresas
 

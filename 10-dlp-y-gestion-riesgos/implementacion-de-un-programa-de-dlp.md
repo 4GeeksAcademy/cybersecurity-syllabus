@@ -1,4 +1,10 @@
-# Lectura 4 📕: Implementación de un programa de DLP
+---
+title: "Implementación de un programa de DLP"
+subtitle: "Evaluación Integral de Riesgos: Fundamento del Programa de Prevención de Pérdida de Datos (DLP)"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Introducción al Data loss Prevention (DLP)
 
