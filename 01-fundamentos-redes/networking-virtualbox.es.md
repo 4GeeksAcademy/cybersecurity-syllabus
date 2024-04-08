@@ -24,7 +24,6 @@ Imagina que tu edificio es una red y cada apartamento en ella es como un disposi
 - Seguridad: NAT ayuda a proteger tu red de intrusos bloqueando por defecto e acceso espontaneo a los equipos dentro de la red.
 - Privacidad: NAT oculta las direcciones IP privadas de tus dispositivos a Internet.
 
-
 ## Conexiones en VirtualBox
 
 Desde las ventana de configuración de una máquina virtual en VirtualBox, podemos activar hasta 4 interfaces de red. Cada una de estas interfaces puede emular un adaptador especifico y conectarse a una de las opciones disponibles.

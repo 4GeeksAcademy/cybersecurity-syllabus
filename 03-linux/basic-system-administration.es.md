@@ -21,7 +21,7 @@ Algunos comandos que podemos usar para la gestión de usuarios y grupos son
 
 **`userdel`** (elimina a un usuario)
 
-**`passwd`** (cambia la contraseña de un usuario
+**`passwd`** (cambia la contraseña de un usuario)
 
 **`groupadd`** (crea un grupo en la gestión)
 
