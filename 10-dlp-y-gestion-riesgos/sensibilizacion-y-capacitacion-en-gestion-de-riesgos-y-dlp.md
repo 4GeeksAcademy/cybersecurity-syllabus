@@ -1,4 +1,10 @@
-# Lectura 8 📕Sensibilizacion y capacitacion en gestion de riesgos y DLP
+---
+title: "Sensibilizacion y capacitacion en gestion de riesgos y DLP"
+subtitle: "Fortaleciendo la Cultura de Seguridad: Sensibilización y Capacitación en Gestión de Riesgos y DLP"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Importancia de la concienciación en seguridad de la información
 

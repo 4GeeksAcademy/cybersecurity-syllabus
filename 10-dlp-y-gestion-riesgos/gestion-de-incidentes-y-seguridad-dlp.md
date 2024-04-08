@@ -1,4 +1,10 @@
-# Lectura 6 📕: Gestión de incidentes de seguridad y DLP
+---
+title: "Gestión de incidentes de seguridad y DLP"
+subtitle: "¡Actúa con Rapidez! Detección y Respuesta ante Incidentes de Pérdida de Datos"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Detección y respuesta ante incidentes de pérdida de datos
 

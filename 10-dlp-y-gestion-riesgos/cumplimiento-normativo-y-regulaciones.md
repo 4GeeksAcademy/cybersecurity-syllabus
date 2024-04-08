@@ -1,4 +1,10 @@
-# Lectura 7 📕: Cumplimiento normativo y regulaciones
+---
+title: "Cumplimiento normativo y regulaciones"
+subtitle: "Descubre las Reglas que Protegen tus Datos: Normativas y Cumplimiento Legal en España"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Normativas y regulaciones relacionadas con la protección de datos
 

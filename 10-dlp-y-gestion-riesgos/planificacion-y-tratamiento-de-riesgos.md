@@ -1,4 +1,10 @@
-# Lectura 3 📕: Planificación y tratamiento de riesgos:
+---
+title: "Planificación y tratamiento de riesgos"
+subtitle: "Evaluación y Seguimiento de Efectividad en DLP: Garantizando la Protección de Datos Sensibles"
+tags: ["ciberseguridad"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Planificación de medidas de control y mitigación de riesgos
 
