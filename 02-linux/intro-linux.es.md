@@ -1,5 +1,3 @@
-# Lectura 1 📕: Introducción a Linux
-
 ## Qué es Linux y su importancia en el mundo de la informática
 
 A pesar de a lo que generalmente puedas escuchar sobre linux, este en realidad se trata de un núcleo o **kernel** que puede controlar a un hardware, una manera más sencilla de explicarlo es que LInux es un conjuntos de drivers necesarios para usar un dispositivo como una computadora o una laptop. Este se creó como un núcleo semejante al de un sistema operativo UNIX.
