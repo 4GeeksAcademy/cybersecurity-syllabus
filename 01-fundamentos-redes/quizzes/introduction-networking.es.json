@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "introduction-networking-es",
+    "name":    "Introducción a redes",
+    "status":    "draft",
+    "main":    "Bienvenido al mundo de las redes. Este primer paso te llevara a grandes cosas en el futuro...",
+    "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+  },
+  "q": [
+    {
+      "q": "¿Qué es una red informática y cómo ha evolucionado?",
+      "option": [
+        {
+          "option": "Un conjunto de dispositivos conectados para compartir recursos y comunicarse.",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software antivirus que protege contra malware específico.",
+          "correct": false
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red.",
+          "correct": false
+        },
+        {
+          "option": "Un dispositivo que controla el tráfico de red entre dos o más redes.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué son los protocolos de comunicación y cómo funcionan en las redes?",
+      "option": [
+        {
+          "option": "Un tipo de software que protege contra ataques de denegación de servicio (DDoS).",
+          "correct": false
+        },
+        {
+          "option": "Un método para segmentar la red en diferentes zonas de seguridad.",
+          "correct": false
+        },
+        {
+          "option": "Un conjunto de reglas que define cómo los dispositivos se comunican en la red.",
+          "correct": true
+        },
+        {
+          "option": "Un dispositivo que conecta dos redes diferentes con diferentes tecnologías.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es una topología de red y cuáles son las principales topologías?",
+      "option": [
+        {
+          "option": "Un tipo de software que administra y configura dispositivos de red.",
+          "correct": false
+        },
+        {
+          "option": "Un método para encriptar la información que se envía a través de la red.",
+          "correct": false
+        },
+        {
+          "option": "La forma en que se organizan y conectan los dispositivos en una red.",
+          "correct": true
+        },
+        {
+          "option": "Un dispositivo que almacena y administra archivos en una red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué son los servidores y qué funciones cumplen en una red informática empresarial?",
+      "option": [
+        {
+          "option": "Un tipo de software que protege contra ataques de phishing.",
+          "correct": false
+        },
+        {
+          "option": "Un dispositivo que conecta dos redes con diferentes velocidades de transmisión.",
+          "correct": false
+        },
+        {
+          "option": "Dispositivos que ofrecen servicios, recursos y datos a otros dispositivos en la red.",
+          "correct": true
+        },
+        {
+          "option": "Un método para segmentar la red en diferentes zonas de seguridad.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son algunos tipos de servidores comunes y sus funciones?",
+      "option": [
+        {
+          "option": "Servidor de correo electrónico, servidor web, servidor de archivos, servidor de aplicaciones.",
+          "correct": true
+        },
+        {
+          "option": "Servidor de seguridad, servidor proxy, servidor VPN, servidor DNS.",
+          "correct": true
+        },
+        {
+          "option": "Servidor de juegos, servidor de chat, servidor de impresión, servidor de almacenamiento.",
+          "correct": true
+        },
+        {
+          "option": "Todas las option anteriores.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿Qué son los modelos de referencia de redes y por qué son importantes?",
+      "option": [
+        {
+          "option": "Un conjunto de herramientas para la gestión de redes.",
+          "correct": false
+        },
+        {
+          "option": "Marcos teóricos para comprender la comunicación y organización de las redes.",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software para la seguridad de redes.",
+          "correct": false
+        },
+        {
+          "option": "Dispositivos físicos que permiten la conexión a internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son las principales capas del Modelo OSI y sus funciones?",
+      "option": [
+        {
+          "option": "Capa física, capa de aplicación, capa de transporte.",
+          "correct": false
+        },
+        {
+          "option": "Capa de red, capa de enlace de datos, capa de presentación.",
+          "correct": false
+        },
+        {
+          "option": "Todas las option anteriores.",
+          "correct": false
+        },
+        {
+          "option": "Las option 1 y 2 son corrects.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "¿En qué se diferencia el Modelo TCP/IP del Modelo OSI?",
+      "option": [
+        {
+          "option": "El Modelo TCP/IP tiene menos capas que el Modelo OSI.",
+          "correct": true
+        },
+        {
+          "option": "El Modelo TCP/IP se enfoca en la arquitectura de Internet.",
+          "correct": true
+        },
+        {
+          "option": "El Modelo OSI es más utilizado en la práctica que el Modelo TCP/IP.",
+          "correct": false
+        },
+        {
+          "option": "No hay diferencias significativas entre ambos modelos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué función cumple la capa de transporte en el Modelo TCP/IP?",
+      "option": [
+        {
+          "option": "Enrutar los datos a través de diferentes redes.",
+          "correct": false
+        },
+        {
+          "option": "Controlar la transmisión de datos de forma fiable y en orden.",
+          "correct": true
+        },
+        {
+          "option": "Presentar los datos a la aplicación de usuario.",
+          "correct": false
+        },
+        {
+          "option": "Transmitir los datos a través de la red física.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué ejemplos de protocolos se encuentran en la capa de aplicación del Modelo TCP/IP?",
+      "option": [
+        {
+          "option": "HTTP, FTP, SMTP.",
+          "correct": true
+        },
+        {
+          "option": "TCP, IP, UDP.",
+          "correct": false
+        },
+        {
+          "option": "Ethernet, Wi-Fi, Bluetooth.",
+          "correct": false
+        },
+        {
+          "option": "ARP, DNS, DHCP.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

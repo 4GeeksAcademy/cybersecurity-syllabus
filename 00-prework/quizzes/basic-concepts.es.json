@@ -3,7 +3,7 @@
     "slug":    "basic-concepts-es",
     "name":    "Conceptos básicos",
     "status":    "draft",
-    "main":    "Quiz del preework de ciberseguridad",
+    "main":    "Conceptos básicos de la seguridad y tecnologías de la información",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
     "badges": [
         { "slug": "cybersecurity_guru", "points": 5 }
@@ -27,27 +27,6 @@
         },
         {
           "option": "Es la ciencia que estudia la creación de inteligencia artificial.",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "q": "¿Cuáles son los principales componentes de un computador?",
-      "a": [
-        {
-          "option": "Software, hardware y firmware.",
-          "correct": true
-        },
-        {
-          "option": "Memoria RAM, disco duro y tarjeta madre.",
-          "correct": false
-        },
-        {
-          "option": "Procesador, teclado y monitor.",
-          "correct": false
-        },
-        {
-          "option": "Batería, cámara y puertos USB.",
           "correct": false
         }
       ]
@@ -116,27 +95,6 @@
       ]
     },
     {
-      "q": "¿Qué es la ciberseguridad?",
-      "a": [
-        {
-          "option": "Es la práctica de proteger los sistemas informáticos y las redes de ataques.",
-          "correct": true
-        },
-        {
-          "option": "Es el estudio de las leyes que regulan el uso de internet.",
-          "correct": false
-        },
-        {
-          "option": "Es un tipo de software que se utiliza para detectar y eliminar malware.",
-          "correct": false
-        },
-        {
-          "option": "Es una profesión que se dedica a la investigación de delitos informáticos.",
-          "correct": false
-        }
-      ]
-    },
-    {
       "q": "¿Cuáles son los tres pilares de la ciberseguridad?",
       "a": [
         {
@@ -179,22 +137,22 @@
       ]
     },
     {
-      "q": "¿Qué tipos de ataques cibernéticos se mencionan en el artículo?",
+      "q": "Cuál de estos es un ataque que consiste en decodificar datos mediante prueba y error?",
       "a": [
         {
-          "option": "Phishing, ingeniería social, robo de datos y extorsión.",
+          "option": "Ataque de fuerza bruta",
           "correct": true
         },
         {
-          "option": "Malware, ransomware, ataques DDoS y ataques a la cadena de suministro.",
+          "option": "Ataques DDoS",
           "correct": false
         },
         {
-          "option": "Ataques de fuerza bruta, ataques de diccionario y ataques de inyección de código.",
+          "option": "Ransomware",
           "correct": false
         },
         {
-          "option": "Suplantación de identidad, denegación de servicio y ataques a servidores web.",
+          "option": "Inyección de código",
           "correct": false
         }
       ]
@@ -204,19 +162,15 @@
       "a": [
         {
           "option": "Para proteger sus datos e información confidencial.",
-          "correct": true
-        },
-        {
-          "option": "Para ahorrar dinero en costes de seguridad.",
           "correct": false
         },
         {
           "option": "Para cumplir con las regulaciones legales.",
-          "correct": true
+          "correct": false
         },
         {
           "option": "Para mejorar la imagen y reputación de la empresa.",
-          "correct": true
+          "correct": false
         },
         {
           "option": "Todas las anteriores.",
@@ -225,7 +179,7 @@
       ]
     },
     {
-      "q": "¿Qué es la tríada de la seguridad informática?",
+      "q": "¿Qué es la triada de la seguridad informática?",
       "a": [
         {
           "option": "Un conjunto de tres principios básicos para proteger la información: Confidencialidad, Integridad y Disponibilidad.",
@@ -271,15 +225,15 @@
       "a": [
         {
           "option": "Utilizar firmas digitales para verificar la autenticidad de los datos.",
-          "correct": true
+          "correct": false
         },
         {
           "option": "Realizar copias de seguridad regulares de la información.",
-          "correct": true
+          "correct": false
         },
         {
           "option": "Implementar políticas de seguridad para controlar el acceso a la información.",
-          "correct": true
+          "correct": false
         },
         {
           "option": "Todas las anteriores.",
@@ -291,7 +245,7 @@
       "q": "¿Qué es la disponibilidad en el contexto de la seguridad informática?",
       "a": [
         {
-          "option": "Que la información esté disponible para su uso cuando sea necesario.",
+          "option": "Que la información sea accesible para su uso cuando sea necesario.",
           "correct": true
         },
         {
