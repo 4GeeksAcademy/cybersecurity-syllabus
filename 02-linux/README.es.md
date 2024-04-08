@@ -1,10 +1,10 @@
 ## Dia 1
 
 - 📗[intro a linux](./intro-linux.es.md)
-- 🧪[Presentación de acerca de distribuciones GNU/Linux](???)
+- 🧪[Presentación acerca de distribuciones GNU/Linux](./labs/presentacion-distros.es.md)
 - 📗[Archivos y directorios](./files-directories.es.md.es.md)
 - 📗[Fundamento de la línea de comandos](./command-line-fundamentals.es.md)
-- 🧪[Command Line Challenge](???)
+- 🧪[Command Line Challenge](https://github.com/breatheco-de/exercise-terminal-challenge)
 
 ## Dia 2
 
@@ -12,7 +12,7 @@
 - 📗[Administración básica del sistema](./basic-system-administration.es.md)
 - 🧪[Crear un script para actualizar el sistema](???)
 - 📗[Introducción a la seguridad en Linux](./intro-linux-security.es.md)
-- 🧪[Configuración de IP Tables](???)
+- 🧪[Configuración de IP Tables](./labs/ip-tables.es.md)
 
 ## Dia 3
 
