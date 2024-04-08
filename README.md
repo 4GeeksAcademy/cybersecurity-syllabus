@@ -2,23 +2,6 @@
 
 Cybersecurity professionals are in high demand, and the shortage of skilled workers in the field means that qualified candidates are often quickly hired. The skills gap in cybersecurity can work to your advantage, especially if you're willing to continue learning and advancing your skills after the BootCamp.
 
-<<<<<<< HEAD
-Syllabs:
-- [Semana 0: Prework](./00-prework/README.es.md)
-- [Semana 1: Fundamentos de redes](./01-fundamentos-redes/README.es.md)
-- Semana 2: Linux
-- Semana 3: Administración de servidores
-- Semana 4: Seguridad en redes
-- Semana 5: Entornos Cloud
-- Semana 6: Introducción al pentesting
-- Semana 7: Pentesting Blue team
-- Semana 8: Pentesting red team
-- Semana 9: Ciberinteligencia y OSINT
-- Semana 10: DLP y gestion de riesgo
-- Semana 11: ISO 27001
-- Semana 12: NIST
-- Semana 13: ENS
-=======
 ## Duration
 
 2 Week Prework (mandatory) + 16 weeks coursework.
@@ -69,4 +52,3 @@ The coursework's last 2-3 weeks are reserved for a final project.
 
 - The pentesting practices are based on the laboratories of the eJPT certification.
 - No bootcamp in the world leaves you ready to certify in anything (eJPT, CEH, etc.), but if you wish to get certified after the bootcamp, you will have a large part of the study already done.
->>>>>>> 6a9786ad982a88ea2afef33005f104c5416659f0
