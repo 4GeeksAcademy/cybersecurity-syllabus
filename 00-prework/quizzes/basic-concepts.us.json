@@ -1,0 +1,287 @@
+{
+  "info": {
+    "slug":    "basic-concepts-us",
+    "name":    "Basic Concepts",
+    "status":    "draft",
+    "main":    "Basic concepts of security and information technologies",
+    "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "q": [
+    {
+      "q": "What is information technology (IT)?",
+      "a": [
+        {
+          "option": "It is the branch of engineering that is responsible for the design and construction of robots.",
+          "correct": false
+        },
+        {
+          "option": "It is the set of tools and processes that allow the automatic processing of information.",
+          "correct": true
+        },
+        {
+          "option": "It is the study of social networks and how they impact society.",
+          "correct": false
+        },
+        {
+          "option": "It is the science that studies the creation of artificial intelligence.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is IoT (Internet of Things)?",
+      "a": [
+        {
+          "option": "It is a global computer network that connects people and organizations.",
+          "correct": false
+        },
+        {
+          "option": "It is a technology that allows physical devices to connect to the Internet and each other.",
+          "correct": true
+        },
+        {
+          "option": "It is a type of software that is used to protect user data.",
+          "correct": false
+        },
+        {
+          "option": "It is a programming language used to create web applications.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is cybersecurity?",
+      "a": [
+        {
+          "option": "It is the practice of protecting computer systems and networks from attacks.",
+          "correct": true
+        },
+        {
+          "option": "It is the study of the laws that regulate the use of the Internet.",
+          "correct": false
+        },
+        {
+          "option": "It is a type of software used to detect and remove malware.",
+          "correct": false
+        },
+        {
+          "option": "It is a profession that is dedicated to the investigation of computer crimes.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are programming languages and why are they important in cybersecurity?",
+      "a": [
+        {
+          "option": "They are tools that allow humans to create instructions for computers to execute. They are important in cybersecurity because they are used to create security software and to analyze malware.",
+          "correct": true
+        },
+        {
+          "option": "They are tools that allow humans to create instructions for computers to execute. They are important in cybersecurity because they are used to create security software and to analyze malware.",
+          "correct": false
+        },
+        {
+          "option": "They are types of software that are used to store information securely. They are important in cybersecurity because they allow users' data to be protected.",
+          "correct": false
+        },
+        {
+          "option": "They are types of software that are used to store information securely. They are important in cybersecurity because they allow users' data to be protected.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the three pillars of cybersecurity?",
+      "a": [
+        {
+          "option": "Confidentiality, availability and integrity.",
+          "correct": true
+        },
+        {
+          "option": "Prevention, detection and response.",
+          "correct": false
+        },
+        {
+          "option": "Hardware, software and networks.",
+          "correct": false
+        },
+        {
+          "option": "Attacks, threats and vulnerabilities.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a cyber-attack?",
+      "a": [
+        {
+          "option": "It is any action taken intentionally that breaks one or more of the three pillars of cybersecurity.",
+          "correct": true
+        },
+        {
+          "option": "It is a cyber accident that causes a disaster but was not executed intentionally.",
+          "correct": false
+        },
+        {
+          "option": "It is a type of software that is used to protect user data.",
+          "correct": false
+        },
+        {
+          "option": "It is a channel through which a cyber attack may be possible.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of these is an attack that involves decoding data through trial and error?",
+      "a": [
+        {
+          "option": "Brute force attack",
+          "correct": true
+        },
+        {
+          "option": "DDoS attacks",
+          "correct": false
+        },
+        {
+          "option": "Ransomware",
+          "correct": false
+        },
+        {
+          "option": "Code injection",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Why is cybersecurity important for companies?",
+      "a": [
+        {
+          "option": "To protect your data and confidential information.",
+          "correct": false
+        },
+        {
+          "option": "To comply with legal regulations.",
+          "correct": false
+        },
+        {
+          "option": "To improve the image and reputation of the company.",
+          "correct": false
+        },
+        {
+          "option": "All of the above.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "What is the computer security triad?",
+      "a": [
+        {
+          "option": "A set of three basic principles to protect information: Confidentiality, Integrity and Availability.",
+          "correct": true
+        },
+        {
+          "option": "A type of antivirus software that protects against three specific types of malware.",
+          "correct": false
+        },
+        {
+          "option": "An authentication method that uses three factors to verify the user's identity.",
+          "correct": false
+        },
+        {
+          "option": "A way to control access to computing resources through three levels of permissions.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What does it mean for information to be confidential?",
+      "a": [
+        {
+          "option": "That only authorized people can access it.",
+          "correct": true
+        },
+        {
+          "option": "Make it accurate and complete.",
+          "correct": false
+        },
+        {
+          "option": "Make it available for use when necessary.",
+          "correct": false
+        },
+        {
+          "option": "That it is protected against malware and other threats.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What measures can be taken to ensure the integrity of the information?",
+      "a": [
+        {
+          "option": "Use digital signatures to verify the authenticity of data.",
+          "correct": false
+        },
+        {
+          "option": "Make regular backup copies of information.",
+          "correct": false
+        },
+        {
+          "option": "Implement security policies to control access to information.",
+          "correct": false
+        },
+        {
+          "option": "All of the above.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "What is availability in the context of cybersecurity?",
+      "a": [
+        {
+          "option": "That the information is accessible for use when necessary.",
+          "correct": true
+        },
+        {
+          "option": "That the information is confidential and cannot be accessed by unauthorized persons.",
+          "correct": false
+        },
+        {
+          "option": "That the information is accurate and complete.",
+          "correct": false
+        },
+        {
+          "option": "That the information is protected against malware and other threats.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What type of attack uses social engineering techniques to trick users and obtain sensitive information?",
+      "a": [
+        {
+          "option": "Phishing",
+          "correct": true
+        },
+        {
+          "option": "Malware",
+          "correct": false
+        },
+        {
+          "option": "Brute force attack",
+          "correct": false
+        },
+        {
+          "option": "Denial of Service (DoS)",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
