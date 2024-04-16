@@ -1,0 +1,329 @@
+{
+  "info": {
+    "slug":    "best-practices-us",
+    "name":    "Best Practices in Cybersecurity",
+    "status":    "draft",
+    "main":    "Cybersecurity Prework Quiz",
+    "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "What is cryptography in computer science and what is its main objective?",
+      "a": [
+        {
+          "option": "It is the science that studies secret codes.",
+          "correct": false
+        },
+        {
+          "option": "It is a branch of computer science that deals with communication security.",
+          "correct": false
+        },
+        {
+          "option": "It is a set of techniques for encrypting and decrypting information.",
+          "correct": true
+        },
+        {
+          "option": "It is a method for protecting data integrity.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the two main types of cryptography?",
+      "a": [
+        {
+          "option": "Symmetric and asymmetric cryptography.",
+          "correct": true
+        },
+        {
+          "option": "Public and private key cryptography.",
+          "correct": false
+        },
+        {
+          "option": "Block and stream cryptography.",
+          "correct": false
+        },
+        {
+          "option": "Hash and digital cryptography.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "How does symmetric cryptography differ from asymmetric cryptography?",
+      "a": [
+        {
+          "option": "Symmetric cryptography uses a single key for both encryption and decryption, while asymmetric cryptography uses two different keys.,",
+          "correct": true
+        },
+        {
+          "option": "Symmetric cryptography is faster than asymmetric cryptography.",
+          "correct": true
+        },
+        {
+          "option": "Asymmetric cryptography is more secure than symmetric cryptography.",
+          "correct": false
+        },
+        {
+          "option": "Symmetric cryptography is only used for online communications, while asymmetric cryptography is used for data storage.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are some examples of symmetric and asymmetric encryption algorithms?",
+      "a": [
+        {
+          "option": "Symmetric: AES, DES. Asymmetric: RSA, ECC.",
+          "correct": true
+        },
+        {
+          "option": "Symmetric: RSA, ECC. Asymmetric: AES, DES.",
+          "correct": false
+        },
+        {
+          "option": "Symmetric: Hash, Digital. Asymmetric: Block, Stream.",
+          "correct": false
+        },
+        {
+          "option": "There are no symmetric and asymmetric encryption algorithms.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is cryptography used for in computer science?",
+      "a": [
+        {
+          "option": "To protect the confidentiality of information.",
+          "correct": true
+        },
+        {
+          "option": "To ensure data integrity.",
+          "correct": true
+        },
+        {
+          "option": "To enable authentication of users and systems.",
+          "correct": true
+        },
+        {
+          "option": "For all of the above.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "What is the primary goal of information security in an organization?",
+      "a": [
+        {
+          "option": "To protect the confidentiality, availability, and integrity of information.",
+          "correct": true
+        },
+        {
+          "option": "To reduce operational costs.",
+          "correct": false
+        },
+        {
+          "option": "To increase employee productivity.",
+          "correct": false
+        },
+        {
+          "option": "To improve customer experience.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the primary responsibility of users in information security?",
+      "a": [
+        {
+          "option": "To use secure and unique passwords for all accounts.",
+          "correct": true
+        },
+        {
+          "option": "To keep the operating system and applications updated.",
+          "correct": false
+        },
+        {
+          "option": "To report security incidents to the IT team.",
+          "correct": false
+        },
+        {
+          "option": "All of the above.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a good practice for protecting data on USB devices?",
+      "a": [
+        {
+          "option": "Formatear el dispositivo USB antes de usarlo.",
+          "correct": false
+        },
+        {
+          "option": "Formatting the USB device before use.",
+          "correct": true
+        },
+        {
+          "option": "Sharing the USB device with other users.",
+          "correct": false
+        },
+        {
+          "option": "Storing confidential information on the USB device without protection..",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the principle of least privilege access?",
+      "a": [
+        {
+          "option": "Granting users the minimum access necessary to perform their tasks.",
+          "correct": true
+        },
+        {
+          "option": "Granting users access to all organization systems and data.",
+          "correct": false
+        },
+        {
+          "option": "Allowing users to change their own access permissions.",
+          "correct": false
+        },
+        {
+          "option": "Restricting access to confidential information only to senior management.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the best way to protect confidential data in case of laptop theft?",
+      "a": [
+        {
+          "option": "Using disk encryption software.",
+          "correct": true
+        },
+        {
+          "option": "Storing confidential information in the cloud.",
+          "correct": false
+        },
+        {
+          "option": "Sharing the laptop password with a coworker.",
+          "correct": false
+        },
+        {
+          "option": "Taking no action, as laptop theft is inevitable.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is information and data privacy protection?",
+      "a": [
+        {
+          "option": "Practices and measures to safeguard information and data against unauthorized access, theft, loss, or misuse.",
+          "correct": true
+        },
+        {
+          "option": "Set of laws regulating the use of the internet and social networks.",
+          "correct": false
+        },
+        {
+          "option": "Techniques to improve network speed and performance.",
+          "correct": false
+        },
+        {
+          "option": "Way to control access to personal data on social networks.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is data encryption and how does it contribute to information protection?",
+      "a": [
+        {
+          "option": "Process of converting data into an unreadable format to protect confidentiality.",
+          "correct": true
+        },
+        {
+          "option": "Method for compressing data and saving storage space.",
+          "correct": false
+        },
+        {
+          "option": "Técnica para eliminar datos sensibles de forma permanente.",
+          "correct": false
+        },
+        {
+          "option": "System for creating data backups in the cloud.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is physical and logical access control and how is it implemented?",
+      "a": [
+        {
+          "option": "Set of measures to restrict access to physical and digital resources.",
+          "correct": true
+        },
+        {
+          "option": "System for monitoring network traffic and detecting intrusions.",
+          "correct": false
+        },
+        {
+          "option": "Method for authenticating users and devices on a network.",
+          "correct": false
+        },
+        {
+          "option": "Tool for creating and managing secure passwords.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the protection of confidential information and why is it important?",
+      "a": [
+        {
+          "option": "Practices to safeguard critical, sensitive, or strategically valuable information for the company.",
+          "correct": true
+        },
+        {
+          "option": "Conjunto de leyes que regulan la protección de datos personales.",
+          "correct": false
+        },
+        {
+          "option": "Technique for masking confidential data in a database.",
+          "correct": false
+        },
+        {
+          "option": "System to control access to public information on the internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What cybersecurity measures can be implemented to protect confidential information?",
+      "a": [
+        {
+          "option": "Data encryption, access control, identity and access management, auditing, and monitoring.",
+          "correct": true
+        },
+        {
+          "option": "Using antivirus software and keeping the operating system up to date.",
+          "correct": false
+        },
+        {
+          "option": "Creating data backups on an external hard drive.",
+          "correct": false
+        },
+        {
+          "option": "Sharing passwords with colleagues to facilitate access to information.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

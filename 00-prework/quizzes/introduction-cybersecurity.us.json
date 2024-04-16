@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "introduction-cybersecurity-us",
+    "name":    "Introduction to Cybersecurity",
+    "status":    "draft",
+    "main":    "Cybersecurity Introduction Quiz",
+    "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "What is network security?",
+      "a": [
+        {
+          "option": "A set of measures to protect information flowing through the Internet.",
+          "correct": false
+        },
+        {
+          "option": "The practice of protecting communication infrastructure and information in a network environment.",
+          "correct": true
+        },
+        {
+          "option": "A type of antivirus software that protects against specific network attacks.",
+          "correct": false
+        },
+        {
+          "option": "What is the goal of authentication in network security?",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the goal of authentication in network security?",
+      "a": [
+        {
+          "option": "To allow any user to access network resources without restrictions.",
+          "correct": false
+        },
+        {
+          "option": "To ensure that only authorized users have access to network resources.",
+          "correct": true
+        },
+        {
+          "option": "To increase network speed for a better browsing experience.",
+          "correct": false
+        },
+        {
+          "option": "To reduce power consumption in devices connected to the network.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is access control in network security?",
+      "a": [
+        {
+          "option": "A method to determine which users have access to which network resources.",
+          "correct": true
+        },
+        {
+          "option": "A type of software that protects against malware and viruses on the network.",
+          "correct": false
+        },
+        {
+          "option": "A method to encrypt information sent over the network.",
+          "correct": false
+        },
+        {
+          "option": "A method to segment the network into different security zones.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is packet filtering in network security?",
+      "a": [
+        {
+          "option": "A method to control incoming or outgoing network traffic.",
+          "correct": true
+        },
+        {
+          "option": "A type of software that protects against denial-of-service (DDoS) attacks.",
+          "correct": false
+        },
+        {
+          "option": "A method to encrypt information sent over the network.",
+          "correct": false
+        },
+        {
+          "option": "A method to segment the network into different security zones.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a VPN (Virtual Private Network)?",
+      "a": [
+        {
+          "option": "A type of antivirus software that protects against specific malware.",
+          "correct": false
+        },
+        {
+          "option": "A method to segment the network into different security zones.",
+          "correct": false
+        },
+        {
+          "option": "A method to encrypt information sent over the network and hide the user's IP address.",
+          "correct": true
+        },
+        {
+          "option": "A method to control incoming or outgoing network traffic.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a firewall and what is its main function?",
+      "a": [
+        {
+          "option": "A device that connects two different networks.",
+          "correct": false
+        },
+        {
+          "option": "Software that protects against malware and viruses on the network.",
+          "correct": false
+        },
+        {
+          "option": "A device or software that protects a network from external threats by filtering traffic.",
+          "correct": true
+        },
+        {
+          "option": "A method to encrypt information sent over the network.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is packet filtering in the context of firewalls?",
+      "a": [
+        {
+          "option": "A method to segment the network into different security zones.",
+          "correct": false
+        },
+        {
+          "option": "A type of antivirus software that protects against specific network attacks.",
+          "correct": false
+        },
+        {
+          "option": "A method to control incoming or outgoing network traffic.",
+          "correct": true
+        },
+        {
+          "option": "A method to encrypt information sent over the network.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a VPN (Virtual Private Network)?",
+      "a": [
+        {
+          "option": "A type of antivirus software that protects against specific malware.",
+          "correct": false
+        },
+        {
+          "option": "A method to segment the network into different security zones.",
+          "correct": false
+        },
+        {
+          "option": "A method to encrypt information sent over the network and hide the user's IP address.",
+          "correct": true
+        },
+        {
+          "option": "A method to control incoming or outgoing network traffic.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿What are the main features of VPN technology?",
+      "a": [
+        {
+          "option": "It only uses the tunneling protocol for connection.",
+          "correct": false
+        },
+        {
+          "option": "It does not use encryption for data security.",
+          "correct": false
+        },
+        {
+          "option": "It uses both tunneling protocol and encryption for data security.",
+          "correct": true
+        },
+        {
+          "option": "It does not provide access to public Wi-Fi networks.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the difference between WPA and WPA2 in Wi-Fi security?",
+      "a": [
+        {
+          "option": "WPA2 is an older version of WPA with lower security.",
+          "correct": false
+        },
+        {
+          "option": "There is no significant difference between WPA and WPA2.",
+          "correct": false
+        },
+        {
+          "option": "WPA2 is a newer version of WPA with higher security and uses AES encryption.",
+          "correct": true
+        },
+        {
+          "option": "WPA2 only works on 2.4 GHz networks, while WPA works on 5 GHz networks.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

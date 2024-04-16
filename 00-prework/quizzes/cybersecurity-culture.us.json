@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "cybersecurity-culture-us",
+    "name":    "Cybersecurity Culture",
+    "status":    "draft",
+    "main":    "Pre-work Quiz on Cybersecurity",
+    "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "What is cybersecurity awareness and why is it important?",
+      "a": [
+        {
+          "option": "It's the understanding of cyber threats and measures to protect information and online security.",
+          "correct": true
+        },
+        {
+          "option": "It's antivirus software that protects computers from viruses and malware.",
+          "correct": false
+        },
+        {
+          "option": "It's a law that regulates the use of the internet and social networks.",
+          "correct": false
+        },
+        {
+          "option": "It's a way to control access to personal data on social networks.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Why is cybersecurity awareness important for employees in a company?",
+      "a": [
+        {
+          "option": "To protect the company's data and systems from cyber attacks.",
+          "correct": true
+        },
+        {
+          "option": "To increase employee productivity at work.",
+          "correct": false
+        },
+        {
+          "option": "To reduce the cost of software licenses.",
+          "correct": false
+        },
+        {
+          "option": "To improve the customer experience.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What actions can a cybersecurity analyst take to promote a security culture in a company?",
+      "a": [
+        {
+          "option": "Organize training and awareness sessions on cybersecurity.",
+          "correct": true
+        },
+        {
+          "option": "Send emails with security tips to employees.",
+          "correct": false
+        },
+        {
+          "option": "Install antivirus software on company computers.",
+          "correct": false
+        },
+        {
+          "option": "Block access to social networks at work.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What executive roles within a company are responsible for cybersecurity culture?",
+      "a": [
+        {
+          "option": "CEO, CSO, and CISO.",
+          "correct": true
+        },
+        {
+          "option": "IT Manager, HR Director, and Marketing Director.",
+          "correct": false
+        },
+        {
+          "option": "Head of Physical Security, Accountant, and Operations Manager.",
+          "correct": false
+        },
+        {
+          "option": "All employees of the company.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "How could you convince the CEO of a company without a cybersecurity culture of the importance of implementing one?",
+      "a": [
+        {
+          "option": "Present a report with data on cyber threats and the economic impact of attacks.",
+          "correct": true
+        },
+        {
+          "option": "Threaten to resign if a cybersecurity culture is not implemented.",
+          "correct": false
+        },
+        {
+          "option": "Share success stories of other companies that have implemented a cybersecurity culture.",
+          "correct": false
+        },
+        {
+          "option": "Demand that the CEO take a cybersecurity training course.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is legal and regulatory compliance in cybersecurity?",
+      "a": [
+        {
+          "option": "Set of laws and regulations that organizations must comply with to protect information and mitigate cyber risks.",
+          "correct": true
+        },
+        {
+          "option": "Antivirus software that protects computers from malware and viruses.",
+          "correct": false
+        },
+        {
+          "option": "Set of standards for the design of websites and mobile applications.",
+          "correct": false
+        },
+        {
+          "option": "Guide for creating strong and robust passwords.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Why is legal and regulatory compliance important in cybersecurity?",
+      "a": [
+        {
+          "option": "It protects personal data, prevents data breaches, increases customer trust, and mitigates cyber risks.",
+          "correct": true
+        },
+        {
+          "option": "It reduces the cost of software licenses and increases employee productivity.",
+          "correct": false
+        },
+        {
+          "option": "It improves the user experience on social networks.",
+          "correct": false
+        },
+        {
+          "option": "It decreases the amount of spam emails received by employees.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What compliance measures can be implemented to meet cybersecurity security regulations?",
+      "a": [
+        {
+          "option": "Implement security policies and procedures, conduct risk assessments, and provide security training to employees.",
+          "correct": true
+        },
+        {
+          "option": "Use parental control software to block inappropriate content on the internet.",
+          "correct": false
+        },
+        {
+          "option": "Purchase data theft insurance to protect the company's financial information.",
+          "correct": false
+        },
+        {
+          "option": "Disable the use of mobile devices at work to prevent unauthorized access.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are security standards and frameworks, such as ISO 27001, ENS, and NIST?",
+      "a": [
+        {
+          "option": "Frameworks and guidelines that help organizations implement compliance measures effectively.",
+          "correct": true
+        },
+        {
+          "option": "Laws that regulate the use of the internet and social networks in different countries.",
+          "correct": false
+        },
+        {
+          "option": "Certification programs for cybersecurity professionals.",
+          "correct": false
+        },
+        {
+          "option": "Tools for password management and protection of personal data.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What benefits does compliance with security standards and frameworks offer?",
+      "a": [
+        {
+          "option": "It improves security posture, protects information assets, and complies with security regulations.",
+          "correct": true
+        },
+        {
+          "option": "It increases company sales and improves customer satisfaction.",
+          "correct": false
+        },
+        {
+          "option": "It reduces the cost of maintaining computer systems.",
+          "correct": false
+        },
+        {
+          "option": "It decreases the number of working hours for employees.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

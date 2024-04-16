@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "network-security-architecture-us",
+    "name":    "Network Architecture and Security",
+    "status":    "draft",
+    "main":    "Let's look a bit beyond the obvious in terms of networks, delving into these topics will help you become a more competent professional",
+    "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "q": [
+    {
+      "q": "What is a network architecture and why is it important for a company?",
+      "a": [
+        {
+          "option": "A set of tools for network management.",
+          "correct": false
+        },
+        {
+          "option": "A structured framework for the design, implementation, and management of a network.",
+          "correct": true
+        },
+        {
+          "option": "A type of software for network security.",
+          "correct": false
+        },
+        {
+          "option": "A physical device that enables internet connection.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are some key elements that typically form part of a network architecture?",
+      "a": [
+        {
+          "option": "Network topology, network components, network protocols.",
+          "correct": true
+        },
+        {
+          "option": "Servers, firewalls, routers, switches.",
+          "correct": false
+        },
+        {
+          "option": "Users, applications, data.",
+          "correct": false
+        },
+        {
+          "option": "All of the above.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What steps should be followed to design and implement a network architecture in a company?",
+      "a": [
+        {
+          "option": "Define the topology, choose the components, configure the devices.",
+          "correct": false
+        },
+        {
+          "option": "Identify the requirements, select the topology, plan the security.",
+          "correct": true
+        },
+        {
+          "option": "Install the wiring, connect the devices, test the network.",
+          "correct": false
+        },
+        {
+          "option": "Train the staff, document the architecture, perform maintenance.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Why is documentation important in a network architecture?",
+      "a": [
+        {
+          "option": "To facilitate network management and support.",
+          "correct": true
+        },
+        {
+          "option": "To comply with security standards and regulations.",
+          "correct": false
+        },
+        {
+          "option": "To save costs in network implementation.",
+          "correct": false
+        },
+        {
+          "option": "To have a historical record of the network's evolution.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "What is gradual implementation and why is it used in implementing a new network architecture?",
+      "a": [
+        {
+          "option": "It's the simultaneous installation of all network components.",
+          "correct": false
+        },
+        {
+          "option": "It's the progressive migration of services and devices to the new network.",
+          "correct": true
+        },
+        {
+          "option": "It's the manual configuration of each device on the network.",
+          "correct": false
+        },
+        {
+          "option": "It's the testing and validation of the network before implementation.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main function of a firewall in a network?",
+      "a": [
+        {
+          "option": "Sharing files between devices.",
+          "correct": false
+        },
+        {
+          "option": "Controlling the data traffic entering and leaving the network.",
+          "correct": true
+        },
+        {
+          "option": "Storing data in the cloud.",
+          "correct": false
+        },
+        {
+          "option": "Connecting devices to the internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What types of firewalls exist and how do they differ from each other?",
+      "a": [
+        {
+          "option": "There are only software firewalls.",
+          "correct": false
+        },
+        {
+          "option": "Packet-filtering firewalls only analyze IP addresses.",
+          "correct": true
+        },
+        {
+          "option": "Next-generation firewalls are not necessary for small businesses.",
+          "correct": false
+        },
+        {
+          "option": "All firewalls work the same way.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What security measures can be taken to protect a WiFi network?",
+      "a": [
+        {
+          "option": "Using a complex and secure password.",
+          "correct": true
+        },
+        {
+          "option": "Leaving the network open without a password.",
+          "correct": false
+        },
+        {
+          "option": "Disabling the encryption of the network.",
+          "correct": false
+        },
+        {
+          "option": "Sharing the password with all neighbors.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the advantages and disadvantages of using a hidden SSID in a WiFi network?",
+      "a": [
+        {
+          "option": "A hidden SSID makes the network completely invisible.",
+          "correct": false
+        },
+        {
+          "option": "A hidden SSID does not offer any security improvement.",
+          "correct": false
+        },
+        {
+          "option": "A hidden SSID can make it difficult for some devices to connect to the network.",
+          "correct": true
+        },
+        {
+          "option": "A hidden SSID is not compatible with all routers.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "What is a VPN and what benefits does it offer?",
+      "a": [
+        {
+          "option": "A VPN is a private network for file sharing.",
+          "correct": false
+        },
+        {
+          "option": "A VPN hides your IP address and encrypts your data for added security.",
+          "correct": true
+        },
+        {
+          "option": "A VPN only works on private networks.",
+          "correct": false
+        },
+        {
+          "option": "A VPN is not compatible with mobile devices.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
