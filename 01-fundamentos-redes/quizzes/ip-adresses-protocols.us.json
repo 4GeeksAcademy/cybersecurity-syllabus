@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "ip-addresses-protocols-us",
+    "name":    "Protocols and IP Addresses",
+    "status":    "draft",
+    "main":    "Let's see how well you understand how the IP protocol works.",
+    "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+  },
+  "q": [
+    {
+      "q": "What is the main function of an IP address in a network?",
+      "a": [
+        {
+          "option": "Identify and locate a device on the network.",
+          "correct": true
+        },
+        {
+          "option": "Share files between devices.",
+          "correct": false
+        },
+        {
+          "option": "Control data traffic on the network.",
+          "correct": false
+        },
+        {
+          "option": "Connect devices to the internet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the difference between a public IP address and a private one?",
+      "a": [
+        {
+          "option": "Public IP addresses are fixed, and private ones are dynamic.",
+          "correct": false
+        },
+        {
+          "option": "Public IP addresses are unique on the internet, while private ones can be repeated on different networks.",
+          "correct": true
+        },
+        {
+          "option": "Public IP addresses are only used for servers, while private ones are only used for personal devices.",
+          "correct": false
+        },
+        {
+          "option": "There is no difference between a public IP address and a private one.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is subnetting and why is it used?",
+      "a": [
+        {
+          "option": "Subnetting is a method for dividing a network into smaller subnetworks.",
+          "correct": true
+        },
+        {
+          "option": "Subnetting is a type of internet connection.",
+          "correct": false
+        },
+        {
+          "option": "Subnetting is only used in private networks.",
+          "correct": false
+        },
+        {
+          "option": "Subnetting has no utility in networks.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What advantage does DHCP offer for IP address assignment?",
+      "a": [
+        {
+          "option": "DHCP is more secure than manual IP address configuration..",
+          "correct": false
+        },
+        {
+          "option": "DHCP is more efficient and easier to manage than manual configuration.",
+          "correct": true
+        },
+        {
+          "option": "DHCP is not compatible with all devices.",
+          "correct": false
+        },
+        {
+          "option": "DHCP can generate IP address conflicts.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "What security measures can be taken to protect IP addresses and networks?",
+      "a": [
+        {
+          "option": "Use a secure password for the Wi-Fi network.",
+          "correct": true
+        },
+        {
+          "option": "Leave the Wi-Fi network open without a password.",
+          "correct": false
+        },
+        {
+          "option": "Disable Wi-Fi network encryption.",
+          "correct": false
+        },
+        {
+          "option": "Share the Wi-Fi network password with all neighbors.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is network diagnostics and why is it important to perform?",
+      "a": [
+        {
+          "option": "Network diagnostics is a process to identify and correct problems in a network.",
+          "correct": true
+        },
+        {
+          "option": "Network diagnostics is a tool to measure internet speed.",
+          "correct": false
+        },
+        {
+          "option": "Network diagnostics is only necessary for large and complex networks.",
+          "correct": false
+        },
+        {
+          "option": "Network diagnostics is not necessary if the network is functioning correctly.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the steps to perform an effective network diagnostic?",
+      "a": [
+        {
+          "option": "1. Collect information about the network structure and design. 2. Analyze network traffic. 3. Evaluate network security.",
+          "correct": true
+        },
+        {
+          "option": "1. Restart the router. 2. Check cable connections. 3. Contact the internet service provider.",
+          "correct": false
+        },
+        {
+          "option": "1. Install antivirus on all devices. 2. Change the router password. 3. Activate the firewall.",
+          "correct": false
+        },
+        {
+          "option": "There is no specific process for performing an effective network diagnostic.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What tools can be used to perform a network diagnostic?",
+      "a": [
+        {
+          "option": "Tools integrated into Windows such as the network troubleshooter.",
+          "correct": true
+        },
+        {
+          "option": "Third-party tools like Uptrends Uptime Monitor and Wifi Explorer.",
+          "correct": true
+        },
+        {
+          "option": "An up-to-date antivirus.",
+          "correct": false
+        },
+        {
+          "option": "A temporary file cleaning software.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are some common network problems?",
+      "a": [
+        {
+          "option": "Slow network.",
+          "correct": true
+        },
+        {
+          "option": "Physical connectivity issues.",
+          "correct": true
+        },
+        {
+          "option": "Slow DNS lookups.",
+          "correct": true
+        },
+        {
+          "option": "All of the above.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "What is event monitoring and how can it be used to improve network security?",
+      "a": [
+        {
+          "option": "Event monitoring is the process of logging and analyzing activities on the network.",
+          "correct": true
+        },
+        {
+          "option": "Event monitoring is only used to troubleshoot network performance issues.",
+          "correct": false
+        },
+        {
+          "option": "Event monitoring is not necessary for small networks.",
+          "correct": false
+        },
+        {
+          "option": "Event monitoring has no relation to network security.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

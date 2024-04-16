@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "incident-management-security-standards-us",
+    "name":    "Incident Management and Security Standards",
+    "status":    "draft",
+    "main":    "Pre-work Quiz on Cybersecurity",
+    "results": "¡Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "What are cybersecurity policies and procedures and why are they important?",
+      "a": [
+        {
+          "option": "They are guidelines that establish the rules and steps to follow to protect digital assets and mitigate cyber risks.",
+          "correct": true
+        },
+        {
+          "option": "They are computer programs that detect and eliminate viruses from the computer.",
+          "correct": false
+        },
+        {
+          "option": "They are laws that regulate the use of the internet and social networks.",
+          "correct": false
+        },
+        {
+          "option": "They are online courses that teach about computer security.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What types of cybersecurity policies and procedures exist?",
+      "a": [
+        {
+          "option": "Information security policies, user access and control policies, password policies, etc.",
+          "correct": true
+        },
+        {
+          "option": "Vacation policies, dress code policies, cafeteria use policies.",
+          "correct": false
+        },
+        {
+          "option": "Pricing policies, return policies, shipping policies.",
+          "correct": false
+        },
+        {
+          "option": "Privacy policies, cookie policies, advertising policies.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the key steps to create and implement security policies?",
+      "a": [
+        {
+          "option": "Identify objectives, obtain commitment from top management, form a security team, assess risks, develop policies, and apply them.",
+          "correct": true
+        },
+        {
+          "option": "Purchase antivirus software, install firewalls, hire an ethical hacker.",
+          "correct": false
+        },
+        {
+          "option": "Perform backups, update software, create an incident response plan",
+          "correct": false
+        },
+        {
+          "option": "Regularly change passwords, use two-factor authentication, educate employees.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué es la gestión de contraseñas seguras y por qué es importante?",
+      "a": [
+        {
+          "option": "It is the practice of creating and using secure and unique passwords for each account, to protect them from unauthorized access.",
+          "correct": true
+        },
+        {
+          "option": "It is the practice of using the same password for all accounts, to facilitate access.",
+          "correct": false
+        },
+        {
+          "option": "It is the practice of sharing passwords with friends and family so they can access accounts when needed.",
+          "correct": false
+        },
+        {
+          "option": "It is the practice of writing passwords on paper and storing them in a secure place.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the best practices for secure password management?",
+      "a": [
+        {
+          "option": "Use long and complex passwords, do not reuse them, use a password manager, enable two-factor authentication.",
+          "correct": true
+        },
+        {
+          "option": "Use short and easy-to-remember passwords, change them frequently, share them with coworkers.",
+          "correct": false
+        },
+        {
+          "option": "Use the same password for all accounts, write them on paper and store them on the computer.",
+          "correct": false
+        },
+        {
+          "option": "Do not use passwords, use only biometrics to access accounts.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is security incident management and why is it important?",
+      "a": [
+        {
+          "option": "It is a process to identify, respond to, and mitigate threats and security events in an organization.",
+          "correct": true
+        },
+        {
+          "option": "It is software that protects computers from viruses and malware.",
+          "correct": false
+        },
+        {
+          "option": "It is a set of laws that regulate the use of the internet and social networks.",
+          "correct": false
+        },
+        {
+          "option": "It is an online course that teaches about computer security.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the key functions of security incident management?",
+      "a": [
+        {
+          "option": "Detection, response, investigation, mitigation, and notification.",
+          "correct": true
+        },
+        {
+          "option": "Purchase antivirus software, install firewalls, hire an ethical hacker.",
+          "correct": false
+        },
+        {
+          "option": "Perform backups, update software, create an incident response plan.",
+          "correct": false
+        },
+        {
+          "option": "Regularly change passwords, use two-factor authentication, educate employees.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are security incident management procedures and what do they include?",
+      "a": [
+        {
+          "option": "They are a set of steps and actions to respond to security incidents, including detection, assessment, classification, containment, mitigation, evidence collection, notification, investigation, recovery, and documentation.",
+          "correct": true
+        },
+        {
+          "option": "They are policies for internet and social network use in the company.",
+          "correct": false
+        },
+        {
+          "option": "They are measures to protect computers from viruses and malware.",
+          "correct": false
+        },
+        {
+          "option": "They are online courses to teach employees about computer security.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is security breach notification and handling?",
+      "a": [
+        {
+          "option": "It is the process of alerting stakeholders about a security breach and the actions to contain it, investigate, recover, and communicate.",
+          "correct": true
+        },
+        {
+          "option": "It is software that protects computers from hackers.",
+          "correct": false
+        },
+        {
+          "option": "It is a set of laws that regulate data privacy.",
+          "correct": false
+        },
+        {
+          "option": "It is an online course that teaches about computer security.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Why is proper notification and handling of security breaches important?",
+      "a": [
+        {
+          "option": "To comply with regulations, preserve reputation, minimize damage, and improve security.",
+          "correct": true
+        },
+        {
+          "option": "To save money in the company.",
+          "correct": false
+        },
+        {
+          "option": "To increase company sales.",
+          "correct": false
+        },
+        {
+          "option": "To improve the CEO's image of the company.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

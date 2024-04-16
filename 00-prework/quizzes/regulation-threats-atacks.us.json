@@ -1,0 +1,224 @@
+{
+  "info": {
+    "slug":    "regulation-threats-atacks-us",
+    "name":    "Regulations, Threats, and Attacks",
+    "status":    "draft",
+    "main":    "Cybersecurity Prework Quiz",
+    "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "badges": [
+        { "slug": "cybersecurity_guru", "points": 5 }
+    ]
+},
+  "questions": [
+    {
+      "q": "What is the main law regulating the protection of personal data in Spain?",
+      "a": [
+        {
+          "option": "Organic Law on Data Protection and Guarantee of Digital Rights (LOPDGDD)",
+          "correct": true
+        },
+        {
+          "option": "Criminal Code",
+          "correct": false
+        },
+        {
+          "option": "National Security Framework (ENS)",
+          "correct": false
+        },
+        {
+          "option": "General Data Protection Regulation (GDPR)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which public body is dedicated to promoting cybersecurity in Spain?",
+      "a": [
+        {
+          "option": "National Institute of Cybersecurity (INCIBE)",
+          "correct": true
+        },
+        {
+          "option": "Ministry of the Interior",
+          "correct": false
+        },
+        {
+          "option": "Civil Guard",
+          "correct": false
+        },
+        {
+          "option": "Spanish Data Protection Agency (AEPD)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which regulation establishes the principles and security requirements that electronic systems and services of public administrations in Spain must comply with?",
+      "a": [
+        {
+          "option": "Organic Law on Data Protection and Guarantee of Digital Rights (LOPDGDD)",
+          "correct": false
+        },
+        {
+          "option": "Criminal Code",
+          "correct": false
+        },
+        {
+          "option": "National Security Framework (ENS)",
+          "correct": true
+        },
+        {
+          "option": "General Data Protection Regulation (GDPR)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which European Union law establishes rules for the protection of personal data and citizens' privacy?",
+      "a": [
+        {
+          "option": "Organic Law on Data Protection and Guarantee of Digital Rights (LOPDGDD)",
+          "correct": false
+        },
+        {
+          "option": "Criminal Code",
+          "correct": false
+        },
+        {
+          "option": "National Security Framework (ENS)",
+          "correct": false
+        },
+        {
+          "option": "General Data Protection Regulation (GDPR)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT a consequence of non-compliance with cybersecurity and data protection laws and regulations?",
+      "a": [
+        {
+          "option": "Reputation damage",
+          "correct": false
+        },
+        {
+          "option": "Increase in sales",
+          "correct": true
+        },
+        {
+          "option": "Business interruption",
+          "correct": false
+        },
+        {
+          "option": "Loss of business opportunities",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "How does a cyber-threat differ from a cyber-attack?",
+      "a": [
+        {
+          "option": "The cyber threat is a potential event, while the cyber-attack is a specific action.",
+          "correct": true
+        },
+        {
+          "option": "The cyber threat is always external, while the cyber-attack can be internal or external.",
+          "correct": false
+        },
+        {
+          "option": "The cyber threat does not aim to cause harm, while the cyber-attack does.",
+          "correct": false
+        },
+        {
+          "option": "The cyber threat only affects computer systems, while the cyber-attack can also affect data and networks.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT a common cyber threat?",
+      "a": [
+        {
+          "option": "Software vulnerabilities",
+          "correct": false
+        },
+        {
+          "option": "Obsolete software or hardware",
+          "correct": false
+        },
+        {
+          "option": "Software updates",
+          "correct": true
+        },
+        {
+          "option": "Weak or open WiFi networks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT a common cyber attack?",
+      "a": [
+        {
+          "option": "Ransomware",
+          "correct": false
+        },
+        {
+          "option": "Phishing",
+          "correct": false
+        },
+        {
+          "option": "Software update",
+          "correct": true
+        },
+        {
+          "option": "Zero-Day Attack",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main objective of a ransomware attack?",
+      "a": [
+        {
+          "option": "Steal confidential information",
+          "correct": false
+        },
+        {
+          "option": "Disable a system or network",
+          "correct": false
+        },
+        {
+          "option": "Hijack information and demand a ransom",
+          "correct": true
+        },
+        {
+          "option": "Impersonate a user's identity",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a 'Man-in-the-Middle' (MitM) attack?",
+      "a": [
+        {
+          "option": "An attack that floods a server or network with fake traffic.",
+          "correct": false
+        },
+        {
+          "option": "An attack that attempts to guess a password through brute force.",
+          "correct": false
+        },
+        {
+          "option": "An attack that intercepts and manipulates communication between two parties.",
+          "correct": true
+        },
+        {
+          "option": "An attack that injects malicious code into web applications.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
