@@ -30,7 +30,7 @@ The coursework's last 2-3 weeks are reserved for a final project.
 - Week 11: ISO 27001
 - Week 12: NIST
 - Week 13: ENS
-- Weeks 13-16: Final Project
+- Weeks 14-16: Final Project
 
 ## Outcomes
 

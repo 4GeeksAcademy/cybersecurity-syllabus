@@ -15,11 +15,10 @@
 - 📝[Quiz: Direcciones y protocolos de red](./quizzes/ip-adresses-protocols.es.json)
 - 📗[network-devices](./network-devices.es.md)
 - 📗[network-troubleshooting](./network-troubleshooting.es.md)
-- 🧪[Corregir red en Packet Tracer](???)
+- 🧪[Corregir red en Packet Tracer](https://github.com/4GeeksAcademy/network-troubleshooting)
 
 ## Dia 3
 
 - 📗[network-planning-and-documentation](./network-planning-and-documentation.es.md)
 - 📗[Redes en VirtualBox](./networking-virtualbox.es.md)
-- 🧪[Despliegue de maquina virtual Debian](???)
-- 🧪[Comunicación entre maquinas virtuales](???)
+- 🧪[Comunicación entre maquinas virtuales](https://github.com/4GeeksAcademy/networks-on-virtualbox)
