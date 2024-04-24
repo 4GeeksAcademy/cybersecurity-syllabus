@@ -52,7 +52,7 @@ Esta conexión utilizar una de las interfaces del sistema anfitrión directament
 
 ## Red Interna
 
-Esta es una red virtual que permite conectar de forma privada a un grupo de máquinas virtuales. Esta red oculta a las maquines huéspedes de toda la red y las aplicaciones del sistema anfitrión
+Esta es una red virtual que permite conectar de forma privada a un grupo de máquinas virtuales. Esta red oculta a las maquines huéspedes de toda la red y las aplicaciones del sistema anfitrión.
 
 ## Red Solo Anfitrión (Host Only)
 
