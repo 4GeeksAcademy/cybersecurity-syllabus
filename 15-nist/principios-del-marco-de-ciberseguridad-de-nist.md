@@ -12,7 +12,7 @@ El núcleo se divide en cinco funciones principales
 - Responder
 - Recuperar
 
-![Marco de Ciberseguridad de NIST](../assets/marco-de-ciberseguridad-de-nist.png)
+![Marco de Ciberseguridad de NIST](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/marco-de-ciberseguridad-de-nist.png)
 
 ### Funciones detalladas
 

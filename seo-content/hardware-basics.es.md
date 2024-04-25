@@ -53,7 +53,7 @@ Es un dispositivo de hardware interno que se conecta a la placa madre y se clasi
 
 Es la memoria que almacena datos de manera permanente (o hasta que el usuario los elimina), como documentos, planillas, imágenes, videos, audios, copias de seguridad de los archivos, entre otros. Son datos almacenados que la computadora no necesita de manera inmediata o rápida para su funcionamiento, sino que es el usuario el que los utiliza de manera directa. Existen dos tipos de dispositivos de almacenamiento secundario: interno (la unidad de disco duro) y externo (disco duro externo, tarjeta de memoria, pendrive, CD ROM, etc.).
 
-![Hardware Interno](../assets/hardware-interno.png)
+![Hardware Interno](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/hardware-interno.png)
 
 ### Hardware externo:
 
@@ -104,7 +104,7 @@ Generalmente conseguimos los dispositivos de almacenamiento flash en memorias US
 
 Es un dispositivo independiente, conectado externa o internamente a la tarjeta madre, que permite al sistema informático realizar una función extra. Como tal, no forma parte del proceso central de una computadora, sino que sirve a nivel de complemento para aumentar sus capacidades funcionales.
 
-![Hardware Externo](../assets/hardware-externo.png)
+![Hardware Externo](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/hardware-externo.png)
 
 Existen 5 tipos de periféricos de computadora:
 

@@ -24,7 +24,7 @@ Ideally, an organization defines incident response processes and technologies in
 
 Typically, these plans are developed and executed by a Computer Security Incident Response Team (CSIRT), consisting of stakeholders from across the organization: the Chief Information Security Officer (CISO), Security Operations Center (SOC), IT staff, as well as representatives from the executive team, legal, human resources, regulatory compliance, and risk management.
 
-![Cybersecurity Incidents](../assets/incidentes-ciberseguridad.png)
+![Cybersecurity Incidents](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/incidentes-ciberseguridad.png)
 
 **An incident response plan typically includes:**
 

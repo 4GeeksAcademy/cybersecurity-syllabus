@@ -82,13 +82,13 @@ Una vez elegimos la distribución que vayamos a utilizar nos dirigimos a la pág
 
 Una vez hecha la configuración inicial, iniciamos la máquina Virtual en el menú superior en la opcion iniciar
 
-![Iniciar Máquina Virtual](../assets/iniciar-maquina-virtual.png)
+![Iniciar Máquina Virtual](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/iniciar-maquina-virtual.png)
 
 - **Configuración inicial de sistema operativo**
 
 En la ventana principal de instalación tenemos varias opciones, seleccionamos la opción de instalación gráfica
 
-![Configuración del Sistema Operativo](../assets/configuracion-del-sistema-operativo.png)
+![Configuración del Sistema Operativo](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/configuracion-del-sistema-operativo.png)
 
 1. Seguimos todas las instrucciones de instalación.
 - Seleccionamos el idioma del sistema
@@ -96,34 +96,34 @@ En la ventana principal de instalación tenemos varias opciones, seleccionamos l
 - Seleccionamos el teclado
 - Seleccionamos el nombre de la máquina
 
-![Kali](../assets/kali.png)
+![Kali](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/kali.png)
 
 2. Agregamos el nombre del dominio de la máquina 
 
-![Agregar Nombre al Dominio Kali](../assets/nombre-dominio-kali.png)
+![Agregar Nombre al Dominio Kali](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/nombre-dominio-kali.png)
 
 3. Creamos el usuario y contraseña de sistema.
 
-![Usuario y Contraseña](../assets/usuario-y-contraseña.png)
+![Usuario y Contraseña](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/usuario-y-contraseña.png)
 
-![Configurar Usuario y Contraseña](../assets/configurar-usuario-y-contraseña.png)
+![Configurar Usuario y Contraseña](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/configurar-usuario-y-contraseña.png)
 
 4. En la opcion de particion de discos, ya que estamos usando un disco virtual, seleccionamos la opción de utilizar todo el disco  (imagen-12 IMAGEN-13)
 
-![Particion de Discos](../assets/particion-de-discos.png)
+![Particion de Discos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/particion-de-discos.png)
 
 5. Seleccionamos los programas que queremos instalar junto al sistema operativo
 
-![Seleccion de Programas](../assets/seleccion-de-programas.png)
+![Seleccion de Programas](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/seleccion-de-programas.png)
 
 6. Dejar que se carguen los distintos archivos de programa en la instalación.
 7. Se va a preguntar si se desea instalar el cargador de arranque grub, se acepta esa opción 
 
-![Instalar Cargador de arranque GRUB](../assets/cargador-de-arranque.png)
+![Instalar Cargador de arranque GRUB](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/cargador-de-arranque.png)
 
 8. Ya una vez se haya completado la instalación, procedemos a reiniciar la máquina virtual.
 
-![Reiniciar la Maquina Virtual](../assets/reiniciar-la-maquina-virtual.png)
+![Reiniciar la Maquina Virtual](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/reiniciar-la-maquina-virtual.png)
 
 ## 💡 Laboratorio: Instalacion y configuracion de sistema operativo
 
@@ -131,23 +131,23 @@ En la ventana principal de instalación tenemos varias opciones, seleccionamos l
 
 1. Abrimos la interfaz de virtualBox y seleccionamos a la opción nueva
 
-![VirtualBox](../../assets/virtualbox.png)
+![VirtualBox](../https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/virtualbox.png)
 
 2. Llenamos la información de la máquina virtual donde 
 - Nombre: El nombre que llevaría nuestra máquina virtual (generalmente sería el nombre del sistema operativo que usaremos).
 - Folder: La Carpeta en donde se almacenará la máquina virtual.
 - Iso Image: El archivo iso para instalar nuestra máquina virtual.
 
-![Máquina Virtual](../../assets/maquina-virtual.png)
+![Máquina Virtual](../https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/maquina-virtual.png)
 
 3. Colocamos la cantidad de memoria y procesadores que le queremos asignar a la máquina virtual, en este caso asignamos dos procesadores y 4 gb de ram
 
-![Mmemoria y Procesadores](../../assets/memoria-y-procesadores.png)
+![Mmemoria y Procesadores](../https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/memoria-y-procesadores.png)
 
 4. Asignamos la cantidad de memoria virtual que le queramos dar a la máquina virtual
 
-![Mmemoria y Procesadores](../../assets/memoria-y-procesadores.png)
+![Mmemoria y Procesadores](../https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/memoria-y-procesadores.png)
 
 5. Revisamos el resumen y vemos que todo está como lo necesitamos
 
-![Resumen Instalación](../../assets/resumen-instalacion.png)
+![Resumen Instalación](../https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/resumen-instalacion.png)

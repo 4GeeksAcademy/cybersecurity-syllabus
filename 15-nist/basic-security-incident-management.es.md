@@ -22,7 +22,7 @@ Idealmente, una organización define los procesos y las tecnologías de respuest
 
 Por lo general, los planes los elabora y ejecuta un equipo de respuesta a incidentes de seguridad de sistemas (CSIRT, por sus siglas en inglés) formado por partes interesadas de toda la organización: el responsable de seguridad de la información (CISO), el centro de seguridad de operaciones (SOC) y el personal de TI, pero también representantes del equipo ejecutivo, legal, recursos humanos, conformidad con la normativa y gestión de riesgos.
 
-![Incidentes Ciberseguridad](../assets/incidentes-ciberseguridad.png)
+![Incidentes Ciberseguridad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/incidentes-ciberseguridad.png)
 
 **Un plan de respuesta a incidentes normalmente incluye:**
 

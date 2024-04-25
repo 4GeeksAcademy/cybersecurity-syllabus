@@ -10,7 +10,7 @@ Como analista de ciberseguridad es muy importante que conozcas la NIST ya que mu
 
 Otra contribución que podemos explicar para realzar la importancia del NIST en la ciberseguridad es la labor de investigaciones para así comprender mejor amenazas y vulnerabilidades cibernéticas, así como para desarrollar nuevas tecnologías y enfoques de seguridad, esto ayuda a impulsar la innovación y desarrollar soluciones más efectivas para proteger los sistemas y las redes.
 
-![Nist](../assets/nist.png)
+![Nist](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/nist.png)
 
 ## Introducción al marco de ciberseguridad de NIST
 

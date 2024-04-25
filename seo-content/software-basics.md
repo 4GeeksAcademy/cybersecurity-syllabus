@@ -38,7 +38,7 @@ Although in everyday language most people use the term Linux to refer to this op
 
 GNU/Linux operating systems are normally available in the form of compilations known as distributions or distros. Among the most popular are Debian, Ubuntu, Red Hat, and Kali Linux. The purpose of these distributions is to offer GNU/Linux as a final product for installation or testing on a computer, covering a range of needs from everyday personal use to very specific applications in specialized environments. The distros add their selection of preinstalled applications and programs (for example, X11-based graphical environments, Gnome and KDE), or applications that can be downloaded from a repository for later installation.
 
-![Operating Systems](../assets/sistemas-operativos.png)
+![Operating Systems](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/sistemas-operativos.png)
 
 - **For Linux:**
 
@@ -90,7 +90,7 @@ Perhaps the most popular worldwide, Word is the most comprehensive word processo
 
 > 👉 Word is a paid software, used under the purchase of a usage license.
 
-![Microsoft word](../assets/microsoft-word.png)
+![Microsoft word](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/microsoft-word.png)
 
 - Apache OpenOffice Writer
 
@@ -98,7 +98,7 @@ Writer has everything you would expect from a fully equipped modern word process
 
 Simple enough for a memo and powerful enough for creating books with content, images, diagrams, indexes, etc. Writer can also display multiple pages while editing, making it ideal for modifying complex documents or if you have a large monitor or multiple monitors.
 
-![Open Office](../assets/open-office.png)
+![Open Office](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/open-office.png)
 
 1. **Spreadsheets**
 
@@ -114,7 +114,7 @@ Excel, is one of the quintessential spreadsheet programs used in small and large
 
 These sheets can be created with templates and additional tools that make the process and work in general easier. In this program, you can insert bar charts, pie charts, line charts, and more. It has pivot tables, which analyze large amounts of data and then present quite complex reports without having to write formulas.
 
-![Excel](../assets/excel.png)
+![Excel](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/excel.png)
 
 - Google Sheets
 
@@ -122,7 +122,7 @@ This is a spreadsheet program included as part of the free web-based Google Docs
 
 The application is compatible with Microsoft Excel file formats and allows users to create and edit files online while collaborating with other users in real-time. Edits are tracked by the user with a revision history that shows changes.
 
-![Google Sheets](../assets/google-sheets.png)
+![Google Sheets](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/google-sheets.png)
 
 1. **Presentation Applications**
 
@@ -144,7 +144,7 @@ Additionally, it offers a series of templates to provide the user with predefine
 
 During a Microsoft PowerPoint presentation, the presenter has the freedom to define the pace by controlling the flow of slides manually or having them change at preset intervals.
 
-![Power Point](../assets/power-point.png)
+![Power Point](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/power-point.png)
 
 - Google Slides
 
@@ -152,7 +152,7 @@ Google Slides or Google Presentations is a service that allows you to create onl
 
 To access this application, you can do so through the Google Slides website. There, you can create and share a new Google presentation, view available templates, and access your recent presentations. All modifications made to a presentation will be automatically saved.
 
-![google slides](../assets/google-slides.png)
+![google slides](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/google-slides.png)
 
 ## **Security Software**
 
