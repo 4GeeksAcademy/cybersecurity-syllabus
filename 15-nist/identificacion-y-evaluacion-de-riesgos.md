@@ -4,7 +4,7 @@ Es momento de entrar un poco más en profundidad dentro de una de las partes má
 
 En esta etapa hacemos la identificación de las amenazas potenciales que puedan afectar los activos de información, así como las vulnerabilidades existentes en los sistemas y procesos de una organización, para ello realizamos procesos como análisis de riesgos, revisión de seguridad y evaluación de vulnerabilidades.
 
-![Identificación de Amenazas](../assets/identificacion-de-amenazas.png)
+![Identificación de Amenazas](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/identificacion-de-amenazas.png)
 
 Vamos a explicar un poco más detallado en qué consiste cada proceso:
 

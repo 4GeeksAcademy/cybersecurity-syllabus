@@ -53,7 +53,7 @@ It is an internal hardware device that connects to the motherboard and is classi
 
 It is the memory that stores data permanently (or until the user deletes it), such as documents, spreadsheets, images, videos, audios, backups of files, among others. These are stored data that the computer does not need immediately or quickly for its operation, but are used directly by the user. There are two types of secondary storage devices: internal (the hard disk drive) and external (external hard disk, memory card, pen drive, CD-ROM, etc.).
 
-![Internal Hardware](../assets/hardware-interno.png)
+![Internal Hardware](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/hardware-interno.png)
 
 ### External hardware:
 
@@ -103,7 +103,7 @@ We commonly find flash storage devices in USB (Universal Serial Bus) drives, and
 
 It is an independent device, connected externally or internally to the motherboard, that allows the computer system to perform an extra function. As such, it is not part of the central process of a computer, but rather serves as a complement to increase its functional capabilities.
 
-![External Hardware](../assets/hardware-externo.png)
+![External Hardware](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/hardware-externo.png)
 
 There are 5 types of computer peripherals:
 

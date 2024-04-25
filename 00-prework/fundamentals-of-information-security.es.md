@@ -14,7 +14,7 @@ También conocida como **CIA** por sus siglas en inglés (Confidencialidad, Inte
 
 La base de la tríada de seguridad es que toda la información debe ser confidencial, íntegra, y disponible en el momento que sea requerida.
 
-![Triada de la seguridad](../assets/triada-de-la-seguridad.png)
+![Triada de la seguridad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/triada-de-la-seguridad.png)
 
 Profundizando en estos conceptos, es posible entender mejor las implicaciones y los métodos involucrados en su implementación. Así que veamos de que se tratan a continuanción:
 
@@ -62,7 +62,7 @@ El malware es cualquier tipo de software creado para hacer daño o vulnerar la s
 
 El concepto de malware radica en una intención maliciosa. La importancia del malware se basa en el daño que es capaz de infligir en un equipo, un sistema informático, un servidor o la red. Es el cómo y el por qué que separan un tipo de malware del siguiente.
 
-![Triada de la seguridad](../assets/malware.png)
+![Triada de la seguridad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/malware.png)
 
 El mundo del malware es diverso, pero muchos tipos de malware comparten señales de advertencia similares. Algunos síntomas de una infección de malware en un dispositivo son:
 

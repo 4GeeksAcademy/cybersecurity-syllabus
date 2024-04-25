@@ -14,7 +14,7 @@ Also known as **CIA** (Confidentiality, Integrity, Availability) by its English 
 
 The foundation of the security triad is that all information must be confidential, intact, and available when required.
 
-![Security Triad](../assets/triada-de-la-seguridad.png)
+![Security Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/triada-de-la-seguridad.png)
 
 Delving into these concepts, it is possible to better understand the implications and methods involved in their implementation. Let's take a closer look at each:
 
@@ -62,7 +62,7 @@ Malware is any type of software created to cause harm or compromise the security
 
 The concept of malware revolves around malicious intent. The significance of malware lies in the damage it can inflict on a computer, a computer system, a server, or a network. It is the how and why that differentiate one type of malware from the next.
 
-![Security Triad](../assets/malware.png)
+![Security Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/malware.png)
 
 The world of malware is diverse, but many types of malware share similar warning signs. Some symptoms of a malware infection on a device include:
 

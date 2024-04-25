@@ -1,5 +1,5 @@
 ---
-title: "Networking on VirtualBox"
+title: "Networks on VirtualBox"
 subtitle: "Get to know the possibilities of connection between virtual machines in VirtualBox"
 tags: ["network", "cybersecurity"]
 authors: ["arnaldoperez"]
@@ -29,7 +29,7 @@ Imagine that your building is a network and each apartment in it is like a devic
 
 From the configuration window of a virtual machine in VirtualBox, we can activate up to 4 network interfaces. Each of these interfaces can emulate a specific adapter and connect to one of the available options.
 
-![VirtualBox Virtual Machine Network Interfaces](../assets/vbox-network-interfaces.png)
+![VirtualBox Virtual Machine Network Interfaces](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vbox-network-interfaces.png)
 
 ## NAT connection
 
@@ -41,11 +41,11 @@ If in addition to connecting to the Internet, you also want communication betwee
 
 To create NAT networks you must go to the menu `File > Tools > Network Manager`.
 
-![Menu network manager on VirtualBox](../assets/vb-menu-virtual-media.png)
+![Menu network manager on VirtualBox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vb-menu-virtual-media.png)
 
 Once there you can go to the `NAT Networks` tab and create as many networks as you need. For each of them you can configure the IP addresses to be used, as well as port forwarding from the host computer to a guest.
 
-![Network manager on VirtualBox](../assets/vbox-network-manager.png)
+![Network manager on VirtualBox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vbox-network-manager.png)
 
 ## Bridged Interface
 
@@ -61,7 +61,7 @@ It is similar to an internal network in that it is a private connection between 
 
 Host-only networks must also be created in the VirtualBox network manager window and are located in the tab next to “Nat Networks”. In the interfaces of your computer you will see the interface that is networked as another adapter in your system.
 
-![Host only network on VirtualBox](../assets/vbox-host-only-network-adapter.png)
+![Host only network on VirtualBox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vbox-host-only-network-adapter.png)
 
 ## Versatility in VirtualBox
 

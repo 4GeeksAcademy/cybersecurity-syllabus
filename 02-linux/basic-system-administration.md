@@ -89,7 +89,7 @@ Entre las herramientas que tenemos disponibles tenemos:
 
 Este programa provee una vista dinámica a tiempo real de como esta corriendo el sistema, Puede mostrar un resumen de información del sistema así como una lista de tareas que está actualmente administradas por el kernel de linux.
 
-![Top](../assets/top.png)
+![Top](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/top.png)
 
 - **ps**
 

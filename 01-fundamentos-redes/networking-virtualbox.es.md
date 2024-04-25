@@ -28,7 +28,7 @@ Imagina que tu edificio es una red y cada apartamento en ella es como un disposi
 
 Desde las ventana de configuración de una máquina virtual en VirtualBox, podemos activar hasta 4 interfaces de red. Cada una de estas interfaces puede emular un adaptador especifico y conectarse a una de las opciones disponibles.
 
-![Interfaces de red de maquinas virtuales VirtualBox](../assets/vbox-network-interfaces.png)
+![Interfaces de red de maquinas virtuales VirtualBox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vbox-network-interfaces.png)
 
 ### Conexión NAT
 
@@ -40,11 +40,11 @@ Si ademas de conectarte a internet, también quieres comunicación entre diferen
 
 Para crear redes NAT debes ir al menú `Archivo > Herramientas > Administrador de red`
 
-![Menú administrador de red en VirtualBox](../assets/vb-menu-virtual-media.png)
+![Menú administrador de red en VirtualBox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vb-menu-virtual-media.png)
 
 Una vez ahi podrás ir a la pestaña de `Redes NAT` y crear tantas redes como necesites. Para cada una de ellas puedes configurar las direcciones IP que se utilizarán, asi como también reenvío de puertos desde la computadora del anfitrión a un invitado.
 
-![Administrador de redes en VirtualBox](../assets/vbox-network-manager.png)
+![Administrador de redes en VirtualBox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vbox-network-manager.png)
 
 ## Interfaz Puente (Bridged)
 
@@ -60,7 +60,7 @@ Es parecido a una red interna en lo que respecta a que se trata de una conexion 
 
 Las redes "solo-anfitrión" también deben crearse en la ventana del administrador de redes de VirtualBox y se encuentran en la pestaña junto a las "Redes Nat". En las interfaces de tu ordenador podrás ver la interfaz que se conecta a red como un adaptador más en tu sistema.
 
-![Adaptador solo-anfitrion de VirtualBox](../assets/vbox-host-only-network-adapter.png)
+![Adaptador solo-anfitrion de VirtualBox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/vbox-host-only-network-adapter.png)
 
 ## Versatilidad en VirtualBox
 

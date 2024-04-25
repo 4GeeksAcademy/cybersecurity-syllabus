@@ -38,7 +38,7 @@ A pesar de que en la jerga cotidiana la mayoría de las personas usan el vocablo
 
 Los sistemas operativos GNU/Linux se encuentran normalmente en forma de compendios conocidos como distribuciones o distros. Entre las más populares se encuentran Debian, Ubuntu, Red Hat y Kali linux. El propósito de estas distribuciones es ofrecer GNU/Linux como un producto final para instalar o probar en un ordenador, cubriendo una gama de necesidades, las cuales van desde el uso cotidiano personal hasta aplicaciones muy específicas en ambientes especializados. Al sistema base las distros añaden su propia selección de aplicaciones y programas preinstalados (por ejemplo ambientes gráficos basados en X11, Gnome y KDE), o aplicaciones que pueden descargarse desde un repositorio para su posterior instalación.
 
-![Sistemas Operativos](../assets/sistemas-operativos.png)
+![Sistemas Operativos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/sistemas-operativos.png)
 
     
 - **Para Linux:**
@@ -93,7 +93,7 @@ Quizá el más popular a nivel mundial, Word es el más completo procesador de t
 
 > 👉 Word es un software de pago, se utiliza bajo la compra de una licencia de uso.
 
-![Microsoft word](../assets/microsoft-word.png)
+![Microsoft word](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/microsoft-word.png)
 
 - Apache OpenOffice Writer
 
@@ -101,7 +101,7 @@ Writer tiene todo lo que se espera de un procesador de textos moderno completame
 
 Suficientemente simple para un memorándum y suficientemente poderoso para crear libros con contenido, imágenes, diagramas, índices, etc. Writer también puede mostrar múltiples páginas mientras edita. Ideal para modificar documentos complejos o si tiene un monitor grande o varios monitores
 
-![Open Office](../assets/open-office.png)
+![Open Office](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/open-office.png)
 
 1. **Hojas de cálculo**
 
@@ -117,7 +117,7 @@ Con Excel, uno de los programas de hojas de cálculo por excelencia que es usado
 
 Estas hojas pueden ser creadas con plantillas y herramientas adicionales que hacen más fácil el proceso y el trabajo en general. En este programa puedes insertar gráficos de barras, circulares, gráficas de líneas y más. Tiene tablas dinámicas que llevan por nombre "pivote", con las cuales se analizan grandes cantidades de datos para luego presentar reportes bastante complejos sin tener que escribir fórmulas.
 
-![Excel](../assets/excel.png)
+![Excel](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/excel.png)
 
 - Google spreadsheet.
 
@@ -125,7 +125,7 @@ Este es un programa de hojas de cálculo que se incluye como parte del conjunto 
 
 La aplicación es compatible con los formatos de archivo de Microsoft Excel y permite a los usuarios crear y editar archivos en línea mientras colaboran con otros usuarios en tiempo real. Las ediciones son rastreadas por el usuario con un historial de revisión que presenta los cambios.
 
-![Google Sheets](../assets/google-sheets.png)
+![Google Sheets](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/google-sheets.png)
 
 1. **Aplicaciones de presentación**
 
@@ -149,7 +149,7 @@ Además, presenta una serie de plantillas para proporcionar al usuario diseños 
 
 Durante una presentación de Microsoft PowerPoint, el presentador tiene la libertad de definir el ritmo controlando el flujo de las diapositivas manualmente o haciendo que se cambie a intervalos preestablecidos.
 
-![Power Point](../assets/power-point.png)
+![Power Point](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/power-point.png)
 
 - Google slides
 
@@ -157,7 +157,7 @@ Google Slides o Presentaciones de Google es un servicio que te permite crear un 
 
 Para acceder a esta aplicación se puede hacer mediante la página de Google Slides. Ahí puedes crear y compartir una nueva presentación de Google, ver las plantillas disponibles y acceder a tus presentaciones recientes. Todas las modificaciones que realices en una presentación se guardarán de forma automática.
 
-![google slides](../assets/google-slides.png)
+![google slides](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/google-slides.png)
 
 ## **Software de seguridad**
 
