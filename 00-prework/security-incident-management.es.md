@@ -101,7 +101,7 @@ La notificación de una brecha de seguridad se refiere al proceso de alertar a l
 3. **Clasificación y Priorización:** Se clasifica la brecha de seguridad según su gravedad y se establece su prioridad para una respuesta efectiva.
 4. **Notificación Interna:** Se notifica de inmediato a los equipos internos de seguridad de la información, TI y dirección ejecutiva para coordinar una respuesta.
 
-![Gestion incidentes de seguridad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/incidentes-de-seguridad.png)
+![Gestión incidentes de seguridad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/incidentes-de-seguridad.png)
 
 ### Manejo de Brechas de Seguridad:
 
