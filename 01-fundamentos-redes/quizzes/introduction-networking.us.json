@@ -9,7 +9,7 @@
         { "slug": "cybersecurity_guru", "points": 5 }
     ]
   },
-  "q": [
+  "questions": [
     {
       "q": "What is a computer network and how has it evolved?",
       "option": [

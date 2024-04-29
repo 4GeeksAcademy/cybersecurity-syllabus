@@ -6,7 +6,7 @@ El estudiante debe identificar los elementos que se deben respaldar para recuper
 
 ## Entregable
 
-- Autoevaluable por learnpack
+- Repositorio con learnpack
 - Script de respaldo
 
 ## TODO

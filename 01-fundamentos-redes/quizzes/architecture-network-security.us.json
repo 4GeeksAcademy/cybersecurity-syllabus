@@ -9,7 +9,7 @@
         { "slug": "cybersecurity_guru", "points": 5 }
     ]
 },
-  "q": [
+  "questions": [
     {
       "q": "What is a network architecture and why is it important for a company?",
       "a": [

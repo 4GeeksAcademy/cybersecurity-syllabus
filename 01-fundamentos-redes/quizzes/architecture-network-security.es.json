@@ -9,7 +9,7 @@
         { "slug": "cybersecurity_guru", "points": 5 }
     ]
 },
-  "q": [
+  "questions": [
     {
       "q": "¿Qué es una arquitectura de red y por qué es importante para una empresa?",
       "a": [
