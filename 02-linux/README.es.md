@@ -10,9 +10,9 @@
 
 - 📗[Gestión de paquetes y software](./software-package-management.es.md)
 - 📗[Administración básica del sistema](./basic-system-administration.es.md)
-- 🧪[Crear un script para actualizar el sistema](???)
+- 🧪[Crear un script para actualizar el sistema](./labs/script-actualizacion.es.md) - [Repo](https://github.com/4GeeksAcademy/update-script-cron-task-debian)
 - 📗[Introducción a la seguridad en Linux](./intro-linux-security.es.md)
-- 🧪[Configuración de IP Tables](./labs/ip-tables.es.md)
+- 🧪[Configuración de IP Tables](./labs/ip-tables.es.md) - [Repo](https://github.com/4GeeksAcademy/iptables-blocking-practice)
 
 ## Dia 3
 

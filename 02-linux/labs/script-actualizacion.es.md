@@ -4,9 +4,5 @@ El estudiante debe crear un script en bash para actualizar la lista de repositor
 
 ## Entregable
 
-- Archivo con el script
 - Demostración de su funcionamiento
-
-## TODO:
-
-- Repo con instrucciones
+- Repo con el codigo y data de verificación

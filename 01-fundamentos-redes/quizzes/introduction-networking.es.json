@@ -9,7 +9,7 @@
         { "slug": "cybersecurity_guru", "points": 5 }
     ]
   },
-  "q": [
+  "questions": [
     {
       "q": "¿Qué es una red informática y cómo ha evolucionado?",
       "option": [

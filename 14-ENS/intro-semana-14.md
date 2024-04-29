@@ -1,5 +1,0 @@
-# Introdcción a ENS
-
-Bienvenido a un nuevo módulo de bootcamp de analista de ciberseguridad, el tema que tocaremos dentro del módulo será el Esquema Nacional de Seguridad. Es importante tener conocimiento de esto ya que en algunos casos el ENS se erige como la piedra angular que sostiene las estrategias y acciones destinadas a preservar la integridad, estabilidad y bienestar de la información de una nación. En algunos casos durante nuestra carrera como analistas de ciberseguridad, tendremos que realizar auditorías a algún sistema de un organismo público que se rige bajo el ENS, por lo que es necesario tener conocimiento sobre esto.
-
-Entre los temas que estaremos tratando de ENS tendremos los marcos de trabajo, las medidas de protección, y los análisis de riesgos así como ciertas herramientas que nos ayudarán a la implementación del esquema, si más nada que decir entremos en el tema.
