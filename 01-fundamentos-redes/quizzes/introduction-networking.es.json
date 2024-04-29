@@ -5,6 +5,7 @@
     "status":    "draft",
     "main":    "Bienvenido al mundo de las redes. Este primer paso te llevara a grandes cosas en el futuro...",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "technologies": ["redes"],
     "badges": [
         { "slug": "cybersecurity_guru", "points": 5 }
     ]
