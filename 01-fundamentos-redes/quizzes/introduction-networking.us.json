@@ -1,1 +1,230 @@
-{"info": {"main": "Welcome to the world of networks. This first step will take you to great things in the future...", "name": "Introduction to Networking", "slug": "introduction-networking-us", "badges": [{"slug": "cybersecurity_guru", "points": 5}], "status": "draft", "results": "Congratulations! Now the world will be a little safer thanks to you...", "technologies": ["networking"]}, "questions": [{"q": "What is a computer network and how has it evolved?", "options": [{"option": "A set of connected devices for sharing resources and communicating.", "correct": true}, {"option": "A type of antivirus software that protects against specific malware.", "correct": false}, {"option": "A method for encrypting information sent over the network.", "correct": false}, {"option": "A device that controls network traffic between two or more networks.", "correct": false}]}, {"q": "What are communication protocols and how do they work in networks?", "options": [{"option": "A type of software that protects against Denial of Service (DDoS) attacks.", "correct": false}, {"option": "A method for segmenting the network into different security zones.", "correct": false}, {"option": "A set of rules that defines how devices communicate on the network.", "correct": true}, {"option": "A device that connects two different networks with different technologies.", "correct": false}]}, {"q": "What is a network topology and what are the main topologies?", "options": [{"option": "A type of software that manages and configures network devices.", "correct": false}, {"option": "A method for encrypting information sent over the network.", "correct": false}, {"option": "The way devices are organized and connected in a network.", "correct": true}, {"option": "A device that stores and manages files on a network.", "correct": false}]}, {"q": "What are servers and what functions do they perform in a business computer network?", "options": [{"option": "A type of software that protects against phishing attacks.", "correct": false}, {"option": "A device that connects two networks with different transmission speeds.", "correct": false}, {"option": "Devices that offer services, resources, and data to other devices on the network.", "correct": true}, {"option": "A method for segmenting the network into different security zones.", "correct": false}]}, {"q": "What are some common types of servers and their functions?", "options": [{"option": "Email server, web server, file server, application server.", "correct": true}, {"option": "Security server, proxy server, VPN server, DNS server.", "correct": true}, {"option": "Game server, chat server, print server, storage server.", "correct": true}, {"option": "All of the above.", "correct": true}]}, {"q": "What are network reference models and why are they important?", "options": [{"option": "A set of tools for network management.", "correct": false}, {"option": "Theoretical frameworks for understanding network communication and organization.", "correct": true}, {"option": "A type of software for network security.", "correct": false}, {"option": "Physical devices that enable internet connection.", "correct": false}]}, {"q": "What are the main layers of the OSI Model and their functions?", "options": [{"option": "Physical layer, application layer, transport layer.", "correct": false}, {"option": "Network layer, data link layer, presentation layer.", "correct": false}, {"option": "All of the above.", "correct": false}, {"option": "Options 1 and 2 are correct.", "correct": true}]}, {"q": "How does the TCP/IP Model differ from the OSI Model?", "options": [{"option": "The TCP/IP Model has fewer layers than the OSI Model.", "correct": true}, {"option": "The TCP/IP Model focuses on the architecture of the Internet.", "correct": true}, {"option": "The OSI Model is more commonly used in practice than the TCP/IP Model.", "correct": false}, {"option": "There are no significant differences between both models.", "correct": false}]}, {"q": "What function does the transport layer serve in the TCP/IP Model?", "options": [{"option": "Routing data across different networks.", "correct": false}, {"option": "Controlling the transmission of data reliably and in order.", "correct": true}, {"option": "Presenting data to the user application.", "correct": false}, {"option": "Transmitting data across the physical network.", "correct": false}]}, {"q": "What examples of protocols are found in the application layer of the TCP/IP Model?", "options": [{"option": "HTTP, FTP, SMTP.", "correct": true}, {"option": "TCP, IP, UDP.", "correct": false}, {"option": "Ethernet, Wi-Fi, Bluetooth.", "correct": false}, {"option": "ARP, DNS, DHCP.", "correct": false}]}]}
+{
+    "info": {
+        "main": "Welcome to the world of networks. This first step will take you to great things in the future...",
+        "name": "Introduction to Networking",
+        "slug": "introduction-networking-us",
+        "badges": [
+            {
+                "slug": "cybersecurity_guru",
+                "points": 5
+            }
+        ],
+        "status": "draft",
+        "results": "Congratulations! Now the world will be a little safer thanks to you...",
+        "technologies": [
+            "networking"
+        ]
+    },
+    "questions": [
+        {
+            "q": "What is a computer network and how has it evolved?",
+            "options": [
+                {
+                    "option": "A set of connected devices for sharing resources and communicating.",
+                    "correct": true
+                },
+                {
+                    "option": "A type of antivirus software that protects against specific malware.",
+                    "correct": false
+                },
+                {
+                    "option": "A method for encrypting information sent over the network.",
+                    "correct": false
+                },
+                {
+                    "option": "A device that controls network traffic between two or more networks.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What are communication protocols and how do they work in networks?",
+            "options": [
+                {
+                    "option": "A type of software that protects against Denial of Service (DDoS) attacks.",
+                    "correct": false
+                },
+                {
+                    "option": "A method for segmenting the network into different security zones.",
+                    "correct": false
+                },
+                {
+                    "option": "A set of rules that defines how devices communicate on the network.",
+                    "correct": true
+                },
+                {
+                    "option": "A device that connects two different networks with different technologies.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What is a network topology and what are the main topologies?",
+            "options": [
+                {
+                    "option": "A type of software that manages and configures network devices.",
+                    "correct": false
+                },
+                {
+                    "option": "A method for encrypting information sent over the network.",
+                    "correct": false
+                },
+                {
+                    "option": "The way devices are organized and connected in a network.",
+                    "correct": true
+                },
+                {
+                    "option": "A device that stores and manages files on a network.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What are servers and what functions do they perform in a business computer network?",
+            "options": [
+                {
+                    "option": "A type of software that protects against phishing attacks.",
+                    "correct": false
+                },
+                {
+                    "option": "A device that connects two networks with different transmission speeds.",
+                    "correct": false
+                },
+                {
+                    "option": "Devices that offer services, resources, and data to other devices on the network.",
+                    "correct": true
+                },
+                {
+                    "option": "A method for segmenting the network into different security zones.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What are some common types of servers and their functions?",
+            "options": [
+                {
+                    "option": "Email server, web server, file server, application server.",
+                    "correct": true
+                },
+                {
+                    "option": "Security server, proxy server, VPN server, DNS server.",
+                    "correct": true
+                },
+                {
+                    "option": "Game server, chat server, print server, storage server.",
+                    "correct": true
+                },
+                {
+                    "option": "All of the above.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "q": "What are network reference models and why are they important?",
+            "options": [
+                {
+                    "option": "A set of tools for network management.",
+                    "correct": false
+                },
+                {
+                    "option": "Theoretical frameworks for understanding network communication and organization.",
+                    "correct": true
+                },
+                {
+                    "option": "A type of software for network security.",
+                    "correct": false
+                },
+                {
+                    "option": "Physical devices that enable internet connection.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What are the main layers of the OSI Model and their functions?",
+            "options": [
+                {
+                    "option": "Physical layer, application layer, transport layer.",
+                    "correct": false
+                },
+                {
+                    "option": "Network layer, data link layer, presentation layer.",
+                    "correct": false
+                },
+                {
+                    "option": "All of the above.",
+                    "correct": false
+                },
+                {
+                    "option": "Options 1 and 2 are correct.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "q": "How does the TCP/IP Model differ from the OSI Model?",
+            "options": [
+                {
+                    "option": "The TCP/IP Model has fewer layers than the OSI Model.",
+                    "correct": true
+                },
+                {
+                    "option": "The TCP/IP Model focuses on the architecture of the Internet.",
+                    "correct": true
+                },
+                {
+                    "option": "The OSI Model is more commonly used in practice than the TCP/IP Model.",
+                    "correct": false
+                },
+                {
+                    "option": "There are no significant differences between both models.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What function does the transport layer serve in the TCP/IP Model?",
+            "options": [
+                {
+                    "option": "Routing data across different networks.",
+                    "correct": false
+                },
+                {
+                    "option": "Controlling the transmission of data reliably and in order.",
+                    "correct": true
+                },
+                {
+                    "option": "Presenting data to the user application.",
+                    "correct": false
+                },
+                {
+                    "option": "Transmitting data across the physical network.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What examples of protocols are found in the application layer of the TCP/IP Model?",
+            "options": [
+                {
+                    "option": "HTTP, FTP, SMTP.",
+                    "correct": true
+                },
+                {
+                    "option": "TCP, IP, UDP.",
+                    "correct": false
+                },
+                {
+                    "option": "Ethernet, Wi-Fi, Bluetooth.",
+                    "correct": false
+                },
+                {
+                    "option": "ARP, DNS, DHCP.",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
