@@ -13,7 +13,7 @@
   "questions": [
     {
       "q": "What is a computer network and how has it evolved?",
-      "option": [
+      "options": [
         {
           "option": "A set of connected devices for sharing resources and communicating.",
           "correct": true
@@ -34,7 +34,7 @@
     },
     {
       "q": "What are communication protocols and how do they work in networks?",
-      "option": [
+      "options": [
         {
           "option": "A type of software that protects against Denial of Service (DDoS) attacks.",
           "correct": false
@@ -55,7 +55,7 @@
     },
     {
       "q": "What is a network topology and what are the main topologies?",
-      "option": [
+      "options": [
         {
           "option": "A type of software that manages and configures network devices.",
           "correct": false
@@ -76,7 +76,7 @@
     },
     {
       "q": "What are servers and what functions do they perform in a business computer network?",
-      "option": [
+      "options": [
         {
           "option": "A type of software that protects against phishing attacks.",
           "correct": false
@@ -97,7 +97,7 @@
     },
     {
       "q": "What are some common types of servers and their functions?",
-      "option": [
+      "options": [
         {
           "option": "Email server, web server, file server, application server.",
           "correct": true
@@ -118,7 +118,7 @@
     },
     {
       "q": "What are network reference models and why are they important?",
-      "option": [
+      "options": [
         {
           "option": "A set of tools for network management.",
           "correct": false
@@ -139,7 +139,7 @@
     },
     {
       "q": "What are the main layers of the OSI Model and their functions?",
-      "option": [
+      "options": [
         {
           "option": "Physical layer, application layer, transport layer.",
           "correct": false
@@ -160,7 +160,7 @@
     },
     {
       "q": "How does the TCP/IP Model differ from the OSI Model?",
-      "option": [
+      "options": [
         {
           "option": "The TCP/IP Model has fewer layers than the OSI Model.",
           "correct": true
@@ -181,7 +181,7 @@
     },
     {
       "q": "What function does the transport layer serve in the TCP/IP Model?",
-      "option": [
+      "options": [
         {
           "option": "Routing data across different networks.",
           "correct": false
@@ -202,7 +202,7 @@
     },
     {
       "q": "What examples of protocols are found in the application layer of the TCP/IP Model?",
-      "option": [
+      "options": [
         {
           "option": "HTTP, FTP, SMTP.",
           "correct": true
