@@ -1,4 +1,10 @@
-## **Herramientas IDS/IPS**
+---
+title: "Herramientas IDS/IPS"
+subtitle: "Explorando Herramientas IDS/IPS: Quickdraw, Bro y OSSEC - Protección Avanzada para Redes y Sistemas de Control"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Ya hablamos ampliamente de Snort y Suricata veamos algunas otras opciones.
 

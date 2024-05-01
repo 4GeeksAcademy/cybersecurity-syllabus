@@ -1,4 +1,10 @@
-## Amenazas y vulnerabilidades de la seguridad de los datos
+---
+title: "Amenazas y vulnerabilidades de la seguridad de los datos"
+subtitle: "Protegiendo la Información: Amenazas, Vulnerabilidades y Medidas de Seguridad"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ### **¿Quién más quiere mis datos?**
 

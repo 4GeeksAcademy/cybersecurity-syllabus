@@ -1,4 +1,10 @@
-# **📚 Lectura 10 Monitoreo y optimización del rendimiento del servidor**
+---
+title: "Monitoreo y optimización del rendimiento del servidor"
+subtitle: "Monitorea y optimiza servidores: Herramientas, ajustes y soluciones. Mejora el rendimiento del sistema y la eficiencia. ¡Optimiza ya!"
+tags: ["servidores"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Uso de herramientas de monitoreo del sistema**
 

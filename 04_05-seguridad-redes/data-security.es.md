@@ -1,4 +1,10 @@
-## Seguridad de los datos
+---
+title: "Seguridad de los datos"
+subtitle: "Fundamentos esenciales de seguridad de datos: Protección y prácticas para resguardar la información en la era digital"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ### Conceptos básicos de la seguridad de los datos
 

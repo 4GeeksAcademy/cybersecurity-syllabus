@@ -1,3 +1,11 @@
+---
+title: "Recomendaciones de la lista de seguridad para los clientes de la nube"
+subtitle: "Descubre las 10 mejores prácticas de seguridad para clientes de la nube: desde protección de datos hasta seguridad operativa y gestión de usuarios."
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 ## **Las 10 recomendaciones de la lista de seguridad para los clientes de la nube**
 
 Cuando se migra a la nube y selecciona un proveedor de servicios, uno de los factores más importantes que se debe considerar es la seguridad. Compartirá y/o almacenará los datos de la empresa con el proveedor de servicios elegido.

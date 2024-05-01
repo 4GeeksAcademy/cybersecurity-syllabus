@@ -1,4 +1,10 @@
-# **Lectura 7 📕: Configuración de seguridad del servidor**
+---
+title: "Configuración de seguridad del servidor"
+subtitle: "Optimiza la seguridad de tu servidor: Configuración del firewall, gestión de usuarios y registros de auditoría en Linux. Aprende paso a paso."
+tags: ["servidores"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Configuración del firewall**
 

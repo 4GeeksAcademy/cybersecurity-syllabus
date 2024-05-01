@@ -1,4 +1,10 @@
-## Seguridad de los dispositivos móviles
+---
+title: "Seguridad de los dispositivos móviles"
+subtitle: "Protegiendo la Movilidad: Estrategias y Amenazas en la Seguridad de Dispositivos Móviles"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 La seguridad móvil se refiere a las estrategias, infraestructuras y software que se utilizan para proteger cualquier dispositivo móvil que viaja junto con los usuarios, incluyendo smartphones, tabletas y notebooks. La seguridad en los dispositivos móviles incluye la protección de datos en el dispositivo local, en los endpoints conectados al dispositivo y en los equipos de redes. Mientras estos dispositivos sigan siendo los preferidos por los usuarios, en vez de los equipos de sobremesa, seguirán siendo los principales objetivos para los hackers.
 

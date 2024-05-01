@@ -1,4 +1,10 @@
-# Lectura 6 📕: Introducción a la seguridad de Linux
+---
+title: "Introduction to Linux Security"
+subtitle: "Linux security basics and best practices: how to secure your system, manage users, strong passwords, firewalls, and more."
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Conceptos básicos de seguridad en linux
 

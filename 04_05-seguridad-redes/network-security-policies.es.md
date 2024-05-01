@@ -1,4 +1,10 @@
-## **Política de seguridad de la red**
+---
+title: "Política de seguridad de la red"
+subtitle: "Fortaleciendo la Infraestructura: Política de Seguridad de Red para Protección Integral en un Mundo Interconectado"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 En el mundo conectado de hoy en día, las empresas dependen de las redes informáticas para todo, desde realizar actividades cotidianas hasta ejecutar funciones críticas para el negocio. El principal objetivo es reducir costos y aumentar la comodidad. Esta dependencia excesiva de Internet tiene sus inconvenientes. Las malas prácticas de seguridad de red y la falta de coherencia entre los distintos equipos que operan en una red dejan a la organización vulnerable a más amenazas de seguridad de red.
 

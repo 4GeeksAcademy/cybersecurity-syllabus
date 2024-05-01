@@ -1,4 +1,10 @@
-# **Lectura 4 📕: Gestión de archivos y directorios:**
+---
+title: "Gestión de archivos y directorios"
+subtitle: "Navegación y manipulación de archivos en Linux: Comandos esenciales y buenas prácticas para administradores de sistemas."
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Navegación y manipulación de archivos y directorios.**
 

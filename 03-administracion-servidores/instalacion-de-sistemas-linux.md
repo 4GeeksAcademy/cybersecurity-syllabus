@@ -1,4 +1,11 @@
-# **Lectura 2 📕: Instalación de Linux en Maquina virtual**
+---
+title: "Instalación de Linux en Maquina virtual"
+subtitle: "Instalación de Linux en Máquina Virtual: Guía completa para preparar, configurar y realizar la instalación en servidores. ¡Aprende paso a paso!"
+tags: ["servidores"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 
 ## **Preparación del entorno de virtualización.**
 

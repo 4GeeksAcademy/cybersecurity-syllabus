@@ -1,6 +1,12 @@
-Seguridad en la nube
+---
+title: "Seguridad en la nube"
+subtitle: "Protegiendo tus Activos Digitales: Conceptos Clave de Seguridad en la Nube para Empresas y Usuarios - Todo lo que Necesitas Saber sobre la Seguridad en la Nube"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
 
-Conceptos de la seguridad en la nube
+---
+
+## Conceptos de la seguridad en la nube
 
 La seguridad de nube empresarial es el conjunto de prácticas, protocolos, políticas y controles que las organizaciones implementan para proteger sus activos digitales en la nube. La seguridad en la nube empresarial está diseñada para proteger los entornos cloud, los datos que residen en la nube, las aplicaciones que se ejecutan en la nube y los usuarios que interactúan con los activos de la nube. En la mayoría de los entornos cloud, la seguridad es una responsabilidad compartida entre el proveedor de nube y el cliente.
 

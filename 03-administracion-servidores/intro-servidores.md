@@ -1,10 +1,14 @@
-### **Lectura 0:**
+---
+title: "Introducción a la administración de servidores Linux"
+subtitle: "Administra servidores: Instala Linux en Máquina Virtual. Descubre conceptos, ventajas y más. ¡Comienza ya!"
+tags: ["servidores"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Felicitaciones por haber llegado hasta aquí, mientras más vamos avanzando en los módulos más cosas aprenderemos y pondremos en práctica lo aprendido, en este modulo pondremos en práctica todo lo aprendido en Linux para asi saber como manejar y administrar servidores de Linux.
 
 Generalmente en los servidores almacenan y procesan datos críticos para las organizaciones. Por lo tanto, comprender cómo administrarlos de manera segura es crucial para proteger la información y garantizar la integridad de los sistemas. Así que en el siguiente módulo aprenderemos todo lo necesario para saber cómo administrar servidores, desde instalarlos y configurarlos hasta gestionar los permisos y usuarios y monitorear las actividades y rendimiento del servidor.
-
-# **Lectura 1📕: Introducción a la administración de servidores Linux:**
 
 ## **Qué es un servidor y su importancia en los entornos de red**
 

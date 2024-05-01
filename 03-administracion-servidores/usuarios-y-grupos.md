@@ -1,4 +1,10 @@
-# **Lectura 3 📕: Administración básica de usuarios y grupos**
+---
+title: "Administración básica de usuarios y grupos"
+subtitle: "Prácticas esenciales para la administración segura de usuarios y grupos en servidores Linux: Gestión eficiente y asignación adecuada de permisos."
+tags: ["servidores"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Creación y gestión de cuentas de Usuario.**
 

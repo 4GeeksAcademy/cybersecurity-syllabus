@@ -1,4 +1,10 @@
-# Lectura 3 📕: Fundamentos de la línea de comandos
+---
+title: "Command Line Basics"
+subtitle: "Discover the basics of the command line: how to navigate, manipulate files and manage permissions in Linux. Learn from scratch in this complete tutorial!"
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Introducción a la terminal y el intérprete de comandos
 

@@ -1,3 +1,11 @@
+---
+title: "Install Kali Linux on VirtualBox 2023"
+subtitle: "Installing Kali Linux on VirtualBox 2023: Step-by-step guide to setting up a secure and efficient environment."
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 ## **Configuring a virtual machine for pentesting**
 
 ### **How to Install Kali Linux on VirtualBox 2023**

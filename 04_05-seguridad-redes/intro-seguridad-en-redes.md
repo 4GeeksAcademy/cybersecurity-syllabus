@@ -1,4 +1,10 @@
-# Introducción a la seguridad en redes
+---
+title: "Introducción a la seguridad en redes"
+subtitle: "Descubre cómo proteger tu red: conceptos, tipos y herramientas de seguridad en redes para una protección sólida y confiable. ¡Aprende ahora!"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Conceptos básicos de seguridad en redes
 
