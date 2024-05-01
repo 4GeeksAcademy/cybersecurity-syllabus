@@ -1,6 +1,10 @@
-# Lectura 2 📕:  Preparación del entorno de Virtualizacion
+---
+title: "Preparing the virtualization environment"
+subtitle: "Discover how to prepare your virtualization environment in Linux: types, benefits and step by step to install and configure virtual machines."
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
 
-## Preparación del entorno de virtualización
+---
 
 En IT existe una propuesta tecnológica llamada virtualización la cual permite crear servicios con recursos que generalmente están limitados al hardware. Podemos ver esta tecnología de esta manera, imaginemos contar con tres servidores físicos, cada uno con propósitos específicos, un servidor de correo, un servidor web y un servidor ejecutando aplicaciones heredades internas. Cada servidor está usando alrededor del 30% de la capacidad de cada servidor, es decir, solo una parte de su potencial. Pero como las aplicaciones heredadas siguen siendo importantes para sus operaciones internas, tienen que conservarse junto con el tercer servidor que las aloja.
 

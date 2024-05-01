@@ -1,4 +1,10 @@
-## Estándares de seguridad inalámbrica
+---
+title: "Estándares de seguridad inalámbrica"
+subtitle: "Protegiendo Datos: Seguridad Inalámbrica en Redes Wi-Fi. Evita Amenazas y Vulnerabilidades, Mantén tu Conexión Segura."
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ### **¿Por qué es importante la seguridad inalámbrica?**
 

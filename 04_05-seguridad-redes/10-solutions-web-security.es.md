@@ -1,3 +1,11 @@
+---
+title: "Soluciones de seguridad en aplicaciones web"
+subtitle: "Descubre las principales soluciones de seguridad para aplicaciones web: desde Cloudflare hasta Mimecast, protege tu negocio contra amenazas cibernéticas."
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 ## **Las 10 mejores soluciones de seguridad en aplicaciones web**
 
 Una solución de seguridad en aplicaciones web busca proteger a las empresas de todos los intentos de explotar una vulnerabilidad de código en una aplicación. Veamos las 10 mejores soluciones para asegurar las aplicaciones web y ayudar a mantener tu negocio en funcionamiento.

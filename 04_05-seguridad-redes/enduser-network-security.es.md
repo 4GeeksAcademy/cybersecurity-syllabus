@@ -1,4 +1,10 @@
-## **Decálogo de ciberseguridad:**
+---
+title: "Decálogo de ciberseguridad"
+subtitle: ""Decálogo de ciberseguridad: Protege tu información con estos consejos prácticos y efectivos | Redes, Seguridad en línea"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image7.jpg](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image7.jpg)
 

@@ -1,4 +1,10 @@
-### **Cómo Instalar Kali Linux en VirtualBox 2023**
+---
+title: "Instalar Kali Linux en VirtualBox 2023"
+subtitle: "Instalación de Kali Linux en VirtualBox 2023: Guía paso a paso para configurar un entorno seguro y eficiente."
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 VirtualBox es una de las mejores opciones para crear entornos virtuales gracias a su compatibilidad, funciones de seguridad, funciones de red y operación. Veamos cómo instalar Kali Linux en VirtualBox
 

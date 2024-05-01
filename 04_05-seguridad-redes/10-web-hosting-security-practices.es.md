@@ -1,3 +1,10 @@
+---
+title: "Prácticas de seguridad en el hosting web"
+subtitle: "Descubre las 10 mejores prácticas para garantizar la seguridad en tu hosting web y proteger tus datos y la reputación de tu negocio."
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 ## **10 mejores prácticas de seguridad en el hosting web**
 
 Además de contar con un proveedor de alojamiento seguro, es esencial aplicar prácticas de seguridad web por tu cuenta para proteger tus sitios web de problemas de seguridad. A continuación, exploraremos los mejores métodos para mantener la seguridad del alojamiento web.

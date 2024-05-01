@@ -1,5 +1,10 @@
+---
+title: "Proceso y técnicas de gestión de incidentes de seguridad"
+subtitle: "Optimizando la Resolución de Incidentes de Seguridad: Estrategias, Procesos y Herramientas para una Gestión Eficiente | Normativas ISO 27001"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
 
-## **Proceso y técnicas de gestión de incidentes de seguridad**
+---
 
 Los incidentes en la seguridad de la información parecen inevitables hoy en día por lo que no tenemos más remedio que plantearlos como vamos a gestionar dichos incidentes de la manera más ágil y eficiente para la organización
 

@@ -1,4 +1,10 @@
-# Lectura 6 📕: Introducción a la seguridad de Linux
+---
+title: "Introducción a la seguridad de Linux"
+subtitle: "Conceptos básicos y mejores prácticas de seguridad en Linux: cómo proteger tu sistema, gestionar usuarios, contraseñas seguras, cortafuegos y más."
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Conceptos básicos de seguridad en linux
 

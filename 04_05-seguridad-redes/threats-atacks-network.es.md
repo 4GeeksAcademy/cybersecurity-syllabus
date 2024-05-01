@@ -1,4 +1,10 @@
-## **Amenazas, vulnerabilidades y procedimientos de seguridad en redes**
+---
+title: "Amenazas, vulnerabilidades y procedimientos de seguridad en redes"
+subtitle: "Seguridad en Redes: Amenazas, Vulnerabilidades y Estrategias para Defensa. Aprende a Combatir Ataques DoS, DDoS, MITM y más"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 En los últimos diez o quince años, hemos ido viendo cómo cambiaba el paradigma por el cual los **crackers o cibercriminales** buscaban explotar todas las vulnerabilidades posibles, dentro de cualquier organización o infraestructura nacional. Con el claro fin de contrarrestar este hecho, lo que debemos tener claro todos y cada uno de nosotros, es que debemos cambiar nuestra perspectiva hacia la forma en la que vemos la seguridad en el ámbito informático y de red, debemos conocer ciertos ataques y comprender qué podemos aprender de los mismos, para estar preparados lo mejor posible para ellos, y en ocasiones hasta poder evitarlos. En este mundo de seguridad no podemos decir que estamos preparados para evitar cualquier ataque.
 

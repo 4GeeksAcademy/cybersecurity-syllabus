@@ -1,4 +1,10 @@
-Seguridad en aplicaciones
+---
+title: "Seguridad en aplicaciones"
+subtitle: "Refuerza la seguridad en tus aplicaciones: Estrategias, herramientas y mejores prácticas para proteger tus datos y usuarios contra amenazas cibernéticas"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Conceptos de la seguridad en aplicaciones**
 

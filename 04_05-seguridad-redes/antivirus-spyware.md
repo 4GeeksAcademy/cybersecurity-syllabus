@@ -1,4 +1,10 @@
-## Antivirus y antispyware
+---
+title: "Antivirus y antispyware"
+subtitle: "Descubre los mejores antivirus y antispyware para proteger tu equipo: análisis, comparativa y recomendaciones para una seguridad óptima en Windows."
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Antivirus**
 

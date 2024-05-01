@@ -1,4 +1,10 @@
-# Aplicaciones web seguras
+---
+title: "Aplicaciones web seguras"
+subtitle: "Garantizando la Seguridad en Aplicaciones Web: Estrategias, Pruebas y Protección contra Amenazas - Consejos de Hosting Seguro y Resiliencia Digital"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Cuando se desarrolla una aplicación web, es importante garantizar su seguridad desde el principio y no después de lanzar la aplicación. Para descubrir las vulnerabilidades, los desarrolladores deben realizar constantemente pruebas de seguridad e implementar diversos tipos de controles de protección, como firewalls de aplicaciones y políticas de seguridad de contenidos. Tanto si se trata de distinguirse de la competencia, como de cumplir ciertas normas o mantener la confianza de los clientes, es esencial identificar y resolver rápidamente cualquier vulnerabilidad común en las aplicaciones web modernas.
 

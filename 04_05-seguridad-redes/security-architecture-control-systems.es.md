@@ -1,4 +1,10 @@
-# **Arquitecturas de seguridad para sistemas de control**
+---
+title: "Arquitecturas de seguridad para sistemas de control"
+subtitle: "Implementaciones de Seguridad en Redes de Control: IDS, IPS, SIEM - Una Mirada Profunda a las Arquitecturas y Beneficios"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Arquitectura de seguridad con IDS**
 

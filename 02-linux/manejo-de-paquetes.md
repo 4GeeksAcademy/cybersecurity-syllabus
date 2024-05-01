@@ -1,4 +1,10 @@
-# **Lectura 6 📕: Gestión de paquetes y software**
+---
+title: "Gestión de paquetes y software"
+subtitle: "Domina gestión de paquetes en Linux: instala, actualiza y elimina software con facilidad. Aprende a configurar repositorios y mantén tu sistema seguro."
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Uso de gestores de paquetes para la instalación y actualización de software**
 
