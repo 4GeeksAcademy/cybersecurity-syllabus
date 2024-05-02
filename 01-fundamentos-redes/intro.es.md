@@ -4,3 +4,7 @@ Ahora que has aprobado tu primera semana de formación adquiriendo conocimiento 
 En esta segunda semana adquirirás conocimientos muy sólidos sobre redes informáticas lo cual te permitirá entender cómo funcionan las comunicaciones y más adelante, poder realizar un análisis de vulnerabilidades. 
 
 > 💡**Ejercicio:** ¿Conoces la red de tu casa y los dispositivos conectados a ella? Intenta describirla en tu editor de texto favorito o con lápiz y papel
+
+# Teacher instructions
+
+El primer dia revisa la práctica de packet tracer del prework y aclara las dudas con respecto a redes y el uso de la herramienta para diseñar topologías de redes.

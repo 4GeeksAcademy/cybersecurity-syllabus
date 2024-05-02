@@ -97,29 +97,3 @@ El Modelo TCP/IP (Transmission Control Protocol/Internet Protocol) es un modelo 
 Es importante destacar que el Modelo TCP/IP es un modelo práctico que se adapta a la arquitectura de Internet y se centra en la funcionalidad de las capas sin dividir estrictamente en siete capas como el Modelo OSI. En la práctica, estas cuatro capas son suficientes para comprender cómo funcionan las redes de Internet y cómo se comunican los dispositivos y aplicaciones a través de ella. Cada capa desempeña un papel importante en la transferencia de datos a través de la red global.
 
 > 💡 La importancia de estos modelos radica en que proporcionan un lenguaje común y una estructura organizativa para la comunicación de red. Ayudan a los ingenieros de redes y a los profesionales de TI a comprender mejor cómo interactúan los protocolos y los dispositivos en una red, a solucionar problemas de red y a diseñar redes eficientes y seguras.
-
-### ⚡️QUIZ
-
-1. Esta capa del modelo TCP/IP  es responsable de la comunicación extremo a extremo 
-
-A. Internet
-
-B. Física
-
-C. Transporte ✅
-
-2. ¿Qué ocurre en la capa física del modelo OSI?
-
-A. Se decide la topología de red 
-
-B. Se establece conexión a internet
-
-C. Comienzan las comunicaciones a través de los sistemas de cableado ✅
-
-3. Es la capa del modelo TCP/IP y OSI donde las aplicaciones y servicios interactúan directamente con los datos.
-
-A. Aplicación ✅
-
-B. Enlace de datos
-
-C. Física 

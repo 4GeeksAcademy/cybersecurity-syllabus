@@ -132,9 +132,3 @@ En una red informática empresarial, los servidores desempeñan un papel crucial
 4. **Comunicaciones Internas y Externas:** Los servidores de correo electrónico y colaboración facilitan la comunicación y la colaboración entre empleados, así como con clientes y socios externos.
 5. **Publicación Web:** Los servidores web permiten que las empresas presenten su presencia en línea y ofrezcan servicios y contenido a través de la World Wide Web.
 6. **Gestión de Aplicaciones:** Los servidores de aplicaciones permiten la implementación y administración de aplicaciones empresariales críticas para el funcionamiento de la organización.
-
-### ⚡️QUIZ
-
-1. Una red LAN abarca un espacio geográfico reducido (Verdadero)
-2. La topología BUS es la más simple de todas las estudiadas (Verdadero)
-3. Un servidor Proxy es un tipo de VPN (Falso)

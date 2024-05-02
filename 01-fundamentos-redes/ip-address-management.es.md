@@ -206,10 +206,11 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 4. Se coloca la IP que se quiera usar y resto de los datos.
 5. Selecciona `Guardar`.
 
-💡**QUIZ** 
-
-Cual es el motivo principal por el cual la ICAAN decidió sacar el protocolo de ipV6
-
-Que ventaja podemos tener al hacer una división de redes en una organización
-
-Cual es la importancia de conocer la mascara de red en un proceso de división de redes
+>💡**Tema de discusión**
+>
+>¿Cual es el motivo principal por el cual la ICAAN decidió sacar el protocolo de ipV6?
+>
+>¿Que ventaja podemos tener al hacer una división de redes en una organización?
+>
+>¿Cual es la importancia de conocer la mascara de red en un proceso de división de redes?
+>

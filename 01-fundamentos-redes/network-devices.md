@@ -17,6 +17,3 @@ Network devices are tools that allow electronic devices to communicate with each
 7. **Combined Modem-Router (Gateway)**: Some devices act as a modem and routers in one. They are convenient if you don't want two separate devices.
 8. **Server**: You can think of a server as a powerful computer that stores important information or applications. In enterprise networks, servers are essential for sharing data and applications among many users.
 9. **End Devices**: These are your devices, such as your computer, phone, tablet, printer, etc. They connect to the network to access the internet and share information.
-
-
-

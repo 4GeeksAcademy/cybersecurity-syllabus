@@ -97,29 +97,3 @@ The TCP/IP (Transmission Control Protocol/Internet Protocol) Model is a conceptu
 It is important to note that the TCP/IP Model is a practical model that adapts to the Internet architecture and focuses on the functionality of the layers without strictly dividing it into seven layers like the OSI Model. In practice, these four layers are sufficient to understand how Internet networks work and how devices and applications communicate over it. Each layer plays an important role in transferring data across the overall network.
 
 > 💡 The importance of these models lies in the fact that they provide a common language and organizational structure for network communication. They help network engineers and IT professionals better understand how protocols and devices interact in a network, troubleshoot network problems, and design efficient and secure networks.
-
-### ⚡️QUIZ
-
-1. This layer of the TCP/IP model is responsible for end-to-end communication. 
-
-A. Internet
-
-B. Physics
-
-C. Transport ✅
-
-2. what happens at the physical layer of the OSI model?
-
-A. The network topology is decided 
-
-B. Connection to the internet is established
-
-C. Communications through the cabling systems begin ✅ 3.
-
-3. It is the layer of the TCP/IP and OSI model where applications and services interact directly with data.
-
-A. Application ✅
-
-B. Data link
-
-C. Physics

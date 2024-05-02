@@ -16,5 +16,5 @@
 
 ## Dia 3
 
-- 🧪[Despliegue de maquina virtual Kali](./setting-virtualization-enviroment.es.md)
+- 🧪[Despliegue de maquina virtual Kali](./setting-virtualization-enviroment.es.md) (por validar)
 - 🧪[Instalación de extensiones de VirtualBox](./labs/instalation-virtualbox-guest-additions.md)

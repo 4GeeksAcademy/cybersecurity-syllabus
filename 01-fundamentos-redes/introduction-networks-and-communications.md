@@ -131,9 +131,3 @@ In an enterprise computer network, servers play a crucial role in managing share
 4. **Internal and External Communications:** E-mail and collaboration servers facilitate communication and collaboration among employees, as well as with external customers and partners.
 5. **Web Publishing:** Web servers enable companies to present their online presence and offer services and content via the World Wide Web.
 6. **Application Management:** Application servers enable the deployment and management of business applications critical to the operation of the organization.
-
-### ⚡️QUIZ
-
-1. A LAN covers a small geographical space (True).
-2. BUS topology is the simplest of all topologies studied (True).
-3. A proxy server is a type of VPN (Falso)

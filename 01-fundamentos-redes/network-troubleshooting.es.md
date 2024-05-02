@@ -80,6 +80,6 @@ Todos estos eventos se pueden almacenar en un archivo de registro de eventos, y 
 - Monitorear la pérdida de datos: En algunos casos como que un ex empleado se vaya con la competencia, si no hemos eliminado su usuario del sistema podría acceder a su cuenta y obtener información de la empresa, por lo que con el monitoreo de eventos se podría descubrir esas actividades
 - Optimizar el desempeño: En ocasiones es difícil determinar la causa del bajo rendimiento de la red y el monitoreo de evento puede determinar si la causa está relacionado con un problema de la red o con alguna otra razón.
 
-### 💡Laboratorio: Monitoreo de eventos
-
-Realiza  prueba en tu computadora del monitoreo de eventos y revisa todos los eventos que han ocurrido en tu sesión. A continuación, describe los eventos que te parecen más importantes a nivel corporativo.
+>💪 **Desafío:**
+>
+>Realiza  prueba en tu computadora del monitoreo de eventos y revisa todos los eventos que han ocurrido en tu sesión. A continuación, describe los eventos que te parecen más importantes a nivel corporativo.
