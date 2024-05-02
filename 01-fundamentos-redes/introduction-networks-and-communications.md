@@ -4,7 +4,7 @@ subtitle: "Journey through Networks: ARPANET to Internet, Protocols, Topologies 
 tags: ["networks"]
 authors: ["blindma1den", "lorenagubaira"]
 
----
+---  
 
 ## **Introduction to Networking: A Journey Through Connectivity**
 

@@ -1,4 +1,10 @@
-# Lectura 4📕: Gestión de paquetes y software
+---
+title: "Package and software management"
+subtitle: "Discover how to manage packages and software in Linux: installation, update, uninstallation and dependency management efficiently and safely."
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Teniendo claro que es Linux y que se constituye en dos partes, con su kernel siendo el núcleo del sistema y la otra parte como el resto de los programas que lo componen para hacer un uso más específico, estos programas se distribuyen usando paquetes, estos paquete sirven para entregar el software y su mantenimiento.
 

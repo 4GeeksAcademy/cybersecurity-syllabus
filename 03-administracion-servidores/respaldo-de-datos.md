@@ -1,4 +1,10 @@
-# **📚 Lectura 9: Respaldo y recuperación de datos:**
+---
+title: "Respaldo y recuperación de datos"
+subtitle: "Planificación y ejecución de respaldos: Garantiza la seguridad y disponibilidad de tus datos. Aprende estrategias y herramientas para respaldar y recuperar información de manera efectiva."
+tags: ["servidores"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image98.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image98.png)
 

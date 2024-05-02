@@ -1,4 +1,10 @@
-## Tendencias actuales en seguridad en redes
+---
+title: "Tendencias actuales en seguridad en redes"
+subtitle: "Tendencias en Seguridad en Redes 2024: Amenazas Emergentes y Soluciones Innovadoras para un Mundo Híbrido y Distribuido"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 - **Permanece el riesgo asociado al teletrabajo.** El regreso a la oficina en 2022 va a ser más lento de lo inicialmente previsto. Es más, gran parte del teletrabajo generado durante la crisis sanitaria permanecerá, y se consolidarán los entornos laborales híbridos. Esto va a hacer que todo lo relacionado con la *ciberseguridad de ubicaciones remotas* continuará teniendo protagonismo. Las organizaciones están terminando de definir y fijar sus estrategias y políticas de seguridad para estos nuevos entornos híbridos, de manera que la postura de seguridad sea la misma en todos los entornos de red de la organización, independientemente de dónde se encuentren.
 - **DNS sobre HTTPS (DoH) como vector de amenazas.** El creciente uso de servicios DoH está en aumento por parte de las organizaciones, y los cibercriminales van a tratar de explotar este sistema como vector de ataque, ya que proporciona un canal encriptado hacia el servidor DoH y los desarrolladores de malware son conscientes de que es un medio para eludir los controles de seguridad. Muchos proveedores de servicios y empresas están implementando DoH como una estrategia defensiva, con el objetivo de tener su propia infraestructura DNS y evitar depender de servidores DoH de terceros, pero esto puede suponer un riesgo.

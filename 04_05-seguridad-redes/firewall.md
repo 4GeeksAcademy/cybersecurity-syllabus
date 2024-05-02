@@ -1,6 +1,10 @@
-Firewalls
+---
+title: "Firewalls"
+subtitle: "Optimizando la Seguridad en Redes con firewalls: Tipos, Ventajas, Desventajas y Arquitecturas - Guía Completa"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
 
-# **Firewall**
+---
 
 La seguridad en cada equipo individual sigue siendo esencial pero no se puede considerar de forma aislada. Hay que considerar:
 

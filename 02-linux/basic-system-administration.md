@@ -1,4 +1,10 @@
-# Lectura 5 📕: Administración basica del sistema
+---
+title: "Basic system administration"
+subtitle: "Manage users and groups in Linux: practical guide for security and efficiency. Create, manage and assign permissions securely. Optimize your system!"
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## Gestion de grupos y usuario
 

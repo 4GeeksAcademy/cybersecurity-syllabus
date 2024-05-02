@@ -5,6 +5,7 @@
     "status":    "draft",
     "main":    "Bienvenido al mundo de las redes. Este primer paso te llevara a grandes cosas en el futuro...",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "technologies": ["redes"],
     "badges": [
         { "slug": "cybersecurity_guru", "points": 5 }
     ]
@@ -12,7 +13,7 @@
   "questions": [
     {
       "q": "¿Qué es una red informática y cómo ha evolucionado?",
-      "option": [
+      "options": [
         {
           "option": "Un conjunto de dispositivos conectados para compartir recursos y comunicarse.",
           "correct": true
@@ -33,7 +34,7 @@
     },
     {
       "q": "¿Qué son los protocolos de comunicación y cómo funcionan en las redes?",
-      "option": [
+      "options": [
         {
           "option": "Un tipo de software que protege contra ataques de denegación de servicio (DDoS).",
           "correct": false
@@ -54,7 +55,7 @@
     },
     {
       "q": "¿Qué es una topología de red y cuáles son las principales topologías?",
-      "option": [
+      "options": [
         {
           "option": "Un tipo de software que administra y configura dispositivos de red.",
           "correct": false
@@ -75,7 +76,7 @@
     },
     {
       "q": "¿Qué son los servidores y qué funciones cumplen en una red informática empresarial?",
-      "option": [
+      "options": [
         {
           "option": "Un tipo de software que protege contra ataques de phishing.",
           "correct": false
@@ -96,7 +97,7 @@
     },
     {
       "q": "¿Cuáles son algunos tipos de servidores comunes y sus funciones?",
-      "option": [
+      "options": [
         {
           "option": "Servidor de correo electrónico, servidor web, servidor de archivos, servidor de aplicaciones.",
           "correct": true
@@ -117,7 +118,7 @@
     },
     {
       "q": "¿Qué son los modelos de referencia de redes y por qué son importantes?",
-      "option": [
+      "options": [
         {
           "option": "Un conjunto de herramientas para la gestión de redes.",
           "correct": false
@@ -138,7 +139,7 @@
     },
     {
       "q": "¿Cuáles son las principales capas del Modelo OSI y sus funciones?",
-      "option": [
+      "options": [
         {
           "option": "Capa física, capa de aplicación, capa de transporte.",
           "correct": false
@@ -159,7 +160,7 @@
     },
     {
       "q": "¿En qué se diferencia el Modelo TCP/IP del Modelo OSI?",
-      "option": [
+      "options": [
         {
           "option": "El Modelo TCP/IP tiene menos capas que el Modelo OSI.",
           "correct": true
@@ -180,7 +181,7 @@
     },
     {
       "q": "¿Qué función cumple la capa de transporte en el Modelo TCP/IP?",
-      "option": [
+      "options": [
         {
           "option": "Enrutar los datos a través de diferentes redes.",
           "correct": false
@@ -201,7 +202,7 @@
     },
     {
       "q": "¿Qué ejemplos de protocolos se encuentran en la capa de aplicación del Modelo TCP/IP?",
-      "option": [
+      "options": [
         {
           "option": "HTTP, FTP, SMTP.",
           "correct": true

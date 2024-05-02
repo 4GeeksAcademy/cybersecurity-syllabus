@@ -1,3 +1,11 @@
+---
+title: "Listas de control de acceso"
+subtitle: "Explora el mundo de las Listas de Control de Acceso (ACLs) en redes: tipos, implementación y aplicación para una seguridad eficiente."
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 # **Access Control Lists**
 
 Muchas implementaciones de filtros de paquetes las incorporan directamente. los encaminadores Cisco incorporan dicho filtrado restrictivo por defecto en sus listas de control de acceso o ACLs (*Access Control Lists*).

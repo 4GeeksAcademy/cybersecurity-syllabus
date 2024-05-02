@@ -1,4 +1,10 @@
-### **Recursos de comunicación**
+---
+title: "Recursos de comunicación"
+subtitle: "Recursos y Procedimientos para la Gestión de Incidentes de Seguridad: Guía Completa para Equipos de Atención"
+tags: ["redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 En este numeral se pretende enunciar los elementos necesarios para la comunicación del equipo de atención de incidentes dentro de la entidad.
 

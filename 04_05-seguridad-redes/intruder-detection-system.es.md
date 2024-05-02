@@ -1,4 +1,10 @@
-# Intrusion detection systems (IDS)
+---
+title: "Intrusion detection systems (IDS)"
+subtitle: "Guía completa de Intrusion Detection Systems (IDS): Tipos, Funcionamiento y Mejores Prácticas para Seguridad en Redes"
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 **IDS** (*Intrusion Detection System*) el sistema de detección de intrusiones consiste en un conjunto de métodos y técnicas para revelar actividad sospechosa sobre un recurso o recursos informáticos. Es decir, eventos que sugieran un comportamiento anómalo, incorrecto o inapropiado sobre un sistema.
 

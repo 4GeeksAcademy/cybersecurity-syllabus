@@ -1,4 +1,10 @@
-## Seguridad web
+---
+title: "Seguridad web"
+subtitle: "Protege tu aplicación web: Conceptos, amenazas y medidas de seguridad para mitigar riesgos y fortalecer la defensa contra ataques cibernéticos."
+tags: ["networks"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ### **Conceptos básicos de la seguridad web**
 
