@@ -206,10 +206,11 @@ This protocol generates certain advantages since this process is automated and c
 4. Enter the IP you want to use and the rest of the data.
 5. Select `Save`.
 
-💡**QUIZ**
-
-What is the main reason why the ICAAN decided to release the ipV6 protocol?
-
-What advantage can we have when dividing networks in an organization?
-
-What is the importance of knowing the network mask in a network partitioning process?
+>💡**Discussion topics**
+>
+>What is the main reason why the ICAAN decided to release the ipV6 protocol?
+>
+>What advantage can we have when dividing networks in an organization?
+>
+>What is the importance of knowing the network mask in a network partitioning process?
+>

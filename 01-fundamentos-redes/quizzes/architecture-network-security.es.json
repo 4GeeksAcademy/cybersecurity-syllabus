@@ -1,14 +1,12 @@
 {
   "info": {
-    "slug":    "network-security-architecture-es",
-    "name":    "Arquitectura y seguridad de redes",
-    "status":    "draft",
-    "main":    "Veamos un poco mas allá de lo evidente en cuanto a redes, profundizar en estos temas te ayudará a ser un profesional mas competente",
+    "slug": "network-security-architecture-es",
+    "name": "Arquitectura y seguridad de redes",
+    "status": "draft",
+    "main": "Veamos un poco mas allá de lo evidente en cuanto a redes, profundizar en estos temas te ayudará a ser un profesional mas competente",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
-    "badges": [
-        { "slug": "cybersecurity_guru", "points": 5 }
-    ]
-},
+    "badges": [{ "slug": "cybersecurity_guru", "points": 5 }]
+  },
   "questions": [
     {
       "q": "¿Qué es una arquitectura de red y por qué es importante para una empresa?",
@@ -218,6 +216,15 @@
           "option": "Una VPN no es compatible con dispositivos móviles.",
           "correct": false
         }
+      ]
+    },
+    {
+      "q": "¿Qué representa la sigla 'DMZ' en el contexto de seguridad de redes?",
+      "a": [
+        { "option": "Zona de Acceso Directo", "correct": false },
+        { "option": "Zona de Mantenimiento de Datos", "correct": false },
+        { "option": "Zona Desmilitarizada", "correct": true },
+        { "option": "Zona de Máxima Zonificación", "correct": false }
       ]
     }
   ]

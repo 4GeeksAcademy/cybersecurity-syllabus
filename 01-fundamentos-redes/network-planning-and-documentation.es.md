@@ -103,40 +103,6 @@ Los administradores de la red o las MSP pueden supervisar las operaciones de la 
 - **Necesidades futuras de infraestructura**: Los sistemas de monitorización de red muestran cómo han funcionado los componentes de la red durante un periodo de tiempo, lo que nos permite conocer el futuro. Estos informes pueden ser analizados para ayudar a anticipar cuándo la organización puede necesitar considerar la actualización o la implementación de una nueva infraestructura de TI.
 - **Mayor protección contra las amenazas a la seguridad**: La monitorización de la red establece una línea de base del rendimiento de una red. Esto facilita la detección de cambios inusuales en el comportamiento de la red, como aumentos inexplicables en los niveles de tráfico de la red. Cuando el departamento de TI puede identificar rápidamente los posibles problemas de ciberseguridad, a menudo puede intervenir antes de que la amenaza sea costosa.
 
-<aside>
-💡 **Ejercicio:**
-Con los cuadros dados anteriormente elabora una lista de los equipos de configuración de red que tengas en casa o en tu oficina. Esto podría ayudarte a hacer una análisis si el rendimiento de tu red esta optimo o hay algún problema que esté afectando
-
-</aside>
-
-### 💡QUIZ
-
-1. ¿Qué función principal cumple un firewall en una red de computadoras?
-a) Administrar el ancho de banda de la red. ✅
-b) Proteger la red al filtrar el tráfico no autorizado.
-c) Proporcionar direcciones IP a los dispositivos de la red.
-d) Optimizar la topología de la red.
-
-2. ¿Cuántas capas conforman el Modelo OSI (Modelo de Interconexión de Sistemas Abiertos)?
-a) 4
-b) 5
-c) 6
-d) 7 ✅
-
-3. ¿Cuál de los siguientes dispositivos de red opera en la capa 2 (capa de enlace de datos) del Modelo OSI y se utiliza para interconectar segmentos de red en la misma subred?
-a) Enrutador (router)
-b) Concentrador (hub)
-c) Conmutador (switch) ✅
-d) Firewall
-
-4. ¿Cuál de las siguientes topologías de red utiliza un nodo central para conectar todos los dispositivos de la red, formando una estructura de estrella?
-a) Topología de bus
-b) Topología de anillo
-c) Topología de malla
-d) Topología de estrella ✅
-
-5. ¿Qué representa la sigla "DMZ" en el contexto de seguridad de redes?
-a) Zona de Acceso Directo
-b) Zona de Mantenimiento de Datos
-c) Zona Desmilitarizada ✅
-d) Zona de Máxima Zonificación
+>💪 **Desafío:**.
+>
+>Con los cuadros dados anteriormente elabora una lista de los equipos de configuración de red que tengas en casa o en tu oficina. Esto podría ayudarte a hacer una análisis si el rendimiento de tu red esta optimo o hay algún problema que esté afectando

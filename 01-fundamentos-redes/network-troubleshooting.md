@@ -80,6 +80,6 @@ All these events can be stored in an event log file, and are available for viewi
 - Monitor data loss: In some cases such as a former employee leaving with a competitor, if we have not removed their user from the system they could access their account and obtain company information, so with event monitoring we could discover those activities.
 - Optimize performance: Sometimes it is difficult to determine the cause of poor network performance, and event monitoring can determine if the cause is related to a network problem or some other reason.
 
-### 💡Lab: Event monitoring.
-
-Perform a test on your event monitoring computer and review all the events that have occurred in your session. Then describe the events that seem most important to you at the corporate level.
+>💪 **Challenge:**
+>
+>Perform a test on your event monitoring computer and review all the events that have occurred in your session. Then describe the events that seem most important to you at the corporate level.

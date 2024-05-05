@@ -7,7 +7,8 @@
 - 📗[enterprise-network-architecture](./enterprise-network-architecture.es.md)
 - 📗[basic-network-security](./basic-network-security.es.md)
 - 📝[Quiz: Arquitectura y seguridad de redes](./quizzes/architecture-network-security.es.json)
-- 🧪 Identificar tu propia red
+- 🧪[Comprendiendo la red desde dentro](https://github.com/4GeeksAcademy/understanding-networks-internals)
+
 
 ## Dia 2
 

@@ -170,4 +170,3 @@ Una conexión VPN oculta su dirección IP para que permanezca en el anonimato en
 3. Seguridad
 
 Las VPN utilizan la criptografía para proteger su conexión a Internet de accesos no autorizados.
-

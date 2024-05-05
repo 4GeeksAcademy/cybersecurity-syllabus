@@ -6,8 +6,6 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-Felicitaciones por haber llegado hasta aquí, mientras más vamos avanzando en los módulos más cosas aprenderemos y pondremos en práctica lo aprendido, en este modulo pondremos en práctica todo lo aprendido en Linux para asi saber como manejar y administrar servidores de Linux.
-
 Generalmente en los servidores almacenan y procesan datos críticos para las organizaciones. Por lo tanto, comprender cómo administrarlos de manera segura es crucial para proteger la información y garantizar la integridad de los sistemas. Así que en el siguiente módulo aprenderemos todo lo necesario para saber cómo administrar servidores, desde instalarlos y configurarlos hasta gestionar los permisos y usuarios y monitorear las actividades y rendimiento del servidor.
 
 ## **Qué es un servidor y su importancia en los entornos de red**

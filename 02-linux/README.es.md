@@ -1,7 +1,7 @@
 ## Dia 1
 
 - 📗[intro a linux](./intro-linux.es.md)
-- 🧪[Presentación acerca de distribuciones GNU/Linux](./labs/presentacion-distros.es.md)
+- 🧪[Presentación acerca de distribuciones GNU/Linux](./labs/presentacion-distros.es.md) - [Repo](https://github.com/4GeeksAcademy/getting-to-know-linux-distros)
 - 📗[Archivos y directorios](./files-directories.es.md.es.md)
 - 📗[Fundamento de la línea de comandos](./command-line-fundamentals.es.md)
 - 🧪[Command Line Challenge](https://github.com/breatheco-de/exercise-terminal-challenge)
@@ -16,5 +16,5 @@
 
 ## Dia 3
 
-- 🧪[Despliegue de maquina virtual Kali](./setting-virtualization-enviroment.es.md)
+- 🧪[Despliegue de maquina virtual Kali](./setting-virtualization-enviroment.es.md) (por validar)
 - 🧪[Instalación de extensiones de VirtualBox](./labs/instalation-virtualbox-guest-additions.md)

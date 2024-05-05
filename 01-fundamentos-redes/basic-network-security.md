@@ -170,4 +170,3 @@ A VPN connection hides your IP address so that you remain anonymous on the Inter
 3. Security
 
 VPNs use cryptography to protect your Internet connection from unauthorized access.
-

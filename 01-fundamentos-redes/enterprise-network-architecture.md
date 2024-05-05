@@ -75,4 +75,3 @@ Designing and implementing a network architecture in an enterprise is a process 
 - It is important to train company personnel in the use of the new network and in security best practices. This helps to minimize security-related errors and risks.
 
 Implementing a network architecture in an enterprise is a complex project that involves several teams, including network engineers, system administrators and cybersecurity experts. Careful planning and proper documentation are essential to the success of the project and to ensure that the network meets the company's objectives.
-

@@ -219,6 +219,15 @@
           "correct": false
         }
       ]
+    },
+    {
+      "q": "What does the acronym 'DMZ' represent in the context of network security??",
+      "a": [
+        { "option": "Direct Access Zone", "correct": false },
+        { "option": "Data Maintenance Zone", "correct": false },
+        { "option": "Demilitarized Zone ", "correct": true },
+        { "option": "Maximum Zoning", "correct": false }
+      ]
     }
   ]
 }

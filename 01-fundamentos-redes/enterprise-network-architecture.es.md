@@ -75,4 +75,3 @@ Diseñar e implementar una arquitectura de red en una empresa es un proceso que 
 - Es importante capacitar al personal de la empresa en el uso de la nueva red y en las mejores prácticas de seguridad. Esto ayuda a minimizar errores y riesgos relacionados con la seguridad.
 
 La implementación de una arquitectura de red en una empresa es un proyecto complejo que involucra varios equipos, incluyendo ingenieros de red, administradores de sistemas y expertos en ciberseguridad. La planificación cuidadosa y la documentación adecuada son esenciales para el éxito del proyecto y para garantizar que la red cumpla con los objetivos de la empresa.
-
