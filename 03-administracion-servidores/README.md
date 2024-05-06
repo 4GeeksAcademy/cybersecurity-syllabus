@@ -16,11 +16,3 @@
 
 - 📗 [Monitoreo y optimización del rendimiento del servidor](./monitoring-optimization.es.md)
 - 🧪[Simulacion de tráfico en el sitio Wordpress](./labs/traffic-simulation.es.md)
-
-
-01/05/2024  10:28 p. m.             9.578 monitoring-optimization.es.md
-06/05/2024  12:59 a. m.            17.149 
-06/05/2024  12:50 a. m.    <DIR>          quizzes
-06/05/2024  12:48 a. m.               711 README.md
-01/05/2024  10:28 p. m.            15.305 server-security.md
-01/05/2024  10:28 p. m.             9.425 task-automation.md
