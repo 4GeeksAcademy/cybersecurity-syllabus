@@ -10,8 +10,6 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image99.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image99.png)
 
-
-
 ## **Planificación de respaldos y políticas de retención.**
 
 Como analistas de ciberseguridad y administradores de seguridad la planificación de respaldos y las políticas de retención son aspectos críticos en nuestro trabajo, ya que garantizan la protección y disponibilidad de los datos almacenados en ellos. Estas prácticas son fundamentales para asegurar la integridad de la información y la capacidad de recuperación ante posibles incidentes o pérdidas de datos.

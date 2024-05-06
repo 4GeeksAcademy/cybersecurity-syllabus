@@ -1,4 +1,10 @@
-# **Lectura 5📕: Configuración de servicios de red:**
+---
+title: "Servicios de red"
+subtitle: "Conoce como configurar los servicios básicos de red para mejorar la seguridad de tu servidor."
+tags: ["linux"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 ## **Configuración de la interfaz de red**
 
