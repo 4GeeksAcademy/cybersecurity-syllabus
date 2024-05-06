@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Linux"
 subtitle: "Discover the basics of Linux: security, user management, strong passwords and firewalls. Learn how to protect your system and more."
-tags: ["linux"]
+tags: ["linux","cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
@@ -49,9 +49,3 @@ Además de las ventajas anteriormente enumeradas, GNU/Linux es ideal para su uti
 
 - Al ser software libre, no existe el costo de las licencias, y una copia del sistema GNU/Linux puede instalarse en tantas computadoras como se necesite.
 - Existen utilidades para el trabajo en oficina, que son compatibles con las herramientas de la serie MS-Office.
-
-### 📝 **Tarea** **: Introducción a Linux**
-
-En GNU/Linux existen distintas versiones que sistemas operativos enfocados a un cierto grupo de usuarios, estos sistemas operativos los conocemos com distro y suele incluir bibliotecas y herramientas que pueda encajar mejor al area que te enfoques.
-
-> 💡 Investiga y lee un poco sobre las distintas distro de GNU/Linux y escoge el que más vaya enfocado al área de ciberseguridad

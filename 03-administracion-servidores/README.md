@@ -2,7 +2,7 @@
 
 - 📗 [Introducción a la administración de servidores Linux](./intro-servidores.md)
 - 📗 [Configuración de servicios web](./web-services.es.md)
-- 🧪[Instalación de un sitio Wordpress](./labs/deploying-wordpress-site.es.md)
+- 🧪[Instalación de un sitio Wordpress](./labs/deploying-wordpress-site.es.md) - [Repo](https://github.com/4GeeksAcademy/deploying-wordpress-debian)
 
 ## Dia 2
 
