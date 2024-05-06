@@ -40,7 +40,7 @@ La configuración de un cortafuegos y la protección de servicios son aspectos f
 - **Limitar el acceso**: Restringe el acceso a los servicios solo a las direcciones IP o rangos de IP necesarios. Esto ayuda a reducir la superficie de ataque y limitar la exposición a posibles amenazas.
 - **Herramientas de seguridad adicionales**: Además de un cortafuegos, existen otras herramientas de seguridad que se pueden utilizar para proteger los servicios en Linux. Por ejemplo, se pueden implementar sistemas de detección y prevención de intrusiones (IDS/IPS) para monitorear y bloquear actividades sospechosas. También se pueden utilizar herramientas de escaneo de vulnerabilidades para identificar posibles debilidades en los servicios.
 
-## 💡Laboratorio
+## iptables
 
 **Instalacion de iptables**
 
