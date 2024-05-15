@@ -11,22 +11,22 @@ The coursework's last 2-3 weeks are reserved for a final project.
 
 - You don't need any previous knowledge, but completing the prework material is required.  
 - Computer 4 cores, eight threads. 8gm RAM. 50 GB hard drive. Your CPU must support virtualization.   
-- PC Computers with windows, linux, or Intel-Based MacOS.  
+- PC Computers with windows, Linux, or Intel-Based MacOS.  
 > Warning: Computers with CPU M1, M2, or M3 are incompatible.  
 
 ## Syllabus
 
 - Week 0: Prework
-- Week 1: Fundamentos de redes
+- Week 1: Networking Fundamentals
 - Week 2: Linux
-- Week 3: Administración de servidores
-- Week 4: Seguridad en redes
-- Week 5: Entornos Cloud
-- Week 6: Introducción al pentesting
-- Week 7: Pentesting Blue team
-- Week 8: Pentesting red team
-- Week 9: Ciberinteligencia y OSINT
-- Week 10: DLP y gestion de riesgo
+- Week 3: Server Administration
+- Week 4: Network Security
+- Week 5: Cloud Environments
+- Week 6: Introduction to Pentesting
+- Week 7: Pentesting Blue Team
+- Week 8: Pentesting Red Team
+- Week 9: Cyber-Intelligence and OSINT
+- Week 10: DLP and Risk Management
 - Week 11: ISO 27001
 - Week 12: NIST
 - Week 13: ENS
@@ -50,5 +50,5 @@ The coursework's last 2-3 weeks are reserved for a final project.
 
 ## Aditional notes
 
-- The pentesting practices are based on the laboratories of the eJPT certification.
-- No bootcamp in the world leaves you ready to certify in anything (eJPT, CEH, etc.), but if you wish to get certified after the bootcamp, you will have a large part of the study already done.
+- The pen-testing practices are based on the JLPT certification laboratories.
+- No bootcamp in the world leaves you ready to certify in anything (eJPT, CEH, etc.), but if you wish to get certified after the bootcamp, you will already have a large part of the study.
