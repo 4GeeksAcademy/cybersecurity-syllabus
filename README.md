@@ -4,15 +4,15 @@ Cybersecurity professionals are in high demand, and the shortage of skilled work
 
 ## Duration
 
-2 Week Prework (mandatory) + 16 weeks coursework.
-The coursework's last 2-3 weeks are reserved for a final project.
+2 Week Prework (mandatory) + 16 weeks coursework.  
+The coursework's last 2-3 weeks are reserved for a final project.  
 
 ## Requirements
 
-- You don't need any previous knowledge, but completing the prework material is required.
-- Computer 4 cores, eight threads. 8gm RAM. 50 GB hard drive. Your CPU must support virtualization.
-- PC Computers with windows, linux, or Intel-Based MacOS.
-> Warning: Computers with CPU M1, M2, or M3 are incompatible.
+- You don't need any previous knowledge, but completing the prework material is required.  
+- Computer 4 cores, eight threads. 8gm RAM. 50 GB hard drive. Your CPU must support virtualization.   
+- PC Computers with windows, linux, or Intel-Based MacOS.  
+> Warning: Computers with CPU M1, M2, or M3 are incompatible.  
 
 ## Syllabus
 
