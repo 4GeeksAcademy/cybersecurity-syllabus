@@ -9,12 +9,12 @@
 
 ## Dia 2
 
-- 📗 [link](./identificacion-y-evaluacion-de-riesgos.md)
-- 📗 [link](./proteccion-y-mitigacion-de-riesgos.md)
-- 📗 [link](./deteccion-y-respuesta-ante-incidentes-de-seguridad.md)
+- 📗 [identificacion-y-evaluacion-de-riesgos](./identificacion-y-evaluacion-de-riesgos.md)
+- 📗 [proteccion-y-mitigacion-de-riesgos](./proteccion-y-mitigacion-de-riesgos.md)
+- 📗 [deteccion-y-respuesta-ante-incidentes-de-seguridad](./deteccion-y-respuesta-ante-incidentes-de-seguridad.md)
 
 ## Dia 3
 
-- 📗 [link](./recuperacion-y-continuidad-del-negocio.md)
-- 📗 [link](./basic-security-incident-management.es.md)
-- 📗 [link](./basic-security-incident-management.md)
+- 📗 [recuperacion-y-continuidad-del-negocio](./recuperacion-y-continuidad-del-negocio.md)
+- 📗 [basic-security-incident-management](./basic-security-incident-management.es.md)
+- 📗 [basic-security-incident-management](./basic-security-incident-management.md)
