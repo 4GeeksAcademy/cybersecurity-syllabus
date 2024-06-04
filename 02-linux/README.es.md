@@ -4,6 +4,7 @@
 - 🧪[Presentación acerca de distribuciones GNU/Linux](./labs/presentacion-distros.es.md) - [Repo](https://github.com/4GeeksAcademy/getting-to-know-linux-distros)
 - 📗[Archivos y directorios](./files-directories.es.md)
 - 📗[Fundamento de la línea de comandos](./command-line-fundamentals.es.md)
+- 💪[CMD Challenge](https://cmdchallenge.com/) (Optional)
 - 🧪[Command Line Challenge](https://github.com/breatheco-de/exercise-terminal-challenge)
 
 ## Dia 5
@@ -16,5 +17,4 @@
 
 ## Dia 6
 
-- 🧪[Despliegue de maquina virtual Kali](./setting-virtualization-enviroment.es.md) - [Repo](https://github.com/4GeeksAcademy/installing-kali-linux-on-virtual-machine)(por validar)
-- 🧪[Instalación de extensiones de VirtualBox](./labs/instalation-virtualbox-guest-additions.md)
+- 🧪[Despliegue de maquina virtual Kali](./setting-virtualization-enviroment.es.md) - [Repo](https://github.com/4GeeksAcademy/installing-kali-linux-on-virtual-machine)
