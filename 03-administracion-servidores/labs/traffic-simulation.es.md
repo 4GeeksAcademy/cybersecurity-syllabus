@@ -12,3 +12,6 @@ El estudiante debe generar tráfico artificial desde la maquina Kali hacia el si
 
 - Repo con instrucciones
 - Determinar métricas y demás elementos relevantes que deben integrar el informe
+
+
+wpscan --url 192.168.0.109/wordpress Para revelar información del servidor y de la instalacion de wordpress

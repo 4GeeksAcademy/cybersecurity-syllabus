@@ -1,6 +1,6 @@
 ---
 title: "Programación de tareas automatizadas"
-subtitle: "Automatización eficiente: Configura cron en Linux para optimizar tareas repetitivas y asegurar la estabilidad del servidor.". Aprende paso a paso."
+subtitle: "Automatización eficiente: Configura cron en Linux para optimizar tareas repetitivas y asegurar la estabilidad del servidor. Aprende paso a paso."
 tags: ["servidores"]
 authors: ["blindma1den", "lorenagubaira"]
 
