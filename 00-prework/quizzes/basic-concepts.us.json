@@ -81,7 +81,7 @@
           "correct": true
         },
         {
-          "option": "They are tools that allow humans to create instructions for computers to execute. They are important in cybersecurity because they are used to create security software and to analyze malware.",
+          "option": "These are sets of rules that govern communication between devices on a network. They are important in cybersecurity because they make it possible to secure communication between different devices.",
           "correct": false
         },
         {
