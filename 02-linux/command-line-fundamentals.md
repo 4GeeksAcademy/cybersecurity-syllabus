@@ -1,7 +1,7 @@
 ---
 title: "Command Line Basics"
 subtitle: "Discover the basics of the command line: how to navigate, manipulate files and manage permissions in Linux. Learn from scratch in this complete tutorial!"
-tags: ["linux"]
+tags: ["linux", "command-line"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
