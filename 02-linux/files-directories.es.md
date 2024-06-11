@@ -1,7 +1,7 @@
 ---
 title: "Gestión de archivos y directorios"
 subtitle: "Navegación y manipulación de archivos en Linux: Comandos esenciales y buenas prácticas para administradores de sistemas."
-tags: ["linux"]
+tags: ["linux", "la-terminal"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
