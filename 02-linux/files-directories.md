@@ -1,7 +1,7 @@
 ---
 title: "File and directory management"
 subtitle: "Navigating and manipulating files in Linux: Essential commands and good practices for system administrators."
-tags: ["linux"]
+tags: ["linux", "command-line"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
