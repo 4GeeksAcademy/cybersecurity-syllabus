@@ -6,13 +6,13 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-In IT, it's common to use a terminal or command interpreter to communicate with our computer or laptop. These commands help us have direct communication with our computer, as we are giving an order that can be interpreted and processed by computer language, thus having a significant level of interaction with the PC. In other words, commands as a form of interaction can rescue us when the system is overloaded.
+In IT, using a terminal or command interpreter to communicate with our computer or laptop is common. These commands help us communicate directly with our computer, as we are giving an order that can be interpreted and processed by a computer language, thus having a significant level of interaction with the PC. In other words, commands as a form of interaction can rescue us when the system is overloaded.
 
-A terminal can be defined as a computing device that allows a user to interact with a computer system, usually to perform tasks such as running programs, logging in and out of the system, or conducting web searches.
+A terminal is a computing device that allows a user to interact with a computer system, usually to perform tasks such as running programs, logging in and out of the system, or conducting web searches.
 
-The computing terminal has been a key tool for programmers and IT experts for years. This powerful tool allows us to interact with our computing systems, enabling users to perform various functions such as executing commands, updating system software, or even creating and modifying files.
+For years, the computing terminal has been a key tool for programmers and IT experts. This powerful tool allows us to interact with our computing systems, enabling users to perform various functions such as executing commands, updating system software, or creating and modifying files.
 
-A command interpreter or Shell is a computer program capable of translating orders entered by users through a set of instructions provided by it, directly to the core and the set of tools that make up the operating system. Orders are entered following the syntax incorporated by the interpreter, within the environment provided by the terminal, using a prompt that waits for commands or instructions to be entered:
+A command interpreter or Shell is a computer program capable of translating orders entered by users through a set of instructions provided by it directly to the core and the set of tools that make up the operating system. Orders are entered following the syntax incorporated by the interpreter within the environment provided by the terminal, using a prompt that waits for commands or instructions to be entered:
 
 `PROMPT>commandname argument/s /path/to/the/file/or/files`
 
@@ -72,11 +72,9 @@ mv filename.txt /home/username/Documents |
 | sudo |  | Execute a command as superuser
 A password will be requested to confirm |
 
-## File
+## File and Directory Permissions Management
 
- and Directory Permissions Management
-
-In a Linux distribution, files and directories can be executed depending on the user permissions they have. We can see the permissions that a directory might have with the command **ls -l**
+In a Linux distribution, files and directories can be executed depending on their user permissions. We can see the permissions that a directory might have with the command **ls -l**
 
 | drwxr-xr-x 1 user user 1046 Sep 14 16:24 Downloads |
 | --- |
