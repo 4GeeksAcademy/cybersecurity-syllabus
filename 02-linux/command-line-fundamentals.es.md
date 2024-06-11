@@ -1,7 +1,7 @@
 ---
 title: "Fundamentos de la línea de comandos"
 subtitle: "Descubre los fundamentos de la línea de comandos: cómo navegar, manipular archivos y gestionar permisos en Linux. ¡Aprende desde cero en este completo tutorial!"
-tags: ["linux", "terminal"]
+tags: ["linux", "linea-de-comandos"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
