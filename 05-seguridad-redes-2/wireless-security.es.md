@@ -117,25 +117,14 @@ WPA3 también soluciona el fallo de seguridad de WPA2 que permite los ataques KR
 
 Resumamos las diferencias entre WPA y WPA2.
 
-|  | WPA | WPA2 |
+| Criterio | WPA | WPA2 |
 | --- | --- | --- |
 | Fecha de introducción | 2003 | 2004 |
-| El mejor método
-de codificación disponible | TKIP, un sistema imperfecto
-que se puede crackear | AES, el cifrado
-más seguro ampliamente
-disponible |
-| Longitud de la contraseña | La longitud mínima es muy corta,
-lo cual compromete la seguridad | La longitud mínima es larga,
-lo cual refuerza la seguridad |
-| Opciones para el hogar
-y para el negocio | Solo para el hogar | Opción para empresas |
-| Potencia de procesamiento
-requerida | Mínima | Más que WPA,
-pero insignificante según
-los estándares actuales |
-| Fecha de descubrimiento
-del fallo de seguridad | 2008 | 2018 |
+| El mejor método de codificación disponible | TKIP, un sistema imperfecto que se puede crackear | AES, el cifrado más seguro ampliamente disponible |
+| Longitud de la contraseña | La longitud mínima es muy corta, lo cual compromete la seguridad | La longitud mínima es larga, lo cual refuerza la seguridad | 
+| Opciones para el hogar y para el negocio | Solo para el hogar | Opción para empresas |
+| Potencia de procesamiento requerida | Mínima | Más que WPA, pero insignificante según los estándares actuales | 
+| Fecha de descubrimiento del fallo de seguridad | 2008 | 2018 |
 
 En la actualidad, WPA2 sigue siendo el protocolo estándar para la seguridad de Wi-Fi, especialmente debido a su sólido método de cifrado AES.
 
@@ -180,7 +169,7 @@ Aquí le explicamos cómo encontrar el protocolo de seguridad de Wi-Fi que está
 4. Haz clic en el nombre de la **red** inalámbrica a la que está conectado.
 5. Junto a **Tipo de seguridad** verás el protocolo de red inalámbrica que esté usando.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image30.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image30.png)
+![security protocol](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws1-security-protocol.png?raw=true)
 
 Si estás usando WPA2 frente a WPA3, pero quiere cambiar a WPA3, primero tienes que asegurarte de que el campo de **Protocolo** en la configuración de su red Wi-Fi diga *Wi-Fi 6*.
 
@@ -238,7 +227,7 @@ Normalmente no se tratará de espías o *hackers* malvados como los que aparecen
 
 ## **Blinda el acceso a tu router**
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image31.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image31.png)
+![blinda acceso a tu router](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws2-blinda-accesso-router.png?raw=true)
 
 En primer lugar, tenemos que asegurarnos de que nadie ajeno a nosotros va a poder acceder al router para controlar nuestra WiFi. De lo contrario, todo lo que hagamos no servirá de nada, ya que podrán entrar y revertirlo o incluso denegarnos el acceso a nuestra propia red.
 
@@ -248,7 +237,7 @@ No dejes que la puerta a tu centro de conexiones del hogar se abra con el clási
 
 ### **Cambia el nombre de la SSID**
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image32.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image32.png)
+![nombre de ssid](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws3-nombre-de-ssid.png?raw=true)
 
 La [SSID (Service Set Identifier)](https://en.wikipedia.org/wiki/Service_set_%28802.11_network%29) o identificador de la red inalámbrica sirve precisamente para eso, para identificarla entre otras muchas. Lo habitual es que por defecto venga dado por la operadora que nos proporciona el router, mostrando a veces más información de la que debería sobre el tipo de router que tenemos y sus posibles vulnerabilidades.
 
@@ -258,7 +247,7 @@ Pero nunca le pongamos nuestro nombre, nick o dirección física (WiFi del 4º B
 
 ### **Elige el mejor sistema de cifrado y cambia la clave por defecto**
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image33.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image33.png)
+![sistema de cifrado](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws4-sistema-de-cifrado.png?raw=true)
 
 Un aspecto básico de la seguridad en las redes inalámbricas es el cifrado de los datos que se van a transmitir por ellas. Existen principalmente tres sistemas o protocolos diferentes que podemos encontrar en la mayoría de routers modernos: WEP, WPA y WPA2.
 
@@ -290,7 +279,7 @@ Es muy sencillo de hacer. Solo hay que buscar en el router la opción dentro de 
 
 ### **Limita la potencia de emisión de las antenas**
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image34.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image34.png)
+![Limita la potencia de emisión de antenas](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws5-emision-de-antenas.png?raw=true)
 
 ## **Simulación de la potencia radiada por una señal WiFi**
 
