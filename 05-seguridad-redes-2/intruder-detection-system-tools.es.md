@@ -2,7 +2,7 @@
 title: "Herramientas IDS/IPS"
 subtitle: "Explorando Herramientas IDS/IPS: Quickdraw, Bro y OSSEC - Protección Avanzada para Redes y Sistemas de Control"
 tags: ["networks"]
-authors: ["blindma1den", "lorenagubaira"]
+authors: ["blindma1den", "lorenagubaira", "alesanchezr"]
 
 ---
 
@@ -18,7 +18,7 @@ Las firmas Quickdraw (reglas en el argot de Snort), identifican solicitudes no a
 
 Bro es otra herramienta que sirve de IDS/IPS, debido a sus características de análisis de red, al igual que Snort y Suricata. Se basa en un potente motor de análisis que permite un alto rendimiento en la monitorización de la red, analiza protocolos, y la información de la capa de aplicación en tiempo real
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image27.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image27.png)
+![intruder prevention system bro](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips1-bro.png?raw=true)
 
 ***Arquitectura de Bro***
 
@@ -46,7 +46,7 @@ n Servidor: El servidor es la pieza central del despliegue OSSEC. Almacena la in
 
 n **Agentes/sensores:** El agente es un pequeño programa o conjunto de programas, instalado en el sistema que va a ser monitorizado. El agente recopilará información y la transmitirá al gestor para su análisis y para llevar a cabo una correlación de información. Parte de la información se recoge en tiempo real, otra será recogida periódicamente. Tiene un pequeño uso de memoria y CPU por defecto, que no afecta el uso del sistema.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image28.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image28.png)
+![intruder prevention system ossec](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips2-ossec.png?raw=true)
 
 - **OSSEC en redes industriales**
 
@@ -59,6 +59,21 @@ La inclusión de integridad del servidor, detección de rootkits y detección ac
 ## **Comparación entre varios IDS/IPS**
 
 La Tabla 1 refleja una comparación de las características de algunos de los sistemas IDS/IPS que se han tratado en este estudio.
+
+| Características                | Bro  | Snort | Suricata |
+|--------------------------------|------|-------|----------|
+| Multi Hilo                     | No   | v3.0  | Sí       |
+| Soporte para IPv6              | Sí   | Sí    | Sí       |
+| Reputación IP                  | Parte| No    | Sí       |
+| Detección Automática de Protocolos | Sí   | v3.0  | Sí       |
+| Aceleración con GPU            | No   | No    | Sí       |
+| Variables globales/Flowbits    | Sí   | No    | Sí       |
+| GeoIP                          | Sí   | No    | Sí       |
+| Análisis Avanzado de HTTP      | Sí   | No    | Sí       |
+| HTTP Access Logging            | Sí   | No    | Sí       |
+| SMB Access Logging             | Sí   | No    | Sí       |
+| Gratis                         | Sí   | Sí    | Sí       |
+
 
 Módulo 3: Seguridad en redes inalámbricas
 
