@@ -1,12 +1,35 @@
 ---
-title: "Estándares de seguridad inalámbrica"
+title: "Protección de las redes inalámbricas"
 subtitle: "Protegiendo Datos: Seguridad Inalámbrica en Redes Wi-Fi. Evita Amenazas y Vulnerabilidades, Mantén tu Conexión Segura."
 tags: ["networks"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-### **¿Por qué es importante la seguridad inalámbrica?**
+Las redes inalámbricas domésticas te permiten utilizar el ordenador virtualmente desde cualquier lugar de la casa, además de conectarte con otros ordenadores de la red o acceder a Internet. No obstante, si la red inalámbrica no es segura, existen riesgos muy importantes. Por ejemplo, un hacker podría:
+
+- Interceptar los datos que envíes o recibas
+- Acceder a tus archivos compartidos
+
+Secuestrar tu conexión a Internet y utilizar todo el ancho de banda o límite de descargas
+
+### **Consejos de seguridad en Internet para proteger la red inalámbrica**
+
+A continuación se incluyen varios pasos sencillos que puedes seguir para proteger tu red y routers inalámbricos:
+
+- **Evita la utilización de la contraseña predeterminada:** Es muy fácil para un hacker descubrir cuál es la contraseña predeterminada del fabricante de tu router inalámbrico y utilizarla para acceder a la red inalámbrica. Por lo tanto, es conveniente que cambies la contraseña de administrador de tu router inalámbrico. A la hora de establecer la contraseña nueva, trata de elegir una serie compleja de números y letras, e intenta evitar la utilización de una contraseña que pueda adivinarse fácilmente.
+
+<aside>
+⚠️ **No permitas que el dispositivo inalámbrico indique su presencia - d**esactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea.
+
+</aside>
+
+- **Cambia el nombre SSID del dispositivo:** Al igual que antes, es muy fácil para un hacker descubrir cuál es el nombre SSID predeterminado del fabricante del dispositivo y utilizarlo para localizar la red inalámbrica. Cambia el nombre SSID predeterminado del dispositivo e intenta evitar la utilización de un nombre que pueda adivinarse fácilmente.
+- **Cifra los datos:** En la configuración de la conexión, asegúrate de que activas el cifrado. Si el dispositivo es compatible con el cifrado WPA, utilízalo; en caso contrario, utiliza el cifrado WEP.
+- **Protección contra los ataques de malware e Internet:** Asegúrate de que instalas un programa antimalware eficaz en todos los ordenadores y demás dispositivos. Con el fin de mantener actualizada la protección antimalware, selecciona la opción de actualización automática en el producto.
+
+
+## **¿Por qué es importante la seguridad inalámbrica?**
 
 La seguridad inalámbrica es importante porque las vulnerabilidades de la red pueden exponer datos no seguros que posteriormente pueden robarle para usarlos en su contra. Aunque su equipo tenga una fuerte protección, otros dispositivos conectados a su red inalámbrica podrían verse comprometidos si la propia red no es segura.
 
@@ -16,7 +39,7 @@ Las redes Wi-Fi públicas (como las de los restaurantes y cafeterías) también 
 
 A menos que cuente con la mejor seguridad inalámbrica, cualquier dispositivo en línea puede ser hackeado. Afortunadamente, los estándares de cifrado han mejorado a lo largo de los años para minimizar las vulnerabilidades y neutralizar las amenazas. El mejor protocolo de seguridad de Wi-Fi evitará que ataquen su router y le ayudará a navegar de forma segura en la Wi-Fi pública. Echemos un vistazo a los diferentes tipos de seguridad de Wi-Fi implementados a lo largo de los años.
 
-### **Tipos de protocolos de seguridad de Wi-Fi**
+## **Tipos de protocolos de seguridad de Wi-Fi**
 
 Los tipos de protocolo de seguridad inalámbrica más comunes hoy en día son WEP, WPA y WPA2. Cada protocolo usa un tipo de cifrado diferente para reforzar la seguridad de la red. Los protocolos más recientes, incluido el más reciente WPA3, han demostrado ser muy robustos, y los hackers lo tienen más difícil para aplicar soluciones alternativas.
 
