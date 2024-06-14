@@ -73,30 +73,3 @@ La Tabla 1 refleja una comparación de las características de algunos de los si
 | HTTP Access Logging            | Sí   | No    | Sí       |
 | SMB Access Logging             | Sí   | No    | Sí       |
 | Gratis                         | Sí   | Sí    | Sí       |
-
-
-Módulo 3: Seguridad en redes inalámbricas
-
-## **Protección de las redes inalámbricas**
-
-Las redes inalámbricas domésticas te permiten utilizar el ordenador virtualmente desde cualquier lugar de la casa, además de conectarte con otros ordenadores de la red o acceder a Internet. No obstante, si la red inalámbrica no es segura, existen riesgos muy importantes. Por ejemplo, un hacker podría:
-
-- Interceptar los datos que envíes o recibas
-- Acceder a tus archivos compartidos
-
-Secuestrar tu conexión a Internet y utilizar todo el ancho de banda o límite de descargas
-
-### **Consejos de seguridad en Internet para proteger la red inalámbrica**
-
-A continuación se incluyen varios pasos sencillos que puedes seguir para proteger tu red y routers inalámbricos:
-
-- **Evita la utilización de la contraseña predeterminada:** Es muy fácil para un hacker descubrir cuál es la contraseña predeterminada del fabricante de tu router inalámbrico y utilizarla para acceder a la red inalámbrica. Por lo tanto, es conveniente que cambies la contraseña de administrador de tu router inalámbrico. A la hora de establecer la contraseña nueva, trata de elegir una serie compleja de números y letras, e intenta evitar la utilización de una contraseña que pueda adivinarse fácilmente.
-
-<aside>
-⚠️ **No permitas que el dispositivo inalámbrico indique su presencia - d**esactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea.
-
-</aside>
-
-- **Cambia el nombre SSID del dispositivo:** Al igual que antes, es muy fácil para un hacker descubrir cuál es el nombre SSID predeterminado del fabricante del dispositivo y utilizarlo para localizar la red inalámbrica. Cambia el nombre SSID predeterminado del dispositivo e intenta evitar la utilización de un nombre que pueda adivinarse fácilmente.
-- **Cifra los datos:** En la configuración de la conexión, asegúrate de que activas el cifrado. Si el dispositivo es compatible con el cifrado WPA, utilízalo; en caso contrario, utiliza el cifrado WEP.
-- **Protección contra los ataques de malware e Internet:** Asegúrate de que instalas un programa antimalware eficaz en todos los ordenadores y demás dispositivos. Con el fin de mantener actualizada la protección antimalware, selecciona la opción de actualización automática en el producto.
