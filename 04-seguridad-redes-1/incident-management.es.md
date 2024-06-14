@@ -24,21 +24,13 @@ En este numeral se pretende enunciar los elementos necesarios para la comunicaci
 
 Para una correcta y eficiente gestión de incidentes la entidad debería tener en cuenta los siguientes elementos:
 
-· Portátiles Forenses:
-
-· Analizadores de protocolos.
-
-· Software de adquisición.
-
-· Software para recolección de evidencia.
-
-· Kit de respuesta a incidentes.
-
-· Software de análisis forense.
-
-· Medios de almacenamiento
-
-
+- Portátiles Forenses.
+- Analizadores de protocolos.
+- Software de adquisición.
+- Software para recolección de evidencia.
+- Kit de respuesta a incidentes.
+- Software de análisis forense.
+- Medios de almacenamiento
 
 ## **Recursos para el análisis de incidentes**
 
@@ -57,29 +49,18 @@ En este punto se consideran los elementos básicos para la contención de un pos
 
 Los indicadores son los eventos que nos señalan que posiblemente un incidente ha ocurrido generalmente algunos de estos elementos son:
 
-> · Alertas en sistemas de seguridad
-> 
-> 
-> · Caídas de servidores
-> 
-> · Reportes de usuarios
-> 
-> · Software antivirus dando informes
-> 
-> · Otros funcionamientos fuera de lo normal del sistema
-> 
+- Alertas en sistemas de seguridad
+- Caídas de servidores
+- Reportes de usuarios
+- Software antivirus dando informes
+- Otros funcionamientos fuera de lo normal del sistema
 
 La identificación y gestión de elementos que alertan sobre un incidente nos proveen información que puede alertarnos sobre la futura ocurrencia del mismo y preparar procedimientos para minimizar su impacto. Algunos de estos elementos pueden ser:
 
-> · Logs de servidores
-> 
-> 
-> · Logs de aplicaciones
-> 
-> · Logs de herramientas de seguridad
-> 
-> · Cualquier otra herramienta que permita la identificación de un incidente de seguridad
-> 
+- Logs de servidores
+- Logs de aplicaciones
+- Logs de herramientas de seguridad
+- Cualquier otra herramienta que permita la identificación de un incidente de seguridad
 
 En la entidad debe existir un listado de fuentes generadoras de eventos que permitan la identificación de un incidente de seguridad de la información.
 
@@ -87,33 +68,21 @@ En la entidad debe existir un listado de fuentes generadoras de eventos que perm
 
 Las actividades de análisis del incidente involucran otra serie de componentes, es recomendable tener en cuenta los siguientes:
 
-> · Tener conocimientos de las características normales a nivel de red y de los sistemas.
-> 
-> 
-> · Los administradores de TI deben tener conocimiento total sobre los comportamientos de la Infraestructura que están Administrando.
-> 
-> · Toda información que permita realizar análisis al incidente debe estar centralizada (Logs de servidores, redes, aplicaciones).
-> 
-> · Es importante efectuar correlación de eventos, ya que por medio de este proceso se pueden descubrir patrones de comportamiento anormal y poder identificar de manera más fácil la causa del incidente.
-> 
-> · Para un correcto análisis de un incidente debe existir una única fuente de tiempo (Sincronización de Relojes) ya que esto facilita la correlación de eventos y el análisis de información.
-> 
-> · Se debe mantener y usar una base de conocimiento con información relacionada sobre nuevas vulnerabilidades, información de los servicios habilitados, y experiencias con incidentes anteriores.
-> 
-> · Crear matrices de diagnóstico e información para los administradores menos experimentados.
-> 
+- Tener conocimientos de las características normales a nivel de red y de los sistemas.
+- Los administradores de TI deben tener conocimiento total sobre los comportamientos de la Infraestructura que están Administrando.
+- Toda información que permita realizar análisis al incidente debe estar centralizada (Logs de servidores, redes, aplicaciones).
+- Es importante efectuar correlación de eventos, ya que por medio de este proceso se pueden descubrir patrones de comportamiento anormal y poder identificar de manera más fácil la causa del incidente.
+- Para un correcto análisis de un incidente debe existir una única fuente de tiempo (Sincronización de Relojes) ya que esto facilita la correlación de eventos y el análisis de información.
+- Se debe mantener y usar una base de conocimiento con información relacionada sobre nuevas vulnerabilidades, información de los servicios habilitados, y experiencias con incidentes anteriores.
+- Crear matrices de diagnóstico e información para los administradores menos experimentados.
 
 ### **Evaluación**
 
 Para realizar la evaluación de un incidente de seguridad se debe tener en cuenta los niveles de impacto con base en los insumos entregados por el análisis de riesgos y la clasificación de activos de información de la entidad. La severidad del incidente puede ser:
 
-> · **Alto Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto catastrófico y mayor que influyen directamente a los objetivos misionales del Instituto. Se incluyen en esta categoría aquellos incidentes que afecten la reputación y el buen nombre o involucren aspectos legales. Estos incidentes deben tener respuesta inmediata.
-> 
-> 
-> · **Medio Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto moderado que influyen directamente a los objetivos de un proceso determinado.
-> 
-> · **Bajo Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto menor e insignificante, que no influyen en ningún objetivo. Estos incidentes deben ser monitoreados con el fin de evitar un cambio en el impacto.
-> 
+- **Alto Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto catastrófico y mayor que influyen directamente a los objetivos misionales del Instituto. Se incluyen en esta categoría aquellos incidentes que afecten la reputación y el buen nombre o involucren aspectos legales. Estos incidentes deben tener respuesta inmediata.
+- **Medio Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto moderado que influyen directamente a los objetivos de un proceso determinado.
+- **Bajo Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto menor e insignificante, que no influyen en ningún objetivo. Estos incidentes deben ser monitoreados con el fin de evitar un cambio en el impacto.
 
 ## **Clasificación De Incidentes De Seguridad De La Información**
 
@@ -132,15 +101,10 @@ Con el fin de permitir una atención adecuada a los incidentes (análisis, conte
 
 A manera de ejemplo se definen una serie de variables que podrán ser utilizadas para realzar la evaluación de los incidentes
 
-> · Prioridad
-> 
-> 
-> · Criticidad de impacto
-> 
-> · Impacto Actual
-> 
-> · Impacto Futuro
-> 
+- Prioridad
+- Criticidad de impacto
+- Impacto Actual
+- Impacto Futuro
 
 **Nivel de Prioridad:** Depende del valor o importancia dentro de la entidad y del proceso que soporta el o los sistemas afectados.
 
@@ -232,21 +196,13 @@ Esta fase se descompone claramente en tres componentes.
 
 La estrategia de contención varía según el tipo de incidente y los criterios deben estar bien documentados para facilitar la rápida y eficaz toma de decisiones. Algunos criterios que pueden ser tomados como base son:
 
-> · Criterios Forenses
-> 
-> 
-> · Daño potencial y hurto de activos
-> 
-> · Necesidades para la preservación de evidencia
-> 
-> · Disponibilidad del servicio
-> 
-> · Tiempo y recursos para implementar la estrategia
-> 
-> · Efectividad de la estrategia para contener el incidente (parcial o total)
-> 
-> · Duración de la solución
-> 
+- Criterios Forenses
+- Daño potencial y hurto de activos
+- Necesidades para la preservación de evidencia
+- Disponibilidad del servicio
+- Tiempo y recursos para implementar la estrategia
+- Efectividad de la estrategia para contener el incidente (parcial o total)
+- Duración de la solución
 
 **Erradicación y Recuperación:** Después de que el incidente ha sido contenido se debe realizar una erradicación y eliminación de cualquier rastro dejado por el incidente como código malicioso y posteriormente se procede a la recuperación a través de la restauración de los sistemas y/o servicios afectados para lo cual el administrador de TI o quien haga sus veces deben restablecer la funcionalidad de los sistemas afectados, y realizar un endurecimiento del sistema que permita prevenir incidentes similares en el futuro.
 
@@ -286,19 +242,12 @@ Una de las partes más importantes de un plan de respuesta a incidentes de TI es
 
 Mantener un adecuado registro de lecciones aprendidas permite conocer:
 
-> · Exactamente lo que sucedió, en qué momento y cómo el personal gestionó el incidente.
-> 
-> 
-> · Los procedimientos documentados.
-> 
-> · Si se tomaron las medidas o acciones que podrían haber impedido la recuperación.
-> 
-> · Cuál sería la gestión de personal y que debería hacerse la próxima vez que ocurra un incidente similar.
-> 
-> · Acciones correctivas pueden prevenir incidentes similares en el futuro.
-> 
-> · Cuales herramientas o recursos adicionales son necesarios para detectar, analizar y mitigar los incidentes en el futuro.
-> 
+- Exactamente lo que sucedió, en qué momento y cómo el personal gestionó el incidente.
+- Los procedimientos documentados.
+- Si se tomaron las medidas o acciones que podrían haber impedido la recuperación.
+- Cuál sería la gestión de personal y que debería hacerse la próxima vez que ocurra un incidente similar.
+- Acciones correctivas pueden prevenir incidentes similares en el futuro.
+- Cuales herramientas o recursos adicionales son necesarios para detectar, analizar y mitigar los incidentes en el futuro.
 
 El proceso de lecciones aprendidas puede poner de manifiesto la falta de un paso o una inexactitud en un procedimiento y son un punto de partida para el cambio, y es precisamente debido a la naturaleza cambiante de la tecnología de la información y los cambios en el personal, que el equipo de respuesta a incidentes debe revisar toda la documentación y los procedimientos para el manejo de incidentes en determinados intervalos.
 
@@ -309,11 +258,8 @@ A continuación presentaremos una descripción de los actores que intervienen y 
 - **Usuario Sensibilizado:** Es un empleado, empleados de firmas contratista o terceros con acceso a la infraestructura de la entidad, quien debe estar educado y concientizado sobre las guías implementadas sobre la seguridad de la información y en particular la guía de atención de incidentes, estos usuarios serán muchas veces quienes reporten los problemas y deberán tener en cuenta lo siguiente:
 - **Agente Primer Punto de Contacto**: Es el encargado de recibir las solicitudes por parte de los usuarios sobre posibles incidentes también debe registrarlos en la base de conocimiento y debe ser el encargado de escalarlos a la persona encargada de la atención de incidentes. Este Agente debe contar adicionalmente con capacitación en Seguridad de la Información (con un componente tecnológico fuerte) y debe conocer perfectamente la clasificación de Incidentes y los procesos de escalamiento de Incidentes. Adicionalmente debe contar con una capacitación básica en técnicas forenses, específicamente en recolección y manejo de evidencia, lo cual involucra fundamentalmente dos aspectos.
 
-> · Admisibilidad de la evidencia: si la evidencia se puede utilizar o no en una corte
-> 
-> 
-> · Peso de la evidencia: la calidad y cabalidad de la evidencia.
-> 
+- Admisibilidad de la evidencia: si la evidencia se puede utilizar o no en una corte
+- Peso de la evidencia: la calidad y cabalidad de la evidencia.
 
 Este no es un actor que realiza la centralización de los incidentes reportados por los usuarios, da un tratamiento inicial y escala el incidente para que sea tratado.
 
@@ -321,17 +267,11 @@ Este no es un actor que realiza la centralización de los incidentes reportados 
 - **Administrador de los sistemas de Seguridad:** Personas encargadas de configurar y mantener un activo informático relacionado con la seguridad de la plataforma ej. Firewall, Sistemas de Prevención de Intrusos, Routers, Sistemas de Gestión y Monitoreo. También debe ser notificado por el agente de primero contacto sobre un incidente de seguridad con el fin de analizar, identificar, contener y erradicar un incidente de seguridad. Este debe documentar y notificar al agente de primer contacto sobre el incidente y la solución del mismo. Se recomienda que los administradores de esta tecnología sean expertos en Seguridad de la Información (con un componente tecnológico fuerte en Redes y erradicación de vulnerabilidades, Ethical Hacking y técnicas forenses) y debe conocer perfectamente la clasificación de Incidentes de la entidad.
 - **Analista Forense:** Es un experto en el tema forense, quien debe estar disponible en caso de que un incidente de impacto alto (o uno que amerite acciones disciplinarias o legales o investigación profunda) requiera una investigación completa para solucionarlo y determinar los siguientes Ítems
     
-    > · Que sucedió.
-    > 
-    > 
-    > · Donde sucedió.
-    > 
-    > · Cuando Sucedió.
-    > 
-    > · Quien fue el Responsable.
-    > 
-    > · Como sucedió.
-    > 
+    - Que sucedió.
+    - Donde sucedió.
+    - Cuando Sucedió.
+    - Quien fue el Responsable.
+    - Como sucedió.
 
 Este actor debe ser un apoyo para los demás actores en caso de dudas sobre los procedimientos y debe ejercer un liderazgo técnico en el proceso de atención de Incidentes de seguridad de la información.
 
