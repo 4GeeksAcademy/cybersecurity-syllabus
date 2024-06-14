@@ -8,8 +8,8 @@ authors: ["blindma1den", "lorenagubaira"]
 
 En este numeral se pretende enunciar los elementos necesarios para la comunicación del equipo de atención de incidentes dentro de la entidad.
 
-- **Información de Contacto:** Se debe tener una lista de información de contacto de cada una de las personas que conforman el grupo de gestión de incidentes o quienes realicen sus funciones.
-- **Información de Escalamiento:** Se debe contar con información de contacto para el escalamiento de incidentes según la estructura de la entidad.
+- **Información de Contacto:** Se debe tener una lista de información de contacto de cada una de las personas que conforman el grupo de gestión de incidentes o quienes realicen sus funciones.  
+- **Información de Escalamiento:** Se debe contar con información de contacto para el escalamiento de incidentes según la estructura de la entidad.  
 
 **Política de Comunicación:** La entidad debe tener una política de comunicación de los incidentes de seguridad para definir que incidente puede ser comunicado a los medios y cual no.
 
