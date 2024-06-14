@@ -9,6 +9,10 @@
 
 ## Day 2
 
+- 🧪 [Spoofing Exercise Tutorial](https://github.com/breatheco-de/spoofing-exercise-tutorial/tree/main)
+
+## Day 2
+
 - Web Security
 - 10 Web Security Solutions
 - End User Network Security
