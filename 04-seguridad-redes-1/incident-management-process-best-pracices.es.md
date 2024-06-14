@@ -27,7 +27,7 @@ Es por ello que debemos implementar una herramienta para la gestión de los inci
 
 La gestión de incidentes de seguridad se basa en diferentes pasos, que incluyen:
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image12.jpg](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image12.jpg)
+![steps to resolve cybersecurity incidents](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/steps-to-resolve-incidents.png?raw=true)
 
 *NOTA: Estos pasos podrían ser estados diferentes que un incidente por lo que también es importante informar al usuario sobre cualquier cambio en el estado del incidente.*
 
@@ -83,7 +83,7 @@ Un evento en la seguridad de la información no significa necesariamente una imp
 
 ### Aclarando conceptos: amenaza, vulnerabilidad, evento e incidente
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image13.jpg](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image13.jpg)
+![threat vulnerability or cybersecurity event and incident](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/amenaza-vulnerabilidad-evento-incidente.png?raw=true)
 
 ## **Amenaza para la Seguridad de la información**
 
@@ -132,13 +132,13 @@ Hay muchas formas de clasificar incidentes, pero lo habitual es considerar dos p
 
 La combinación de estos parámetros nos permitirá determinar la prioridad de cada incidente, por lo que de esta manera puede establecer, por ejemplo, la siguiente tabla de valores:
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image14.jpg](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image14.jpg)
+![incident management classification](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/incident-classification.png?raw=true)
 
 Así podríamos clasificar las incidencias en:
 
-- **NIVEL CRÍTICO (5 a 6)**__
-- **NIVEL GRAVE (4)**__
-- **NIVEL LEVE (1 a 2)**__
+- **NIVEL CRÍTICO (5 a 6)**
+- **NIVEL GRAVE (4)**
+- **NIVEL LEVE (1 a 2)**
 
 ### Respuesta a incidentes de seguridad
 
