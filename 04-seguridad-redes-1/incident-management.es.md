@@ -13,12 +13,9 @@ En este numeral se pretende enunciar los elementos necesarios para la comunicaci
 
 **Política de Comunicación:** La entidad debe tener una política de comunicación de los incidentes de seguridad para definir que incidente puede ser comunicado a los medios y cual no.
 
-<aside>
-📖 - Información de los administradores de la plataforma tecnológica (Servicios, Servidores)
-- Contacto con el área de recursos humanos o quien realice sus funciones (por si se realizan acciones disciplinarias).
-- Contacto con áreas interesadas o grupos de interés (CCP - Policía Nacional, Fiscalía, entre otras)
-
-</aside>
+- Información de los administradores de la plataforma tecnológica (Servicios, Servidores).  
+- Contacto con el área de recursos humanos o quien realice sus funciones (por si se realizan acciones disciplinarias).  
+- Contacto con áreas interesadas o grupos de interés (CCP - Policía Nacional, Fiscalía, entre otras).  
 
 **Hardware y Software**
 
