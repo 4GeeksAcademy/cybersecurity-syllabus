@@ -7,7 +7,7 @@
 - 📗 [Políticas de seguridad en redes](./network-security-policies.es.md)
 - 📗 [Amenazas y ataques en redes](./threats-atacks-network.es.md)
 - 🧪 TODO: [Practica de Spoofing](https://github.com/breatheco-de/spoofing-exercise-tutorial/tree/main).
-- 🧪 TODO: Practica de Ataque denegación de servicio distribuido DDos
+- 🧪 TODO: [Practica de Ataque denegación de servicio distribuido DDos a un wordpress site previamente desarrollado](https://github.com/breatheco-de/ddos-wordpress-exercise-tutorial).
 
 ## Dia 2 - Proteción de sistemas y redes, Política, Gestion de redes, Firewall. ACL.
 
@@ -16,7 +16,7 @@
 - 📗 [Seguridad de usuario final](./enduser-network-security.es.md)
 - 📗 [Antivirus y antiespias](./antivirus-spyware.md)
 - 📗 [Seguridad de datos](./data-security.es.md)
-- 🧪 TODO: Configurar un firewall, configurar un ACL.
+- 🧪 TODO: [Configurar un firewall, configurar un ACL](https://github.com/breatheco-de/configuring-firewall-and-acl-exercise-tutorial).
 
 ## Dia 3
 
