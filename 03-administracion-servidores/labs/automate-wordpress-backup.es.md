@@ -4,6 +4,8 @@
 
 El estudiante debe identificar los elementos que se deben respaldar para recuperar el sitio wordpress en caso de incidentes. Se deben determinar los mecanismos para hacer estos respaldos y generar un script para que estos se realicen en una sola instruccion. Se debe automatizar la ejecucion de este script de respaldo
 
+Se deben seguir los pasos de la regla 321 
+
 ## Entregable
 
 - Repositorio con learnpack
