@@ -32,4 +32,4 @@ Our training aims for our graduates to be well-rounded professionals. Upon compl
 8. Design and implement enterprise network security solutions and manage risks, and mitigate cyber-attacks.
 
 ## Where can I work and how much can I earn?
-Graduates of our training can perform in different roles such as system administrator with a focus on computer security, pentester, cybersecurity consultant in companies, technical security analyst. At the end of this training you can work in any of the mentioned profiles. A cybersecurity analyst or junior pentester could earn between $20,000. 36,000 dollars a year according to the average on LinkedIn.
+Graduates of our training can perform in different roles such as system administrator with a focus on computer security, pentester, cybersecurity consultant in companies, technical security analyst. At the end of this training you can work in any of the mentioned profiles. A cybersecurity analyst or junior pentester could earn between $60,000. 76,000 dollars a year starting off according to the average on LinkedIn.
