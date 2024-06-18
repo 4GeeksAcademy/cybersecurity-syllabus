@@ -54,7 +54,7 @@ Confidentiality, availability, and integrity form a robust framework for informa
 
 ## What can they do with my data?
 
-Data identifies you as a unique individual. You are the only person in the world with your fingerprints (biometric data), the numbers on your bank card are also unique, as well as your phone number, email, and your country's identification number. If this information is compromised, you could be in serious trouble. A malicious hacker could use your information to impersonate you and open a bank account in your name, apply for loans, or social assistance, make purchases, or use your identity to harass others online and commit crimes on your behalf. They could even extort you to gain some benefit. The loss of confidentiality of your information has personal, reputational, and economic consequences for you.
+Data identifies you as a unique individual. You are the only person in the world with your fingerprints (biometric data), the numbers on your bank card are also unique, as well as your phone number, email, and your country's identification number. If this information is compromised, you could be in serious trouble. A malicious hacker could use your information to impersonate you and open a bank account in your name, apply for loans, or social assistance, make purchases, or use your identity to harass others online and commit crimes on your name. They could even extort you to gain some benefit. The loss of confidentiality of your information has personal, reputational, and economic consequences for you.
 
 A common form of information theft is **phishing**, a cyberattack that you have already encountered. If you can't detect it, phishing has characteristics that you can identify if you pay attention.
 
@@ -76,7 +76,7 @@ Elena and Leticia are competing fiercely for the best average at the university,
 
 Laura is buying a gift for her partner on a little-known online marketplace that she discovered through advertising on social networks at very attractive prices. When finalizing the purchase, Laura provides her address for shipping, tax information, and credit card details. According to the platform, the payment was processed successfully, and everything seems fine. **Laura's credit card was cloned and used fraudulently.** The attacker used her card to make unauthorized purchases for themselves.
 
-**What happened? -** The online marketplace Laura was browsing was not legitimate; it was a fake website promoted to attract people and steal their data so that the attacker could make purchases on behalf of the victims.
+**What happened? -** The online marketplace Laura was browsing was not legitimate; it was a fake website promoted to attract people and steal their data so that the attacker could make purchases on the name of the victims.
 
 - **Case 3:**
 
