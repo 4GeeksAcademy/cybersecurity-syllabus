@@ -42,10 +42,7 @@ Dentro de los comandos básicos tenemos:
 | mkdir |  | Crea un directorio |
 |  |  |  |
 
-<aside>
-⚠️ Es importante tener precaución al utilizar comandos de manipulación de archivos y directorios, ya que las acciones son irreversibles y pueden afectar los datos de manera permanente. Siempre asegúrate de tener copias de seguridad actualizadas y de verificar dos veces antes de ejecutar comandos que puedan tener consecuencias no deseadas.
-
-</aside>
+> ⚠️ Es importante tener precaución al utilizar comandos de manipulación de archivos y directorios, ya que las acciones son irreversibles y pueden afectar los datos de manera permanente. Siempre asegúrate de tener copias de seguridad actualizadas y de verificar dos veces antes de ejecutar comandos que puedan tener consecuencias no deseadas.
 
 ## **Configuración de permisos y atributos de archivos**
 
@@ -56,7 +53,7 @@ Imaginemos que tenemos un servidor FTP y diferentes usuarios y grupos, si todos 
 Entre las distintas cuentas que podemos tener dentro del sistema Linux tenemos;
 
 - Usuario con mayor privilegio:  **Root**, generalmente se le asigna este usuario al administrador de sistema
-- *Usuario normal*: ls
+- *Usuario normal*: `ls`
 
 Previamente hablamos sobre los permisos en Linux, recordemos cuales son:
 
@@ -73,10 +70,7 @@ Previamente hablamos sobre los permisos en Linux, recordemos cuales son:
 - **Limitar el acceso a recursos sensibles**: Es recomendable restringir el acceso a recursos sensibles, como archivos de configuración o directorios críticos del sistema, solo a usuarios o grupos autorizados. Esto se puede lograr mediante la asignación adecuada de permisos y el uso de herramientas como SELinux (Security-Enhanced Linux) para aplicar políticas de seguridad adicionales.
 - **Monitorizar y auditar los cambios:** Es importante establecer mecanismos de monitorización y auditoría para realizar un seguimiento de los cambios en los permisos de los recursos. Esto ayuda a identificar posibles infracciones de seguridad o cambios no autorizados, permitiendo tomar acciones correctivas de manera oportuna.
 
-<aside>
-💡 Si queremos ver los permisos que tiene un usuario dentro de un archivo, lo podemos ver con el comando ls -l, nos mostrará los distintos tipos de permisos que tiene el directorio o el archivo.
-
-</aside>
+> 💡 Si queremos ver los permisos que tiene un usuario dentro de un archivo, lo podemos ver con el comando `ls -l`, nos mostrará los distintos tipos de permisos que tiene el directorio o el archivo.
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image36.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image36.png)
 
