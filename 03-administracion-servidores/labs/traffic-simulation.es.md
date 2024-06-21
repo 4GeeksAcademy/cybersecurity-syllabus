@@ -16,7 +16,7 @@ El estudiante debe generar tráfico artificial desde la maquina Kali hacia el si
 - Informe de evaluación del desempeño del servidor
 - Tiene que ser corrigible por el profesor o TA y en el futuro poder ser corregible de forma automatica (en la gran mayoria de los enunciados).
 
-## TODO
+## Notas
 
 - Herramienta de monitoreo Nessus (gratis) y OpenVas.
 - Repo con instrucciones.
