@@ -3,7 +3,7 @@
 - 📗 [Introducción a la administración de servidores Linux](./introduction-linux-server-administration.es.md)
 - 📗 [Manejo de usuarios y grupos](./users-groups-management.md)
 - 📗 [Servicios de red](./network-services.es.md)
-- 🧪[Instalación de un sitio Wordpress](./labs/deploying-wordpress-site.es.md) - [Repo](https://github.com/4GeeksAcademy/deploying-wordpress-debian)
+- 🧪[Instalación de un sitio Wordpress && Apache Server](https://github.com/4GeeksAcademy/deploying-wordpress-debian)
 
 ## Dia 8
 
