@@ -16,7 +16,7 @@
 - 📗 [Seguridad de usuario final](./enduser-network-security.es.md)
 - 📗 [Antivirus y antiespias](./antivirus-spyware.md)
 - 📗 [Seguridad de datos](./data-security.es.md)
-- 🧪 TODO: [Configurar un firewall, configurar un ACL](https://github.com/breatheco-de/configuring-firewall-and-acl-exercise-tutorial).
+- 🧪 TODO: Que prouecto hacemos?
 
 ## Dia 3
 
