@@ -10,7 +10,7 @@
 - 📗 [Configuración de seguridad del servidor](./server-security.es.md)
 - 📗 [Resplaldo y recuperacion de datos](./data-backup-recovery.md)
 - 📗 [Programación de tareas automatizadas](./task-automation.es.md)
-- 🧪[Automatizar el respaldo de un sitio Wordpress](./labs/automate-wordpress-backup.es.md)
+- 🧪 TODO: [Automatizar el respaldo de un sitio Wordpress](./labs/automate-wordpress-backup.es.md)
 
 ## Dia 9
 
