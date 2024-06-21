@@ -4,9 +4,17 @@
 
 El estudiante debe generar tráfico artificial desde la maquina Kali hacia el sitio Wordpress. En el servidor se deben implementar herramientas de monitoreo para detectar las oleadas de peticiones y evaluar el desempeño del servidor. 
 
-## Entregable
+## Seguir plantilla de 4geeks:
+
+- README.md README.es.md y learn.json
+- Los readme debe tener una intro, como empezar el proyecto, instrucciones paso paso y como entregar el proyecto.
+
+## Pasos claros para realizar el project (step by step).
+
+## Definir Entregable Exacto
 
 - Informe de evaluación del desempeño del servidor
+- Tiene que ser corrigible por el profesor o TA y en el futuro poder ser corregible de forma automatica (en la gran mayoria de los enunciados).
 
 ## TODO
 
