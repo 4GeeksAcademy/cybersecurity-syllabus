@@ -4,6 +4,11 @@
 
 El estudiante debe generar tráfico artificial desde la maquina Kali hacia el sitio Wordpress. En el servidor se deben implementar herramientas de monitoreo para detectar las oleadas de peticiones y evaluar el desempeño del servidor. 
 
+## Definir que computadora se va a usar
+
+- Se continuará trabajando en un proyecto anterior?
+- Que maquina virtual se va a usar?
+
 ## Seguir plantilla de 4geeks:
 
 - README.md README.es.md y learn.json
