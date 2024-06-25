@@ -88,7 +88,7 @@ Fernanda se acaba de mudar a una nueva ciudad y está en búsqueda de amigos med
 
 Oscar acaba de adquirir un nuevo celular, al pasar toda la información de su antiguo dispositivo al nuevo, Oscar olvida configurar una contraseña y la protección contra robo. Días después es asaltado en la calle y el delincuente roba su dispositivo. Oscar recibe llamadas telefónicas y correos electrónicos constantemente con amenazas sobre divulgar su información si no realiza un pago al delincuente.
 
-**¿Qué ocurrió? -** Los teléfonos inteligentes tienen múltiples filtros de seguridad y protección contra robo y debe ser una de las primeras configuraciones que hagas cuando adquieres un nuevo dispositivo además de tomar medidas con las sesiones de tus aplicaciones y tus contraseñas, Mariana fue víctima de extorsión. 
+**¿Qué ocurrió? -** Los teléfonos inteligentes tienen múltiples filtros de seguridad y protección contra robo y debe ser una de las primeras configuraciones que hagas cuando adquieres un nuevo dispositivo además de tomar medidas con las sesiones de tus aplicaciones y tus contraseñas, Oscar fue víctima de extorsión. 
 
 > ⚠️ Todas las personas  mencionadas anteriormente fueron víctimas de un ciberataque y esto podría pasarte a ti también, estos casos son muy comunes y no necesitas ser una persona reconocida para ser una víctima.
 
