@@ -57,7 +57,7 @@ There are two types of IP addresses with very different aspects, what they may h
 
 The two types of IP address are:
 
-- **IpV4**.
+### IPV4
 
 This IP type consists of a 32-bit address separated into 4 octets (group of 8 bits), limited to 4,294,967,296 unique addresses, many of which LAN. From a technical point of view, it is a 32-digit binary code between 0 and 1. It is usually represented as a combination of decimal numbers with values between 0 and 255 separated by dots. An example of an IPv4 address would be 192.168.178.31.
 
@@ -87,27 +87,31 @@ In the following table we can see how each of the network classes are differenti
 | D (Multicast) | 1110 | 224.0.0.0 - 239.255.255.255 | - | - | - |
 | E (Experimental) | 1111 | 240.0.0.0 - 255.255.255.254 | - | - | - |
 
-- **IPv6 addresses**
+### IPv6 addresses
 
 They have the same function as the IPv4 address, which consists of 128 bits and is expressed in 32-digit hexadecimal notation, this was created to solve the problem of IPv4 address exhaustion, as this had 4,294,967,296 (232) which is a number less than the world population and total devices. At the beginning of 2010, there were less than 10% of unassigned addresses, so IPv6 was developed to support 2128 or 340 sextillion addresses.
 
 The biggest change from IPv4 to IPv6 is the length of network addresses, for ipV6 was assigned 128 bits, which corresponds to 32 hexadecimal digits, in many occasions IPv6 addresses are composed of two logical parts: a 64-bit prefix and another 64-bit part that corresponds to the interface identifier, which is almost always automatically generated from the MAC address of the interface to which the address is assigned. This is written as 8 groups of four hexadecimal digits e.g.:
 
-**`2001:0db8:85a4:0000:15e2::a8e2:1380:7545`**
+```bash
+2001:0db8:85a4:0000:15e2::a8e2:1380:7545
+```
 
 A group of four digits can be compressed if it has the value of 0000.
 
-**`2001:0db8:85a4::15e2::a8e2:1380:7545`**
+```bash
+2001:0db8:85a4::15e2::a8e2:1380:7545
+```
 
 Following this rule, if more than two consecutive groups are null, they can also be compressed as "::". If the address has more than one set of consecutive null groups compression is only allowed on one of them. Thus, the following are possible representations of the same address:
 
-**`2001:0DB8:0000:0000:0000:0000:1428:57ab`**
+```bash
+2001:0DB8:0000:0000:0000:0000:1428:57ab
+2001:0DB8:0::0:1428:57ab
+2001:0DB8::1428:57ab
+```
 
-**`2001:0DB8:0::0:1428:57ab`**
-
-**`2001:0DB8::1428:57ab`**
-
-### **Network Division: Subnetting**
+### Network Division: Subnetting
 
 A large broadcast domain is a network that connects many hosts. One problem we can have with these hosts is that they can generate excessive broadcasts and negatively affect the network. This results in slow network operations due to the significant amount of traffic it can cause and slow device operations because a device must accept and process each broadcast packet.
 
@@ -129,21 +133,27 @@ To see it more clearly, if we have a private network 10.0.0.0/8 as an internal n
 
 When we want to calculate all the subnets that we can get by segmenting the network the first thing we must do is locate the IP address class
 
-**`192.168.0.0`**
+```bash
+192.168.0.0
+```
 
 This is a class C address and according to the data in the IP table it will have a netmask **255.255.255.0**.
 
 We convert the number to binary:
 
-`11111111.11111111.11111111.00000000`
+```bash
+11111111.11111111.11111111.00000000
+```
 
 And in the last octet, we change by 1 for the number of subnets we want to have exponentially.
 
 If we want to have 4 subnets we will have to add 2 1 since 2 raised to the 1 is 2 and two raised to the 2 is 4, that will cover the subnets that we need.
 
-`11111111.11111111.11111111.11000000`
+```bash
+11111111.11111111.11111111.11000000
+```
 
-255.255.255.192 This would be the submask we are going to work with.
+> 💡 255.255.255.192 This would be the submask we are going to work with.
 
 We know that we need 4 subnets and that they will go from the address 192.168.0.0.0 to 192.168.0.255 which will have 256 hosts available, so if we divide them between the 4 subnets we would have 64 hosts per subnet.
 
@@ -167,7 +177,7 @@ The Dynamic Host Configuration Protocol (DHCP) is a client-server protocol which
 
 This protocol generates certain advantages since this process is automated and centrally managed. The DHCP server maintains a pool of IP addresses and delivers an address to any DHCP-enabled client when it logs on to the network. Since IP addresses are dynamic, rather than static (permanently assigned), addresses that are no longer in use are automatically returned to the pool for reassignment.
 
-**How to activate the DHCP protocol**
+### How to activate the DHCP protocol
 
 - **Windows**
 1. Click Start > Settings > Network and Internet.
@@ -182,7 +192,7 @@ This protocol generates certain advantages since this process is automated and c
 
 > 💡 The manual method consists of us assigning the IP address we are interested in. This will bring us advantages since we will know what address a particular device has, so we will avoid many problems when connecting to it. It also allows us to establish a sort of classification so that whenever we find a device on our network, we know what type of device it is.
 
-### How to configure the IP manually**
+### How to configure the IP manually
 
 - **Windows**
 1. Click Start > Settings > Network and Internet.
@@ -198,7 +208,7 @@ This protocol generates certain advantages since this process is automated and c
 4. Enter the IP you want to use and the rest of the data.
 5. Select `Save`.
 
->💡**Discussion topics**
+>💡**Discussion topics**  
 >
 >What is the main reason why the ICAAN decided to release the ipV6 protocol?
 >
