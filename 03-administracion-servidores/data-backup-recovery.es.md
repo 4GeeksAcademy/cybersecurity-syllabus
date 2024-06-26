@@ -6,9 +6,9 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-![Planificación y ejecución de respaldos](../assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
+![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
 
-![Planificación y ejecución de respaldos](../assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)
+![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)
 
 ## **Planificación de respaldos y políticas de retención.**
 
