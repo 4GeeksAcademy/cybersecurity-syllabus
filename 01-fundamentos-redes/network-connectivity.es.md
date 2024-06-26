@@ -1,4 +1,4 @@
-## **Conectividad a internet**
+## Conectividad a internet
 
 Sabemos que el internet es un protocolo que conecta a todas las redes y asi acceder a ellas, lo utilizan distintos tipos de usuario. Hoy en día hay compañías encargadas de administrar esas conexiones. Usando distintos tipos de tecnologías para esto, entre las cuales tenemos:
 
@@ -38,7 +38,7 @@ VDSL (Línea de suscriptor digital de muy alta velocidad / Very High-Speed Digit
 
 La velocidad de transmisión es alta, proporcionando modos de transmisión simétricos y asimétricos tanto en el enlace ascendente como en el descendente. En el modo asimétrico, la velocidad máxima de bajada de la VDSL puede alcanzar los 52 Mbit/s (en la gama de 300 m), y la velocidad máxima en el modo simétrico puede alcanzar los 34 Mbit/s (en la gama de 300 m). La VDSL supera las deficiencias del insuficiente ancho de banda de la ADSL en la dirección de subida.
 
-## **Conexión por cable coaxial**
+## Conexión por cable coaxial
 
 El cable coaxial es un tipo de cable de cobre construido especialmente con un blindaje de metal y otros componentes diseñados para bloquear la interferencia de la señal.
 
@@ -48,7 +48,7 @@ La capa conductora central es un cable conductor delgado, ya sea de cobre sólid
 
 Generalmente podemos ver este tipo de conexiones en los servicios de internet que proveen las empresas de televisión por cable.
 
-### **Fibra óptica**
+### Fibra óptica
 
 El Internet por fibra óptica, es la conexión de banda ancha que puede alcanzar velocidades de hasta 940 Megabits por segundo (Mbps), con poca demora. La tecnología utiliza cable de fibra óptica, que sorprendentemente puede enviar datos a una velocidad de aproximadamente un 70% la velocidad de la luz. Además, los cables de fibra óptica no son tan susceptibles a las condiciones climáticas rigurosas como otros tipos de cables tradicionales, lo que minimiza las interrupciones del servicio. También resisten la interferencia eléctrica de manera más efectiva.
 
@@ -58,7 +58,7 @@ Las fibras ópticas son diminutas, con un diámetro aproximado de 125 micrones o
 
 Una vez que estos pulsos superrápidos de luz llegan a destino, se convierten en potencia eléctrica que los dispositivos pueden comprender y usar. Esto se logra gracias a un equipo especial denominado terminal de red óptica, que luego envía la señal por una conexión de Ethernet al usuario.
 
-## **Proveedores de servicio de internet (ISP)**
+## Proveedores de servicio de internet (ISP)
 
 Un Proveedor de Servicios de Internet (ISP, por sus siglas en inglés) es una empresa o entidad que ofrece acceso a Internet a los usuarios. Los ISP desempeñan un papel fundamental en la conectividad global, ya que son los encargados de proporcionar el acceso a la red de redes a nivel mundial.
 

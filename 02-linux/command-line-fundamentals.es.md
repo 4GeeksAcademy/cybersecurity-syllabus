@@ -16,7 +16,9 @@ La terminal de informática ha sido una herramienta clave para programadores y e
 
 Una intérprete de comandos o Shell es un programa informático que tiene la capacidad de traducir las órdenes que introducen los usuarios, mediante un conjunto de instrucciones facilitadas por el mismo, directamente al núcleo y al conjunto de herramientas que forman el sistema operativo. Las órdenes se introducen siguiendo la sintaxis incorporada por dicho intérprete, dentro del entorno proporcionado por la terminal, mediante un inductor que espera que sean introducidos los comandos o instrucciones
 
-`PROMPT>nombrecomando argumento/s /ruta/hacia/el/o/los/ficheros`
+```bash
+PROMPT>nombrecomando argumento/s /ruta/hacia/el/o/los/ficheros
+```
 
 Al ingresar la orden con la tecla 'Intro', el intérprete analiza la secuencia de caracteres ingresada y, si la sintaxis de la orden es correcta, la ejecuta, recurriendo para ello a las funciones que ofrece el sistema operativo o el programa que representa, bien sea un gestor de datos de banco, una sesión de FTP, de ssh, etc. La respuesta al usuario se representa en el monitor o en forma de segundo plano. Se trabaja de manera interactiva, es decir, usuario y máquina se comunican de forma sucesiva.
 
@@ -102,7 +104,7 @@ Los permisos pueden ser:
 2. Los permisos de usuario de los miembros del grupo siendo las segundas 3 letras
 3. los permisos de usuario para los demás miembros del grupo siendo las últimas 3 letras
 
-```jsx
+```bash
 rw-r--r-- 1 user group	0 sep 17 10:53 file
 ```
 
@@ -110,7 +112,7 @@ Esta descripción indica que es un archivo al tener un (-) en el inicio
 
 Para el usuario propietario sólo tendrá permiso de lectura y escritura y para el resto de los usuarios del grupo y del sistema sólo tendrá permiso de lectura, no podrán ni escribir ni ejecutar el archivo.
 
-```jsx
+```bash
 drwxr-xr-x 1 user user   24 sep 15 09:04 network
 ```
 
@@ -140,7 +142,7 @@ Todos los permisos lo podemos cambiar con el comando chmod seguido de los octeto
 
 esto se resume a otorgar permiso de lectura al usuario propietario, premios de lectura y ejecución al resto de los usuarios del grupo y permiso de lectura, escritura al resto de los usuarios del sistema
 
-```jsx
+```bash
 r---wxrwx 1 user group 0 sep 17 10:53 file
 ```
 

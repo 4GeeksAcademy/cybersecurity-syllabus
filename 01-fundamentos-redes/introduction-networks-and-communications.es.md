@@ -6,15 +6,15 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Introducción a las Redes: Un Viaje a través de la Conectividad**
+## Introducción a las Redes: Un Viaje a través de la Conectividad
 
 Las redes han revolucionado la forma en que el mundo se comunica y comparte información. Estas estructuras interconectadas permiten la transmisión de datos, recursos y servicios entre dispositivos electrónicos, independientemente de su ubicación física. Desde los inicios modestos de la comunicación electrónica hasta las vastas redes globales que definen la era moderna, la evolución de las redes ha sido un viaje fascinante.
 
-## **Historia de las Redes: Los Primeros Pasos**
+## Historia de las Redes: Los Primeros Pasos
 
 La historia de las redes se remonta a mediados del siglo XX, cuando los científicos comenzaron a explorar formas de conectar computadoras y compartir información. Uno de los hitos clave en esta evolución fue la creación de ARPANET (Advanced Research Projects Agency Network) en la década de 1960. ARPANET, financiada por el Departamento de Defensa de los Estados Unidos, fue la primera red en utilizar el protocolo de conmutación de paquetes, un método que dividía los datos en paquetes más pequeños para su transmisión, lo que resultaba en una mayor eficiencia y robustez en comparación con los métodos de conmutación de circuitos utilizados en las redes telefónicas tradicionales.
 
-## **ARPANET: Los Inicios de Internet**
+## ARPANET: Los Inicios de Internet
 
 ARPANET se estableció en 1969 y enlazó inicialmente a cuatro universidades de los Estados Unidos: la Universidad de California en Los Ángeles (UCLA), el Instituto de Investigación Stanford, la Universidad de California en Santa Bárbara y la Universidad de Utah. El primer mensaje transmitido a través de ARPANET fue "LOGIN", pero el sistema se bloqueó después de solo dos letras, lo que resultó en la primera vez que se envió "LO". A pesar de este comienzo modesto, ARPANET creció rápidamente y estableció los fundamentos de lo que eventualmente se convertiría en Internet.
 
@@ -45,7 +45,7 @@ Las comunicaciones en redes informáticas se basan en el intercambio de informac
 
 Las topologías de red se refieren a cómo están dispuestos y conectados los dispositivos en una red informática. Hay varias topologías comunes, cada una con sus propias ventajas y desventajas. Aquí tienes una explicación clara de cada una:
 
-**1. Topología de Estrella:**
+### 1. Topología de Estrella
 
 ![Topología de Estrella](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/topologia-estrella.png?raw=true)
 
@@ -58,7 +58,7 @@ Las topologías de red se refieren a cómo están dispuestos y conectados los di
     - Si el punto central falla, toda la red se ve afectada.
     - Puede requerir más cableado que otras topologías.
 
-**2. Topología de Bus:**
+### 2. Topología de Bus
 
 ![Topología de Bus](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/topologia-bus.png?raw=true)
 
@@ -70,7 +70,7 @@ Las topologías de red se refieren a cómo están dispuestos y conectados los di
     - Si el cable principal se rompe o falla, toda la red puede dejar de funcionar.
     - El rendimiento puede degradarse en redes grandes o congestionadas.
 
-**3. Topología de Anillo:**
+### 3. Topología de Anillo
 
 ![Topología de Anillo](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/topologia-anillo.png?raw=true)
 
@@ -82,7 +82,7 @@ Las topologías de red se refieren a cómo están dispuestos y conectados los di
     - Si un dispositivo o el cable se avería, puede afectar toda la red.
     - Menos común que otras topologías.
     
-**4. Topología de Malla:**
+### 4. Topología de Malla
 
 ![Topología de Malla](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/topologia-malla.png?raw=true)
 
@@ -94,7 +94,7 @@ Las topologías de red se refieren a cómo están dispuestos y conectados los di
     - Requiere mucho cableado y puede ser costoso de implementar.
     - La administración y el mantenimiento pueden ser complicados en redes grandes. 
 
-**5. Topología de Árbol:**
+### 5. Topología de Árbol
 
 ![Topología de Árbol](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/topologia-arbol.png?raw=true)
 
@@ -106,11 +106,11 @@ Las topologías de red se refieren a cómo están dispuestos y conectados los di
     - Si el nodo raíz falla, puede afectar a toda la red.
     - No es tan robusta como la topología de malla en términos de redundancia.
 
-## **Servidores en Redes Informáticas: Potencia detrás de la conectividad**
+## Servidores en Redes Informáticas: Potencia detrás de la conectividad
 
 Los servidores son componentes esenciales en una red informática. Estos potentes equipos están diseñados para ofrecer servicios, recursos y datos a otros dispositivos conectados en la red. Los servidores desempeñan un papel fundamental en la infraestructura de TI de muchas organizaciones, ya que permiten la comunicación eficiente, el almacenamiento de datos y la administración de recursos compartidos.
 
-### **Tipos de Servidores:**
+### Tipos de Servidores:
 
 | Servidor de Archivos | Almacena y administra archivos que pueden ser accedidos y compartidos por usuarios y otros dispositivos en la red. Este tipo de servidor es común en entornos empresariales donde se necesita compartir documentos y recursos de manera centralizada. |
 | --- | --- |
@@ -122,7 +122,7 @@ Los servidores son componentes esenciales en una red informática. Estos potente
 | Servidor DNS (Domain Name System) | Traduce nombres de dominio legibles para los humanos en direcciones IP utilizables por las computadoras para localizar recursos en la red. |
 | Servidor VPN (Virtual Private Network) | Proporciona conexiones seguras a través de Internet, permitiendo a los usuarios acceder a recursos de la red desde ubicaciones remotas como si estuvieran en la red local. |
 
-## **Papel de los Servidores en una Red Informática Empresarial**
+## Papel de los Servidores en una Red Informática Empresarial
 
 En una red informática empresarial, los servidores desempeñan un papel crucial en la gestión de recursos y servicios compartidos. Algunas funciones clave incluyen:
 

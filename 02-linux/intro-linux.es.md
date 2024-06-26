@@ -8,7 +8,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ## Qué es Linux y su importancia en el mundo de la informática
 
-A pesar de a lo que generalmente puedas escuchar sobre linux, este en realidad se trata de un núcleo o **kernel** que puede controlar a un hardware, una manera más sencilla de explicarlo es que LInux es un conjuntos de drivers necesarios para usar un dispositivo como una computadora o una laptop. Este se creó como un núcleo semejante al de un sistema operativo UNIX.
+A pesar de a lo que generalmente puedas escuchar sobre linux, este en realidad se trata de un núcleo o **kernel** que puede controlar a un hardware, una manera más sencilla de explicarlo es que Linux es un conjuntos de drivers necesarios para usar un dispositivo como una computadora o una laptop. Este se creó como un núcleo semejante al de un sistema operativo UNIX.
 
 Este núcleo fue desarrollado con Linus Torvalds cuando en 1991 comenzó a trabajar con unas ideas para un núcleo de un sistema operativo gratuito similar a unix, por lo que tomó como base el sistema Minix como un clon de Unix e hizo un núcleo monolítico y así con ayuda de colaboradores, sacar la primera versión linux 0.01.
 
