@@ -8,14 +8,14 @@ authors: ["blindma1den", "lorenagubaira"]
 
 Es fundamental que un profesional de redes y ciberseguridad sepa gestionar direcciones IP debido a que las direcciones IP son elementos esenciales en la infraestructura de cualquier red, y desempeñan un papel crítico en la ciberseguridad.
 
-## **Dirección IP**
+## Dirección IP
 
 - Una dirección IP (Protocolo de Internet) es un número único asignado a cada dispositivo conectado a una red, ya sea en una red local (LAN) o en Internet (WAN).
 - Funciona de manera similar a la dirección de una casa en una calle, identificando la ubicación de un dispositivo en la red.
 
 Imagina que tienes una red doméstica con varios dispositivos, como tu computadora, tu teléfono y tu impresora. Cada uno de estos dispositivos tiene su propia dirección IP única, como una etiqueta de dirección para que los datos puedan llegar al destino correcto.
 
-## **Subnetting: Cómo se conforman las redes**
+## Subnetting: Cómo se confórman las redes
 
 - Subnetting es el proceso de dividir una red en subredes más pequeñas. Esto se hace por varias razones, incluida la mejora de la eficiencia de la red y la seguridad.
 - En ciberseguridad y pentesting, subnetting se utiliza para segmentar una red en partes más pequeñas, lo que puede ayudar a aislar y controlar el tráfico. Esto es crucial para proteger los recursos críticos y limitar la propagación de amenazas en una red.
@@ -57,7 +57,7 @@ Existen dos tipos de direcciones IP con aspectos muy diferentes, lo que pueden t
 
 Los dos tipos de dirección IP son:
 
-- **IpV4**
+### IPv4
 
 Este tipo de IP consta en una dirección de 32 bits separado en 4 octeto (grupo de 8 bits), limitadas a  4 294 967 296 direcciones únicas, muchas de ellas LAN. Desde el punto de vista técnico, son un código binario de 32 cifras entre 0 y 1. Generalmente se suele representar como una combinación de número decimales con valores entre 0 y 255 separados por puntos. Un ejemplo de una direccion IPv4 puede ser 192.168.178.31
 
@@ -87,27 +87,31 @@ En la siguiente tabla podemos ver cómo se diferencian cada uno de las clases de
 | D (Multicast) | 1110 | 224.0.0.0 - 239.255.255.255 |  |  |  |
 | E (Experimental) | 1111 | 240.0.0.0 - 255.255.255.254 |  |  |  |
 
-- **Direcciones IPv6**
+### Direcciones IPv6
 
 Tienen la misma función de la dirección IPv4, esta consta de 128 bits y se expresa en notación hexadecimal de 32 dígitos, esta se creó para resolver el problema de agotamiento de direcciones IPv4, ya que este contaba con 4.294.967.296  (232) el cual es un número menor a la población mundial y dispositivos totales. A principios de 2010 quedaban menos de 10% de direcciones sin asignar, por lo que se desarrolló la IPv6 que admite 2128 o 340 sextillones de direcciones.
 
 El cambio más grande de IPv4 a IPv6 es la longitud de las direcciones de red, para la ipV6 fue asignada con 128 bits, el cual corresponde a 32 dígitos hexadecimales, en muchas ocasiones las direcciones IPv6 están compuestas por dos partes lógicas: un prefijo de 64 bits y otra parte de 64 bits que corresponde al identificador de interfaz, que casi siempre se genera automáticamente a partir de la dirección MAC de la interfaz a la que está asignada la dirección. Esta se escribe como 8 grupos de cuatro dígitos hexadecimales por ejemplo:
 
-**`2001:0db8:85a4:0000:15e2::a8e2:1380:7545`**
+```bash
+2001:0db8:85a4:0000:15e2::a8e2:1380:7545
+```
 
 Se puede comprimir un grupo de cuatro dígitos si tiene el valor de 0000.
 
-**`2001:0db8:85a4::15e2::a8e2:1380:7545`**
+```bash
+2001:0db8:85a4::15e2::a8e2:1380:7545
+```
 
 Siguiendo esta regla, si más de dos grupos consecutivos son nulos, también pueden comprimirse como "::". Si la dirección tiene más de una serie de grupos nulos consecutivos la compresión solamente se permite en uno de ellos. Así, las siguientes son representaciones posibles de una misma dirección:
 
-**`2001:0DB8:0000:0000:0000:0000:1428:57ab`**
+```bash
+2001:0DB8:0000:0000:0000:0000:1428:57ab
+2001:0DB8:0::0:1428:57ab
+2001:0DB8::1428:57ab
+```
 
-**`2001:0DB8:0::0:1428:57ab`**
-
-**`2001:0DB8::1428:57ab`**
-
-### **División de redes: Subnetting**
+### División de redes: Subnetting
 
 Un dominio de difusión/broadcast grande es una red que conecta muchos hosts. Un problema que podemos tener con estos hosts es que pueden generar broadcast excesivas y afectar negativamente a la red. Esto da como resultado operaciones de red lentas debido a la cantidad significativa de tráfico que puede causar, y operaciones lentas del dispositivo porque un dispositivo debe aceptar y procesar cada paquete de broadcast.
 
@@ -129,19 +133,25 @@ Para verlo más claro, si contamos con una red privada 10.0.0.0/8 como red inter
 
 Cuando queremos calcular  todas las subredes que podemos sacar al segmentar la red lo primero que debemos hacer es ubicar la clase de la dirección IP
 
-**`192.168.0.0`**
+```bash
+192.168.0.0
+```
 
 Esta es una dirección clase C y según los datos de la tabla IP tendra una mascara de red **255.255.255.0**
 
 Pasamos la cifra a binario:
 
-`11111111.11111111.11111111.00000000`
+```bash
+11111111.11111111.11111111.00000000
+```
 
 Y en el último octeto cambiamos por 1 por la cantidad de subredes que queremos tener de forma exponencial.
 
 Si queremos tener 4 subredes tendremos que agregar 2 1 ya que 2 elevado a la 1 es 2 y dos elevado a la 2 es 4, que cubrirá las subredes que necesitamos
 
-`11111111.11111111.11111111.11000000`
+```bash
+11111111.11111111.11111111.11000000
+```
 
 255.255.255.192 esta seria la submascara con la que vamos a trabajar.
 
@@ -159,7 +169,7 @@ Subred 3 192.168.0.129 - 192.168.0.190 Direccion de red 192.168.0.128 Broadcast 
 
 Subred 4 192.168.0.193 - 192.168.0.254 Direccion de red 192.168.0.192 Broadcast 192.168.0.255
 
-## **Configuración manual y automática de direcciones IP**
+## Configuración manual y automática de direcciones IP
 
 Teniendo claro que la dirección IP es la forma de identificar a un dispositivo dentro de una red. La dirección IP de un dispositivo, se puede configurar de forma dinámica/automática a través del protocolo DHCP y manual.
 
@@ -167,7 +177,7 @@ El protocolo de configuración dinámica de Host (DHCP) es un protocolo cliente-
 
 Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado y se administra de forma centralizada. El servidor DHCP mantiene un grupo de direcciones IP y entrega una dirección a cualquier cliente habilitado para DHCP cuando se inicia en la red. Dado que las direcciones IP son dinámicas, en lugar de estáticas (asignadas permanentemente), las direcciones que ya no estén en uso, se devuelven automáticamente al grupo para la reasignación
 
-### **Como activar el protocolo DHCP**
+### Cómo activar el protocolo DHCP
 
 - **Windows**
 1. Haz clic en Inicio > Configuración > Red e Internet.
@@ -182,7 +192,7 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 
 > 💡 El método manual consta que nosotros nos encargamos de asignar la dirección IP que nos interese. Esto nos traerá ventajas ya que sabremos qué dirección tiene un dispositivo en concreto, por lo que nos evitará muchos problemas a la hora de conectarnos a él. También nos permite establecer una especie de clasificación de forma que siempre que encontremos un dispositivo en nuestra red, sepamos de qué tipo de dispositivo se trata
 
-### **Cómo configurar la IP manualmente**
+### Cómo configurar la IP manualmente
 
 - **Windows**
 1. Haz clic en Inicio > Configuración > Red e Internet.
