@@ -35,20 +35,18 @@ Algunos comandos que podemos usar para la gestión de usuarios y grupos son
 
 **`whoami`** (nos indica qué usuario somos)
 
-## **Configuración de red y conexión**
+## Configuración de red y conexión
 
 Una de las ventajas de la configuración de red y conexión en linux es que fácilmente se puede hacer a través desde la terminal con varios comandos, veamos cuales son:
 
-- Si queremos saber si como esta configurada la **red TCP/IP** podemos usar el comando
-
-**`ifconfig` o con `ip add`**
+- Si queremos saber si como esta configurada la **red TCP/IP** podemos usar el comando `ifconfig` o con `ip add`
 
 La respuesta del comando nos mostrara la ip de la máquina (inet), mascara de red (netmask) y dirección de difusión (broadcast).
 
 - Si queremos cambiar la dirección de ip, usaremos el mismo comando `ifconfig`:
 
-```markdown
-*ifconfig eth0 192.168.1.100 netmask 255.255.255.0 broadcast 192.168.1.255*
+```bash
+ifconfig eth0 192.168.1.100 netmask 255.255.255.0 broadcast 192.168.1.255
 ```
 
 **`eth0`** es la interfaz de red que vamos a configurar
@@ -57,8 +55,8 @@ La respuesta del comando nos mostrara la ip de la máquina (inet), mascara de re
 
 ejemplo:
 
-```markdown
-**ping 127.0.0.1**
+```bash
+ping 127.0.0.1
 ```
 
 Haciendo ping a dirección_ip con 32 bytes de datos:

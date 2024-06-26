@@ -6,12 +6,13 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-Una arquitectura de red es un conjunto estructurado de componentes y protocolos que se utilizan para diseñar, implementar y gestionar una red de computadoras. Esta arquitectura proporciona una visión general de cómo se interconectan y comunican los dispositivos dentro de una red, así como cómo se administran y se garantiza su rendimiento y seguridad. La elección de una arquitectura de red adecuada es esencial para garantizar que la red cumpla con los objetivos y requisitos de una organización.
+Una **arquitectura de red** es un conjunto estructurado de componentes y protocolos que se utilizan para diseñar, implementar y gestionar una red de computadoras. Esta arquitectura proporciona una visión general de cómo se interconectan y comunican los dispositivos dentro de una red, así como cómo se administran y se garantiza su rendimiento y seguridad. La elección de una arquitectura de red adecuada es esencial para garantizar que la red cumpla con los objetivos y requisitos de una organización.
 
 Las arquitecturas de red pueden variar significativamente en tamaño y complejidad, desde redes domésticas pequeñas hasta grandes redes empresariales y de telecomunicaciones. Aquí hay algunos elementos clave que suelen formar parte de una arquitectura de red:
 
-| Topología de red |  La topología de red se refiere a la disposición física y lógica de los dispositivos en la red y cómo están interconectados. Algunas topologías comunes incluyen la topología de estrella, de bus, de anillo y de malla, cada una con sus propias ventajas y desventajas. |
+| Concepto | Definicion |
 | --- | --- |
+| Topología de red |  La topología de red se refiere a la disposición física y lógica de los dispositivos en la red y cómo están interconectados. Algunas topologías comunes incluyen la topología de estrella, de bus, de anillo y de malla, cada una con sus propias ventajas y desventajas. |
 | Componentes de red | Estos incluyen dispositivos como routers, switches, hubs, firewalls, servidores, estaciones de trabajo, dispositivos móviles y otros elementos que permiten la comunicación y el flujo de datos en la red. |
 | Protocolos de red |  Los protocolos son reglas y normas que gobiernan la comunicación entre dispositivos en una red. Ejemplos de protocolos de red incluyen TCP/IP, HTTP, FTP, DNS, DHCP, entre otros. |
 | Segmentación de red | Las redes suelen dividirse en segmentos para mejorar la administración y la seguridad. Esto puede incluir la creación de subredes para aislar tráfico y limitar el acceso a ciertas partes de la red. |
@@ -23,7 +24,7 @@ Las arquitecturas de red pueden variar significativamente en tamaño y complejid
 
 Una arquitectura de red es un marco estructurado que define cómo se diseñará, implementará y administrará una red de computadoras. Se adapta a las necesidades específicas de la organización y tiene en cuenta la topología, los componentes, los protocolos, la seguridad y otros aspectos esenciales para garantizar un funcionamiento eficiente y seguro de la red.
 
-### Vamos a pasar esto a un contexto de empresa:
+### Arquitectura de red en una empresa:
 
 Diseñar e implementar una arquitectura de red en una empresa es un proceso que requiere planificación cuidadosa y consideración de múltiples factores. Aquí hay un resumen de los pasos típicos involucrados en este proceso:
 
