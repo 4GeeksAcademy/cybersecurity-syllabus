@@ -15,4 +15,4 @@
 ## Dia 9
 
 - 📗 [Monitoreo y optimización del rendimiento del servidor](./monitoring-optimization.es.md)
-- 🧪 TODO (rosinni): [Simulacion de tráfico en el sitio Wordpress](./labs/traffic-simulation.es.md)
+- 🧪 [Simulacion de tráfico en el sitio Wordpress](https://github.com/breatheco-de/traffic-simulation-on-wordpress)
