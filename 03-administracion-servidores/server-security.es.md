@@ -28,20 +28,19 @@ Instalación de UFW:
 
 1. El primer paso será actualizar los paquetes del sistema con sudo apt update y sudo apt upgrade.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image77.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image77.png)
+![Configuración del firewall - actualizar paqetes](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-1.jpg)
 
 1. Una vez actualizamos, procedemos a instalar nuestro firewall con el comando **sudo apt install UFW**
+    ![Configuración del firewall - instalar nuestro firewall sudo apt install UFW](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-2.jpg)
+
 2. Validamos el status actual del firewall con el comando **sudo ufw status**
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image78.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image78.png)
+    ![Configuración del firewall - Verificar estado con sudo ufw status](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-3.jpg)
     
 3. Podemos ver que el firewall está inactivo o deshabilitado por lo que el siguiente paso será habilitarlo.
 4. Habilitamos el firewall con el comando **sudo ufw enable**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image79.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image79.png)
-    
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image80.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image80.png)
+    ![Configuración del firewall - comando sudo ufw enable](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-4.jpg)
 
 1. Una vez colocado el comando, revisamos nuevamente su status con sudo ufw status
 
@@ -50,41 +49,39 @@ Instalación de UFW:
 1. Configuramos las políticas en el firewall, por defecto, UFW tiene reglas para negar todas las conexiones entrantes y solo permite las conexiones salientes al servidor, por lo que nadie podría acceder al servidor y los servicios o aplicaciones en ejecución, estas reglas podemos conseguirlas dentro de la ruta.
 2. Para editar las reglas usamos los comandos **sudo ufw default deny incoming** y **sudo ufw default allow outgoing.**
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image81.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image81.png)
+    ![Configuración del firewall - Edita las reglas con sudo ufw default](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-5.jpg)
     
 > 👉 Cuando instalamos un paquete a través de nuestro gestor APT, se incluye un perfil de aplicación en el directorio /etc/ufw/applications.d el cual define el servicio y mantiene la configuración de UFW activa.
     
 3. Para enumerar todos los perfiles de aplicaciones usamos el comando **sudo ufw app list** 
+    
+    ![Configuración del firewall - comando sudo ufw app list](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-6.jpg)
+
 Si queremos obtener más información sobre un perfil en específico y las reglas definidas para este, usamos el comando **sudo ufw app info “Aplicación”.**
+
 4. El siguiente paso habilitar los servicios o puertos que queramos permitir en el firewall.
+    
+    ![Configuración del firewall - comando sudo ufw app info](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-7.jpg)
+
 - Si queremos permitir servicios como SSH para conectarnos de forma remota usamos el comando **sudo ufw allow ssh**, en el caso que queramos usar un puerto SSH personalizado, usamos el comando **sudo ufw allow puerto** y si deseamos bloquear una conexión ssh usamos el comando **`sudo ufw deny ssh/tcp`.**
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image82.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image82.png)
+    ![Configuración del firewall - comando sudo ufw deny ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-8.jpg)
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image83.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image83.png)
+    ![Configuración del firewall - sudo ufw allow puertoInicial](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-9.jpg)
+
+    ![Configuración del firewall - sudo ufw allow ssh](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-10.jpg)
     
-- Si queremos permitir el acceso de aplicaciones que unsam un rango de puertos, usamos el comando **`sudo ufw allow puertoInicial:puertoFinal.`**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image84.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image84.png)
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image85.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image85.png)
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image86.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image86.png)
+- Si queremos permitir el acceso de aplicaciones que usan un rango de puertos, usamos el comando **`sudo ufw allow puertoInicial:puertoFinal.`**
+
+    ![Configuración del firewall - sudo ufw allow range](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-11.jpg)
     
 1. También tenemos la opción de permitir acceso de una sola dirección IP de sistema, para ello ejecutamos el comando **sudo ufw allow from direccionIP,** también podemos especificar que queremos recibir el tráfico de un puerto en especifico **sudo ufw allow direccionIP to any port “numeroPuerto”**
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image87.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image87.png)
+    ![Configuración del firewall - sudo ufw allow direccionIP to any port #numeroPuerto](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-12.jpg)
     
 - Si queremos eliminar las reglas del firewall lo primero que tenemos que hacer es enumerar las reglas con el comando **sudo ufw status numbered** y luego eliminamos la regla usando el comando sudo ufw delete numeroRegla, otra forma sería con el comando **sudo ufw delete reglaUFW.**
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image88.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image88.png)
-    
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image89.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image89.png)
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image90.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image90.png)
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image91.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image91.png)
+    ![Configuración del firewall - sudo ufw status numbered](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-13.jpg)
 
 ## **Gestión de usuarios y autenticación segura**
 
@@ -105,19 +102,22 @@ Además, es importante asegurarse de que los servicios de autenticación, como S
 Para configurar nuestra clave pública y privada para autenticarnos dentro del servidor seguimos los siguientes pasos:
 
 1. Creamos nuestras claves pública y privada con el comando ssh-keygen, despues nos pedira la ruta donde almacenar nuestra clave SSH, podemos aceptar la ruta que nos da por defecto, despues pedira una frase de contraseña la cual agrega una capa de seguridad adicional para evitar el inicio de sesión de usuarios no autorizados.
+
+    ![Configuración del firewall - crear clave publica y privada con ssh](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-14.jpg)
+
 2. El próximo paso será copiar la clave pública al nuestro servidor, para ello usaremos la herramienta ssh-copy-id con el siguiente comando **`ssh-copy-id username@remote_host`.**
 3. Procedemos a conectarnos a nuestro usuario ssh con el comando **ssh usuario@hostname** una vez introducido el comando, pedirán la frase de autenticación, la autenticación basada en claves se realizó con éxito, podemos proteger más a nuestro sistema inhabilitando la autenticación con contraseña.
-4. Aunque tengamos la cuenta SSH configurada, el mecanismo de autenticación basado en contraseña sigue activo, por lo que vamos a hacer un cambio en el archivo ubicado en la ruta /etc/ssh/sshd_config con nuestro editor de código.
+
+    ![Configuración del firewall - conectarnos con nuestro ssh](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-15.jpg)
+
+    ![Configuración del firewall - ssh usuario](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-16.jpg)
+
+4. Aunque tengamos la cuenta SSH configurada, el mecanismo de autenticación basado en contraseña sigue activo, por lo que vamos a hacer un cambio en el archivo ubicado en la ruta **/etc/ssh/sshd_config** con nuestro editor de código.
 5. Ubicamos la directiva PasswordAuthentication y la activamos quitándole el #, nos aseguramos que el valor de la directiva sea no.
+    
+    ![Configuración del firewall - PasswordAuthentication](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-17.jpg)
+
 6. Reiniciamos el servicio ssh con el comando systemctl restart ssh
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image92.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image92.png)
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image93.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image93.png)
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image94.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image94.png)
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image95.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image95.png)
 
 ## **Configuración de registros de auditoría (logs) del sistema.**
 

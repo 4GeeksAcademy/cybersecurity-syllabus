@@ -1,7 +1,7 @@
 ---
 title: "Preparación del entorno de virtualización"
 subtitle: "Descubre cómo preparar tu entorno de virtualización en Linux: tipos, beneficios y paso a paso para instalar y configurar máquinas virtuales."
-tags: ["linux"]
+tags: ["linux", "virtualizacion"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
@@ -12,17 +12,17 @@ Gracias a la Virtualización, podemos dividir el servidor de correo en otros dos
 
 En la virtualización hay un software denominado hipervisor que separa los recursos físicos de los entornos virtuales que los necesitan, estos hipervisores pueden controlar un sistema operativo o instalarse directamente en el hardware. Estos toman los recursos físicos del hardware y los dividen de manera tal que los entornos virtuales puedan usarlos, estos entornos virtuales son denominados máquinas virtuales, una máquina virtual funciona como un archivo de datos único; por eso, tal como ocurre con cualquier archivo digital, es posible trasladarla de una computadora a otra, abrirla en cualquiera de ellas y tener la tranquilidad que funcionara de la misma forma.
 
-Veamos los tipos de virtualización que hay:
+## Tipos de virtualización que hay
 
-- **Virtualización de datos**
+### Virtualización de datos
 
 Todos los datos distribuidos en varias ubicaciones se pueden consolidar en una sola fuente, por eso la virtualización de datos posibilita que las empresas los traten como si fueran un suministro dinámico, ya que proporciona funciones de procesamiento que permiten reunir datos de varias fuentes e incorporar nuevas facilmente segun la necesidades del usuario
 
-- **Virtualización de servidores**
+### Virtualización de servidores
 
 La virtualización de un servidor, que implica dividirlo para que sus elementos puedan utilizarse para realizar varias tareas, permite ejecutar más funciones específicas.
 
-- **Virtualización de escritorios.**
+### Virtualización de escritorios
 
 En esta virtualización permite que un administrador central o una herramienta de administración automatizada implementen entornos simulados de escritorio en cientos de máquinas físicas al mismo tiempo. A diferencia de los entornos de escritorio tradicionales que se instalan, configuran y actualizan físicamente en cada máquina, la virtualización de escritorios permite que los administradores realicen múltiples configuraciones, actualizaciones y controles de seguridad en todos los escritorios virtuales.
 
@@ -31,6 +31,8 @@ Al utilizar la virtualización, es posible interactuar con cualquier recurso de 
 - Utilización eficiente de los recursos de hardware
 - Administración automatizada de las TI
 - Recuperación de desastres más rápido.
+
+## Elegir el sistema operativo para virtualizar
 
 Para preparar un entorno de virtualización necesitamos un software que nos permita la virtualización y el sistema operativo
 
@@ -42,7 +44,7 @@ Entre los software que nos pueden permitir hacer virtualización tenemos;
 
 En linux podemos conseguir los sistemas operativos como distribuciones, estas son sistemas operativos diseñados a partir del kernel de linux que admiten programas de usuarios, repositorios y bibliotecas, podemos conseguir distintas versiones de estos sistemas operativos orientado a un grupo de usuarios que lo usara.
 
-**Entre las distribuciones más usadas tenemos:**
+### Distribuciones de linux mas usadas
 
 - **Ubuntu**
 

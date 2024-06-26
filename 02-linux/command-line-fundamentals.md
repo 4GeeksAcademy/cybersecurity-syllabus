@@ -14,7 +14,9 @@ For years, the computing terminal has been a key tool for programmers and IT exp
 
 A command interpreter or Shell is a computer program capable of translating orders entered by users through a set of instructions provided by it directly to the core and the set of tools that make up the operating system. Orders are entered following the syntax incorporated by the interpreter within the environment provided by the terminal, using a prompt that waits for commands or instructions to be entered:
 
-`PROMPT>commandname argument/s /path/to/the/file/or/files`
+```bash
+PROMPT>commandname argument/s /path/to/the/file/or/files
+```
 
 When entering the order with the 'Enter' key, the interpreter analyzes the sequence of characters entered and, if the syntax of the order is correct, it executes it, using the functions offered by the operating system or the program it represents, whether it be a bank data manager, an FTP session, ssh, etc. The response to the user is displayed on the monitor or in the background. Interaction is interactive, that is, the user and the machine communicate successively.
 
@@ -99,7 +101,7 @@ Permissions can be:
 2. The group member's user permissions being the second 3 letters
 3. The other group members' user permissions being the last 3 letters
 
-```jsx
+```bash
 rw-r--r-- 1 user group 0 Sep 17 10:53 file
 ```
 
@@ -107,7 +109,7 @@ This description indicates that it is a file as it has a (-) at the beginning.
 
 For the owner user, there will only be read and write permission, and for the rest of the group and system users, there will only be read permission; they will not be able to write or execute the file.
 
-```jsx
+```bash
 drwxr-xr-x 1 user user 24 Sep 15 09:04 network
 ```
 
@@ -137,7 +139,7 @@ We can change all the permissions with the command chmod followed by the octets 
 
 This is summarized as granting read permission to the owner user, reading and executing permissions to the rest of the group users, and read and write permission to the rest of the system users.
 
-```jsx
+```bash
 r---wxrwx 1 user group 0 Sep 17 10:53 file
 ```
 

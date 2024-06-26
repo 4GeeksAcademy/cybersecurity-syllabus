@@ -6,9 +6,9 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image98.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image98.png)
+![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image99.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image99.png)
+![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)
 
 ## **Planificación de respaldos y políticas de retención.**
 

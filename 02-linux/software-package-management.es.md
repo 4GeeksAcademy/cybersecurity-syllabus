@@ -1,20 +1,40 @@
 ---
 title: "Gestión de paquetes y software"
-subtitle: "Descubre cómo gestionar paquetes y software en Linux: instalación, actualización, desinstalación y gestión de dependencias de manera eficiente y segura."
+subtitle: "Domina gestión de paquetes en Linux: instala, actualiza y elimina software con facilidad. Aprende a configurar repositorios y mantén tu sistema seguro."
 tags: ["linux"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-Teniendo claro que es Linux y que se constituye en dos partes, con su kernel siendo el núcleo del sistema y la otra parte como el resto de los programas que lo componen para hacer un uso más específico, estos programas se distribuyen usando paquetes, estos paquete sirven para entregar el software y su mantenimiento.
+Hemos hablado previamente sobre el uso de gestores de paquetes y cómo nos pueden ayudar a instalar aplicaciones y actualizar software, recordemos que en el entorno de los servidores Linux, los gestores de paquetes son herramientas fundamentales para la gestión eficiente del software ya que simplifican la instalación, actualización y eliminación de paquetes de software en un servidor, lo que resulta esencial para mantener el sistema actualizado y seguro.
 
-Un paquete en linux consiste en una colección de archivos que permiten la instalación de un programa y sus tareas relacionadas, como la búsqueda de dependencias, instalaciones previas, etc. Dentro de este paquete de programa tenemos todos los archivos requeridos para ser instalado y posteriormente ejecutado. Además se incluye un pequeño archivo que proporciona metadatos importantes sobre el programa.
+## Gestor de paquetes apt
 
-La razón principal para distribuir software en base a paquetes es simple. Cuando hablamos de GNU/linux nos referimos a un ecosistema de distribuciones que cuenta con notables diferencias entre si. Esto no hace posible “garantizar” que un software funcione correctamente en una computadora determinada. El uso de paquetes resuelve este problema de interoperabilidad gracias al archivo de metadatos antes mencionado que actúa como un manifiesto de dependencias que deben cumplirse para que el software que está empaquetado se ejecute correctamente en un ordenador determinado.
+Uno de los gestores de paquetes más populares en servidores Linux es `apt-get`, utilizado en distribuciones basadas en Debian y Ubuntu. Con apt-get, los administradores de sistemas pueden instalar software fácilmente utilizando comandos simples. Por ejemplo, para instalar un paquete llamado "nombre_paquete", solo necesitas ejecutar el comando:
 
-Los gestores de paquetes nos pueden ayudar con el proceso de instalación de programas en linux, estas utilidades están presente en cada distribución, y se encargan de automatizar el proceso, también de listar paquetes disponibles en el repositorio y mostrar información sobre sus dependencias.
+```bash
+sudo apt-get install <nombre_paquete>
+```
 
-Los sistemas comunes de administración de paquetes incluyen:
+El gestor de paquetes se encargará de descargar e instalar el paquete, así como de resolver las dependencias necesarias.
+
+## Gestor de paquetes YUM
+
+Otro gestor de paquetes común en servidores Linux es yum, ya que es utilizado en distribuciones como Red Hat y CentOS. Al igual que apt-get, yum permite instalar, actualizar y eliminar paquetes de software de manera sencilla. Para instalar un paquete con yum, puedes ejecutar el comando:
+
+```bash
+sudo yum install <nombre_paquete>
+```
+
+Yum también se encargará de manejar las dependencias y garantizar una instalación exitosa.
+
+## Otros gestores de paquetes para linux
+
+Además de apt-get y yum, existen otros gestores de paquetes populares en servidores Linux, como zypper (utilizado en openSUSE), dnf (utilizado en Fedora). 
+
+Cada gestor de paquetes tiene su propia sintaxis y comandos específicos, pero todos comparten el objetivo de simplificar la gestión del software en un servidor Linux.
+
+Debajo encontraremos una lista con otros manejadores de paquetes:
 
 - **DPKG**: el administrador de paquetes base para distribuciones basadas en Debian.
 - **Apt-get**: una interfaz que hace más amigable y añade funciones para el sistema DPKG, que se encuentra en las distribuciones basadas en Debian.
@@ -23,77 +43,87 @@ Los sistemas comunes de administración de paquetes incluyen:
 - **RPM**: el administrador de paquetes base que se encuentra en las distribuciones basadas en Red Hat, como Red Hat Enterprise Linux, CentOS y Fedora.
 - **Yum**: un front-end para el sistema RPM, que se encuentra en las distribuciones basadas en Red Hat.
 - **Pacman**: el administrador de paquetes para distribuciones basadas en Arch Linux.
+  
 
-## Instalación y actualización de software
+## Mantener tu software actualizado
 
-Hoy en dia es mucho más cómodo instalar y administrar las aplicaciones mediante el uso de ia interfaz gráfica que presentan las distribuciones basadas en Debian o Ubuntu, a pesar de eso, nos puede resultar mucho mejor hacer todas las actualizaciones e instalaciones del sistema con el gestor de paquetes ya que es mucho más potente.
+Una gran cantidad de las vulnerabilidades de un computador ocurren debido a software y paquetes desactualizados. Cuando una vulnerabilidad en un paquete es detectada, los desarrolladores proceden a corregirla y luego proceden a publicar una nueva versión del paquete. Es importante estar al dia.
 
-Para hacer las instalaciones debemos acceder al terminal con elevación de priviliegios usando el comando sudo.
+Una de las ventajas clave de utilizar gestores de paquetes en servidores Linux es la capacidad de mantener el software actualizado de manera sencilla. Con un simple comando, como `sudo apt-get update` en apt-get o `sudo yum update" en yum, puedes verificar si hay actualizaciones disponibles para los paquetes instalados en el servidor. Luego, puedes ejecutar "sudo apt-get upgrade" o "sudo yum upgrade" para instalar las actualizaciones. Esto garantiza que el software esté actualizado y protegido contra vulnerabilidades conocidas.
 
-Para la explicación usaremos el gesto apt
+Además, los gestores de paquetes en servidores Linux también permiten la eliminación de software de manera eficiente. Si ya no necesitas un paquete, puedes utilizar el comando correspondiente para desinstalarlo. Por ejemplo, "sudo apt-get remove nombre_paquete" en apt-get o "sudo yum remove nombre_paquete" en yum. Esto asegura una limpieza adecuada del sistema y evita la acumulación de software innecesario.
 
-```markdown
-**sudo apt [parámetros] [nombre del programa]**
+## Utilizando el manejador apt
+
+Para la explicación usaremos el gestor de paquetes `apt` siempre con el siguiente formato para los commandos:
+
+```bash
+sudo apt <parámetros> <nombre del paquete or programa>
 ```
 
-el caso  que queramos hacer una actualización del sistema, debemos primero hacer una actualización del índice de paquetes de nuestro sistema con cada uno de los repositorios a los que está conectado, para ello usaremos el comando:
+En nuestro servidor ubuntu probaremos nuestro gestor de paquete de software actualizando e instalando un software.
 
-```markdown
-**sudo apt update**
-```
+1. Primero usaremos el comando `sudo apt update` que se encargara de traer todas las aplicaciones que tengamos en el sistema.
 
-Una vez actualizados los repositorios de sistemas procederemos a instalar las actualizaciones.
+![apt-update](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-apt-update-69.jpg?raw=true) 
 
-```markdown
-**sudo apt upgrade**
-```
+1. Una vez actualizado los paquetes, procedemos instalar las actualizaciones con el comando `sudo apt upgrade`.
 
-La instalación de paquetes en distribuciones puede ser bastante sencilla, en el caso de apt usamos el siguiente comando:
+![apt upgrade](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-70.jpg?raw=true)
 
-```markdown
-**sudo apt install [nombre del paquete]**
-```
+Para la instalación de software instalamos [samba](https://ubuntu.com/tutorials/install-and-configure-samba#1-overview), que es un software que implementa el protocolo SMB y permite compartir archivos e impresoras con cualquier otro dispositivo que esté en la red.
+
+![apt install samba](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-71.jpg?raw=true)
+
+![apt install samba terminal output](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-72.jpg?raw=true)
+
+> 🤓 Como práctica les dejamos que investiguen como configurar el servicio samba
+
+### Instalar varios paquetes a la vez
 
 También podemos concatenar varios paquetes para hacer una instalación de una sola vez
 
-```markdown
-**sudo apt install -y gimp terminator**
+```bash
+sudo apt install -y <paquete1> <paquete2>
 ```
 
-Otro gestor de paquete que podemos usar para la distribuciones debian (.deb) es dpkg.
+## Búsqueda y eliminación de paquetes.
 
-Para usar gestor usamos el siguiente comando:
+La búsqueda y eliminación de paquetes en Linux es una tarea común para los administradores de sistemas ya que a veces, es necesario encontrar un paquete específico o eliminar uno que ya no se necesita, afortunadamente, Linux cuenta con herramientas poderosas que facilitan estas tareas.
 
-```markdown
-**dpkg -i nombre_paquete.deb**
-```
+Para buscar paquetes en Linux, puedes utilizar el gestor de paquetes específico de tu distribución. Por ejemplo, en distribuciones basadas en Debian y Ubuntu, como Ubuntu puedes utilizar el comando "apt-cache search término_de_búsqueda" con el gestor de paquetes apt-get. Esto buscará en los repositorios disponibles y mostrará una lista de paquetes que coincidan con el término de búsqueda. Puedes refinar la búsqueda utilizando expresiones regulares o palabras clave más específicas.
 
-Este proceso lo podemos simplificar en dos pasos, haciendo un desempaquetado del programa `.deb` y luego configurandolo
+![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image73.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image73.png)
 
-```markdown
-**dpkg –unpack nombre_paquete.deb**
-```
 
-```markdown
-**dpkg -configure nombre_paquete**
-```
+En distribuciones como Red Hat y CentOS, que utilizan el gestor de paquetes yum, puedes utilizar el comando "yum search término_de_búsqueda" para buscar paquetes. Al igual que con apt-get, esto mostrará una lista de paquetes que coincidan con el término de búsqueda en los repositorios disponibles.
 
-## Desinstalación de paquetes y gestión de dependencias
+![apt-cache search mysql](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-73.jpg?raw=true)
 
-La desinstalación de paquetes y la gestión de dependencias son dos aspectos fundamentales en el sistema operativo Linux. Estas funciones permiten a los usuarios instalar y desinstalar software de manera eficiente y asegurarse de que todas las dependencias necesarias estén satisfechas.
-Cuando instalamos un paquete en Linux, es posible que este dependa de otros paquetes para funcionar correctamente. Estas dependencias son componentes adicionales que el software necesita para ejecutarse sin problemas. Por ejemplo, un programa de edición de imágenes puede depender de una biblioteca gráfica específica para mostrar correctamente las imágenes.
+Además de los gestores de paquetes, también puedes utilizar herramientas adicionales para buscar paquetes en Linux. Por ejemplo, puedes utilizar el comando "dpkg -l | grep término_de_búsqueda" en distribuciones basadas en Debian para buscar paquetes instalados localmente. Esto mostrará una lista de paquetes que coincidan con el término de búsqueda.
 
-La gestión de dependencias en Linux se encarga de resolver estas relaciones y asegurarse de que todas las dependencias estén presentes antes de instalar un paquete. Esto evita problemas de compatibilidad y garantiza que el software funcione correctamente.
-Cuando deseamos desinstalar un paquete en Linux, es importante tener en cuenta las dependencias que este paquete puede tener. Si desinstalamos un paquete sin tener en cuenta sus dependencias, podríamos dejar el sistema en un estado inestable o incompleto
+![dpkg grep mysql](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-75.jpg?raw=true)
 
-Afortunadamente, la mayoría de los gestores de paquetes en Linux, como apt-get en Debian y Ubuntu, o yum en Red Hat y CentOS, se encargan automáticamente de gestionar las dependencias al instalar o desinstalar paquetes. Estos gestores de paquetes resuelven las dependencias y eliminan los paquetes no utilizados de manera segura.
+Una vez que hayas encontrado el paquete que deseas eliminar, puedes utilizar el gestor de paquetes correspondiente para eliminarlo. En distribuciones basadas en Debian y Ubuntu, puedes utilizar el comando "sudo apt-get remove nombre_paquete" con apt-get. Esto eliminará el paquete y todos sus archivos asociados del sistema.
 
-Para desinstalar un paquete en Linux, podemos utilizar el comando específico del gestor de paquetes correspondiente. Por ejemplo, en sistemas basados en Debian y Ubuntu, podemos usar el comando "apt-get remove" seguido del nombre del paquete que deseamos desinstalar. Esto eliminará el paquete y todas sus dependencias no utilizadas.
-Es importante destacar que, en algunos casos, es posible que desinstalar un paquete pueda afectar a otros programas que dependen de él. En estos casos, el gestor de paquetes nos advertirá sobre las consecuencias antes de proceder con la desinstalación.
+En distribuciones como Red Hat y CentOS, puedes utilizar el comando "sudo yum remove nombre_paquete" con yum para eliminar un paquete. Al igual que con apt-get, esto eliminará el paquete y sus archivos asociados.
 
-Si queremos desinstalar los paquetes, usamos la `flag -r`
+Si deseas eliminar completamente un paquete, incluidos los archivos de configuración, puedes utilizar el comando "sudo apt-get purge nombre_paquete" en distribuciones basadas en Debian y Ubuntu, o "sudo yum remove nombre_paquete" en distribuciones como Red Hat y CentOS.
 
-```markdown
-**dpkg -r nombre_programa**
-```
+Es importante tener en cuenta que al eliminar un paquete, es posible que se eliminen también otros paquetes que dependan de él. El gestor de paquetes te informará sobre los cambios que se realizarán antes de proceder con la eliminación.
 
+## Configuración de repositorios de software
+
+Saber cómo configurar los repositorios de software es otro de los conocimientos que deben tener los administradores de sistema ya que recordemos que los repositorios son lugares centralizados donde se almacenan los paquetes de software, y configurarlos correctamente permite acceder a una amplia variedad de software de manera fácil y segura.
+
+En sistemas operativos como Linux, los repositorios de software son especialmente importantes, estos repositorios contienen paquetes de software precompilados y listos para ser instalados en el sistema. Al configurar los repositorios adecuados, los administradores de sistemas pueden acceder a una gran cantidad de software y mantenerlo actualizado de manera sencilla.
+
+La configuración de repositorios varía según la distribución de Linux que estés utilizando. Por ejemplo, en distribuciones basadas en Debian y Ubuntu, la configuración de repositorios se realiza a través del archivo `/etc/apt/sources.list`. Este archivo contiene las URL de los repositorios y los componentes que se deben habilitar, como "main", "universe", "restricted" y "multiverse". Al editar este archivo y agregar o modificar las URL de los repositorios, puedes configurar los repositorios de software que deseas utilizar.
+
+![archivo source.list para configurar paquetes](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-76.jpg?raw=true)
+
+En distribuciones como Red Hat y CentOS, la configuración de repositorios se realiza a través de archivos ubicados en el directorio "/etc/yum.repos.d/". Estos archivos contienen información sobre los repositorios, como la URL base, los componentes habilitados y las claves de autenticación. Al crear o modificar estos archivos, puedes configurar los repositorios de software que deseas utilizar en tu sistema.
+
+Es importante tener en cuenta que al configurar repositorios de software, es fundamental utilizar fuentes confiables y seguras. Los repositorios oficiales de las distribuciones son generalmente los más confiables, ya que son mantenidos por los desarrolladores y se someten a pruebas rigurosas. Sin embargo, también existen repositorios de terceros que pueden ofrecer software adicional. Al utilizar repositorios de terceros, es importante investigar y asegurarse de que sean confiables y estén bien mantenidos.
+
+Una vez que hayas configurado los repositorios de software, puedes utilizar los gestores de paquetes correspondientes, como apt-get o yum, para acceder a los paquetes disponibles en los repositorios. Estos gestores de paquetes se encargará de descargar e instalar el software de manera eficiente, resolviendo automáticamente las dependencias necesarias.

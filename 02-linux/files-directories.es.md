@@ -72,7 +72,7 @@ Previamente hablamos sobre los permisos en Linux, recordemos cuales son:
 
 > 💡 Si queremos ver los permisos que tiene un usuario dentro de un archivo, lo podemos ver con el comando `ls -l`, nos mostrará los distintos tipos de permisos que tiene el directorio o el archivo.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image36.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image36.png)
+![permisos de usuario dentro de un archivo](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image36.jpg?raw=true)
 
 En la siguiente imagen podemos ver como tenemos 5 directorios en los cuales los propietarios de los grupos se separan por los distintos grupos. Donde el usuario propietarios tiene privilegios completos, el grupo propietario tiene permisos de lectura y escritura y los otros usuarios solo tienen permisos de lectura
 
@@ -80,7 +80,7 @@ Si queremos cambiar los permisos dentro de un archivo o directorio, lo hacemos m
 
 Existen dos formas de asignar permisos:
 
-### Mediante letras usando primero los roles de usuarios del sistema como:
+### Mediante letras usando primero los roles de usuarios del sistema como
 
 - `u`: usuario
 - `g`: grupo
@@ -99,13 +99,11 @@ Y después colocamos los permisos que queremos asignar
 2. `w:` Escritura: Da al usuario la posibilidad de modificar el archivo sobre el cual se le han dado permisos.
 3. `x`: ejecución: Otorga la posibilidad de ejecutar un archivo.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image37.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image37.png)
+![otorgando persmisos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image37.jpg?raw=true)
 
-En el directorio IT tenemos un archivo llamado [script.sh](http://script.sh/), el cual tiene permisos de lectura pero no de escritura ni de ejecucion para el grupo propietario , esto lo podemos cambiar usando el comando chmod y asignando los permisos
+Según esta imagen tenemos un directorio IT y adentro hay un archivo llamado `script.sh`, el cual tiene permisos de lectura pero no de escritura ni de ejecucion para el grupo propietario , esto lo podemos cambiar usando el comando `chmod` y asignando los permisos mediante números basados en e formato octal de permisos de linux
 
-### Mediante números basados en el octal
-
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image38.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image38.png)
+![como ver permisos en linux](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image38.jpg?raw=true)
 
 - Lectura (r), Escritura (w) Ejecución (x) rwx = 7
 - Lectura (r), Escritura (w) rw- =6
@@ -117,7 +115,7 @@ En el directorio IT tenemos un archivo llamado [script.sh](http://script.sh/), e
 
 Podemos realizar el mismo ejercicio anterior, esta vez cambiaremos los permisos de forma octal
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image39.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image39.png)
+![permisos de forma octal](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image39.jpg?raw=true)
 
 - Otro comando que aprenderemos es el `mkdir` el cual nos permitirá crear un directorio
 - `chown` nos permitirá cambiar el propietario del archivo o directorio
@@ -127,13 +125,13 @@ Podemos realizar el mismo ejercicio anterior, esta vez cambiaremos los permisos 
 
 Una tarea común que nos conseguiremos en la administración de sistemas es la de la búsqueda y filtrado de archivos, a medida que los archivos en un servidor aumenta, se hace más esencial poder encontrar rápidamente los archivos que necesitamos. A través de la terminal tenemos varios comandos que nos pueden ayudar a hacer búsquedas y filtrados eficientes
 
-- `find`
+### Comando `find`
 
 Este comando es uno de los más usados para buscar archivos y directorios en función de diferentes criterios como el nombre del archivo, tamaño, fecha de última modificación entre otros.
 
 Por ejemplo, necesitamos encontrar todos los archivos .txt dentro de una ruta, hacemos el siguiente comando.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image40.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image40.png)
+![comando find linux](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-commando-find-image40.png?raw=true)
 
 > Otras formas de buscar con el comando find son:
 
@@ -141,14 +139,14 @@ Por ejemplo, necesitamos encontrar todos los archivos .txt dentro de una ruta, h
 - Por el tamaño del archivo.
 - Por el usuario o grupo propietario.
 
-- `Grep`
+### Comando `Grep`
 
 Esta es una herramienta útil para filtrar archivos en Linux es el comando "grep". A diferencia de "find", "grep" se utiliza para buscar contenido dentro de archivos en lugar de buscar archivos en sí. Puedes buscar palabras o patrones específicos en uno o varios archivos utilizando el siguiente comando:
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image41.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image41.png)
+![commando grep](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/commando-grep-image41.jpg?raw=true)
 
 En este ejemplo, buscamos si dentro del archivo [script.sh](http://script.sh/) hay una palabra prueba. el cual nos la devuelve en el resultado.
 
-- `locate`
+### Comando `locate`
 
 Este comando utiliza una base de datos para realizar búsquedas rápidas de archivos en todo el sistema. Este comando se especialmente útil cuando necesitas buscar archivos de forma frecuente y en grandes volúmen

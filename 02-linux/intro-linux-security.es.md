@@ -6,8 +6,6 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## Conceptos básicos de seguridad en linux
-
 La seguridad es un aspecto fundamental en cualquier sistema operativo, y a medida que más personas y organizaciones utilizan Linux, es importante comprender los conceptos básicos de seguridad para proteger nuestros sistemas y datos.
 
 - **Usuarios y permisos**: En Linux, cada usuario tiene su propia cuenta y conjunto de permisos. Es importante crear cuentas de usuario separadas para cada persona que acceda al sistema y asignar los permisos adecuados. Los permisos determinan qué acciones pueden realizar los usuarios en archivos y directorios, como leer, escribir o ejecutar.
@@ -57,9 +55,10 @@ Para verificar si iptables ya está instalado en tu sistema, puedes ejecutar el 
 iptables --version
 ```
 
-> Si iptables está instalado, verás la versión del software. Si no está instalado, puedes pasar al siguiente paso.
+> 💡 Si iptables está instalado, verás la versión del software. Si no está instalado, puedes pasar al siguiente paso.
 
 2.  **Instalar iptables**
+
 La forma de instalar iptables puede variar según la distribución de Linux que estés utilizando. Aquí te mostraré cómo hacerlo en algunas distribuciones populares:
 - Ubuntu o Debian:
 
@@ -75,6 +74,7 @@ sudo yum install iptables
 ```
 
 3.  Configurar iptables
+
 Una vez que iptables esté instalado, puedes comenzar a configurarlo según tus necesidades. iptables utiliza reglas para controlar el tráfico de red, por lo que deberás definir esas reglas.
 Puedes crear un archivo de configuración para iptables utilizando un editor de texto, como nano o vi. Por ejemplo:
 

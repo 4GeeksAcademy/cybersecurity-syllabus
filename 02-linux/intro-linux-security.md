@@ -77,6 +77,7 @@ sudo yum install iptables
 ```
 
 3.  Configure iptables
+
 Once iptables is installed, you can start configuring it according to your needs. iptables uses rules to control network traffic, so you will need to define those rules.
 You can create a configuration file for iptables using a text editor, such as nano or vi. For example:
 
