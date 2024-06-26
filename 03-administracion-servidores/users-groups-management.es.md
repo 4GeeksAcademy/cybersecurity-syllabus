@@ -14,27 +14,27 @@ Como administradores de sistemas, saber como crear y gestionar las cuentas de lo
 
 - Para crear a un usuario, usaremos el comando **“useradd”** seguido del nombre de usuario, una vez ingresado el comando se pedirá que ingrese una contraseña para el usuario
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image20.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image20.png)
+![Creación y gestión de cuentas de usuario - crear usuario](../assets/users-groups-management/administracion-basica-de-usuarios-imagen-1.jpg)
 
 - Si queremos cambiar la contraseña lo hacemos con el comando **passwd** seguido del usuario de la contraseña que queremos cambiar
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image21.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image21.png)
+![Creación y gestión de cuentas de usuario - comando password](../assets/users-groups-management/administracion-basica-de-usuarios-imagen-2.jpg)
 
 - Una forma de facilitar la administración de permisos de directorios y archivos son a través de los grupos, podemos crear grupos con el comando **groupadd** y asignar al usuario en el grupo con el comando **usermod** junto a las flags **a** (para agregar a grupo) y **G** para agregar a grupo secundario, si queremos ver los grupos al que pertenece el usuario en el sistema usamos el comando groups.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image22.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image22.png)
+![Creación y gestión de cuentas de usuario - crear grupos](../assets/users-groups-management/administracion-basica-de-usuarios-imagen-3.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image23.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image23.png)
+![Creación y gestión de cuentas de usuario - comando usermod](../assets/users-groups-management/administracion-basica-de-usuarios-imagen-4.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image24.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image24.png)
+![Creación y gestión de cuentas de usuario - usuario adm](../assets/users-groups-management/administracion-basica-de-usuarios-imagen-5.jpg)
 
 - Si queremos ver los grupos que existen en el sistema podemos conseguir en la ruta /etc/group
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image25.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image25.png)
+![Creación y gestión de cuentas de usuario - grupos existentes](../assets/users-groups-management/administracion-basica-de-usuarios-imagen-6.jpg)
 
 - Cuando necesitemos eliminar un usuario del sistema lo haremos con el comando userdel seguido del nombre del usuario.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image26.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image26.png)
+![Creación y gestión de cuentas de usuario - comando userdel](../assets/users-groups-management/administracion-basica-de-usuarios-imagen-7.jpg)
 
 **Es recomendable gestionar y crear los usuarios usando los privilegios de usuario sudo y no desde el usuario root ya que a la hora de un error desde el usuario root puede ser fatal para el sistema.**
 
@@ -48,7 +48,7 @@ Cuando manejamos un servidor una de las mejores prácticas para proteger la info
 
 En linux, lectura (r), escritura (w) y ejecución (x). Estos permisos se asignan a tres grupos de usuarios: el propietario del archivo, el grupo al que pertenece el archivo y otros usuarios. podemos ver estos permisos en los directorios o archivos con el comando: ***`ls -l`***
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image27.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image27.png)
+![Asignación de permisos y privilegios - comando ls](../assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-1.jpg "comando ls -l nos permite visualizar permisos en los directorios o archivos")
 
 En la siguiente imagen podemos ver como tenemos un archivo llamado `text.txt` el cual cuenta con sus permisos agrupado en tres grupos:
 
@@ -65,11 +65,11 @@ Con el comando `chmod` podemos cambiar y otorgar permisos a los usuarios sobre u
 - Si queremos dar permiso a un usuario (u), a un grupo (g) o a otros usuarios del sistema (o) colocamos la flag seguido de un + y el permiso que vayamos a asignar.
 - En este caso, gestionamos permisos de lectura, escritura y ejecución solo para el propietario del archivo (u).
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image28.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image28.png)
+![Asignación de permisos y privilegios - Dar permisos a un usuario](../assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-2.jpg "Dar permisos a un usuario")
 
 > 💡 Podemos generar permisos esenciales con los bits de ejecución setuid (suid), el bit de ejecución setgid (sgid) y el bit de ejecución sticky. El bit suid permite que un archivo se ejecute con los privilegios del propietario, mientras que el bit sgid permite que un archivo se ejecute con los privilegios del grupo. El bit sticky se utiliza principalmente en directorios para evitar que los usuarios eliminen archivos de otros usuarios
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image29.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image29.png)
+![Asignación de permisos y privilegios - bits de ejecución setuid (suid) ](../assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-3.jpg "bits de ejecución setuid (suid)")
 
 En este caso, generamos permisos de suid de privilegio de usuario y grupo al archivo `text.txt`
 
@@ -88,7 +88,7 @@ Otra manera de gestionar los permisos es asignarlos con la cantidad de bits de l
     - Ejecución (x) –x = 1
 2. Colocaremos la cantidad de bits que los permisos que queramos otorgar de acuerdo a la posición de usuario, grupo y otros.
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image30.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image30.png)
+    ![Asignación de permisos y privilegios - Cantidad de bits de los permisos que otorgamos al usuario, al grupo u otros ](../assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-4.jpg "Cantidad de bits de los permisos que otorgamos al usuario, al grupo u otros")
     
 > 💡 La asignación de permisos y privilegios en linux es esencial para así garantizar al seguridad y el control adecuado sobre los recursos del sistema
     
@@ -100,20 +100,20 @@ Para ello tenemos comandos que nos pueden ayudar tales como **`groupadd`** para 
 
 Para este ejercicio hemos creado un grupo llamado departamentomarketing, ya una vez creado podremos agregar al usuario al grupo con el comando adduser seguido del nombre de usuario y el grupo al cual queremos que pertenezca.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image31.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image31.png)
+![Configuración de grupos y asignación de usuarios - comando groupadd para agregar grupos](../assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-1.jpg "groupadd para agregar grupos")
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image32.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image32.png)
+![Configuración de grupos y asignación de usuarios - Adding user usuario1 to group departamentomarketing](../assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-2.jpg "El usuario1 pasará a ser del grupo de departamentomarketing")
 
 En este comando hicimos que el usuario1 pasará a ser del grupo de departamentomarketing.
 
 Si queremos remover a un usuario del grupo lo podemos lograr con el comando deluser seguido del nombre del usuario y el grupo del cual queremos removerlo.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image33.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image33.png)
+![Configuración de grupos y asignación de usuarios - Removing user usuario1 to group departamentomarketing](../assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-3.jpg "Eliminar usuario1 del grupo de departamentomarketing")
 
 Una forma de ver los grupos en el sistema es accediendo a la ruta /etc/group usando el comando cat. Ahí podemos ver todos los grupos que tenemos seguido de un número o identificador de grupo (gid). Por lo general, al momento de crear grupos, el sistema le asigna un gid de 1000 en adelante. Los gid menores a 100 son reservados para uso del sistema y sus grupos especiales.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image34.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image34.png)
+![Configuración de grupos y asignación de usuarios - Comando CAT para visualizar los grupos en el sistema](../assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-4.jpg "Comando CAT para visualizar los grupos en el sistema")
 
 Si queremos modificar el gid o el nombre del grupo podemos hacerlo a través del comando groupmod seguido del nuevo gid o el nombre y el gid o nombre anterior.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image35.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image35.png)
+![Configuración de grupos y asignación de usuarios - modificar el gid o el nombre del grupo con el comando groupmod](../assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-5.jpg "modificar el gid o el nombre del grupo con el comando groupmod 'nombre nuevo o gid' + 'gid o nombre anterior' ")
