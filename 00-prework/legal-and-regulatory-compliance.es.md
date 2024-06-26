@@ -10,6 +10,8 @@ La ciberseguridad es una preocupación global, y diferentes países han establec
 
 Esta lección proporciona una visión general de los requisitos legales y normativos internacionales clave en ciberseguridad.
 
+![International Legal and Regulatory Compliance in Cybersecurity](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/c2db4e08e3925be660df889f520d7474c7818123/assets/cybersecurity-international-landscape.webp)
+
 ## Principales Regulaciones Internacionales
 
 ### Reglamento General de Protección de Datos (GDPR)

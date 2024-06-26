@@ -10,6 +10,8 @@ Cybersecurity is a global concern, and different countries have established vari
 
 This lesson provides an overview of key international legal and regulatory requirements in cybersecurity.
 
+![International Legal and Regulatory Compliance in Cybersecurity](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/c2db4e08e3925be660df889f520d7474c7818123/assets/cybersecurity-international-landscape.webp)
+
 ## Key International Regulations
 
 ### General Data Protection Regulation (GDPR)
