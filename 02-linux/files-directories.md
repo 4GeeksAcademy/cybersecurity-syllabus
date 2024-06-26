@@ -6,7 +6,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Navegación y manipulación de archivos y directorios.**
+## Navegación y manipulación de archivos y directorios.
 
 Para un administrador de sistema, tener conocimiento de navegación y manipulación de archivos y directorios es una parte fundamental del trabajo, en linux todo esto lo podemos lograr desde la misma línea de comandos, a través de ciertos comandos y herramientas, podemos navegar por el sistema de archivos, crear, copiar mover y eliminar archivos y directorios.
 
@@ -42,12 +42,9 @@ Dentro de los comandos básicos tenemos:
 | mkdir |  | Crea un directorio |
 |  |  |  |
 
-<aside>
-⚠️ Es importante tener precaución al utilizar comandos de manipulación de archivos y directorios, ya que las acciones son irreversibles y pueden afectar los datos de manera permanente. Siempre asegúrate de tener copias de seguridad actualizadas y de verificar dos veces antes de ejecutar comandos que puedan tener consecuencias no deseadas.
+> ⚠️ Es importante tener precaución al utilizar comandos de manipulación de archivos y directorios, ya que las acciones son irreversibles y pueden afectar los datos de manera permanente. Siempre asegúrate de tener copias de seguridad actualizadas y de verificar dos veces antes de ejecutar comandos que puedan tener consecuencias no deseadas.
 
-</aside>
-
-## **Configuración de permisos y atributos de archivos**
+## Configuración de permisos y atributos de archivos
 
 Recordemos que los permisos son un conjunto de reglas y configuraciones que determinan qué tipo de acciones puede realizar un usuario y grupos sobre un archivo o directorio dentro del sistema. Estos son necesarios ya que permiten aumentar la seguridad del sistema y tener un mayor control de acceso. Linux es un sistema operativo multiusuario, por lo que es normal acceder de forma simultánea con varios usuarios registrados localmente en nuestro sistema, por lo tanto, como administradores de sistema, dentro de nuestras labores debe estar realizar una revisión periódica de los permisos existentes.
 
@@ -55,8 +52,8 @@ Imaginemos que tenemos un servidor FTP y diferentes usuarios y grupos, si todos 
 
 Entre las distintas cuentas que podemos tener dentro del sistema Linux tenemos;
 
-- Usuario con mayor privilegio:  **Root**, generalmente se le asigna este usuario al administrador de sistema
-- *Usuario normal*: ls
+- Usuario con mayor privilegio: `Root`, generalmente se le asigna este usuario al administrador de sistema
+- *Usuario normal*: `ls`
 
 Previamente hablamos sobre los permisos en Linux, recordemos cuales son:
 
@@ -73,10 +70,7 @@ Previamente hablamos sobre los permisos en Linux, recordemos cuales son:
 - **Limitar el acceso a recursos sensibles**: Es recomendable restringir el acceso a recursos sensibles, como archivos de configuración o directorios críticos del sistema, solo a usuarios o grupos autorizados. Esto se puede lograr mediante la asignación adecuada de permisos y el uso de herramientas como SELinux (Security-Enhanced Linux) para aplicar políticas de seguridad adicionales.
 - **Monitorizar y auditar los cambios:** Es importante establecer mecanismos de monitorización y auditoría para realizar un seguimiento de los cambios en los permisos de los recursos. Esto ayuda a identificar posibles infracciones de seguridad o cambios no autorizados, permitiendo tomar acciones correctivas de manera oportuna.
 
-<aside>
-💡 Si queremos ver los permisos que tiene un usuario dentro de un archivo, lo podemos ver con el comando ls -l, nos mostrará los distintos tipos de permisos que tiene el directorio o el archivo.
-
-</aside>
+> 💡 Si queremos ver los permisos que tiene un usuario dentro de un archivo, lo podemos ver con el comando `ls -l`, nos mostrará los distintos tipos de permisos que tiene el directorio o el archivo.
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image36.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image36.png)
 
@@ -88,22 +82,22 @@ Existen dos formas de asignar permisos:
 
 ### Mediante letras usando primero los roles de usuarios del sistema como:
 
-- **u**: usuario
-- **g**: grupo
-- **o**: otros
-- **a:** todos (all), si necesitas aplicar el mismo permiso a usuario, grupos y otros, usa «a» para ahorrar tiempo.
+- `u`: usuario
+- `g`: grupo
+- `o`: otros
+- `a:` todos (all), si necesitas aplicar el mismo permiso a usuario, grupos y otros, usa «a» para ahorrar tiempo.
 
 Luego agregamos si queremos añadir o quitar permisos
 
-- **+:** añadir permisos
-- **:** quitar permisos
-- **=:** especifica los permisos fijados.
+- `+:` añadir permisos
+- `:` quitar permisos
+- `=:` especifica los permisos fijados.
 
 Y después colocamos los permisos que queremos asignar
 
-1. **r:** lectura: Permite a los usuarios la lectura de un determinado archivo o directorio.
-2. **w:** Escritura: Da al usuario la posibilidad de modificar el archivo sobre el cual se le han dado permisos.
-3. **x**: ejecución: Otorga la posibilidad de ejecutar un archivo.
+1. `r:` lectura: Permite a los usuarios la lectura de un determinado archivo o directorio.
+2. `w:` Escritura: Da al usuario la posibilidad de modificar el archivo sobre el cual se le han dado permisos.
+3. `x`: ejecución: Otorga la posibilidad de ejecutar un archivo.
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image37.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image37.png)
 
@@ -129,7 +123,7 @@ Podemos realizar el mismo ejercicio anterior, esta vez cambiaremos los permisos 
 - **chown** nos permitirá cambiar el propietario del archivo o directorio
 - chgrp nos permitirá cambiar el grupo propietario del archivo o directorio
 
-## **Búsqueda y filtrado de archivos**
+## Búsqueda y filtrado de archivos
 
 Una tarea común que nos conseguiremos en la administración de sistemas es la de la búsqueda y filtrado de archivos, a medida que los archivos en un servidor aumenta, se hace más esencial poder encontrar rápidamente los archivos que necesitamos. A través de la terminal tenemos varios comandos que nos pueden ayudar a hacer búsquedas y filtrados eficientes
 

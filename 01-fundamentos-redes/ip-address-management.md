@@ -159,14 +159,6 @@ Subnet 3 192.168.0.129 - 192.168.0.190 Network address 192.168.0.128 Broadcast 1
 
 Subnet 4 192.168.0.193 - 192.168.0.254 Network address 192.168.0.192 Broadcast 192.168.0.255
 
-<aside>
-🤓 **Exercise:
-Build the subnet table for an address:**
-
-- IP address 192.190.0.0
-- Subnet mask 255.255.255./32
-</aside>
-
 ## Manual and automatic IP address configuration**
 
 The IP address is the way to identify a device within a network. The IP address of a device can be configured dynamically/automatically through the DHCP protocol and manually.

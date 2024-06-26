@@ -52,10 +52,9 @@ Acabas de ser contratado por la start-up D´sistemas cta para ser su administrad
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image19.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image19.png)
 
-<aside>
-💭 Una vez terminada la instalacion tu jefe se sienta contigo y te hace ciertas preguntas saber que tanto aprendiste en este proceso.
+#### Reflexiona
 
-</aside>
+💭 Una vez terminada la instalacion tu jefe se sienta contigo y te hace ciertas preguntas saber que tanto aprendiste en este proceso.
 
 - ¿Por que se elegio el tipo de instalacion?
 - De tener un proxy para el servidor, ¿se puede agregar al momento de instalar?

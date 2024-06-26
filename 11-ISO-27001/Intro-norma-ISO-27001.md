@@ -10,8 +10,7 @@ Esta normativa fue creada, desarrollada y publicada en 1995 como una norma BS 77
 - Cambio de dominios dentro de los controles establecidos en el anexo A, a 14 y numero de controles a 114
 - Aparece el análisis de riesgo como punto de partida para determinar los controles necesarios.
 
-<aside>
-💡 Para el año 2022 la ISO 27001 tuvo una nueva modificación las cuales son por las cuales nos regimos en la actualidad. Esta nueva versión presenta algunos cambios importantes tanto en la cantidad como en la forma de clasificar los controles de seguridad. Además, contamos con dos nuevos aspectos: Los temas los cuales nos dará como referencia una nueva forma de categorizar los controles de seguridad, además de que hubo una reducción de los controles de 114 a 93, los cuales están divididos en:
+> 💡 Para el año 2022 la ISO 27001 tuvo una nueva modificación las cuales son por las cuales nos regimos en la actualidad. Esta nueva versión presenta algunos cambios importantes tanto en la cantidad como en la forma de clasificar los controles de seguridad. Además, contamos con dos nuevos aspectos: Los temas los cuales nos dará como referencia una nueva forma de categorizar los controles de seguridad, además de que hubo una reducción de los controles de 114 a 93, los cuales están divididos en:
 
 </aside>
 
@@ -34,8 +33,7 @@ Hoy en día la ISO 27001 se encuentra estructurada de esta manera:
 2. Referencias normativas
 3. Términos y definiciones
 
-<aside>
-👉 En caso de estos tres puntos, no son de carácter obligatorio, pero sí pueden ser buenas practicas
+> 👉 En caso de estos tres puntos, no son de carácter obligatorio, pero sí pueden ser buenas practicas
 
 </aside>
 
@@ -47,8 +45,7 @@ Hoy en día la ISO 27001 se encuentra estructurada de esta manera:
 6. Medición, evaluación y desempeño
 7. Mejora continua
 
-<aside>
-💡 Estos 6 puntos se deben aplicar de forma obligatoria para poder cumplir con la certificación del estándar
+> 💡 Estos 6 puntos se deben aplicar de forma obligatoria para poder cumplir con la certificación del estándar
 
 </aside>
 
@@ -72,8 +69,7 @@ Ahora, cuando hablamos de los beneficios que nos puede brindar una implementaci�
 
 Otro beneficio que podemos nombrar es la reducción de riesgos y perdidas que puedan ocurrir por una amenaza a la información de la organización. Los estándares y controles que podamos tener dentro de estas normativas nos ayudaran a poder anticipar y mitigar las acciones mediante
 
-<aside>
-📖 Y para concluir, dentro de la estructura de la normativa tenemos que se fomenta la mejora continua del SGSI dentro de evaluaciones y revisiones continuas, con ello podremos garantizar que la seguridad de la información pueda mejorar de manera constante para así hacer frente a nuevos tipos de amenazas
+> 📖 Y para concluir, dentro de la estructura de la normativa tenemos que se fomenta la mejora continua del SGSI dentro de evaluaciones y revisiones continuas, con ello podremos garantizar que la seguridad de la información pueda mejorar de manera constante para así hacer frente a nuevos tipos de amenazas
 
 </aside>
 

@@ -20,10 +20,7 @@ Otra herramienta comúnmente utilizada para la configuración de firewall en Lin
 
 Además de permitir o bloquear puertos específicos, tanto UFW como firewalld permiten configurar reglas más avanzadas, como el filtrado por dirección IP, el enmascaramiento de direcciones o la limitación de conexiones simultáneas. Estas características adicionales te permiten personalizar aún más la configuración de tu firewall según tus necesidades específicas.
 
-<aside>
-📖 Es importante tener en cuenta que, al configurar un firewall, es fundamental comprender las implicaciones de las reglas establecidas. Configurar un firewall de manera incorrecta puede bloquear conexiones legítimas o permitir el acceso no autorizado. Por lo tanto, es recomendable tener un buen conocimiento de las reglas y realizar pruebas exhaustivas antes de implementar un firewall en un entorno de producción.
-
-</aside>
+> 📖 Es importante tener en cuenta que, al configurar un firewall, es fundamental comprender las implicaciones de las reglas establecidas. Configurar un firewall de manera incorrecta puede bloquear conexiones legítimas o permitir el acceso no autorizado. Por lo tanto, es recomendable tener un buen conocimiento de las reglas y realizar pruebas exhaustivas antes de implementar un firewall en un entorno de producción.
 
 Para esta práctica configuraremos ambos, UFW:
 
@@ -55,10 +52,7 @@ Instalación de UFW:
     
     ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image81.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image81.png)
     
-    <aside>
-    👉 Cuando instalamos un paquete a través de nuestro gestor APT, se incluye un perfil de aplicación en el directorio /etc/ufw/applications.d el cual define el servicio y mantiene la configuración de UFW activa.
-    
-    </aside>
+> 👉 Cuando instalamos un paquete a través de nuestro gestor APT, se incluye un perfil de aplicación en el directorio /etc/ufw/applications.d el cual define el servicio y mantiene la configuración de UFW activa.
     
 3. Para enumerar todos los perfiles de aplicaciones usamos el comando **sudo ufw app list** 
 Si queremos obtener más información sobre un perfil en específico y las reglas definidas para este, usamos el comando **sudo ufw app info “Aplicación”.**
@@ -106,10 +100,7 @@ La autenticación segura es otro aspecto crucial en la gestión de usuarios en s
 
 Además, es importante asegurarse de que los servicios de autenticación, como SSH (Secure Shell), estén configurados correctamente. Puedes modificar la configuración de SSH en el archivo "/etc/ssh/sshd_config" para permitir sólo conexiones seguras y deshabilitar el acceso de root remoto.
 
-<aside>
-👉 Otra práctica recomendada es utilizar claves de autenticación en lugar de contraseñas para acceder a los servidores. Esto implica generar un par de claves pública y privada, donde la clave privada se almacena en el cliente y la clave pública se agrega al archivo "~/.ssh/authorized_keys" en el servidor. Esto permite una autenticación sin contraseña y es más seguro que el uso de contraseñas.
-
-</aside>
+> 👉 Otra práctica recomendada es utilizar claves de autenticación en lugar de contraseñas para acceder a los servidores. Esto implica generar un par de claves pública y privada, donde la clave privada se almacena en el cliente y la clave pública se agrega al archivo "~/.ssh/authorized_keys" en el servidor. Esto permite una autenticación sin contraseña y es más seguro que el uso de contraseñas.
 
 Para configurar nuestra clave pública y privada para autenticarnos dentro del servidor seguimos los siguientes pasos:
 
@@ -138,9 +129,6 @@ La configuración de los registros de auditoría se realiza a través del archiv
 
 En estos archivos de configuración, puedes especificar qué eventos deseas registrar y dónde deseas almacenar los registros. Puedes definir reglas para filtrar eventos específicos, establecer niveles de registro (como información, advertencia o error) y redirigir los registros a archivos específicos o enviarlos a un servidor de registro centralizado.
 
-<aside>
-⚠️ Es importante tener en cuenta que la configuración de los registros de auditoría debe equilibrar la cantidad de información registrada con la capacidad de almacenamiento disponible. Registrar demasiados eventos puede llenar rápidamente el espacio en disco y dificultar el análisis de los registros. Por otro lado, registrar muy pocos eventos puede dejar pasar información importante para la detección de problemas o actividades sospechosas.
-
-</aside>
+> ⚠️ Es importante tener en cuenta que la configuración de los registros de auditoría debe equilibrar la cantidad de información registrada con la capacidad de almacenamiento disponible. Registrar demasiados eventos puede llenar rápidamente el espacio en disco y dificultar el análisis de los registros. Por otro lado, registrar muy pocos eventos puede dejar pasar información importante para la detección de problemas o actividades sospechosas.
 
 Además de la configuración de los registros de auditoría, es importante monitorear y analizar regularmente los registros para identificar posibles problemas o actividades maliciosas. Puedes utilizar herramientas como "grep" o "awk" para buscar eventos específicos en los registros, o utilizar herramientas de monitoreo y análisis de registros más avanzadas, como "Logstash" o "Splunk".

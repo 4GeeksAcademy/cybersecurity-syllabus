@@ -8,8 +8,7 @@ En la identificación de amenazas tomaremos en cuenta el contexto en el que oper
 
 Ya sabiendo cuales son los activos mas importantes para la organización haremos un análisis completo y detallado para identificar las amenazas que podrían explotar vulnerabilidades en los activos de información, además de valorar todas las consecuencias que podamos tener si estos riesgos se llegaran a materializar, y valorar las posibilidades reales de que este escenario pueda ocurrir.
 
-<aside>
-💡 Este paso es muy importante ya que con esta evaluación podremos aumentar la probabilidad de identificar los potenciales riesgos y asignar recursos para poder abordar los riesgos que tengamos en las áreas con mayor prioridad. Un Ejemplo que podemos tomar de una identificación y evaluación de riesgo puede ser:
+> 💡 Este paso es muy importante ya que con esta evaluación podremos aumentar la probabilidad de identificar los potenciales riesgos y asignar recursos para poder abordar los riesgos que tengamos en las áreas con mayor prioridad. Un Ejemplo que podemos tomar de una identificación y evaluación de riesgo puede ser:
 
 </aside>
 
@@ -90,8 +89,7 @@ En el tratamiento de este riesgo debemos contar siempre con planes y actividades
 
 El tener un plan de tratamiento de riesgos resulta beneficioso para nuestra organización a que nos puede proporcionar un enfoque proactivo para gestionar los riesgos de seguridad de información, y así mejorar la capacidad de recuperación y mejora de la organización frente a posibles amenazas, además de cumplir con los requisitos de la ISO 27001 para el establecimiento de un SGSI efectivo.
 
-<aside>
-📖 Un ejemplo practico de como es un plan de tratamiento de riesgo puede ser bajo el siguiente enunciado
+> 📖 Un ejemplo practico de como es un plan de tratamiento de riesgo puede ser bajo el siguiente enunciado
 
 </aside>
 

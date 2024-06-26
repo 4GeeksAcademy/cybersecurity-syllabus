@@ -10,8 +10,7 @@ La organización debe evaluar y actualizar su contexto organizacional, considera
 
 Dentro de la norma ISO 27001 menciona la aplicación de controles como parte de las actividades de la mejora continua. Una vez que se haya implementado el SGSI, la aplicación de nuevos controles sólo tiene sentido en base a consideraciones de coste/beneficio, si se detectan cambios en las actividades, en el contexto y los objetivos de la empresa o en base a la experiencia y la detección de situaciones que excedan los niveles de exposición y aceptación de los riesgos asumibles por la alta dirección.
 
-<aside>
-📖 En resumen, la actualización y mejora continua del SGSI según la ISO 27001 son esenciales para garantizar la relevancia y la eficacia a lo largo del tiempo. Una mentalidad de mejora constante no solo cumple con los requisitos normativos, sino que también fortalece la capacidad de la organización para adaptarse a un entorno de seguridad en constante evolución.
+> 📖 En resumen, la actualización y mejora continua del SGSI según la ISO 27001 son esenciales para garantizar la relevancia y la eficacia a lo largo del tiempo. Una mentalidad de mejora constante no solo cumple con los requisitos normativos, sino que también fortalece la capacidad de la organización para adaptarse a un entorno de seguridad en constante evolución.
 
 </aside>
 

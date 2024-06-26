@@ -67,10 +67,7 @@ Al seleccionar un servicio cloud, busque un proveedor que implemente una fuerte 
 - **Vigilancia de protección:** Cualquier proveedor que valga la pena contará con herramientas avanzadas de monitoreo para identificar cualquier ataque, mal uso o mal funcionamiento del servicio. Tomarán medidas rápidas y decisivas para hacer frente a cualquier incidente, manteniéndole informado del resultado.
 - **Gestión de incidentes:** Su proveedor ideal tendrá un proceso de gestión de incidentes planificado de antemano para los tipos comunes de ataques. Estarán listos para desplegar este proceso en respuesta a cualquier ataque.
 
-<aside>
-👉 Habrá una ruta de contacto clara para informar de cualquier incidente, con un plazo y un formato aceptables.
-
-</aside>
+> 👉 Habrá una ruta de contacto clara para informar de cualquier incidente, con un plazo y un formato aceptables.
 
 ### **9. Seguridad del personal**
 

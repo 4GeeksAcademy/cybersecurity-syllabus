@@ -44,8 +44,7 @@ Al lograr implementar todos estos procesos podemos asegurar el anticipar y abord
 
 De acuerdo a nuestro resultado de la gestión de riesgo podremos obtener un análisis de impacto de negocio, este análisis se centra en comprender las consecuencias potenciales de la pérdida de confidencialidad, integridad y disponibilidad de la información en el funcionamiento normal de la organización y ayuda a priorizar los activos críticos y a determinar las medidas necesarias para su protección.
 
-<aside>
-👉 Este análisis no solo evalúa el impacto técnico, sino también el impacto operativo y financiero de la pérdida de información. Al comprender cómo la pérdida de ciertos activos puede afectar a las operaciones diarias y a la reputación de la organización, debemos asignar recursos de manera más efectiva para proteger lo más crítico.
+> 👉 Este análisis no solo evalúa el impacto técnico, sino también el impacto operativo y financiero de la pérdida de información. Al comprender cómo la pérdida de ciertos activos puede afectar a las operaciones diarias y a la reputación de la organización, debemos asignar recursos de manera más efectiva para proteger lo más crítico.
 
 </aside>
 
@@ -71,8 +70,7 @@ La fase de Verificación es una etapa crítica del ciclo PDCA, ya que se realiza
 
 Esta es la fase final del ciclo PDCA y destaca la esencia de la mejora continua. Basándose en los resultados de las auditorías y revisiones, la organización toma medidas correctivas o preventivas. Estas medidas pueden implicar ajustes en los procesos, la actualización de políticas y procedimientos, o la implementación de nuevas medidas de seguridad.
 
-<aside>
-📖 Este Ciclo nos permite poder controlar las operaciones de una manera mas eficiente tanto nuestros procesos internos como externos, así reduciendo los errores y mejorando la toma de decisiones dentro de nuestra implementación del ISO 27001. Desde en análisis de riesgo hasta las auditorias que nos podrían ayudar a determinar que nuestro SGSI esta funcionando de una manera óptima y eficiente
+> 📖 Este Ciclo nos permite poder controlar las operaciones de una manera mas eficiente tanto nuestros procesos internos como externos, así reduciendo los errores y mejorando la toma de decisiones dentro de nuestra implementación del ISO 27001. Desde en análisis de riesgo hasta las auditorias que nos podrían ayudar a determinar que nuestro SGSI esta funcionando de una manera óptima y eficiente
 
 </aside>
 

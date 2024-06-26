@@ -153,13 +153,10 @@ Se pueden prevenir ataques de ransomware siguiendo buenas prácticas de segurida
 
 Dentro de la seguridad de punto final hay otra estrategia de seguridad de datos importante: la **prevención de pérdida de datos (DLP)**. Esencialmente, esto abarca las medidas que se toman para asegurar que no se envían datos confidenciales desde la red, ya sea a propósito, o por accidente. **Puede implementarse software DLP para supervisar la red y asegurarse de que los usuarios finales autorizados no estén copiando o compartiendo información privada o datos que no deberían**.
 
-<aside>
-💡 **LIMITAR EL ACCESO A LA INFORMACIÓN**
-Es importante que **se proteja la información limitando su disponibilidad**. Algunas de las acciones más comunes es **cifrar la información** para que todo aquel que pretenda acceder a **datos privados** no pueda hacerlo sin conocer la **clave** de descifrado.
-
-En el caso de las empresas para la continuidad del negocio, se deberá **delimitar el acceso** a datos sensibles de la empresa a los trabajadores.
-
-</aside>
+> 💡 **LIMITAR EL ACCESO A LA INFORMACIÓN**
+> Es importante que **se proteja la información limitando su disponibilidad**. Algunas de las acciones más comunes es **cifrar la información** para que todo aquel que pretenda acceder a **datos privados** no pueda hacerlo sin conocer la **clave** de descifrado.
+>
+> En el caso de las empresas para la continuidad del negocio, se deberá **delimitar el acceso** a datos sensibles de la empresa a los trabajadores.
 
 ### **Contraseñas seguras y dinámicas**
 

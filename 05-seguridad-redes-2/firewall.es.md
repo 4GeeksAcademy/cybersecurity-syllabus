@@ -68,10 +68,7 @@ Los **campos de las cabeceras que se usan como criterios de filtrado** son:
 - El tipo de protocolo o número de protocolo, parte de la cabecera de IP, que indica, el tipo de mensaje IP: si es ICMP, OSPF, TCP, UDP, etc.
 - Una serie de opciones de la cabecera TCP, como los bits de sincronización, de final, de ACK, etc.
 
-<aside>
-📖 Para ser efectivo, un filtro debe permitir la especificación de puertos, ya que algunos servidores de aplicaciones IP utilizan números de puerto normalizados, mientras que los clientes utilizan números de puerto al azar por encima de 1023. Es necesario contar con operadores relacionales para implementar relaciones como “mayor que” o “igual a” y los filtros deben permitir el filtrado de paquetes según la interfaz de origen o destino. Pueden ser un software con funcionalidades avanzadas como IPTables o ser parte de un encaminador. La tecnología es simple y transparente para los usuarios.
-
-</aside>
+> 📖 Para ser efectivo, un filtro debe permitir la especificación de puertos, ya que algunos servidores de aplicaciones IP utilizan números de puerto normalizados, mientras que los clientes utilizan números de puerto al azar por encima de 1023. Es necesario contar con operadores relacionales para implementar relaciones como “mayor que” o “igual a” y los filtros deben permitir el filtrado de paquetes según la interfaz de origen o destino. Pueden ser un software con funcionalidades avanzadas como IPTables o ser parte de un encaminador. La tecnología es simple y transparente para los usuarios.
 
 ![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image8.jpeg](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image8.jpeg)
 

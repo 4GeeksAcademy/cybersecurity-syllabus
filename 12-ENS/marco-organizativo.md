@@ -31,8 +31,7 @@ Algunos ejemplos que podemos usar para referenciar las políticas de seguridad p
 - Controlar el acceso físico a las instalaciones y a áreas donde se almacena información sensible.
 - Desarrollar un plan de recuperación ante desastres para garantizar la continuidad del negocio.
 
-<aside>
-💡 En algún momento durante nuestra carrera como analista de ciberseguridad podremos toparnos con las políticas de seguridad de una entidad para hacer una actualización o una revisión del cumplimento de estas políticas, por lo que es necesario que este documento está accesible a todos los miembros de la organización y redactado de forma sencilla y comprensible, sin profundizar en detalles técnicos.
+> 💡 En algún momento durante nuestra carrera como analista de ciberseguridad podremos toparnos con las políticas de seguridad de una entidad para hacer una actualización o una revisión del cumplimento de estas políticas, por lo que es necesario que este documento está accesible a todos los miembros de la organización y redactado de forma sencilla y comprensible, sin profundizar en detalles técnicos.
 
 </aside>
 
@@ -58,8 +57,7 @@ Lo establecido por el ENS dentro de los documentos donde estén estos procedimie
 2. Quién debe hacer cada tarea.
 3. Cómo identificar y reportar comportamientos anómalos.
 
-<aside>
-💡 Es importante tener planteado todos estos procedimientos ya que en una entidad no todo el personal puede tener la misma información, y es necesario la asignación de tareas para tener un funcionamiento fluido dentro del trabajo. También es importante tener claro cómo se deben identificar comportamientos anómalos que puedan significar un potencial incidente de seguridad, y así reportar y elevar el caso al personal encargado.
+> 💡 Es importante tener planteado todos estos procedimientos ya que en una entidad no todo el personal puede tener la misma información, y es necesario la asignación de tareas para tener un funcionamiento fluido dentro del trabajo. También es importante tener claro cómo se deben identificar comportamientos anómalos que puedan significar un potencial incidente de seguridad, y así reportar y elevar el caso al personal encargado.
 
 </aside>
 

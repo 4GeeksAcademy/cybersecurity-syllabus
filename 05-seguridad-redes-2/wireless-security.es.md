@@ -19,8 +19,7 @@ A continuación se incluyen varios pasos sencillos que puedes seguir para proteg
 
 - **Evita la utilización de la contraseña predeterminada:** Es muy fácil para un hacker descubrir cuál es la contraseña predeterminada del fabricante de tu router inalámbrico y utilizarla para acceder a la red inalámbrica. Por lo tanto, es conveniente que cambies la contraseña de administrador de tu router inalámbrico. A la hora de establecer la contraseña nueva, trata de elegir una serie compleja de números y letras, e intenta evitar la utilización de una contraseña que pueda adivinarse fácilmente.
 
-<aside>
-⚠️ **No permitas que el dispositivo inalámbrico indique su presencia - d**esactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea.
+> ⚠️ **No permitas que el dispositivo inalámbrico indique su presencia - d**esactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea.
 
 </aside>
 
@@ -152,10 +151,7 @@ Aquí tiene las normas de seguridad clasificadas de mejor a peor. Siga las recom
 
 Incluso **algo de seguridad es mejor que nada**, así que asegúrese de implementar una de estas opciones, aunque la mejor no esté disponible para usted. Utilice una contraseña larga y compleja y cámbiela con regularidad para mantener una conexión WEP o WPA un poco más segura de lo que sería de otro modo.
 
-<aside>
-👉 Si quiere comprar un nuevo router o conectarse a Internet con un nuevo proveedor, compruebe si puede conseguir un router con certificación Wi-Fi WPA3. No debe preocuparse de periodos de transición ni problemas de incompatibilidad: estará todo listo para usar la opción más capaz y segura una vez que WPA3 esté disponible para su red.
-
-</aside>
+> 👉 Si quiere comprar un nuevo router o conectarse a Internet con un nuevo proveedor, compruebe si puede conseguir un router con certificación Wi-Fi WPA3. No debe preocuparse de periodos de transición ni problemas de incompatibilidad: estará todo listo para usar la opción más capaz y segura una vez que WPA3 esté disponible para su red.
 
 Esperemos que esa inestimable cajita haga lo que debe y la eliminación de los virus del router se convierta en algo del pasado. Y tal vez ninguno de nosotros tenga que preocuparse nunca más de cómo arreglar una Wi-Fi que no funciona.
 
@@ -195,10 +191,7 @@ Otro punto de vulnerabilidad es el uso del protocolo de seguridad WEP (Wired Equ
 
 Las redes Wi-Fi también pueden ser vulnerables debido a configuraciones incorrectas del Access point. Esto incluye el uso de configuraciones predeterminadas que son conocidas por los atacantes, como nombres de red (SSID) o contraseñas preestablecidas que no se han cambiado. Además, no mantener actualizado el firmware del Access point puede dejar la puerta abierta a vulnerabilidades conocidas que los fabricantes corrigen en las actualizaciones.
 
-<aside>
-📖 Estas vulnerabilidades son puntos débiles que los ciberdelincuentes pueden aprovechar para comprometer la seguridad de tu red Wi-Fi. Para protegerse adecuadamente, es esencial reconocer estas vulnerabilidades y tomar medidas para corregirlas, como el uso de contraseñas fuertes y únicas, la actualización del protocolo de seguridad a WPA3 y la configuración adecuada del Access point o router para minimizar riesgos. Con un enfoque proactivo en la seguridad, puedes fortalecer la integridad de tu red Wi-Fi y garantizar una experiencia de navegación más segura. Si no aplicas medidas a tu red inalámbrica la misma podría ser una **red Wi-Fi no segura.**
-
-</aside>
+> 📖 Estas vulnerabilidades son puntos débiles que los ciberdelincuentes pueden aprovechar para comprometer la seguridad de tu red Wi-Fi. Para protegerse adecuadamente, es esencial reconocer estas vulnerabilidades y tomar medidas para corregirlas, como el uso de contraseñas fuertes y únicas, la actualización del protocolo de seguridad a WPA3 y la configuración adecuada del Access point o router para minimizar riesgos. Con un enfoque proactivo en la seguridad, puedes fortalecer la integridad de tu red Wi-Fi y garantizar una experiencia de navegación más segura. Si no aplicas medidas a tu red inalámbrica la misma podría ser una **red Wi-Fi no segura.**
 
 ### **Consejos para proteger tu red inalámbrica**
 
@@ -220,10 +213,7 @@ A pesar de su creciente importancia, muchos usuarios apenas prestan atención a 
 
 Normalmente no se tratará de espías o *hackers* malvados como los que aparecen en las películas que tratan por todos los medios de aprovecharse de nuestra WiFi para cometer delitos, aunque haberlos haylos. Lo habitual es que sea algún vecino el que intenta colarse en nuestra red para ahorrase la conexión, haciéndonos de paso responsables en primera instancia de las páginas que visite.
 
-<aside>
-📖 ¿Cómo evitar estas intrusiones no deseadas en nuestra WiFi? Pues aunque la seguridad total no existe (para eso tendríamos que apagar la red, claro), podemos seguir una serie de consejos y trucos, tanto sencillos como algo más complejos, que pasamos a explicar a continuación.
-
-</aside>
+> 📖 ¿Cómo evitar estas intrusiones no deseadas en nuestra WiFi? Pues aunque la seguridad total no existe (para eso tendríamos que apagar la red, claro), podemos seguir una serie de consejos y trucos, tanto sencillos como algo más complejos, que pasamos a explicar a continuación.
 
 ## **Blinda el acceso a tu router**
 

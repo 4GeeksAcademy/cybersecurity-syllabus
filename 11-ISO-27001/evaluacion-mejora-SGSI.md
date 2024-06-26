@@ -22,8 +22,7 @@ La alta dirección debe revisar regularmente los resultados de la monitorizació
 
 Cuando se identifican desviaciones o incumplimientos durante la monitorización, se deben implementar acciones correctivas y preventivas. Estas medidas ayudan a mejorar continuamente el SGSI y a evitar la repetición de problemas.
 
-<aside>
-💭 En la realidad es muy difícil hacer un monitoreo completo de todas las actividades de la organización, por lo que tendremos que decir que actividades necesitan monitoreo para así asegurar que los procesos del SGSI y la seguridad la información estén operando efectivamente, esto ocurre ya que la cantidad de data e información que podemos generar en esta evaluación es tanta que podría ser imposible analizarla toda efectivamente.
+> 💭 En la realidad es muy difícil hacer un monitoreo completo de todas las actividades de la organización, por lo que tendremos que decir que actividades necesitan monitoreo para así asegurar que los procesos del SGSI y la seguridad la información estén operando efectivamente, esto ocurre ya que la cantidad de data e información que podemos generar en esta evaluación es tanta que podría ser imposible analizarla toda efectivamente.
 
 </aside>
 

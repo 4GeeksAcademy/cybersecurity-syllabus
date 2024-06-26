@@ -71,10 +71,7 @@ Los entornos de la nube que se utilizan en la actualidad son:
 - **Entornos de varias nubes**, que incluyen el uso de dos o más servicios en la nube de proveedores independientes. Estos pueden ser cualquier combinación de servicios públicos o privados en la nube.
 - **Entornos** de **nubes híbridas**, que consisten en el uso de una combinación de nube privada de terceros o centro de datos de nubes privadas in situ con una o más nubes públicas.
 
-<aside>
-💡 Al enfocarlo desde esta perspectiva, podemos entender que la seguridad basada en la nube puede ser un poco diferente según el tipo de espacio de nubes en el que trabajen los usuarios. No obstante, los efectos se sienten tanto en los clientes individuales como en las empresas.
-
-</aside>
+> 💡 Al enfocarlo desde esta perspectiva, podemos entender que la seguridad basada en la nube puede ser un poco diferente según el tipo de espacio de nubes en el que trabajen los usuarios. No obstante, los efectos se sienten tanto en los clientes individuales como en las empresas.
 
 ## **¿Cómo funciona la seguridad en la nube?**
 
@@ -499,10 +496,7 @@ Otra práctica para mantener y mejorar la Cloud Security es la [prueba de vulner
 
 [Los cortafuegos de última generación](https://digitalguardian.com/blog/what-next-generation-firewall-learn-about-differences-between-ngfw-and-traditional-firewalls) son otra pieza del rompecabezas de Cloud Security. Protegen sus cargas de trabajo usando la funcionalidad de los cortafuegos tradicionales y las nuevas características avanzadas. La protección de los cortafuegos tradicionales incluye filtrado de paquetes, inspección de estado, proxy, bloqueo de IP, bloqueo de nombres de dominio y bloqueo de puertos.
 
-<aside>
-👉 Los cortafuegos de última generación añaden un sistema de prevención de intrusiones, inspección profunda de paquetes, control de aplicaciones y análisis del tráfico cifrado para proporcionar una detección y prevención integral de amenazas.
-
-</aside>
+> 👉 Los cortafuegos de última generación añaden un sistema de prevención de intrusiones, inspección profunda de paquetes, control de aplicaciones y análisis del tráfico cifrado para proporcionar una detección y prevención integral de amenazas.
 
 ![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image38.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image38.png)
 

@@ -23,10 +23,7 @@ Cuando tu sitio web tenga un certificado SSL, el navegador mostrará el icono de
 
 Recomendamos **utilizar SFTP** (Secure File Transfer Protocol) en lugar de FTP (File Transfer Protocol). SFTP cifra todos los datos, incluidas las credenciales de acceso y los archivos transferidos, durante la transmisión. Esto evita que los atacantes escuchen, manipulen o roben tus datos. SFTP también utiliza un puerto diferente de FTP, por lo que es más difícil para los atacantes atacar las conexiones SFTP.
 
-<aside>
-💡 **Consejo profesional:** Considera la posibilidad de transferir tus archivos utilizando clientes SFTP como **FileZilla**.
-
-</aside>
+> 💡 **Consejo profesional:** Considera la posibilidad de transferir tus archivos utilizando clientes SFTP como **FileZilla**.
 
 **4. Eliminar aplicaciones no utilizadas**
 

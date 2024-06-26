@@ -10,8 +10,7 @@ Esta alta gerencia debe demostrar su liderazgo y compromiso con respecto al Sist
 
 1. Garantizar que las políticas de seguridad de la información y los objetivos de la seguridad de información que estén establecidos y sean compatibles con la dirección estratégica de la organización
 
-<aside>
-👉 Es decir, establecer las políticas y objetivos de seguridad que estén dentro de la visión y misión de la dirección estratégica de la organización
+> 👉 Es decir, establecer las políticas y objetivos de seguridad que estén dentro de la visión y misión de la dirección estratégica de la organización
 
 </aside>
 
@@ -26,8 +25,7 @@ Esta alta gerencia debe demostrar su liderazgo y compromiso con respecto al Sist
 7. Promover la mejora continua
 8. Apoyar otros roles de gestión relevantes para demostrar su liderazgo y compromiso conforme aplique a sus áreas de responsabilidad.
 
-<aside>
-💡 También debería ser responsabilidad de la alta dirección la asignación de roles y responsabilidades especificas dentro del SGSI, esto puede incluir designar a una persona responsable por el SGSI el cual tendrá como función coordinar y supervisar la implementación, también es necesario identificar roles clave como el propietario de la información y el responsable de la gestión de riesgos.
+> 💡 También debería ser responsabilidad de la alta dirección la asignación de roles y responsabilidades especificas dentro del SGSI, esto puede incluir designar a una persona responsable por el SGSI el cual tendrá como función coordinar y supervisar la implementación, también es necesario identificar roles clave como el propietario de la información y el responsable de la gestión de riesgos.
 
 </aside>
 

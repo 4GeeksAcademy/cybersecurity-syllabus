@@ -37,10 +37,7 @@ La gestión de incidentes de seguridad se basa en diferentes pasos, que incluyen
 - **4. Cierre el incidente:** una vez que se resuelve el incidente, se registra toda la información generada durante el tratamiento y, finalmente, se notifica a la persona que envió primero la notificación del incidente que se cerró.
 - **5. Base de conocimiento:** toda la información generada durante el tratamiento del incidente es crítica para posibles incidentes similares en el futuro, así como para recopilar evidencia. Imagine que un usuario actualiza un sistema y luego de esto, el sistema se cierra (involuntariamente). Luego, el usuario abre un incidente y el incidente se resuelve y se cierra. La información generada para resolver el incidente se registra, por lo que si el problema vuelve a ocurrir en el futuro, simplemente pueden referirse a la base de conocimiento; Tendrán la solución perfecta sin perder tiempo.
 
-<aside>
-👉 En este sentido la norma establece una serie de controles empezando por la organización que debemos llevar a cabo para acometer esta tarea
-
-</aside>
+> 👉 En este sentido la norma establece una serie de controles empezando por la organización que debemos llevar a cabo para acometer esta tarea
 
 ## **Controles para la gestión de incidetes de la seguridad de la información**
 
@@ -88,9 +85,8 @@ Un evento en la seguridad de la información no significa necesariamente una imp
 ## **Amenaza para la Seguridad de la información**
 
 > *Una amenaza se refiere a cualquier cosa que tenga el potencial de causar daños graves a un sistema o activo de información. Una amenaza es algo que puede suceder o no, pero tiene el potencial de causar un daño grave.*
-> 
-
-*Las amenazas pueden provocar ataques a sistemas informáticos, redes y más.*
+>
+> *Las amenazas pueden provocar ataques a sistemas informáticos, redes y más.*
 
 ### **Vulnerabilidad en la Seguridad de la información**
 
@@ -110,10 +106,7 @@ El reporte de incidentes debe acompañarse con un reporte de posibles debilidade
 
 - La comunicación a los usuarios de la exigencia de observar y reportar cualquier debilidad de seguridad de la información vista o sospechada en sistemas o servicios
 
-<aside>
-💡 Se aconseja advertir que los usuarios que probar la fortaleza o debilidad de los sistemas a ver si encuentran una vulnerabilidad serán considerados por la compañía como un mal uso del sistema
-
-</aside>
+> 💡 Se aconseja advertir que los usuarios que probar la fortaleza o debilidad de los sistemas a ver si encuentran una vulnerabilidad serán considerados por la compañía como un mal uso del sistema
 
 ### Evaluación y decisión sobre los eventos de seguridd de información
 
@@ -172,10 +165,7 @@ La información sobre los incidentes nos puede ayudar a:
 - Mejorar nuestro sistema de gestión con nuevos controles y criterios para la evaluación de riesgos
 - Realizar entrenamientos a los usuarios para evitar incidentes y a los gestores de incidentes para mejorar la resolución de los mismos
 
-<aside>
-👉 Para este último punto se recomienda utilizar datos No reales para los entrenamientos.
-
-</aside>
+> 👉 Para este último punto se recomienda utilizar datos No reales para los entrenamientos.
 
 ### Recolección de evidencia
 

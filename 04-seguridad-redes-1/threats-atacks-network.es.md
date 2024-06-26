@@ -48,10 +48,7 @@ Este ataque consiste en enviar una gran cantidad de mensajes ICMP Echo request a
 
 Este tipo de ataque es uno de los más utilizados en todo el mundo, consiste en enviar paquetes TCP con el flag SYN activado, con el objetivo de enviar cientos o miles de paquetes a un servidor y abrirle diferentes conexiones, con el objetivo de saturarle por completo. Normalmente se utiliza este ataque con una IP de origen falsa, para que todas las respuestas vayan a una IP que no existe, o a una IP víctima que también se verá saturado por todas las respuestas TCP que se envían del servidor.
 
-<aside>
-👉 Los ataques SYN Flood se pueden evitar fácilmente con el firewall, limitando el número de paquetes TCP SYN que se pueden recibir, e incluso poniendo un proxy intermedio para añadir una verificación adicional, antes de pasarle los mensajes al servidor web o cualquier otro servicio que haga uso del protocolo TCP.
-
-</aside>
+> 👉 Los ataques SYN Flood se pueden evitar fácilmente con el firewall, limitando el número de paquetes TCP SYN que se pueden recibir, e incluso poniendo un proxy intermedio para añadir una verificación adicional, antes de pasarle los mensajes al servidor web o cualquier otro servicio que haga uso del protocolo TCP.
 
 ### **Fraggle Dos Attack**
 
@@ -226,10 +223,7 @@ Este tipo de ataque consiste en intentar predecir el número de secuencia de un 
 
 Gracias a esta predicción del número de secuencia, el paquete podrá llegar a su destino antes que cualquier información del host legítimo, porque este último está bajo un ataque DoS y no permitirá la comunicación al host víctima. Este paquete del atacante se podría usar para obtener acceso al sistema, terminar una conexión por la fuerza, o directamente enviar una carga maliciosa.
 
-<aside>
-💡 **¿Cómo prevenir el ataque de secuencia TCP?** La IETF en 2012 lanzó un nuevo estándar para establecer un algoritmo mejorado, y evitar que un atacante pueda adivinar el número de secuencia inicial en las comunicaciones TCP. Este estándar está diseñado para aumentar la robustez de las comunicaciones TCP frente al análisis predictivo y monitorización de los atacantes. Actualmente todos los sistemas operativos hacen uso de este nuevo estándar para evitar este ataque, por tanto, un atacante no podrá predecir los números de secuencia, pero los atacantes en ciertas circunstancias todavía puedan adivinarlos, aunque es mucho más difícil que antes.
-
-</aside>
+> 💡 **¿Cómo prevenir el ataque de secuencia TCP?** La IETF en 2012 lanzó un nuevo estándar para establecer un algoritmo mejorado, y evitar que un atacante pueda adivinar el número de secuencia inicial en las comunicaciones TCP. Este estándar está diseñado para aumentar la robustez de las comunicaciones TCP frente al análisis predictivo y monitorización de los atacantes. Actualmente todos los sistemas operativos hacen uso de este nuevo estándar para evitar este ataque, por tanto, un atacante no podrá predecir los números de secuencia, pero los atacantes en ciertas circunstancias todavía puedan adivinarlos, aunque es mucho más difícil que antes.
 
 ### **Ataques de redireccionamiento ICMP**
 
@@ -297,10 +291,7 @@ La principal dificultad que se presenta a la hora de **detectar** **este** **tip
 - Aplicar detección basada en firmas, es decir, verificar todas las web shells que hayan sido modificadas. Aunque estas hayan sufrido una modificación mínima.
 - Buscar flujos de tráfico en la red que tengas características inusuales.
 
-<aside>
-👉 ¿Qué herramientas y qué procedimientos debo aplicar para el proceso de detección de estos scripts maliciosos? A continuación, compartimos recomendaciones fundamentales para protegerte eficazmente.
-
-</aside>
+> 👉 ¿Qué herramientas y qué procedimientos debo aplicar para el proceso de detección de estos scripts maliciosos? A continuación, compartimos recomendaciones fundamentales para protegerte eficazmente.
 
 ## **Cómo proteger tus sistemas y redes**
 

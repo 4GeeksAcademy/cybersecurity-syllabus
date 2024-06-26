@@ -37,10 +37,7 @@ Su instalación y configuración del sistema operativo son relativamente sencill
 
 La principal desventaja que puede tener Ubuntu server es que es un sistema operativo que ocupa mucho espacio en la máquina, y que las personalizaciones del sistema son posibles solo dentro de un marco limitado
 
-<aside>
-👉 Ubuntu Server es una gran opción cuando se busca administrar un servidor dentro de una estructura más fácil de manejar, sobre todo si se está en cambio desde windows.
-
-</aside>
+> 👉 Ubuntu Server es una gran opción cuando se busca administrar un servidor dentro de una estructura más fácil de manejar, sobre todo si se está en cambio desde windows.
 
 - **Red Hat Enterprise Linux (RHEL)**
 
@@ -104,10 +101,7 @@ Para comenzar la configuración de nuestro servidor seleccionamos la opción nue
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image5.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image5.png)
 
-<aside>
-👉 Ya tenemos nuestra máquina virtual configurada y lista para funcionar, en la próxima lectura aprenderemos como configurar ubuntu server y por primera vez ver el entorno de un servidor.
-
-</aside>
+> 👉 Ya tenemos nuestra máquina virtual configurada y lista para funcionar, en la próxima lectura aprenderemos como configurar ubuntu server y por primera vez ver el entorno de un servidor.
 
 ## **Configuración inicial del sistema operativo**
 
@@ -177,10 +171,9 @@ Acabas de ser contratado por la start-up D´sistemas cta para ser su administrad
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image19.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image19.png)
 
-<aside>
-💭 Una vez terminada la instalacion tu jefe se sienta contigo y te hace ciertas preguntas saber que tanto aprendiste en este proceso.
+#### Reflexiona
 
-</aside>
+💭 Una vez terminada la instalacion tu jefe se sienta contigo y te hace ciertas preguntas saber que tanto aprendiste en este proceso.
 
 - ¿Por que se elegio el tipo de instalacion?
 - De tener un proxy para el servidor, ¿se puede agregar al momento de instalar?

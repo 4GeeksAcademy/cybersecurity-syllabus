@@ -44,10 +44,7 @@ Con tus correos distribuidos en estas 3 cuentas, puedes tener mejor control de l
 - **Computadoras:** por ningún motivo dejes sin contraseña tu equipo de trabajo o personal, y por ningún motivo te levantes y lo dejes sin bloquear.
 - **Bloc de notas:** en nuestro puntero, no solo escribimos lista de pendientes, también tenemos información personal y confidencial como clientes importantes, contraseñas que escribimos para no olvidar, cartas confidenciales, entre otros, lo mas importante es asegurarnos de no tener este tipo de información anotadas en libretas y estas libretas no deben estar al alcance de todos.
 
-<aside>
-⚠️ **Ten cuidado con quien observa tu pantalla**, ya que puedes tener chat abiertos con información confidencial o puedes tener tu banca en línea y no faltan las personas mal intencionadas que se pueden para detrás de nosotros y obtener esta información fácilmente que personal, privada y tuya o de la organización. Ten cuidado con esto, ya que es un ataque de ingeniería social bastante aplicada.
-
-</aside>
+> ⚠️ **Ten cuidado con quien observa tu pantalla**, ya que puedes tener chat abiertos con información confidencial o puedes tener tu banca en línea y no faltan las personas mal intencionadas que se pueden para detrás de nosotros y obtener esta información fácilmente que personal, privada y tuya o de la organización. Ten cuidado con esto, ya que es un ataque de ingeniería social bastante aplicada.
 
 **En caso de que manejes un celular empresario**, con información confidencial, ten cuidado de NO conectarte a redes abiertas o públicas, como la de las cafeterías o restaurantes, puedes ser víctima de un ataque llamado MAN IN THE MIDDLE, en el que las personas se infiltran y se aprovechan de la inseguridad de la red para meterse y obtener información que es confidencial y que esa persona no está autorizada para tener. Si lo vas a hacer usa una herramienta conocida como BPN para asegurarte de que la información va a viajar segura.
 

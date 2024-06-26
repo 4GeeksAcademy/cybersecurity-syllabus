@@ -38,10 +38,7 @@ Como administradores de sistemas, saber como crear y gestionar las cuentas de lo
 
 **Es recomendable gestionar y crear los usuarios usando los privilegios de usuario sudo y no desde el usuario root ya que a la hora de un error desde el usuario root puede ser fatal para el sistema.**
 
-<aside>
-⚠️ Recuerda que la creación y gestión de cuentas de usuario en servidores Linux debe realizarse de manera segura y siguiendo las mejores prácticas de seguridad. Esto incluye el uso de contraseñas fuertes, la asignación adecuada de permisos y la implementación de políticas de seguridad.
-
-</aside>
+> ⚠️ Recuerda que la creación y gestión de cuentas de usuario en servidores Linux debe realizarse de manera segura y siguiendo las mejores prácticas de seguridad. Esto incluye el uso de contraseñas fuertes, la asignación adecuada de permisos y la implementación de políticas de seguridad.
 
 ## **Asignación de permisos y privilegios.**
 
@@ -59,10 +56,7 @@ En la siguiente imagen podemos ver como tenemos un archivo llamado `text.txt` el
 - El segundo grupo de permisos son los permisos que tienen los usuarios del grupo (“departamentoIT), en este caso tenemos los mismos permisos de lectura y escritura pero no de ejecución. rw-
 - El tercer grupo de de permiso son los permisos para el resto de los usuarios del sistema el cual solo podrán leer el archivo mas no podrán ni escribir o editar sobre el ni ejecutarlos
 
-<aside>
-💡 Es normal que a todos los usuarios del sistema los separamos por grupos para que así puedan acceder únicamente a los archivos que necesitan leer, escribir o ejecutar de acuerdo al nivel de privilegios que tenga tal usuario, y así proteger información confidencial de otros departamentos de la organización, una vez que creamos un usuario, es necesario darle permisos de acuerdo a las labores que vaya a realizar en la organización.
-
-</aside>
+> 💡 Es normal que a todos los usuarios del sistema los separamos por grupos para que así puedan acceder únicamente a los archivos que necesitan leer, escribir o ejecutar de acuerdo al nivel de privilegios que tenga tal usuario, y así proteger información confidencial de otros departamentos de la organización, una vez que creamos un usuario, es necesario darle permisos de acuerdo a las labores que vaya a realizar en la organización.
 
 Con el comando `chmod` podemos cambiar y otorgar permisos a los usuarios sobre un archivo.
 
@@ -71,10 +65,7 @@ Con el comando `chmod` podemos cambiar y otorgar permisos a los usuarios sobre u
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image28.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image28.png)
 
-<aside>
-💡 Podemos generar permisos esenciales con los bits de ejecución setuid (suid), el bit de ejecución setgid (sgid) y el bit de ejecución sticky. El bit suid permite que un archivo se ejecute con los privilegios del propietario, mientras que el bit sgid permite que un archivo se ejecute con los privilegios del grupo. El bit sticky se utiliza principalmente en directorios para evitar que los usuarios eliminen archivos de otros usuarios
-
-</aside>
+> 💡 Podemos generar permisos esenciales con los bits de ejecución setuid (suid), el bit de ejecución setgid (sgid) y el bit de ejecución sticky. El bit suid permite que un archivo se ejecute con los privilegios del propietario, mientras que el bit sgid permite que un archivo se ejecute con los privilegios del grupo. El bit sticky se utiliza principalmente en directorios para evitar que los usuarios eliminen archivos de otros usuarios
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image29.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image29.png)
 
@@ -97,10 +88,7 @@ Otra manera de gestionar los permisos es asignarlos con la cantidad de bits de l
     
     ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image30.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image30.png)
     
-    <aside>
-    💡 La asignación de permisos y privilegios en linux es esencial para así garantizar al seguridad y el control adecuado sobre los recursos del sistema
-    
-    </aside>
+> 💡 La asignación de permisos y privilegios en linux es esencial para así garantizar al seguridad y el control adecuado sobre los recursos del sistema
     
 
 ## **Configuración de grupos y asignación de usuarios a grupos.**

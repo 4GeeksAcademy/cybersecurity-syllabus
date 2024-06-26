@@ -206,7 +206,4 @@ Estos comandos abrirán varios puertos
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image68.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image68.png)
 
-<aside>
-📖 En este módulo hemos aprendido como configurar dos servicios muy importantes para administrar un servidor como lo son HTTP y FTP, existen muchos otros que puedes investigar y poner en práctica dentro de tu máquina virtual, anímate, la práctica hace al maestro.
-
-</aside>
+> 📖 En este módulo hemos aprendido como configurar dos servicios muy importantes para administrar un servidor como lo son HTTP y FTP, existen muchos otros que puedes investigar y poner en práctica dentro de tu máquina virtual, anímate, la práctica hace al maestro.

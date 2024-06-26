@@ -1,51 +1,51 @@
 ---
 title: "Introduction to Linux"
-subtitle: "Discover the basics of Linux: security, user management, strong passwords and firewalls. Learn how to protect your system and more."
-tags: ["linux","cybersecurity"]
+subtitle: "Discover the fundamentals of Linux: security, user management, robust passwords, and firewalls. Learn how to protect your system and more."
+tags: ["linux"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## Qué es Linux y su importancia en el mundo de la informática
+## What is Linux and its Importance in Computing
 
-A pesar de a lo que generalmente puedas escuchar sobre linux, este en realidad se trata de un núcleo o **kernel** que puede controlar a un hardware, una manera más sencilla de explicarlo es que LInux es un conjuntos de drivers necesarios para usar un dispositivo como una computadora o una laptop. Este se creó como un núcleo semejante al de un sistema operativo UNIX.
+Contrary to what you might generally hear about Linux, it is actually a kernel, or **kernel**, that can control hardware. A simpler way to explain it is that Linux is a set of drivers necessary to use a device like a computer or laptop. It was created as a kernel similar to a UNIX operating system.
 
-Este núcleo fue desarrollado con Linus Torvalds cuando en 1991 comenzó a trabajar con unas ideas para un núcleo de un sistema operativo gratuito similar a unix, por lo que tomó como base el sistema Minix como un clon de Unix e hizo un núcleo monolítico y así con ayuda de colaboradores, sacar la primera versión linux 0.01.
+This kernel was developed by Linus Torvalds when, in 1991, he began working with ideas for a free operating system kernel similar to UNIX. Therefore, he used the Minix system as a basis, a UNIX clone, and created a monolithic kernel. With the help of collaborators, he released the first version of Linux, version 0.01.
 
-Actualmente Linux es un núcleo monolítico híbrido con controladores de dispositivos y extensiones del núcleo que normalmente se ejecutan en un espacio privilegiado conocido como anillo 0, con acceso irrestricto al hardware, aunque algunos se ejecutan en espacio de usuario.
+Today, Linux is a hybrid monolithic kernel with device drivers and kernel extensions that usually run in a privileged space known as ring 0, with unrestricted access to hardware, although some run in user space.
 
-En 1992 los desarrolladores del núcleo Linux, comenzaron a trabajar con el proyecto GNU, desarrollado por Richard Stallman en 1983 y así crear GNU/Linux, una familia de sistemas operativos tipo Unix compuesto por software libre y de código abierto buscando una solución de libre distribución de los sistemas operativos frustrado por la concesión de licencias de uso que utilizaba MINIX.
+In 1992, the Linux kernel developers began working with the GNU project, developed by Richard Stallman in 1983, thus creating GNU/Linux, a family of Unix-like operating systems composed of free and open-source software, seeking a freely distributable operating system solution frustrated by the licensing used by MINIX.
 
-Entre los componentes que tenemos dentro del sistema GNU/Linux podemos conseguir:
+Among the components we find within the GNU/Linux system are:
 
-- Un cargador de arranque el cual carga el núcleo de Linux en la memoria principal de la computadora cuando se enciende y después que se realiza la inicialización del firmware, lo podemos conseguir como GNU Grub, LILO, o SYSLINUX.
-- Un programa de inicio el cual es el primer proceso lanzado por el núcleo Linux y se en él se encuentran todos los procesos que se inician a través del init como los servicios del sistema y las solicitudes de inicio de sesión.
-- Las bibliotecas de software que contienen código que pueden utilizar los procesos en ejecución, también puede incluir una biblioteca estándar C la cual es necesaria para ejecutar todos los programas C en un sistema informático.
-- Un sistema de gestión de paquetes, con un formato de paquetes específico. Alternativamente, los paquetes se pueden compilar a partir de archivos *tar binarios o* fuente.
-- Programas de interfaz de usuario como shells de comandos/órdenes o gestores de ventanas.
+- A bootloader, which loads the Linux kernel into the main memory of the computer when it is turned on and after the firmware initialization. We can find it as GNU Grub, LILO, or SYSLINUX.
+- An init program, which is the first process launched by the Linux kernel and where all the processes initiated through init are found, such as system services and login requests.
+- Software libraries that contain code that can be used by running processes, including a standard C library, which is necessary to run all C programs on a computer system.
+- A package management system, with a specific package format. Alternatively, packages can be compiled from binary or source *tar files*.
+- User interface programs such as command shells or window managers.
 
-## Diferencias entre Linux y otros sistemas operativos
+## Differences Between Linux and Other Operating Systems
 
-Linux a diferencia de Windows, es multitarea real, y multiusuario, posee un esquema de seguridad basado en usuarios y permisos de lectura, escritura y ejecución establecidos a los archivos y directorios. Esto significa que cada usuario es propietario de sus archivos, y otro usuario no puede acceder a estos archivos. Esta propiedad no permite el contagio de virus entre archivos de diferentes usuarios.
+Linux, unlike Windows, offers true multitasking and is multi-user, featuring a security scheme based on users and permissions for reading, writing, and executing files and directories. This means that each user owns their files, and another user cannot access these files. This ownership prevents the spread of viruses among files of different users.
 
-| Característica | Windows | Linux |
+| Feature | Windows | Linux |
 | --- | --- | --- |
-| Tipo de sistema operativo | Comercial (se vende y se compra) | Código abierto, descargable y modificable de forma gratuita |
-| Estabilidad | Poco estable | Más estable |
-| Interfaz gráfica | Alta tecnología pero poco estable | Variedad de interfaces, manejo más complejo |
-| Apto para principiantes | Sí, gracias a interfaces gráficas intuitivas | Más complejo, requiere familiaridad con la línea de comandos |
-| Seguridad | Frecuentes fallos de seguridad y vulnerabilidades | Raramente amenazado por fallos de seguridad |
-| Actualizaciones | Sencillas y automatizadas | En ocasiones pueden ser complejas |
+| Type of operating system | Commercial (bought and sold) | Open source, freely downloadable and modifiable |
+| Stability | Less stable | More stable |
+| Graphical interface | High tech but unstable | Variety of interfaces, more complex handling |
+| Suitable for beginners | Yes, thanks to intuitive graphical interfaces | More complex, requires familiarity with the command line |
+| Security | Frequent security failures and vulnerabilities | Rarely threatened by security failures |
+| Updates | Simple and automated | Sometimes can be complex |
 
-### Ventajas y beneficios de utilizar Linux
+### Advantages and Benefits of Using Linux
 
-El hecho de que es *software libre*, es decir, que junto con el sistema, se puede obtener el código fuente de cualquier parte del mismo y modificarlo a gusto. Ésto da varias ventajas, por ejemplo:
+The fact that it is *free software* means that, along with the system, you can obtain the source code of any part of it and modify it to your liking. This provides several advantages, for example:
 
-- La seguridad de saber *qué hace* un programa tan solo viendo el código fuente, o en su defecto, tener la seguridad que al estar el código disponible,
-- La libertad que provee la licencia GPL permite a cualquier programador modificar y mejorar cualquier parte del sistema, ésto da como resultado que la calidad del software incluido en GNU/Linux sea muy buena.
-- El hecho de que el sistema sea mantenido por una gran comunidad de programadores y usuarios alrededor del mundo, provee una gran velocidad de respuesta ante errores de programas que se van descubriendo, que ninguna compañía comercial de software puede igualar.
+- The security of knowing *what* a program does just by looking at the source code, or at least having the assurance that with the code being available,
+- The freedom provided by the GPL license allows any programmer to modify and improve any part of the system, resulting in very high-quality software included in GNU/Linux.
+- The fact that the system is maintained by a large community of programmers and users around the world provides a rapid response rate to errors in programs as they are discovered, unmatched by any commercial software company.
 
-Además de las ventajas anteriormente enumeradas, GNU/Linux es ideal para su utilización en un ambiente de trabajo, dos razones justifican esto:
+In addition to the advantages listed above, GNU/Linux is ideal for use in a work environment for two reasons:
 
-- Al ser software libre, no existe el costo de las licencias, y una copia del sistema GNU/Linux puede instalarse en tantas computadoras como se necesite.
-- Existen utilidades para el trabajo en oficina, que son compatibles con las herramientas de la serie MS-Office.
+- Being free software, there is no cost for licenses, and a copy of the GNU/Linux system can be installed on as many computers as needed.
+- There are office work utilities that are compatible with MS-Office suite tools.

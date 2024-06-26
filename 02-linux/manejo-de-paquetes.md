@@ -36,10 +36,7 @@ Para la instalación de software instalamos samba, que es un software que implem
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image72.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image72.png)
 
-<aside>
-🤓 Como práctica les dejamos que investiguen como configurar el servicio samba
-
-</aside>
+> 🤓 Como práctica les dejamos que investiguen como configurar el servicio samba
 
 ## **Búsqueda y eliminación de paquetes.**
 

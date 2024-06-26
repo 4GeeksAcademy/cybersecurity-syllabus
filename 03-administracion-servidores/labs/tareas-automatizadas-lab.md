@@ -7,10 +7,7 @@ Recuerdas que en tu formación como analista de seguridad aprendiste sobre la au
 
 ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image96.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image96.png)
 
-<aside>
-👉 En el resultado puedes ver que no hay tareas configuradas
-
-</aside>
+> 👉 En el resultado puedes ver que no hay tareas configuradas
 
 1. Antes de crear la tarea, nos damos cuenta que crear un script que nos cree la copia de seguridad nos facilitara mucho más el trabajo, por lo que creamos un script en python que se vera asi.
 

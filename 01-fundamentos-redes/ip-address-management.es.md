@@ -159,14 +159,6 @@ Subred 3 192.168.0.129 - 192.168.0.190 Direccion de red 192.168.0.128 Broadcast 
 
 Subred 4 192.168.0.193 - 192.168.0.254 Direccion de red 192.168.0.192 Broadcast 192.168.0.255
 
-<aside>
-🤓 **Ejercicio:
-Arma la tabla de subred para una dirección:**
-
-- Direccion IP 192.190.0.0
-- Máscara subred 255.255.255./32
-</aside>
-
 ## **Configuración manual y automática de direcciones IP**
 
 Teniendo claro que la dirección IP es la forma de identificar a un dispositivo dentro de una red. La dirección IP de un dispositivo, se puede configurar de forma dinámica/automática a través del protocolo DHCP y manual.

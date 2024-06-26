@@ -8,8 +8,7 @@ Dentro del ISO 27001, las partes interesadas son individuos, grupos o entidades 
 
 La identificación de partes interesadas no solo se centra en aquellas directamente involucradas en el SGSI, sino también en aquellas que podrían tener un interés indirecto o ser impactadas por las decisiones relacionadas con la seguridad de la información.
 
-<aside>
-👉 Una vez identificadas las partes interesadas, el siguiente paso crítico es comprender sus requisitos en relación con la seguridad de la información. Esto implica analizar y documentar las expectativas, necesidades y preocupaciones de cada grupo. Estos requisitos pueden variar desde aspectos legales y regulatorios hasta demandas específicas de clientes o expectativas internas de la organización.
+> 👉 Una vez identificadas las partes interesadas, el siguiente paso crítico es comprender sus requisitos en relación con la seguridad de la información. Esto implica analizar y documentar las expectativas, necesidades y preocupaciones de cada grupo. Estos requisitos pueden variar desde aspectos legales y regulatorios hasta demandas específicas de clientes o expectativas internas de la organización.
 
 </aside>
 

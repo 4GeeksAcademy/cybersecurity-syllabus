@@ -35,10 +35,7 @@ También podemos utilizar algunos modificadores, que son algunos caracteres espe
 4. /: Significa «cada».
 5. rango / excep: Crea excepciones en la regla.
 
-<aside>
-⚠️ Es importante tener en cuenta que las tareas programadas en cron se ejecutan en el contexto del usuario que las programó. Por lo tanto, asegúrate de que el usuario tenga los permisos adecuados para realizar las tareas programadas.
-
-</aside>
+> ⚠️ Es importante tener en cuenta que las tareas programadas en cron se ejecutan en el contexto del usuario que las programó. Por lo tanto, asegúrate de que el usuario tenga los permisos adecuados para realizar las tareas programadas.
 
 Además, es recomendable redirigir la salida de las tareas programadas a archivos de registro para poder verificar su ejecución y detectar posibles errores. Puedes hacer esto agregando ">> ruta_del_archivo" al final de la línea de comando en el crontab.
 
@@ -86,7 +83,4 @@ Además de los registros, también puedes recibir notificaciones por correo elec
 
 Otra opción es utilizar herramientas de monitoreo de sistemas más avanzados, como Nagios, Zabbix o Prometheus. Estas herramientas te permiten monitorear y verificar las tareas programadas, así como otros aspectos del sistema, como el rendimiento, la disponibilidad y la utilización de recursos. Puedes configurar alertas y recibir notificaciones cuando se detecten problemas con las tareas programadas.
 
-<aside>
-⚠️ Es importante establecer una rutina de monitoreo regular para verificar el estado de las tareas programadas. Puedes programar revisiones diarias, semanales o mensuales, según la importancia y la frecuencia de las tareas. Esto te ayudará a identificar problemas de manera oportuna y garantizar que las tareas se estén ejecutando según lo planeado.
-
-</aside>
+> ⚠️ Es importante establecer una rutina de monitoreo regular para verificar el estado de las tareas programadas. Puedes programar revisiones diarias, semanales o mensuales, según la importancia y la frecuencia de las tareas. Esto te ayudará a identificar problemas de manera oportuna y garantizar que las tareas se estén ejecutando según lo planeado.

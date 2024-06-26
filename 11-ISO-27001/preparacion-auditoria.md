@@ -40,8 +40,7 @@ Contar con la documentación es necesario también contar con una evidencia requ
 - **Registros de Revisiones de Gestión:** Documentar las revisiones de gestión demuestra que la alta dirección está evaluando regularmente el desempeño del SGSI y tomando decisiones informadas para la mejora continua.
 - **Registros de Acciones Correctivas y Preventivas:** Mantener registros detallados de las acciones correctivas y preventivas evidencia el compromiso de la organización con la mejora continua y la corrección de no conformidades.
 
-<aside>
-💡 La adecuada documentación y evidencia no solo son requisitos de la ISO 27001, sino también herramientas valiosas para la gestión efectiva de la seguridad de la información. Al demostrar el cumplimiento y la eficacia del SGSI a través de la documentación y la evidencia, las organizaciones fortalecen su postura de seguridad y contribuyen a la construcción de una cultura de seguridad sólida.
+> 💡 La adecuada documentación y evidencia no solo son requisitos de la ISO 27001, sino también herramientas valiosas para la gestión efectiva de la seguridad de la información. Al demostrar el cumplimiento y la eficacia del SGSI a través de la documentación y la evidencia, las organizaciones fortalecen su postura de seguridad y contribuyen a la construcción de una cultura de seguridad sólida.
 
 </aside>
 
@@ -89,8 +88,7 @@ Analizar las acciones correctivas tomadas en auditorías anteriores contribuye a
 
 Coordinar aspectos logísticos como la disponibilidad de salas de reuniones, acceso a la documentación y cualquier otra logística necesaria para facilitar la auditoría.
 
-<aside>
-📖 Este proceso facilita la logística de la auditorias además que también reflejan el compromiso de la organización con la seguridad de la información. Al estar bien preparados, los equipos pueden enfrentar la auditoría ISO 27001 con confianza, demostrando un SGSI robusto y la capacidad de adaptarse a los estándares de seguridad más exigentes.
+> 📖 Este proceso facilita la logística de la auditorias además que también reflejan el compromiso de la organización con la seguridad de la información. Al estar bien preparados, los equipos pueden enfrentar la auditoría ISO 27001 con confianza, demostrando un SGSI robusto y la capacidad de adaptarse a los estándares de seguridad más exigentes.
 
 </aside>
 
