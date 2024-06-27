@@ -6,7 +6,7 @@ autores: ["blindma1den", "lorenagubaira"]
 
 ---
 
-La ciberseguridad es una preocupación global, y diferentes países han establecido diversas leyes y regulaciones para proteger los datos, la privacidad y la infraestructura crítica. Comprender estos marcos internacionales es crucial para los profesionales de la ciberseguridad, especialmente aquellos que trabajan en entornos multinacionales. También tenemos artículos centrados en las [normativas del mercado de ciberseguridad en españa](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-espana) y [normativas en el mercado de ciberseguridad en Estados Unidos](https://4geeks.com/lesson/normativa-leyes-ciberseguridad-estados-unidos) para proporcionar más información específica sobre las regulaciones regionales.
+La ciberseguridad es una preocupación global, y diferentes países han establecido diversas leyes y regulaciones para proteger los datos, la privacidad y la infraestructura crítica. Comprender estos marcos internacionales es crucial para los profesionales de la ciberseguridad, especialmente aquellos que trabajan en entornos multinacionales. También tenemos artículos centrados en las [normativas del mercado de ciberseguridad en españa](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-espana) y [normativas en el mercado de ciberseguridad en Estados Unidos](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-estados-unidos) para proporcionar más información específica sobre las regulaciones regionales.
 
 Esta lección proporciona una visión general de los requisitos legales y normativos internacionales clave en ciberseguridad.
 
@@ -174,4 +174,4 @@ Esta lección proporciona una visión general de los requisitos legales y normat
 Para una comprensión más profunda de las leyes y regulaciones de ciberseguridad específicas de España y Estados Unidos, consulte las siguientes lecciones:
 
 - [Cumplimiento Legal y Normativo en Ciberseguridad: Enfoque en España](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-espana)
-- [Cumplimiento Legal y Normativo en Ciberseguridad: Enfoque en Estados Unidos](#)
+- [Cumplimiento Legal y Normativo en Ciberseguridad: Enfoque en Estados Unidos](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-estados-unidos)
