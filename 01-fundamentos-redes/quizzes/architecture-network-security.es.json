@@ -4,6 +4,7 @@
     "name": "Arquitectura y seguridad de redes",
     "main": "Veamos un poco mas allá de lo evidente en cuanto a redes, profundizar en estos temas te ayudará a ser un profesional mas competente",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
+    "technologies": ["redes","ciberseguridad"],
     "badges": [{ "slug": "cybersecurity_guru", "points": 5 }]
   },
   "questions": [
