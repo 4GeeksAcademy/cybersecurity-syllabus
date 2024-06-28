@@ -4,6 +4,7 @@
     "name":    "Network Architecture and Security",
     "main":    "Let's look a bit beyond the obvious in terms of networks, delving into these topics will help you become a more competent professional",
     "results": "Congratulations! Now the world will be a little safer thanks to you...",
+    "technologies": ["networks","cybersecurity"],
     "badges": [
         { "slug": "cybersecurity_guru", "points": 5 }
     ]
