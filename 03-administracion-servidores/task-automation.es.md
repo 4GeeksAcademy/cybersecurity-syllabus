@@ -1,20 +1,28 @@
 ---
-title: "Programación de tareas automatizadas"
-subtitle: "Automatización eficiente: Configura cron en Linux para optimizar tareas repetitivas y asegurar la estabilidad del servidor. Aprende paso a paso."
+title: "Ques el cron y como usarlo para programar tareas"
+subtitle: "Automatización eficiente: Entiende que es el cron y como configurarlo Linux para optimizar tareas repetitivas y asegurar la estabilidad del servidor. Aprende paso a paso."
 tags: ["servidores"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Uso de cron para programar tareas**
-
 Cron es una herramienta muy útil en sistemas operativos Linux que permite programar tareas para que se ejecuten automáticamente en momentos específicos. Con cron, puedes automatizar tareas repetitivas, como realizar copias de seguridad, actualizar bases de datos, enviar informes por correo electrónico y mucho más.
 
 La configuración de tareas en cron se realiza a través de archivos llamados "crontabs". Cada usuario puede tener su propio crontab, que contiene las tareas programadas para ese usuario en particular. Para editar el crontab de un usuario, puedes utilizar el comando `crontab -e`.
 
-El formato de un crontab consta de cinco campos separados por espacios: minutos, horas, día del mes, mes y día de la semana. Puedes utilizar números o asteriscos (*) para indicar todos los valores posibles en un campo. Por ejemplo, si deseas que una tarea se ejecute todos los días a las 8:00 a.m., puedes configurar el crontab de la siguiente manera: "0 8 * * * comando".
+El formato de un crontab consta de cinco campos separados por espacios: minutos, horas, día del mes, mes y día de la semana. Puedes utilizar números o asteriscos (*) para indicar todos los valores posibles en un campo. 
+
+Por ejemplo, si deseas que un script the python se ejecute todos los días a las 8:00 a.m., puedes configurar el crontab de la siguiente manera:
+
+```txt
+0 8 * * * python <ruta al archivo.py>
+```
 
 Además de los valores numéricos, también puedes utilizar expresiones especiales en los campos de tiempo. Por ejemplo, "@daily" se traduce en "0 0 * * *", lo que significa que la tarea se ejecutará todos los días a la medianoche. Otras expresiones útiles incluyen "@hourly", "@weekly" y "@monthly".
+
+```txt
+@daily /ruta/al/script.sh
+```
 
 Estas expresiones se traducen de esta manera:
 
