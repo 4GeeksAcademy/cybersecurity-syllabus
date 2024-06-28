@@ -1,165 +1,168 @@
 ---
-title: "Servicios de red"
-subtitle: "Conoce como configurar los servicios básicos de red para mejorar la seguridad de tu servidor."
+title: "Network Services"
+subtitle: "Learn how to configure basic network services to improve your server's security."
 tags: ["linux"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Configuración de la interfaz de red**
+## Network Interface Configuration
 
-La interfaz de red y su configuración es una de las partes más importantes de un servidor y las labores de un administrador de sistemas, ya que con la interfaz de red podemos establecer la conectividad y permitir que el servidor se comunique con otros dispositivos en la red.
+The network interface and its configuration are some of the most important parts of a server and the tasks of a systems administrator, as with the network interface, we can establish connectivity and allow the server to communicate with other devices on the network.
 
-Para poder entablar una conexión con otros dispositivos lo primero que tenemos que hacer es asignarle una IP a nuestro servidor bien sea de una forma estática en la cual nosotros le asignamos la IP y la agregamos manualmente, ò dinámica donde dejamos que un servidor DHCP sea que asigne una dirección IP temporal.
+To establish a connection with other devices, the first thing we need to do is assign an IP to our server, either statically where we assign the IP and add it manually, or dynamically where we let a DHCP server assign a temporary IP address.
 
-La elección entre una dirección IP dinámica o estática para un servidor depende de varios factores y requisitos específicos. Aquí hay algunas consideraciones que pueden ayudarte a tomar una decisión informada:
+The choice between a dynamic or static IP address for a server depends on several specific factors and requirements. Here are some considerations that can help you make an informed decision:
 
-- **Estabilidad y disponibilidad**: Si necesitas que tu servidor esté siempre disponible y accesible, una dirección IP estática puede ser más adecuada. Con una dirección IP estática, la dirección del servidor no cambiará, lo que facilita la conexión y el acceso constante.
-- **Servicios y aplicaciones**: Si tu servidor aloja servicios o aplicaciones que requieren una dirección IP constante, como servidores web, bases de datos o servidores de correo electrónico, una dirección IP estática es recomendable. Esto garantiza que los clientes y usuarios siempre puedan acceder a tus servicios utilizando la misma dirección IP.
-- **Seguridad:** Una dirección IP estática puede facilitar la implementación de medidas de seguridad, como el filtrado de direcciones IP o la configuración de reglas de firewall específicas. Esto puede ayudar a proteger tu servidor y los servicios que ofrece
-- **Flexibilidad y movilidad:** Si necesitas flexibilidad para cambiar la ubicación física de tu servidor o si tu proveedor de servicios de Internet (ISP) requiere el uso de direcciones IP dinámicas, una dirección IP dinámica puede ser más conveniente. Las direcciones IP dinámicas se asignan automáticamente y pueden cambiar con el tiempo.
+- **Stability and availability**: If you need your server to be always available and accessible, a static IP address might be more suitable. The server's address will not change with a static IP address, making connection and constant access easier.
+- **Services and applications**: If your server hosts services or applications that require a constant IP address, such as web servers, databases, or email servers, a static IP address is recommended. This ensures that clients and users can always access your services using the same IP address.
+- **Security:** A static IP address can facilitate the implementation of security measures, such as IP address filtering or configuring specific firewall rules. This can help protect your server and the services it offers.
+- **Flexibility and mobility:** If you need flexibility to change the physical location of your server or if your Internet service provider (ISP) requires the use of dynamic IP addresses, a dynamic IP address may be more convenient. Dynamic IP addresses are automatically assigned and can change over time.
 
-Después de estas consideraciones podemos indicar que la mejor configuración de IP es estática para nuestro servidor, para lograr esta configuración hacemos los siguientes pasos.
+After these considerations, we can indicate that the best IP configuration is static for our server. To achieve this configuration, we perform the following steps.
 
-Usamos el comando `ifconfig` para conocer cuál es nuestra interfaz de red.
+We use the `ifconfig` command to know which is our network interface.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image42.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image42.png)
+![Network Interface Configuration - ifconfig command to know which is our interface](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-1.jpg)
 
-lo podemos identificar como la primera interfaz que tenemos del resultado “enp0s3”
+We can identify it as the first interface we have from the result “enp0s3”.
 
-Generalmente en las distribuciones debian, las interfaces de red se configuraban a través del archivo **/etc/network/interfaces**, en el caso de ubuntu, desde la version 17.10, se cambio las configuraciones de la interfaz de red a la utilidad netplan, el cual genera un archivo YAML para facilitar la configuraciones de red. Accederemos a este archivo con un editor de código a la ruta `/etc/netplan/00-installer-config-yaml`
+Generally, network interfaces were configured through the **/etc/network/interfaces** file in Debian distributions. In Ubuntu, since version 17.10, the network interface configurations have changed to the netplan utility, which generates a YAML file to facilitate network configurations. We will access this file with a code editor at the path `/etc/netplan/00-installer-config-yaml`.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image43.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image43.png)
+![Network Interface Configuration - We will access this file with a code editor at the path /etc/netplan/00-installer-config-yaml](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-2.jpg "We will access this file with a code editor at the path /etc/netplan/00-installer-config-yaml")
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image44.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image44.png)
+![Network Interface Configuration - We will access this file with a code editor at the path /etc/netplan/00-installer-config-yaml](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-3.jpg "Assign a 192.168.1.10 IP to our server and the rest of the configurations")
 
-Asignamos una `IP 192.168.1.10` a nuestro servidor y el resto de las configuraciones.
+Assign a `192.168.1.10 IP` to our server and the rest of the configurations.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image45.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image45.png)
+![Network Interface Configuration - Once the values are assigned, we apply the command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-4.jpg "Once the values are assigned, we apply the command")
 
-Ya una vez asignado los valores, aplicamos el comando
+Once the values are assigned, we apply the command.
 
-**`netplan apply`**
+`netplan apply`
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image46.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image46.png)
+![Network Interface Configuration - apply the netplan apply command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-5.jpg "apply the netplan apply command")
 
-Corroboramos que nuestra IP ya sea la que le asignamos y listo, ya tenemos la interfaz de red de nuestros servidores configurada.
+We check that our IP is the one we assigned and that's it, we have our server's network interface configured.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image47.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image47.png)
+![Network Interface Configuration - Check our IP](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-6.jpg "Check our IP")
 
-## **Configuración de la resolución de nombres (DNS)**
+## Name Resolution (DNS) Configuration
 
-Otra configuración esencial para la conexión de la red es la configuración de la DNS (Domain Name System), recordemos que este protocolo es el encargado de traducir los nombres de los dominios que utilizamos en nuestro navegador como por ejemplo [www.google.com](http://www.google.com/) en las direcciones IP de los servidores web de que queremos acceder.
+Another essential configuration for network connection is DNS (Domain Name System) configuration. Remember that this protocol is responsible for translating the domain names we use in our browser, such as [www.google.com](http://www.google.com/), into the IP addresses of the web servers we want to access.
 
-Este proceso se da cuando ingresamos una dirección web en nuestro navegador, éste envía una solicitud a un servicio DNS para obtener la dirección IP asociada a ese nombre del dominio, el servidor DNS busca en su base de dato devuelve la dirección IP correspondiente, permitiendo que el navegador establezca una conexión con el servidor web que aloja el sitio.
+This process occurs when we enter a web address in our browser, which sends a request to a DNS service to obtain the IP address associated with that domain name. The DNS server searches its database and returns the corresponding IP address, allowing the browser to establish a connection with the web server hosting the site.
 
-Además de su función principal de traducción de nombres de dominio, las DNS también desempeñan un papel importante en la seguridad y la optimización de la navegación. Por ejemplo, las DNS pueden implementar medidas de seguridad, como el filtrado de contenido malicioso o la detección de sitios web fraudulentos, ayudando a proteger a los usuarios de posibles amenazas en línea.
+In addition to its primary function of domain name translation, DNS also plays an important role in navigation security and optimization. For example, DNS can implement security measures, such as filtering malicious content or detecting fraudulent websites, helping protect users from potential online threats.
 
-Es importante tener configurado la DNS de nuestro servidor ya que es el que nos va a permitir que los usuarios accedan a los servicios y aplicaciones alojados en el servidor mediante los nombres del dominio, aparte también se utiliza para redireccionar el tráfico a diferentes servidores en función de la carga o la disponibilidad. Esto permite distribuir la carga de trabajo entre varios servidores y garantizar un rendimiento óptimo.
+It's important to have the DNS of our server configured as it will allow users to access the services and applications hosted on the server using domain names. It is also used to redirect traffic to different servers based on load or availability, allowing for load balancing among several servers and ensuring optimal performance.
 
-La DNS también desempeña un papel importante en la seguridad de un servidor al implementar medidas de seguridad en la configuración de la DNS, como el filtrado de contenido malicioso o la detección de sitios web fraudulentos, se puede proteger al servidor y a los usuarios de posibles amenazas en línea.
+DNS also plays an important role in server security by implementing security measures in the DNS configuration, such as filtering malicious content or detecting fraudulent websites, protecting the server and users from potential online threats.
 
-Para configurar la DNS de nuestro servidor Ubuntu repetiremos el mismo proceso que hicimos al configurar nuestra IP estática ingresando a la ruta **/etc/netplan/00-installer-config.yaml** desde un editor de código.
+To configure the DNS of our Ubuntu server, we will repeat the same process we did when configuring our static IP by accessing the path **/etc/netplan/00-installer-config.yaml** from a code editor.
 
-De acuerdo a la documentación de netplan la forma de agregar nuestras DNS es a través del valor
+According to the netplan documentation, the way to add our DNS is through the value
 
 **nameservers:**
 
-Ya que estamos trabajando con un servidor, la DNS principal que usaremos sera la misma IP de nuestro servidor, la alternativa sera una DNS publica
+Since we are working with a server, the primary DNS we will use will be the same IP of our server, and the alternative will be a public DNS.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image48.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image48.png)
+![Name Resolution Configuration - DNS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-7.jpg)
 
-Les dejamos una lista de DNS públicas que pueden usar para la red
+Here is a list of public DNS that you can use for the network:
 
-| Nombre DNS | IP principal | IP alternativa |
+| DNS Name | Primary IP | Alternative IP |
 | --- | --- | --- |
 | Cloudflare | 1.1.1.1 | 1.0.0.1 |
 | OpenDNS | 208.67.222.222 | 208.67.220.220 |
 | Google | 8.8.8.8 | 8.8.4.4 |
 
-Para esta configuración usaremos la DNS google
+For this configuration, we will use Google DNS.
 
-Una vez editado el archivo YAML aplicamos el comando netplan apply
+Once the YAML file is edited, we apply the netplan apply command.
 
-Si queremos corroborar que tenemos conexion, usamos el comando ping junto a nuestro servidor alternativo
+If we want to verify that we have a connection, we use the ping command along with our alternative server.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image49.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image49.png)
+![Name Resolution Configuration - ping command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-8.jpg "ping command")
 
-## **Configuración de servicios de red**
+## Network Services Configuration
 
-Cuando hablamos de los servicios de red en los referimos hablamos de las aplicaciones que se ejecutan en un segundo plano, habilitando ciertas capacidades cuando sean necesarias, estas aplicaciones son componentes fundamentales que permiten la comunicación y el intercambio de información en una red.
+When we talk about network services, we refer to the applications that run in the background, enabling certain capabilities when needed. These applications are fundamental components that allow communication and information exchange on a network.
 
-Uno de los servicios de red más comunes en servidores Linux es el servidor web, que permite alojar y entregar páginas web a través del protocolo HTTP. El servidor web más popular en Linux es Apache, aunque también existen otras opciones como Nginx. Estos servidores web permiten a los usuarios acceder a sitios web y aplicaciones en línea, brindando una experiencia de navegación fluida y segura
+One of the most common network services on Linux servers is the web server, which allows hosting and delivering web pages through the HTTP protocol. The most popular web server on Linux is Apache, although there are other options like Nginx. These web servers allow users to access websites and online applications, providing a smooth and secure browsing experience.
 
-Vamos a configurar nuestro servidor HTTP con Apache aplicando los siguientes pasos:
+Let's configure our HTTP server with Apache by following these steps:
 
-- Instalamos Apache habiendo actualizando los paquetes locales previamente con **sudo apt update.**
-- Una vez actualizados los paquetes instalamos nuestro servidor apache **sudo apt install apache2.**
+- We install Apache after updating the local packages with **sudo apt update.**
+
+    ![Network Services Configuration](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-9.jpg)
+
+- Once the packages are updated, we install our Apache server with **sudo apt install apache2.**
+
+    ![Network Services Configuration - firewall](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-10.jpg)
+
+- Before testing Apache, it's necessary to modify some firewall settings to allow external access to the default web ports. During installation, Apache registers with UFW to provide some application profiles that can be used to enable or disable access to Apache through the firewall.
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image50.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image50.png)
+- With the command sudo ufw app list, we will have a list of application profiles.
+
+    ![Network Services Configuration - sudo ufw](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-11.jpg)
     
-- Antes de probar apache, es necesario modificar unos ajustes de firewall para permitir acceso externo a los puertos web predeterminados, durante la instalación, Apache se registra con UFW para proporcionar algunos perfiles de aplicaciones que pueden utilizarse para habilitar o deshabilitar el acceso a Apache a través del firewall.
+    The result will have three profiles available for Apache:
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image51.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image51.png)
-    
-- Con el comando sudo ufw app list tendremos una lista de los perfiles de aplicación.
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image52.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image52.png)
-    
-    En el resultado tendremos tres perfiles disponibles para Apache.
-    
-    - **Apache**: este perfil abre solo el puerto 80 (tráfico web normal no cifrado)
-    - **Apache Full**: este perfil abre el puerto 80 (tráfico web normal no cifrado) y el puerto 443 (tráfico TLS/SSL cifrado)
-    - **Apache Secure**: este perfil abre solo el puerto 443 (tráfico TLS/SSL cifrado)
-    - Habilitamos el perfil más restrictivo el cual sería Apache permitiendo el tráfico en el puerto 80 (puerto http)
+    - **Apache**: This profile opens only port 80 (normal, unencrypted web traffic).
+    - **Apache Full**: This profile opens port 80 (normal, unencrypted web traffic) and port 443 (encrypted TLS/SSL traffic).
+    - **Apache Secure**: This profile opens only port 443 (encrypted TLS/SSL traffic).
+    - We enable the most restrictive profile, which would be Apache, allowing traffic on port 80 (http port).
 
 ### sudo ufw allow “Apache”
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image53.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image53.png)
+![sudo ufw allow “Apache”](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-12.jpg "sudo ufw allow “Apache”")
 
-Podemos corroborar los cambios usando el comando sudo ufw status
+We can verify the changes using the sudo ufw status command.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image54.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image54.png)
+![sudo ufw status
 
-En algunos casos podemos tener una respuesta de Status: Inactive, esto ocurre porque el firewall está inactivo, para activarlo usamos el comando sudo ufw enable, y volvemos a chequear el status
+](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-13.jpg "sudo ufw status")
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image55.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image55.png)
+In some cases, we may get a Status: Inactive response. This happens because the firewall is inactive. To activate it, we use the sudo ufw enable command and check the status again.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image56.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image56.png)
+![Network Services Configuration](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-14.jpg)
 
-- Ya una vez habiendo permitido el tráfico al puerto HTTP revisamos el estatus de nuestro servidor con el comando sudo systemctl status apache2
+![Network Services Configuration - sudo systemctl status apache2 command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-15.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image57.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image57.png)
+- Once we have allowed traffic to the HTTP port, we check the status of our server with the sudo systemctl status apache2 command.
 
-Podemos ver que su estado es activo y corriendo.
+![Network Services Configuration - Server active](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-16.jpg)
 
-- Otra forma de comprobar que nuestro servidor está activo es haciendo una solicitud de página, si no estamos seguro de la dirección IP de nuestro servidor, usamos el comando hostname -I y nos devolverá la IP la cual abriremos en un navegador web para comprobar que esté activo.
+We can see that its status is active and running.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image58.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image58.png)
+- Another way to check that our server is active is by making a page request. If we are not sure of the IP address of our server, we use the hostname -I command, which will return the IP that we will open in a web browser to verify it is active.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image59.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image59.png)
+![Network Services Configuration - Host Name -I](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-17.jpg)
 
-Otro de los servicios necesarios para nuestro servidor es el FTP (File Transfer Protocol) el cual lo usamos como un medio para enviar recibir archivos a través de una conexion de red usando un marco de referencia de cliente/servidor y seguridad SSL/TLS que permite a los usuarios compartir archivos y recibir desde computadoras remotas a través de una transferencia de datos segura, eficiente y confiable.
+![Network Services Configuration - FTP (File Transfer Protocol)](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-18.jpg)
 
-FTP funciona de la misma manera que HTTP(HypertText Transfer Protocol) o SMTP(Simple Mail Transfer Protocol). La diferencia es que el FTP se encarga de transportar archivos a través de Internet, mientras que el HTTP y el SMTP se encargan de transferir páginas web y correos electrónicos, respectivamente.
+Another necessary service for our server is FTP (File Transfer Protocol), which we use as a means to send and receive files over a network connection using a client/server framework and SSL/TLS security that allows users to share files and receive from remote computers through secure, efficient, and reliable data transfer.
 
-Para instalar este servicio en nuestro servidor podemos seguir los siguientes pasos:
+FTP works the same way as HTTP (HyperText Transfer Protocol) or SMTP (Simple Mail Transfer Protocol). The difference is that FTP is responsible for transporting files over the Internet, while HTTP and SMTP handle web pages and emails, respectively.
 
-- Antes de instalar nuestro servicio, lo recomendable es actualizar nuestro sistema operativo con sudo apt update y sudo apt upgrade.
+To install this service on our server, we can follow these steps:
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image60.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image60.png)
+- Before installing our service, it is recommended to update our operating system with sudo apt update and sudo apt upgrade.
 
-- Procederemos a instalar vsftpd (Very Secure FTP Daemon por sus siglas en inglés) el cual es un servidor FTP para los sistemas tipo unix incluido Linux, este lo haremos con el comando sudo apt install vsftpd
+![Network Services Configuration - update our operating system with sudo apt update and sudo apt upgrade](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-19.jpg "update our operating system with sudo apt update and sudo apt upgrade")
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image61.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image61.png)
+- We proceed to install vsftpd (Very Secure FTP Daemon), which is an FTP server for Unix-like systems, including Linux. We do this with the command sudo apt install vsftpd.
 
-- Una vez completada la instalación, tendremos que editar el archivo de configuración, lo recomendable en estos casos es crear una copia de seguridad del archivo original para así comenzar la configuración en blanco si cometemos algún error
+![Network Services Configuration - vsftpd (Very Secure FTP Daemon)](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-20.jpg "vsftpd (Very Secure FTP Daemon)")
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image62.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image62.png)
+- Once the installation is complete, we will need to edit the configuration file. It is recommended in these cases to create a backup of the original file to start with a blank configuration if we make any mistakes.
 
-- Ya configurado el tenemos la copia creada comenzamos a permitir el trafico FTP desde el firewall usando los siguientes comandos
+![Network Services Configuration - create a backup](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-21.jpg)
 
-      `sudo ufw allow 20/tcp`
+- Once the copy is created, we start by allowing FTP traffic from the firewall using the following commands:
+
+`sudo ufw allow 20/tcp`
 
 `sudo ufw allow 21/tcp`
 
@@ -167,43 +170,39 @@ Para instalar este servicio en nuestro servidor podemos seguir los siguientes pa
 
 `sudo ufw allow 40000:50000/tcp`
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image63.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image63.png)
+![Network Services Configuration - allow FTP traffic from the firewall](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-22.jpg)
 
-Estos comandos abrirán varios puertos
+These commands will open several ports:
 
-- **OpenSSH** es necesario si todavía quieres acceder a tu servidor a través de SSH. A veces, esta opción está activada por defecto.
-- los puertos **20** y **21** para el tráfico FTP.
-- los puertos **40000:50000** se reservarán para el rango de puertos pasivos que eventualmente se establecerá en el archivo de configuración.
-- el puerto **990** se utilizará cuando se active el TLS.
+- **OpenSSH** is necessary if you still want to access your server via SSH. Sometimes, this option is enabled by default.
+- Ports **20** and **21** for FTP traffic.
+- Ports **40000:50000** will be reserved for the passive port range to be established in the configuration file.
+- Port **990** will be used when TLS is enabled.
 
-**Ya una vez agregadas las reglas revisamos el estatus del firewall**
+**Once the rules are added, we check the firewall status.**
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image64.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image64.png)
+![Network Services Configuration - firewall status](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-23.jpg)
 
-- Abrimos el archivo **/etc/vsftpd.conf** con el editor de codigo de nuestra elección y ya dentro del archivo habilitamos la opcion
-- write_enable=yes eliminando el **#,**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image65.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image65.png)
-    
-- Agregamos unos valores nuevos al final del archivo. En primer lugar, se agregará un user_sub_token en la ruta del directorio local_root. Esto permitirá que la configuración funcione con el usuario actual y con cualquier otro usuario que se agregue posteriormente:
-- user_sub_token=$USER
-    
-    local_root=/home/$USER/ftp
-    
+- We open the **/etc/vsftpd.conf** file with the code editor of our choice and enable the option write_enable=yes by removing the **#**.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image66.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image66.png)
+    ![Network Services Configuration - write_enable=yes by removing the #](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-24.jpg)
 
-- Para garantizar que haya una cantidad considerable de conexiones disponibles, limitaremos la cantidad de puertos utilizados en el archivo de configuración:
-- pasv_min_port=40000
-    
-    pasv_max_port=50000
-    
-- Ya una vez hecho estos cambios cerramos el archivo y agregamos a nuestro usuario en la lista de usuarios del servicio ftp y comprobamos que este agregado adecuadamente
+- We add some new values at the end of the file. First, a user_sub_token will be added to the local_root directory path. This will allow the configuration to work with the current user and any other users that are added later:
+    - user_sub_token=$USER
+    - local_root=/home/$USER/ftp
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image67.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image67.png)
+![Network Services Configuration - limit ports](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-25.jpg)
 
-- Por último reiniciamos el servicio vsftpd
+- To ensure there are a considerable number of connections available, we will limit the number of ports used in the configuration file:
+    - pasv_min_port=40000
+    - pasv_max_port=50000
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image68.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image68.png)
+- Once these changes are made, we close the file and add our user to the FTP service user list and check that it is added properly.
 
-> 📖 En este módulo hemos aprendido como configurar dos servicios muy importantes para administrar un servidor como lo son HTTP y FTP, existen muchos otros que puedes investigar y poner en práctica dentro de tu máquina virtual, anímate, la práctica hace al maestro.
+![Network Services Configuration - close and add user](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-26.jpg)
+
+- Finally, we restart the vsftpd service.
+
+![Network Services Configuration - restart the vsftpd service](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-27.jpg)
+
+> 📖 In this module, we have learned how to configure two very important services for managing a server, such as HTTP and FTP. There are many others that you can research and practice within your virtual machine. Go ahead, practice makes perfect.
