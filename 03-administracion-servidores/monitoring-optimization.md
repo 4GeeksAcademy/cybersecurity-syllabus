@@ -10,15 +10,19 @@ authors: ["blindma1den", "lorenagubaira"]
 
 Monitoring and optimizing the performance of our server are fundamental aspects to ensure efficient and reliable operation of computer systems. An optimally performing server can improve response speed, service availability, and user experience. Some key practices for monitoring and optimizing the performance of a Linux server:
 
-- **Performance Monitoring:** The first step to optimizing the performance of a Linux server is to continuously monitor system resources. This involves monitoring CPU usage, memory, storage, and network. Tools like Nagios, Zabbix, or Munin allow real-time monitoring and generate alerts if any resource is at its limit or if there is abnormal behavior.
+Performance Monitoring:** The first step to optimizing a Linux server's performance is to continuously monitor system resources. This involves monitoring CPU usage, memory, storage, and network. Tools like Nagios, Zabbix, or Munin allow real-time monitoring and generate alerts if any resource is at its limit or if there is abnormal behavior.
+
 - **Identifying Bottlenecks:** During performance monitoring, it is important to identify bottlenecks, which are the system components that limit overall performance. These can be CPU issues, lack of memory, network bottlenecks, or storage problems. By identifying these bottlenecks, measures can be taken to optimize performance.
-- **System Configuration Adjustment:** Once bottlenecks are identified, it is necessary to adjust the system configuration to optimize performance. This may include proper resource allocation, such as configuring virtual memory, tuning the kernel, or optimizing network parameters. It is important to consider specific recommendations for the Linux operating system and the applications running on the server.
-- **Optimizing Services and Applications:** In addition to adjusting system configuration, it is important to optimize the services and applications running on the Linux server. This involves reviewing the configuration of services such as the web server, database, or mail server and making adjustments to improve their performance. Code optimization techniques and profiling tools can also be used to identify and correct bottlenecks in applications.
-- **Log Monitoring:** Monitoring the logs of the Linux server is essential to identify potential performance problems and take corrective action. Logs can provide valuable information about errors, warnings, response times, and resource usage. Tools like Logwatch or Logstash facilitate the collection and analysis of server logs.
+
+- **System Configuration Adjustment:** Once bottlenecks are identified, the system configuration must be adjusted to optimize performance. This may include proper resource allocation, such as configuring virtual memory, tuning the kernel, or optimizing network parameters. It is important to consider specific recommendations for the Linux operating system and the applications running on the server.
+
+- **Optimizing Services and Applications:** Besides adjusting system configuration, optimizing the services and applications running on the Linux server is important. This involves reviewing the configuration of services such as the web server, database, or mail server and making adjustments to improve performance. Code optimization techniques and profiling tools can also be used to identify and correct bottlenecks in applications.
+
+- **Log Monitoring:** Monitoring the Linux server's logs is essential to identifying potential performance problems and taking corrective action. Logs can provide valuable information about errors, warnings, response times, and resource usage. Tools like Logwatch or Logstash facilitate the collection and analysis of server logs.
 
 - **System Updates and Patches:** Keeping the Linux operating system updated with the latest updates and security patches is crucial to ensure optimal performance. Updates and patches often include performance improvements and bug fixes that can benefit the server.
 
-- **Scaling and Load Balancing:** If the Linux server experiences high traffic or load, it may be necessary to implement scaling and load balancing techniques. This involves distributing the workload across multiple servers or instances to improve performance and availability. Tools like Nginx, HAProxy, or Apache Load Balancer can help with this task.
+- **Scaling and Load Balancing:** If the Linux server experiences high traffic or load, it may be necessary to implement scaling and load balancing techniques. This involves distributing the workload across multiple servers or instances to improve performance and availability. Tools like Nginx, HAProxy, or Apache Load Balancer can help.
 
 ## Identifying and Solving System Bottlenecks
 
@@ -32,7 +36,7 @@ Some ways to resolve this are:
 
 - **Identifying Critical Components:**
 
-  Based on data analysis, identify the critical components of the system that are causing bottlenecks. It could be the CPU, memory, disk, network, or even incorrect software configuration. Prioritize the components that have a significant impact on overall system performance.
+  Based on data analysis, identify the critical system components causing bottlenecks. These could be the CPU, memory, disk, network, or even incorrect software configuration. Prioritize the components that significantly impact overall system performance.
 
 - **Resource Optimization:**
 
