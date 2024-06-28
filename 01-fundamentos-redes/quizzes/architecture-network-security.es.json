@@ -1,8 +1,7 @@
 {
   "info": {
-    "slug": "network-security-architecture-es",
+    "slug": "evaluacion-arquitectura-seguridad-redes",
     "name": "Arquitectura y seguridad de redes",
-    "status": "draft",
     "main": "Veamos un poco mas allá de lo evidente en cuanto a redes, profundizar en estos temas te ayudará a ser un profesional mas competente",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
     "badges": [{ "slug": "cybersecurity_guru", "points": 5 }]
