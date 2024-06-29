@@ -161,13 +161,12 @@ De los 64 hosts tendremos 62 para asignar ya que necesitamos el host de red y el
 
 La dirección de red será la primera dirección de la subred y la dirección broadcast sera la ultima direccion.
 
-Subred 1 192.168.0.1 - 192.168.0.62 Direccion de red 192.168.0.0 Broadcast 192.168.0.63
-
-Subred 2 192.168.0.65 - 192.168.0.126 Direccion de red 192.168.0.64 Broadcast 192.168.0.127
-
-Subred 3 192.168.0.129 - 192.168.0.190 Direccion de red 192.168.0.128 Broadcast 192.168.191
-
-Subred 4 192.168.0.193 - 192.168.0.254 Direccion de red 192.168.0.192 Broadcast 192.168.0.255
+| Subred                     | Dirección de Red | Broadcast          |
+|----------------------------|------------------|-------------------|
+| 192.168.0.1 - 192.168.0.62 | 192.168.0.0      | 192.168.0.63      |
+| 192.168.0.65 - 192.168.0.126| 192.168.0.64    | 192.168.0.127     |
+| 192.168.0.129 - 192.168.0.190| 192.168.0.128  | 192.168.0.191     |
+| 192.168.0.193 - 192.168.0.254| 192.168.0.192  | 192.168.0.255     |
 
 ## Configuración manual y automática de direcciones IP
 
