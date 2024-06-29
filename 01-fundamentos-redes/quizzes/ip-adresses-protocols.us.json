@@ -2,7 +2,7 @@
   "info": {
     "slug":    "ip-addresses-protocols-us",
     "name":    "Protocols and IP Addresses",
-    "status":    "draft",
+    "technologies": ["networks", "cybersecurity"],
     "main":    "Let's see how well you understand how the IP protocol works.",
     "results": "Congratulations! Now the world will be a little safer thanks to you...",
     "badges": [
