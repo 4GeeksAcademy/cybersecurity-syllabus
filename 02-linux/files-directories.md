@@ -5,8 +5,6 @@ tags: ["linux", "the-terminal"]
 authors: ["blindma1den", "lorenagubaira"]
 ---
 
-## Navigating and Manipulating Files and Directories
-
 For a system administrator, having knowledge of navigating and manipulating files and directories is a fundamental part of the job. In Linux, all this can be achieved from the command line. Through certain commands and tools, we can navigate the file system, create, copy, move, and delete files and directories.
 
 To begin, it's important to understand the directory structure. The file system is organized hierarchically, with a root directory represented by "/". From there, directories are organized in a tree structure, allowing for easy navigation and location of files.
