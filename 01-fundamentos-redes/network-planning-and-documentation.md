@@ -99,7 +99,7 @@ Network management systems can manage network devices such as switches, routers,
 Network administrators or MSPs can monitor network operations by accessing this server, which gives them a great deal of control without having to go on-site. Good management can allow us to:
 
 - **Clear network visibility**: The IT professional should get a clear picture of all connected devices on the network, observe data flow, and quickly identify and remedy problems that reduce network performance and can lead to failures.
-- **More efficient use of IT resources: We can implement tools that reduce the amount of manual labor required. This reduces labor costs and frees up technicians to focus on more important projects or other tasks.
+- **More efficient use of IT resources**: We can implement tools that reduce the amount of manual labor required. This reduces labor costs and frees up technicians to focus on more important projects or other tasks.
 - **Future infrastructure needs**: Network monitoring systems show how network components have performed over some time, giving us insight into the future. These reports can be analyzed to help anticipate when the organization may need to consider upgrading or implementing a new IT infrastructure.
 - **Increased protection against security threats**: Network monitoring establishes a baseline of a network's performance. This makes it easier to detect unusual changes in network behavior, such as unexplained increases in network traffic levels. When IT can quickly identify potential cybersecurity issues, it can often intervene before the threat becomes costly.
 
