@@ -178,13 +178,15 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 
 ### Cómo activar el protocolo DHCP
 
-- **Windows**
+#### Activar el protocolo DHCP en Windows
+
 1. Haz clic en Inicio > Configuración > Red e Internet.
 2. Haz clic en Ethernet o Wi-Fi. Selecciona Administrar y haz clic en Editar junto a Asignación de IP.
 3. En editar configuración IP de red, selecciona Automática (DHCP.)
 4. Haz clic en `Guardar` para activar la nueva configuración.
 
-- **Linux**
+#### Activar el protocolo DHCP en Linux
+
 1. Buscamos la opción editar las conexiones.
 2. Nos dirigimos a la opción Ajustes de IPv4.
 3. En método seleccionamos la opción DHCP.
@@ -193,14 +195,16 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 
 ### Cómo configurar la IP manualmente
 
-- **Windows**
+#### Cómo configurar la IP manualmente en Windows
+
 1. Haz clic en Inicio > Configuración > Red e Internet.
 2. Haz clic en Ethernet o Wi-Fi. Selecciona Administrar y haz clic en `Editar` junto a Asignación de IP.
 3. En `Editar` configuración IP de red, selecciona `Manual`.
 4. Ingresa la dirección IP de la cual se quiera usar y la demás información.
 5. Haz clic en Guardar para activar la nueva configuración.
 
-- **Linux**
+#### Cómo configurar la IP manualmente en Linux
+
 1. Buscamos la opción editar las conexiones.
 2. Nos dirigimos a la opción Ajustes de IPv4.
 3. En método seleccionamos la opción `Manual`.
