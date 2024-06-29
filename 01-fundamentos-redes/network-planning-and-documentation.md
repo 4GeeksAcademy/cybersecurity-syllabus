@@ -1,7 +1,7 @@
 ---
 title: "Network Planning and Documentation"
 subtitle: "Strategic Network Planning: Achieving Scalability & Efficiency through Documentation, Topology, and Growth Strategies"
-tags: ["networks"]
+tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
