@@ -1,7 +1,7 @@
 ---
 title: "Planificación y documentación de redes"
 subtitle: "Planificación estratégica de redes: lograr escalabilidad y eficiencia a través de documentación, topología y estrategias de crecimiento"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
