@@ -82,7 +82,7 @@ The TCP/IP (Transmission Control Protocol/Internet Protocol) Model is a conceptu
 **2. Internet Layer (Internet Layer):** 
 
 - The Internet layer is responsible for routing data between different networks and globally. It uses IP addresses to identify devices and routers on the network.
-- Example: When you enter a URL in your browser, such as "**[www.ejemplo.com](http://www.ejemplo.com/)**", the Internet layer resolves the IP address associated with that domain name and routes requests through the global network to the correct web server.
+- Example: When you enter a URL in your browser, such as `www.example.com`, the Internet layer resolves the IP address associated with that domain name and routes requests through the global network to the correct web server.
 
 **3. Transport Layer:**
 
