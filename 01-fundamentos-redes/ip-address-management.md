@@ -161,13 +161,12 @@ Of the 64 hosts, we will have 62 to assign since we need the network host and th
 
 The network address will be the first address of the subnet and the broadcast address will be the last address.
 
-Subnet 1 192.168.0.1 - 192.168.0.62 Network address 192.168.0.0.0 Broadcast 192.168.0.63
-
-Subnet 2 192.168.0.65 - 192.168.0.126 Network address 192.168.0.64 Broadcast 192.168.0.127
-
-Subnet 3 192.168.0.129 - 192.168.0.190 Network address 192.168.0.128 Broadcast 192.168.191
-
-Subnet 4 192.168.0.193 - 192.168.0.254 Network address 192.168.0.192 Broadcast 192.168.0.255
+| Subnet                    | Network Address  | Broadcast        |
+|---------------------------|------------------|------------------|
+| 192.168.0.1 - 192.168.0.62| 192.168.0.0      | 192.168.0.63     |
+| 192.168.0.65 - 192.168.0.126| 192.168.0.64   | 192.168.0.127    |
+| 192.168.0.129 - 192.168.0.190| 192.168.0.128 | 192.168.0.191    |
+| 192.168.0.193 - 192.168.0.254| 192.168.0.192 | 192.168.0.255    |
 
 ## Manual and automatic IP address configuration**
 
