@@ -133,9 +133,7 @@ This command is one of the most commonly used to search for files and directorie
 
 For example, to find all .txt files within a path, use the following command:
 
-![find command in Linux](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-commando-find-image40.png?raw
-
-=true)
+![find command in Linux](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-commando-find-image40.png?raw=true)
 
 > Other ways to search with the `find` command include:
 
