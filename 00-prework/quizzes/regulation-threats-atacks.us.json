@@ -53,6 +53,48 @@
       ]
     },
     {
+      "q": "What is the main law regulating the protection of personal data in the USA?",
+      "a": [
+        {
+          "option": "California Consumer Privacy Act (CCPA)",
+          "correct": true
+        },
+        {
+          "option": "General Data Protection Regulation (GDPR)",
+          "correct": false
+        },
+        {
+          "option": "Health Insurance Portability and Accountability Act (HIPAA)",
+          "correct": false
+        },
+        {
+          "option": "Federal Information Security Management Act (FISMA)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which public body is dedicated to promoting cybersecurity in the USA?",
+      "a": [
+        {
+          "option": "Cybersecurity and Infrastructure Security Agency (CISA)",
+          "correct": true
+        },
+        {
+          "option": "National Cyber Security Centre (NCSC)",
+          "correct": false
+        },
+        {
+          "option": "Federal Bureau of Investigation (FBI)",
+          "correct": false
+        },
+        {
+          "option": "National Security Agency (NSA)",
+          "correct": false
+        }
+      ]
+    },
+    {
       "q": "Which regulation establishes the principles and security requirements that electronic systems and services of public administrations in Spain must comply with?",
       "a": [
         {
@@ -69,6 +111,27 @@
         },
         {
           "option": "General Data Protection Regulation (GDPR)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which regulation establishes the principles and security requirements that electronic systems and services of public administrations in the United States must comply with?",
+      "a": [
+        {
+          "option": "Federal Information Security Modernization Act (FISMA)",
+          "correct": false
+        },
+        {
+          "option": "Health Insurance Portability and Accountability Act (HIPAA)",
+          "correct": false
+        },
+        {
+          "option": "Sarbanes-Oxley Act (SOX)",
+          "correct": true
+        },
+        {
+          "option": "National Security Framework (ENS)",
           "correct": false
         }
       ]

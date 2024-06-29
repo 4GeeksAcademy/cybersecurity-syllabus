@@ -1,57 +1,57 @@
 ---
-title: "Introducción a la administración de servidores Linux"
-subtitle: "Administra servidores: Instala Linux en Máquina Virtual. Descubre conceptos, ventajas y más. ¡Comienza ya!"
-tags: ["servidores"]
+title: "Introduction to Linux Server Administration"
+subtitle: "Manage servers: Install Linux on a Virtual Machine. Discover concepts, advantages, and more. Start now!"
+tags: ["servers"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-Generalmente en los servidores almacenan y procesan datos críticos para las organizaciones. Por lo tanto, comprender cómo administrarlos de manera segura es crucial para proteger la información y garantizar la integridad de los sistemas. Así que en el siguiente módulo aprenderemos todo lo necesario para saber cómo administrar servidores, desde instalarlos y configurarlos hasta gestionar los permisos y usuarios y monitorear las actividades y rendimiento del servidor.
+Servers generally store and process critical data for organizations. Therefore, understanding how to manage them securely is crucial to protect information and ensure system integrity. In the following module, we will learn everything necessary to know how to administer servers, from installing and configuring them to managing permissions and users and monitoring server activities and performance.
 
-## **Qué es un servidor y su importancia en los entornos de red**
+## What is a Server and its Importance in Network Environments
 
-Un servidor es un equipo de computación dedicado a proporcionar servicios, recursos y almacenamiento a otros dispositivos conectados en la red. El servidor es un componente fundamental en los entornos de red ya que actúa como un intermediario entre los usuarios y los recursos que necesitan acceder.
+A server is a computing device that provides services, resources, and storage to other devices connected to the network. The server is a fundamental component in network environments as it acts as an intermediary between users and the resources they need to access.
 
-El propósito principal de un servidor es gestionar y facilitar el acceso a los recursos y servicios que ofrece. Estos recursos pueden incluir archivos, aplicaciones, bases de datos, servicios de correo electrónico, páginas web y mucho más.
+A server's primary purpose is to manage and facilitate access to its resources and services. These resources can include files, applications, databases, email services, web pages, and more.
 
-Entre los diferentes tipos de servidores que existen, podemos conseguir:
+Among the different types of servers that exist, we can find:
 
-- **Servidores de archivos**: Almacenan y comparten archivos en una red, permitiendo a los usuarios acceder y compartir información de manera centralizada.
-- **Servidores web**: Albergan y sirven páginas web a los usuarios que las solicitan a través de un navegador. Estos servidores son esenciales para que los sitios web sean accesibles en Internet.
-- **Servidores de correo electrónico**: Gestionan el envío, recepción y almacenamiento de correos electrónicos. Permiten a los usuarios enviar y recibir mensajes a través de una red.
-- **Servidores de bases de datos**: Almacenan y gestionan grandes cantidades de datos estructurados. Estos servidores permiten el acceso y la manipulación eficiente de la información almacenada en las bases de datos.
+- **File Servers**: Store and share files on a network, allowing users to access and share information in a centralized manner.
+- **Web Servers**: Host and serve web pages to users who request them through a browser. These servers are essential for websites to be accessible on the Internet.
+- **Email Servers**: Manage the sending, receiving, and storage of emails. They allow users to send and receive messages over a network.
+- **Database Servers**: Store and manage large amounts of structured data. These servers allow efficient access and manipulation of the information stored in the databases.
 
-Los servidores son una pieza importante en el departamento IT y en una empresa gracias a su capacidad para centralizar y gestionar eficientemente los recursos de una red, tales como archivos, aplicaciones, bases de datos, correo electrónico, entre otros. Al utilizar un servidor, los usuarios pueden acceder a estos recursos de una manera rápida y segura, sin la necesidad de tenerlos almacenados localmente en sus propios dispositivos.
+Servers are an important part of the IT department and a company because they can centralize and efficiently manage network resources such as files, applications, databases, email, and more. By using a server, users can access these resources quickly and securely without having to store them locally on their own devices.
 
-Otro atributo o beneficio que podemos tener gracias a los servidores es la capacidad de compartir recursos. Por ejemplo: en una red de oficina, varios usuarios pueden acceder y compartir archivos almacenados en un servidor central, esto facilita la colaboración y el intercambio de información entre los miembros del equipo.
+Another attribute or benefit we can have thanks to servers is the ability to share resources. For example: in an office network, multiple users can access and share files stored on a central server, facilitating collaboration and information exchange among team members.
 
-En cuanto a la seguridad, cuando centralizamos los recursos de la empresa en un servidor, es posible implementar medidas de seguridad más robustas, como firewalls, sistema de autenticación, cifrados de datos y software de seguridad, y así proteger la información sensible y prevenir accesos no autorizados, centralizar los recursos nos puede ayudar a simplificar la gestión y mantenimiento de la red, entre ellas tareas como la asignación de permisos de acceso y la realización monitoreo del rendimiento de la red.
+Regarding security, when we centralize company resources on a server, we can implement more robust security measures such as firewalls, authentication systems, data encryption, and security software to protect sensitive information and prevent unauthorized access. Centralizing resources can also help simplify network management and maintenance, including tasks such as assigning access permissions and monitoring network performance.
 
-Durante este módulo vamos a explorar todas las ventajas que vamos a tener al trabajar con un servidor y cómo administrar sus recursos para así sacar el mayor rendimiento de su funcionamiento.
+During this module, we will explore all the advantages of working with a server and how to manage its resources to get the most out of its performance.
 
-### **Ventajas de linux como sistema operativo de servidor.**
+### **Advantages of Linux as a Server Operating System**
 
-Como administradores de servidores es normal preguntarse cuál es el mejor sistema operativo para usar en nuestro servidor, en módulos anteriores hemos hablado de GNU/Linux y mencionamos que es un sistema operativo de código abierto basado en unix, la realidad es que GNU/Linux se ha convertido en una opción popular para servidores en entornos empresariales y de desarrollo, principalmente para las pequeñas y medianas empresas que dependen en gran medida de la estabilidad de sus sitios web, una de las ventajas que ofrece linux es una mayor estabilidad y seguridad, además de permitir manejar con fluidez un mayor número de procesos
+As server administrators, it is normal to wonder which is the best operating system to use. In previous modules, we have talked about GNU/Linux and mentioned that it is an open-source operating system based on Unix. The reality is that GNU/Linux has become a popular option for servers in business and development environments, especially for small and medium-sized companies that rely heavily on the stability of their websites. One of the advantages that Linux offers is greater stability and security, as well as the ability to handle a larger number of processes smoothly.
 
-Estas son las ventajas que podemos tener al utilizar Linux como sistema operativo en un servidor:
+These are the advantages we can have when using Linux as an operating system on a server:
 
-| Estabilidad y fiabilidad | Una de las características más conocidas de Linux es su estabilidad y su fiabilidad. Esto es especialmente importante en entornos de servidor, ya que la disponibilidad y el tiempo de actividad es un elemento crítico dentro del entorno. |
+| Stability and Reliability | One of Linux's best-known characteristics is its stability and reliability. This is especially important in a server environment since availability and uptime are critical elements. |
 | --- | --- |
-| Seguridad | Linux es conocido por tener sistema operativo robusto en términos de seguridad. Al ser de código abierto, miles de desarrolladores en todo el mundo trabajan constantemente para identificar y solucionar vulnerabilidades, además, la estructura de permisos y la capacidad de personalizar la configuración de seguridad, hacen de Linux una opción segura para servidores. |
-| Flexibilidad y personalización | Linux nos ofrece una gran flexibilidad y capacidad de personalización, estas características hacen que los administradores de servidores puedan elegir entre una amplia variedad de distribuciones y configurar el sistema según sus necesidades específicas, así, optimizando el rendimiento y adaptar el sistema a los requisitos del sistema |
-| Costo |  Al ser un sistema operativo de código abierto, Linux no requiere el pago de licencias, lo que puede suponer en un ahorro significativo en comparación con otros sistemas operativos comerciales, además, los usuarios pueden tener acceso al código fuente y así modificarlo y adaptarlo según sus necesidades. |
-| Comunidad y soporte |  Linux cuenta con una gran comunidad de usuarios y desarrolladores que ofrecen soporte y asistencia, podemos conseguir una amplia gama de recursos en línea, foros y documentación disponible para resolver problemas y obtener ayuda en caso de necesitarlo. |
+| Security | Linux is known for being a robust operating system in terms of security. Being open-source, thousands of developers worldwide constantly work to identify and fix vulnerabilities. The permission structure and ability to customize security settings also make Linux a secure server option. |
+| Flexibility and Customization | Linux offers great flexibility and customization capabilities. These characteristics allow server administrators to choose from various distributions and configure the system according to their specific needs, optimizing performance, and adapting the system to the requirements. |
+| Cost | Being an open-source operating system, Linux does not require paying for licenses, which can result in significant savings compared to other commercial operating systems. Additionally, users can access the source code and modify and adapt it according to their needs. |
+| Community and Support | Linux has many users and developers who offer support and assistance. We can find a wide range of online resources, forums, and documentation available to solve problems and get help when needed. |
 
-### **Conceptos básicos para administración de servidores.**
+### Basic Concepts for Server Administration
 
-Podemos definir a la administración de servidores como un conjunto de prácticas y conocimientos necesarios para gestionar y mantener eficientemente los servidores en un entorno de red.
+We can define server administration as a set of practices and knowledge necessary to efficiently manage and maintain servers in a network environment.
 
-Algunos conceptos que tenemos que tener claros al momento de hablar de administración de servidores son:
+Some concepts that we need to be clear about when talking about server administration are:
 
-1. **Sistema operativo:** Es el software fundamental que permite el funcionamiento del servidor. Es importante tener un buen conocimiento del sistema operativo utilizado en el servidor, como Linux, Windows Server, macOS Server, entre otros. Esto incluye la instalación, configuración y actualización del sistema operativo.
-2. **Roles y servicios**: Los servidores pueden desempeñar diferentes roles y ofrecer diversos servicios. Algunos ejemplos comunes son servidores web, servidores de correo electrónico, servidores de bases de datos, servidores de archivos, entre otros. Es importante comprender los roles y servicios que se necesitan en la red y cómo configurarlos adecuadamente en el servidor.
-3. **Seguridad:** La seguridad es un aspecto crítico en la administración de servidores, ya que implica implementar medidas de seguridad como firewalls, sistemas de detección de intrusiones, cifrado de datos y políticas de contraseñas seguras. También es importante mantener el sistema operativo y las aplicaciones actualizadas para protegerse contra vulnerabilidades conocidas.
-4. **Copias de seguridad**: Realizar copias de seguridad periódicas es esencial para proteger los datos almacenados en el servidor. Esto implica establecer una estrategia de respaldo adecuada, que incluya la frecuencia de las copias de seguridad, los medios de almacenamiento utilizados y la verificación regular de la integridad de los datos de respaldo.
-5. **Monitoreo de procesos**: Es importante monitorear el rendimiento del servidor para garantizar su correcto funcionamiento. Esto implica supervisar el uso de recursos como la CPU, la memoria y el almacenamiento, así como el tráfico de red. El monitoreo permite identificar posibles cuellos de botella y tomar medidas para optimizar el rendimiento del servidor.
-6. **Administración remota**: La administración remota permite gestionar el servidor desde cualquier ubicación. Esto se logra a través de herramientas de administración remota como SSH (Secure Shell) o herramientas de administración centralizada. La administración remota facilita la configuración, el monitoreo y la solución de problemas sin necesidad de estar físicamente en el lugar donde se encuentra el servidor.
-7. **Servidor de nube:** Es un recurso de servidor centralizado y agrupado que se aloja y distribuye a través de una red y al que pueden acceder múltiples usuarios cuando lo necesiten. Los servidores de nube pueden realizar las mismas funciones que un servidor físico tradicional, proporcionando potencia de procesamiento, almacenamiento y aplicaciones. Para su funcionamiento se instalan un software de gestión llamado hipervisor en servidores físicos para conectarlos y virtualizarlos, los recursos combinados se desvinculan y se agrupan para crear servidores virtuales.
+1. **Operating System:** It is the fundamental software that enables the server to function. It is important to have a good understanding of the operating system used on the server, such as Linux, Windows Server, macOS Server, among others. This includes the installation, configuration, and updating of the operating system.
+2. **Roles and Services:** Servers can perform different roles and offer various services. Common examples include web servers, email servers, database servers, file servers, among others. It is important to understand the roles and services needed in the network and how to configure them properly on the server.
+3. **Security:** Security is a critical aspect of server administration, as it involves implementing security measures such as firewalls, intrusion detection systems, data encryption, and secure password policies. It is also important to keep the operating system and applications updated to protect against known vulnerabilities.
+4. **Backups:** Performing regular backups is essential to protect the data stored on the server. This involves establishing an appropriate backup strategy, including the frequency of backups, the storage media used, and regular verification of the integrity of backup data.
+5. **Process Monitoring:** It is important to monitor server performance to ensure its proper functioning. This involves monitoring resource usage such as CPU, memory, and storage, as well as network traffic. Monitoring allows identifying potential bottlenecks and taking measures to optimize server performance.
+6. **Remote Administration:** Remote administration allows managing the server from any location. This is achieved through remote administration tools such as SSH (Secure Shell) or centralized administration tools. Remote administration facilitates configuration, monitoring, and troubleshooting without the need to be physically present where the server is located.
+7. **Cloud Server:** It is a centralized and pooled server resource hosted and distributed over a network and accessible to multiple users as needed. Cloud servers can perform the same functions as a traditional physical server, providing processing power, storage, and applications. For its operation, a management software called hypervisor is installed on physical servers to connect and virtualize them. The combined resources are decoupled and pooled to create virtual servers.

@@ -6,6 +6,8 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
+En el mundo actual, más del 90% de las brechas de datos comienzan con vulnerabilidades en la red. En esta lección, aprenderás a mejorar la seguridad de tu red configurando reglas de filtrado de paquetes en un firewall. Cubriremos los conceptos básicos de los firewalls, el filtrado de paquetes y tecnologías avanzadas como VPN y WPA/WPA2. Al final, podrás configurar reglas de firewall para proteger tu red y asegurar una comunicación segura. ¡Empecemos!
+
 ## Firewall y filtrado de paquetes
 
 Un firewall es un dispositivo o software que se utiliza para proteger una red de amenazas externas. Funciona monitoreando y filtrando el tráfico de red que entra y sale de la red, permitiendo solo el tráfico seguro.

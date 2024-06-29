@@ -1,118 +1,126 @@
 ---
-title: "Administración básica de usuarios y grupos"
-subtitle: "Prácticas esenciales para la administración segura de usuarios y grupos en servidores Linux: Gestión eficiente y asignación adecuada de permisos."
-tags: ["servidores"]
+title: "Basic User and Group Administration"
+subtitle: "Essential Practices for Secure User and Group Management on Linux Servers: Efficient Management and Proper Permission Assignment."
+tags: ["servers"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Creación y gestión de cuentas de Usuario.**
+## Creating and Managing User Accounts
 
-Dentro del sistema, el administrador de sistema tiene el privilegio de ser el usuario root el cual significa que es el único usuario autorizado todos la creación de usuario y grupos y administración de todos estos archivos. Esta práctica no es recomendable ya que en algún caso de error, podemos causar fallas graves al sistema por lo que en el transcurso de las siguientes prácticas estamos bajo un usuario de sistema y le otorgamos privilegios de superusuarios con sudo.
+Within the system, the system administrator has the privilege of being the root user, which means they are the only authorized user to create and manage user accounts and groups, and administer all these files. This practice is not recommended because in the event of an error, we can cause severe system failures. Therefore, in the following practices, we will be under a system user and grant superuser privileges with sudo.
 
-Como administradores de sistemas, saber como crear y gestionar las cuentas de los usuarios de nuestro sistema es algo que necesitamos conocer y dominar, ya que los usuarios son las personas o entidades que van a interactuar con el servidor y van a requerir acceso a recursos y servicios específicos. Crear una cuenta de usuario no es algo difícil en Linux, involucra también crear contraseña y asignarlo a un grupo y permisos. Aquí les dejamos un ejemplo de como crear y gestionar una cuenta de usuario, para ello abriremos la máquina virtual de nuestro servidor y seguiremos los siguientes pasos:
+As system administrators, knowing how to create and manage user accounts is essential, as users are the people or entities that will interact with the server and require access to specific resources and services. Creating a user account is not difficult in Linux; it also involves creating a password and assigning it to a group and permissions. Here is an example of how to create and manage a user account. We will open the virtual machine of our server and follow these steps:
 
-- Para crear a un usuario, usaremos el comando **“useradd”** seguido del nombre de usuario, una vez ingresado el comando se pedirá que ingrese una contraseña para el usuario
+- To create a user, we will use the `useradd` command followed by the username. Once the command is entered, you will be prompted to enter a password for the user.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image20.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image20.png)
+![Creating and Managing User Accounts - Create User](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-1.jpg)
 
-- Si queremos cambiar la contraseña lo hacemos con el comando **passwd** seguido del usuario de la contraseña que queremos cambiar
+- If we want to change the password, we do it with the `passwd` command followed by the username whose password we want to change.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image21.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image21.png)
+![Creating and Managing User Accounts - Change Password Command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-2.jpg)
 
-- Una forma de facilitar la administración de permisos de directorios y archivos son a través de los grupos, podemos crear grupos con el comando **groupadd** y asignar al usuario en el grupo con el comando **usermod** junto a las flags **a** (para agregar a grupo) y **G** para agregar a grupo secundario, si queremos ver los grupos al que pertenece el usuario en el sistema usamos el comando groups.
+- One way to facilitate directory and file permission management is through groups. We can create groups with the **groupadd** command and assign the user to the group with the `usermod` command along with the `a` (to add to a group) and `G` flags for adding to a secondary group. If we want to see the groups to which the user belongs, we use the `groups` command.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image22.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image22.png)
+![Creating and Managing User Accounts - Create Groups](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-3.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image23.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image23.png)
+![Creating and Managing User Accounts - Usermod Command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-4.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image24.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image24.png)
+![Creating and Managing User Accounts - User in Group](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-5.jpg)
 
-- Si queremos ver los grupos que existen en el sistema podemos conseguir en la ruta /etc/group
+- If we want to see the groups that exist in the system, we can find them in the /etc/group directory.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image25.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image25.png)
+![Creating and Managing User Accounts - Existing Groups](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-6.jpg)
 
-- Cuando necesitemos eliminar un usuario del sistema lo haremos con el comando userdel seguido del nombre del usuario.
+- When we need to remove a user from the system, we do it with the `userdel` command followed by the username.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image26.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image26.png)
+![Creating and Managing User Accounts - Userdel Command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-7.jpg)
 
-**Es recomendable gestionar y crear los usuarios usando los privilegios de usuario sudo y no desde el usuario root ya que a la hora de un error desde el usuario root puede ser fatal para el sistema.**
+**It is recommended to manage and create users using sudo user privileges and not from the root user since an error from the root user can be fatal for the system.**
 
-> ⚠️ Recuerda que la creación y gestión de cuentas de usuario en servidores Linux debe realizarse de manera segura y siguiendo las mejores prácticas de seguridad. Esto incluye el uso de contraseñas fuertes, la asignación adecuada de permisos y la implementación de políticas de seguridad.
+> ⚠️ Remember that creating and managing user accounts on Linux servers should be done securely and follow best security practices. This includes using strong passwords, appropriate permission assignment, and implementing security policies.
 
-## **Asignación de permisos y privilegios.**
+## Assigning Permissions and Privileges
 
-Como administradores de sistema, es importante saber y conocer cómo gestionar y asignar permisos y privilegios a cada usuario del sistema, ya que los permisos pueden determinar qué acciones pueden realizar los usuarios y los privilegios definen el nivel de acceso y control sobre el sistema.
+As system administrators, it is essential to know how to manage and assign permissions and privileges to each system user, as permissions determine what actions users can perform and privileges define the level of access and control over the system.
 
-Cuando manejamos un servidor una de las mejores prácticas para proteger la información es poniendo en práctica el principio del menor privilegio, el cual consiste en asignarle los permisos de accesos mínimos necesarios para que pueda desempeñar actividades en el sistema, para ello es necesario conocer sobre los permisos y cómo gestionarlos.
+When managing a server, one of the best practices for protecting information is implementing the principle of least privilege, which involves assigning the minimum necessary access permissions for users to perform activities on the system. To do this, it is essential to understand permissions and how to manage them.
 
-En linux, lectura (r), escritura (w) y ejecución (x). Estos permisos se asignan a tres grupos de usuarios: el propietario del archivo, el grupo al que pertenece el archivo y otros usuarios. podemos ver estos permisos en los directorios o archivos con el comando: ***`ls -l`***
+In Linux, permissions include read (r), write (w), and execute (x). These permissions are assigned to three groups of users: the file owner, the group to which the file belongs, and other users. We can see these permissions in directories or files with the `ls -l` command.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image27.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image27.png)
+![Assigning Permissions and Privileges - ls Command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-1.jpg "The ls -l command allows us to visualize permissions in directories or files")
 
-En la siguiente imagen podemos ver como tenemos un archivo llamado `text.txt` el cual cuenta con sus permisos agrupado en tres grupos:
+In the following image, we can see a file called `text.txt` with its permissions grouped into three groups:
 
-- Los primeros tres permisos son los permisos que tiene el propietario del archivo (“usuario"). En este caso tenemos permiso de lectura (r) y escritura (w) pero no de ejecución. rw-
-- El segundo grupo de permisos son los permisos que tienen los usuarios del grupo (“departamentoIT), en este caso tenemos los mismos permisos de lectura y escritura pero no de ejecución. rw-
-- El tercer grupo de de permiso son los permisos para el resto de los usuarios del sistema el cual solo podrán leer el archivo mas no podrán ni escribir o editar sobre el ni ejecutarlos
+- The first three permissions are for the file owner ("user"). In this case, we have read (r) and write (w) permissions but not execute. rw-
+- The second group of permissions is for users in the group ("ITdepartment"), which has the same read and write permissions but not execute. rw-
+- The third group of permissions is for other system users, who can only read the file but not write or execute it.
 
-> 💡 Es normal que a todos los usuarios del sistema los separamos por grupos para que así puedan acceder únicamente a los archivos que necesitan leer, escribir o ejecutar de acuerdo al nivel de privilegios que tenga tal usuario, y así proteger información confidencial de otros departamentos de la organización, una vez que creamos un usuario, es necesario darle permisos de acuerdo a las labores que vaya a realizar en la organización.
+> 💡 It is common to separate all system users into groups so that they can only access the files they need to read, write, or execute according to their level of privilege, thereby protecting confidential information from other organization departments. Once we create a user, it is necessary to give permissions according to the tasks they will perform in the organization.
 
-Con el comando `chmod` podemos cambiar y otorgar permisos a los usuarios sobre un archivo.
+With the `chmod` command, we can change and grant permissions to users on a file.
 
-- Si queremos dar permiso a un usuario (u), a un grupo (g) o a otros usuarios del sistema (o) colocamos la flag seguido de un + y el permiso que vayamos a asignar.
-- En este caso, gestionamos permisos de lectura, escritura y ejecución solo para el propietario del archivo (u).
+- If we want to give permission to a user (u), a group (g), or other system users (o), we use the flag followed by a + and the permission to be assigned.
+- In this case, we manage read, write, and execute permissions only for the file owner (u).
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image28.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image28.png)
+![Assigning Permissions and Privileges - Granting Permissions to a User](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-2.jpg "Granting Permissions to a User")
 
-> 💡 Podemos generar permisos esenciales con los bits de ejecución setuid (suid), el bit de ejecución setgid (sgid) y el bit de ejecución sticky. El bit suid permite que un archivo se ejecute con los privilegios del propietario, mientras que el bit sgid permite que un archivo se ejecute con los privilegios del grupo. El bit sticky se utiliza principalmente en directorios para evitar que los usuarios eliminen archivos de otros usuarios
+> 💡 We can generate essential permissions with the setuid (suid) execution bit, the setgid (sgid) execution bit, and the sticky bit. The suid bit allows a file to be executed with the privileges of the owner, while the sgid bit allows a file to be executed with the privileges of the group. The sticky bit is primarily used in directories to prevent users from deleting files of other users.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image29.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image29.png)
+![Assigning Permissions and Privileges - Setuid Execution Bit (suid)](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-3.jpg "Setuid Execution Bit (suid)")
 
-En este caso, generamos permisos de suid de privilegio de usuario y grupo al archivo `text.txt`
+In this case, we generate suid user and group privilege permissions for the `text.txt` file.
 
-Otra manera de gestionar los permisos es asignarlos con la cantidad de bits de los permisos. Tomando en cuenta que cada permiso tiene una cantidad de bits podemos sacarlos como:      
+Another way to manage permissions is to assign them with the number of permission bits. Considering that each permission has a number of bits, we can calculate them as follows:
 
-- Lectura r (4)
-- Escritura w (2)
-- Ejecución x (1)
-1. Si queremos gestionar permisos por bits esta cuenta te puede resultar útil
-    - Lectura (r), Escritura (w) Ejecución (x) rwx = 7
-    - Lectura (r), Escritura (w) rw- =6
-    - Lectura (r), Ejecución (x) r-x = 5
-    - Lectura (r) r– = 4
-    - Escritura (w), Ejecución -wx = 3
-    - Escritura (w) -w- = 2
-    - Ejecución (x) –x = 1
-2. Colocaremos la cantidad de bits que los permisos que queramos otorgar de acuerdo a la posición de usuario, grupo y otros.
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image30.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image30.png)
-    
-> 💡 La asignación de permisos y privilegios en linux es esencial para así garantizar al seguridad y el control adecuado sobre los recursos del sistema
-    
+```txt
+Read r (4)
+Write w (2)
+Execute x (1)
+```
 
-## **Configuración de grupos y asignación de usuarios a grupos.**
+1. If we want to manage permissions by bits, this calculation may be useful:
 
-Saber cómo configurar y asignar un usuario a un grupo en específico es ideal cuando queremos ganar tiempo y tenemos un sistema con muchos usuarios, ya que una manera rápida de hacerlo es ir asignando a los usuarios a un grupo con los permisos de usuarios mínimos de acuerdo a su labor. Por ejemplo podemos tener un grupo de departamentoIT que pueda tener acceso ejecutar a los scripts de automatización de tareas del sistema y asi, que los usuarios de departamento de marketing no puedan tener acceso a dichos scripts.
+```txt
+Read (r), Write (w), Execute (x) rwx = 7
+Read (r), Write (w) rw- = 6
+Read (r), Execute (x) r-x = 5
+Read (r) r-- = 4
+Write (w), Execute -wx = 3
+Write (w) -w- = 2
+Execute (x) --x = 1
+```
 
-Para ello tenemos comandos que nos pueden ayudar tales como **`groupadd`** para crear un grupo.
+2. We will place the number of bits for the permissions we want to grant according to the position of user, group, and others.
 
-Para este ejercicio hemos creado un grupo llamado departamentomarketing, ya una vez creado podremos agregar al usuario al grupo con el comando adduser seguido del nombre de usuario y el grupo al cual queremos que pertenezca.
+![Assigning Permissions and Privileges - Number of Permission Bits for User, Group, and Others](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-4.jpg "Number of Permission Bits for User, Group, and Others")
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image31.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image31.png)
+> 💡 Assigning permissions and privileges in Linux is essential to ensure security and proper control over system resources.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image32.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image32.png)
+## Configuring Groups and Assigning Users to Groups
 
-En este comando hicimos que el usuario1 pasará a ser del grupo de departamentomarketing.
+Knowing how to configure and assign a user to a specific group is ideal when we want to save time and have a system with many users. A quick way to do this is by assigning users to a group with minimum user permissions according to their role. For example, we can have an IT department group that can execute system task automation scripts, while marketing department users cannot access these scripts.
 
-Si queremos remover a un usuario del grupo lo podemos lograr con el comando deluser seguido del nombre del usuario y el grupo del cual queremos removerlo.
+To do this, we have commands such as `groupadd` to create a group.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image33.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image33.png)
+For this exercise, we have created a group called marketingdepartment. Once created, we can add the user to the group with the `adduser` command followed by the username and the group to which we want them to belong.
 
-Una forma de ver los grupos en el sistema es accediendo a la ruta /etc/group usando el comando cat. Ahí podemos ver todos los grupos que tenemos seguido de un número o identificador de grupo (gid). Por lo general, al momento de crear grupos, el sistema le asigna un gid de 1000 en adelante. Los gid menores a 100 son reservados para uso del sistema y sus grupos especiales.
+![Configuring Groups and Assigning Users - Groupadd Command to Add Groups](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-s
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image34.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image34.png)
+yllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-1.jpg "Groupadd Command to Add Groups")
 
-Si queremos modificar el gid o el nombre del grupo podemos hacerlo a través del comando groupmod seguido del nuevo gid o el nombre y el gid o nombre anterior.
+![Configuring Groups and Assigning Users - Adding User to Marketingdepartment Group](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-2.jpg "User1 will become part of the marketingdepartment group")
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image35.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image35.png)
+In this command, we made user1 part of the marketingdepartment group.
+
+If we want to remove a user from the group, we can do it with the `deluser` command followed by the username and the group from which we want to remove them.
+
+![Configuring Groups and Assigning Users - Removing User from Marketingdepartment Group](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-3.jpg "Remove user1 from the marketingdepartment group")
+
+One way to see the groups in the system is by accessing the /etc/group directory using the cat command. There, we can see all the groups followed by a group identifier (gid). Generally, when creating groups, the system assigns a gid of 1000 onwards. Gids less than 100 are reserved for system use and its special groups.
+
+![Configuring Groups and Assigning Users - Cat Command to View Groups in the System](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-4.jpg "Cat Command to View Groups in the System")
+
+If we want to modify the gid or the group name, we can do it through the `groupmod` command followed by the new gid or name and the previous gid or name.
+
+![Configuring Groups and Assigning Users - Modify gid or Group Name with Groupmod Command](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-5.jpg "Modify gid or Group Name with Groupmod Command 'new name or gid' + 'previous gid or name' ")
