@@ -1,12 +1,12 @@
 ---
 title: "Decálogo de ciberseguridad"
-subtitle: ""Decálogo de ciberseguridad: Protege tu información con estos consejos prácticos y efectivos | Redes, Seguridad en línea"
+subtitle: "Decálogo de ciberseguridad: Protege tu información con estos consejos prácticos y efectivos | Redes, Seguridad en línea"
 tags: ["redes"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image7.jpg](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image7.jpg)
+![Consejos para aumentar la seguridad Online en tu hogar](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-1.jpg)
 
 - Debemos proteger nuestro **puesto de trabajo** y mantener limpio de papeles que contengan información sensible.
 - Es recomendable establecer en tu **dispositivo móvil** una clave de acceso y la opción de bloqueo automático
@@ -36,7 +36,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 Con tus correos distribuidos en estas 3 cuentas, puedes tener mejor control de los correos que llegan, contener correos basura o spam, levantar alarmas en caso de la llegada de un correo fue de lugar. También podrás tener seguridad de que si el correo Email Publico, es comprometido, no alcanzarán tus datos personales.
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image8.jpg](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image8.jpg)
+![Seguridad en tu correo - Mejores Prácticas](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-2.jpg)
 
 ## **Tecnología que más usamos:**
 
@@ -48,7 +48,7 @@ Con tus correos distribuidos en estas 3 cuentas, puedes tener mejor control de l
 
 **En caso de que manejes un celular empresario**, con información confidencial, ten cuidado de NO conectarte a redes abiertas o públicas, como la de las cafeterías o restaurantes, puedes ser víctima de un ataque llamado MAN IN THE MIDDLE, en el que las personas se infiltran y se aprovechan de la inseguridad de la red para meterse y obtener información que es confidencial y que esa persona no está autorizada para tener. Si lo vas a hacer usa una herramienta conocida como BPN para asegurarte de que la información va a viajar segura.
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image9.jpg](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image9.jpg)
+![Seguridad en tu celular](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-3.jpg)
 
 ## **Seguridad al navegar**
 
@@ -66,7 +66,7 @@ Conceptos básicos de la gestión de incidentes de seguridad
 
 Este grupo está enfocado principalmente en atender los incidentes de seguridad de la información que se presentan sobre los activos soportados por la plataforma tecnológica de la entidad.
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image10.png](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image10.png)
+![Seguridad en tu correo - Mejores Prácticas](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-4.jpg)
 
 ### **Preparación**
 
