@@ -1,86 +1,109 @@
 ---
-title: "Programación de tareas automatizadas"
-subtitle: "Automatización eficiente: Configura cron en Linux para optimizar tareas repetitivas y asegurar la estabilidad del servidor. Aprende paso a paso."
-tags: ["servidores"]
+title: "What is Cron and how to use it to schedule and automate Tasks"
+subtitle: "Efficient Automation: Understand what cron is and how to configure it in Linux to optimize repetitive tasks and ensure server stability. Learn step by step."
+tags: ["servers"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Uso de cron para programar tareas**
+Cron is a very useful tool in Linux operating systems that allows you to schedule tasks to run automatically at specific times. With cron, you can automate repetitive tasks such as making backups, updating databases, sending email reports, and much more.
 
-Cron es una herramienta muy útil en sistemas operativos Linux que permite programar tareas para que se ejecuten automáticamente en momentos específicos. Con cron, puedes automatizar tareas repetitivas, como realizar copias de seguridad, actualizar bases de datos, enviar informes por correo electrónico y mucho más.
+Tasks in cron are configured through files called "crontabs." Each user can have their own crontab, which contains the scheduled tasks for that particular user. To edit a user's crontab, you can use the command `crontab -e`.
 
-La configuración de tareas en cron se realiza a través de archivos llamados "crontabs". Cada usuario puede tener su propio crontab, que contiene las tareas programadas para ese usuario en particular. Para editar el crontab de un usuario, puedes utilizar el comando `crontab -e`.
+The format of a crontab consists of five fields separated by spaces: minutes, hours, day of the month, month, and day of the week. You can use numbers or asterisks (*) to indicate all possible values in a field.
 
-El formato de un crontab consta de cinco campos separados por espacios: minutos, horas, día del mes, mes y día de la semana. Puedes utilizar números o asteriscos (*) para indicar todos los valores posibles en un campo. Por ejemplo, si deseas que una tarea se ejecute todos los días a las 8:00 a.m., puedes configurar el crontab de la siguiente manera: "0 8 * * * comando".
+For example, if you want a Python script to run every day at 8:00 a.m., you can set the crontab as follows:
 
-Además de los valores numéricos, también puedes utilizar expresiones especiales en los campos de tiempo. Por ejemplo, "@daily" se traduce en "0 0 * * *", lo que significa que la tarea se ejecutará todos los días a la medianoche. Otras expresiones útiles incluyen "@hourly", "@weekly" y "@monthly".
+```txt
+0 8 * * * python <path to file.py>
+```
 
-Estas expresiones se traducen de esta manera:
+In addition to numeric values, you can also use special expressions in the time fields. For example, "@daily" translates to "0 0 * * *," which means the task will run every day at midnight. Other useful expressions include "@hourly," "@weekly," and "@monthly."
 
-@reboot: Ejecuta una vez y nada más iniciarse el equipo.
+```txt
+@daily /path/to/script.sh
+```
 
-1. @yearly: ejecuta sólo una vez al año: 0 0 1 1 *
-2. @monthly: ejecuta una vez al mes y el primer día: 0 0 1 * *
-3. @weekly: todas las semanas, el primer minuto de la primera hora de la semana: 0 0 * * 0.
-4. @daily: todos los días a las 12 de la noche: 0 0 * * *
-5. @midnight: Tiene el mismo efecto que el anterior.
-6. @hourly: todas las horas durante su primer minuto: 0 * * * *
+> 🛟 @daily does not allow specifying a specific time, as it runs automatically at midnight (00:00) each day. To run a script every day at a specific time, such as 1 PM, you must use the standard cron format as shown above.
 
-También podemos utilizar algunos modificadores, que son algunos caracteres especiales los cuales nos dan mucho más poder de crear nuevas reglas. Lo cual aumenta las posibilidades para poder crear procesos mucho más complejos, y como tal más precisos. Estos son:
+These expressions translate as follows:
 
-1. : Tiene el mismo significado que asignar todos los valores.
-2. ,: Nos da un listado de valores.
-3. : Establece un rango de valores.
-4. /: Significa «cada».
-5. rango / excep: Crea excepciones en la regla.
+@reboot: Runs once, just after the computer starts.
 
-> ⚠️ Es importante tener en cuenta que las tareas programadas en cron se ejecutan en el contexto del usuario que las programó. Por lo tanto, asegúrate de que el usuario tenga los permisos adecuados para realizar las tareas programadas.
+| Expression | Description |
+|------------|-------------|
+| @yearly    | Runs once a year: 0 0 1 1 * |
+| @monthly   | Runs once a month on the first day: 0 0 1 * * |
+| @weekly    | Runs weekly, at the first minute of the first hour of the week: 0 0 * * 0 |
+| @daily     | Runs daily at midnight: 0 0 * * * |
+| @midnight  | Has the same effect as the previous one. |
+| @hourly    | Runs every hour at the first minute: 0 * * * * |
 
-Además, es recomendable redirigir la salida de las tareas programadas a archivos de registro para poder verificar su ejecución y detectar posibles errores. Puedes hacer esto agregando ">> ruta_del_archivo" al final de la línea de comando en el crontab.
+We can also use some modifiers, which are special characters that give us more power to create new rules. This increases the possibilities for creating more complex and precise processes. These are:
 
-Para listar las tareas programadas en un crontab, puedes utilizar el comando "crontab -l". Si deseas eliminar todas las tareas programadas de un crontab, puedes utilizar el comando "crontab -r".
+| Modifier | Description |
+|-------------|-------------|
+| `*`         | Means the same as assigning all values. |
+| `,`         | Gives us a list of values. |
+| `-`         | Sets a range of values. |
+| `/`         | Means "every." |
+| `range / excep` | Creates exceptions in the rule. |
 
-Esto nos ayudará a programar tareas que pueden resultar repetitivas, por lo cual los administradores de sistema pueden estar pendientes de otras cosas. Estos proporcionan una forma muy eficiente de programar la ejecución de diferentes scripts, comandos y también programas. Debido al alto grado de personalización, podremos programar prácticamente lo que sea necesario y sea beneficioso para la organización y las tareas que se realizan en su entorno.
+> ⚠️ It is important to note that scheduled tasks in cron run in the context of the user who scheduled them. Therefore, ensure that the user has the appropriate permissions to perform the scheduled tasks.
 
-Estos sistemas ofrecen varias ventajas a nivel empresarial. La primera es la que comentamos, la capacidad de programar esas tareas más tediosas para que no sea necesaria la intervención manual. Lo cual ahorra tiempo, y reduce el riesgo de que aparezcan posibles errores relacionados con errores humanos. Algunos de los métodos más comunes son para copias de seguridad, actualizaciones de software, generar informes o la ejecución de procesos de mantenimiento. Pero a todo esto también le sumamos la flexibilidad para la programación. Todos los beneficios que hemos visto previamente de cron y crontab, los tendremos disponibles a nivel empresarial. Por lo cual las opciones para crear este tipo de automatizaciones son muy abundantes.
+Some examples of tasks with modifiers:
 
-## **Creación y edición de archivos crontab**
+| Task                                | Description                                                                                 |
+|-------------------------------------|---------------------------------------------------------------------------------------------|
+| 0 8,16 * * *                        | Runs a task every day at 8 AM and 4 PM.                                                     |
+| 0 0 1-7 * *                         | Runs a task every day at midnight during the first week of each month.                      |
+| */15 * * * *                        | Runs a task every 15 minutes.                                                               |
+| 0 5 * * 1-5                         | Runs a task at 5 AM from Monday to Friday.                                                  |
 
-La creación y edición de archivos crontab es una tarea común en sistemas Unix y Linux para programar tareas que se ejecutarán automáticamente en momentos específicos. Un archivo crontab contiene las instrucciones para el cron daemon sobre qué tareas ejecutar y cuándo hacerlo.
+Additionally, it is advisable to redirect the output of scheduled tasks to log files to verify their execution and detect possible errors. You can do this by adding `>> path_to_file` at the end of the command line in the crontab.
 
-Para crear o editar un archivo crontab, puedes utilizar el comando "crontab -e". Esto abrirá el archivo crontab en el editor de texto predeterminado del sistema, como vi o nano. Si es la primera vez que utilizas "crontab -e", se te pedirá que elijas un editor.
+To list the scheduled tasks in a crontab, you can use the command `crontab -l`. If you want to remove all scheduled tasks from a crontab, you can use the command `crontab -r`.
 
-El archivo crontab tiene un formato específico que consta de cinco campos separados por espacios: minutos, horas, día del mes, mes y día de la semana. Cada campo acepta valores numéricos o caracteres especiales. Por ejemplo, si deseas que una tarea se ejecute todos los días a las 8:00 a.m., puedes agregar la siguiente línea al archivo crontab:
+This helps us schedule tasks that can become repetitive, allowing system administrators to focus on other things. It provides a very efficient way to schedule the execution of various scripts, commands, and programs. Due to the high degree of customization, we can schedule practically anything necessary and beneficial for the organization and its tasks.
 
-**Copy**
+These systems offer several advantages at the enterprise level. The first is the ability to schedule tedious tasks so that manual intervention is not needed, saving time and reducing the risk of human errors. Common methods include backups, software updates, generating reports, or running maintenance processes. In addition to this, we also have scheduling flexibility. All the benefits previously discussed about cron and crontab are available at the enterprise level, providing abundant options for creating such automations.
 
-`0 8 * * * comando`
+## Creating and Editing Crontab Files
 
-En esta línea, "0" representa los minutos (en este caso, 0), "8" representa las horas (8:00 a.m.), y los asteriscos (*indican que cualquier valor es válido para los campos restantes.
+Creating and editing crontab files is a common task in Unix and Linux systems to schedule tasks to run automatically at specific times. A crontab file contains instructions for the cron daemon on what tasks to run and when.
 
-Además de los valores numéricos, también puedes utilizar expresiones especiales en los campos de tiempo. Por ejemplo, "@daily" se traduce en "0 0 * * *", lo que significa que la tarea se ejecutará todos los días a la medianoche. Otras expresiones útiles incluyen "@hourly", "@weekly" y "@monthly".
+To create or edit a crontab file, you can use the command `crontab -e`. This will open the crontab file in the system's default text editor, such as vi or nano. If it is your first time using `crontab -e`, you will be prompted to choose an editor.
 
-Después de especificar el tiempo, debes agregar el comando que deseas ejecutar. Puede ser cualquier comando válido en el sistema, como un script, un programa o una secuencia de comandos. Asegúrate de proporcionar la ruta completa del comando si es necesario.
+The crontab file has a specific format consisting of five fields separated by spaces: minutes, hours, day of the month, month, and day of the week. Each field accepts numeric values or special characters. For example, if you want a task to run every day at 8:00 a.m., you can add the following line to the crontab file:
 
-Es importante tener en cuenta que cada línea en el archivo crontab representa una tarea programada. Puedes agregar múltiples líneas para programar varias tareas. Cada línea debe terminar con un salto de línea.
+```
+0 8 * * * command
+```
 
-Una vez que hayas terminado de editar el archivo crontab, guarda los cambios y cierra el editor. El cron daemon se encargará de leer y ejecutar las tareas programadas según lo especificado en el archivo crontab.
+In this line, "0" represents the minutes (in this case, 0), "8" represents the hours (8:00 a.m.), and the asterisks (*) indicate that any value is valid for the remaining fields.
 
-Para listar las tareas programadas en un archivo crontab, puedes utilizar el comando "crontab -l". Si deseas eliminar todas las tareas programadas de un archivo crontab, puedes utilizar el comando `crontab -r`.
+In addition to numeric values, you can also use special expressions in the time fields. For example, "@daily" translates to "0 0 * * *," which means the task will run every day at midnight. Other useful expressions include "@hourly," "@weekly," and "@monthly."
 
-Recuerda que las tareas programadas en un archivo crontab se ejecutan en el contexto del usuario que las programó. Asegúrate de que el usuario tenga los permisos adecuados para realizar las tareas programadas.
+After specifying the time, you must add the command you want to run. It can be any valid command on the system, such as a script, program, or command sequence. Ensure you provide the full path to the command if necessary.
 
-## **Monitoreo y verificación de tareas programadas**
+It is important to note that each line in the crontab file represents a scheduled task. You can add multiple lines to schedule multiple tasks. Each line must end with a newline.
 
-El monitoreo y la verificación de tareas programadas son aspectos importantes en la administración de sistemas para asegurarse de que las tareas se estén ejecutando correctamente y en los momentos deseados. Esto te permite detectar y solucionar problemas potenciales, así como garantizar la eficiencia y confiabilidad del sistema.
+Once you have finished editing the crontab file, save the changes and close the editor. The cron daemon will read and execute the scheduled tasks as specified in the crontab file.
 
-Una forma común de monitorear las tareas programadas es revisar los registros o logs generados por el sistema. Los registros de cron, por ejemplo, proporcionan información detallada sobre la ejecución de las tareas programadas. Puedes encontrar estos registros en el directorio "/var/log" con nombres como "cron.log" o "syslog".
+To list the scheduled tasks in a crontab file, you can use the command `crontab -l`. If you want to remove all scheduled tasks from a crontab file, you can use the command `crontab -r`.
 
-Para verificar si una tarea programada se ha ejecutado correctamente, puedes revisar el registro correspondiente y buscar mensajes de éxito o errores. Si encuentras algún error, es importante investigar y solucionar la causa subyacente. Puedes utilizar herramientas como "grep" o "awk" para buscar eventos específicos en los registros.
+Remember that scheduled tasks in a crontab file run in the context of the user who scheduled them. Ensure the user has the appropriate permissions to perform the scheduled tasks.
 
-Además de los registros, también puedes recibir notificaciones por correo electrónico sobre el estado de las tareas programadas. Puedes configurar el comando o script que se ejecuta como tarea programada para enviar un correo electrónico de notificación al finalizar. Esto te permite recibir actualizaciones en tiempo real sobre el estado de las tareas y tomar medidas rápidas si es necesario.
+## Monitoring and Verifying Scheduled Tasks
 
-Otra opción es utilizar herramientas de monitoreo de sistemas más avanzados, como Nagios, Zabbix o Prometheus. Estas herramientas te permiten monitorear y verificar las tareas programadas, así como otros aspectos del sistema, como el rendimiento, la disponibilidad y la utilización de recursos. Puedes configurar alertas y recibir notificaciones cuando se detecten problemas con las tareas programadas.
+Monitoring and verifying scheduled tasks are important aspects of system administration to ensure that tasks are running correctly and at the desired times. This allows you to detect and solve potential problems and ensure the system's efficiency and reliability.
 
-> ⚠️ Es importante establecer una rutina de monitoreo regular para verificar el estado de las tareas programadas. Puedes programar revisiones diarias, semanales o mensuales, según la importancia y la frecuencia de las tareas. Esto te ayudará a identificar problemas de manera oportuna y garantizar que las tareas se estén ejecutando según lo planeado.
+A common way to monitor scheduled tasks is to review the logs generated by the system. Cron logs, for example, provide detailed information about the execution of scheduled tasks. You can find these logs in the "/var/log" directory with names like "cron.log" or "syslog."
+
+To verify if a scheduled task has run correctly, you can review the corresponding log and look for success or error messages. If you find an error, it is important to investigate and solve the underlying cause. You can use tools like "grep" or "awk" to search for specific events in the logs.
+
+In addition to logs, you can also receive email notifications about the status of scheduled tasks. You can configure the command or script that runs as a scheduled task to send a notification email upon completion. This allows you to receive real-time updates about the status of tasks and take quick action if necessary.
+
+Another option is to use more advanced system monitoring tools such as Nagios, Zabbix, or Prometheus. These tools allow you to monitor and verify scheduled tasks and other aspects of the system, such as performance, availability, and resource utilization. You can set up alerts and receive notifications when problems with scheduled tasks are detected.
+
+> ⚠️ It is important to establish a regular monitoring routine to verify the status of scheduled tasks. You can schedule daily, weekly, or monthly reviews depending on the importance and frequency of the tasks. This will help you identify problems promptly and ensure that tasks are running as planned.

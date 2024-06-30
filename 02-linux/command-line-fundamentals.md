@@ -143,8 +143,8 @@ This is summarized as granting read permission to the owner user, reading and ex
 r---wxrwx 1 user group 0 Sep 17 10:53 file
 ```
 
-## 💡Laboratorio: Comando básico de navegación y manipulación de archivos y directorios
+## 💡Lab: Basic Command for Navigating and Manipulating Files and Directories
 
-Abrimos nuestro intérprete de comandos y comienza a explorar por los distintos comandos básicos que les dejamos. 
+Open your command interpreter and start exploring the various basic commands we've provided.
 
-Sientete libre tambien de experimentar con la asignacion de permisos a usuario y archivos 
+Feel free to also experiment with assigning permissions to users and files.

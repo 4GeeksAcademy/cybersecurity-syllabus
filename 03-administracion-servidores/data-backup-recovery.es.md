@@ -10,7 +10,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)
 
-## **Planificación de respaldos y políticas de retención.**
+## Planificación de respaldos y políticas de retención.
 
 Como analistas de ciberseguridad y administradores de seguridad la planificación de respaldos y las políticas de retención son aspectos críticos en nuestro trabajo, ya que garantizan la protección y disponibilidad de los datos almacenados en ellos. Estas prácticas son fundamentales para asegurar la integridad de la información y la capacidad de recuperación ante posibles incidentes o pérdidas de datos.
 
@@ -29,7 +29,7 @@ En cuanto a las políticas de retención, es importante establecer el tiempo dur
 2. **Requisitos operativos**: Considera los requisitos operativos de tu organización, como auditorías internas o externas, acuerdos contractuales o necesidades de recuperación ante desastres. Estos requisitos pueden influir en la duración de la retención de los respaldos.
 3. **Evaluación y revisión periódica**: Es recomendable revisar y actualizar regularmente las políticas de retención para asegurarse de que sigan siendo adecuadas y estén alineadas con los cambios en la organización y en el entorno legal.
 
-## **Uso de herramientas de respaldo y recuperación**
+## Uso de herramientas de respaldo y recuperación
 
 Garantizar la protección y la disponibilidad de los datos almacenados es una labor esencial e importante dentro de nuestras funciones como administradores de servidor, para ello podemos apoyarnos en herramientas de respaldo y recuperación, estas herramientas permiten realizar copias de seguridad de los datos y facilitan su recuperación en caso de pérdida, daño o corrupción.
 
@@ -49,14 +49,18 @@ Al utilizar estas herramientas de respaldo y recuperación, es importante seguir
 - Verificar la integridad de los respaldos para asegurarse de que se puedan recuperar correctamente en caso de necesidad.
 - Documentar y probar los procedimientos de recuperación para garantizar una recuperación eficiente y exitosa de los datos en caso de pérdida o desastre.
 
-## **Pruebas de verificación de los respaldos.**
+## Pruebas de verificación de los respaldos
 
 Las pruebas de verificación de los respaldos son una parte fundamental de la estrategia de respaldo y recuperación de datos. Estas pruebas permiten asegurarse de que los respaldos se hayan realizado correctamente y de que los datos puedan ser recuperados de manera exitosa en caso de necesidad.
 
 A continuación, te presento algunos puntos clave a considerar al realizar pruebas de verificación de los respaldos en servidores Linux:
 
 1. Verificación de la integridad de los respaldos: Es importante asegurarse de que los respaldos estén completos y no hayan sufrido daños o corrupción durante el proceso de respaldo. Para ello, se pueden utilizar herramientas como md5sum o sha256sum para calcular el hash de los archivos respaldados y compararlos con los hashes originales. Si los hashes coinciden, es un indicativo de que los respaldos están íntegros.
-2. Restauración de datos de prueba: Una forma efectiva de verificar los respaldos es realizar pruebas de restauración de datos en un entorno de prueba. Esto implica seleccionar algunos archivos o directorios de respaldo y restaurarlos en un servidor o máquina virtual separada. Al realizar esta prueba, se puede confirmar que los datos respaldados se pueden recuperar correctamente y que están en un estado utilizable.
-3. Verificación de la consistencia de los datos: Además de verificar la integridad de los respaldos, es importante asegurarse de que los datos respaldados sean consistentes y estén en un estado utilizable. Esto implica verificar que los archivos y directorios respaldados sean accesibles y que no haya errores o inconsistencias en su contenido.
-4. Pruebas de recuperación ante desastres: Las pruebas de recuperación ante desastres son esenciales para evaluar la capacidad de recuperación de los respaldos en situaciones críticas. Estas pruebas implican simular un escenario de pérdida total del servidor y realizar la recuperación de los datos utilizando los respaldos. Al realizar estas pruebas, se puede evaluar la efectividad de los respaldos y los procedimientos de recuperación.
-5. Documentación y seguimiento: Es importante documentar y realizar un seguimiento de las pruebas de verificación de los respaldos. Esto incluye registrar los resultados de las pruebas, identificar cualquier problema o inconsistencia encontrada y tomar las medidas necesarias para corregirlos. Además, es recomendable establecer una programación regular para realizar pruebas de verificación de los respaldos y asegurarse de que se realicen de manera periódica.
+  
+3. Restauración de datos de prueba: Una forma efectiva de verificar los respaldos es realizar pruebas de restauración de datos en un entorno de prueba. Esto implica seleccionar algunos archivos o directorios de respaldo y restaurarlos en un servidor o máquina virtual separada. Al realizar esta prueba, se puede confirmar que los datos respaldados se pueden recuperar correctamente y que están en un estado utilizable.
+
+5. Verificación de la consistencia de los datos: Además de verificar la integridad de los respaldos, es importante asegurarse de que los datos respaldados sean consistentes y estén en un estado utilizable. Esto implica verificar que los archivos y directorios respaldados sean accesibles y que no haya errores o inconsistencias en su contenido.
+   
+7. Pruebas de recuperación ante desastres: Las pruebas de recuperación ante desastres son esenciales para evaluar la capacidad de recuperación de los respaldos en situaciones críticas. Estas pruebas implican simular un escenario de pérdida total del servidor y realizar la recuperación de los datos utilizando los respaldos. Al realizar estas pruebas, se puede evaluar la efectividad de los respaldos y los procedimientos de recuperación.
+
+8. Documentación y seguimiento: Es importante documentar y realizar un seguimiento de las pruebas de verificación de los respaldos. Esto incluye registrar los resultados de las pruebas, identificar cualquier problema o inconsistencia encontrada y tomar las medidas necesarias para corregirlos. Además, es recomendable establecer una programación regular para realizar pruebas de verificación de los respaldos y asegurarse de que se realicen de manera periódica.

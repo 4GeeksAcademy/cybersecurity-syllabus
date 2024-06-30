@@ -1,134 +1,138 @@
 ---
-title: "Configuración de seguridad del servidor"
-subtitle: "Optimiza la seguridad de tu servidor: Configuración del firewall, gestión de usuarios y registros de auditoría en Linux. Aprende paso a paso."
-tags: ["servidores"]
+title: "Server Security Configuration"
+subtitle: "Optimize Your Server's Security: Firewall Configuration, User Management, and Audit Logs in Linux. Step-by-Step Guide."
+tags: ["servers"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Configuración del firewall**
+## Firewall Configuration
 
-Los firewall son una pieza clave en la seguridad de nuestros servidores, por lo que como administradores de sistemas es necesario que sepamos cómo configurarlo. Recordemos que un firewall actúa como una barrera entre tu servidor y posibles amenazas externas, controlando el tráfico de red y permitiendo o bloqueando conexiones según las reglas establecidas.
+Firewalls are a key component in securing our servers, so as system administrators, it is necessary to know how to configure them. Remember that a firewall acts as a barrier between your server and potential external threats, controlling network traffic and allowing or blocking connections according to established rules.
 
-En Linux, uno de los firewalls más utilizados es iptables, que es una herramienta de filtrado de paquetes integrada en el kernel del sistema operativo. Sin embargo, iptables puede resultar complejo de configurar debido a su sintaxis y reglas. Por esta razón, muchas distribuciones de Linux han adoptado herramientas de administración de firewall más amigables, como UFW (Uncomplicated Firewall) en Ubuntu y CentOS, o firewalld en Fedora.
+In Linux, one of the most commonly used firewalls is iptables, a packet filtering tool integrated into the operating system kernel. However, iptables can be complex to configure due to its syntax and rules. For this reason, many Linux distributions have adopted more user-friendly firewall management tools, such as UFW (Uncomplicated Firewall) on Ubuntu and CentOS, or firewalld on Fedora.
 
-Para configurar un firewall utilizando UFW, puedes utilizar comandos sencillos que simplifican el proceso. Por ejemplo, para permitir el tráfico SSH en tu servidor, puedes ejecutar el comando "sudo ufw allow ssh". Esto abrirá el puerto 22, que es el puerto predeterminado para SSH, y permitirá las conexiones entrantes.
+To configure a firewall using UFW, you can use simple commands that simplify the process. For example, to allow SSH traffic on your server, you can execute the command `sudo ufw allow ssh`. This will open port 22, the default port for SSH, and allow incoming connections.
 
-Además de permitir conexiones específicas, también puedes bloquear puertos no deseados utilizando UFW. Por ejemplo, para bloquear el tráfico en el puerto 80, puedes ejecutar el comando "sudo ufw deny 80". Esto evitará que cualquier conexión entrante o saliente utilice el puerto 80.
+In addition to allowing specific connections, you can also block unwanted ports using UFW. For example, to block traffic on port 80, you can execute the command `sudo ufw deny 80`. This will prevent any incoming or outgoing connection from using port 80.
 
-Otra herramienta comúnmente utilizada para la configuración de firewall en Linux es firewalld. Firewalld proporciona una interfaz de línea de comandos y una interfaz gráfica para administrar las reglas de firewall. Puedes utilizar comandos como "**sudo firewall-cmd --add-service=ssh**" para permitir el tráfico SSH, o "**sudo firewall-cmd --remove-service=http**" para eliminar una regla existente.
+Another commonly used tool for firewall configuration in Linux is firewalld. Firewalld provides both a command-line interface and a graphical interface to manage firewall rules. You can use commands like `sudo firewall-cmd --add-service=ssh` to allow SSH traffic, or `sudo firewall-cmd --remove-service=http` to remove an existing rule.
 
-Además de permitir o bloquear puertos específicos, tanto UFW como firewalld permiten configurar reglas más avanzadas, como el filtrado por dirección IP, el enmascaramiento de direcciones o la limitación de conexiones simultáneas. Estas características adicionales te permiten personalizar aún más la configuración de tu firewall según tus necesidades específicas.
+In addition to allowing or blocking specific ports, both UFW and firewalld allow you to configure more advanced rules, such as IP address filtering, address masquerading, or limiting simultaneous connections. These additional features allow you to further customize your firewall configuration according to your specific needs.
 
-> 📖 Es importante tener en cuenta que, al configurar un firewall, es fundamental comprender las implicaciones de las reglas establecidas. Configurar un firewall de manera incorrecta puede bloquear conexiones legítimas o permitir el acceso no autorizado. Por lo tanto, es recomendable tener un buen conocimiento de las reglas y realizar pruebas exhaustivas antes de implementar un firewall en un entorno de producción.
+> 📖 It is important to understand the implications of the rules you set when configuring a firewall. Misconfiguring a firewall can block legitimate connections or allow unauthorized access. Therefore, it is advisable to have a good understanding of the rules and conduct thorough testing before implementing a firewall in a production environment.
 
-Para esta práctica configuraremos ambos, UFW:
+For this practice, we will configure both UFW and firewalld.
 
-Instalación de UFW:
+## UFW Installation
 
-1. El primer paso será actualizar los paquetes del sistema con sudo apt update y sudo apt upgrade.
+1. The first step is to update the system packages with `sudo apt update` and `sudo apt upgrade`.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image77.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image77.png)
+![Firewall Configuration - Update Packages](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-1.jpg)
 
-1. Una vez actualizamos, procedemos a instalar nuestro firewall con el comando **sudo apt install UFW**
-2. Validamos el status actual del firewall con el comando **sudo ufw status**
+2. Once updated, proceed to install our firewall with the command `sudo apt install ufw`.
+
+![Firewall Configuration - Install UFW](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-2.jpg)
+
+3. Validate the current status of the firewall with the command `sudo ufw status`.
+
+![Firewall Configuration - Check Status with sudo ufw status](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-3.jpg)
     
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image78.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image78.png)
+> 👉 We can see that the firewall is inactive or disabled, so the next step will be to enable it.
+
+4. Enable the firewall with the command `sudo ufw enable`.
+
+![Firewall Configuration - Command sudo ufw enable](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-4.jpg)
+
+5. Once the command is executed, check its status again with `sudo ufw status`. If you want to disable the firewall, use the command `sudo ufw disable`.
+
+6. Configure the policies in the firewall. By default, UFW has rules to deny all incoming connections and only allow outgoing connections from the server, meaning no one can access the server and the running services or applications. These rules can be found in the path.
+
+To edit the rules, use the commands `sudo ufw default deny incoming` and `sudo ufw default allow outgoing`.
+
+![Firewall Configuration - Edit Rules with sudo ufw default](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-5.jpg)
     
-3. Podemos ver que el firewall está inactivo o deshabilitado por lo que el siguiente paso será habilitarlo.
-4. Habilitamos el firewall con el comando **sudo ufw enable**
+> 👉 When we install a package through our APT manager, an application profile is included in the /etc/ufw/applications.d directory, which defines the service and keeps the UFW configuration active.
     
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image79.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image79.png)
-    
+7. To list all application profiles, use the command `sudo ufw app list`.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image80.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image80.png)
+![Firewall Configuration - Command sudo ufw app list](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-6.jpg)
 
-1. Una vez colocado el comando, revisamos nuevamente su status con sudo ufw status
+If you want to get more information about a specific profile and the rules defined for it, use the command `sudo ufw app info "Application"`.
 
-**Si queremos desactivar el firewall usamos el comando sudo ufw disable**
+8. The next step is to enable the services or ports that we want to allow in the firewall.
 
-1. Configuramos las políticas en el firewall, por defecto, UFW tiene reglas para negar todas las conexiones entrantes y solo permite las conexiones salientes al servidor, por lo que nadie podría acceder al servidor y los servicios o aplicaciones en ejecución, estas reglas podemos conseguirlas dentro de la ruta.
-2. Para editar las reglas usamos los comandos **sudo ufw default deny incoming** y **sudo ufw default allow outgoing.**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image81.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image81.png)
-    
-> 👉 Cuando instalamos un paquete a través de nuestro gestor APT, se incluye un perfil de aplicación en el directorio /etc/ufw/applications.d el cual define el servicio y mantiene la configuración de UFW activa.
-    
-3. Para enumerar todos los perfiles de aplicaciones usamos el comando **sudo ufw app list** 
-Si queremos obtener más información sobre un perfil en específico y las reglas definidas para este, usamos el comando **sudo ufw app info “Aplicación”.**
-4. El siguiente paso habilitar los servicios o puertos que queramos permitir en el firewall.
-- Si queremos permitir servicios como SSH para conectarnos de forma remota usamos el comando **sudo ufw allow ssh**, en el caso que queramos usar un puerto SSH personalizado, usamos el comando **sudo ufw allow puerto** y si deseamos bloquear una conexión ssh usamos el comando **`sudo ufw deny ssh/tcp`.**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image82.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image82.png)
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image83.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image83.png)
-    
-- Si queremos permitir el acceso de aplicaciones que unsam un rango de puertos, usamos el comando **`sudo ufw allow puertoInicial:puertoFinal.`**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image84.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image84.png)
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image85.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image85.png)
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image86.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image86.png)
-    
-1. También tenemos la opción de permitir acceso de una sola dirección IP de sistema, para ello ejecutamos el comando **sudo ufw allow from direccionIP,** también podemos especificar que queremos recibir el tráfico de un puerto en especifico **sudo ufw allow direccionIP to any port “numeroPuerto”**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image87.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image87.png)
-    
-- Si queremos eliminar las reglas del firewall lo primero que tenemos que hacer es enumerar las reglas con el comando **sudo ufw status numbered** y luego eliminamos la regla usando el comando sudo ufw delete numeroRegla, otra forma sería con el comando **sudo ufw delete reglaUFW.**
-    
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image88.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image88.png)
-    
+![Firewall Configuration - Command sudo ufw app info](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-7.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image89.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image89.png)
+9. If you want to allow services like SSH for remote connections, use the command `sudo ufw allow ssh`. If you want to use a custom SSH port, use the command `sudo ufw allow port`, and if you want to block an SSH connection, use the command `sudo ufw deny ssh/tcp`.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image90.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image90.png)
+![Firewall Configuration - Command sudo ufw deny](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-8.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image91.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image91.png)
+![Firewall Configuration - Command sudo ufw allow port](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-9.jpg)
 
-## **Gestión de usuarios y autenticación segura**
+![Firewall Configuration - Command sudo ufw allow ssh](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-10.jpg)
 
-Hemos hablado previamente de la gestión y autenticación segura de usuarios en Linux, estas prácticas garantizan la seguridad y protección de los sistemas, evitando accesos no autorizados y protegiendo la información confidencial.
+10. If you want to allow applications that use a range of ports, use the command `sudo ufw allow <start_port:end_port>`.
 
-En Linux, cada usuario tiene una cuenta única que le permite acceder al sistema y realizar tareas específicas. La gestión de usuarios implica la creación, modificación y eliminación de estas cuentas de usuario.
+![Firewall Configuration - Command sudo ufw allow range](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-11.jpg)
 
-Para crear un nuevo usuario en Linux, puedes utilizar el comando `useradd` seguido del nombre de usuario deseado. Por ejemplo, `sudo useradd nombre_usuario` creará una nueva cuenta de usuario en el sistema. Luego, puedes establecer una contraseña para el usuario utilizando el comando `passwd nombre_usuario`. Es importante utilizar contraseñas seguras que combinen letras mayúsculas y minúsculas, números y caracteres especiales.
+11. You also have the option to allow access from a single IP address. To do this, execute the command `sudo ufw allow from <ip_address>`. You can also specify that you want to receive traffic from a specific port using the command `sudo ufw allow ip_address to any port <port_number>`.
 
-Además de crear usuarios, también es importante asignarles los permisos adecuados. En Linux, los permisos se gestionan a través del sistema de archivos y los grupos de usuarios. Puedes utilizar comandos como "`chown`" y "`chmod`" para cambiar la propiedad y los permisos de los archivos y directorios.
+![Firewall Configuration - Command sudo ufw allow ip_address to any port <port_number>](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-12.jpg)
 
-La autenticación segura es otro aspecto crucial en la gestión de usuarios en servidores Linux. El uso de contraseñas seguras es solo el primer paso. También se recomienda utilizar autenticación de dos factores (2FA) para agregar una capa adicional de seguridad. Esto implica el uso de un segundo método de autenticación, como un código generado por una aplicación en el teléfono móvil, junto con la contraseña tradicional.
+- If you want to delete firewall rules, the first thing you need to do is list the rules with the command `sudo ufw status numbered` and then delete the rule using the command `sudo ufw delete <rule_number>`. Another way would be with the command `sudo ufw delete <UFW_rule>`.
 
-Además, es importante asegurarse de que los servicios de autenticación, como SSH (Secure Shell), estén configurados correctamente. Puedes modificar la configuración de SSH en el archivo "/etc/ssh/sshd_config" para permitir sólo conexiones seguras y deshabilitar el acceso de root remoto.
+![Firewall Configuration - Command sudo ufw status numbered](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-13.jpg)
 
-> 👉 Otra práctica recomendada es utilizar claves de autenticación en lugar de contraseñas para acceder a los servidores. Esto implica generar un par de claves pública y privada, donde la clave privada se almacena en el cliente y la clave pública se agrega al archivo "~/.ssh/authorized_keys" en el servidor. Esto permite una autenticación sin contraseña y es más seguro que el uso de contraseñas.
+## User Management and Secure Authentication
 
-Para configurar nuestra clave pública y privada para autenticarnos dentro del servidor seguimos los siguientes pasos:
+We have previously talked about user management and secure authentication in Linux. These practices ensure the security and protection of systems, preventing unauthorized access and protecting confidential information.
 
-1. Creamos nuestras claves pública y privada con el comando ssh-keygen, despues nos pedira la ruta donde almacenar nuestra clave SSH, podemos aceptar la ruta que nos da por defecto, despues pedira una frase de contraseña la cual agrega una capa de seguridad adicional para evitar el inicio de sesión de usuarios no autorizados.
-2. El próximo paso será copiar la clave pública al nuestro servidor, para ello usaremos la herramienta ssh-copy-id con el siguiente comando **`ssh-copy-id username@remote_host`.**
-3. Procedemos a conectarnos a nuestro usuario ssh con el comando **ssh usuario@hostname** una vez introducido el comando, pedirán la frase de autenticación, la autenticación basada en claves se realizó con éxito, podemos proteger más a nuestro sistema inhabilitando la autenticación con contraseña.
-4. Aunque tengamos la cuenta SSH configurada, el mecanismo de autenticación basado en contraseña sigue activo, por lo que vamos a hacer un cambio en el archivo ubicado en la ruta /etc/ssh/sshd_config con nuestro editor de código.
-5. Ubicamos la directiva PasswordAuthentication y la activamos quitándole el #, nos aseguramos que el valor de la directiva sea no.
-6. Reiniciamos el servicio ssh con el comando systemctl restart ssh
+In Linux, each user has a unique account that allows them to access the system and perform specific tasks. User management involves creating, modifying, and deleting these user accounts.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image92.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image92.png)
+To create a new user in Linux, you can use the `useradd` command followed by the desired username. For example, `sudo useradd <username>` will create a new user account on the system. Then, you can set a password for the user using the command `passwd <username>`. It is important to use strong passwords that combine uppercase and lowercase letters, numbers, and special characters.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image93.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image93.png)
+In addition to creating users, it is also important to assign them the appropriate permissions. In Linux, permissions are managed through the file system and user groups. You can use commands like `chown` and `chmod` to change the ownership and permissions of files and directories.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image94.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image94.png)
+Secure authentication is another crucial aspect of user management on Linux servers. Using strong passwords is just the first step. It is also recommended to use two-factor authentication (2FA) to add an extra layer of security. This involves using a second authentication method, such as a code generated by a mobile app, along with the traditional password.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image95.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image95.png)
+Additionally, it is important to ensure that authentication services, such as SSH (Secure Shell), are properly configured. You can modify the SSH configuration file in `/etc/ssh/sshd_config` to allow only secure connections and disable remote root access.
 
-## **Configuración de registros de auditoría (logs) del sistema.**
+> 👉 Another recommended practice is to use authentication keys instead of passwords to access servers. This involves generating a pair of public and private keys, where the private key is stored on the client and the public key is added to the `~/.ssh/authorized_keys` file on the server. This allows for password-less authentication and is more secure than using passwords.
 
-La configuración de registros de auditoría, también conocidos como logs, es una práctica esencial en la administración de sistemas para monitorear y registrar eventos importantes del sistema operativo y las aplicaciones. Estos registros proporcionan información valiosa para el análisis de problemas, la detección de intrusiones y el seguimiento de actividades en el sistema.
+To configure our public and private keys for authentication within the server, follow these steps:
 
-En Linux, los registros de auditoría se encuentran en el directorio "/var/log" y contienen información detallada sobre diversos aspectos del sistema, como el inicio y apagado del sistema, errores del kernel, actividades de red, registros de aplicaciones y mucho más.
+1. Create your public and private keys with the command `ssh-keygen`. It will then ask for the path where you want to store your SSH key. You can accept the default path. It will then ask for a passphrase, which adds an extra layer of
 
-La configuración de los registros de auditoría se realiza a través del archivo de configuración del demonio de registro, que puede variar según la distribución de Linux utilizada. En distribuciones como Ubuntu y Debian, el archivo de configuración principal es "/etc/rsyslog.conf", mientras que en distribuciones como Red Hat y CentOS, se utiliza "/etc/rsyslog.d/*.conf" para configurar los registros.
+ security to prevent unauthorized login.
 
-En estos archivos de configuración, puedes especificar qué eventos deseas registrar y dónde deseas almacenar los registros. Puedes definir reglas para filtrar eventos específicos, establecer niveles de registro (como información, advertencia o error) y redirigir los registros a archivos específicos o enviarlos a un servidor de registro centralizado.
+![Firewall Configuration - Create Public and Private Key with ssh](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-14.jpg)
 
-> ⚠️ Es importante tener en cuenta que la configuración de los registros de auditoría debe equilibrar la cantidad de información registrada con la capacidad de almacenamiento disponible. Registrar demasiados eventos puede llenar rápidamente el espacio en disco y dificultar el análisis de los registros. Por otro lado, registrar muy pocos eventos puede dejar pasar información importante para la detección de problemas o actividades sospechosas.
+2. The next step is to copy the public key to our server using the ssh-copy-id tool with the command `ssh-copy-id <username>@<remote_host>`.
 
-Además de la configuración de los registros de auditoría, es importante monitorear y analizar regularmente los registros para identificar posibles problemas o actividades maliciosas. Puedes utilizar herramientas como "grep" o "awk" para buscar eventos específicos en los registros, o utilizar herramientas de monitoreo y análisis de registros más avanzadas, como "Logstash" o "Splunk".
+3. Proceed to connect to your SSH user with the command `ssh <username>@<hostname>`. Once the command is entered, it will ask for the passphrase. Key-based authentication is successfully performed. We can further secure our system by disabling password authentication.
+
+![Firewall Configuration - Connect with SSH](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-15.jpg)
+
+![Firewall Configuration - SSH User](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-16.jpg)
+
+5. Even though we have the SSH account configured, password-based authentication is still active. So we will make a change in the file located at `/etc/ssh/sshd_config` with our code editor.
+6. Locate the PasswordAuthentication directive and activate it by removing the #. Ensure that the directive's value is no.
+
+![Firewall Configuration - PasswordAuthentication](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-17.jpg)
+
+7. Restart the SSH service with the command `systemctl restart ssh`.
+
+## Configuring System Audit Logs
+
+Configuring audit logs, also known as logs, is an essential practice in system administration to monitor and record important events of the operating system and applications. These logs provide valuable information for troubleshooting, intrusion detection, and tracking activities on the system.
+
+In Linux, audit logs are located in the `/var/log` directory and contain detailed information about various aspects of the system, such as system startup and shutdown, kernel errors, network activities, application logs, and more.
+
+The configuration of audit logs is done through the logging daemon configuration file, which may vary depending on the Linux distribution used. In distributions like Ubuntu and Debian, the main configuration file is `/etc/rsyslog.conf`, while in distributions like Red Hat and CentOS, `/etc/rsyslog.d/*.conf` is used to configure the logs.
+
+In these configuration files, you can specify which events you want to log and where you want to store the logs. You can define rules to filter specific events, set logging levels (such as information, warning, or error), and redirect logs to specific files or send them to a centralized logging server.
+
+> ⚠️ It is important to balance the amount of information logged with the available storage capacity when configuring audit logs. Logging too many events can quickly fill up disk space and make it difficult to analyze logs. On the other hand, logging too few events can miss important information for detecting problems or suspicious activities.
+
+In addition to configuring audit logs, it is important to regularly monitor and analyze the logs to identify potential issues or malicious activities. You can use commands and tools like "grep" or "awk" to search for specific events in the logs or use more advanced log monitoring and analysis tools like "Logstash" or "Splunk".
