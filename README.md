@@ -9,9 +9,10 @@ The coursework's last 2-3 weeks are reserved for a final project.
 
 ## Requirements
 
-- You don't need any previous knowledge, but completing the prework material is required.  
+- You don't need any previous knowledge, but you'll need to complete the prework material.  
 - Computer 4 cores, eight threads. 8gm RAM. 50 GB hard drive. Your CPU must support virtualization.   
-- PC Computers with windows, Linux, or Intel-Based MacOS.  
+- PC Computers with Windows, Linux, or Intel-Based MacOS.
+- Throughout the syllabus, we use these [cybersecurity scripts for validations and automations](https://github.com/4GeeksAcademy/cybersecurity-scripts).
 > Warning: Computers with CPU M1, M2, or M3 are incompatible.  
 
 ## Syllabus
