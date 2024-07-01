@@ -6,7 +6,6 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Antivirus**
 
 ### **Windows Defender**
 
