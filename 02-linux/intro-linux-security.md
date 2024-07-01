@@ -82,7 +82,7 @@ Once iptables is installed, you can start configuring it according to your needs
 You can create a configuration file for iptables using a text editor, such as nano or vi. For example:
 
 ```bash
-sudo dnf install iptable
+sudo nano /etc/iptables/rules.v4
 ```
 
 Inside this file, you can add the rules you want to apply. For example, to allow incoming SSH traffic, you can add the following rule:
