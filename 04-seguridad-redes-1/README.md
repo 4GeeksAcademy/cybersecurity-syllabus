@@ -2,9 +2,9 @@
 
 ## Dia 1 -  Intro, tipos de seguridad, hasta deteccion de una web shell.
 
-- 📗 [Intro a seguridad en redes](./intro-seguridad-en-redes.md)
-- 📗 [Seguridad de datos](./seguridad-de-redes.md)
-- 📗 [Políticas de seguridad en redes](./network-security-policies.es.md)
+- 📗 [Intro a seguridad en redes](./types-of-network-security.md)
+- 📗 [Seguridad de datos](./data-security.md)
+- 📗 [Políticas de seguridad en redes](./network-security-policies.md)
 - 📗 [Amenazas y ataques en redes](./threats-atacks-network.es.md)
 - 🧪 [Practica de Spoofing y Ataque denegación de servicio Dos a un wordpress site previamente desarrollado](https://github.com/breatheco-de/spoofing-and-DoS-lab).
 
