@@ -205,7 +205,7 @@ Click continue to proceed with the process. Upon completion, restart the virtual
 
 The Kali manager will load, and then log in to Kali Linux:
 
-![Gestor de Kali](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/gestor-de-kali.png?raw=true)
+![Gestor de Kali](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/gestor-de-kali.webp?raw=true)
 
 When maximizing the window, it will adjust to this size. Access Kali Linux utilities:
 

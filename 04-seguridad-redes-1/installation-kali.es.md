@@ -202,7 +202,7 @@ Damos clic en continuar para seguir con el proceso. Al finalizar debemos reinici
 
 Se cargará el gestor de Kali y luego iniciamos sesión en Kali Linux:
 
-![Gestor de Kali](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/gestor-de-kali.png?raw=true)
+![Gestor de Kali](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/gestor-de-kali.webp?raw=true)
 
 Al maximizar la ventana esta se ajustará a este tamaño. Accede a las utilidades de Kali Linux:
 
