@@ -18,7 +18,7 @@ Las firmas Quickdraw (reglas en el argot de Snort), identifican solicitudes no a
 
 Bro es otra herramienta que sirve de IDS/IPS, debido a sus características de análisis de red, al igual que Snort y Suricata. Se basa en un potente motor de análisis que permite un alto rendimiento en la monitorización de la red, analiza protocolos, y la información de la capa de aplicación en tiempo real
 
-![intruder prevention system bro](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips1-bro.png?raw=true)
+![intruder prevention system Bro](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips1-bro.png?raw=true)
 
 ***Arquitectura de Bro***
 

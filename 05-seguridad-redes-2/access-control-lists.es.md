@@ -35,7 +35,7 @@ Para aplicar la ACL a una interfaz concreta, en el caso de los encaminadores de 
 
 nombre-interface es la sintaxis propia de Cisco. Ej: «ethernet-0», N es el número que identifica la ACL que se quiere asociar a la interfaz. IN indica tráfico entrante y OUT saliente. En la figura. Se quiere dejar pasar hacia dentro todo el tráfico de las redes externas (más allá de la interfaz ethernet-1) excepto el que venga de la red 144.21.0.0. La ACL sería:
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image10.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image10.png)
+![Tabla de control de acceso](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/access-control-list/listas-de-control-de-acceso-image-1.jpg)
 
 > router(config)# access-list 1 deny 144.21.0.0 0.0.255.255
 > 
