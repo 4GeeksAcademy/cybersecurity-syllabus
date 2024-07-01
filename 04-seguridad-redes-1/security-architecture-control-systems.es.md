@@ -10,19 +10,19 @@ authors: ["blindma1den", "lorenagubaira"]
 
 La primera arquitectura, presentada en la Figura, describe la colocación de dispositivos de tipo IDS para monitorizar el tráfico dentro de la red de control. Para ello, todo el tráfico que pasa por los router/switches se lleva al sensor del IDS a través de puertos espejo (*mirror/SPAN*). También se añade una sonda para recibir información del cortafuegos y tener así controlado el tráfico intercambiado con la red correspondiente a la zona empresarial. Los IDS deberán de disponer de las reglas adecuadas para generar las alertas oportunas que serán mostradas al operario o administrador de seguridad correspondiente a través de la consola.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image3.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image3.png)
+![Arquitectura de seguridad con IDS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-1.jpg)
 
 ## **Arquitectura de seguridad con IPS**
 
 La evolución de una arquitectura de seguridad con IDS pasa por bloquear tráfico. Para ello es necesario que los sensores pasen a estar en medio del tráfico, en lugar de escuchando el tráfico a través de los puertos espejo (*mirror/SPAN*), como refleja la Figura. La configuración de reglas debe ser adecuada para que no se interrumpa el flujo de tráfico de control habitual y solo se bloqueen las intrusiones y fallos de seguridad. La situación de los sensores IPS es similar a la de los sensores IDS, y el funcionamiento será exactamente el mismo, generando alerta que serán mostradas en la consola de IDS.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image4.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image4.png)
+![Arquitectura de seguridad con IPS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-2.jpg)
 
 ## **Arquitectura de seguridad con SIEM**
 
 La Figura representa la instalación de un SIEM dentro de los sistemas de control. Hay que tener en cuenta que el SIEM se dedica a recoger y gestionar eventos de log, por lo que las fuentes de datos provendrán de todos los dispositivos. En este caso hay que tener cuidado con las comunicaciones, ya que todos los dispositivos deben poder enviar sus registro de eventos hasta el SIEM, y esto puede implicar una sobrecarga de tráfico en la red. La mejor forma de solucionar esta sobrecarga es disponer de una red exclusiva para el envío de estos mensajes.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image5.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image5.png)
+![Arquitectura de seguridad con SIEM](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-3.jpg)
 
 ## **Arquitectura unificada con IDS, IPS y SIEM**
 
@@ -30,7 +30,7 @@ La representación final (Ver Figura) muestra la puesta en conjunto de las tres 
 
 Las líneas rojas mostradas en las figuras indican los puntos donde tanto los sensores IDS como los sensores IPS se conectan para recabar el tráfico, y constituyen una conexión de red. La red de monitorización se utiliza como nexo de unión entre los sensores IDS/IPS y el núcleo central de gestión, y por este motivo no se requiere un acceso a dicha red desde ninguna otra parte de la arquitectura. Las líneas marcadas en verde que finalizan el en SIEM muestran de dónde se obtiene información y no conexiones de red reales. La información se enviará a través de las conexiones existentes, habilitando en el cortafuegos (y en su caso en el IDS/IPS) las reglas correspondientes
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image6.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image6.png)
+![Arquitectura de seguridad con SIEM](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-4.jpg)
 
 ## **CONCLUSIONES**
 

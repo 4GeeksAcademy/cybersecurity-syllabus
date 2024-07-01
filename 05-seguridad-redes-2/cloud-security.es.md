@@ -276,7 +276,7 @@ Por lo tanto, bien sea un usuario individual, un usuario de una PYME o incluso u
 
 ## **¿Qué nivel de seguridad tienen las nubes públicas frente a las privadas?**
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image35.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image35.png)
+![Seguridad en la nube](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/cloud-security/cloud-security-image-1.jpg)
 
 Los servicios en la nube pública los presta un proveedor externo desde un depósito virtualizado de recursos en el que varios clientes o "inquilinos" pueden alquilar recursos informáticos en el mismo servidor físico. Esto puede añadir un ligero riesgo de seguridad a los activos de un cliente que se ejecutan en la nube. Además, los equipos de seguridad tienen una visibilidad limitada de las cargas de trabajo que se ejecutan en soluciones de nube pública, lo que dificulta garantizar la protección.
 
@@ -448,7 +448,7 @@ Cloud Security abarca las tecnologías, los controles, los procesos y las polít
 
 Es una responsabilidad compartida entre usted y su proveedor de servicios en la nube. Usted implementa una estrategia de Cloud Security para proteger sus datos, cumplir con las normas y proteger privacidad de sus clientes. Lo que a su vez lo protege de las ramificaciones de reputación, financieras y legales de las violaciones y pérdidas de datos.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image36.jpeg](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image36.jpeg)
+![Tabla de responsabilidad compartida del Cloud Security](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/cloud-security/cloud-security-image-2.jpg)
 
 ***Modelo de Responsabilidad Compartida de Cloud Security (Fuente de la imagen: Sinopsis)***
 
@@ -462,7 +462,7 @@ Cloud Security es una compleja interacción de tecnologías, controles, procesos
 
 Como tal, no hay una sola explicación que abarque cómo «funciona» Cloud Security
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image37.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image37.png)
+![modelo de las cargas de trabajo de las nubes](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/cloud-security/cloud-security-image-3.jpg)
 
 Un modelo para asegurar las cargas de trabajo de las nubes (Fuente de la imagen: HyTrust)
 
@@ -498,7 +498,7 @@ Otra práctica para mantener y mejorar la Cloud Security es la [prueba de vulner
 
 > 👉 Los cortafuegos de última generación añaden un sistema de prevención de intrusiones, inspección profunda de paquetes, control de aplicaciones y análisis del tráfico cifrado para proporcionar una detección y prevención integral de amenazas.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image38.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image38.png)
+![Arquitectura de alojamiento](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/cloud-security/cloud-security-image-4.jpg)
 
 Arquitectura de alojamiento (fuente: Kinsta)
 
@@ -589,7 +589,7 @@ La marca de un proveedor de confianza se refleja en el rango de cumplimiento de 
 Cuando se asocia con un proveedor de servicios en la nube y se trasladan los sistemas y datos a la nube, se entra en una asociación de responsabilidad compartida para la implementación de la seguridad. Una parte crítica de las mejores prácticas implica revisar y comprender su responsabilidad compartida. Descubrir qué tareas de seguridad permanecerán con usted y cuáles serán ahora manejadas por el proveedor. Esta es una escala móvil dependiendo de si se opta por el Software como Servicio (SaaS), Plataforma como Servicio (PaaS), Infraestructura como Servicio (IaaS), o en un centro de datos en las instalaciones.
 
 
-![seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image1.png](seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image1.png)
+![Modelo de responsabilidad compartida de Google Cloud Platform](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/cloud-security/cloud-security-image-5.jpg)
 
 ***Modelo de responsabilidad compartida de Google Cloud Platform***
 
