@@ -23,17 +23,14 @@ Los grupos en Linux son usados principalmente para otorgar permisos sobre archiv
 
 Algunos comandos que podemos usar para la gestión de usuarios y grupos son
 
-**`useradd`** (Agrega a un usuario)
-
-**`userdel`** (elimina a un usuario)
-
-**`passwd`** (cambia la contraseña de un usuario)
-
-**`groupadd`** (crea un grupo en la gestión)
-
-**`groupdel`** (elimina un grupo)
-
-**`whoami`** (nos indica qué usuario somos)
+| Comando   | Descripción                    |
+|-----------|-------------------------------|
+| `useradd` | Agrega un usuario             |
+| `userdel` | Elimina un usuario            |
+| `passwd`  | Cambia la contraseña de un usuario |
+| `groupadd`| Crea un grupo                 |
+| `groupdel`| Elimina un grupo              |
+| `whoami`  | Muestra el usuario actual     |
 
 ## Configuración de red y conexión
 
@@ -71,17 +68,19 @@ Cuando tratamos de luchar contra el exceso de tráfico o los software malintenci
 
 Las distintas flags que podemos conseguir con este comando pueden ser:
 
-- **`Netstat –a`**: nos permite conocer todas las redes que están activas o inactivas en un momento dado. Así lograremos detectar posibles problemas que afecten a una red.
-- **`Netstat –e`**: en este caso podemos ver estadísticas sobre los paquetes de red entrantes y salientes en una tarjeta de red.
-- **`Netstat –f`**: muestra el nombre de dominio completo de direcciones remotas.
-- **`Netstat –n`**: este comando, a diferencia del anterior, muestra los números de puerto en lugar de los nombres.
-- **`Netstat –o`**: muestra el ID de cada proceso en cada conexión.
-- **`Netstat –p** X`: con este comando podemos filtrar conexiones según el protocolo (TCP, UDP, tcpv6 o tcpv4. X=TCP, UDP… el protocolo que queramos. Por ejemplo sería netstat –p TCP.
-- **`Netstat –q`**: consultar los puertos de escucha y de no escucha vinculados.
-- **`Netstat –s`**: muestra las estadísticas de grupo por protocolo. Así podremos clasificar las redes según los protocolos disponibles: TCP, UDP, ICMP, IPv4 o IPv6.
-- **`Netstat –r`**: este comando nos muestra la tabla de enrutamiento de la red actual.
-- **`Netstat –t`**: ofrece información sobre las conexiones en estado de descarga.
-- **`Netstat –x`**: en este caso podemos obtener información sobre todas las conexiones NetworkDirect.
+| Flag del Comando | Descripción                                                                                 |
+|------------------|---------------------------------------------------------------------------------------------|
+| `Netstat –a`     | Permite conocer todas las redes que están activas o inactivas en un momento dado.            |
+| `Netstat –e`     | Muestra estadísticas sobre los paquetes de red entrantes y salientes en una tarjeta de red.  |
+| `Netstat –f`     | Muestra el nombre de dominio completo de las direcciones remotas.                           |
+| `Netstat –n`     | Muestra los números de puerto en lugar de los nombres.                                       |
+| `Netstat –o`     | Muestra el ID de cada proceso en cada conexión.                                              |
+| `Netstat –p X`   | Filtra conexiones según el protocolo (TCP, UDP, tcpv6 o tcpv4).                              |
+| `Netstat –q`     | Consulta los puertos de escucha y de no escucha vinculados.                                  |
+| `Netstat –s`     | Muestra las estadísticas de grupo por protocolo.                                             |
+| `Netstat –r`     | Muestra la tabla de enrutamiento de la red actual.                                           |
+| `Netstat –t`     | Ofrece información sobre las conexiones en estado de descarga.                               |
+| `Netstat –x`     | Proporciona información sobre todas las conexiones NetworkDirect.                            |
 
 ## Monitorización de recursos del sistema
 

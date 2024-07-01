@@ -2,7 +2,7 @@
   "info": {
     "slug":    "ip-addresses-protocols-es",
     "name":    "Protocolos y direcciones IP",
-    "status":    "draft",
+    "technologies": ["redes", "ciberseguridad"],
     "main":    "Veamos que tan bien entiendes como funciona el protocolo IP",
     "results": "¡Felicidades! Ahora el mundo estará un poco más seguro gracias a tí...",
     "badges": [

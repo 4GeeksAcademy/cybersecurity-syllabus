@@ -161,13 +161,12 @@ De los 64 hosts tendremos 62 para asignar ya que necesitamos el host de red y el
 
 La dirección de red será la primera dirección de la subred y la dirección broadcast sera la ultima direccion.
 
-Subred 1 192.168.0.1 - 192.168.0.62 Direccion de red 192.168.0.0 Broadcast 192.168.0.63
-
-Subred 2 192.168.0.65 - 192.168.0.126 Direccion de red 192.168.0.64 Broadcast 192.168.0.127
-
-Subred 3 192.168.0.129 - 192.168.0.190 Direccion de red 192.168.0.128 Broadcast 192.168.191
-
-Subred 4 192.168.0.193 - 192.168.0.254 Direccion de red 192.168.0.192 Broadcast 192.168.0.255
+| Subred                     | Dirección de Red | Broadcast          |
+|----------------------------|------------------|-------------------|
+| 192.168.0.1 - 192.168.0.62 | 192.168.0.0      | 192.168.0.63      |
+| 192.168.0.65 - 192.168.0.126| 192.168.0.64    | 192.168.0.127     |
+| 192.168.0.129 - 192.168.0.190| 192.168.0.128  | 192.168.0.191     |
+| 192.168.0.193 - 192.168.0.254| 192.168.0.192  | 192.168.0.255     |
 
 ## Configuración manual y automática de direcciones IP
 
@@ -179,13 +178,15 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 
 ### Cómo activar el protocolo DHCP
 
-- **Windows**
+#### Activar el protocolo DHCP en Windows
+
 1. Haz clic en Inicio > Configuración > Red e Internet.
 2. Haz clic en Ethernet o Wi-Fi. Selecciona Administrar y haz clic en Editar junto a Asignación de IP.
 3. En editar configuración IP de red, selecciona Automática (DHCP.)
 4. Haz clic en `Guardar` para activar la nueva configuración.
 
-- **Linux**
+#### Activar el protocolo DHCP en Linux
+
 1. Buscamos la opción editar las conexiones.
 2. Nos dirigimos a la opción Ajustes de IPv4.
 3. En método seleccionamos la opción DHCP.
@@ -194,14 +195,16 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 
 ### Cómo configurar la IP manualmente
 
-- **Windows**
+#### Cómo configurar la IP manualmente en Windows
+
 1. Haz clic en Inicio > Configuración > Red e Internet.
 2. Haz clic en Ethernet o Wi-Fi. Selecciona Administrar y haz clic en `Editar` junto a Asignación de IP.
 3. En `Editar` configuración IP de red, selecciona `Manual`.
 4. Ingresa la dirección IP de la cual se quiera usar y la demás información.
 5. Haz clic en Guardar para activar la nueva configuración.
 
-- **Linux**
+#### Cómo configurar la IP manualmente en Linux
+
 1. Buscamos la opción editar las conexiones.
 2. Nos dirigimos a la opción Ajustes de IPv4.
 3. En método seleccionamos la opción `Manual`.

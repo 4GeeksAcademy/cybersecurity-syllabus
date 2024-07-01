@@ -83,23 +83,26 @@ Así como haciamos la instalación de una distribución de Linux, podemos descar
 
 Una vez descargado abrimos nuestro software de virtualización, para este módulo seguiremos con Virtual Box. Si no lo has descargado, puedes hacerlo a través de [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads).
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image1.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image1.png)
+![Virtual Box Image](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-1.jpg)
 
 Para comenzar la configuración de nuestro servidor seleccionamos la opción nueva y llenar la información de las características que queremos colocar a nuestra máquina virtual:
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image2.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image2.png)
+![Virtual Machine instalación - paso 1](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-2.jpg)
 
 1. Asignamos 2 GB de ram y dos procesadores.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image3.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image3.png)
+![Virtual Machine instalación - paso 2](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-3.jpg)
 
-1. Seleccionamos la opción de crear un disco duro virtual y asignamos la cantidad de memoria.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image4.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image4.png)
+2. Seleccionamos la opción de crear un disco duro virtual y asignamos la cantidad de memoria.
 
-1. Vemos el resumen de cómo estará configurada nuestra máquina virtual y aceptamos.
+![Virtual Machine instalación - paso 3](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-4.jpg)
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image5.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image5.png)
+
+3. Vemos el resumen de cómo estará configurada nuestra máquina virtual y aceptamos.
+
+![Virtual Machine instalación - paso 4](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-5.jpg)
+
 
 > 👉 Ya tenemos nuestra máquina virtual configurada y lista para funcionar, en la próxima lectura aprenderemos como configurar ubuntu server y por primera vez ver el entorno de un servidor.
 
@@ -109,11 +112,13 @@ Aca te dejamos una pequeña guia de como configurar inicialmente ubuntu server d
 
 - Antes de comenzar la instalación tenemos que hacer una previa configuración de la red por lo que entraremos en la seccion de configuracion del menu
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image6.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image6.png)
+![Virtual Box - Configuración de sistema operativo](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-6.jpg)
+
 
 - Seleccionaremos la opción de red y en la opción de *Conectado a:* seleccionamos la opción *Adaptador puente*. Esto nos permite que nuestra máquina virtual pueda conectarse a la tarjeta de red que tengamos en la máquina host y seleccionamos aceptar
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image7.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image7.png)
+![Virtual Box - Opciones de red ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-7.jpg)
+
 
 - Una vez configurado la red, le damos click en iniciar y se nos abrirá una nueva ventana con la maquina virtual
 
@@ -123,53 +128,52 @@ Acabas de ser contratado por la start-up D´sistemas cta para ser su administrad
 
 1. Una vez arrancada la instalacion seleccionamos la primera opción “Try or install Ubuntu Server”
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image8.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image8.png)
+![Install Ubuntu server](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-8.jpg)
 
-1. Lo primero que configuraremos será el idioma, por lo que seleccionaremos el idioma en el que nos queramos manejar en nuestro servidor.
-2. La próxima ventana nos indicará la configuración de idioma del teclado, por lo que también seleccionaremos el idioma que queramos usar en nuestro teclado.
-3. En la próxima ventana nos dara a seleccionar el tipo de instalación que queremos hacer
+2. Lo primero que configuraremos será el idioma, por lo que seleccionaremos el idioma en el que nos queramos manejar en nuestro servidor.
+3. La próxima ventana nos indicará la configuración de idioma del teclado, por lo que también seleccionaremos el idioma que queramos usar en nuestro teclado.
+4. En la próxima ventana nos dara a seleccionar el tipo de instalación que queremos hacer
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image9.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image9.png)
+    ![Install Ubuntu server - selección de idioma](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-9.jpg)
     
-4. Ubuntu Server instalará una serie de paquetes que nos ayudará en el manejo de nuestro sistema operativo.
-5. Ubuntu server (Minimized) es una versión más adaptable para ambientes de pruebas donde se espera algún tipo de ingreso de usuario.
+5. Ubuntu Server instalará una serie de paquetes que nos ayudará en el manejo de nuestro sistema operativo.
+6. Ubuntu server (Minimized) es una versión más adaptable para ambientes de pruebas donde se espera algún tipo de ingreso de usuario.
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image10.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image10.png)
+    ![Install Ubuntu server - Conectarse a internet](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-10.jpg)
     
-6. Seleccionaremos la primera opción.
-7. El próximo paso configuramos un adaptador de red, gracias a la configuración de red de adaptador puente que hicimos previamente podemos seleccionar nuestra tarjeta de red de nuestra máquina host.
-8. Luego debemos que configurar un servidor Proxy en el caso que tengamos uno disponible, de no tener podemos saltar este paso
+7. Seleccionaremos la primera opción.
+8. El próximo paso configuramos un adaptador de red, gracias a la configuración de red de adaptador puente que hicimos previamente podemos seleccionar nuestra tarjeta de red de nuestra máquina host.
+9. Luego debemos que configurar un servidor Proxy en el caso que tengamos uno disponible, de no tener podemos saltar este paso
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image11.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image11.png)
+    ![Install Ubuntu server - Configurar proxy](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-11.jpg)
     
-9. Después de la configuración de un proxy, tendremos que configurar el archivo Mirror, este es el archivo al cual nos vamos a conectar para obtener los repositorios del gestor de paquetes de archivos, ahi nos van a dar una opción por defecto la cual vamos a aceptar
+10. Después de la configuración de un proxy, tendremos que configurar el archivo Mirror, este es el archivo al cual nos vamos a conectar para obtener los repositorios del gestor de paquetes de archivos, ahi nos van a dar una opción por defecto la cual vamos a aceptar
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image12.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image12.png)
+    ![Install Ubuntu server - Mirror Address](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-12.jpg)
     
-10. El próximo paso paso será configurar un disco en el que vamos a almacenar nuestro Sistema operativo, en este caso de virtualización, tendremos la opción de un disco virtual, después tendremos el resumen de las particiones del disco en el cual tendremos dos particiones, partition 1 que tendremos el grub, y la partition 2 donde tendremos nuestro Sistema operativo
+11. El próximo paso paso será configurar un disco en el que vamos a almacenar nuestro Sistema operativo, en este caso de virtualización, tendremos la opción de un disco virtual, después tendremos el resumen de las particiones del disco en el cual tendremos dos particiones, partition 1 que tendremos el grub, y la partition 2 donde tendremos nuestro Sistema operativo
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image13.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image13.png)
+    ![Install Ubuntu server - Configuración del disco](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-13.jpg)
     
-11. En la próxima ventana nos pedirá que le coloquemos los nombres a la máquina y al servidor junto a su contraseña.
+12. En la próxima ventana nos pedirá que le coloquemos los nombres a la máquina y al servidor junto a su contraseña.
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image14.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image14.png)
+    ![Install Ubuntu server - Conectarse a internet](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-14.jpg)
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image15.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image15.png)
+    ![Install Ubuntu server - Configuración del servidor](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-15.jpg)
     
-12. El próximo paso nos preguntará si queremos instalar el servicio OpenSSH, recordemos que SSH es un protocolo el cual nos permitirá que podamos acceder a nuestro servidor de manera remota por lo que lo recomendable es aceptar.
+13. El próximo paso nos preguntará si queremos instalar el servicio OpenSSH, recordemos que SSH es un protocolo el cual nos permitirá que podamos acceder a nuestro servidor de manera remota por lo que lo recomendable es aceptar.
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image16.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image16.png)
+    ![Install Ubuntu server - Install Open SSH Server](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-16.jpg)
     
-13. Seleccionaremos algunos paquetes que queramos tener en nuestro sistema operativo, estas selecciones son opcionales por lo que no aceptaremos ninguno para esta práctica.
+14. Seleccionaremos algunos paquetes que queramos tener en nuestro sistema operativo, estas selecciones son opcionales por lo que no aceptaremos ninguno para esta práctica.
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image17.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image17.png)
+    ![Install Ubuntu server - Server Snaps](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-17.jpg)
     
-14. Después del último paso comienza la instalación del sistema operativo por lo que esperaremos unos minutos a que se termine una vez finalizada la instalación, seleccionamos la opción reboot now.
+15. Después del último paso comienza la instalación del sistema operativo por lo que esperaremos unos minutos a que se termine una vez finalizada la instalación, seleccionamos la opción reboot now.
     
-    ![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image18.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image18.png)
+    ![Install Ubuntu server - Instalacion completada](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-18.jpg)
     
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image19.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image19.png)
 
 #### Reflexiona
 

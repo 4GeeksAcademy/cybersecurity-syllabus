@@ -52,7 +52,7 @@ Para enfrentar esos problemas, los administradores de redes deben desplegar de m
 
 La siguiente ilustración representa un escenario de una empresa típica, donde el departamento de TI tiene que prestar atención a la gestión de seguridad de red:
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image1.jpeg](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image1.jpeg)
+![Departamento TI - gestión de la red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-1.jpg)
 
 - La gestión de seguridad de red reduce las tareas manuales y los errores humanos, ya que simplifica la administración con políticas de seguridad y herramientas de flujo de trabajo a través de una interfaz de administración centralizada.
 - La gestión de seguridad de red puede reducir el riesgo en toda la red y proteger los datos mediante la obtención de información sobre amenazas, vulnerabilidades de red y su relevancia, la evaluación de posibles opciones para bloquear el ataque y la inteligencia para respaldar las decisiones.
@@ -68,4 +68,4 @@ Arquitectura de seguridad en redes
 
 La arquitectura base seleccionada está basada en la propuesta ofrecida por la norma IEC 62443. En ella se definen diferentes zonas asociadas a los niveles en los que se divide un sistema de control industrial. La arquitectura base presenta una segmentación basada en cortafuegos para separar las zonas de control y corporativa, contando además con dos DMZ para el intercambio de información entre ambas zonas. Las arquitecturas siguientes propuestas presentas arquitecturas de seguridad para asegurar las comunicaciones y los dispositivos situados en la parte de control de la red. La seguridad de la parte corporativa no se ha tenido en cuenta en este estudio al quedar fuera del ámbito del mismo.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image2.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image2.png)
+![Departamento TI - gestión de la red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-2.jpg)

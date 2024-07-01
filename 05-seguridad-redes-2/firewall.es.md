@@ -20,7 +20,7 @@ Un cortafuego es una herramienta que protege una red de sistemas y dispositivos 
 
 Aunque ningún cortafuego actual cumple estos requisitos completamente, todos intentan acercarse a ellos lo más posible.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image7.png](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image7.png)
+![Firewall](../assets/05-seguridad-en-redes-2/firewall/firewall-image-1.jpg)
 
 Para proteger las redes, se puede optar por colocar uno o varios cortafuegos.
 
@@ -70,7 +70,7 @@ Los **campos de las cabeceras que se usan como criterios de filtrado** son:
 
 > 📖 Para ser efectivo, un filtro debe permitir la especificación de puertos, ya que algunos servidores de aplicaciones IP utilizan números de puerto normalizados, mientras que los clientes utilizan números de puerto al azar por encima de 1023. Es necesario contar con operadores relacionales para implementar relaciones como “mayor que” o “igual a” y los filtros deben permitir el filtrado de paquetes según la interfaz de origen o destino. Pueden ser un software con funcionalidades avanzadas como IPTables o ser parte de un encaminador. La tecnología es simple y transparente para los usuarios.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image8.jpeg](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image8.jpeg)
+![Firewall - filtrados / modelo OSI ](../assets/05-seguridad-en-redes-2/firewall/firewall-image-2.jpg)
 
 **Puntos débiles**:
 
@@ -84,4 +84,4 @@ Aplicaciones difíciles de filtrar son aquellas basadas en el entorno RPC (*Remo
 
 Es importante el orden de análisis de las reglas para implementar correctamente la política de seguridad. Cuanto más complejas sean las reglas y su orden de análisis, más difícil será para el administrador gestionarlas. ¿Y si un paquete que no cumple ninguna regla especificada? Se debe añadir una regla por defecto al final de la lista que bloquee todo el tráfico que no cumpla con ninguna otra regla.
 
-![Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image9.jpeg](Introduccio%CC%81n%20a%20la%20seguridad%20en%20redes%20b1630986b9024ea68d1f35b789d008f7/image9.jpeg)
+![Firewall - Diagrama de flujo](../assets/05-seguridad-en-redes-2/firewall/firewall-image-3.jpg)

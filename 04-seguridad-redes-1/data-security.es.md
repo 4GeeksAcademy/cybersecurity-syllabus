@@ -51,7 +51,7 @@ Los **Datos Personales** son información que solo te interesa a ti: fotos, rede
 
 Los **Datos Empresariales** son los datos a los que accediste desde que formas parte de la empresa: clientes, gastos, información financiera y tributaria, métricas, estadísticas, resultados, entre otras. Las empresas se aseguran de que no compartas estos datos con otras personas pidiéndote que firmes un *NDA* (acuerdo de no divulgación).
 
-![seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image12.png](seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image12.png)
+![Datos personales vs. Datos empresariales](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-1.jpg)
 
 ### **¿Dónde están sus datos?**
 
@@ -75,7 +75,7 @@ Asegúrate de que vos mismo, tus compañeros y tus empleados, no sean el eslabó
 
 Ten cuidado con las fotos, las fotos tienen mucha información que puede necesitar el próximo atacante. Asegúrate de no ser tú que expongas información que hay que cuidar.
 
-![seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image13.jpg](seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image13.jpg)
+![Data security - Triangulo de la CIA](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-2.jpg)
 
 El **Triangulo CIA** está conformado por los siguientes elementos:
 
@@ -113,7 +113,7 @@ Ampliemos el concepto del **Triangulo CIA.** El McCumber Cube es un marco modelo
 
 ### **Los principios fundamentales para proteger los sistemas de información.**
 
-![seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image14.png](seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image14.png)
+![Data security - El cubo](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-3.jpg)
 
 **Como ya vimos nos referimos a:**
 
@@ -123,11 +123,11 @@ Ampliemos el concepto del **Triangulo CIA.** El McCumber Cube es un marco modelo
 
 ### **La protección de la información en cada uno de sus estados posibles.**
 
-![seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image15.png](seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image15.png)
+![Data security - estados posibles para la protección de la información](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-4.jpg)
 
 ### **Las medidas de seguridad utilizadas para proteger los datos.**
 
-![seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image16.png](seguridad%20de%20redes%202%20b55173737ff04e08975955602227137c/image16.png)
+![Data security - Medidas de seguridad para la protección de la información](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-5.jpg)
 
 - **La concientización**, la capacitación y la educación son las medidas implementadas por una organización para garantizar que los usuarios estén informados sobre las posibles amenazas a la seguridad y las acciones que pueden tomar para proteger los sistemas de información.
 - **La tecnología** se refiere a las soluciones basadas en software (y hardware) diseñadas para proteger los sistemas de información como los firewalls, que monitorean continuamente tu red en busca de posibles incidentes maliciosos.

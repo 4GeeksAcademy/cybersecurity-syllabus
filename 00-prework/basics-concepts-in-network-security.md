@@ -6,6 +6,8 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
+In today's world, over 90% of data breaches start with network vulnerabilities. In this lesson, you'll learn to enhance your network's security by configuring packet filtering rules on a firewall. We'll cover the basics of firewalls, packet filtering, and advanced technologies like VPNs and WPA/WPA2. By the end, you'll be able to set up firewall rules to protect your network and ensure secure communication. Let's get started!
+
 ## Firewall and Packet Filtering
 
 A firewall is a device or software used to protect a network from external threats. It works by monitoring and filtering incoming and outgoing network traffic, allowing only secure traffic.

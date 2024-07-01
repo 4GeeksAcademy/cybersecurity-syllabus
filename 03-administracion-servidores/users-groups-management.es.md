@@ -6,21 +6,21 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Creación y gestión de cuentas de Usuario.**
+## Creación y gestión de cuentas de Usuario.
 
 Dentro del sistema, el administrador de sistema tiene el privilegio de ser el usuario root el cual significa que es el único usuario autorizado todos la creación de usuario y grupos y administración de todos estos archivos. Esta práctica no es recomendable ya que en algún caso de error, podemos causar fallas graves al sistema por lo que en el transcurso de las siguientes prácticas estamos bajo un usuario de sistema y le otorgamos privilegios de superusuarios con sudo.
 
 Como administradores de sistemas, saber como crear y gestionar las cuentas de los usuarios de nuestro sistema es algo que necesitamos conocer y dominar, ya que los usuarios son las personas o entidades que van a interactuar con el servidor y van a requerir acceso a recursos y servicios específicos. Crear una cuenta de usuario no es algo difícil en Linux, involucra también crear contraseña y asignarlo a un grupo y permisos. Aquí les dejamos un ejemplo de como crear y gestionar una cuenta de usuario, para ello abriremos la máquina virtual de nuestro servidor y seguiremos los siguientes pasos:
 
-- Para crear a un usuario, usaremos el comando **“useradd”** seguido del nombre de usuario, una vez ingresado el comando se pedirá que ingrese una contraseña para el usuario
+- Para crear a un usuario, usaremos el comando `useradd` seguido del nombre de usuario, una vez ingresado el comando se pedirá que ingrese una contraseña para el usuario
 
 ![Creación y gestión de cuentas de usuario - crear usuario](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-1.jpg)
 
-- Si queremos cambiar la contraseña lo hacemos con el comando **passwd** seguido del usuario de la contraseña que queremos cambiar
+- Si queremos cambiar la contraseña lo hacemos con el comando `passwd` seguido del usuario de la contraseña que queremos cambiar
 
 ![Creación y gestión de cuentas de usuario - comando password](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-2.jpg)
 
-- Una forma de facilitar la administración de permisos de directorios y archivos son a través de los grupos, podemos crear grupos con el comando **groupadd** y asignar al usuario en el grupo con el comando **usermod** junto a las flags **a** (para agregar a grupo) y **G** para agregar a grupo secundario, si queremos ver los grupos al que pertenece el usuario en el sistema usamos el comando groups.
+- Una forma de facilitar la administración de permisos de directorios y archivos son a través de los grupos, podemos crear grupos con el comando **groupadd** y asignar al usuario en el grupo con el comando `usermod` junto a las flags `a` (para agregar a grupo) y `G` para agregar a grupo secundario, si queremos ver los grupos al que pertenece el usuario en el sistema usamos el comando groups.
 
 ![Creación y gestión de cuentas de usuario - crear grupos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-3.jpg)
 
@@ -40,13 +40,13 @@ Como administradores de sistemas, saber como crear y gestionar las cuentas de lo
 
 > ⚠️ Recuerda que la creación y gestión de cuentas de usuario en servidores Linux debe realizarse de manera segura y siguiendo las mejores prácticas de seguridad. Esto incluye el uso de contraseñas fuertes, la asignación adecuada de permisos y la implementación de políticas de seguridad.
 
-## **Asignación de permisos y privilegios.**
+## Asignación de permisos y privilegios.
 
 Como administradores de sistema, es importante saber y conocer cómo gestionar y asignar permisos y privilegios a cada usuario del sistema, ya que los permisos pueden determinar qué acciones pueden realizar los usuarios y los privilegios definen el nivel de acceso y control sobre el sistema.
 
 Cuando manejamos un servidor una de las mejores prácticas para proteger la información es poniendo en práctica el principio del menor privilegio, el cual consiste en asignarle los permisos de accesos mínimos necesarios para que pueda desempeñar actividades en el sistema, para ello es necesario conocer sobre los permisos y cómo gestionarlos.
 
-En linux, lectura (r), escritura (w) y ejecución (x). Estos permisos se asignan a tres grupos de usuarios: el propietario del archivo, el grupo al que pertenece el archivo y otros usuarios. podemos ver estos permisos en los directorios o archivos con el comando: ***`ls -l`***
+En linux, lectura (r), escritura (w) y ejecución (x). Estos permisos se asignan a tres grupos de usuarios: el propietario del archivo, el grupo al que pertenece el archivo y otros usuarios. podemos ver estos permisos en los directorios o archivos con el comando: `ls -l`
 
 ![Asignación de permisos y privilegios - comando ls](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-1.jpg "comando ls -l nos permite visualizar permisos en los directorios o archivos")
 
@@ -73,30 +73,37 @@ Con el comando `chmod` podemos cambiar y otorgar permisos a los usuarios sobre u
 
 En este caso, generamos permisos de suid de privilegio de usuario y grupo al archivo `text.txt`
 
-Otra manera de gestionar los permisos es asignarlos con la cantidad de bits de los permisos. Tomando en cuenta que cada permiso tiene una cantidad de bits podemos sacarlos como:      
+Otra manera de gestionar los permisos es asignarlos con la cantidad de bits de los permisos. Tomando en cuenta que cada permiso tiene una cantidad de bits podemos sacarlos como: 
 
-- Lectura r (4)
-- Escritura w (2)
-- Ejecución x (1)
+```txt
+Lectura r (4)
+Escritura w (2)
+Ejecución x (1)
+```
+
 1. Si queremos gestionar permisos por bits esta cuenta te puede resultar útil
-    - Lectura (r), Escritura (w) Ejecución (x) rwx = 7
-    - Lectura (r), Escritura (w) rw- =6
-    - Lectura (r), Ejecución (x) r-x = 5
-    - Lectura (r) r– = 4
-    - Escritura (w), Ejecución -wx = 3
-    - Escritura (w) -w- = 2
-    - Ejecución (x) –x = 1
+
+```txt
+Lectura (r), Escritura (w) Ejecución (x) rwx = 7
+Lectura (r), Escritura (w) rw- =6
+Lectura (r), Ejecución (x) r-x = 5
+Lectura (r) r– = 4
+Escritura (w), Ejecución -wx = 3
+Escritura (w) -w- = 2
+Ejecución (x) –x = 1
+```
+
 2. Colocaremos la cantidad de bits que los permisos que queramos otorgar de acuerdo a la posición de usuario, grupo y otros.
-    
-    ![Asignación de permisos y privilegios - Cantidad de bits de los permisos que otorgamos al usuario, al grupo u otros ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-4.jpg "Cantidad de bits de los permisos que otorgamos al usuario, al grupo u otros")
+
+![Asignación de permisos y privilegios - Cantidad de bits de los permisos que otorgamos al usuario, al grupo u otros ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-4.jpg "Cantidad de bits de los permisos que otorgamos al usuario, al grupo u otros")
     
 > 💡 La asignación de permisos y privilegios en linux es esencial para así garantizar al seguridad y el control adecuado sobre los recursos del sistema
     
-## **Configuración de grupos y asignación de usuarios a grupos.**
+## Configuración de grupos y asignación de usuarios a grupos.
 
 Saber cómo configurar y asignar un usuario a un grupo en específico es ideal cuando queremos ganar tiempo y tenemos un sistema con muchos usuarios, ya que una manera rápida de hacerlo es ir asignando a los usuarios a un grupo con los permisos de usuarios mínimos de acuerdo a su labor. Por ejemplo podemos tener un grupo de departamentoIT que pueda tener acceso ejecutar a los scripts de automatización de tareas del sistema y asi, que los usuarios de departamento de marketing no puedan tener acceso a dichos scripts.
 
-Para ello tenemos comandos que nos pueden ayudar tales como **`groupadd`** para crear un grupo.
+Para ello tenemos comandos que nos pueden ayudar tales como `groupadd` para crear un grupo.
 
 Para este ejercicio hemos creado un grupo llamado departamentomarketing, ya una vez creado podremos agregar al usuario al grupo con el comando adduser seguido del nombre de usuario y el grupo al cual queremos que pertenezca.
 

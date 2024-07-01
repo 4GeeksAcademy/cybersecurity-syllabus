@@ -27,7 +27,7 @@ Es por ello que debemos implementar una herramienta para la gestión de los inci
 
 La gestión de incidentes de seguridad se basa en diferentes pasos, que incluyen:
 
-![steps to resolve cybersecurity incidents](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/steps-to-resolve-incidents.png?raw=true)
+![Gestión de incidentes](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/incident-management/incident-management-image-1.jpg)
 
 *NOTA: Estos pasos podrían ser estados diferentes que un incidente por lo que también es importante informar al usuario sobre cualquier cambio en el estado del incidente.*
 
@@ -80,7 +80,7 @@ Un evento en la seguridad de la información no significa necesariamente una imp
 
 ### Aclarando conceptos: amenaza, vulnerabilidad, evento e incidente
 
-![threat vulnerability or cybersecurity event and incident](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/amenaza-vulnerabilidad-evento-incidente.png?raw=true)
+![Gestión de incidentes - amenaza, vulnerabilidad, evento e incidente](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/incident-management/incident-management-image-2.jpg)
 
 ## **Amenaza para la Seguridad de la información**
 
@@ -125,7 +125,7 @@ Hay muchas formas de clasificar incidentes, pero lo habitual es considerar dos p
 
 La combinación de estos parámetros nos permitirá determinar la prioridad de cada incidente, por lo que de esta manera puede establecer, por ejemplo, la siguiente tabla de valores:
 
-![incident management classification](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/incident-classification.png?raw=true)
+![Gestión de incidentes - Nivel de amenazas](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/incident-management/incident-management-image-3.jpg)
 
 Así podríamos clasificar las incidencias en:
 

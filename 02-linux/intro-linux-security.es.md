@@ -73,22 +73,64 @@ sudo apt-get install iptables
 sudo yum install iptables
 ```
 
-3.  Configurar iptables
+## Agregando reglas a iptables
 
 Una vez que iptables esté instalado, puedes comenzar a configurarlo según tus necesidades. iptables utiliza reglas para controlar el tráfico de red, por lo que deberás definir esas reglas.
+
 Puedes crear un archivo de configuración para iptables utilizando un editor de texto, como nano o vi. Por ejemplo:
 
 ```bash
-sudo dnf install iptable
+sudo nano /etc/iptables/rules.v4
 ```
 
-Dentro de este archivo, puedes agregar las reglas que deseas aplicar. Por ejemplo, para permitir el tráfico SSH entrante, puedes agregar la siguiente regla:
+Dentro de este archivo, puedes agregar las reglas que deseas aplicar. 
+
+### Aceptando conexiones TCP al puerto 22
+
+a siguiente regla de iptables permite conexiones TCP entrantes al servidor en el puerto 22, que generalmente se utiliza para el acceso SSH (Secure Shell). 
 
 ```bash
 -A INPUT -p tcp --dport 22 -j ACCEPT
 ```
 
-4. Guardar y aplicar las reglas
+Aquí hay un desglose de la regla:
+
+- `-A INPUT`: Esto añade la regla a la cadena `INPUT`, que maneja el tráfico de red entrante.
+- `-p tcp`: Esto especifica el protocolo a coincidir, que en este caso es TCP (Protocolo de Control de Transmisión).
+- `--dport 22`: Esto coincide con los paquetes que están destinados al puerto 22. La bandera `dport` significa "puerto de destino".
+- `-j ACCEPT`: Esto especifica el destino de la regla, que en este caso es `ACCEPT` (aceptar) el paquete. Esto significa que el tráfico que coincide con la regla será permitido a través del firewall.
+
+En Resumen:
+
+- La regla se añade a la cadena `INPUT`, que trata con el tráfico entrante.
+- Coincide con paquetes TCP.
+- Específicamente apunta a paquetes destinados al puerto 22.
+- Acepta estos paquetes, permitiendo que la conexión se establezca.
+
+### Bloqueando los request PING
+
+```bash
+-A INPUT -p icmp --icmp-type echo-request -j DROP
+```
+
+Esta regla de iptables se utiliza para bloquear solicitudes de ping entrantes al servidor. Aquí tienes un desglose detallado de la regla:
+
+- `-A INPUT`: Esto añade la regla a la cadena `INPUT`, que maneja el tráfico de red entrante.
+- `-p icmp`: Esto especifica el protocolo a coincidir, que en este caso es ICMP (Protocolo de Mensajes de Control de Internet).
+- `--icmp-type echo-request`: Esto coincide con los paquetes que son solicitudes de eco ICMP, que se utilizan para las operaciones de ping. El tipo `echo-request` es el tipo de mensaje ICMP que se envía cuando se realiza un ping.
+- `-j DROP`: Esto especifica el destino de la regla, que en este caso es `DROP` (descartar) el paquete. Esto significa que el tráfico que coincida con la regla será descartado silenciosamente y no se enviará ninguna respuesta al remitente.
+
+En Resumen:
+
+- La regla se añade a la cadena `INPUT`, que trata con el tráfico entrante.
+- Coincide con paquetes ICMP.
+- Específicamente apunta a paquetes de solicitud de eco ICMP, que se utilizan para las operaciones de ping.
+- Descarta estos paquetes, bloqueando efectivamente las solicitudes de ping al servidor.
+
+Al implementar esta regla, evitas que entidades externas hagan ping a tu servidor, lo que puede ayudar a reducir el riesgo de ciertos tipos de ataques de red o actividades de reconocimiento.
+
+
+### Guardar y aplicar las reglas
 
 Una vez que hayas definido tus reglas, guarda el archivo de configuración y sal del editor de texto.
 Luego, puedes aplicar las reglas utilizando el siguiente comando:

@@ -1,6 +1,6 @@
 ---
-title: "Cumplimiento Legal y Normativo en España"
-subtitle: "Explora el mundo de los incidentes de seguridad, la respuesta a incidentes y la importancia de un Plan de respuesta a incidentes (IRP) en el campo español de ciberseguridad."
+title: "Cumplimiento Legal y Normativo de la Ciberseguridad en España"
+subtitle: "Explora el mundo de los incidentes de ciberseguridad, la respuesta a incidentes y la importancia de un Plan de respuesta a incidentes (IRP) en el campo español de ciberseguridad."
 tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 

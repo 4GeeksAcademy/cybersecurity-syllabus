@@ -15,7 +15,7 @@ A network and cybersecurity professional needs to know how to manage IP addresse
 
 Imagine you have a home network with several devices, such as your computer, your phone and your printer. Each of these devices has its unique IP address, like an address label so that data can reach the correct destination.
 
-## **Subnetting: How networks are made up**.
+## Subnetting: How networks are made up
 
 - Subnetting is the process of dividing a network into smaller subnets. This is done for several reasons, including improving network efficiency and security.
 - In cybersecurity and pentesting, subnetting is used to segment a network into smaller parts, which can help isolate and control traffic. This is crucial to protect critical resources and limit the spread of threats in a network.
@@ -161,15 +161,14 @@ Of the 64 hosts, we will have 62 to assign since we need the network host and th
 
 The network address will be the first address of the subnet and the broadcast address will be the last address.
 
-Subnet 1 192.168.0.1 - 192.168.0.62 Network address 192.168.0.0.0 Broadcast 192.168.0.63
+| Subnet                    | Network Address  | Broadcast        |
+|---------------------------|------------------|------------------|
+| 192.168.0.1 - 192.168.0.62| 192.168.0.0      | 192.168.0.63     |
+| 192.168.0.65 - 192.168.0.126| 192.168.0.64   | 192.168.0.127    |
+| 192.168.0.129 - 192.168.0.190| 192.168.0.128 | 192.168.0.191    |
+| 192.168.0.193 - 192.168.0.254| 192.168.0.192 | 192.168.0.255    |
 
-Subnet 2 192.168.0.65 - 192.168.0.126 Network address 192.168.0.64 Broadcast 192.168.0.127
-
-Subnet 3 192.168.0.129 - 192.168.0.190 Network address 192.168.0.128 Broadcast 192.168.191
-
-Subnet 4 192.168.0.193 - 192.168.0.254 Network address 192.168.0.192 Broadcast 192.168.0.255
-
-## Manual and automatic IP address configuration**
+## Manual and automatic IP address configuration
 
 The IP address is the way to identify a device within a network. The IP address of a device can be configured dynamically/automatically through the DHCP protocol and manually.
 
@@ -179,13 +178,15 @@ This protocol generates certain advantages since this process is automated and c
 
 ### How to activate the DHCP protocol
 
-- **Windows**
+#### Activate the DHCP protocol in Windows
+
 1. Click Start > Settings > Network and Internet.
 2. Click Ethernet or Wi-Fi. Select Manage and click Edit next to IP Assignment.
 3. Under edit network IP settings, select Automatic (DHCP.)
 4. Click `Save` to activate the new settings.
 
-- **Linux**
+#### Activate the DHCP protocol in Linux
+
 1. Look for the option to edit connections.
 2. Go to the IPv4 Settings option.
 3. In the method select the DHCP option.
@@ -194,14 +195,16 @@ This protocol generates certain advantages since this process is automated and c
 
 ### How to configure the IP manually
 
-- **Windows**
+#### Configure IP manually in Windows
+
 1. Click Start > Settings > Network and Internet.
 2. Click Ethernet or Wi-Fi. Select Manage and click `Edit` next to IP Assignment.
 3. Under `Edit` network IP settings, select `Manual`.
 4. Enter the IP address you want to use and the rest of the information.
 5. Click Save to activate the new settings.
 
-- **Linux**
+#### Configure IP manually in Linux
+
 1. Look for the option to edit the connections.
 2. Go to the IPv4 Settings option.
 3. In the method, select the `Manual` option.

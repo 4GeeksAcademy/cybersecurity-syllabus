@@ -225,7 +225,7 @@ La estrategia de contención varía según el tipo de incidente y los criterios 
 
 En algunas ocasiones durante el proceso de Atención de Incidentes de Seguridad Informática específicamente en la fase de “Contención, Erradicación y Recuperación” se puede hacer necesario activar el BCP (Plan de Continuidad del Negocio) o el DRP (Plan de Recuperación de Desastres) en el caso que un incidente afecte gravemente a un determinado sistema.
 
-![seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image11.png](seguridad%20de%20redes%203%20c295661c6a5741b1a91532efe7ca8c9e/image11.png)
+![Mapa mental sobre incidentes y recuperación](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/incident-management/incident-management-image-4.jpg)
 
 *Integración del Proceso de Atención de Incidentes de Seguridad con el Proceso de Contingencia y Disaster Recovery.*
 
