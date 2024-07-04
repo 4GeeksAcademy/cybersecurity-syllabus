@@ -19,7 +19,7 @@ Today, organizations worldwide invest heavily in IT technologies related to cybe
 
 In all data security topics, **there are common elements that all organizations must consider when implementing their measures: people, processes, and technology**.
 
-## data security
+## Data security
 
 In a connected digital world, Information Security stands as the bulwark that guards the secrets, privacy, and integrity of our data. This article explores the essential fundamentals of information security, unraveling the strategies and best practices needed to face the challenges of cyberspace. Join us on this journey towards a deep understanding of how to protect information in the digital age.
 
