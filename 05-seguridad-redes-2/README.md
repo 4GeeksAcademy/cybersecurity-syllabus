@@ -19,4 +19,4 @@
 - 📗 [10 recomendaciones de seguridad en la nube](./10-recomendations-cloud-clients-security.es.md)
 - 📗 [Seguridad de WebHosting](./web-hosting-security.es.md)
 - 📗 [10 prácticas de seguridad en Webhosting](./10-web-hosting-security-practices.es.md)
-- 🧪 TODO: Falta esta practica: Ideas: Montar un SSL, con un servidor seguro.
+- 🧪 TODO: Montar un SSL on openssl, con un servidor seguro.
