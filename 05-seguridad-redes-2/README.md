@@ -4,7 +4,7 @@
 
 - 📗 [Sistemas de detección de intruso](./intruder-detection-system.es.md)
 - 📗 [Herramientas de detección de intruso](./intruder-detection-system-tools.es.md)
-- 🧪[Simulación de intrusion de en un sistema](./labs/traffic-simulation.es.md)
+- 🧪 TODO: Simulación de intrusion de en un sistema
 
 ## Dia 2
 
