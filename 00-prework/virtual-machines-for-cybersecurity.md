@@ -7,14 +7,18 @@ tags: ["cybersecurity"]
 
 # Virtual Machines and projects to practice cybersecurity
 
-Using virtual machines (VMs) is a great way to learn cybersecurity in a controlled and isolated environment. Several VMs are designed specifically for security training, ranging from beginner to advanced levels. These include pre-configured vulnerable applications and systems, which are ideal for practicing penetration testing, vulnerability analysis, and exploitation.
+At 4Geeks, we like our students to learn in real-life environments similar to those they will find once they get a job in the field. That is why we like using virtual machines instead of cloud services like HackABox, TryHackMe, etc. We recommend using cloud services once you get familiar with installing and using real-life setups.
+
+On the other hand, using a virtual machine is strongly recommended because you will be hacking a lot. You don't want your personal computer to become vulnerable or hacked; using virtual machines (VMs) is a great way to learn cybersecurity in a controlled and isolated environment. 
+
+We use a mix of internal and public domain VMs designed specifically for security training, ranging from beginner to advanced levels. These include pre-configured vulnerable applications and systems, which are ideal for practicing penetration testing, vulnerability analysis, and exploitation.
 
 ## 1. Metasploitable 2 and 3
 
 - **Difficulty Level**: Beginner to Intermediate
 - **Operating System**: Linux
 - **Ideal Practices**: Network security, service exploitation, vulnerability assessment
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Exploit known vulnerabilities in services like FTP, SSH, and HTTP.
   - Practice securing misconfigured services and permissions.
   - Use tools like Nmap and Metasploit to conduct penetration testing.
@@ -29,7 +33,7 @@ Using virtual machines (VMs) is a great way to learn cybersecurity in a controll
 - **Difficulty Level**: Beginner
 - **Operating System**: Any LAMP stack (Linux, Apache, MySQL, PHP)
 - **Ideal Practices**: Web application security, from SQL injection to XSS and CSRF
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Perform SQL injections to reveal database contents.
   - Implement and test Cross-Site Scripting (XSS) attacks.
   - Secure applications against CSRF vulnerabilities.
@@ -44,7 +48,7 @@ Using virtual machines (VMs) is a great way to learn cybersecurity in a controll
 - **Difficulty Level**: Beginner to Intermediate
 - **Operating System**: Cross-platform (Java-based)
 - **Ideal Practices**: Web application vulnerabilities and secure coding practices
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Work through lessons that explain vulnerabilities with hands-on tasks.
   - Mitigate vulnerabilities in simulated scenarios.
   - Develop secure code patches for identified issues.
@@ -59,7 +63,7 @@ Using virtual machines (VMs) is a great way to learn cybersecurity in a controll
 - **Difficulty Level**: Intermediate
 - **Operating System**: Cross-platform (Node.js)
 - **Ideal Practices**: Modern web application vulnerabilities, API security, and best security practices
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Conduct an XSS attack and then implement content security policies to mitigate it.
   - Perform Broken Access Control exercises.
   - Explore insecure deserialization and environmental misconfiguration.
@@ -74,7 +78,7 @@ Using virtual machines (VMs) is a great way to learn cybersecurity in a controll
 - **Difficulty Level**: Beginner to Advanced (varies by VM)
 - **Operating System**: Various
 - **Ideal Practices**: Broad range of security practices, from beginner-friendly scenarios to complex setups
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Each VM typically comes with a specific set of challenges, designed to practice a particular set of skills.
   - Tasks often involve discovering and exploiting vulnerabilities to gain higher access levels.
   - Vulnerability Scanning: Use tools like Nessus or OpenVAS to scan and identify vulnerabilities.
@@ -88,7 +92,7 @@ Using virtual machines (VMs) is a great way to learn cybersecurity in a controll
 - **Difficulty Level**: Intermediate to Advanced
 - **Operating System**: Various
 - **Ideal Practices**: Real-world penetration testing, reverse engineering, and cryptoanalysis
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Complete different boxes starting from enumeration to gaining root access.
   - Use various penetration testing tools in a controlled environment.
   - Reverse engineer applications to understand security flaws.
@@ -102,7 +106,7 @@ The following free and paid services are specialized on providing several comput
 - **Difficulty Level**: Intermediate to Advanced
 - **Operating System**: Various
 - **Ideal Practices**: Penetration testing in a safe, legal, and controlled environment
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Follow structured paths for learning penetration testing.
   - Practice exploits on a variety of operating systems and software configurations.
 
@@ -111,7 +115,7 @@ The following free and paid services are specialized on providing several comput
 - **Difficulty Level**: Beginner to Intermediate
 - **Operating System**: Various
 - **Ideal Practices**: Specific web vulnerabilities and exploits, secure coding
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Complete exercises that teach session hijacking, web attacks, and the use of security headers.
   - Analyze source code to find vulnerabilities.
 
@@ -120,7 +124,7 @@ The following free and paid services are specialized on providing several comput
 - **Difficulty Level**: Beginner to Intermediate
 - **Operating System**: Various
 - **Ideal Practices**: Network security, scripting for security, system exploitation
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Engage in Capture The Flag (CTF) events.
   - Follow guided paths to learn about different aspects of cybersecurity.
 
@@ -129,7 +133,7 @@ The following free and paid services are specialized on providing several comput
 - **Difficulty Level**: Intermediate to Advanced
 - **Operating System**: Ubuntu Linux
 - **Ideal Practices**: Digital forensics, incident response, and cybersecurity investigation
-- **Lab Exercises**:
+- **Some example exercises you can do**:
   - Perform forensic analysis of network captures.
   - Analyze disk images for evidence of intrusions.
 
