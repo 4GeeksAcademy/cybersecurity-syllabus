@@ -11,7 +11,7 @@ At 4Geeks, we like our students to learn in real-life environments similar to th
 
 On the other hand, using a virtual machine is strongly recommended because you will be hacking a lot. You don't want your personal computer to become vulnerable or hacked; using virtual machines (VMs) is a great way to learn cybersecurity in a controlled and isolated environment. 
 
-We use a mix of internal and public domain VMs designed specifically for security training, ranging from beginner to advanced levels. These include pre-configured vulnerable applications and systems, which are ideal for practicing penetration testing, vulnerability analysis, and exploitation.
+We use a mix of [internally developed](https://4geeks.com/docs/start/cybersecurity-virtual-machines) and/or publicly available VMs designed specifically for security training, ranging from beginner to advanced levels. These include pre-configured vulnerable applications and systems, which are ideal for practicing penetration testing, vulnerability analysis, and exploitation.
 
 ## 1. Metasploitable 2 and 3
 
