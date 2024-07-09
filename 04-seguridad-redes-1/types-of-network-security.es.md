@@ -27,7 +27,7 @@ Utiliza mecanismos de cifrado, controles de acceso y autenticación.
 Asegura que los servicios y datos de la red estén disponibles para los usuarios cuando los necesiten.
 Implementa redundancia, tolerancia a fallos y planes robustos de recuperación ante desastres.
 
-## Tipos de Seguridad de Red
+## Tipos de Seguridad en la Red
 
 1. **Seguridad de Firewall**
    - **Descripción**: Actúa como una barrera entre redes confiables y no confiables, controlando el tráfico entrante y saliente.
