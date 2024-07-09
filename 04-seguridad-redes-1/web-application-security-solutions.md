@@ -1,5 +1,5 @@
 ---
-title: "Soluciones de seguridad en aplicaciones web"
+title: "Solutions for web application security"
 subtitle: "Here are ten key strategies for securing web applications, along with top-rated tools like Hydra, OWASP ZAP, Burp Suite, and Acunetix for effective implementation. These strategies cover areas such as secure coding practices, WAF deployment, security testing, authentication, secure communication, updates, monitoring, training, third-party services, and incident response planning."
 tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
