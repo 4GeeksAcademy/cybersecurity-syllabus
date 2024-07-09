@@ -6,75 +6,104 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-La seguridad de red es cualquier actividad diseñada para proteger el acceso, el uso y la integridad de la red y los datos corporativos.
+La seguridad de red se refiere a las estrategias, prácticas y tecnologías empleadas para proteger la integridad, confidencialidad y disponibilidad de las redes y datos informáticos contra el acceso no autorizado, el mal uso, el mal funcionamiento, la modificación, la destrucción o la divulgación indebida. Abarca una amplia gama de medidas diseñadas para defenderse contra diversas amenazas y ataques cibernéticos, asegurando el funcionamiento seguro de los sistemas en red y la integridad de los datos.
 
-- Incluye tecnologías de hardware y software.
-- Está orientada a diversas amenazas.
-- Evita que ingresen o se propaguen por la red.
-- La seguridad de red eficaz administra el acceso a la red.
+## Metas principales de la seguridad de red
 
-## ¿Cómo funciona la seguridad de red?
+Se puede agrupar en tres objetivos principales:
 
-La seguridad de red combina varias capas de defensa en el perímetro y la red. Cada capa de seguridad de red implementa políticas y controles. Los usuarios autorizados tienen acceso a los recursos de red, mientras que se bloquea a los usuarios maliciosos para evitar que ataquen vulnerabilidades y amenacen la seguridad.
+### Integridad de la Red
 
-## ¿En qué me beneficia la Seguridad de Red?
+Asegura que los datos sean precisos y no se alteren durante la transmisión y el almacenamiento.
+Utiliza técnicas como sumas de verificación, hashes y firmas digitales.
 
-La digitalización ha transformado al mundo. Ha cambiado nuestra manera de vivir, trabajar, aprender y entretenernos. Todas las organizaciones que quieren prestar los servicios que exigen los clientes y los empleados deben proteger su red. La seguridad de red también ayuda a proteger la información confidencial de los ataques. En última instancia, protege su reputación.
+### Confidencialidad de la Red
 
-## Tipos de seguridad de red
+Asegura que la información sensible sea accesible solo para usuarios autorizados.
+Utiliza mecanismos de cifrado, controles de acceso y autenticación.
 
-### Firewalls
+### Disponibilidad de la Red
 
-Los firewalls ponen una barrera entre su red interna de confianza y las redes externas que no son de confianza, como Internet. Usan un conjunto de reglas definidas para permitir o bloquear el tráfico.Un firewall puede ser hardware, software o ambos.
+Asegura que los servicios y datos de la red estén disponibles para los usuarios cuando los necesiten.
+Implementa redundancia, tolerancia a fallos y planes robustos de recuperación ante desastres.
 
-### Seguridad del correo electrónico
+## Tipos de Seguridad de Red
 
-Los gateways del correo electrónico son el principal vector de amenaza para las infracciones a la seguridad. Los atacantes usan la información personal y las tácticas de ingeniería social para desarrollar campañas de suplantación de identidad (phishing) sofisticadas para los destinatarios de los dispositivos a fin de dirigirlos a sitios con malware. Una aplicación de seguridad de correo electrónico bloquea los ataques entrantes y controla los mensajes salientes para prevenir la pérdida de datos sensibles.
+1. **Seguridad de Firewall**
+   - **Descripción**: Actúa como una barrera entre redes confiables y no confiables, controlando el tráfico entrante y saliente.
+   - **Herramientas Comunes para Prevenir**: Firewalls de hardware (e.g., Cisco ASA), firewalls de software (e.g., Windows Defender Firewall), firewalls de próxima generación (e.g., Palo Alto Networks NGFW).
+   - **Herramientas Comunes para Solucionar**: Herramientas de reconfiguración, analizadores de reglas de firewall (e.g., SolarWinds Firewall Security Manager).
 
-### Software antivirus y antimalware
+2. **Sistemas de Detección y Prevención de Intrusiones (IDS/IPS)**
+   - **Descripción**: IDS monitorea el tráfico de la red en busca de actividad sospechosa y alerta a los administradores; IPS monitorea y toma medidas para bloquear amenazas.
+   - **Herramientas Comunes para Prevenir**: Snort, Suricata, Cisco Firepower, Juniper Networks IDP.
+   - **Herramientas Comunes para Solucionar**: Herramientas de reconfiguración IDS/IPS, herramientas de análisis de registros.
 
-El "malware", abreviatura de "software malicioso", abarca los virus, gusanos, troyanos, ransomware y spyware. En algunos casos, el malware puede infectar una red y permanecer latente por días o incluso semanas. Los mejores programas antimalware no solo detectan la entrada de malware, sino que también hacen un seguimiento constante de los archivos para detectar anomalías, eliminar malware y reparar daños.
+3. **Seguridad de Red Privada Virtual (VPN)**
+   - **Descripción**: Cifra los datos transmitidos entre usuarios remotos y la red corporativa, proporcionando conexiones seguras a través de internet.
+   - **Herramientas Comunes para Prevenir**: OpenVPN, Cisco AnyConnect, NordVPN, ExpressVPN.
+   - **Herramientas Comunes para Solucionar**: Herramientas de reconfiguración de VPN, herramientas de monitoreo de red.
 
-### Segmentación de la red
+4. **Control de Acceso**
+   - **Descripción**: Determina quién puede acceder a la red y qué recursos pueden usar.
+   - **Herramientas Comunes para Prevenir**: Soluciones de Control de Acceso a la Red (NAC) (e.g., Cisco ISE, Aruba ClearPass), Control de Acceso Basado en Roles (RBAC).
+   - **Herramientas Comunes para Solucionar**: Herramientas de gestión de políticas de acceso, herramientas de servicios de directorio (e.g., Active Directory).
 
-La segmentación definida por software clasifica el tráfico de red en distintas categorías y facilita la aplicación de políticas de seguridad. Lo ideal es que las clasificaciones se basen en la identidad de los EndPoints, no solo en las direcciones IP. Puede asignar derechos de acceso basados en roles, ubicación y demás, de modo que se otorgue el nivel de acceso correcto a las personas adecuadas y se contengan y reparen los dispositivos sospechosos.
+5. **Software Antivirus y Anti-Malware**
+   - **Descripción**: Protege los dispositivos de la red contra software malicioso.
+   - **Herramientas Comunes para Prevenir**: Norton, McAfee, Bitdefender, Kaspersky.
+   - **Herramientas Comunes para Solucionar**: Herramientas de eliminación de malware (e.g., Malwarebytes), herramientas de recuperación del sistema.
 
-### Control de acceso
+6. **Prevención de Pérdida de Datos (DLP)**
+   - **Descripción**: Monitorea y protege los datos sensibles para evitar el acceso no autorizado y las filtraciones.
+   - **Herramientas Comunes para Prevenir**: Symantec DLP, McAfee Total Protection for DLP, Forcepoint DLP.
+   - **Herramientas Comunes para Solucionar**: Herramientas de respuesta a incidentes de DLP, herramientas de recuperación de datos.
 
-No todos los usuarios deben tener acceso a la red. Para evitar posibles ataques, debe reconocer a todos los usuarios y dispositivos. Entonces podrá aplicar las políticas de seguridad. Puede bloquear dispositivos de EndPoint que no cumplen las políticas o proporcionarles acceso limitado. Este proceso se denomina control de acceso a la red (NAC).
+7. **Seguridad de Correo Electrónico**
+   - **Descripción**: Protege las comunicaciones por correo electrónico contra amenazas como phishing, spam y malware.
+   - **Herramientas Comunes para Prevenir**: Proofpoint Email Security, Mimecast, Microsoft Defender for Office 365.
+   - **Herramientas Comunes para Solucionar**: Herramientas de filtrado y remediación de correos electrónicos, herramientas anti-phishing.
 
-### Seguridad de las aplicaciones
+8. **Seguridad Web**
+   - **Descripción**: Protege a los usuarios y organizaciones contra amenazas basadas en la web.
+   - **Herramientas Comunes para Prevenir**: Filtros web (e.g., Websense, Barracuda), gateways web seguros (e.g., Zscaler, Blue Coat).
+   - **Herramientas Comunes para Solucionar**: Herramientas de filtrado de URL, firewalls de aplicaciones web (WAF).
 
-Cualquier software que utilice para operar su negocio debe estar protegido, ya sea que su personal de TI lo construya o lo compre. Lamentablemente, todas las aplicaciones pueden tener vulnerabilidades que los atacantes pueden usar para infiltrarse a la red. La seguridad de las aplicaciones abarca el hardware, el software y los procesos que se usan para corregir estas vulnerabilidades.
+9. **Seguridad Inalámbrica**
+   - **Descripción**: Protege las redes inalámbricas contra el acceso no autorizado y los ataques.
+   - **Herramientas Comunes para Prevenir**: Cifrado WPA3, configuraciones seguras de Wi-Fi, sistemas de prevención de intrusiones inalámbricas (WIPS).
+   - **Herramientas Comunes para Solucionar**: Herramientas de configuración de Wi-Fi, herramientas de monitoreo de redes inalámbricas.
 
-### Análisis del comportamiento
+10. **Seguridad de Puntos Finales**
+    - **Descripción**: Protege los dispositivos individuales que se conectan a la red.
+    - **Herramientas Comunes para Prevenir**: Plataformas de protección de puntos finales (EPP) (e.g., Symantec Endpoint Protection, CrowdStrike Falcon), gestión de dispositivos móviles (MDM) (e.g., AirWatch, MobileIron).
+    - **Herramientas Comunes para Solucionar**: Herramientas de detección y respuesta de puntos finales (EDR), herramientas de borrado y recuperación de dispositivos.
 
-Para detectar el comportamiento anómalo de la red, primero debe conocer el comportamiento normal. Las herramientas de análisis de comportamiento detectan automáticamente las actividades que se desvían de la norma. El equipo de seguridad entonces puede identificar mejor los indicadores de infiltración que pueden traer problemas y reaccionar rápidamente ante las amenazas.
+11. **Segmentación de Red**
+    - **Descripción**: Divide una red en segmentos más pequeños y aislados para limitar la propagación de ataques.
+    - **Herramientas Comunes para Prevenir**: VLANs, subredes, herramientas de micro-segmentación (e.g., VMware NSX).
+    - **Herramientas Comunes para Solucionar**: Herramientas de análisis de segmentación de red, herramientas de gestión de configuración.
 
-### Prevención de pérdida de datos
+12. **Gestión de Información y Eventos de Seguridad (SIEM)**
+    - **Descripción**: Proporciona análisis en tiempo real de alertas de seguridad generadas por hardware y aplicaciones de red.
+    - **Herramientas Comunes para Prevenir**: Splunk, IBM QRadar, ArcSight, LogRhythm.
+    - **Herramientas Comunes para Solucionar**: Herramientas de análisis de registros, plataformas de respuesta a incidentes.
 
-Las organizaciones deben asegurarse de que el personal no envíe información confidencial fuera de la red. Las tecnologías de prevención de pérdida de datos (DLP) pueden evitar que las personas carguen, reenvíen o incluso impriman información confidencial de manera no segura.
+13. **Seguridad en la Nube**
+    - **Descripción**: Protege los datos, aplicaciones y servicios alojados en la nube.
+    - **Herramientas Comunes para Prevenir**: Corredores de seguridad de acceso a la nube (CASB) (e.g., Netskope, Microsoft Cloud App Security), herramientas de cifrado en la nube.
+    - **Herramientas Comunes para Solucionar**: Herramientas de gestión de postura de seguridad en la nube (CSPM), plataformas de protección de cargas de trabajo en la nube (CWPP).
 
-### Sistemas de prevención de intrusiones
+14. **Gestión de Identidad y Acceso (IAM)**
+    - **Descripción**: Asegura que solo los usuarios autorizados tengan acceso a los recursos de la red.
+    - **Herramientas Comunes para Prevenir**: Soluciones de inicio de sesión único (SSO) (e.g., Okta, Ping Identity), autenticación de múltiples factores (MFA) (e.g., Duo, Google Authenticator).
+    - **Herramientas Comunes para Solucionar**: Herramientas de gobernanza de identidad, herramientas de revisión y auditoría de acceso.
 
-Un sistema de prevención de intrusiones (IPS) analiza el tráfico de red para bloquear ataques activamente. Los dispositivos del IPS logran esto al correlacionar enormes cantidades de inteligencia de amenazas globales para bloquear las actividades maliciosas y hacer un seguimiento del progreso de los archivos sospechosos y el malware por la red a fin de evitar la propagación de brotes y la reinfección.
+15. **Análisis de Comportamiento**
+    - **Descripción**: Utiliza aprendizaje automático e IA para monitorear el comportamiento del usuario y detectar anomalías que indiquen una amenaza de seguridad.
+    - **Herramientas Comunes para Prevenir**: Análisis de Comportamiento de Usuarios y Entidades (UEBA) (e.g., Exabeam, Securonix), herramientas de análisis de tráfico de red.
+    - **Herramientas Comunes para Solucionar**: Herramientas de detección de anomalías, plataformas de orquestación, automatización y respuesta de seguridad (SOAR).
 
-### Seguridad de dispositivos móviles
-
-Los ciberdelincuentes cada vez se centran más en los dispositivos y las aplicaciones móviles. En los próximos 3 años, el 90 por ciento de las organizaciones de TI tendrá aplicaciones corporativas para dispositivos móviles. Obviamente, debe controlar qué dispositivos pueden acceder a la red. También debe configurar las conexiones para preservar la privacidad del tráfico de red.
-
-### Administración de eventos e información de seguridad
-
-Los productos SIEM reúnen la información que el personal de seguridad necesita para identificar y responder a las amenazas. Estos productos tienen diferentes formas que incluyen dispositivos virtuales y físicos y software de servidor.
-
-### VPN
-
-Una red privada virtual cifra la conexión desde un terminal a la red, generalmente por Internet. Por lo general, una VPN de acceso remoto usa IPsec o una capa de sockets seguros para autenticar las comunicaciones entre los dispositivos y la red.
-
-### Seguridad web
-
-Una solución de seguridad web controla el uso de la web por parte del personal, bloquea las amenazas web y bloquea el acceso a sitios web maliciosos. Protege el gateway web en las instalaciones o la nube. La "seguridad web" también hace referencia a los pasos que se toman para proteger el sitio web.
-
-### Seguridad inalámbrica
-
-Las redes inalámbricas no son tan seguras como las redes cableadas. Sin medidas de seguridad estrictas, instalar una LAN inalámbrica es como poner puertos Ethernet por doquier, incluso en el estacionamiento. Para evitar un ataque, necesita productos específicamente diseñados para proteger la red inalámbrica.
+16. **Seguridad de Confianza Cero**
+    - **Descripción**: Un modelo de seguridad que requiere verificación estricta de cada usuario y dispositivo que intenta acceder a los recursos.
+    - **Herramientas Comunes para
