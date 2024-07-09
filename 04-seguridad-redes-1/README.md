@@ -11,7 +11,7 @@
 ## Dia 2 - Proteción de sistemas y redes, Política, Gestion de redes, Firewall. ACL.
 
 - 📗 [Seguridad web](./web-security.es.md)
-- 📗 [10 Soluciones de seguridad web](./10-solutions-web-security.es.md)
+- 📗 [Web Application Security](./web-application-security-solutions.md)
 - 📗 [Seguridad de usuario final](./enduser-network-security.es.md)
 - 📗 [Antivirus y antiespias](./antivirus-spyware.md)
 - 📗 [Seguridad de datos](./data-security.es.md)
