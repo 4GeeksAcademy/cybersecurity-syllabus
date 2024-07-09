@@ -1,7 +1,7 @@
 ---
 title: "Amenazas, vulnerabilidades y procedimientos de seguridad en redes"
 subtitle: "Seguridad en Redes: Amenazas, Vulnerabilidades y Estrategias para Defensa. Aprende a Combatir Ataques DoS, DDoS, MITM y más"
-tags: ["networks"]
+technologies: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
