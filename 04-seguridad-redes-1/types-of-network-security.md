@@ -7,79 +7,107 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-```txt
-TODO: Aclarar que esta lectura es de CISCO
-```
+Network security refers to the strategies, practices, and technologies employed to protect the integrity, confidentiality, and availability of computer networks and data from unauthorized access, misuse, malfunction, modification, destruction, or improper disclosure. It encompasses a wide range of measures designed to defend against various cyber threats and attacks, ensuring the safe operation of networked systems and data integrity.
 
-Network security is any activity designed to protect the access, use, and integrity of network and corporate data.
+## Network Secutiry Objetives
 
-- It includes hardware and software technologies.
-- It is aimed at various threats.
-- It prevents them from entering or spreading through the network.
-- Effective network security manages network access.
+It can be grouped into 3 main objectives:
 
-## How Does Network Security Work?
+### Network Integrity
 
-Network security combines multiple layers of defense at the perimeter and within the network. Each network security layer implements policies and controls. Authorized users gain access to network resources, while malicious users are blocked from exploiting vulnerabilities and threatening security.
+Ensures that data is accurate and unaltered during transmission and storage.
+Uses techniques like checksums, hashes, and digital signatures.
 
-## How Does Network Security Benefit Me?
+### Network Confidentiality
 
-Digitalization has transformed the world. It has changed the way we live, work, learn, and entertain ourselves. All organizations that want to provide the services that customers and employees demand must protect their network. Network security also helps protect confidential information from attacks. Ultimately, it protects your reputation.
+Ensures that sensitive information is accessible only to authorized users.
+Utilizes encryption, access controls, and authentication mechanisms.
 
-## Types of Network Security
+### Network Availability
 
-### Firewalls
+Ensures that network services and data are available to users when needed.
+Implements redundancy, fault tolerance, and robust disaster recovery plans.
 
-Firewalls create a barrier between your trusted internal network and untrusted external networks, such as the Internet. They use a defined set of rules to allow or block traffic. A firewall can be hardware, software, or both.
+## Network Security Types
 
-### Email Security
+1. **Firewall Security**
+   - **Description**: Acts as a barrier between trusted and untrusted networks, controlling incoming and outgoing network traffic.
+   - **Common Tools to Prevent**: Hardware firewalls (e.g., Cisco ASA), software firewalls (e.g., Windows Defender Firewall), next-generation firewalls (e.g., Palo Alto Networks NGFW).
+   - **Common Tools to Fix**: Reconfiguration tools, firewall rule analyzers (e.g., SolarWinds Firewall Security Manager).
 
-Email gateways are the primary threat vector for security breaches. Attackers use personal information and social engineering tactics to craft sophisticated phishing campaigns aimed at device recipients to direct them to malware sites. An email security application blocks incoming attacks and controls outbound messages to prevent the loss of sensitive data.
+2. **Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS)**
+   - **Description**: IDS monitors network traffic for suspicious activity and alerts administrators; IPS monitors and takes action to block threats.
+   - **Common Tools to Prevent**: Snort, Suricata, Cisco Firepower, Juniper Networks IDP.
+   - **Common Tools to Fix**: IDS/IPS reconfiguration tools, log analysis tools.
 
-### Antivirus and Antimalware Software
+3. **Virtual Private Network (VPN) Security**
+   - **Description**: Encrypts data transmitted between remote users and the corporate network, providing secure connections over the internet.
+   - **Common Tools to Prevent**: OpenVPN, Cisco AnyConnect, NordVPN, ExpressVPN.
+   - **Common Tools to Fix**: VPN reconfiguration tools, network monitoring tools.
 
-"Malware," short for "malicious software," includes viruses, worms, trojans, ransomware, and spyware. In some cases, malware can infect a network and remain dormant for days or even weeks. The best antimalware programs not only detect malware upon entry but also continuously track files to detect anomalies, remove malware, and fix damage.
+4. **Access Control**
+   - **Description**: Determines who can access the network and what resources they can use.
+   - **Common Tools to Prevent**: Network Access Control (NAC) solutions (e.g., Cisco ISE, Aruba ClearPass), Role-Based Access Control (RBAC).
+   - **Common Tools to Fix**: Access control policy management tools, directory service tools (e.g., Active Directory).
 
-### Network Segmentation
+5. **Antivirus and Anti-Malware Software**
+   - **Description**: Protects network devices from malicious software.
+   - **Common Tools to Prevent**: Norton, McAfee, Bitdefender, Kaspersky.
+   - **Common Tools to Fix**: Malware removal tools (e.g., Malwarebytes), system recovery tools.
 
-Software-defined segmentation categorizes network traffic into different classifications and makes enforcing security policies easier. Ideally, classifications are based on EndPoint identity, not just IP addresses. You can assign access rights based on roles, locations, and other criteria to give the right level of access to the right people and contain and remediate suspicious devices.
+6. **Data Loss Prevention (DLP)**
+   - **Description**: Monitors and protects sensitive data to prevent unauthorized access and leaks.
+   - **Common Tools to Prevent**: Symantec DLP, McAfee Total Protection for DLP, Forcepoint DLP.
+   - **Common Tools to Fix**: DLP incident response tools, data recovery tools.
 
-### Access Control
+7. **Email Security**
+   - **Description**: Protects email communications from threats such as phishing, spam, and malware.
+   - **Common Tools to Prevent**: Proofpoint Email Security, Mimecast, Microsoft Defender for Office 365.
+   - **Common Tools to Fix**: Email filtering and remediation tools, anti-phishing tools.
 
-Not all users should have access to the network. To prevent potential attacks, you must recognize all users and devices. Then you can enforce security policies. You can block non-compliant EndPoint devices or provide them with limited access. This process is called network access control (NAC).
+8. **Web Security**
+   - **Description**: Protects users and organizations from web-based threats.
+   - **Common Tools to Prevent**: Web filters (e.g., Websense, Barracuda), secure web gateways (e.g., Zscaler, Blue Coat).
+   - **Common Tools to Fix**: URL filtering tools, web application firewalls (WAF).
 
-### Application Security
+9. **Wireless Security**
+   - **Description**: Protects wireless networks from unauthorized access and attacks.
+   - **Common Tools to Prevent**: WPA3 encryption, secure Wi-Fi configurations, wireless intrusion prevention systems (WIPS).
+   - **Common Tools to Fix**: Wi-Fi configuration tools, wireless network monitoring tools.
 
-Any software you use to run your business must be protected, whether your IT staff builds it or you buy it. Unfortunately, all applications can have vulnerabilities that attackers can use to infiltrate the network. Application security encompasses the hardware, software, and processes used to fix these vulnerabilities.
+10. **Endpoint Security**
+    - **Description**: Protects individual devices that connect to the network.
+    - **Common Tools to Prevent**: Endpoint protection platforms (EPP) (e.g., Symantec Endpoint Protection, CrowdStrike Falcon), mobile device management (MDM) (e.g., AirWatch, MobileIron).
+    - **Common Tools to Fix**: Endpoint detection and response (EDR) tools, device wipe and recovery tools.
 
-### Behavioral Analytics
+11. **Network Segmentation**
+    - **Description**: Divides a network into smaller, isolated segments to limit the spread of attacks.
+    - **Common Tools to Prevent**: VLANs, subnets, micro-segmentation tools (e.g., VMware NSX).
+    - **Common Tools to Fix**: Network segmentation analysis tools, configuration management tools.
 
-To detect abnormal network behavior, you must first understand normal behavior. Behavioral analytics tools automatically detect activities that deviate from the norm. The security team can then better identify infiltration indicators that might pose problems and quickly respond to threats.
+12. **Security Information and Event Management (SIEM)**
+    - **Description**: Provides real-time analysis of security alerts generated by network hardware and applications.
+    - **Common Tools to Prevent**: Splunk, IBM QRadar, ArcSight, LogRhythm.
+    - **Common Tools to Fix**: Log analysis tools, incident response platforms.
 
-### Data Loss Prevention
+13. **Cloud Security**
+    - **Description**: Protects data, applications, and services hosted in the cloud.
+    - **Common Tools to Prevent**: Cloud access security brokers (CASB) (e.g., Netskope, Microsoft Cloud App Security), cloud encryption tools.
+    - **Common Tools to Fix**: Cloud security posture management (CSPM) tools, cloud workload protection platforms (CWPP).
 
-Organizations must ensure that staff do not send sensitive information outside the network. Data loss prevention (DLP) technologies can prevent people from uploading, forwarding, or even printing critical information insecurely.
+14. **Identity and Access Management (IAM)**
+    - **Description**: Ensures that only authorized users have access to network resources.
+    - **Common Tools to Prevent**: Single sign-on (SSO) solutions (e.g., Okta, Ping Identity), multi-factor authentication (MFA) (e.g., Duo, Google Authenticator).
+    - **Common Tools to Fix**: Identity governance tools, access review and audit tools.
 
-### Intrusion Prevention Systems
+15. **Behavioral Analytics**
+    - **Description**: Uses machine learning and AI to monitor user behavior and detect anomalies indicating a security threat.
+    - **Common Tools to Prevent**: User and Entity Behavior Analytics (UEBA) (e.g., Exabeam, Securonix), network traffic analysis tools.
+    - **Common Tools to Fix**: Anomaly detection tools, security orchestration, automation, and response (SOAR) platforms.
 
-An intrusion prevention system (IPS) analyzes network traffic to actively block attacks. IPS devices achieve this by correlating vast amounts of global threat intelligence to block malicious activity and monitor the progress of suspicious files and malware across the network to prevent outbreaks and reinfection.
+16. **Zero Trust Security**
+    - **Description**: A security model that requires strict verification of every user and device attempting to access resources.
+    - **Common Tools to Prevent**: Zero trust frameworks (e.g., Google BeyondCorp, Microsoft Zero Trust), identity verification tools.
+    - **Common Tools to Fix**: Policy enforcement tools, continuous verification tools.
 
-### Mobile Device Security
-
-Cybercriminals are increasingly targeting mobile devices and applications. Within the next three years, 90 percent of IT organizations will have corporate mobile applications. You must control which devices can access your network. You must also configure connections to preserve network traffic privacy.
-
-### Security Information and Event Management
-
-SIEM products gather the information that security staff needs to identify and respond to threats. These products come in different forms, including virtual and physical appliances and server software.
-
-### VPN
-
-A virtual private network encrypts the connection from an endpoint to the network, usually over the Internet. Typically, a remote access VPN uses IPsec or a secure sockets layer to authenticate communications between devices and the network.
-
-### Web Security
-
-A web security solution controls employee web use, blocks web-based threats, and restricts access to malicious websites. It protects the web gateway on-site or in the cloud. "Web security" also refers to the steps you take to protect your website.
-
-### Wireless Security
-
-Wireless networks are not as secure as wired networks. Without strict security measures, installing a wireless LAN is like putting Ethernet ports everywhere, including the parking lot. To prevent an attack, you need products specifically designed to protect the wireless network.
+This comprehensive list covers the key aspects of network security, including prevention and remediation tools, to help safeguard networks effectively.
