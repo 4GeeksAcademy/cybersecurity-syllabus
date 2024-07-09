@@ -1,7 +1,7 @@
 ---
 title: "Soluciones de seguridad en aplicaciones web"
-subtitle: "Descubre las principales soluciones de seguridad para aplicaciones web: desde Cloudflare hasta Mimecast, protege tu negocio contra amenazas cibernéticas."
-tags: ["redes"]
+subtitle: "Here are ten key strategies for securing web applications, along with top-rated tools like Hydra, OWASP ZAP, Burp Suite, and Acunetix for effective implementation. These strategies cover areas such as secure coding practices, WAF deployment, security testing, authentication, secure communication, updates, monitoring, training, third-party services, and incident response planning."
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
