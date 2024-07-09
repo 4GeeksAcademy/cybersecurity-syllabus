@@ -1,7 +1,7 @@
 ---
 
 title: "Types of Network Security"
-subtitle: "Network security protects the access, use, and integrity of network data. It includes firewalls, antivirus, email security, VPNs, and access control. It prevents threats and ensures that only authorized users access resources."
+subtitle: "Network security protects the access, use, and integrity of network data. Network security types include firewalls, antivirus, email security, VPNs, and access control. It prevents threats and ensures that only authorized users access resources."
 tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
