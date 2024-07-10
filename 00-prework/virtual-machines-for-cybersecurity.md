@@ -63,6 +63,7 @@ We use a mix of [internally developed](https://4geeks.com/docs/start/cybersecuri
 - **Difficulty Level**: Intermediate
 - **Operating System**: Cross-platform (Node.js)
 - **Ideal Practices**: Modern web application vulnerabilities, API security, and best security practices
+- **Vulnerability Report**: [click to access](https://github.com/APTRS/APTRS/blob/main/Doc/Report/Web%20Application%20Penetration%20Testing%20Report%20of%20Juice%20Shop.pdf).
 - **Some example exercises you can do**:
   - Conduct an XSS attack and then implement content security policies to mitigate it.
   - Perform Broken Access Control exercises.
