@@ -1,6 +1,6 @@
 # Semana 4: Seguridad en redes
 
-## Dia 1 -  Intro, tipos de seguridad, hasta deteccion de una web shell.
+## Dia 10 -  Intro, tipos de seguridad, hasta deteccion de una web shell.
 
 - 📗 [Intro a seguridad en redes](./types-of-network-security.md)
 - 📗 [Seguridad de datos](./data-security.md)
@@ -8,7 +8,7 @@
 - 📗 [Amenazas y ataques en redes](./threats-atacks-network.es.md)
 - 🧪 [Practica de Spoofing y Ataque denegación de servicio Dos a un wordpress site previamente desarrollado](https://github.com/breatheco-de/spoofing-and-DoS-lab).
 
-## Dia 2 - Proteción de sistemas y redes, Política, Gestion de redes, Firewall. ACL.
+## Dia 11 - Proteción de sistemas y redes, Política, Gestion de redes, Firewall. ACL.
 
 - 📗 [Seguridad web](./web-security.es.md)
 - 📗 [Web Application Security](./web-application-security-solutions.md)
@@ -17,7 +17,7 @@
 - 📗 [Seguridad de datos](./data-security.es.md)
 - 🧪 [Matrix Game on Company Data Security](https://github.com/breatheco-de/matrix-game-data-security)
 
-## Dia 3
+## Dia 12
 
 - 📗 [Seguridad de aplicaciones](./application-security.es.md)
 - 📗 [Amenazas y vulnerabilidades en la seguridad de datos](./threats-vulnerabilities-data-security.es.md)
