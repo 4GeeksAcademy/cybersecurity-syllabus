@@ -1,5 +1,5 @@
 ---
-title: "Introduction to VirtualBox"
+title: "What is VirtualBox?"
 subtitle: "Learn how this powerful tool works, and learn how to create a virtual machine."
 tags: ["cybersecurity"]
 authors: ["arnaldoperez"]
