@@ -24,10 +24,4 @@
 - 📗 [Manejo de incidentes](./incident-management.es.md)
 - 📗 [Proceso y técnicas de gestión de incidentes de seguridad](./incident-management-process-best-pracices.es.md)
 - 🧪 [Incident report management project](https://github.com/breatheco-de/incident-report-for-sql-injection-exercise-project)
-- 🧪 TODO: Escanear con nmap, ver que puertos estan abiertos y cuales son vulnerables.
-
-```
-1. Escaneo con Nmap
-2. Enumerar puertos y ver cuáles están abiertos y qué servicios operan en ese puerto
-3. Documentar una vulnerabilidad asociada a ese servicio
-```
+- 🧪 [Escanear con nmap, ver que puertos estan abiertos y cuales son vulnerables](https://github.com/breatheco-de/scan-with-nmap-practice)
