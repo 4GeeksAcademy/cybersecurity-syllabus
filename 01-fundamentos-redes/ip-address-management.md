@@ -1,7 +1,7 @@
 ---
 title: "IP address management"
 subtitle: "Mastering IP address management: vital skills for network and cybersecurity professionals. Discover how IP addresses drive network infrastructure and cybersecurity."
-tags: ["direccion-ip"]
+tags: ["ip-address"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
