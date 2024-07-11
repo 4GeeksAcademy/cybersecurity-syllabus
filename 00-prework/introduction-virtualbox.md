@@ -6,8 +6,6 @@ authors: ["arnaldoperez"]
 
 ---
 
-## What is VirtualBox?
-
 VirtualBox is a free program that allows you to install different operating systems inside your current computer, as if they were independent programs. It's like having several computers in one.
 
 VirtualBox is relatively easy to use, even for people with no computer experience.
