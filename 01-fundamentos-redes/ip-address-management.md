@@ -1,7 +1,7 @@
 ---
 title: "IP address management"
-subtitle: "Dominar la gestión de direcciones IP: habilidades vitales para los profesionales de redes y ciberseguridad. Descubre cómo las direcciones IP impulsan la infraestructura de red y la ciberseguridad."
-tags: ["direccion-ip"]
+subtitle: "Mastering IP address management: vital skills for network and cybersecurity professionals. Discover how IP addresses drive network infrastructure and cybersecurity."
+tags: ["ip-address"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---

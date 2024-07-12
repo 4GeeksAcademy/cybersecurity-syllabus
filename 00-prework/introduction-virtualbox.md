@@ -1,12 +1,10 @@
 ---
-title: "Introduction to VirtualBox"
+title: "What is VirtualBox?"
 subtitle: "Learn how this powerful tool works, and learn how to create a virtual machine."
 tags: ["cybersecurity"]
 authors: ["arnaldoperez"]
 
 ---
-
-## What is VirtualBox?
 
 VirtualBox is a free program that allows you to install different operating systems inside your current computer, as if they were independent programs. It's like having several computers in one.
 
