@@ -1,6 +1,6 @@
 ---
-title: "Decálogo de ciberseguridad"
-subtitle: "Decálogo de ciberseguridad: Protege tu información con estos consejos prácticos y efectivos | Redes, Seguridad en línea"
+title: "Consejos de ciberseguridad"
+subtitle: "Decálogo de seguridad: Protege tu información con estos consejos de ciberseguridad prácticos y efectivos"
 tags: ["redes"]
 authors: ["blindma1den", "lorenagubaira"]
 keyword_es: "consejos de ciberseguridad - 1 90"
