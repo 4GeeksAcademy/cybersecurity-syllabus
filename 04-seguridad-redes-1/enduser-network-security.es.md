@@ -3,6 +3,8 @@ title: "Decálogo de ciberseguridad"
 subtitle: "Decálogo de ciberseguridad: Protege tu información con estos consejos prácticos y efectivos | Redes, Seguridad en línea"
 tags: ["redes"]
 authors: ["blindma1den", "lorenagubaira"]
+keyword_es: "consejos de ciberseguridad - 1 90"
+keyword_us: "end user security - 1 90"
 
 ---
 
@@ -28,7 +30,7 @@ authors: ["blindma1den", "lorenagubaira"]
 - Cuidado con quien observa tu pantalla
 - Usa VPN cuando te conectes a redes publicas
 
-## **Un Tip Relevante, el Uso de 3 Emails Diferentes:**
+## Un consejo relevante: El Uso de 3 Emails Diferentes
 
 - Email Publico: Subscripciones, newsletters, RRSS. Es el correo que compartes para crear cuentas que no sean importante o para dar a un servicio que quieras probar.
 - **Email Personal:** Para la familia, amigos, datos personales, registro civil. Bancos. Cosas serias y personales.
@@ -46,11 +48,11 @@ Con tus correos distribuidos en estas 3 cuentas, puedes tener mejor control de l
 
 > ⚠️ **Ten cuidado con quien observa tu pantalla**, ya que puedes tener chat abiertos con información confidencial o puedes tener tu banca en línea y no faltan las personas mal intencionadas que se pueden para detrás de nosotros y obtener esta información fácilmente que personal, privada y tuya o de la organización. Ten cuidado con esto, ya que es un ataque de ingeniería social bastante aplicada.
 
-**En caso de que manejes un celular empresario**, con información confidencial, ten cuidado de NO conectarte a redes abiertas o públicas, como la de las cafeterías o restaurantes, puedes ser víctima de un ataque llamado MAN IN THE MIDDLE, en el que las personas se infiltran y se aprovechan de la inseguridad de la red para meterse y obtener información que es confidencial y que esa persona no está autorizada para tener. Si lo vas a hacer usa una herramienta conocida como BPN para asegurarte de que la información va a viajar segura.
+**En caso de que manejes un celular empresario**, con información confidencial, te aconsejamos que tengas cuidado de NO conectarte a redes abiertas o públicas, como la de las cafeterías o restaurantes, puedes ser víctima de un ataque llamado MAN IN THE MIDDLE, en el que las personas se infiltran y se aprovechan de la inseguridad de la red para meterse y obtener información que es confidencial y que esa persona no está autorizada para tener. Si lo vas a hacer usa una herramienta conocida como BPN para asegurarte de que la información va a viajar segura.
 
 ![Seguridad en tu celular](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-3.jpg)
 
-## **Seguridad al navegar**
+## Consejos de seguridad al navegar por la web
 
 En Internet asegúrate que en la barra de búsqueda veas la S después del http. (htpps:) Esto nos indica que la información está viajando cifrada al servidor. Si a la hora de navegar, te encuentras con un aviso como este
 
@@ -58,7 +60,7 @@ Que te hacen sentir especial, no hagas caso a este tipo de publicidad, ya que es
 
 Otro tipo de ventana emergente es el siguiente: En el que te está avisando que van a capturar las cookies. En algunas empresas tiene pantallas gigantes donde muestran información, es importante que no tengan métricas ni información confidencial de la organización, porque muchas veces hay visitas de personas que no pertenecen a la organización y que quieren y pueden obtener acceso a esos datos y que no están autorizados a tener.
 
-### **Contraseñas**
+### Consejos par acontraseñas**
 
 Para ingresar a tu equipo**,** ya se a tu correo, Instagram, Facebook, entre otros, asegúrate de tener un gestor de contraseñas, ya sea que tengas uno o que Google Chrome te ofrezca uno gestor de contraseñas. Nunca dejes la contraseña escrita en un post donde todos pueden verla y menos envíes la contraseña por mensajes de texto, no almacenes tu contraseña en un blog de nota dentro de tu computador porque se puede encontrar muy fácilmente y sobre todo, no uses la misma contraseña para todo.
 
@@ -68,7 +70,7 @@ Este grupo está enfocado principalmente en atender los incidentes de seguridad 
 
 ![Seguridad en tu correo - Mejores Prácticas](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-4.jpg)
 
-### **Preparación**
+### Cómo prepararte y asegurarte
 
 Esta etapa dentro del ciclo de vida de respuesta a incidentes suele hacerse pensando no sólo en crear un modelo que permita a la entidad estar en capacidad de responder ante estos, sino también en la forma como pueden ser detectados, evaluados y gestionar las vulnerabilidades para prevenirse, asegurando que los sistemas, redes, y aplicaciones son lo suficientemente seguros . Aunque el equipo de respuesta a incidentes no es normalmente responsable de la prevención de incidentes, es muy importante que se considere como un componente fundamental de los programas de respuesta. El equipo de respuesta a incidentes debe actuar como una herramienta de experiencia en el establecimiento de recomendaciones para el aseguramiento de los sistemas de información y la plataforma que los soporta.
 
