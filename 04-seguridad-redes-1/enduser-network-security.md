@@ -1,6 +1,6 @@
 ---
-title: "End user security"
-subtitle: "Security Decalogue: Protect your information with these practical and effective end user security best practices and tips"
+title: "End user security best practices"
+subtitle: "Protect your information with these practical and effective end user security best practices and decaloge"
 tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 keyword_es: "consejos de ciberseguridad - 1 90"
@@ -10,20 +10,22 @@ keyword_us: "end user security - 1 90"
 
 ## End user security decalog
 
+In today’s digital age, **end user security** is more critical than ever. This security decalogue provides practical and effective tips to protect your information:
+
 <!-- hide -->
 ![Tips to Increase end user security at Home](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-1.jpg)
 <!-- endhide -->
 
-- We must protect our **workstation** and keep it free of papers containing sensitive information.
+- To enhance **end user security**, it is crucial to protect your **workstation** and keep it free of papers containing sensitive information.
 - It is recommended to set a passcode and automatic lock option on your **mobile device**.
-- Do not use **non-corporate devices**. If necessary, do not handle corporate information on such devices.
+- Do not use **non-corporate devices**. If necessary, do not handle corporate information on such devices to maintain end user security.
 - Avoid **information leaks**. Do not have confidential conversations in places where they can be overheard by others.
 - **Passwords** should be secret and unique; do not write them down, share them, or reuse them.
 - Ensure **safe browsing** and avoid accessing untrustworthy websites.
-- Use **email** securely and delete or report any suspicious emails to your IT department.
+- Use **email** securely to support end user security and delete or report any suspicious emails to your IT department..
 - Protect **information** and make backups of sensitive information that is only on your device.
 - When **traveling**, do not send sensitive information over untrusted WiFi networks.
-- **We are all responsible for security**. Notify the security department if you detect any suspicious activity.
+- **We are all responsible for security**. Notify the security department if you detect any suspicious activity to ensure end user security.
 - Disable notifications on the lock screen of your phone.
 - Lock your desktop PC when not in use.
 - Use a password manager; do not use the same password.
@@ -52,9 +54,11 @@ By distributing your emails into these 3 accounts, you can better control the em
 
 > ⚠️ **Be careful who is watching your screen** because you may have chats open with confidential information or your online banking, and there are always ill-intentioned people who can stand behind us and easily obtain this personal, private information that belongs to you or the organization. Be cautious, as this is a very commonly used social engineering attack.
 
-**If you handle a company phone** with confidential information, we advise you to avoid connecting to open or public networks, such as those in cafes or restaurants, as you could be a victim of a Man-In-The-Middle attack. In such an attack, people infiltrate and exploit network insecurity to access and obtain confidential information that they are not authorized to have. If you must do this, use a tool known as VPN to ensure the information travels securely.
+**If you handle a company phone** with confidential information, we advise you to avoid connecting to open or public networks, such as those in cafes or restaurants, as you could be a victim of a Man-In-The-Middle attack. In such an attack, people infiltrate and exploit network insecurity to access and obtain confidential information that they are not authorized to have. If you must do this, use a tool known as VPN to ensure the information travels securely and to protect end user security.
 
+<!-- hide -->
 ![Cellphone Security](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-3.jpg)
+<!-- endhide -->
 
 ## Web Browsing End User Security Tips
 
@@ -72,7 +76,9 @@ To access your equipment, whether it is your email, Instagram, Facebook, etc., m
 
 This group focuses primarily on handling information security incidents that occur on assets supported by the entity's technological platform.
 
+<!-- hide -->
 ![Email Security - Best Practices](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-4.jpg)
+<!-- endhide -->
 
 ### How to Prepare and Ensure Security for End Users
 
@@ -84,11 +90,11 @@ The preparation stage should be supported by the IT direction or its equivalent,
 
 · **Security Patch Management:** Entities, depending on their stratification, should have a vulnerability management program (Operating Systems, Databases, Applications, Other Installed Software). This program will help administrators identify, acquire, test, and install patches.
 
-· **Platform Assurance:** Entities, depending on their stratification, should be properly secured. The least amount of services (principle of least privilege) should be configured to provide only those services necessary to both users and other devices. Default configurations (users, passwords, and shared files) should be reviewed. Every resource that can be accessed by external or even internal users should display some warning. Servers should have their auditing systems enabled to allow event logging.
+· **Platform Assurance:** Entities, depending on their stratification, should be properly secured. The least amount of services (principle of least privilege) should be configured to provide only those services necessary to both end users and other devices. Default configurations (users, passwords, and shared files) should be reviewed. Every resource that can be accessed by external or even internal end users should display some warning. Servers should have their auditing systems enabled to allow event logging.
 
 · **Network Security:** Continuous management of security elements is necessary. Security rules configured on devices such as firewalls should be continually reviewed. The signatures and updates of devices like IDS or IPS should be up to date. All security and network elements should be synchronized, and their logs should be sent to a centralized log collection device for analysis.
 
-· **Malicious Code Prevention:** All infrastructure devices (both servers and user devices) should have active antivirus, antimalware with up-to-date signatures.
+· **Malicious Code Prevention:** All infrastructure devices (both servers and end user devices) should have active antivirus, antimalware with up-to-date signatures.
 
 · **User Awareness and Training:** Users within the entity, including IT administrators, should be made aware of existing policies and procedures related to the proper use of networks, systems, and applications in line with the entity's security standards. Information system managers should establish training needs for those responsible for data protection.
 
