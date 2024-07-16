@@ -1,7 +1,7 @@
 ---
 title: "Consejos de ciberseguridad"
 subtitle: "Decálogo de seguridad: Protege tu información con estos consejos de ciberseguridad prácticos y efectivos"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 keyword_es: "consejos de ciberseguridad - 1 90"
 keyword_us: "end user security - 1 90"
