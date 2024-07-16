@@ -49,7 +49,7 @@ Razer tardó más de tres semanas en proteger la instancia en la nube del acceso
 
 ## Denegación de servicio
 
-![Ataque de denegación de servicios](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-1.jpg)
+![Ataque de denegación de servicios](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-1.jpg?raw=true)
 
 ### Los ataques de denegación de servicio (DoS)
 
@@ -68,15 +68,15 @@ Es la manipulación a las personas para que realicen acciones o divulguen inform
 
 ### ¿Cómo funciona la ingeniería social?
 
-![Ingeniería Social](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-2.jpg)
+![Ingeniería Social](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-2.jpg?raw=true)
 
 ### Tipos de Ingeniería Social
 
-![Ingeniería Social - Tipos ](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-3.jpg)
+![Ingeniería Social - Tipos ](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-3.jpg?raw=true)
 
 Ataques en 2 niveles:
 
-![Ingeniería Social - Tipos ](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-4.jpg)
+![Ingeniería Social - Tipos ](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-4.jpg?raw=true)
 
 ## ¿Cómo protegernos?
 
@@ -218,7 +218,7 @@ Dar importancia a la seguridad de la Empresa es fundamental. Por ello es necesar
 - Debe proteger la confidencialidad de la información.
 - Debe regular la disponibilidad de la información de manera que esté siempre a disposición de la persona autorizada para su uso, en cualquier momento y circunstancia.
 
-![Políticas de seguridad de la información ](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-5.jpg)
+![Políticas de seguridad de la información ](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-5.jpg?raw=true)
 
 
 requiere de innumerables tareas, muchas de ellas técnicas. Pero otras relacionadas con la administración general de la organización, que van desde contar con el presupuesto adecuado para la implementación hasta vencer los reparos que por distintos modelos mentales existan sobre su uso.
@@ -229,7 +229,7 @@ En general se adopten los criterios de la **Norma ISO 27002**, que establece los
 
 ### Monitorizar de redes y servicios
 
-![Monitorizar de redes y servicios](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-6.jpg)
+![Monitorizar de redes y servicios](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-6.jpg?raw=true)
 
 Es necesario que la red de la PYME esté protegida tanto de ataques externos como internos. Conviene comprobar si el proveedor de internet **incluye un cortafuegos que controle las conexiones de red** de acceso a internet y que todas ellas estén vigiladas.
 
