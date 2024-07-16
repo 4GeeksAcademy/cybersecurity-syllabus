@@ -1,8 +1,9 @@
 ---
 title: "Seguridad de datos"
-subtitle: "Fundamentos esenciales de seguridad de datos: Protección y prácticas para resguardar la información en la era digital"
+subtitle: "Fundamentos esenciales de seguridad de datos: Protección y prácticas para resguardar la información de una empresa controlando a las personas, los procesos y la tecnología"
 tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
+keyword: "seguridad de datos - 0 150"
 
 ---
 
