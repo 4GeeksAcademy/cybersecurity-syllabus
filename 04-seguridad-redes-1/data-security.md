@@ -1,27 +1,38 @@
 ---
 
-title: "Data Security"
-subtitle: "Essential Fundamentals of Data Security: Protection and Practices for Safeguarding Information in the Digital Era"
+title: "Data Security and Privacy"
+subtitle: "Essential Fundamentals of Data Security and privacy of information: Protection and Practices for Safeguarding Information inside companies by controlling the people, the processes and the technology"
 tags: ["networks"]
 authors: ["blindma1den", "lorenagubaira"]
+keyword: "data security and privacy - 26 600"
 
 ---
 
-Generally speaking, **data security refers to protective measures for digital privacy that are applied to prevent unauthorized access to data**, which can be found on computers, databases, websites, etc. **Data security** also protects data from possible corruption.
+Generally speaking, data security and privacy refer to protective measures for digital privacy that are applied to prevent unauthorized access to data on computers, databases, websites, etc. Data security also protects data from possible corruption.
 
-## What is Data Security?
+## What is Data Security and Privacy?
 
-Data security, also known as information security or computer security, is an essential aspect of IT for organizations of any size and type. **It involves protecting data against unauthorized access and safeguarding it from possible corruption throughout its lifecycle**.
+Data security and privacy, also known as information security or computer security, is an essential aspect of IT for organizations of any size and type. 
 
-**Data security includes concepts such as data encryption, tokenization, and key management practices that help protect data across all applications and platforms within an organization**.
+> It involves protecting data against unauthorized access and safeguarding it from possible corruption throughout its lifecycle.
+
+Data security includes concepts such as **data encryption**, **tokenization**, and **key management practices** that help protect data across all applications and platforms within an organization.
 
 Today, organizations worldwide invest heavily in IT technologies related to cyber defense to protect their critical assets: their brand, intellectual property, and customer information.
 
-In all data security topics, **there are common elements that all organizations must consider when implementing their measures: people, processes, and technology**.
+In all data security topics, there are common elements that all organizations must consider when implementing their measures:
+
+1. **People**: This refers to the importance of users and employees within the organization. It includes training and raising awareness about security practices, creating a culture of security, and implementing policies to ensure that individuals understand and follow security guidelines.
+
+2. **Processes**: This refers to the procedures and policies established to manage and protect data. It includes creating security protocols, defining roles and responsibilities, conducting regular audits, and managing incidents to ensure all aspects of data security are addressed systematically and organized.
+
+3. **Technology**: This refers to the tools and systems used to protect data. It includes using antivirus software, firewalls, intrusion detection systems, data encryption, and any other technology that helps protect data against unauthorized access and cyberattacks.
 
 ## Data security
 
-In a connected digital world, Information Security stands as the bulwark that guards the secrets, privacy, and integrity of our data. This article explores the essential fundamentals of information security, unraveling the strategies and best practices needed to face the challenges of cyberspace. Join us on this journey towards a deep understanding of how to protect information in the digital age.
+In a connected digital world, Information Security stands as the bulwark that guards the secrets, privacy, and integrity of our data. Ensuring data security and privacy is crucial in protecting this information.
+
+This article explores the essential fundamentals of information security, unraveling the strategies and best practices needed to face the challenges of cyberspace. Join us on this journey towards a deep understanding of how to protect information in the digital age.
 
 ## Protecting Your Personal Data
 
@@ -76,7 +87,7 @@ Wearable technologies, such as smartwatches and fitness trackers, collect your d
 
 ## CIA Triad: Confidentiality, Integrity, and Availability
 
-**A chain is only as strong as its weakest link.** As our responsibility grows, so does the confidentiality of our data and the impact that attackers or others accessing it can have.
+**A chain is only as strong as its weakest link.** As our responsibility grows, so does the need for data security and privacy, confidentiality of our data and the impact that attackers or others accessing it can have.
 
 Ensure that you, your colleagues, and your employees are not the weakest link in the chain. Employ strategies within your organization and daily life that help you protect information. Protect it yourself; do not expect others to do it for you, such as the IT department or the technology area. You can protect it yourself. Keep all your devices in sight, keep them locked or encrypted at all times.
 
@@ -118,7 +129,7 @@ Internet of Things (IoT) and Big Data: IoT is a vast network of physical objects
 
 ## The Cube
 
-Let's expand on the **CIA Triad** concept. The McCumber Cube is a model framework created by John McCumber to help organizations establish and evaluate information security initiatives by considering all related factors that affect them. This security model has three dimensions:
+Let's expand on the **CIA Triad** concept. The McCumber Cube is a model framework created by John McCumber to help organizations establish and evaluate information security initiatives by considering all related factors that affect data security and privacy. This security model has three dimensions:
 
 ### The Fundamental Principles to Protect Information Systems
 
