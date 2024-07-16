@@ -1,118 +1,147 @@
 ---
-title: "Antivirus y antispyware"
-subtitle: "Descubre los mejores antivirus y antispyware para proteger tu equipo: análisis, comparativa y recomendaciones para una seguridad óptima en Windows."
-tags: ["redes"]
-authors: ["blindma1den", "lorenagubaira"]
+title: "Antivirus y antispyware para empresas"
+subtitle: "Descubre los 5 mejores antivirus para empresas y cómo elegir el adecuado puede mejorar la seguridad y eficiencia de tu negocio. Compara precios desde $30 USD por dispositivo/año y encuentra la mejor opción."
+tags: ["antivirus", "cibersecurity"]
+authors: ["alesanchezr"]
 
 ---
 
+A primera vista, todos los antivirus y antispyware pueden parecer iguales, lo que sugiere que la industria está comoditizada. Sin embargo, no es lo mismo elegir un antivirus o antispyware para una empresa que para una persona, vale la pena tomarse el tiempo para conocer las características específicas de cada solución revela grandes diferencias que pueden tener un impacto significativo en la seguridad y eficiencia de una empresa. Mas abajo encontraras 5 antivirus que hemos elegido para estudiar y los criterios que hemos usado para compararlos.
 
-Todos los sistemas operativos tienen vulnerabilidades, y cuando eres uno de los más utilizados del mundo como Windows las amenazas y el malware creados para ti siempre son mayores en número.
+## ¿Cuál es el mejor antivirus?
 
-Las empresas que hay detrás de los antivirus invierten mucho dinero y esfuerzo en investigar amenazas y recopilar muestras para poder actuar inmediatamente ante cualquier nuevo virus que empiece a difundirse, razón por la que sus mejores herramientas son siempre de pago. Sin embargo, también hay alternativas gratuitas muy bien posicionadas en los principales rankings de mejores antivirus, y vamos a proponerte las que consideramos más importantes o seguras.
+No hay uno que sea el mejor en todo, pero después de mucho debate, a continuación contrarás el resumen que, en nuestra opinión, resalta cual es el mejor en que aspectos, si quieres entender con más detalle puedes leer mucho mas abajo donde esta la tabla comparativa detallada de opciones de antivirus:
 
-> Veamos algunos de los AV populares y gratuitos para Windows 11.
+- **McAfee Total Protection**: Ideal para empresas que buscan una solución intuitiva y fácil de gestionar con excelente soporte técnico.
+- **Symantec Endpoint Protection**: Ofrece una protección robusta con amplias opciones de integración, aunque puede ser más complejo de usar y costoso a largo plazo.
+- **Bitdefender GravityZone**: Excelente opción para empresas que necesitan una protección fuerte con una interfaz moderna y fácil de usar, y buena integración con múltiples plataformas.
+- **Kaspersky Endpoint Security**: Conocido por su eficacia en la detección, aunque puede requerir más recursos del sistema y configuraciones avanzadas.
+- **ESET Endpoint Security**: Ofrece una buena relación calidad-precio con un impacto mínimo en el rendimiento del sistema y una interfaz intuitiva.
 
-### **Windows Defender**
+## Antivirus para empresas vs antivirus para personas
+
+Elegir un antivirus para una empresa y para un individuo implica considerar diferentes criterios debido a las diferencias en el alcance, la complejidad y las necesidades de seguridad. A continuación, se detallan las diferencias clave en los criterios a tener en cuenta:
+
+### Criterios para Elegir un Antivirus para la Empresa
+
+1. **Protección Integral y Completa**:
+   - **Empresas**: Necesitan protección contra una amplia gama de amenazas, incluyendo virus, spyware, malware, ransomware, phishing y ataques dirigidos. También requieren protección para servidores, dispositivos móviles y entornos de red complejos.
+   - **Individuos**: La protección generalmente se centra en amenazas comunes como virus, spyware y malware, con menos énfasis en amenazas avanzadas y ataques dirigidos.
+
+2. **Gestión Centralizada**:
+   - **Empresas**: Requieren consolas de gestión centralizada que permitan administrar la seguridad de todos los dispositivos de la red desde un único punto. Esto incluye la capacidad de desplegar actualizaciones, aplicar políticas de seguridad y monitorear el estado de la seguridad en tiempo real.
+   - **Individuos**: No necesitan gestión centralizada. La configuración y el mantenimiento se realizan en cada dispositivo de manera individual.
+
+3. **Escalabilidad**:
+   - **Empresas**: Necesitan soluciones escalables que puedan crecer con la empresa y manejar un número creciente de dispositivos sin comprometer el rendimiento.
+   - **Individuos**: La escalabilidad no es un factor importante, ya que normalmente solo se protege uno o unos pocos dispositivos.
+
+4. **Herramientas de Auditoría y Cumplimiento**:
+   - **Empresas**: Requieren herramientas de auditoría que ayuden a cumplir con regulaciones y normativas de seguridad, como GDPR, HIPAA, y otras leyes de privacidad y protección de datos. Estas herramientas permiten generar informes detallados y realizar auditorías de seguridad.
+   - **Individuos**: No tienen necesidades de cumplimiento regulatorio, por lo que las herramientas de auditoría no son necesarias.
+
+5. **Compatibilidad y Flexibilidad**:
+   - **Empresas**: Necesitan soluciones compatibles con una variedad de sistemas operativos y dispositivos (Windows, macOS, Linux, dispositivos móviles, etc.) y que se integren bien con otras herramientas de seguridad y software empresarial.
+   - **Individuos**: La compatibilidad es menos crítica, ya que normalmente se utiliza un solo tipo de sistema operativo y un número limitado de dispositivos.
+
+6. **Costo Total de Propiedad (TCO)**:
+   - **Empresas**: Deben considerar no solo el costo de las licencias, sino también el costo de soporte, mantenimiento, actualizaciones y gestión a largo plazo.
+   - **Individuos**: El costo se limita al precio de la licencia del antivirus, con menos preocupación por los costos a largo plazo.
+
+7. **Soporte Técnico**:
+   - **Empresas**: Requieren soporte técnico 24/7 con tiempos de respuesta rápidos para resolver problemas críticos que pueden afectar a toda la organización.
+   - **Individuos**: Pueden conformarse con soporte técnico durante horas regulares y tiempos de respuesta más largos, ya que los problemas tienden a ser menos críticos.
+
+### Criterios para Elegir un Antivirus para el Individuo
+
+1. **Facilidad de Uso**:
+   - **Empresas**: Aunque la facilidad de uso es importante, las empresas también valoran funciones avanzadas y configuraciones personalizables que pueden no ser tan intuitivas.
+   - **Individuos**: Prefieren soluciones que sean fáciles de instalar y usar, con interfaces intuitivas y configuraciones automáticas que no requieran conocimientos técnicos.
+
+2. **Impacto en el Rendimiento del Sistema**:
+   - **Empresas**: Deben considerar el impacto en el rendimiento en un contexto de múltiples dispositivos y servidores, asegurando que el antivirus no interfiera con la productividad de los empleados.
+   - **Individuos**: También valoran un bajo impacto en el rendimiento, especialmente en dispositivos personales que pueden tener recursos limitados.
+
+3. **Frecuencia de Actualización**:
+   - **Empresas**: Necesitan actualizaciones frecuentes y rápidas para protegerse contra amenazas emergentes en un entorno empresarial dinámico.
+   - **Individuos**: También necesitan actualizaciones frecuentes, pero las amenazas específicas pueden ser menos variadas y menos críticas que en un entorno empresarial.
 
 
-![Antivirus - Windows Defender](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-1.jpg)
+### Comparativa de Antivirus para empresas
 
-Esta lista sólo puede empezar con Windows Defender, ya que es el antivirus que viene integrado dentro del propio Windows 10 y 11, y que Microsoft se está esforzando mucho en que sea el único que vayas a necesitar. De hecho, en los últimos resultados del prestigioso ranking independiente de [AV-Test](https://www.av-test.org/en/antivirus/home-windows/), Windows Defender ha conseguido colocarse entre los 15 mejores antivirus del mundo incluyendo a las suites de pago.
+| Característica                    | McAfee Total Protection      | Symantec Endpoint Protection   | Bitdefender GravityZone        | Kaspersky Endpoint Security    | ESET Endpoint Security         |
+|-----------------------------------|------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+| **Precio**                        | $35-55 USD por dispositivo/año | $40-60 USD por dispositivo/año | $30-50 USD por dispositivo/año | $40-70 USD por dispositivo/año | $30-45 USD por dispositivo/año |
+| **Facilidad de Uso**              | Interfaz intuitiva, fácil de configurar | Puede ser complejo para nuevos usuarios | Interfaz moderna y fácil de usar | Interfaz puede ser complicada inicialmente | Interfaz intuitiva, fácil de usar |
+| **Frecuencia de Actualización**   | Diaria                       | Diaria                         | Diaria                         | Diaria                         | Diaria                         |
+| **Eficiencia del Escaneo y Detección** | Muy buena                | Excelente, bajo falso positivo | Excelente, detección rápida | Excelente, pero puede consumir más recursos | Muy buena, bajo impacto en rendimiento |
+| **Facilidad de Despliegue y Gestión Central** | Excelente con ePO           | Muy buena con SEPM             | Excelente con GravityZone Console | Buena con Kaspersky Security Center | Muy buena con ESET Security Management Center |
+| **Herramientas de Auditoría**     | Sí                           | Sí                             | Sí                             | Sí                             | Sí                             |
+| **Costo Total de Propiedad**      | Medio, buenas opciones de soporte | Medio, puede ser costoso a largo plazo | Medio, buen equilibrio entre precio y características | Medio, soporte puede ser costoso | Bajo, buena relación calidad-precio |
+| **Rendimiento y Eficiencia**      | Alta, bajo impacto en el sistema | Alta, pero puede afectar el rendimiento en sistemas más antiguos | Alta, optimizado para rendimiento | Alta, puede ser intensivo en recursos | Alta, mínimo impacto en rendimiento |
+| **Tipo de Protección**            | Virus, Spyware, Malware, Ransomware, Phishing | Virus, Spyware, Malware, Ransomware, Phishing | Virus, Spyware, Malware, Ransomware, Phishing | Virus, Spyware, Malware, Ransomware, Phishing | Virus, Spyware, Malware, Ransomware, Phishing |
+| **Gestión Centralizada**          | ePolicy Orchestrator (ePO)   | Symantec Endpoint Protection Manager (SEPM) | GravityZone Console           | Kaspersky Security Center      | ESET Security Management Center |
+| **Integración con otras herramientas** | Buena, integración con productos McAfee | Excelente, amplia compatibilidad con otras soluciones | Excelente, integración con múltiples plataformas | Buena, buenas integraciones pero puede requerir configuraciones avanzadas | Buena, integraciones sencillas y efectivas |
+| **Soporte Técnico**               | Muy valorado, 24/7           | Muy valorado, 24/7             | Muy valorado, opciones de soporte premium | Muy valorado, soporte técnico dedicado | Muy valorado, opciones de soporte accesibles |
 
-Tiene una interfaz perfectamente integrada con el sistema operativo, ya que forma parte de él, y un buen rendimiento en su detección de amenazas. No incluye ningún tipo de publicidad, se actualiza casi a diario para estar siempre al día de las últimas amenazas, y tiene protección en tiempo real y basada en la nube, envío de muestras automático, protección contra alteraciones del equipo,análisis de aplicaciones maliciosas o control de acceso a tus carpetas para evitar ransomware.
+## ¿Qué es un Antispyware?
 
-- Web oficial: [Windows Defender](https://www.xataka.com/redirect?url=https%3A%2F%2Fwww.microsoft.com%2Fes-es%2Fwindows%2Fcomprehensive-security&category=basics&ecomPostExpiration=everlasting)
+Un antispyware es un software de seguridad diseñado para detectar, prevenir y eliminar spyware, que recopila información personal sin el conocimiento del usuario.
 
-### **Kaspersky Free Antivirus**
+### Diferencias entre Antispyware y Antivirus
+
+Aunque ambos protegen contra amenazas cibernéticas, tienen enfoques distintos:
+
+| Característica                    | Antispyware                           | Antivirus                           |
+|-----------------------------------|----------------------------------------|-------------------------------------|
+| **Enfoque en Tipos de Amenazas**  | Spyware, adware, keyloggers            | Virus, gusanos, troyanos, ransomware, malware |
+| **Métodos de Detección**          | Comportamientos específicos del spyware | Firmas de virus, análisis heurístico y de comportamiento |
+| **Protección en Tiempo Real**     | Prevención de instalación y acción de spyware en tiempo real | Protección en tiempo real contra diversas amenazas |
+| **Herramientas de Eliminación**   | Especializado en eliminar spyware y reparar daños | Elimina una variedad de malware y repara daños generales |
+| **Complementariedad**             | Complementa al antivirus, ofreciendo una capa adicional de protección | Incluye alguna protección contra spyware, pero menos especializada |
+
+### Criterios Específicos para elegir un buen Antispyware
+
+Muchos de los criterios son iguales, es por eso que únicamente nos enfocaremos en los criterios que aplican únicamente para elegir un Antispyware:
+
+1. **Especialización en Detección de Spyware**
+   - El antispyware debería estar particularmente optimizado para detectar y eliminar spyware, adware, y keyloggers. La especialización en estas áreas puede hacer una gran diferencia en la protección contra amenazas específicas de spyware.
+
+2. **Protección en Tiempo Real Contra Spyware**
+   - El antispyware a menudo se enfoca más en la protección en tiempo real contra spyware y adware, previniendo la instalación de software espía y la recolección de datos sin consentimiento.
+
+3. **Herramientas de Eliminación de Spyware**
+   - El antispyware puede ofrecer herramientas especializadas para eliminar spyware y reparar daños causados por este tipo de software, algo que no todos los antivirus pueden manejar de manera efectiva.
+
+
+Entiendo, vamos a hacer una tabla comparativa más detallada destacando diferencias clave para cada antispyware:
+
+### Comparativa de los Cinco Antispyware Más Destacados en el Ámbito Empresarial
+
+| Criterio                          | Malwarebytes                          | Spybot - Search & Destroy            | Webroot SecureAnywhere               | SuperAntiSpyware                     | Emsisoft Anti-Malware                |
+|-----------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+| **Precio**                        | $39.99 USD por dispositivo/año        | Gratis (con publicidad) / $13.99 USD por dispositivo/año (sin publicidad) | $30 USD por dispositivo/año          | $29.95 USD por dispositivo/año       | $29.99 USD por dispositivo/año       |
+| **Facilidad de Uso**              | Alta, interfaz intuitiva              | Media, algo más técnico              | Alta, interfaz moderna               | Alta, fácil de usar                  | Alta, interfaz intuitiva             |
+| **Frecuencia de Actualización**   | Diaria                                | Semanal                              | Diaria                               | Diaria                               | Diaria                               |
+| **Eficiencia del Escaneo y Detección** | Excelente, bajo falsos positivos   | Muy buena, eficaz contra adware      | Muy buena, detección rápida          | Muy buena, buena eliminación de adware | Excelente, detección avanzada       |
+| **Facilidad de Despliegue y Gestión Central** | Muy buena, fácil de gestionar     | Media, sin gestión centralizada      | Muy buena, gestión basada en la nube | Buena, sin gestión centralizada      | Muy buena, consola de gestión central |
+| **Herramientas de Auditoría**     | Sí, completas                         | No                                   | No                                   | No                                   | Sí, detalladas                        |
+| **Costo Total de Propiedad**      | Medio, buen soporte                   | Bajo, asequible                      | Medio, buena relación calidad-precio | Bajo, costo efectivo                 | Medio, opciones de soporte premium  |
+| **Rendimiento y Eficiencia**      | Alta, bajo impacto en el sistema      | Media, puede ralentizar en escaneos completos | Alta, muy ligero                     | Media, ligero pero no óptimo         | Alta, optimizado para rendimiento    |
+| **Tipo de Protección**            | Spyware, Malware, Ransomware, Phishing| Spyware, Malware, Adware             | Spyware, Malware, Ransomware, Phishing| Spyware, Malware, Adware             | Spyware, Malware, Ransomware, Phishing|
+
+## Problemas Asociados con Kaspersky
 
 ![Antivirus - Kaspersky](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-2.jpg)
 
-Kaspersky lleva años siendo uno de los grandes nombres en el mundo de la seguridad y los antivirus, aunque ha tenido algunas polémicas después de que el gobierno estadounidense lo prohibiese en sus departamentos al desconfiar de ellos. Kaspersky siempre ha insistido en su seguridad, e incluso permitió revisar el código de sus aplicaciones en un intento por demostrar que no tenían nada que ocultar.Pero polémicas a parte, su versión gratuita es una aplicación con una muy eficaz detección de malware, y un sistema de detección más silencioso y sin ventanas popup que te molesten. También es ligero y tiene poco impacto en el rendimiento del ordenador. Su lado negativo es que su protección es un poco limitada comparada con sus versiones de pago.
+**Kaspersky Lab** ha enfrentado varios escándalos y controversias que han afectado su reputación en la industria de la ciberseguridad. Aquí se destacan los principales:
 
-Sí, [Kaspersky Free Antivirus](https://www.kaspersky.es/free-antivirus) utiliza el mismo motor de detección que sus versiones de pago, y ofrece una buena protección contra malware, adware, y cualquier aplicación sospechosa de poder dañar tu equipo. Pero le faltan algunas opciones extra de sus versiones de pago, como la protección de las compras online o de tu privacidad cuando navegas. [Tampoco tiene controles parentales](https://www.kaspersky.es/free-antivirus) ni gestor de contraseñas.
+1. **Vínculos con el Gobierno Ruso**: Kaspersky ha sido acusado repetidamente de tener vínculos con la inteligencia rusa. En 2017, el Departamento de Seguridad Nacional de EE.UU. prohibió el uso de productos Kaspersky en todas las agencias gubernamentales, alegando que el software podría ser utilizado por el gobierno ruso para espiar a EE.UU. A esta decisión se unieron otros países como Lituania, los Países Bajos y Alemania, que también recomendaron no usar el software de Kaspersky por razones de seguridad nacional【[fuente](https://en.wikipedia.org/wiki/Kaspersky_bans_and_allegations_of_Russian_government_ties)】.
 
-- Web Oficial: [Kaspersky Free Antivirus](https://www.kaspersky.es/free-antivirus)
+2. **Incidente con la NSA**: Un contratista de la NSA llevó documentos confidenciales a su hogar, donde tenía instalado el antivirus de Kaspersky. Se alegó que el software de Kaspersky fue utilizado para identificar y transferir estos documentos a hackers rusos. Kaspersky ha negado vehementemente estas acusaciones, afirmando que no hay pruebas que respalden estas afirmaciones y que el incidente se basó en fuentes anónimas sin evidencia verificable【[fuente](https://www.kaspersky.com/blog/kaspersky-in-the-shitstorm/19794/)】.
 
-### **Panda Free Antivirus**
+3. **Respuestas de Kaspersky**: En respuesta a estas acusaciones, Kaspersky lanzó una "Iniciativa Global de Transparencia", moviendo parte de su infraestructura central a Suiza y permitiendo que terceros revisen su código fuente y prácticas empresariales para demostrar su integridad. Además, Kaspersky ha trabajado para mejorar la transparencia y la confianza de sus productos en el mercado global【[fuente](https://www.kaspersky.com/blog/kaspersky-in-the-shitstorm/19794/)】.
 
-![Antivirus - Panda](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-3.jpg)
+### Resumen
 
-Panda Dome es la suite básica para usuarios de otra de las empresas más icónicas del sector, y que tiene una versión gratuita llamada Panda Free Antivirus. Y si te gustan esos que incluyan extras que les hagan diferenciarse, esta aplicación destaca por su VPN integrado para ayudarte con la privacidad cuando navegas. La pega es que la versión gratuita tiene u límite de 150 MB de navegación con VPN, y para tenerla ilimitada tienes que pasarte a la versión de pago.La aplicación es ligera y funciona bien con todas las versiones de Windows. Tiene detección en tiempo real, modo de juego que desactiva las notificaciones cuando estás en una app de pantalla completa, o monitorización contra enlaces peligrosos y contra malware que se ejecuta automáticamente.
-
-La parte negativa es que la aplicación gratuita es un poco limitada, y muestra anuncios de otros productos de Panda. Además, tampoco se incluye un elemento importante como la protección contra ransomware. En definitiva, para usuarios básicos es una buena herramienta al tener la mayoría de funciones esenciales, pero si estás buscando una herramienta más avanzada quizá se te quede un poco corta.
-
-- Web Oficial [Panda Free Antivirus](https://www.pandasecurity.com/spain/homeusers/solutions/free-antivirus/)
-
-### **Avast Free Antivirus**
-
-![Antivirus - Avast](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-4.jpg)
-
-La base de datos de su antivirus ha sido actualizada. Sí, Avast está dentro de la memoria colectiva de todos los usuarios, y es una de las primeras referencias que nos vienen a la mente al hablar de antivirus gratuitos. Con el tiempo ha ido creciendo, y después de comprar AVG es una de las mayores empresas de antivirus de la actualidad.
-Su antivirus gratuitos aparece en el ranking de AV-Test como uno de los 9 únicos en recibir la insignia TOP Product. Tiene modo no molestar, análisis de malware en aplicaciones y de comportamiento para detectar las que puedan empezar a realizar actividades sospechosas de repente. También detecta intrusiones en la WiFi doméstica o vulnerabilidades en tu configuración, y todo ello con una interfaz fácil de entender y manejar.
-
-- Web oficial: [Avast Free Antivirus](https://www.avast.com/es-es/free-antivirus-download)
-
-### **AVG AntiVirus FREE**
-
-![Antivirus - AVG ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-5.jpg)
-
-Aunque Avast se haya hecho con AVG, esta empresa de seguridad sigue teniendo su propio antivirus gratuito. Este comparte el motor de detección de malware de Avast, que sin ser espectacular es bastante decente teniendo en cuenta que es algo gratis.
-
-Lo malo es que no tiene tantos extras como su casi hermano, aunque sí tiene análisis, actualizaciones, bloqueo de enlaces, descargas y adjuntos, o análisis de rendimiento. La parte positiva es que tiene mayores opciones de configuración, aunque las más avanzadas se quedan para la versión de pago. Una buena alternativa, aunque teniendo gratis en el ordenador Windows Defender lo tiene un poco complicado.
-
-- Web oficial: [AVG AntiVirus FREE](https://www.avg.com/es-es/free-antivirus-download)
-
-### **Bitdefender Antivirus Free Edition**
-
-![Antivirus - Bitdefender ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-6.jpg)
-
-La versión gratuita de BitDefender también se limita a ofrecer las protecciones básicas, aunque ofrece un escaneo rápido con buena detección de malware. Es una buena opción para quienes simplemente quieran configurar una vez su antivirus y olvidarse, aunque en el lado negativo está la ausencia de opciones medianamente avanzadas. Por no tener, ni siquiera tiene la posibilidad de programar escaneos, aunque la fiabilidad de sus protecciones básicas le ha traído a nuestra lista.
-
-- Web oficial: [Bitdefender Antivirus Free Edition](https://www.bitdefender.com/solutions/free.html)
-
-### **Avira Free Antivirus**
-
-![Antivirus - Avira ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-7.jpg)
-
-Otro antivirus que ofrece una versión gratuita con la que intentar atraer usuarios a las versiones de pago. La buena noticia es que comparte la misma base que Avira Pro, uno de los mejores del mundo según [AV-Test](https://www.av-test.org/es/antivirus/usuarios-finales-windows/windows-10/junio-2019/), pero lo malo es que de nuevo nos encontramos con bastantes popups con anuncios de otros productos de la empresa.
-
-Pero también tiene algunas partes positivas, como su buenos ratios de detección de amenazas o el poco impacto que tiene en el rendimiento del equipo. También tiene protección contra enlaces dañinos, contra amenazas que puedan haber sido insertadas en aplicaciones legítimas, bloqueo de publicidad y monitorización en tu navegador, y escudo anti phishing.
-
-- Web oficial: [Avira Free Antivirus](https://www.avira.com/es/free-antivirus-windows)
-
-### Malwarebytes
-
-![Antivirus - Malwarebytes ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/antivirus-spyware/antivirus-spyware-image-8.jpg)
-
-Y terminamos con una aplicación un poco diferente. Malwarebytes Anti-Malware Free no es tanto un antivirus al uso como una herramienta para eliminar malware de tu ordenador. Esto quiere decir que no va a protegerte activamente para que no te infectes, pero que si ya tienes algún virus hará un buen trabajo para limpiar tu equipo.
-
-Otro de sus puntos positivos es que no interfiere con el resto de antivirus, por lo que puede ser utilizado como un segundo compañero o herramienta secundaria para cuando creas que hay problemas. Un buen complemento para tu antivirus, aunque no suficiente como para sustituirlo a la hora de protegerte.
-
-- Web oficial: [Malwarebytes](https://es.malwarebytes.com/)
-
-### **AntiSpyware**
-
-Existen aplicaciones diseñadas para infiltrarte en tu ordenador sin que te des cuenta y espiar todo lo que haces en tu PC. A este tipo de amenaza se la conoce como Spyware. Para entender el AntiSpyware, primero tienes que saber qué es exactamente el Spyware. Se trata de un tipo de programa que se instala en tu ordenador por sí sólo o mediante una segunda aplicación que lo lanza sin que te des cuenta. Suele trabajar a escondidas y sin que te des cuenta, tratando de ocultar su rastro para que levantes la guardia y actúes con normalidad.
-
-Su finalidad es la de recolectar información sobre el usuario u organización dueña de un equipo de forma no autorizada. De forma que no sean detectados, estos programas monitorizan y recopilan datos sobre las acciones realizadas en un equipo, el contenido del disco duro, las aplicaciones instaladas o todo lo que hacen en Internet. También pueden llegar a instalar otras aplicaciones.
-
-Y en este contexto, un Antispyware es una aplicación diseñada para detectar los Spyware y ayudarte a tratar de eliminarlos. Funcionan de forma similar a los [antivirus](https://www.xataka.com/basics/antivirus-gratis-para-windows-10), y de hecho muchas aplicaciones de seguridad incluyen un AntiSpyware integrado entre sus principales funciones. Aun así, también existen aplicaciones independientes para esta tarea.
-
-Principalmente suelen funcionar de dos formas. La primera es capturando el Spyware en tiempo real. Esto quiere decir, que algunas de estas aplicaciones analizan las tareas de tu ordenador y los datos que se descargan de Internet, y cuando detectan que descargas una aplicación que parece ser servir para espiarte, intenta bloquearla o te pregunta si quieres hacerlo para evitar que se instale en tu equipo.
-
-Y la otra manera en la que pueden funcionar es utilizando listas actualizadas de los principales Spyware conocidos, con la que analizan tu dispositivo para comprobar si tienes alguna de estas amenazas instaladas y ayudarte a eliminarlas. Para hacerlo suele analizar tus aplicaciones, los archivos de Windows y su registro. Cuando encuentra una de estas amenazas, la aísla y te permite borrarla.
-
-## **Los mejores Spyware**
-
-- **Windows Defender:** Todos los equipos con Windows incluyen este antivirus integrado, y que además ha conseguido colocarse entre los 15 mejores antivirus del mundo según [AV-Test](https://www.av-test.org/en/antivirus/home-windows/), una lista donde se incluyen soluciones de pago. Por lo tanto, teniendo en cuenta que esta herramienta ya analiza el Spyware de tu ordenador, es posible que en muchos casos no necesites otra. Puedes informarte en [su web oficial](https://www.xataka.com/redirect?url=https%3A%2F%2Fwww.microsoft.com%2Fes-es%2Fwindows%2Fcomprehensive-security&category=basics&ecomPostExpiration=everlasting).
-- **Malwarebytes:** Una herramienta para buscar y eliminar malware de tu ordenador que no interfiere con otros antivirus. Suele encontrar más amenazas que otros, te permite configurar los análisis que realizas y se puede lanzar desde el menú contextual haciendo clic derecho de ratón. Algunas opciones como la actualizaciones automáticas requieren de su versión de pago. Puedes bajarlo desde [su web oficial](https://es.malwarebytes.com/).
-- **SUPERAntiSpyware:** Es una aplicación de pago, aunque con una versión gratuita. Te ofrece muchas opciones de escaneo, con las que analiza desde tu explorador hasta cualquier archivo en cualquier momento, pasando por la memoria del sistema. También realiza los scaneos de forma rápida usando más CPU, aunque cuenta con alguna desventaja como no poder programar escaneos o que no se actualice automáticamente. Puedes bajarlo desde [su web oficial](https://www.superantispyware.com/).
-- **Trend Micro HouseCall:** Una aplicación portátil, lo que quiere decir que no tienes que instalarla para hacerla funcionar. Será suficiente con usar su ejecutable. Comparado con otras opciones usa muy pocos recursos del PC, y puedes elegir qué partes del ordenador escanear. Eso sí, al no estar instalado tendrás que actualizarlo manualmente. Puedes bajarlo desde [su web oficial](https://www.trendmicro.com/en_us/forHome/products/housecall.html).
-- **Avast Free Antivirus:** El popular antivirus gratuito también tiene una función para detectar y eliminar Spyware en todo momento, y funciona en el explorador de Windows con el menú contextual. Tiene muchas otras opciones, tantas que quizá acaben siendo demasiadas si lo único que quieres es buscar Spyware. Puedes bajarlo desde [su web oficial](https://www.avast.com/es-es/free-antivirus-download).
-- **Adaware Antivirus:** Otro antivirus con opción de pago donde hay herramientas avanzadas. AUn así, en la gratuita puedes buscar automáticamente y de forma continua Spyware, realuzar escaneos o programarlos a la hora que quieras. Su base de datos se actualiza automáticamente, y como todo antivirus también ofrece otras opciones de seguridad. Puedes bajarlo desde [su web oficial](https://www.adaware.com/antivirus).
-- **Emsisoft Emergency Kit (EEK):** Una herramienta que busca Spyware que ya esté instalado y funcionando en tu ordenador, y que puedes instalar o ejecutar en su modo portátil. Tiene varias opciones para personalizar las búsquedas, funciona desde el símbolo de sistema, y puede buscar también otras amenazas. Puedes bajarlo desde [su web oficial](https://www.emsisoft.com/en/home/emergencykit/).
-- **Spybot - Search & Destroy:** Es un poco complicado para usuarios noveles, ya que va destinado a los que tienen ya conocimientos avanzados. Te ayuda a proteger tus archivos de Spyware que pueda descargarse, y también analiza tu ordenador en busca de los que tengas ya. Incluye muchísimas opciones para personalizar sus búsquedas, y también encuentra rootkits. Puedes bajarlo desde [su web oficial](https://www.safer-networking.org/download/).
-- **Bitdefender:** La versión gratuita de BitDefender también se limita a ofrecer las protecciones básicas, entre las que se encuentra la detección de Spyware. Le faltan opciones como la posibilidad de programar escaneos, aunque la fiabilidad de sus protecciones básicas le ha traído a nuestra lista. Puedes bajarlo desde [su web oficial](https://www.bitdefender.com/solutions/free.html).
-- **Panda Free Antivirus:** La aplicación es ligera y funciona bien con todas las versiones de Windows. Tiene detección en tiempo real, modo de juego que desactiva las notificaciones cuando estás en una app de pantalla completa, o monitorización contra enlaces peligrosos y contra malware y Spyware que se ejecuta automáticamente. Puedes bajarlo desde [su web oficial](https://www.pandasecurity.com/es/homeusers/solutions/free-antivirus/).
-- **Avira:** La buena noticia es que comparte la misma base que Avira Pro, uno de los mejores del mundo según [AV-Test](https://www.av-test.org/es/antivirus/usuarios-finales-windows/windows-10/junio-2019/), pero lo malo es que de nuevo nos encontramos con bastantes popups con anuncios de otros productos de la empresa y opciones limitadas. Aun así, tiene buenos ratios de detección de amenazas y poco impacto que tiene en el rendimiento del equipo. También tiene protección contra enlaces dañinos, Spyware, bloqueo de publicidad y monitorización en tu navegador, y escudo anti phishing. Puedes bajarlo desde [su web oficial](https://www.avira.com/es/free-antivirus-windows).
+Aunque Kaspersky ha sido objeto de varias acusaciones graves, la empresa ha tomado medidas significativas para abordar estas preocupaciones mediante la mejora de la transparencia y la migración de sus operaciones fuera de Rusia. No obstante, las percepciones y preocupaciones sobre su relación con el gobierno ruso continúan afectando su reputación, especialmente en el contexto geopolítico actual.
