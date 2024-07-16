@@ -1,8 +1,10 @@
 ---
-title: "Antivirus y antispyware para empresas"
+title: "Business antivirus software"
 subtitle: "Descubre los 5 mejores antivirus para empresas y cómo elegir el adecuado puede mejorar la seguridad y eficiencia de tu negocio. Compara precios desde $30 USD por dispositivo/año y encuentra la mejor opción."
 tags: ["antivirus", "cibersecurity"]
 authors: ["alesanchezr"]
+keyword: "business antivirus software - 26 400"
+keyword: "Antivirus para empresas - 1 40"
 
 ---
 
