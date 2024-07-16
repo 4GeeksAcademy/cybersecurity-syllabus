@@ -6,13 +6,6 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-### **¿Quién más quiere mis datos?**
-
-- **Tu proveedor de Internet (ISP)** Tu ISP hace un seguimiento de tu actividad en línea y, en algunos países, puede vender estos datos a los anunciantes con fines de lucro. En ciertas circunstancias, es posible que los ISP tengan la obligación legal de compartir tu información con las agencias o autoridades de vigilancia del gobierno.
-- **Anunciantes:** La publicidad dirigida forma parte de la experiencia de Internet. Los anunciantes monitorean y rastrean tus actividades en línea, como los hábitos de compra y las preferencias personales, y envían anuncios dirigidos a tu manera.
-- **Motores de búsqueda y plataformas de redes sociales:** Estas plataformas recopilan información sobre tu género, geolocalización, número de teléfono e ideologías políticas y religiosas en función de tus historiales de búsqueda y tu identidad en línea. Luego, esta información se vende a los anunciantes con fines de lucro.
-- **Sitios web que visita:** Los sitios web utilizan cookies para rastrear sus actividades con el fin de brindar una experiencia más personalizada. Pero esto deja un rastro de datos que está vinculado a tu identidad en línea que a menudo puede terminar en manos de los anunciantes.
-
 Es obvio que los ciberdelincuentes son cada vez más sofisticados en tu búsqueda de datos personales valiosos. Pero también representan una enorme amenaza para los datos de la organización.
 
 Veamos diferentes tipos de ataque que pueden poner en riesgo las disponibilidad, la integridad y la confidencialidad.
@@ -85,7 +78,7 @@ Ataques en 2 niveles:
 
 ![Ingeniería Social - Tipos ](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-4.jpg)
 
-### ¿Cómo protegernos?
+## ¿Cómo protegernos?
 
 - Concientizar a las personas y educar sobre seguridad
 - Fomentar la adopción de medidas preventivas;
