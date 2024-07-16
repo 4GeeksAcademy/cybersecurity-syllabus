@@ -45,7 +45,7 @@ Organizations must adopt a proactive approach to cloud security to ensure sensit
 
 ## Denial of Service
 
-![Denial of Service Attack](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-1.jpg)
+![Denial of Service Attack](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-1.jpg?raw=true)
 
 ### Denial of Service (DoS) Attacks
 
@@ -64,15 +64,15 @@ Social engineering is the manipulation of people to perform actions or divulge c
 
 ### How does social engineering work?
 
-![Social Engineering](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-2.jpg)
+![Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-2.jpg?raw=true)
 
 ### Types of Social Engineering
 
-![Types of Social Engineering](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-3.jpg)
+![Types of Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-3.jpg?raw=true)
 
 Two-level attacks:
 
-![Types of Social Engineering](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-4.jpg)
+![Types of Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-4.jpg?raw=true)
 
 ## How to protect ourselves?
 
@@ -216,9 +216,7 @@ Giving importance to company security is crucial. Therefore, it is necessary to 
 - Protecting the confidentiality of the information.
 - Regulating the availability of the information so that it is always available to the authorized person for use, at any time and under any circumstance.
 
-![Information Security Policies](../assets/04-seguridad-redes/threats-vulnerabilities
-
--data/threats-vulnerabilities-data-security-image-5.jpg)
+![Information Security Policies](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-5.jpg?raw=true)
 
 This involves countless tasks, many of them technical. But others relate to the general administration of the organization, ranging from having the appropriate budget for implementation to overcoming any mental model objections regarding its use.
 
@@ -228,7 +226,7 @@ In general, the criteria of **ISO 27002** are adopted, which establishes the gen
 
 ### Monitoring Networks and Services
 
-![Monitoring Networks and Services](../assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-6.jpg)
+![Monitoring Networks and Services](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-6.jpg?raw=true)
 
 It is necessary for the SME's network to be protected from both external and internal attacks. It is advisable to check if the internet provider **includes a firewall that controls network connections** for internet access and that all of them are monitored.
 
