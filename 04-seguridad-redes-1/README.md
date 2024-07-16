@@ -21,7 +21,7 @@
 
 - 📗 [Seguridad de aplicaciones](./application-security.es.md)
 - 📗 [Amenazas y vulnerabilidades en la seguridad de datos](./threats-vulnerabilities-data-security.es.md)
-- 📗 [Manejo de incidentes](./incident-management.es.md)
+- 📗 🔖 [Manejo de incidentes](./incident-management.es.md) 
 - 📗 [Proceso y técnicas de gestión de incidentes de seguridad](./incident-management-process-best-pracices.es.md)
 - 🧪 [Incident report management project](https://github.com/breatheco-de/incident-report-for-sql-injection-exercise-project)
 - 🧪 [Escanear con nmap, ver que puertos estan abiertos y cuales son vulnerables](https://github.com/breatheco-de/scan-with-nmap-practice)
