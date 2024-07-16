@@ -1,7 +1,7 @@
 ---
 title: "Seguridad en aplicaciones"
 subtitle: "Refuerza la seguridad en tus aplicaciones: Estrategias, herramientas y mejores prácticas para proteger tus datos y usuarios contra amenazas cibernéticas"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
