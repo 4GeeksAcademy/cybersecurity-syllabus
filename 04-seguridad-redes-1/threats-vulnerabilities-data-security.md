@@ -1,7 +1,7 @@
 ---
 title: "Vulnerabilities and Threats to Data Security"
 subtitle: "Protecting Information: Threats, Vulnerabilities, and Security Measures"
-tags: ["networks"]
+tags: ["data security", 'cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
