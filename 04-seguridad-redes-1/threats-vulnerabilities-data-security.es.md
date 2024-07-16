@@ -1,7 +1,7 @@
 ---
 title: "Amenazas y vulnerabilidades de la seguridad de los datos"
 subtitle: "Protegiendo la Información: Amenazas, Vulnerabilidades y Medidas de Seguridad"
-tags: ["networks"]
+tags: ["seguridad de datos", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
