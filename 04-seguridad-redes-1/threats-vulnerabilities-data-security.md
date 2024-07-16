@@ -1,16 +1,16 @@
 ---
-title: "Threats and Vulnerabilities in Data Security"
+title: "Vulnerabilities and Threats to Data Security"
 subtitle: "Protecting Information: Threats, Vulnerabilities, and Security Measures"
 tags: ["networks"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-It's obvious that cybercriminals are becoming increasingly sophisticated in their quest for valuable personal data. But they also pose a significant threat to organizational data.
+It's obvious that cybercriminals are becoming increasingly sophisticated in their quest for valuable personal data. But they also pose a significant threat to data security and organizational data.
 
-Let's look at different types of attacks that can jeopardize availability, integrity, and confidentiality.
+Let's look at attacks that can jeopardize availability, integrity, and confidentiality.
 
-There is an extensive list of **types of cyberattacks** because there are thousands of variants. Nevertheless, we will introduce the most common ones that various industries face daily.
+There is an extensive list of **types of cyberattacks** because there are thousands of variants. Each presenting unique threats to data security.
 
 ## Ransomware
 
@@ -18,7 +18,7 @@ Among the types of cyberattacks, ransomware is an encrypted malware designed to 
 
 This type of cyberattack is one of the most common; in addition to data encryption, extortion techniques are also used, as hackers threaten to expose confidential information if the ransom is not paid.
 
-## Malware
+## Malware is a threat to data security
 
 As we saw earlier, ransomware is only a part of this large family of malicious code used in cyberattacks. It can be used for various purposes:
 
@@ -37,7 +37,7 @@ As we saw earlier, ransomware is only a part of this large family of malicious c
 
 ## Phishing
 
-Phishing emails can be difficult to detect. For example, they often address you by name to seem legitimate, but cybercriminals can easily find this information online. Therefore, it's important to stay alert and think before clicking. Phishing is very common and often works. For instance, in August 2020, elite gaming brand Razer suffered a data breach that exposed the personal information of approximately 100,000 customers.
+Phishing emails can be difficult to detect and are one of the most common threats to data security. For example, they often address you by name to seem legitimate, but cybercriminals can easily find this information online. Therefore, it's important to stay alert and think before clicking. Phishing is very common and often works. For instance, in August 2020, elite gaming brand Razer suffered a data breach that exposed the personal information of approximately 100,000 customers.
 
 A security consultant discovered that a cloud cluster (a group of linked servers providing data storage, databases, networks, and software over the Internet) was misconfigured, exposing a segment of Razer's infrastructure to the public Internet, leading to a data leak. Razer took more than three weeks to secure the cloud instance from public access, during which cybercriminals had access to customer information that could have been used in social engineering and fraud attacks.
 
@@ -58,7 +58,7 @@ are a type of network attack that is relatively easy to carry out, even by an un
     - The zombie computers continuously scan and infect more hosts, creating more zombies.
     - When ready, the hacker instructs the managing systems to have the zombie botnets carry out a DDoS attack.
 
-## Social Engineering
+## Social Engineering as a threat to data security
 
 Social engineering is the manipulation of people to perform actions or divulge confidential information. Social engineers frequently rely on people's willingness to help, but they also exploit their vulnerabilities. For example, an attacker will call an authorized employee with an urgent problem requiring immediate network access and appeal to the employee's vanity or greed or invoke authority by using name-dropping techniques to gain access.
 
@@ -101,7 +101,7 @@ In the event of data interception, encryption makes it difficult for hackers to 
 
 If suspicious actions occur on the network, like someone or something trying to break in, intrusion detection will be triggered. **Network Intrusion Detection Systems (NIDS) continuously and passively monitor network traffic for behavior that appears illicit or abnormal and flag it for review.** NIDS not only block that traffic but **also gather information about it and alert network administrators.**
 
-Despite all this, security breaches still happen. That's why **it's important to have a breach response plan.** You must be prepared to act with an effective system. This system can be updated as often as needed, for example, if network components change or new threats arise that need to be addressed. **A solid breach response system will ensure you have the resources ready and that it's easy to follow a set of instructions to seal the breach and everything that comes with it,** whether you need legal assistance, insurance policies, data recovery plans, or notify any partner about the issue.
+Despite all this, threats to data security still result in breaches. That's why **it's important to have a breach response plan.** You must be prepared to act with an effective system. This system can be updated as often as needed, for example, if network components change or new threats arise that need to be addressed. **A solid breach response system will ensure you have the resources ready and that it's easy to follow a set of instructions to seal the breach and everything that comes with it,** whether you need legal assistance, insurance policies, data recovery plans, or notify any partner about the issue.
 
 ### Firewall
 
