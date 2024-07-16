@@ -1,7 +1,7 @@
 ---
-title: "Seguridad de los datos"
+title: "Seguridad de datos"
 subtitle: "Fundamentos esenciales de seguridad de datos: Protección y prácticas para resguardar la información en la era digital"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
@@ -10,17 +10,27 @@ En líneas generales, **seguridad de datos se refiere a medidas de protección d
 
 ## ¿Qué es seguridad de datos?
 
-La seguridad de datos, también conocida como seguridad de la información o seguridad informática, es un aspecto esencial de TI en organizaciones de cualquier tamaño y tipo. **Se trata de un aspecto que tiene que ver con la protección de datos contra accesos no autorizados y para protegerlos de una posible corrupción durante todo su ciclo de vida**.
+La **seguridad de datos**, también conocida como seguridad de la información o seguridad informática, es un aspecto esencial de TI en organizaciones de cualquier tamaño y tipo. 
 
-**Seguridad de datos incluye conceptos como encriptación de datos, tokenización y prácticas de gestión de claves que ayudan a proteger los datos en todas las aplicaciones y plataformas de una organización**.
+> Se trata de un aspecto que tiene que ver con la protección de datos contra accesos no autorizados y para protegerlos de una posible corrupción durante todo su ciclo de vida.
 
-Hoy en día, organizaciones de todo el mundo invierten fuertemente en la tecnología de información relacionada con la ciberdefensa con el fin de proteger sus activos críticos: su marca, capital intelectual y la información de sus clientes.
+Seguridad de datos incluye conceptos como **encriptación de datos**, **tokenización** y prácticas de **gestión de claves** que ayudan a proteger los datos en todas las aplicaciones y plataformas de una organización.
 
-En todos los temas de seguridad de datos **existen elementos comunes que todas las organizaciones deben tener en cuenta a la hora de aplicar sus medidas: las personas, los procesos y la tecnología**.
+Hoy en día, organizaciones de todo el mundo invierten fuertemente en la tecnología de información relacionada con la **ciberdefensa** con el fin de proteger sus activos críticos: su marca, capital intelectual y la información de sus clientes.
+
+En todos los temas de **seguridad de datos** existen elementos comunes que todas las organizaciones deben tener en cuenta a la hora de aplicar sus medidas: 
+
+1. **Las personas**: Se refiere a la importancia de los usuarios y empleados dentro de la organización. Esto incluye la capacitación y concienciación sobre prácticas de seguridad, la creación de una cultura de seguridad y la implementación de políticas para garantizar que las personas comprendan y sigan las directrices de seguridad.
+  
+2. **Los procesos**: Se refiere a los procedimientos y políticas establecidos para gestionar y proteger los datos. Esto incluye la creación de protocolos de seguridad, la definición de roles y responsabilidades, la realización de auditorías regulares, y la gestión de incidentes para asegurar que todos los aspectos de la seguridad de datos sean abordados de manera sistemática y organizada.
+
+3. **La tecnología**: Se refiere a las herramientas y sistemas utilizados para proteger los datos. Esto incluye el uso de software antivirus, firewalls, sistemas de detección de intrusiones, cifrado de datos, y cualquier otra tecnología que ayude a proteger los datos contra accesos no autorizados y ciberataques.
 
 ## Seguridad de la Información
 
-En un mundo digital interconectado, la Seguridad de la Información se erige como el baluarte que resguarda los secretos, la privacidad y la integridad de nuestros datos. Este artículo explora los fundamentos esenciales de la seguridad de la información, desentrañando las estrategias y mejores prácticas necesarias para enfrentar los desafíos del ciberespacio. Acompáñanos en este viaje hacia un entendimiento profundo de cómo proteger la información en la era digital.
+En un mundo digital interconectado, la Seguridad de la Información se erige como el baluarte que resguarda los secretos, la privacidad y la integridad de nuestros datos. Este artículo explora los fundamentos esenciales de la seguridad de la información, desentrañando las estrategias y mejores prácticas necesarias para enfrentar los desafíos del ciberespacio y mejorar la seguridad de datos. 
+
+Acompáñanos en este viaje hacia un entendimiento profundo de cómo proteger la información en la era digital.
 
 ## Protegiendo tu Data Personal
 
@@ -43,7 +53,7 @@ Los datos personales describen cualquier información tuya, incluido tu nombre, 
 
 ## Datos personales vs. Datos empresariales
 
-Todo lo que viaja por la red es vulnerable. Por lo tanto, la seguridad informática empresarial es muy importante, ya que los atacantes tratarán de acceder a la información que se encuentra bajo nuestro poder.
+Todo lo que viaja por la red es vulnerable. Por lo tanto, la seguridad informática empresarial es muy importante, ya que los atacantes tratarán de acceder a la información que se encuentra bajo nuestro poder, subrayando la importancia de la seguridad de datos.
 
 Los **Datos Personales** son información que solo te interesa a ti: fotos, redes sociales, cuentas bancarias, facturas, información familiar, entre otras. Asegúrate de que las personas que tienen acceso a estos datos solo sean las que quieres que accedan a ellos.
 
@@ -83,7 +93,7 @@ Ten cuidado con las fotos, las fotos tienen mucha información que puede necesit
 
 ![Data security - Triangulo de la CIA](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-2.jpg)
 
-El **Triangulo CIA** está conformado por los siguientes elementos:
+El **Triangulo CIA** está conformado por los siguientes elementos, todos esenciales para la seguridad de datos:
 
 - **Confidencialidad:**
 
