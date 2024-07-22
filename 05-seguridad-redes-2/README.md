@@ -2,7 +2,7 @@
 
 - 📗 [Sistemas de detección de intruso](./intruder-detection-system.es.md)
 - 📗 [Herramientas de detección de intruso](./intruder-detection-system-tools.es.md)
-- 🧪 [Find the malicius user](https://github.com/breatheco-de/find-the-malicius-user)
+- 🧪 (In process, validating with Dani) [Find the malicius user](https://github.com/breatheco-de/find-the-malicius-user)
 
 ## Dia 14
 
@@ -17,4 +17,4 @@
 - 📗 [10 recomendaciones de seguridad en la nube](./10-recomendations-cloud-clients-security.es.md)
 - 📗 [Seguridad de WebHosting](./web-hosting-security.es.md)
 - 📗 [10 prácticas de seguridad en Webhosting](./10-web-hosting-security-practices.es.md)
-- 🧪 [Montar un SSL on openssl, con un servidor seguro](https://github.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server)
+- 🧪 (Almost ready) [Montar un SSL on openssl, con un servidor seguro](https://github.com/breatheco-de/set-up-an-SSL-in-openSSL-with-a-secure-server)
