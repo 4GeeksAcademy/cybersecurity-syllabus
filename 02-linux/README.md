@@ -17,4 +17,4 @@
 
 ## Dia 6
 
-- 🧪[Despliegue de maquina virtual Kali](./setting-virtualization-enviroment.es.md) - [Repo](https://github.com/breatheco-de/installing-kali-linux-on-virtual-machine)
+- 🧪 [Instalacion de Kali linux](https://github.com/breatheco-de/installing-kali-linux-on-virtual-machine)
