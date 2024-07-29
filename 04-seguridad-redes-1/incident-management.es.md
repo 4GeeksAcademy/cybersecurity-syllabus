@@ -4,20 +4,26 @@ subtitle: "Recursos y Procedimientos para la Gestión de Incidentes de Seguridad
 tags: ["redes"]
 authors: ["blindma1den", "lorenagubaira"]
 
+keyword__es: gestión de incidencias 1 - 40
+
 ---
+
+## Cómo preparase antes de una incidencia
 
 En este numeral se pretende enunciar los elementos necesarios para la comunicación del equipo de atención de incidentes dentro de la entidad.
 
 - **Información de Contacto:** Se debe tener una lista de información de contacto de cada una de las personas que conforman el grupo de gestión de incidentes o quienes realicen sus funciones.  
 - **Información de Escalamiento:** Se debe contar con información de contacto para el escalamiento de incidentes según la estructura de la entidad.  
 
-**Política de Comunicación:** La entidad debe tener una política de comunicación de los incidentes de seguridad para definir que incidente puede ser comunicado a los medios y cual no.
+### Política de Comunicación
+
+La entidad debe tener una política de comunicación de los incidentes de seguridad para definir que incidente puede ser comunicado a los medios y cual no.
 
 - Información de los administradores de la plataforma tecnológica (Servicios, Servidores).  
 - Contacto con el área de recursos humanos o quien realice sus funciones (por si se realizan acciones disciplinarias).  
 - Contacto con áreas interesadas o grupos de interés (CCP - Policía Nacional, Fiscalía, entre otras).  
 
-**Hardware y Software**
+### Hardware y Software
 
 Para una correcta y eficiente gestión de incidentes la entidad debería tener en cuenta los siguientes elementos:
 
@@ -29,20 +35,20 @@ Para una correcta y eficiente gestión de incidentes la entidad debería tener e
 - Software de análisis forense.
 - Medios de almacenamiento
 
-## **Recursos para el análisis de incidentes**
+### Recursos para el análisis de incidentes
 
 - Tener un listado de los puertos conocidos y de los puertos utilizados para realizar un ataque.
 - Tener un diagrama de red para tener la ubicación rápida de los recursos existentes
 - Una Línea – Base de Información de: Servidores (Nombre, IP, Aplicaciones, Parches, Usuarios Configurados, responsable de cambios). Esta información siempre debe estar actualizada para poder conocer el funcionamiento normal del mismo y realizar una identificación más acertada de un incidente.
 - Se debe tener un análisis del comportamiento de red estándar en este es recomendable incluir: puertos utilizados por los protocolos de red, horarios de utilización, direcciones IP con que generan un mayor tráfico, direcciones IP que reciben mayor número de peticiones.
 
-## Recursos para la mitigación y remediación
+### Recursos para la mitigación y remediación
 
 En este punto se consideran los elementos básicos para la contención de un posible incidente, Backup de Información, imágenes de servidores, y cualquier información base que pueda recuperar el funcionamiento normal del sistema.
 
-### **Detección, evaluación y análisis**
+## **Detección, evaluación y análisis**
 
-**Detección Identificación y Gestión de Elementos Indicadores de un Incidente**
+> Detección Identificación y Gestión de Elementos Indicadores de un Incidente.
 
 Los indicadores son los eventos que nos señalan que posiblemente un incidente ha ocurrido generalmente algunos de estos elementos son:
 
@@ -61,7 +67,7 @@ La identificación y gestión de elementos que alertan sobre un incidente nos pr
 
 En la entidad debe existir un listado de fuentes generadoras de eventos que permitan la identificación de un incidente de seguridad de la información.
 
-### **Análisis**
+### Análisis de la incidencia
 
 Las actividades de análisis del incidente involucran otra serie de componentes, es recomendable tener en cuenta los siguientes:
 
@@ -73,7 +79,7 @@ Las actividades de análisis del incidente involucran otra serie de componentes,
 - Se debe mantener y usar una base de conocimiento con información relacionada sobre nuevas vulnerabilidades, información de los servicios habilitados, y experiencias con incidentes anteriores.
 - Crear matrices de diagnóstico e información para los administradores menos experimentados.
 
-### **Evaluación**
+## Evaluación de la incidencia
 
 Para realizar la evaluación de un incidente de seguridad se debe tener en cuenta los niveles de impacto con base en los insumos entregados por el análisis de riesgos y la clasificación de activos de información de la entidad. La severidad del incidente puede ser:
 
@@ -81,7 +87,7 @@ Para realizar la evaluación de un incidente de seguridad se debe tener en cuent
 - **Medio Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto moderado que influyen directamente a los objetivos de un proceso determinado.
 - **Bajo Impacto:** El incidente de seguridad afecta a activos de información considerados de impacto menor e insignificante, que no influyen en ningún objetivo. Estos incidentes deben ser monitoreados con el fin de evitar un cambio en el impacto.
 
-## **Clasificación De Incidentes De Seguridad De La Información**
+### Clasificación De Incidentes De Seguridad De La Información
 
 Algunos ejemplos de clasificación de incidentes podrían ser (esta clasificación está sujeta a cada entidad dependiendo de su infraestructura, de sus riesgos y criticidad de los activos. La clasificación dada es solo un ejemplo):
 
@@ -92,7 +98,7 @@ Algunos ejemplos de clasificación de incidentes podrían ser (esta clasificaci�
 - Multicomponente: Un incidente que involucra más de una categoría anteriormente mencionada.
 - Otros: Un incidente que no puede clasificarse en alguna de las categorías anteriores. Este tipo de incidentes debe monitorearse con el fin de identificar la necesidad de crear nuevas categorías.
 
-## **Priorización De Los Incidentes Y Tiempos De Respuesta**
+### Priorización De Los Incidentes Y Tiempos De Respuesta
 
 Con el fin de permitir una atención adecuada a los incidentes (análisis, contención y erradicación) se debe determinar el nivel de prioridad del mismo, y de esta manera atenderlos adecuadamente según la necesidad.
 
@@ -103,7 +109,9 @@ A manera de ejemplo se definen una serie de variables que podrán ser utilizadas
 - Impacto Actual
 - Impacto Futuro
 
-**Nivel de Prioridad:** Depende del valor o importancia dentro de la entidad y del proceso que soporta el o los sistemas afectados.
+#### Nivel de Prioridad
+
+Depende del valor o importancia dentro de la entidad y del proceso que soporta el o los sistemas afectados.
 
 | Nivel Criticidad | Valor | Definición |
 | --- | --- | --- |
@@ -132,7 +140,10 @@ A manera de ejemplo se definen una serie de variables que podrán ser utilizadas
 
 Luego de tener definidas las variables se obtiene la *prioridad* mediante la siguiente formula:
 
-***Nivel Prioridad = (Impacto actual * 2,5) + (Impacto futuro * 2,5) + (Criticidad del Sistema * 5)***
+```
+Nivel\ Prioridad = (Impacto\ actual \times 2.5) + (Impacto\ futuro \times 2.5) + (Criticidad\ del\ Sistema \times 5)
+
+```
 
 Y los resultados obtenidos se deben compara con la siguiente tabla para determinar la prioridad de atención:
 
@@ -146,7 +157,7 @@ Y los resultados obtenidos se deben compara con la siguiente tabla para determin
 
 *Tabla 3: Niveles de Prioridad del Incidente*
 
-## **Tiempos de Respuesta**
+### **Tiempos de Respuesta**
 
 Para el caso de la atención de incidentes de seguridad se ha establecido unos tiempos máximos de atención de los mismos, con el fin de atender adecuadamente los incidentes de acuerdo a su criticidad e impacto. Los tiempos expresados en la siguiente Tabla son un acercamiento al tiempo máximo en que el incidente debe ser atendido, y no al tiempo en el cual el incidente debe ser solucionado. Esto se debe a que la solución de los incidentes puede variar dependiendo del caso.
 
