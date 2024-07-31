@@ -21,7 +21,7 @@
 
 - 📗 [Seguridad de aplicaciones](./application-security.es.md)
 - 📗 [Amenazas y vulnerabilidades en la seguridad de datos](./threats-vulnerabilities-data-security.es.md)
-- 📗 [Preparacion para una incidencia](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/preparacion-para-un-incidente-de-ciberseguridad.es.md)
+- 📗 [Preparacion para una incidencia](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/preparing-for-cybersecurity-incident.es.md)
 - 📗 [Detectar y evaluar una incidencia](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/detect-evaluate-cybersecurity-incident.es.md)
 - 📗 [How to properly communicate and notify cibersegurity incidents](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/declaring-notifying-cibersecurity-incident.es.md)
 - 📗 [Como contener, erradicar y recuperarse de un incidente de ciberseguridad](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/incident-managment-containment-and-eradication.es.md) 
