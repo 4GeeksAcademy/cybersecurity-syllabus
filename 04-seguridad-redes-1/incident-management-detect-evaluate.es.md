@@ -1,5 +1,5 @@
 ---
-title: "Detección, Evaluación y Análisis"
+title: "Deteccion y respuesta de un incidente de ciberseguridad"
 technologies: ["ciberseguridad", "manejo-de-incidentes-de-ciberseguridad"]
 
 ---
