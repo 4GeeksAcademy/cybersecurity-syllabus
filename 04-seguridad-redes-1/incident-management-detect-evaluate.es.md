@@ -1,6 +1,6 @@
 ---
 title: "Detección, Evaluación y Análisis"
-technology: ["cybersecurity"]
+technology: ["ciberseguridad", "manejo-de-incidentes-de-ciberseguridad"]
 
 ---
 
