@@ -1,5 +1,5 @@
 ---
-title: "Preparing For Cybersecurity Incident Management"
+title: "Cómo prepararse para un ciberataque: Manejo de incidentes de ciberseguridad"
 technologies: ["cybersecurity incident management", "manejo de incidentes de ciberseguridad", "cybersecurity", "ciberseguridad"]
 
 keyword_us: prepare for cyber attack 16 - 60
