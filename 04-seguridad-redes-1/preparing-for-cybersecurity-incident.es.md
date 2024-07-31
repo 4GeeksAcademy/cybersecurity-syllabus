@@ -2,6 +2,8 @@
 title: "Preparing For Cybersecurity Incident Management"
 technologies: ["cybersecurity incident management", "manejo de incidentes de ciberseguridad", "cybersecurity", "ciberseguridad"]
 
+keyword_us: prepare for cyber attack 16 - 60
+
 ---
 
 La ciberseguridad es un aspecto crucial para cualquier organización. Estar preparado para una incidencia de seguridad puede marcar la diferencia entre una respuesta rápida y efectiva o una crisis prolongada y dañina. En esta lección, exploraremos cómo prepararse de manera efectiva y gestionar eficientemente una incidencia de seguridad, abarcando desde la formación del equipo hasta las herramientas necesarias.
