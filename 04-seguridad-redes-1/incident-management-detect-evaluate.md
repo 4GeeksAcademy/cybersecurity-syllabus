@@ -1,5 +1,6 @@
 ---
 title: Cybersecurity incident detection and response
+technologies: ["cybersecurity", "cybersecurity-incident-management"]
 
 keyword: incident detection and response 9 - 150
 
