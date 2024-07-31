@@ -1,5 +1,6 @@
 ---
 title: "Confirmation and initial Assessment of a cybersecurity incident"
+technologies: ["cybersecurity", "cybersecurity-incident-management"]
 keyword: incident detection and response 9 -150
 
 ---
