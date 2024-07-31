@@ -1,6 +1,6 @@
 ---
 title: "Confirmación y evaluación inicial de un incidente de ciberseguridad"
-
+technologies: ["manejo-de-incidentes-de-ciberseguridad", "ciberseguridad"]
 ---
 
 Este artículo ofrece una guía completa sobre cómo las empresas pueden estructurar un proceso de notificación de incidentes, implementar estrategias para tomar decisiones oportunamente y evitar la propagación del incidente. Además, se detalla cómo manejar las actividades post-incidente y preparar un reporte que incluya las lecciones aprendidas. Por último, se identifican todos los roles involucrados en la gestión de incidentes para asegurar una respuesta coordinada y efectiva.
