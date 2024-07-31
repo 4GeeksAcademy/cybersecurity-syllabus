@@ -1,6 +1,6 @@
 ---
 title: "Preparing For Cybersecurity Incident Management"
-technologies: ["cybersecurity incident management", "cybersecurity"]
+technologies: ["cybersecurity incident management", "manejo de incidentes de ciberseguridad", "cybersecurity", "ciberseguridad"]
 
 ---
 
