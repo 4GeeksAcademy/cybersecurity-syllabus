@@ -1,3 +1,9 @@
+---
+title: "Preparing For Cybersecurity Incident Management"
+technologies: ["cybersecurity incident management", "cybersecurity"]
+
+---
+
 La ciberseguridad es un aspecto crucial para cualquier organización. Estar preparado para una incidencia de seguridad puede marcar la diferencia entre una respuesta rápida y efectiva o una crisis prolongada y dañina. En esta lección, exploraremos cómo prepararse de manera efectiva y gestionar eficientemente una incidencia de seguridad, abarcando desde la formación del equipo hasta las herramientas necesarias.
 
 ## Paso 1: Crear un Equipo de Respuesta a Incidencias (ERI)
