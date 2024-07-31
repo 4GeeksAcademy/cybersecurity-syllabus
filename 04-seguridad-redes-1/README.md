@@ -21,7 +21,11 @@
 
 - 📗 [Seguridad de aplicaciones](./application-security.es.md)
 - 📗 [Amenazas y vulnerabilidades en la seguridad de datos](./threats-vulnerabilities-data-security.es.md)
-- 📗 🔖 [Manejo de incidentes](./incident-management.es.md) 
+- 📗 🔖 [Manejo de incidentes](./incident-management.es.md)
+- 📗 [Preparacion para una incidencia](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/preparacion-para-un-incidente-de-ciberseguridad.es.md)
+- 📗 [Detectar y evaluar una incidencia](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/detect-evaluate-cybersecurity-incident.es.md)
+- 📗 [How to properly communicate and notify cibersegurity incidents](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/declaring-notifying-cibersecurity-incident.es.md)
+- 📗 [Como contener, erradicar y recuperarse de un incidente de ciberseguridad](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/04-seguridad-redes-1/incident-managment-containment-and-eradication.es.md) 
 - 📗 [Proceso y técnicas de gestión de incidentes de seguridad](./incident-management-process-best-pracices.es.md)
 - 🧪 [Incident report management project](https://github.com/breatheco-de/incident-report-for-sql-injection-exercise-project)
 - 🧪 [Escanear con nmap, ver que puertos estan abiertos y cuales son vulnerables](https://github.com/breatheco-de/scan-with-nmap-practice)
