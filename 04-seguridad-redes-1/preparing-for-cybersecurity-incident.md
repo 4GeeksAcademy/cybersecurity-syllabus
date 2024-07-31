@@ -2,6 +2,7 @@
 
 title: "How to Prepare for Handling a Security Incident or Attack"
 technologies: ["cybersecurity incident management", "incident managment", "cybersecurity"]
+keyword_us: prepare for cyber attack 16 - 60
 
 ---
 
