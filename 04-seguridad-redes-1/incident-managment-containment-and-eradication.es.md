@@ -1,5 +1,6 @@
 ---
 title: "Estrategias para la Gestión de Incidentes: Contención, Erradicación y Recuperación"
+technologies: ["manejo-de-incidentes-de-ciberseguridad", "cybersecurity-incident-management", "cybersecurity", "ciberseguridad"]
 
 ---
 
