@@ -55,6 +55,6 @@ git commit -m "Agregar archivo README" # Confirma los cambios
 git push origin <nombre_de_rama> # Envía los cambios al repositorio remoto en GitHub
 ```
 
->   El nombre de la rama suele ser main o master
+> 💡 El nombre de la rama suele ser main o master
 
 Estos pasos deberían ayudarte a configurar y usar Git en tu máquina virtual.
