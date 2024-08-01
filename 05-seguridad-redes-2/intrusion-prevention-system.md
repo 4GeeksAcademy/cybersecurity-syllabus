@@ -1,3 +1,8 @@
+---
+title: "Intrusion Prevention Systems"
+technologies: ['cybersecurity', "networks"]
+
+---
 # Intrusion Prevention Systems (IPS)
 
 IPS are hardware or software devices that review network traffic to detect and respond to possible attacks or intrusions. The response consists of discarding or modifying packets from the attack to nullify its purpose. This behavior classifies them as proactive devices due to their automatic reaction to anomalous situations.
