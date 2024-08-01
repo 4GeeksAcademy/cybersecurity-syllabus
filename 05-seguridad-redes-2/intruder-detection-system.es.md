@@ -1,7 +1,7 @@
 ---
 title: "Intrusion detection systems (IDS)"
 subtitle: "Guía completa de Intrusion Detection Systems (IDS): Tipos, Funcionamiento y Mejores Prácticas para Seguridad en Redes"
-tags: ["networks", "ciberseguridad"]
+tags: ["networks", "ciberseguridad", "redes"]
 authors: ["blindma1den", "lorenagubaira", "alesanchezr"]
 
 ---
