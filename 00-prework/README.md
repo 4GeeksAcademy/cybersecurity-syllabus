@@ -4,6 +4,7 @@
 
 - 📗[Intro al bootcamp](./intro-bootcamp.es.md)
 - 📗[Intro a VirtualBox](./introduction-virtualbox.es.md)
+- 📗[Configuración de Git en una maquina](./setting-up-git-on-a-machine.es.md)
 - 🧪[Instalación de una maquina virtual Windows 10](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine)
 
 ## Día 2 - Intro a seguridad de la información
