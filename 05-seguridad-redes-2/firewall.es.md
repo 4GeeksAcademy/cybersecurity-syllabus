@@ -1,87 +1,137 @@
 ---
-title: "Firewalls"
+title: "Que es un Firewall y como ayuda a optimizar la seguridad en redes"
 subtitle: "Optimizando la Seguridad en Redes con firewalls: Tipos, Ventajas, Desventajas y Arquitecturas - Guía Completa"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-La seguridad en cada equipo individual sigue siendo esencial pero no se puede considerar de forma aislada. Hay que considerar:
+La seguridad en cada equipo individual sigue siendo esencial, pero no se puede considerar de forma aislada debido a:
 
-- El número de equipos en muchas organizaciones.
-- Entornos heterogéneos con distintos sistemas operativos y versiones de cada sistema operativo
-- usuarios con privilegios de administración pueden ser un problema a la hora de organizarlos.
+- **El número de equipos** en muchas organizaciones.
+- **Entornos heterogéneos** con distintos sistemas operativos y versiones.
+- **Usuarios con privilegios de administración** que pueden representar riesgos.
 
-Un cortafuego es una herramienta que protege una red de sistemas y dispositivos interconectados mediante el control del tráfico de red. El cortafuego debe tener tres características clave:
+Un cortafuego o firewall es una herramienta crucial que protege una red de sistemas y dispositivos interconectados mediante el control del tráfico de red. Aunque ningún cortafuego actual cumple completamente con todos los requisitos de seguridad, todos intentan acercarse lo más posible a las siguientes características clave:
 
 - Todo el tráfico de “dentro a fuera” y de “fuera a dentro” debe pasar por él.
 - Solo el tráfico autorizado basado en la política de seguridad puede continuar.
 - Debe ser completamente inatacable.
 
-Aunque ningún cortafuego actual cumple estos requisitos completamente, todos intentan acercarse a ellos lo más posible.
+## Ventajas de los Firewalls
 
-![Firewall](../assets/05-seguridad-en-redes-2/firewall/firewall-image-1.jpg)
+- **Aplicación Centralizada de Políticas de Seguridad**: Permiten definir y aplicar políticas de seguridad de manera centralizada.
+- **Autenticación Avanzada**: Soportan técnicas de autenticación avanzadas de forma más eficaz y económica que si se hiciera equipo por equipo.
+- **Centralización de Alarmas y Registros**: Pueden centralizar las alarmas y los registros de tráfico, facilitando la monitorización.
+- **Menor Complejidad de Configuración**: Requieren menos configuración en comparación con un sistema de propósito general.
+- **Mantenimiento Sencillo**: Necesitan pocos usuarios definidos para su configuración y mantenimiento.
 
-Para proteger las redes, se puede optar por colocar uno o varios cortafuegos.
+## Desventajas de los Firewalls
 
-**Ventajas**:
+- **Falsa Sensación de Seguridad**: Pueden inducir una falsa sensación de seguridad si no se complementan con otras medidas de seguridad.
+- **Complejidad de Configuración**: Los firewalls más sofisticados pueden requerir configuraciones complejas.
+- **Cuello de Botella**: Pueden representar un cuello de botella para el tráfico de red si no se dimensionan adecuadamente.
 
-- capacidad para ser utilizados como un punto esencial de aplicación de la política de seguridad.
-- son capaces de soportar técnicas avanzadas de autenticación de manera más eficaz y económica que si se hiciera equipo por equipo.
-- pueden centralizar alarmas y registros de tráfico
-- Tienen menos configuración en comparación con un sistema de propósito general
-- Necesitan pocos usuarios definidos para llevar a cabo su configuración y mantenimiento.
+## Tipos de Firewalls
 
-La política del tráfico en un cortafuego es **restrictiva y solo permite el tráfico que ha sido explícitamente permitido**. Esta política es segura, pero cada utilidad que necesite tráfico debe ser analizada y permitida de manera individual.
+### 1. **Filtros de Paquetes**
 
-**Desventajas:**
+- **Funcionamiento**: Operan en los niveles de red y transporte, filtrando paquetes IP basados en valores de algunos campos de las cabeceras de IP, TCP o UDP.
+- **Ventajas**:
+  - Simplicidad y bajo costo.
+  - Impacto mínimo en el rendimiento de la red.
+- **Desventajas**:
+  - Limitación en la inspección del contenido de los paquetes.
+  - Vulnerabilidad a ataques de suplantación de IP.
 
-- pueden provocar una falsa sensación de seguridad para los usuarios y administradores.
-- Si son muy sofisticados, pueden requerir una configuración compleja.
-- Pueden representar un cuello de botella para el tráfico de red.
+#### Ejemplo: `iptables` para Linux
 
-T**ipos:**
+![Firewall - filtrados / modelo OSI](../assets/05-seguridad-en-redes-2/firewall/firewall-image-2.jpg)
 
-- filtros de paquetes.
-- *Gateways* de aplicaciones.
-- *stateful inspection*. (el *Firewall-1* de *Checkpoint* o el *CiscoASA* (*Adaptative Security Appliance*), además de su tecnología particular, pueden configurarse como servidores *proxy*.)
-- híbridos.
+### 2. **Stateful Inspection (Inspección con Estado)**
 
-**Arquitecturas de cortafuegos**: son distintas formas de combinar cortafuegos
+- **Funcionamiento**: Mantienen una tabla de estado para rastrear el estado de las conexiones activas y tomar decisiones basadas en el estado de la conexión.
+- **Ventajas**:
+  - Mayor seguridad que el filtrado de paquetes básico al rastrear conexiones.
+  - Mejor control del tráfico con conciencia del contexto.
+- **Desventajas**:
+  - Mayor uso de recursos.
+  - Configuración más compleja.
 
-**Filtros de paquetes**
+#### Ejemplo: `Checkpoint Firewall-1`, `Cisco ASA`
 
-Los filtros de paquetes operan en **el nivel de red y transporte** y filtran paquetes IP basándose en valores de algunos campos de las cabeceras de IP, TCP o UDP. también permiten filtrar el tráfico en función del enlace de red del que provenga. El más básico consiste en un encaminador que trabaja a nivel de red, aunque en muchos casos, una máquina con software dedicado realiza esta tarea.
+### 3. **Firewalls de Capa de Aplicación (Proxy Firewalls)**
 
-**Cada filtro está compuesto por reglas** que se utilizarán de distintas y orden en busca de una coincidencia. Un filtro de paquetes examina cada paquete entrante por la interfaz en la que está aplicado el filtro y:
+- **Funcionamiento**: Operan en la capa de aplicación e inspeccionan el contenido de los paquetes para aplicar políticas de seguridad específicas de aplicaciones.
+- **Ventajas**:
+  - Inspección profunda de los datos de la aplicación.
+  - Capacidad de filtrar contenido y comandos específicos.
+- **Desventajas**:
+  - Pueden introducir latencia.
+  - Requieren más recursos para gestionar.
 
-1. Obtiene los contenidos de las cabeceras citadas del paquete.
-2. Contrasta los valores contra los configurados en las reglas del filtro, ordenadamente.
-3. Si cumple lo enunciado en una regla, aplica una de las dos únicas condiciones posibles: lo permite, en cuyo caso el paquete se encaminará a su destino o lo descarta.
+#### Ejemplo: Servidores Proxy como `Squid`
 
-**Campos de la cabecera**
+### 4. **Firewalls de Próxima Generación (NGFW)**
 
-Los **campos de las cabeceras que se usan como criterios de filtrado** son:
+- **Funcionamiento**: Integran la tecnología de firewall tradicional con características adicionales como prevención de intrusiones, inspección profunda de paquetes y conciencia de aplicaciones.
+- **Ventajas**:
+  - Protección integral contra amenazas.
+  - Control y visibilidad de aplicaciones.
+- **Desventajas**:
+  - Mayor costo.
+  - Configuración y gestión más complejas.
 
-- Las direcciones IP origen y destino del mensaje, que viajan en la cabecera de IP.
-- Los números de puerto origen y destino del mensaje, que son parte de la cabecera de TCP o de UDP.
-- El tipo de protocolo o número de protocolo, parte de la cabecera de IP, que indica, el tipo de mensaje IP: si es ICMP, OSPF, TCP, UDP, etc.
-- Una serie de opciones de la cabecera TCP, como los bits de sincronización, de final, de ACK, etc.
+#### Ejemplo: `Palo Alto Networks`, `Fortinet FortiGate`
 
-> 📖 Para ser efectivo, un filtro debe permitir la especificación de puertos, ya que algunos servidores de aplicaciones IP utilizan números de puerto normalizados, mientras que los clientes utilizan números de puerto al azar por encima de 1023. Es necesario contar con operadores relacionales para implementar relaciones como “mayor que” o “igual a” y los filtros deben permitir el filtrado de paquetes según la interfaz de origen o destino. Pueden ser un software con funcionalidades avanzadas como IPTables o ser parte de un encaminador. La tecnología es simple y transparente para los usuarios.
+## Arquitecturas de Firewalls
 
-![Firewall - filtrados / modelo OSI ](../assets/05-seguridad-en-redes-2/firewall/firewall-image-2.jpg)
+### 1. **Arquitectura de un Solo Firewall**
 
-**Puntos débiles**:
+- **Descripción**: Adecuada para redes pequeñas con un solo punto de control.
+- **Ventajas**: Simplicidad y menor costo.
+- **Desventajas**: Punto único de fallo.
 
-- Si la configuración llega a hacerse muy grande, puede hacerse difícil el mantenimiento de los filtros.
-- Si se tiene que hacer una excepción ocasional, puede ser que haya que cambiar toda la configuración, haciendo la situación bastante insegura.
-- No permiten realizar ningún control a nivel de usuario ni a nivel de datos. No se puede filtrar por valores de campos de las cabeceras de aplicación.
-- No es fácil filtrar protocolos con más de una conexión activa simultáneamente, como ftp, ni protocolos basados en RPC.
-- No suelen guardar registro de los accesos de los usuarios.
+### 2. **Arquitectura de Host con Dos Interfaces (Dual-Homed Host)**
 
-Aplicaciones difíciles de filtrar son aquellas basadas en el entorno RPC (*Remote Procedure Call*), para las que cada servidor RPC tiene asociado un número de puerto que no es siempre el mismo. Aplicaciones como NFS (Network File System) o NIS (Network Information Services), envían mensajes al *portmapper* con el número de puerto 111 para conocer el número de puerto actual del servidor que están buscando. Estas aplicaciones están compuestas por varios servidores que se registran con el *portmapper* al iniciar, lo que las hace difíciles de filtrar. no se debe permitir el tráfico de estas aplicaciones si el cortafuego es solo un filtro de paquetes. Las **reglas de filtrado** se expresan como una tabla de condiciones y acciones que se consultan en orden hasta encontrar una regla para decidir si se permite o se bloquea un paquete.
+- **Descripción**: Un firewall con dos interfaces de red, una conectada a la red interna y otra a la externa.
+- **Ventajas**: Ofrece un nivel básico de aislamiento entre redes.
+- **Desventajas**: Limitada escalabilidad.
 
-Es importante el orden de análisis de las reglas para implementar correctamente la política de seguridad. Cuanto más complejas sean las reglas y su orden de análisis, más difícil será para el administrador gestionarlas. ¿Y si un paquete que no cumple ninguna regla especificada? Se debe añadir una regla por defecto al final de la lista que bloquee todo el tráfico que no cumpla con ninguna otra regla.
+### 3. **Arquitectura de Subred Filtrada (DMZ)**
 
-![Firewall - Diagrama de flujo](../assets/05-seguridad-en-redes-2/firewall/firewall-image-3.jpg)
+- **Descripción**: Utiliza múltiples firewalls para crear una zona desmilitarizada (DMZ).
+- **Ventajas**: Mayor seguridad con múltiples capas de protección.
+- **Desventajas**: Mayor complejidad y costo.
+
+### 4. **Arquitectura de Firewall Distribuido**
+
+- **Descripción**: Emplea múltiples firewalls a lo largo de la red.
+- **Ventajas**: Control granular sobre segmentos de red.
+- **Desventajas**: Complejidad en la gestión.
+
+## Consideraciones Adicionales
+
+### Políticas de Firewall y Mejores Prácticas
+
+- **Definición de Políticas**: Desarrollar políticas de firewall efectivas que equilibren seguridad y usabilidad.
+- **Actualización y Revisión**: Importancia de actualizar y revisar regularmente las reglas del firewall para adaptarse a nuevas amenazas.
+
+### Escenarios del Mundo Real y Estudios de Caso
+
+- **Ejemplo de Ataques Reales**: Discusión de ataques reales que podrían haberse mitigado o prevenido con configuraciones adecuadas de firewall.
+- **Incidentes Notables**: El gusano SQL Slammer, que explotó vulnerabilidades en configuraciones de firewall.
+
+### Limitaciones de los Firewalls y Medidas de Seguridad Complementarias
+
+- **No son una Solución Independiente**: Los firewalls deben ser parte de una estrategia de seguridad más amplia.
+- **Medidas Complementarias**: Incluir sistemas de detección de intrusiones (IDS), sistemas de prevención de intrusiones (IPS) y soluciones de seguridad de punto final.
+
+### Tendencias Emergentes
+
+- **Firewalls en la Nube**: Mención de firewalls basados en la nube que son cada vez más relevantes en entornos basados en la nube.
+- **Firewalls Virtuales**: Consideración de firewalls virtuales que ofrecen flexibilidad en entornos virtualizados.
+
+## Conclusión
+
+En resumen, los firewalls son una pieza fundamental en la seguridad de redes, proporcionando un control de tráfico crítico para proteger los activos digitales de las organizaciones. Sin embargo, deben ser parte de una estrategia de seguridad integral que incluya múltiples capas de defensa. Los estudiantes deben continuar explorando temas avanzados y configuraciones para profundizar su conocimiento y experiencia.
