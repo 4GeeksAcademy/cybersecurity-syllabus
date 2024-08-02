@@ -1,5 +1,5 @@
 ---
-title: "Herramientas IDS/IPS"
+title: "Herramientas para la prevencion o deteccion de intrusos (IDS/IPS)"
 subtitle: "Explorando Herramientas IDS/IPS: Snort, Suricata, Quickdraw, Zeek, OSSEC, y Wazuh - Protección Avanzada para Redes y Sistemas de Control"
 tags: ["ciberseguridad", "networks"]
 authors: ["blindma1den", "lorenagubaira", "alesanchezr"]
