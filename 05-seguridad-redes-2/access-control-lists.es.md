@@ -1,7 +1,7 @@
 ---
 title: "Listas de control de acceso"
 subtitle: "Explora el mundo de las Listas de Control de Acceso (ACLs) en redes: tipos, implementación y aplicación para una seguridad eficiente."
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
