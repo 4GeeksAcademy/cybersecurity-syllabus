@@ -1,7 +1,7 @@
 ---
 title: "Protección de las redes inalámbricas"
 subtitle: "Protegiendo Datos: Seguridad Inalámbrica en Redes Wi-Fi. Evita Amenazas y Vulnerabilidades, Mantén tu Conexión Segura."
-tags: ["networks"]
+technologies: ["ciberseguridad", "networks"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
