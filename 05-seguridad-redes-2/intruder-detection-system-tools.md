@@ -1,6 +1,6 @@
 ---
 
-title: "IDS/IPS Tools"  
+title: "Tools for intruder prevention and detection"  
 subtitle: "Exploring IDS/IPS Tools: Snort, Suricata, Quickdraw, Zeek, OSSEC, and Wazuh - Advanced Protection for Networks and Control Systems"  
 tags: ["cybersecurity", "networks"]  
 authors: ["blindma1den", "lorenagubaira", "alesanchezr"]  
