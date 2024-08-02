@@ -1,80 +1,92 @@
-## Intrusion prevention systems (IPS)
+---
+title: "Sistemas De Prevencion De Instrusos (IPS)"
+description: "Los Sistemas de Prevención de Intrusos (IPS) son esenciales en la ciberseguridad, capaces de neutralizar amenazas en tiempo real. Con una reducción de falsos positivos, estos sistemas proactivos son cruciales para proteger redes en un mundo digital donde el 60% de las empresas sufren ataques cibernéticos."
+keyword_es: sistemas de prevención de intrusos 0 - 10
 
-Los IPS son dispositivos de hardware o software encargados de revisar el tráfico de red con el propósito de detectar y responder a posibles ataques o intrusiones. La respuesta consiste en descartar o modificar los paquetes procedentes del ataque de tal manera que se anule su propósito. Este comportamiento los clasifica como dispositivos proactivos debido a su reacción automática a situaciones anómalas.
+---
 
-Los IPS se asemejan el comportamiento de los cortafuegos, ambos toman decisiones sobre la aceptación de paquetes en un sistema. Sin embargo, los cortafuegos basan sus decisiones en los encabezados de paquetes entrantes, capas de red y de transporte, mientras que los IPS basan sus decisiones tanto en los encabezados como en el contenido de datos del paquete.
+En un mundo cada vez más digital, las amenazas cibernéticas son una preocupación constante para las organizaciones. Los Sistemas de Prevención de Intrusos (IPS) son una respuesta crucial a este desafío, actuando como defensores proactivos en la seguridad de la red. A diferencia de los Sistemas de Detección de Intrusos (IDS), que sólo detectan y alertan sobre posibles amenazas, los IPS están diseñados para identificar y neutralizar intrusiones en tiempo real.
 
-![intrucion prevension system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/7intrucion-prevension-system.png?raw=true)
+## ¿Qué es un Sistemas De Prevencion De Instrusos?
 
-***Encabezado y contenido de paquetes dependiendo del protocolo.***
+Los IPS son dispositivos de hardware o software encargados de revisar el tráfico de red con el propósito de detectar y responder a posibles ataques o intrusiones. Su respuesta consiste en descartar o modificar los paquetes procedentes del ataque de tal manera que se anule su propósito. Este comportamiento los clasifica como dispositivos proactivos debido a su reacción automática a situaciones anómalas.
 
-La tecnología IPS ofrece una visión más exhaustiva de las operaciones de la red proporcionando información sobre todo tipo de actividades maliciosas, malas conexiones, contenido inapropiado y otras funciones, con una mínima vigilancia. Las principales características de esta tecnología son:
+### Diferencias entre IPS e IDS
 
-- Capacidad de reacción automática ante incidentes.
-- Aplicación de nuevos filtros conforme detecta ataques en progreso.
-- Bloqueo automático frente a ataques efectuados en tiempo real.
-- Disminución de falsas alarmas de ataques a la red.
-- Protección de sistemas no parcheados.
-- Optimización en el rendimiento del tráfico de la red.
+Mientras que un IDS se limita a detectar y notificar la intrusión al administrador del sistema, un IPS detecta y detiene la intrusión de manera predefinida. Esto se logra comprobando comportamientos de red previamente configurados como anómalos. Esta capacidad de acción inmediata distingue a los IPS como una evolución natural de los IDS, que simplemente observan y reportan.
 
-**Los IPS como evolución de los IDS**
+## Funcionamiento de los Sistemas De Prevencion De Instrusos
 
-Mientras el IDS se limita a detectar y notificar la intrusión al administrador del sistema, y éste se encarga de recibir y responder las alertas; el IPS detecta la intrusión y la detiene de algún modo ya predefinido, comprobando ciertos comportamientos en la red previamente configurados como anómalos. Gracias a este hecho, el nivel de alertas de un IPS es considerablemente menor que el nivel de alertas producido por un IDS. La diferencia principal entre los IDS activos y los IPS es que estos últimos están en capacidad de inutilizar los paquetes involucrados en el ataque modificando su contenido.
+Los IPS se asemejan al comportamiento de los cortafuegos, ya que ambos toman decisiones sobre la aceptación de paquetes en un sistema. Sin embargo, los cortafuegos basan sus decisiones principalmente en los encabezados de los paquetes (capas de red y de transporte), mientras que los IPS consideran tanto los encabezados como el contenido de los datos del paquete. Esto permite una visión más exhaustiva de las operaciones de la red, proporcionando información sobre actividades maliciosas, malas conexiones, contenido inapropiado y otras funciones, con una mínima vigilancia.
 
-Una desventaja de los IPS viene por parte de la reacción proactiva ante las intrusiones. Por una parte, se tiene una disminución en el tiempo de reacción ante un ataque, pero también puede provocar efectos inesperados e inconvenientes cuando éste reacciona ante un falso positivo (FP), lo que podría llevar a una denegación de servicio o incluso al aislamiento de la máquina. Por ello, el uso de IPS en sistemas de control industrial ha de ser bien estudiado o en su defecto utilizar un cortafuego que posea inspección profunda de paquetes para mayor seguridad en las comunicaciones. Las arquitecturas actuales centralizan el funcionamiento del IPS, lo que facilita su operación y administración, pero disminuye la escalabilidad del sistema y convierte al IPS en un punto crítico.
+![intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/7intrucion-prevension-system.png?raw=true)
 
-![ventajas intrusion prevesion system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/8ventajas-intrusion-prevesion-system.png?raw=true)
+### Encabezado y contenido de paquetes dependiendo del protocolo
 
-***Ventajas de los IPS***
+Las principales características de los IPS incluyen:
 
-## **Tipos de IPS**
+- **Capacidad de reacción automática ante incidentes.**
+- **Aplicación de nuevos filtros conforme detecta ataques en progreso.**
+- **Bloqueo automático frente a ataques efectuados en tiempo real.**
+- **Disminución de falsas alarmas de ataques a la red.**
+- **Protección de sistemas no parcheados.**
+- **Optimización en el rendimiento del tráfico de la red.**
 
-Básicamente, los diferentes tipos de IPS se distinguen por su ubicación.
+## Tipos de Sistemas De Prevencion De Instrusos
 
-- **IPS basados en host (HIPS):** Esta aplicación de prevención de intrusiones reside en la dirección IP específica de un solo equipo, permite prevenir posibles ataques en los host.
-- **IPS basadas en red (NIPS):** Monitorizan la red en busca de tráfico sospechoso.
-- **IPS basado en red Wireless (WIPS):** Monitorizan redes inalámbricas, al igual que hacen los NIPS con redes LAN.
-- **IPS basado en Análisis de Comportamiento de Red (NBA):** Examina el tráfico de red para identificar amenazas que generan tráfico inusual, como ataques de DoS o malware.
+Los diferentes tipos de IPS se distinguen principalmente por su ubicación y enfoque:
 
-### **IPS basado en red (NIPS) vs IPS basado en host (HIPS)**
+- **IPS basados en host (HIPS):** Residen en la dirección IP específica de un solo equipo y permiten prevenir posibles ataques en el host.
+- **IPS basados en red (NIPS):** Monitorizan la red en busca de tráfico sospechoso.
+- **IPS basados en red inalámbrica (WIPS):** Monitorizan redes inalámbricas, al igual que los NIPS lo hacen con redes LAN.
+- **IPS basados en Análisis de Comportamiento de Red (NBA):** Examina el tráfico de red para identificar amenazas que generan tráfico inusual, como ataques de DoS o malware.
 
-Un HIPS puede manejar el tráfico cifrado y sin cifrar por igual, ya que puede analizar los datos después de que hayan sido descifrados en el host. Por otra parte, un NIPS no utiliza el procesador y la memoria del host, por lo que no impacta en el rendimiento de la máquina.
+## Comparación: NIPS vs. HIPS
 
-Un NIPS puede detectar eventos dispersos a través de la red y puede reaccionar fácilmente, mientras que con un HIPS se tardaría demasiado tiempo en informar a un motor central y posteriormente informar al resto de los equipos.
+- **HIPS**: Pueden manejar tráfico cifrado y sin cifrar, ya que analizan los datos después de que han sido descifrados en el host. Sin embargo, utilizan el procesador y la memoria del host, lo que puede impactar su rendimiento.
+- **NIPS**: Pueden detectar eventos dispersos a través de la red y reaccionar fácilmente, pero no impactan el rendimiento del host, ya que operan independientemente del hardware del mismo.
 
-### **La evolución y las categorías de los IPS**
+## Evolución y categorías de los Sistemas De Prevencion De Instrusos
 
-Es posible distinguir dos generaciones históricas de los IPS:
+La evolución de los IPS ha seguido dos generaciones históricas:
 
-- Los IPS de primera generación, al detectar un ataque proveniente de una dirección IP determinada, descartaban todos los paquetes de esa dirección, estuvieran o no involucrados en el ataque.
-- La evolución de los IPS se debe a la capacidad de descartar únicamente los paquetes relacionados con el ataque identificado, permitiendo el tráfico de otros paquetes provenientes de la IP del atacante, siempre y cuando no estuvieran relacionados con el ataque.
+- **Primera generación**: Al detectar un ataque proveniente de una dirección IP, descartaban todos los paquetes de esa dirección, independientemente de su relación con el ataque.
+- **Generación moderna**: Capaces de descartar únicamente los paquetes relacionados con el ataque identificado, permitiendo el tráfico legítimo de otros paquetes provenientes de la IP del atacante.
 
-Se pueden distinguir cinco categorías de IPS dependiendo de su funcionamiento, sus capacidades y su ubicación en la arquitectura de la red.
+Existen cinco categorías de IPS según su funcionamiento, capacidades y ubicación en la arquitectura de la red:
 
-- **IPS *inline***
+- **IPS *inline***: Son la evolución de los NIDS basados en firmas y funcionan como un Bridge a nivel de capa dos, revisando todos los paquetes en busca de firmas. Pueden almacenar automáticamente las anomalías detectadas en un log y permitir el paso de un paquete alterando su contenido para frustrar un ataque sin alertar al atacante. Este proceso se realiza mediante *Scrubbing*, que detecta errores a través de la verificación *checksum* o por redundancia con copias de datos.
 
-Estos IPS suponen la evolución de los NIDS basados en firmas y hacen la función de un Bridge a nivel de capa dos, revisando todos los paquetes que circulan por la red en busca de firmas. En caso de detectar alguna anomalía automáticamente es almacenado en un log, o incluso puede permitir el paso de un paquete alterando su contenido para de esta manera frustrar un ataque, sin que el atacante se dé cuenta. Este proceso es realizado mediante *Scrubbing*5, que consiste en la detección de errores por medio de verificación *checksum* o por redundancia con copias de datos. Habitualmente son conocidos como IPS de red o NIPS.
+- **Switches a nivel de la capa de Aplicación (nivel 7 del modelo OSI)**: Aunque los switches trabajan habitualmente en el nivel 2 (enlace), también existen switches de nivel 7 debido a la alta demanda de ancho de banda. Su función principal es balancear la carga de las aplicaciones distribuidas entre varios servidores, tomando decisiones de enrutamiento a partir del contenido de los datos de la capa de aplicación. Aunque similares a un balanceador de carga, en su funcionamiento como IPS son capaces de bloquear ataques, posicionándose generalmente delante de los cortafuegos para proteger la red completa.
 
-- **Switches a nivel de la capa de Aplicación (nivel 7 del modelo OSI)**
+- **Cortafuegos/IDS de Aplicación**: Conocidos como HIPS, estos se instalan en cada host que se desea proteger y requieren una fase de entrenamiento para identificar patrones normales de funcionamiento en el host. A través de este entrenamiento se crea un perfil de relaciones frecuentes entre las aplicaciones y los componentes del sistema. Al apoyarse en la detección de comportamientos anómalos, son capaces de prevenir intrusiones recientes para las cuales aún no existe una definición de firmas específicas.
 
-Los switches trabajan de forma habitual en el nivel 2 (enlace) pero cada vez son más habituales también los switches a nivel 7 o aplicación debido a la alta demanda de ancho de banda. La tarea principal de estos switches es balancear la carga de las aplicaciones distribuidas entre varios servidores, tomando decisiones de enrutamiento o conmutación a partir del contenido de los datos de la capa de aplicación. Hasta este punto no hay diferencia con un balanceador de carga.
+- **Switches Híbridos**: Combinan características de los HIPS y los switches de nivel de aplicación. Se basan en el análisis de patrones de comportamiento, ofreciendo una fortaleza particular en el conocimiento detallado del tráfico aceptable.
 
-El funcionamiento como IPS es similar a un NIPS basado en firmas, sirviendo para bloquear ataques. La posición de estos equipos suele ser delante de los cortafuegos, de manera que protejan la red completa. Al ser similares a un NIPS, sólo pueden parar ataques que conocen, pero permiten bloquear ataques de tipo DoS o DDoS que el resto de IPS no pueden parar y sin afectar al resto de la red. Se pueden configurar de forma redundante, en modo levantamiento en caliente o como balanceador de carga (característica que los diferencia de cualquier otro IPS).
+- **Aplicaciones engañosas**: Esta tecnología analiza todo el tráfico de red y de cada dispositivo para conocer el tráfico permitido y correcto. Al detectar tráfico no permitido, envían una respuesta marcada al atacante, lo que permite identificar y bloquear más tráfico de la misma fuente.
 
-- **Cortafuegos/IDS de Aplicación**
+## Beneficios y desafíos
 
-Los cortafuegos/IDS de aplicación se instalan en cada host que se desea proteger, teniendo en cuenta las aplicaciones que corren en él, por lo que también son conocidos como HIPS. Para su correcto funcionamiento será necesario hacer una fase de entrenamiento, que consiste en el proceso de identificación de patrones normales de funcionamiento en el host. Por medio de este entrenamiento se crea un perfil de relaciones frecuentes entre las aplicaciones y los componentes del sistema, como: el sistema operativo, otras aplicaciones, la memoria y los usuarios.
+![ventajas intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/8ventajas-intrusion-prevesion-system.png?raw=true)
 
-Los HIPS se comportan de forma similar a los IDS basados en detección de anomalías a la hora de detectar las intrusiones, pero deben identificar todos los procesos exhaustivamente, puesto que de no ser así pueden bloquear una aplicación válida.
+### Ventajas de los IPS
 
-Debido a que se apoyan en la detección de comportamientos anómalos y no en la coincidencia de firmas, es posible prevenir intrusiones muy recientes para las cuales todavía no existe una definición de sus firmas específicas.
+Los IPS ofrecen varios beneficios importantes:
 
-- **Switches Híbridos**
+- **Respuesta en tiempo real**: Actúan rápidamente para mitigar amenazas antes de que causen daño.
+- **Protección proactiva**: Identifican y bloquean amenazas emergentes sin necesidad de intervención manual.
+- **Reducción de falsos positivos**: Mediante ajustes y aprendizaje continuo, los IPS reducen las interrupciones innecesarias.
 
-Los switches híbridos son una combinación entre los HIPS y los switches de nivel de aplicación. Son dispositivos hardware como los switches de nivel de aplicación pero usan políticas similares a las utilizadas por los HIPS.
+### Desafíos de implementación de los IPS
 
-Los switches híbridos se basan en el análisis de patrones de comportamiento. La fortaleza radica en el conocimiento detallado del tráfico que debe aceptar.
+- **Falsos positivos y negativos**: Un IPS mal configurado puede reaccionar a amenazas inexistentes o no detectar amenazas reales.
+- **Costo y complejidad**: La implementación y mantenimiento de un IPS puede ser costoso y complejo, especialmente en redes grandes.
 
-- **Aplicaciones engañosas**
+## Tendencias emergentes
 
-Este tipo de tecnología analiza todo el tráfico de red y de cada dispositivo en particular para disponer de un conocimiento de cuál es el tráfico permitido y correcto, similar a como realiza los patrones un HIPS. En el modo de funcionamiento, cuando detecta un tráfico que no está permitido para la red (acceso a un puerto no permitido) o para un servidor concreto (acceso a un puerto SSH a un servidor que no lo tiene abierto), envía una respuesta marcada al atacante, de manera que el IPS puede detectar otro tráfico de esa misma fuente y bloquearlo.
+- **Inteligencia Artificial y Machine Learning**: La integración de IA y ML en los IPS está mejorando su capacidad para detectar patrones anómalos y predecir amenazas futuras.
+- **IPS basados en la nube**: Ofrecen una solución escalable y flexible, permitiendo a las organizaciones protegerse sin grandes inversiones en infraestructura.
+
+### Conclusión
+
+Los Sistemas de Prevención de Intrusos (IPS) son una parte esencial de la ciberseguridad moderna, proporcionando una defensa proactiva contra amenazas complejas. Aunque enfrentan desafíos como la gestión de falsos positivos y el costo de implementación, su capacidad para responder rápidamente a amenazas emergentes los hace indispensables en cualquier estrategia de seguridad integral.
