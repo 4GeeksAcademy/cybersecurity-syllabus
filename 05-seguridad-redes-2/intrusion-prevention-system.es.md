@@ -1,7 +1,7 @@
 ---
 title: "Sistemas De Prevencion De Instrusos (IPS)"
 description: "Los Sistemas de Prevención de Intrusos (IPS) son esenciales en la ciberseguridad, capaces de neutralizar amenazas en tiempo real. Con una reducción de falsos positivos, estos sistemas proactivos son cruciales para proteger redes en un mundo digital donde el 60% de las empresas sufren ataques cibernéticos."
-technologies: ["cybersecurity", "redes"]
+technologies: ["ciberseguridad", "redes"]
 keyword_es: sistemas de prevención de intrusos 0 - 10
 
 ---
