@@ -12,7 +12,7 @@
 - 📗 [Seguridad inalámbrica](./wireless-security.es.md)
 - 🧪 [Configurar un firewall, configurar un ACL.](https://github.com/breatheco-de/configuring-firewall-and-acl-exercise-tutorial)
 
-## Dia 15
+## Dia 15 🔖
 
 - 📗 [Seguridad en la nube](./cloud-security.es.md)
 - 📗 [10 recomendaciones de seguridad en la nube](./10-recomendations-cloud-clients-security.es.md)
