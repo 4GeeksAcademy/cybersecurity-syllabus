@@ -1,7 +1,7 @@
 ---
 title: "Prácticas de seguridad en el hosting web"
 subtitle: "Descubre las 10 mejores prácticas para garantizar la seguridad en tu hosting web y proteger tus datos y la reputación de tu negocio."
-tags: ["redes"]
+tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
