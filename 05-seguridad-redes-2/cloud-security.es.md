@@ -6,101 +6,99 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## Conceptos de la seguridad en la nube
+Ya conocemos lo que es la seguridad en general, si nos enfocamos en la "seguridad en la nube" estamos especificando el subconjunto de tareas, politicas, controles, tecnologias y cualquier otra cosa necesaria para poder aplicar la seguridad en un entorno "nube" como Amazon Web Services, Microsoft Azure o Google Cloud.
 
-La seguridad de nube empresarial es el conjunto de prácticas, protocolos, políticas y controles que las organizaciones implementan para proteger sus activos digitales en la nube. La seguridad en la nube empresarial está diseñada para proteger los entornos cloud, los datos que residen en la nube, las aplicaciones que se ejecutan en la nube y los usuarios que interactúan con los activos de la nube. En la mayoría de los entornos cloud, la seguridad es una responsabilidad compartida entre el proveedor de nube y el cliente.
+## Localmente o en la nube
 
+Antes de la existencia de la nube, las empresas gestionaban su infraestructura de TI de manera local. Este enfoque, conocido como computación on-premises o en sitio, requería que las empresas tuvieran todo el hardware y software necesario dentro de sus propias instalaciones. 
 
-## **Definición de la seguridad en la nube**
+La nube es lo opuesto, en "la nube" los servidores y servicios no estan en las instalaciones de la empresa, sino que se acceden a través de internet. Amazon, Google y Microsoft tienen "nubes" que las empresas contratan para tener sus servidores online.
 
-La seguridad en la nube es una disciplina de la ciberseguridad dedicada a asegurar los sistemas informáticos en la nube. Incluye mantener los datos privados y seguros a través de la infraestructura, las aplicaciones y las plataformas en línea. Asegurar estos sistemas implica los esfuerzos de los proveedores de la nube y de los clientes que los utilizan, bien se trate de una persona, una pequeña o mediana empresa o una organización.
+Las empresas generalmente prefieren la nube por su escalabilidad, costos reducidos, y flexibilidad. Sin embargo, algunas optan por infraestructura local por el control y seguridad que ofrece. Muchas utilizan un enfoque híbrido para combinar lo mejor de ambos mundos.
 
-Los proveedores de servicios en la nube alojan los servicios en sus servidores a través de conexiones de Internet siempre activas. Debido a que su negocio depende de la confianza de los clientes, se utilizan métodos de seguridad en la nube para que los datos de los clientes se mantengan privados y almacenados de forma segura. No obstante, la seguridad en la nube también está parcialmente en manos del cliente. Comprender ambas facetas es fundamental para una solución saludable de seguridad en la nube.
+## ¿Qué tiene una nube?
 
-En su núcleo, la seguridad en la nube se compone de las siguientes categorías:
+Todas las nubes corporativas estan compuestas de los mismos componentes o funcionalidades:
 
-- Seguridad los datos
-- Gestión de identidades y accesos (IAM, por sus siglas en inglés)
-- Gobernanza (políticas de prevención, detección y mitigación de amenazas)
-- Planificación de la retención de datos (DR) y la continuidad del negocio (BC)
-- Cumplimiento legal
+- **Infraestructura como Servicio (IaaS)**: Proporciona recursos virtualizados como servidores, almacenamiento y redes. Ejemplos: Amazon EC2, Google Cloud Compute Engine.
+- **Plataforma como Servicio (PaaS)**: Ofrece un entorno de desarrollo completo para construir, probar y desplegar aplicaciones. Ejemplos: Google App Engine, Microsoft Azure App Services.
+- **Software como Servicio (SaaS)**: Ofrece aplicaciones listas para usar a través de Internet. Ejemplos: Microsoft Office 365, Google Workspace.
+- **Almacenamiento**: Espacio para guardar datos en la nube, como Amazon S3 y Google Cloud Storage.
+- **Redes**: Conectividad y servicios de red para vincular recursos, como redes virtuales y balanceadores de carga.
+- **Seguridad**: Herramientas y servicios para proteger datos y aplicaciones, como firewalls, cifrado y gestión de identidades.
+- **Bases de Datos**: Servicios para gestionar datos estructurados y no estructurados, como Amazon RDS y Google Cloud Bigtable.
 
-La seguridad en la nube puede parecer como la seguridad informática heredada, pero esta plataforma exige en realidad un enfoque diferente.
+## Componentes mas importantes de la seguridad en la nube
 
-## **¿Qué es la seguridad en la nube?**
+La seguridad en la nube tiene ventajas ya que los grandes proveedores de nubes como Amazon, Google y Microsoft se encargan de una parte de la misma y ya incluyen mecanismos de cifrado, protección de datos, etc. Sin embargo, una parte de la responsabilidad recae sobre nuestra implementación, y para eso debemos pensar en nuestra seguridad y como dividirla:
 
-La seguridad en la nube es toda la tecnología, los protocolos y las buenas prácticas que protegen los entornos informáticos en la nube, las aplicaciones que se ejecutan en la nube y los datos almacenados en ella. La seguridad de los servicios en la nube comienza por comprender qué se está asegurando exactamente, así como los aspectos del sistema que se deben administrar.
+- Identidad: MFA, SSO, Control de Acceso Basado en Roles, etc.
+- Protección de Datos: Cifrado.
+- Seguridad de la Infraestructura: Segmentacion de red y monitoreo (deteccion de instrusos).
+- Seguridad de Aplicaciones: Pruebas de Vulnerabilidades, actualizaciones y parches.
+- Cumplimiento y Gobernanza: Politicas, regulaciones como GDPR, etc.
+- Continuidad del Negocio y Recuperación ante Desastres: Respados, planes de recuperacion.
 
-A modo de resumen, el desarrollo del soporte contra las vulnerabilidades de seguridad está en gran medida en manos de los proveedores de servicios en la nube. Aparte de elegir un proveedor consciente de la seguridad, los clientes deben centrarse sobre todo en la configuración adecuada del servicio y en los hábitos de uso seguro. Además, los clientes deben asegurarse de que el hardware y las redes de los usuarios finales estén debidamente asegurados.
+### Identidad
 
-El alcance total de la seguridad en la nube está diseñado para proteger lo siguiente, independientemente de sus responsabilidades:
+La gestión de identidades es fundamental para controlar quién puede acceder a los recursos en la nube y qué acciones pueden realizar. Esto se logra a través de varios mecanismos:
 
-- **Redes físicas**: enrutadores, energía eléctrica, cableado, controles de clima, etc.
-- **Almacenamiento de datos**: discos duros, etc.
-- **Servidores de datos**: hardware y software informáticos de la red central
-- **Plataformas de virtualización de equipos informáticos**: software de máquinas virtuales, máquinas anfitrionas y máquinas invitadas
-- **Sistemas operativos (OS)**: software que soporta todas las funciones informáticas
-- **Middleware**: gestión de la interfaz de programación de aplicaciones (API),
-- **Entornos de ejecución**: ejecución y mantenimiento de un programa en ejecución
-- **Datos**: toda la información almacenada, modificada y a la que se ha accedido
-- **Aplicaciones**: servicios tradicionales de software (correo electrónico, software de impuestos, paquetes de productividad, etc.)
-- **Hardware de usuario final**: computadoras, dispositivos móviles, dispositivos de Internet de las cosas (IoT), etc.
+- **Autenticación Multifactorial (MFA):** 
+  - Añade una capa extra de seguridad al requerir más de un método de verificación de identidad. Esto puede incluir contraseñas, huellas digitales, códigos enviados a dispositivos móviles, etc. MFA ayuda a prevenir accesos no autorizados incluso si las credenciales son comprometidas.
 
-Con la informática en la nube, la propiedad de estos componentes puede variar ampliamente. Esto puede hacer que no esté claro el alcance de las responsabilidades de seguridad del cliente. Dado que asegurar la nube puede parecer diferente en función de quién tiene autoridad sobre cada componente, es importante entender cómo se suelen agrupar.
+- **Single Sign-On (SSO):** 
+  - Permite a los usuarios acceder a múltiples aplicaciones con una sola autenticación. Esto simplifica el proceso de inicio de sesión y mejora la experiencia del usuario al tiempo que centraliza la gestión de identidades.
 
-Para simplificar, los componentes informáticos en la nube están asegurados desde dos puntos de vista principales:
+- **Control de Acceso Basado en Roles (RBAC):** 
+  - Asigna permisos y accesos a los usuarios en función de sus roles dentro de la organización. Esto garantiza que los empleados solo tengan acceso a los recursos necesarios para su función, minimizando el riesgo de accesos innecesarios.
 
-## **Los tipos de servicios en la nube**
+### Protección de Datos
 
-son servicios ofrecidos por proveedores externos como módulos utilizados para crear el entorno de la nube. Dependiendo del tipo de servicio, se puede gestionar un grado diferente de los componentes dentro del servicio:
+Proteger los datos almacenados y transferidos en la nube es una prioridad para garantizar la confidencialidad e integridad de la información:
 
-- **El núcleo de cualquier servicio de la nube de terceros** implica que el proveedor administre la red física, el almacenamiento de datos, los servidores de datos y las plataformas de virtualización de los ordenadores. El servicio se almacena en los servidores del proveedor y se virtualiza a través de su red administrada internamente para entregarse a los clientes para su acceso remoto. Esto transfiere los costes de hardware y otras infraestructuras para proporcionar a los clientes acceso a sus necesidades informáticas desde cualquier lugar a través de su conexión a Internet.
-- **Los servicios en la nube de software como servicio (SaaS)** proporcionan a los clientes acceso a aplicaciones que están puramente alojadas y se ejecutan en los servidores del proveedor. Los proveedores administran las aplicaciones, los datos, el tiempo de ejecución, el middleware y el sistema operativo. Los clientes solamente se encargan de obtener y utilizar las aplicaciones. *Algunos ejemplos de SaaS incluyen Google Drive, Slack, Salesforce, Microsoft 365, Cisco WebEx y Evernote.*
-- **Los servicios en la nube de plataforma como servicio** proporcionan a los clientes un host para el desarrollo de sus propias aplicaciones, que se ejecutan dentro del propio espacio “sandbox” del cliente en los servidores del proveedor. Los proveedores administran el tiempo de ejecución, el middleware y el sistema operativo. Los clientes se encargan de gestionar sus aplicaciones, datos, acceso de usuarios, dispositivos de usuarios finales y redes de usuarios finales. *Algunos ejemplos de PaaS incluyen Google App Engine y Windows Azure.*
-- **Los servicios en la nube de infraestructura como servicio (IaaS)** ofrecen a los clientes hardware y plataformas de conectividad remota para alojar la mayor parte de sus tareas informáticas, incluido el sistema operativo. Los proveedores solo administran los servicios básicos en la nube. Los clientes se encargan de asegurar todo lo que se apila en un sistema operativo, incluidas las aplicaciones, los datos, los tiempos de ejecución, el middleware y el propio sistema operativo. Además, los clientes deben gestionar el acceso de los usuarios, los dispositivos de usuarios finales y las redes de usuarios finales. *Algunos ejemplos de IaaS incluyen Microsoft Azure, Google Compute Engine (GCE) y Amazon Web Services (AWS).*
+- **Cifrado:**
+  - **En tránsito:** Protege los datos mientras se mueven a través de las redes utilizando protocolos como SSL/TLS. Esto asegura que los datos no puedan ser interceptados y leídos por terceros.
+  - **En reposo:** Cifra los datos almacenados en discos o bases de datos para que no sean accesibles sin la clave de cifrado adecuada. Esto es crucial para proteger los datos en caso de un acceso no autorizado o robo de hardware.
 
-## **Los entornos de la nube**
+### Seguridad de la Infraestructura
 
-Son modelos de implementación en los que uno o más servicios en la nube crean un sistema para los usuarios finales y las empresas. Estos segmentan las responsabilidades de gestión, incluida la seguridad, entre los clientes y los proveedores.
+La seguridad de la infraestructura implica proteger los componentes físicos y virtuales que componen la nube:
 
-Los entornos de la nube que se utilizan en la actualidad son:
+- **Segmentación de Red:**
+  - Divide la red en segmentos más pequeños y seguros para aislar diferentes partes de la infraestructura. Esto limita el alcance de posibles ataques y facilita la implementación de medidas de seguridad específicas para cada segmento.
 
-- **Entornos** de **nubes públicas**, compuestos por servicios en la nube de varios usuarios en los que un cliente comparte los servidores de un proveedor con otros clientes, como un edificio de oficinas o un espacio de trabajo. Se trata de servicios de terceros dirigidos por el proveedor para dar acceso a los clientes a través de la web.
-- **Entornos** de **nubes privadas** de terceros, que se basan en el uso de un servicio en la nube que proporciona al cliente el uso exclusivo de su propia nube. Estos entornos de un solo usuario normalmente son propiedad de un proveedor externo, y se administran y operan fuera del sitio.
-- **Entornos de nubes privadas internas**, que también se componen de servidores de servicios en la nube de un solo usuario, pero se operan desde su propio centro de datos privado. En este caso, este entorno de la nube es gestionado por las propias empresas para permitir la configuración completa de cada elemento.
-- **Entornos de varias nubes**, que incluyen el uso de dos o más servicios en la nube de proveedores independientes. Estos pueden ser cualquier combinación de servicios públicos o privados en la nube.
-- **Entornos** de **nubes híbridas**, que consisten en el uso de una combinación de nube privada de terceros o centro de datos de nubes privadas in situ con una o más nubes públicas.
+- **Monitoreo y Detección de Intrusos:**
+  - Implementa sistemas que detectan actividades sospechosas o no autorizadas dentro de la infraestructura. Las soluciones de detección de intrusos (IDS) y prevención de intrusos (IPS) ayudan a identificar y mitigar amenazas antes de que causen daño.
 
-> 💡 Al enfocarlo desde esta perspectiva, podemos entender que la seguridad basada en la nube puede ser un poco diferente según el tipo de espacio de nubes en el que trabajen los usuarios. No obstante, los efectos se sienten tanto en los clientes individuales como en las empresas.
+### Seguridad de Aplicaciones
 
-## **¿Cómo funciona la seguridad en la nube?**
+Asegurar las aplicaciones que se ejecutan en la nube es esencial para proteger contra vulnerabilidades y ataques:
 
-Cada medida de seguridad en la nube funciona para lograr uno o más de los siguientes objetivos:
+- **Pruebas de Vulnerabilidades:**
+  - Realizar evaluaciones regulares para identificar y corregir debilidades en las aplicaciones. Esto incluye escaneo de código estático, pruebas de penetración y análisis de seguridad automatizado.
 
-- Permitir la recuperación de datos en caso de pérdida de datos
-- Proteger el almacenamiento y las redes contra el robo de datos malicioso
-- Evitar los errores humanos o negligencias que causan la fuga de datos
-- Reducir el impacto de cualquier compromiso de datos o sistemas
+- **Actualizaciones y Parches:**
+  - Mantener las aplicaciones y sistemas actualizados es fundamental para protegerse contra nuevas amenazas. Los parches corrigen vulnerabilidades conocidas y mejoran la seguridad general del sistema.
 
-### **La seguridad de los datos**
+### Cumplimiento y Gobernanza
 
-Es un aspecto de la seguridad en la nube que implica el fin técnico de la prevención de amenazas. Existen herramientas y tecnologías que permiten a los proveedores y los clientes insertar barreras entre el acceso y la visibilidad de los datos confidenciales. Entre ellas, el *cifrado* es una de las herramientas más potentes disponibles. El cifrado codifica los datos para que solo los pueda leer alguien que tenga la clave de cifrado. En caso de pérdida o robo de los datos, no será posible leerlos ni interpretarlos. *Las protecciones para el tráfico de datos*, tales como las redes privadas virtuales (VPN), también ganan importancia en las redes de la nube.
+La gobernanza y el cumplimiento legal garantizan que las prácticas de seguridad en la nube se alineen con las regulaciones y políticas internas:
 
-### **La gestión de identidades y accesos (IAM)**
+- **Políticas de Seguridad:**
+  - Definir políticas claras que establezcan las reglas y procedimientos para la protección de datos y el acceso a la nube. Estas políticas deben ser comunicadas y aplicadas de manera consistente en toda la organización.
 
-Se refiere a los privilegios de acceso que se ofrecen a las cuentas de los usuarios. La gestión de la autenticación y la autorización de las cuentas de usuario también se aplica aquí. *Los controles de acceso* son fundamentales para restringir a los usuarios, tanto a los legítimos como a los maliciosos, el acceso y el compromiso de los datos confidenciales y sistemas. La gestión de contraseñas, la autenticación de varios factores y otros métodos entran en el alcance de la IAM.
+- **Regulaciones (GDPR, HIPAA, etc.):**
+  - Cumplir con las normativas legales específicas de la industria es crucial para evitar sanciones y proteger la reputación de la empresa. El GDPR, por ejemplo, establece requisitos estrictos para la protección de datos personales en la Unión Europea.
 
-### **La gobernanza**
+### Continuidad del Negocio y Recuperación ante Desastres
 
-Se centra en las políticas de prevención, detección y mitigación de amenazas. Con PYMES y empresas, aspectos como la *información sobre amenazas* pueden ayudar a rastrear y priorizar las amenazas para mantener los sistemas esenciales vigilados cuidadosamente. Sin embargo, incluso los clientes individuales de la nube podrían beneficiarse de la valoración de las *políticas y la formación sobre el comportamiento seguro del usuario*. Estas se aplican sobre todo en los entornos empresariales, pero las normas para el uso seguro y la respuesta a las amenazas pueden ser útiles para cualquier usuario.
+La planificación para la continuidad del negocio y la recuperación ante desastres asegura que una empresa pueda seguir operando después de un incidente:
 
-### **La planificación de la retención de datos (DR) y la continuidad del negocio (BC)**
+- **Respaldos:**
+  - Realizar copias de seguridad regulares de datos críticos para garantizar que puedan ser recuperados en caso de pérdida o daño. Las copias de seguridad deben almacenarse de manera segura, tanto localmente como en ubicaciones remotas.
 
-Implica medidas técnicas de recuperación de desastres en caso de pérdida de datos. Los métodos para la *redundancia de datos*, como las copias de seguridad, son fundamentales para cualquier plan de DR y BC. Además, disponer de sistemas técnicos para garantizar la continuidad de las operaciones puede ser de gran ayuda. Las plataformas para *probar la validez de las copias de seguridad* y las instrucciones detalladas de recuperación de los empleados son igual de valiosas para un plan de BC completo.
-
-### **El cumplimiento legal**
-
-Gira en torno a la protección de la privacidad del usuario, tal como lo establecen los órganos legislativos. Los gobiernos asumieron la importancia de proteger la información de los usuarios privados para que no sea explotada con fines de lucro. Por lo tanto, las empresas deben seguir los reglamentos para cumplir con estas políticas. Uno de los enfoques es el uso del *enmascaramiento de datos*, que oculta la identidad dentro de los datos mediante métodos de cifrado*.*
+- **Planes de Recuperación:**
+  - Desarrollar y probar planes de recuperación detallados que describan los pasos a seguir para restablecer las operaciones normales después de un desastre. Esto incluye asignar roles y responsabilidades, establecer procesos de comunicación y definir métricas de tiempo de recuperación.
 
 ## **¿Qué hace que la seguridad en la nube sea diferente?**
 
@@ -128,225 +126,6 @@ Resolver la mayoría de los problemas de seguridad en la nube significa que tant
 - Educación sobre seguridad del usuario, tanto a nivel de comportamiento como a nivel técnico.
 
 Por último, los proveedores y los usuarios de la nube deben tener transparencia y responsabilidad para garantizar que ambas partes estén seguras.
-
-## **Riesgos de seguridad en la nube**
-
-¿Cuáles son los problemas de seguridad en la informática en la nube? Si no es consciente de su existencia ¿cómo se supone que va a tomar las medidas adecuadas? Después de todo, una seguridad débil en la nube puede exponer a los usuarios y proveedores a todo tipo de amenazas de ciberseguridad. Algunas amenazas comunes a la seguridad en la nube incluyen:
-
-- **Riesgos de la infraestructura basada en la nube**, incluidas las plataformas informáticas heredadas incompatibles y las interrupciones de los servicios de almacenamiento de datos de terceros.
-- **Amenazas internas debidas a errores humanos** como, por ejemplo, la mala configuración de los controles de acceso de los usuarios.
-- **Amenazas externas** causadas casi exclusivamente por actores maliciosos, como malware, phishing y ataques de DDoS.
-
-El mayor riesgo que plantea la nube es que no existe un perímetro. La ciberseguridad tradicional se centraba en proteger el perímetro, pero los entornos en la nube están altamente conectados, lo que conlleva que las interfaces de programación de aplicaciones (API) sean inseguras y los secuestros de cuentas puedan plantear problemas reales. Frente a los riesgos para la seguridad que afectan a la computación en la nube, los profesionales de la ciberseguridad deben adoptar un planteamiento más centrado en los datos.
-
-La interconexión también plantea problemas para las redes. Los actores maliciosos a menudo acceden a las redes debido a credenciales comprometidas o débiles. Una vez que un hacker consigue acceder a una red, puede propagarse fácilmente y utilizar las interfaces mal protegidas de la nube para localizar datos en diferentes bases de datos y nodos. Incluso puede utilizar sus propios servidores en la nube como destino donde exportar y almacenar los datos robados. La seguridad tiene que estar en la nube y no servir como elemento exclusivo para proteger frente al acceso a los datos que allí se almacenan.
-
-El almacenamiento de los datos por parte de terceros y el acceso a través de Internet también plantean sus propias amenazas. Si, por algún motivo, estos servicios se interrumpen, podría perderse el acceso a los datos. Por ejemplo, un corte en la red telefónica podría significar que no se puede acceder a la nube en un momento esencial. Alternativamente, un corte de energía podría afectar al centro de datos donde se almacenan los datos, lo que podría conllevar una pérdida de datos permanente.
-
-Dicho tipo de interrupciones podrían tener repercusiones a más largo plazo. Un reciente corte del suministro eléctrico en una instalación de datos en la nube de Amazon resultó en la pérdida de los datos de algunos clientes debido a los desperfectos que se ocasionaron en el hardware de los servidores. Este es un buen ejemplo de por qué conviene tener copias de seguridad locales de al menos algunos de sus datos y aplicaciones.
-
-## **¿Por qué es importante la seguridad en la nube?**
-
-En la década de 1990, los datos comerciales y personales se almacenaban y gestionaban a nivel local, y la seguridad también era local. Los datos se encontraban en el almacenamiento interno de un PC en casa, y en los servidores de la empresa, si trabajaba para una empresa.
-
-La introducción de la tecnología de la nube ha obligado a todos a reevaluar la ciberseguridad. Los datos y aplicaciones pueden estar flotando entre sistemas locales y remotos, y estar siempre accesibles por Internet. Si accede a Google Docs desde el teléfono o PC esos datos pueden guardarse en cualquier parte.
-
-De ahí que protegerlos sea más difícil que cuando solo se trataba de impedir que usuarios no deseados accedieran a su red. La seguridad en la nube requiere ajustar algunas prácticas informáticas previas, pero se ha vuelto más esencial por dos razones clave:
-
-### **Comodidad por encima de la seguridad.**
-
-La informática en la nube está creciendo de forma exponencial como método principal tanto para el lugar de trabajo como para el uso individual. La innovación ha permitido que la nueva tecnología se implemente más rápido de lo que avanzan las normas de seguridad de la industria, lo que hace que los usuarios y los proveedores tengan más responsabilidad a la hora de considerar los riesgos de la accesibilidad.
-
-### **Centralización y almacenamiento para múltiples usuarios.**
-
-Cada componente, desde la infraestructura básica hasta pequeños datos como correos electrónicos y documentos, puede ahora localizarse y accederse de forma remota e ininterrumpida a través de conexiones basadas en la web. Toda esta recopilación de datos en los servidores de unos pocos proveedores de servicios importantes puede ser muy peligrosa. Los actores de amenazas pueden atacar ahora a grandes centros de datos de varias empresas y causar importantísimas filtraciones de datos.
-
-Lamentablemente, los actores maliciosos se dan cuenta del valor de los objetivos basados en la nube y los investigan cada vez más para encontrar sus vulnerabilidades de seguridad. A pesar de que los proveedores de la nube asumen muchas funciones de seguridad de los clientes, no lo gestionan todo. Esto deja incluso a los usuarios no técnicos con el deber de auto educarse sobre la seguridad en la nube.
-
-Dicho esto, los usuarios no están solos en lo que respecta a las responsabilidades de seguridad en la nube. Ser consciente del alcance de sus deberes de seguridad ayudará a que todo el sistema esté mucho más seguro.
-
-## **Preocupaciones de la seguridad en la nube: privacidad**
-
-Se han promulgado nuevas leyes para ayudar a proteger a los usuarios finales frente a la venta y el intercambio de sus datos confidenciales. El [Reglamento general de protección de datos (GDPR)](https://gdpr-info.eu/) y la [Ley de portabilidad y responsabilidad del seguro médico (HIPAA)](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act) cumplen cada uno con sus propios deberes de protección de la privacidad, al limitar la forma en que se pueden almacenar los datos y acceder a ellos.
-
-Se han utilizado métodos de administración de identidades, como el enmascaramiento de datos, para separar las características identificables de los datos de los usuarios, a fin de cumplir con el GDPR. En lo que respecta al cumplimiento de la HIPAA, las empresas como los centros de atención médica deben asegurarse de que su proveedor también haga su parte en cuanto a la restricción del acceso a los datos.
-
-La [ley CLOUD](https://www.congress.gov/bill/115th-congress/house-bill/4943) otorga a los proveedores de servicios en la nube sus propias limitaciones legales que deben cumplir, potencialmente a costa de la privacidad del usuario. La ley federal de EE. UU. ahora permite a las fuerzas policiales a nivel federal exigir los datos solicitados de los servidores del proveedor de la nube. Si bien esto puede permitir que las investigaciones procedan de manera eficaz, puede eludir algunos derechos a la privacidad y causar un posible abuso de poder.
-
-## **Cómo asegurar la nube**
-
-Por suerte, existen muchas opciones para proteger sus propios datos en la nube. Veamos algunos de los métodos más conocidos.
-
-El **cifrado** es una de las mejores maneras de proteger sus sistemas de informática en la nube. Existen diversas maneras de usar el cifrado, y puede ofrecerlas el proveedor de servicios en la nube o un proveedor de soluciones de seguridad en la nube independiente:
-
-- **Cifrado de las comunicaciones** con la nube en su totalidad.
-- **Cifrado de datos especialmente confidenciales**, como las credenciales de las cuentas.
-- **Cifrado de extremo a extremo** de todos los datos que se suben a la nube.
-
-En la nube, los datos corren más riesgo de ser interceptados cuando están en movimiento. Cuando se están trasladando entre dos ubicaciones de almacenamiento o cuando se transmiten a su aplicación local, los datos son más vulnerables. Por este motivo, el cifrado de extremo a extremo es la mejor solución de seguridad en la nube para los datos esenciales. Con el cifrado de extremo a extremo, en ningún momento su comunicación se pone a disposición de personas que no dispongan de la clave de cifrado.
-
-Puede cifrar los datos usted mismo antes de guardarlos en la nube o usar un proveedor de servicios en la nube que los cifre como parte de los servicios que le ofrece. Sin embargo, si solo utiliza la nube para almacenar sus datos no sensibles, como, por ejemplo, el material gráfico o los vídeos de su empresa, el cifrado de extremo a extremo podría ser excesivo. Por otro lado, en el caso de la información financiera, confidencial o comercialmente sensible, este tipo de cifrado es vital.
-
-Si utiliza cifrado, recuerde que es fundamental manejar de manera segura su clave de cifrado. Guarde una copia de seguridad de la clave y, si es posible, no la guarde en la nube. Asimismo, puede que sea de utilidad cambiar las claves de cifrado de manera periódica para que, si alguien consigue acceder a ellas, quede desconectado del sistema cuando realice el cambio.
-
-La **configuración** es otra herramienta de enorme utilidad en la seguridad en la nube. Muchas infracciones de datos en la nube se deben a vulnerabilidades básicas, tales como errores de configuración. Al prevenirlas, está disminuyendo enormemente el riesgo de seguridad en la nube. Si no se siente seguro/a al hacerlo, plantéese utilizar un proveedor de soluciones de seguridad en la nube.
-
-A continuación le indicamos algunos de los principios que puede seguir:
-
-1. **Nunca deje sin modificar la configuración predeterminada**. Utilizar la configuración predeterminada permite al hacker entrar por la puerta principal: es como dejarse la llave puesta en la puerta de casa. Evite hacerlo para complicar el acceso a su sistema.
-2. **Nunca deje un sector de almacenamiento en la nube abierto.** Los hackers podrían ver el contenido con solo abrir la URL del sector de almacenamiento.
-3. **Si el proveedor de servicios en la nube le proporciona controles de seguridad que puede activar**, utilícelos. No seleccionar las opciones de seguridad correctas podría ponerle en riesgo.
-
-## **Los consejos básicos de ciberseguridad**
-
-También se deben incorporar en cualquier implementación de la nube. Si utiliza la nube, conviene que no pase por alto las prácticas estándar de ciberseguridad. Merece la pena que tenga en cuenta los siguientes aspectos si desea contar con la máxima seguridad en Internet:
-
-- **Utiliza contraseñas seguras: c**ombinar letras, números y caracteres especiales hará que resulte más difícil descifrar una contraseña. Procure evitar opciones previsibles, como reemplazar una S por el símbolo del dólar ($). Cuanto más aleatoria sea la secuencia de una contraseña, mejor.
-- **Utiliza un administrador de contraseñas:** podrás asignar a cada aplicación, base de datos y servicio que utilice una contraseña propia, sin necesidad de recordarlas todas. No obstante, es esencial que se asegure de proteger su administrador de contraseñas con una contraseña maestra segura.
-- **Protege todos los dispositivos:** para acceder a los datos en la nube, incluidos los smartphones y tablets. Si tienes los datos sincronizados en varios dispositivos, cualquiera de ellos podría ser un eslabón débil que ponga toda su huella digital en riesgo.
-- **Haz una copia de seguridad de sus datos periódicamente:** para que, en caso de producirse un apagón en la nube o una pérdida de datos en su proveedor de servicios en la nube, pueda restaurarlos completamente. Puede guardar la copia de seguridad en un equipo en su casa, en un disco duro externo, o incluso de nube a nube, siempre y cuando esté seguro/a de que los dos proveedores de nube no comparten la infraestructura.
-- **Modifica los permisos:** para evitar que ningún dispositivo o persona acceda a todos sus datos a menos que sea necesario. Por ejemplo, las empresas lo hacen configurando los permisos de sus bases de datos. Si tiene una red doméstica, utilice redes de invitados para sus hijos, para sus dispositivos IoT y para la televisión. Guarde su permiso «acceso a todas las zonas» para su uso personal.
-- **Protégete con un buen software antivirus y antimalware: l**os hackers podrán acceder fácilmente a su cuenta si un malware se abre camino en su sistema.
-- **Evita acceder a sus datos a través de una Wi-Fi pública:** sobre todo si no está protegida por una autenticación segura. Utilice una red privada virtual (VPN) para proteger su acceso a la nube.
-
-## **Almacenamiento y uso compartido de archivos en la nube**
-
-Los riesgos de seguridad de la informática en la nube pueden afectar a todos, desde las empresas hasta los consumidores individuales. Los usuarios pueden utilizar la nube para guardar archivos y copias de seguridad (en servicios como Dropbox), así como para servicios como el correo electrónico y aplicaciones de ofimática, o para rellenar formularios de impuestos y llevar a cabo su contabilidad.
-
-También deberían pensar en cómo comparte los datos en la nube con los demás, sobre todo si trabaja como asesor o por cuenta propia. Si bien compartir archivos en Google Drive u otro servicio puede ser un modo fácil de trabajar con clientes, debe asegurarse de que está gestionando correctamente los permisos. Después de todo, querrá asegurarse de que sus diferentes clientes no puedan ver los nombres o los directorios de los demás ni alterar sus archivos.
-
-Recuerda que muchos de estos servicios de almacenamiento en la nube de uso generalizado no cifran los datos. Si quiere mantener sus datos seguros mediante el cifrado, deberá usar un software específico para cifrarlos antes de cargarlos. A continuación, tendrás que facilitar a sus clientes una clave, ya que, de otro modo, no podrán leer los archivos.
-
-## **Comprueba la seguridad de su proveedor de servicios en la nube**
-
-La seguridad debe ser uno de los principales puntos a considerar a la hora de elegir un proveedor de seguridad en la nube. La ciberseguridad de sus datos no es solo asunto suyo; un proveedor de servicios en la nube debe velar por crear un entorno seguro en la nube y compartir la responsabilidad por la seguridad de los datos.
-
-Desafortunadamente, las empresas de la nube no le darán los planos de seguridad de su red. Esto equivaldría a que un banco le diese sus datos de seguridad, incluidos los números de combinación de la caja fuerte.
-
-Sin embargo, obtener las respuestas correctas a algunas preguntas básicas le dará una mayor confianza de que sus activos en la nube estarán seguros. Además, será más consciente de si su proveedor ha abordado adecuadamente los riesgos obvios de seguridad en la nube.
-
-Te recomendamos plantearle a tu proveedor cloud algunas de las siguientes preguntas:
-
-- **Auditorías de seguridad**: “¿realiza regularmente auditorías externas de su seguridad?”
-- **Segmentación de los datos:** "¿los datos de los clientes se segmentan de forma lógica y se mantienen separados?"
-- **Cifrado:** "¿están cifrados los datos? ¿Qué partes de los datos están cifradas?”
-- **Retención de datos del cliente:** "¿qué políticas de retención de datos de clientes se están siguiendo?"
-- **Retención de datos del usuario:** "¿mis datos se borrarán correctamente si dejo de utilizar su servicio en la nube?"
-- **Gestión del acceso:**"¿cómo se controlan los derechos de acceso?"
-
-También querrás asegurarse de haber leído las condiciones de servicio (TOS) de su proveedor. Leer las condiciones de servicio es esencial para comprender si está recibiendo exactamente lo que quiere y necesita.
-
-Asegúrate de comprobar que también conoce todos los servicios utilizados con su proveedor. Si sus archivos están en Dropbox o guarda una copia de seguridad en iCloud (el almacenamiento en la nube de Apple), podría significar perfectamente que se almacenan en servidores de Amazon. Por lo tanto, le convendría comprobar AWS, además del servicio que utiliza directamente.
-
-### **Soluciones de seguridad en la nube híbrida**
-
-Los servicios de seguridad en la nube híbrida pueden ser una opción muy inteligente para los clientes en los espacios de las PYMES y las empresas. Son más viables para las aplicaciones de las PYMES y las empresas, ya que generalmente son demasiado complejos para el uso personal. No obstante, estas empresas podrían utilizar la combinación de escala y accesibilidad de la nube con el control in situ de los datos específicos. Estos son algunos de los beneficios de seguridad de los sistemas de seguridad en la nube híbrida:
-
-### **La segmentación de los servicios**
-
-Puede ayudar a una empresa a controlar la forma en que se accede a sus datos y se almacenan. Por ejemplo, guardar los datos más confidenciales in situ mientras se transfieren otros datos, aplicaciones y procesos a la nube puede ayudar a separar correctamente en capas la seguridad. Además, la separación de los datos puede mejorar la capacidad de su empresa para cumplir legalmente con los reglamentos de datos.
-
-### **La redundancia**
-
-También se puede lograr a través de entornos de la nube híbrida. Al utilizar las operaciones diarias de los servidores de la nube pública y al hacer copias de seguridad de los sistemas en los servidores de datos locales, las empresas pueden mantener sus operaciones en movimiento en caso de que un centro de datos se desconecte o se infecte con ransomware.
-
-### **Soluciones de seguridad en la nube para PYMES**
-
-Si bien las empresas pueden insistir en tener una nube privada, el equivalente en Internet a tener su propio campus o edificio de oficinas, las personas, a título individual, así como las pequeñas empresas, tienen que trabajar con servicios en la nube pública. Vendría a ser como compartir una oficina o vivir en un edificio con centenares de vecinos. De ahí que su seguridad deba ser una de sus principales preocupaciones.
-
-En las aplicaciones de las pequeñas y medianas empresas, descubrirá que la seguridad en la nube reside en gran medida en los proveedores públicos que utiliza. Sin embargo, hay medidas que puede tomar para mantenerse a salvo:
-
-- **Segmentación de datos de varios usuarios:** las empresas deben asegurarse de que ningún otro cliente de su proveedor de servicios en la nube pueda acceder a sus datos. Bien sea que estén alojados en servidores segmentados o cuidadosamente codificados, asegúrese de que se aplique correctamente las medidas de segmentación adecuadas.
-- **Controles de acceso de los usuarios:** los permisos de control pueden significar que el acceso de los usuarios se reduzca a un nivel que resulte incómodo. Sin embargo, ser restrictivo y trabajar de forma segura para encontrar un equilibrio puede ser mucho más seguro que permitir que los permisos sin asignar se filtren en su red.
-- **Cumplimiento legal de los datos:** mantener los datos de conformidad con los reglamentos internacionales como el GDPR es crítico para evitar importantes sanciones y daños a la reputación. Asegúrese de que las medidas como el enmascaramiento de datos y la clasificación de datos confidenciales sean una prioridad para su empresa.
-- **Escalada cuidadosa de los sistemas de la nube:** con la rápida implementación de los sistemas de la nube, asegúrese de tomarse el tiempo necesario para revisar los sistemas de su empresa para obtener seguridad por encima de la comodidad. Los servicios en la nube pueden extenderse rápidamente hasta el punto de carecer de reglamento.
-
-## **Soluciones de seguridad en la nube para empresas**
-
-Dado que hoy en día más del 90 % de las grandes empresas utilizan la computación en la nube, la seguridad en la nube se ha convertido en un aspecto esencial de la ciberseguridad corporativa. Los servicios en la nube privada y otras infraestructuras más costosas pueden ser viables para las organizaciones de nivel empresarial. Sin embargo, deberá asegurarse de que su TI interna se encargue de mantener toda la superficie de sus redes.
-
-Para el uso de empresas a gran escala, la seguridad en la nube puede ser mucho más flexible si realiza algunas inversiones en infraestructura. Existen algunos principios fundamentales que debe tener en cuenta:
-
-- **Administra activamente sus cuentas y servicios:** si ya no utilizas un servicio o software, desactívelo y ciérrelo correctamente. Los hackers pueden acceder fácilmente a toda una red de la nube a través de cuentas obsoletas e inactivas por medio de vulnerabilidades sin parches.
-- **Autenticación de varios factores (MFA):** podría tratarse de datos biométricos, como huellas dactilares, o de una contraseña y el envío de un código independiente a su dispositivo móvil. Lleva más tiempo, pero es útil para proteger los datos más sensibles.
-- **Evalúa los costes y los beneficios de la nube híbrida:** la segmentación de los datos es mucho más importante en el uso empresarial, ya que manejará cantidades mucho mayores de datos. Debe asegurarse de que sus datos estén separados de los de otros usuarios, bien sea cifrados por separado o segmentados lógicamente para un almacenamiento aparte. Los servicios en la nube híbrida pueden ser de gran ayuda.
-- **Desconfía de la TI en la sombra**: es esencial educar a sus empleados para evitar el uso de servicios en la nube no autorizados en sus redes o para el trabajo de la empresa. Si se comunican datos confidenciales or canales no seguros, su empresa puede estar expuesta a actores maliciosos o a problemas jurídicos.
-
-Por lo tanto, bien sea un usuario individual, un usuario de una PYME o incluso un usuario de la nube a nivel empresarial, es importante asegurarte de que su red y sus dispositivos sean lo más seguros posible. Esto comienza con una buena comprensión de la ciberseguridad básica a nivel de usuario individual, así como con la garantía de que su red y todos los dispositivos están protegidos por una solución de seguridad robusta diseñada para la nube.
-
-## **¿Qué nivel de seguridad tienen las nubes públicas frente a las privadas?**
-
-![Seguridad en la nube](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/cloud-security/cloud-security-image-1.jpg)
-
-Los servicios en la nube pública los presta un proveedor externo desde un depósito virtualizado de recursos en el que varios clientes o "inquilinos" pueden alquilar recursos informáticos en el mismo servidor físico. Esto puede añadir un ligero riesgo de seguridad a los activos de un cliente que se ejecutan en la nube. Además, los equipos de seguridad tienen una visibilidad limitada de las cargas de trabajo que se ejecutan en soluciones de nube pública, lo que dificulta garantizar la protección.
-
-Por otro lado, una nube privada puede ofrecer un mayor control y seguridad, ya que todos los recursos de la nube están dedicados a un único cliente. Los clientes de nube privada tienen acceso a servidores bare metal dentro de la nube que ayudan a garantizar que no compitan por ancho de banda con otros clientes y evitan los riesgos de seguridad que otros clientes pueden representar. Además, los equipos de seguridad tienen una mayor visibilidad de la infraestructura subyacente de una nube privada.
-
-## **¿Qué son las amenazas para la seguridad de nube empresarial?**
-
-Los entornos de nube empresarial se enfrentan a una amplia variedad de desafíos y posibles amenazas de seguridad.
-
-- **Configuración incorrecta**. Si los ajustes de seguridad se configuran incorrectamente o no se implementan, puede provocar que los agentes maliciosos aprovechen las vulnerabilidades y obtengan fácilmente acceso no autorizado a los datos, las aplicaciones y los sistemas.
-- **Ataques de denegación de servicio (DoS)**. Los ataques DoS y los ataques distribuidos de denegación de servicio (DDoS) están diseñados para ralentizar o bloquear un equipo o red. Los ataques DoS suelen ser un preámbulo de ataques más devastadores.
-- **Ciberataques**. Las amenazas de ciberseguridad como el ransomware, el malware y las filtraciones de datos, son comunes y potentes, lo que a menudo da lugar a daños de millones de dólares para las empresas.
-- **API desprotegidas**. Cuando las APIs que permiten que los programas de software se comuniquen entre sí quedan desprotegidas, suponen un punto de entrada fácil para los agentes maliciosos.
-- **Robo de cuentas**. Los atacantes pueden utilizar credenciales robadas para acceder y secuestrar una cuenta de usuario, haciéndose pasar por el usuario para robar dinero o acceder a datos confidenciales.
-- **Filtraciones de datos**. Las filtraciones de datos maliciosas o accidentales pueden poner en peligro la seguridad de los datos y exponer información confidencial o datos de clientes almacenados en la nube.
-- **Error humano**. Las investigaciones demuestran que la mayoría de los fallos de seguridad en la nube son el resultado de errores humanos, como visitar un sitio web malicioso, compartir credenciales de inicio de sesión, caer en una estafa de phishing o no [practicar una buena higiene de seguridad](https://www.gartner.com/smarterwithgartner/is-the-cloud-secure).
-
-## **¿Cuáles son los desafíos de la seguridad de nube empresarial?**
-
-- **Entornos de nube multicliente**. Los clientes en entornos de nube pública utilizan recursos de nube que pueden compartir un servidor físico con otros clientes o inquilinos, lo que aumenta la preocupación de que los activos de un cliente puedan verse comprometidos por ataques maliciosos contra otro inquilino.
-- **Falta de visibilidad**. La visibilidad puede ser un problema para las organizaciones que utilizan varios proveedores de nube. Este enfoque descentralizado de la gestión de la nube puede crear puntos ciegos, como terminales, cargas de trabajo y tráfico, que no se gestionan o protegen correctamente.
-- **TI en la sombra**. Con la tendencia a lugares de trabajo remotos e híbridos y el uso de dispositivos personales, existe un mayor riesgo de que los usuarios empleen TI en la sombra o recursos de nube no autorizados, ya que buscan acceder a los datos y recursos que necesitan para mantener su productividad.
-- **Cargas de trabajo dinámicas**. Las cargas de trabajo en la nube implican diversos procesos y recursos, como máquinas virtuales, contenedores, bases de datos, etc. Garantizar la protección de cada parte de la carga de trabajo puede ser una tarea compleja.
-- **Cumplimiento de normativas**. Los marcos normativos, como HIPAA y PCI DSS, tienen requisitos estrictos para el almacenamiento, uso y protección de los datos de los clientes y la información de los pacientes por parte de las empresas. Cuando los datos se almacenan en la nube, las organizaciones pueden encontrar más difícil garantizar el cumplimiento de los requisitos de residencia y soberanía de dichos datos.
-
-## **¿Cuál es el modelo de responsabilidad compartida para la seguridad empresarial?**
-
-La mayoría de los proveedores de servicios en la nube abordan la seguridad de nube empresarial con un modelo de responsabilidad compartida. En virtud de este acuerdo, el proveedor de nube es responsable de proteger la infraestructura subyacente que pone a disposición de los clientes como servicios en la nube, y el cliente es responsable de proteger cualquier parte del entorno de nube sobre la que tenga el control.
-
-Si los equipos de TI y las organizaciones no tienen claras sus responsabilidades en este modelo, puede dar lugar a brechas en los controles y programas de seguridad que los agentes maliciosos pueden aprovechar fácilmente.
-
-## **¿Cómo funciona la responsabilidad compartida en diferentes entornos de nube?**
-
-El nivel de responsabilidad que tienen las empresas para proteger sus activos en la nube depende del tipo de modelo de prestación de servicios en la nube. En las soluciones de infraestructura como servicio (IaaS), el proveedor de nube es responsable de proteger la infraestructura como los componentes de servidores, almacenamiento y red, mientras que el cliente es responsable de proteger las aplicaciones, los terminales, las cargas de trabajo y los datos.
-
-En las ofertas de plataforma como servicio (PaaS), el proveedor de nube protege todo el hardware y el software, mientras que el cliente es responsable de proteger todas las aplicaciones desarrolladas en la plataforma, así como los terminales, las cargas de trabajo y la seguridad de los usuarios y de la red. En las soluciones de software como servicio (SaaS), el proveedor de servicios en la nube protege toda la infraestructura y las aplicaciones, mientras que el cliente es responsable de proteger solo los terminales, las cargas de trabajo, los datos y la seguridad de los usuarios y la red.
-
-## **¿Cuáles son las claves de la seguridad de nube empresarial?**
-
-Para mantener una estrategia de seguridad sólida, la seguridad de nube empresarial requiere un enfoque multicapa de la estrategia de seguridad. Las soluciones de seguridad basada en la nube más comunes incluyen:
-
-- **Gestión de acceso e identidades**. Las soluciones de control de acceso sólido, permisos estrictos y autenticación multifactor dificultan a los atacantes el uso de credenciales robadas para acceder a los entornos de nube.
-- **Supervisión continua**. Las soluciones de seguridad que permiten a los equipos de TI supervisar continuamente las plataformas y los servicios en la nube pueden ayudar a identificar y corregir rápidamente las posibles amenazas.
-- **Seguridad de red de nube**. Las soluciones para segmentar los activos en la nube pueden reducir el impacto de una filtración. La tecnología de seguridad de red en la nube también puede supervisar el tráfico y proteger los datos y los activos digitales contra la explotación y el movimiento lateral.
-- **Protección de datos**. El cifrado de datos en tránsito y en reposo puede proteger los datos almacenados en la nube y simplificar el cumplimiento de una amplia gama de leyes y normativas.
-- **Inteligencia sobre amenazas**. El acceso a información actualizada sobre amenazas puede ayudar a las organizaciones a identificar y defenderse de las ciberamenazas emergentes.
-- **Agentes seguros de acceso a la nube (CASB)**. Un CASB se sitúa entre los clientes y sus servicios en la nube para ayudar a aplicar políticas de seguridad y añadir una capa de seguridad.
-- **Acceso de red Zero Trust (ZTNA)**. Las soluciones ZTNA proporcionan un acceso remoto seguro a los activos en la nube con cada solicitud, lo que garantiza que los usuarios o las aplicaciones que solicitan se autentican continuamente.
-
-## **¿Cuáles son las ventajas de la seguridad basada en la nube?**
-
-Las soluciones de seguridad basada en la nube proporcionan servicios de seguridad desde servidores en centros de datos remotos a través de una conexión a Internet. Con las soluciones basadas en la nube, las empresas pueden evitar el coste y el esfuerzo de implementar equipos en entornos locales. Los equipos de seguridad pueden gestionar los programas de seguridad de forma remota desde un único panel, desde cualquier parte del mundo. Las soluciones de seguridad basada en la nube ofrecen una escalabilidad mucho mayor que la tecnología de entorno local, y elegir soluciones basadas en la nube ayuda a preparar los sistemas de seguridad para el futuro.
-
-## **Preguntas frecuentes**
-
-**¿Son más seguras las nubes públicas o las privadas?**
-
-Con los servicios de nube pública, varios clientes o inquilinos pueden compartir recursos informáticos en el mismo servidor físico, lo que aumenta el riesgo de los activos en la nube. Además, los equipos de seguridad tienen una visibilidad limitada de las cargas de trabajo que se ejecutan en soluciones de nube pública, lo que dificulta garantizar la protección. Los entornos de nube privada más control y seguridad, ya que todos los recursos de la nube están dedicados a un único cliente y los equipos de seguridad tienen una mayor visibilidad de la infraestructura subyacente de una arquitectura de nube privada.
-
-**¿Qué es la optimización de la nube?**
-
-La optimización de la nube es el proceso de determinar la mejor forma de elegir y asignar recursos de nube para maximizar el rendimiento, racionalizar los recursos y minimizar los costes. Al ayudar a mitigar la propagación no controlada de instancias, servicios o proveedores de nube en una organización, la optimización de la nube puede ayudar a mejorar la estrategia de seguridad.
-
-**¿Cuáles son las ventajas de la seguridad basada en la nube?**
-
-Las soluciones de seguridad basada en la nube proporcionan servicios de seguridad desde servidores en centros de datos remotos a través de una conexión a Internet. Con las soluciones basadas en la nube, las empresas pueden evitar el coste y el esfuerzo de implementar equipos en entornos locales.
-
-**¿Son las nubes privadas más seguras que los servicios de nube pública?**
-
-Las nubes públicas y privadas son formas de almacenar datos en Internet. Los servicios en la nube pública se comparten entre varios clientes, lo que significa que pueden ser menos seguros. Las nubes privadas son solo para un cliente y le proporcionan más control y seguridad.
 
 ## Amenazas y vulnerabilidades de la seguridad en la nube
 
