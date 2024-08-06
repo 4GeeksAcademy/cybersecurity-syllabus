@@ -15,6 +15,7 @@
 ## Dia 15 🔖
 
 - 📗 [Seguridad en la nube](./cloud-security.es.md)
+- 📗 [Amenazas de la seguridad en la nube](./cloud-security-threats.md)
 - 📗 [10 recomendaciones de seguridad en la nube](./10-recomendations-cloud-clients-security.es.md)
 - 📗 [Seguridad de WebHosting](./web-hosting-security.es.md)
 - 📗 [10 prácticas de seguridad en Webhosting](./10-web-hosting-security-practices.es.md)
