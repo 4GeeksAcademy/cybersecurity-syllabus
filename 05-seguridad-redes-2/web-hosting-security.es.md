@@ -1,5 +1,5 @@
 ---
-title: "Aplicaciones web seguras"
+title: "Aprovisionamiento Web Seguro"
 subtitle: "Garantizando la Seguridad en Aplicaciones Web: Estrategias, Pruebas y Protección contra Amenazas - Consejos de Hosting Seguro y Resiliencia Digital"
 tags: ["networks"]
 authors: ["blindma1den", "lorenagubaira"]
