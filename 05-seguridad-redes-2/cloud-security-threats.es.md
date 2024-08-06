@@ -1,4 +1,10 @@
-## Problemas Potenciales al Mover la Infraestructura de una Empresa a la Nube
+---
+title: "Problemas Potenciales al Mover la Infraestructura de una Empresa a la Nube"
+subtitle: "Identifique Riesgos Clave y Desafíos en la Migración a la Nube: Desde Mala Configuración hasta Fugas de Datos y Amenazas Internas"
+tags: ["seguridad en la nube", "protección de datos", "seguridad de redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
 
 Casi todas las empresas han integrado la computación en la nube en sus operaciones de alguna manera. Sin embargo, al hacerlo, es crucial que se aseguren de que su estrategia de seguridad en la nube pueda protegerlos contra las principales amenazas de seguridad en este entorno.
 
