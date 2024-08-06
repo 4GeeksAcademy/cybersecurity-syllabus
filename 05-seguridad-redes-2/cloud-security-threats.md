@@ -1,7 +1,7 @@
 ---
 title: "Potential Problems When Moving a Company's Infrastructure to the Cloud"
 subtitle: "Identify Key Risks and Challenges in Cloud Migration: From Misconfigurations to Data Leaks and Insider Threats"
-tags: ["cloud security", "data protection", "network security"]
+tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
