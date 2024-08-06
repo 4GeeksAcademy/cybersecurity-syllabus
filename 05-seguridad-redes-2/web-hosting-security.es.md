@@ -65,21 +65,6 @@ Al evaluar las características de seguridad de un proveedor de hosting, debes b
 
 El tipo de alojamiento más seguro puede depender de las necesidades específicas del proyecto, pero aquí están algunas opciones y consideraciones generales:
 
-1. **Alojamiento Dedicado:**
-   - **Control Completo:** Ofrece control total sobre la configuración del servidor y permite implementar medidas de seguridad personalizadas. Es adecuado para sitios con requisitos de seguridad muy estrictos.
-
-2. **Alojamiento VPS (Servidor Privado Virtual):**
-   - **Aislamiento y Escalabilidad:** Proporciona un entorno aislado con recursos dedicados, lo que mejora la seguridad en comparación con el alojamiento compartido.
-
-3. **Alojamiento en la Nube (Cloud Hosting):**
-   - **Escalabilidad y Resiliencia:** Ofrece redundancia y escalabilidad automática, lo que puede mejorar la disponibilidad y resistencia a fallas.
-
-4. **Alojamiento con Servicios Gestionados:**
-   - **Mantenimiento y Seguridad:** Los proveedores que ofrecen servicios gestionados suelen encargarse de las actualizaciones de seguridad y el mantenimiento, liberando al usuario de estas responsabilidades.
-
-5. **Plataformas Serverless:**
-   - **Reducida Superficie de Ataque:** Al no gestionar servidores, se reduce la superficie de ataque y se centra en el código y las aplicaciones, minimizando riesgos.
-
 | **Aspecto de Seguridad**               | **Plataformas de Despliegue y Alojamiento de Aplicaciones (PaaS)** | **Proveedores de Infraestructura en la Nube (IaaS)** | **Alojamiento Tradicional (Compartido/Dedicado)** | **Alojamiento Gestionado**       |
 |----------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|----------------------------------|
 | **Control de Seguridad**               | Limitado, gestionado por el proveedor                             | Completo, responsabilidad del usuario               | Variable, más control en dedicado que en compartido | Limitado, gestionado por el proveedor          |
