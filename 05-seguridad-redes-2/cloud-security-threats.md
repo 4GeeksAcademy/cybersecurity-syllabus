@@ -6,8 +6,6 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## Potential Problems When Moving a Company's Infrastructure to the Cloud
-
 Almost all companies have integrated cloud computing into their operations in some way. However, it is crucial to ensure that their cloud security strategy can protect them against the main security threats in this environment.
 
 ### Misconfiguration
