@@ -82,39 +82,21 @@ El tipo de alojamiento más seguro puede depender de las necesidades específica
 
 Para encontrar un proveedor de hosting seguro, sigue estos pasos:
 
-1. **Investigación de Reputación:**
-   - **Opiniones y Reseñas:** Lee opiniones y reseñas de usuarios actuales para evaluar la reputación del proveedor en cuanto a seguridad.
-
-2. **Certificaciones de Seguridad:**
-   - **Cumplimiento Normativo:** Busca certificaciones como ISO 27001 o SOC 2 que indiquen un compromiso con las mejores prácticas de seguridad.
-
-3. **Políticas de Seguridad:**
-   - **Transparencia y Detalle:** Revisa las políticas de seguridad del proveedor para asegurarte de que cubran tus necesidades y estén alineadas con las mejores prácticas de la industria.
-
-4. **Soporte Técnico:**
-   - **Disponibilidad y Expertise:** Asegúrate de que el proveedor ofrezca soporte técnico 24/7 y tenga personal capacitado para manejar incidentes de seguridad.
-
-5. **Pruebas de Penetración:**
-   - **Evaluación de Vulnerabilidades:** Comprueba si el proveedor realiza pruebas de penetración regulares para identificar y corregir vulnerabilidades.
-
-6. **Características de Seguridad Avanzadas:**
-   - **Tecnologías de Protección:** Evalúa las características avanzadas de seguridad que ofrece el proveedor, como el uso de AI para detección de amenazas.
+1. **Investigación de Reputación:** Lee opiniones y reseñas de usuarios actuales para evaluar la reputación del proveedor en cuanto a seguridad.
+2. **Certificaciones de Seguridad:** Busca certificaciones como ISO 27001 o SOC 2 que indiquen un compromiso con las mejores prácticas de seguridad.
+3. **Políticas de Seguridad:**: Revisa las políticas de seguridad del proveedor para asegurarte de que cubran tus necesidades y estén alineadas con las mejores prácticas de la industria.
+4. **Soporte Técnico:**: Asegúrate de que el proveedor ofrezca soporte técnico 24/7 y tenga personal capacitado para manejar incidentes de seguridad.
+5. **Pruebas de Penetración:**: Comprueba si el proveedor realiza pruebas de penetración regulares para identificar y corregir vulnerabilidades.
+6. **Características de Seguridad Avanzadas:** Evalúa las características avanzadas de seguridad que ofrece el proveedor, como el uso de AI para detección de amenazas.
 
 ### ¿Puede un proveedor garantizar la seguridad de un sitio web?
 
 Ningún proveedor puede **garantizar completamente** la seguridad de un sitio web. Sin embargo, pueden ofrecer un entorno más seguro mediante:
 
-1. **Implementación de Buenas Prácticas:**
-   - Proveer herramientas y servicios que ayuden a mitigar amenazas comunes y fomentar prácticas seguras.
-
-2. **Mantenimiento y Actualización Constante:**
-   - Actualizar regularmente el software y aplicar parches de seguridad para reducir el riesgo de explotación de vulnerabilidades.
-
-3. **Educación y Capacitación:**
-   - Ofrecer recursos educativos para que los desarrolladores y administradores de sitios sigan las mejores prácticas de seguridad.
-
-4. **Responsabilidad Compartida:**
-   - La seguridad es una responsabilidad compartida entre el proveedor y el cliente, requiriendo que ambos tomen medidas activas para proteger el sitio.
+1. **Implementación de Buenas Prácticas:** Proveer herramientas y servicios que ayuden a mitigar amenazas comunes y fomentar prácticas seguras.
+2. **Mantenimiento y Actualización Constante:** Actualizar regularmente el software y aplicar parches de seguridad para reducir el riesgo de explotación de vulnerabilidades.
+3. **Educación y Capacitación:** Ofrecer recursos educativos para que los desarrolladores y administradores de sitios sigan las mejores prácticas de seguridad.
+4. **Responsabilidad Compartida:** La seguridad es una responsabilidad compartida entre el proveedor y el cliente, requiriendo que ambos tomen medidas activas para proteger el sitio.
 
 ### ¿Cuáles son las amenazas de seguridad más comunes a las que se enfrenta un servicio de alojamiento web?
 
