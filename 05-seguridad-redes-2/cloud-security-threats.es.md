@@ -1,7 +1,7 @@
 ---
 title: "Problemas Potenciales al Mover la Infraestructura de una Empresa a la Nube"
 subtitle: "Identifique Riesgos Clave y Desafíos en la Migración a la Nube: Desde Mala Configuración hasta Fugas de Datos y Amenazas Internas"
-tags: ["seguridad en la nube", "protección de datos", "seguridad de redes"]
+tags: ["ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
