@@ -1,7 +1,7 @@
 ---
 title: "Web Hosting Security"
 subtitle: "Choosing a web hosting vendor can be challenging, in the article we analyze the most popular web hostings from a security point of view"
-tags: ["networks"]
+tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
