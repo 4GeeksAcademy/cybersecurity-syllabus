@@ -1,5 +1,5 @@
 ---
-title: "Legal and Regulatory Compliance in The United States of America"
+title: "Legal and Regulatory Cybersecurity Compliance in The United States of America"
 subtitle: "Understanding the Legal Landscape of Cybersecurity in The United States of America: Key Laws, Regulations, and the Role of Incident Response Plans in Protecting Digital Infrastructure."
 tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
