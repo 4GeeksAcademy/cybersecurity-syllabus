@@ -1,5 +1,5 @@
 ---
-title: "Legal and Regulatory Compliance in Spain"
+title: "Legal and Regulatory Cybersecurity Compliance in Spain"
 subtitle: "Explore the world of security incidents, incident response, and the importance of an Incident Response Plan (IRP) in Spain's cybersecurity field"
 tags: ["cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
