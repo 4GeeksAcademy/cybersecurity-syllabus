@@ -1,5 +1,5 @@
 ---
-title: "Cumplimiento Legal y Normativo en Estados Unidos"
+title: "Cumplimiento Legal y Normativo de ciberseguridad en Estados Unidos"
 subtitle: "Entendiendo el Panorama Legal de la Ciberseguridad en Estados Unidos: Leyes Clave, Regulaciones y el Papel de los Planes de Respuesta a Incidentes en la Protección de la Infraestructura Digital."
 tags: ["ciberseguridad"]
 autores: ["blindma1den", "lorenagubaira"]
