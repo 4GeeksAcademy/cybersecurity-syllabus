@@ -173,5 +173,5 @@ This lesson provides an overview of key international legal and regulatory requi
 
 For a more in-depth understanding of cybersecurity laws and regulations specific to Spain and the United States, refer to the following lessons:
 
-- [Legal and Regulatory Compliance in Cybersecurity: Focus on Spain](#)
-- [Legal and Regulatory Compliance in Cybersecurity: Focus on the United States](#)
+- [Legal and Regulatory Compliance in Cybersecurity: Focus on Spain](https://4geeks.com/lesson/legal-and-regulatory-cybersecurity-compliance-in-spain)
+- [Legal and Regulatory Compliance in Cybersecurity: Focus on the United States](https://4geeks.com/lesson/legal-and-regulatory-compliance-usa)
