@@ -96,7 +96,7 @@ Security breach notification refers to the process of alerting internal and exte
 3. **Classification and Prioritization:** The security breach is classified according to its severity and its priority is established for an effective response.
 4. **Internal Notification:** Internal information security teams, IT, and executive management are notified immediately to coordinate a response.
 
-![Security Incident Management](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/incidentes-de-seguridad.png)
+![Security Incident Management](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/incidentes-ciberseguridad.us.png)
 
 ### Security Breach Management:
 
