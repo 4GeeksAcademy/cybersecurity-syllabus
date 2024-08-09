@@ -49,7 +49,7 @@ Razer tardó más de tres semanas en proteger la instancia en la nube del acceso
 
 ## Denegación de servicio
 
-![Ataque de denegación de servicios](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-1.jpg?raw=true)
+![Ataque de denegación de servicios](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security.es.png?raw=true)
 
 ### Los ataques de denegación de servicio (DoS)
 

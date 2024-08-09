@@ -14,7 +14,7 @@ Also known as **CIA** (Confidentiality, Integrity, Availability) by its English 
 
 The foundation of the security triad is that all information must be confidential, intact, and available when required.
 
-![Security Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/triada-de-la-seguridad.png)
+![Security Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/triada-de-la-seguridad.us.png)
 
 Delving into these concepts, it is possible to better understand the implications and methods involved in their implementation. Let's take a closer look at each:
 

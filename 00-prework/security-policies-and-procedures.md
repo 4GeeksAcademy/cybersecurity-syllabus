@@ -33,7 +33,7 @@ These are just a few examples of cybersecurity policies and procedures. The crea
 
 The creation and implementation of security policies are a fundamental process to ensure the protection of digital assets and effective management of cybersecurity risks within an organization. Here are the key steps for creating and applying security policies:
 
-![ISO](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ISO.png?raw=true)
+![ISO](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ISO.us.png?raw=true)
 
 ### Creation of Security Policies:
 

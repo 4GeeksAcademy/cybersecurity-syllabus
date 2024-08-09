@@ -29,7 +29,7 @@ La gestión de incidentes de seguridad se basa en diferentes pasos, que incluyen
 
 ![Gestión de incidentes](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/incident-management/incident-management-image-1.jpg)
 
-*NOTA: Estos pasos podrían ser estados diferentes que un incidente por lo que también es importante informar al usuario sobre cualquier cambio en el estado del incidente.*
+> *NOTA: Estos pasos podrían ser estados diferentes que un incidente por lo que también es importante informar al usuario sobre cualquier cambio en el estado del incidente.*
 
 - **1. Notificación del incidente:** una persona detecta un evento que puede dañar el funcionamiento de la organización, por lo que necesita comunicar el incidente de acuerdo con los procedimientos de comunicación de la organización (generalmente un correo electrónico, una llamada telefónica, una herramienta de software, etc.)
 - **2. Clasificación del incidente:** una persona recibe la notificación del incidente y, según los diversos parámetros, se clasifica. La persona que detecta el incidente también puede hacer una clasificación, pero es un experto técnico que lo clasifica de la manera adecuada.
@@ -39,7 +39,7 @@ La gestión de incidentes de seguridad se basa en diferentes pasos, que incluyen
 
 > 👉 En este sentido la norma establece una serie de controles empezando por la organización que debemos llevar a cabo para acometer esta tarea
 
-## **Controles para la gestión de incidetes de la seguridad de la información**
+## Controles para la gestión de incidetes de la seguridad de la información
 
 ### Responsables y procedimientos
 
@@ -48,33 +48,33 @@ En primer lugar deberemos tener implantado y documentado los procedimientos que 
 Estos procesos deben tener en cuenta:
 
 - **Las responsabilidades**
-    - Defina un responsable o responsables para la gestión de incidentes quien deberá garantizar que se desarrollan los procedimientos adecuados para que se realicen todas las tareas o procesos necesarios para gestionar los incidentes
-    - Defina las responsabilidades de cada empleado tanto en la colaboración para la respuesta, como en la necesidad de comunicación de los incidentes de seguridad de la información
+    - Defina un responsable o responsables para la gestión de incidentes quien deberá garantizar que se desarrollan los procedimientos adecuados para que se realicen todas las tareas o procesos necesarios para gestionar los incidentes.
+    - Defina las responsabilidades de cada empleado tanto en la colaboración para la respuesta, como en la necesidad de comunicación de los incidentes de seguridad de la información.
 - **Los procesos o procedimientos**
-    - Que existan procedimientos para la detección, análisis y elaboración de informes de incidentes de la seguridad de la información
-    - Elabore procedimientos para que se comuniquen los incidente
-    - Que dichos procedimientos sean conocidos (Que cada empleado conozca los procedimientos de comunicación de incidentes y sus responsabilidades)
-    - Que existan vías de comunicación adecuadas (asegúrese de que se definen los puntos de recogida de información para los incidentes y eventos de la seguridad de la información)
+    - Que existan procedimientos para la detección, análisis y elaboración de informes de incidentes de la seguridad de la información.
+    - Elabore procedimientos para que se comuniquen los incidente.
+    - Que dichos procedimientos sean conocidos (Que cada empleado conozca los procedimientos de comunicación de incidentes y sus responsabilidades).
+    - Que existan vías de comunicación adecuadas (asegúrese de que se definen los puntos de recogida de información para los incidentes y eventos de la seguridad de la información).
 - **Capacitación**
-    - Asegúrese de la competencia del personal de atención y resolución de incidentes. Mantenga un plan de capacitación de las personas que se ocupan de los incidentes de la seguridad de la información
+    - Asegúrese de la competencia del personal de atención y resolución de incidentes. Mantenga un plan de capacitación de las personas que se ocupan de los incidentes de la seguridad de la información.
 
 ## Reportes de eventos de seguridad de la información
 
 Este control nos pide que establezcamos los canales de comunicación para todos los eventos o incidentes. Estos canales, naturalmente deben estar establecidos con los responsables de la gestión de los incidentes.
 
-Es importante que todos los usuarios estén informados y familiarizados con los mecanismos de notificación. Con usuarios nos referimos a usuarios tanto internos como externos
+Es importante que todos los usuarios estén informados y familiarizados con los mecanismos de notificación. Con usuarios nos referimos a usuarios tanto internos como externos.
 
-Antes que nada vamos a distinguir entre dos conceptos más o menos similares pero que debemos separar para un correcto análisis de los incidentes en la Seguridad de la Información
+Antes que nada vamos a distinguir entre dos conceptos más o menos similares pero que debemos separar para un correcto análisis de los incidentes en la Seguridad de la Información.
 
 ### Evento de la seguridad de la información
 
-Cualquier ocurrencia identificada en un sistema de información, servicio o estado de la red que indica una posible infracción en la seguridad de la información, en la política o fallo en los controles, o una situación previamente desconocida que puede ser relevante para la seguridad
+Cualquier ocurrencia identificada en un sistema de información, servicio o estado de la red que indica una posible infracción en la seguridad de la información, en la política o fallo en los controles, o una situación previamente desconocida que puede ser relevante para la seguridad.
 
 ### Incidente de la seguridad de la información
 
-Cuando el evento se puede clasificar como no deseado o inesperado dentro de los eventos de seguridad de la información y además tienen una probabilidad significativa de comprometer las operaciones comerciales y suponen una seria amenaza para la seguridad de la información
+Cuando el evento se puede clasificar como no deseado o inesperado dentro de los eventos de seguridad de la información y además tienen una probabilidad significativa de comprometer las operaciones comerciales y suponen una seria amenaza para la seguridad de la información.
 
-Un evento en la seguridad de la información no significa necesariamente una implicación en la confidencialidad, integridad o disponibilidad a veces incluso lo deseamos, podemos aprender de ello y endurecer la seguridad
+Un evento en la seguridad de la información no significa necesariamente una implicación en la confidencialidad, integridad o disponibilidad a veces incluso lo deseamos, podemos aprender de ello y endurecer la seguridad.
 
 - El incidente siempre es indeseado
 
@@ -82,23 +82,23 @@ Un evento en la seguridad de la información no significa necesariamente una imp
 
 ![Gestión de incidentes - amenaza, vulnerabilidad, evento e incidente](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/incident-management/incident-management-image-2.jpg)
 
-## **Amenaza para la Seguridad de la información**
+## Amenaza para la Seguridad de la información
 
 > *Una amenaza se refiere a cualquier cosa que tenga el potencial de causar daños graves a un sistema o activo de información. Una amenaza es algo que puede suceder o no, pero tiene el potencial de causar un daño grave.*
 >
 > *Las amenazas pueden provocar ataques a sistemas informáticos, redes y más.*
 
-### **Vulnerabilidad en la Seguridad de la información**
+### Vulnerabilidad en la Seguridad de la información
 
-*Se refiere a una debilidad o defecto en un sistema o activo de información que puede dejarlo expuesto a una amenaza o ataque. Una vulnerabilidad también puede referirse a cualquier tipo de debilidad en un sistema de información en sí mismo, en un conjunto de procedimientos o en cualquier cosa que deje la seguridad de la información expuesta a una amenaza.*
+Se refiere a una debilidad o defecto en un sistema o activo de información que puede dejarlo expuesto a una amenaza o ataque. Una vulnerabilidad también puede referirse a cualquier tipo de debilidad en un sistema de información en sí mismo, en un conjunto de procedimientos o en cualquier cosa que deje la seguridad de la información expuesta a una amenaza.
 
-### **Evento en la Seguridad de la información**
+### Evento en la Seguridad de la información
 
-*Un evento de seguridad de la información es un cambio en las operaciones diarias de una red o servicio de tecnología de la información que indica que una política de seguridad puede haber sido violada o una protección de seguridad puede haber fallado.*
+Un evento de seguridad de la información es un cambio en las operaciones diarias de una red o servicio de tecnología de la información que indica que una política de seguridad puede haber sido violada o una protección de seguridad puede haber fallado.
 
-### **Incidente en la Seguridad de la información**
+### Incidente en la Seguridad de la información
 
-*Una sola o una serie de eventos de seguridad de la información no deseados o inesperados que tienen una probabilidad significativa de comprometer las operaciones comerciales y amenazar seguridad de información. Por ejemplo un comportamiento anómalo en un sistema es un evento, sin embargo, si se encuentra evidencia del virus en el sistema, se puede considerar un incidente de seguridad.*
+Una sola o una serie de eventos de seguridad de la información no deseados o inesperados que tienen una probabilidad significativa de comprometer las operaciones comerciales y amenazar seguridad de información. Por ejemplo un comportamiento anómalo en un sistema es un evento, sin embargo, si se encuentra evidencia del virus en el sistema, se puede considerar un incidente de seguridad.
 
 ### Reporte de debilidades de seguridad de la información
 
@@ -140,15 +140,15 @@ Se trata de controlar el proceso de resolución de incidentes en la seguridad de
 Los controles a establecer serian.
 
 - Evalue si la organización tiene la capacidad para resolver el incidente por si misma o necesita ayuda de terceros.
-- Mantenga un registro con las evidencias de las incidencias
-- Establezca el sistema de comunicaciones necesarias entre usuarios y el equipo de gestión de incidencias o quien deba estar informado de las actuaciones y situación del proceso de resolución de las incidencias
-- Registre las acciones llevadas a cabo y los resultados de las mismas
-- Cierre la incidencia formalmente cuando se haya resuelto
-- Realice un análisis para determinar las causas de cada incidente
+- Mantenga un registro con las evidencias de las incidencias.
+- Establezca el sistema de comunicaciones necesarias entre usuarios y el equipo de gestión de incidencias o quien deba estar informado de las actuaciones y situación del proceso de resolución de las incidencias.
+- Registre las acciones llevadas a cabo y los resultados de las mismas.
+- Cierre la incidencia formalmente cuando se haya resuelto.
+- Realice un análisis para determinar las causas de cada incidente.
 
 ### Aprendiendo de los incidentes de seguridad de la información
 
-Como ya hemos adelantado los incidentes no solo son un problema a solucionar sino una fuente de información para la resolución de futuros incidentes o para la mejora de la seguridad de la información
+Como ya hemos adelantado los incidentes no solo son un problema a solucionar sino una fuente de información para la resolución de futuros incidentes o para la mejora de la seguridad de la información.
 
 Los controles de la norma para mantener una base de conocimientos sobre los incidentes en la seguridad de la información son:
 
@@ -161,9 +161,9 @@ Los controles de la norma para mantener una base de conocimientos sobre los inci
 
 La información sobre los incidentes nos puede ayudar a:
 
-- Identificar los incidentes más recurrentes y de alto impacto
-- Mejorar nuestro sistema de gestión con nuevos controles y criterios para la evaluación de riesgos
-- Realizar entrenamientos a los usuarios para evitar incidentes y a los gestores de incidentes para mejorar la resolución de los mismos
+- Identificar los incidentes más recurrentes y de alto impacto.
+- Mejorar nuestro sistema de gestión con nuevos controles y criterios para la evaluación de riesgos.
+- Realizar entrenamientos a los usuarios para evitar incidentes y a los gestores de incidentes para mejorar la resolución de los mismos.
 
 > 👉 Para este último punto se recomienda utilizar datos No reales para los entrenamientos.
 
@@ -180,19 +180,19 @@ En este capítulo la norma nos pone como control el que conservemos la informaci
 
 ***No debe pasar por alto…***
 
-*En ocasiones puede ser necesaria una investigación forense de las evidencias informáticas. Conviene tener en cuenta mantener a salvo los derechos de acceso a la información para poder realizar una investigación forense.*
+En ocasiones puede ser necesaria una investigación forense de las evidencias informáticas. Conviene tener en cuenta mantener a salvo los derechos de acceso a la información para poder realizar una investigación forense.
 
-*Para ello hay que tener en cuenta los distintos requisitos de las jurisdicciones pertinentes y estar preparados mediante la comunicación previa al personal o la firma de cláusulas contractuales*
+Para ello hay que tener en cuenta los distintos requisitos de las jurisdicciones pertinentes y estar preparados mediante la comunicación previa al personal o la firma de cláusulas contractuales
 
 - **Otro tema es la preservación de las evidencias…**
 
-*Los incidentes no sabemos normalmente en que van a terminar y si requerirán posteriores acciones legales o disciplinarias Determinadas incidencias pueden conllevar el borrado de las evidencias con el objeto de ocultar al responsable de las mismas, es por ello que se recomienda establecer sistemas de copiado y preservación de registros con tal de que ciertas evidencias no se puedan eliminar tan fácilmente.*
+Los incidentes no sabemos normalmente en que van a terminar y si requerirán posteriores acciones legales o disciplinarias Determinadas incidencias pueden conllevar el borrado de las evidencias con el objeto de ocultar al responsable de las mismas, es por ello que se recomienda establecer sistemas de copiado y preservación de registros con tal de que ciertas evidencias no se puedan eliminar tan fácilmente.
 
 - **Seguridad de las evidencias…**
 
-*Finalmente si es posible o se identifica como necesario se pueden certificar los sistemas de recogida de evidencias o mantener medios de vigilancia y control independientes (homologados y legales) para fortalecer las evidencias de cara a acciones legales*
+Finalmente si es posible o se identifica como necesario se pueden certificar los sistemas de recogida de evidencias o mantener medios de vigilancia y control independientes (homologados y legales) para fortalecer las evidencias de cara a acciones legales
 
-## **Herramientas de gestión de incidentes de seguridad**
+## Herramientas de gestión de incidentes de seguridad
 
 Nos gustaría destacar que la gestión de incidencias no se hace sólo con una herramienta, sino con la selección correcta de herramientas, las mejores prácticas y el equipo de DevOps. Vamos a hablar de nuestras herramientas de gestión de incidencias favoritas que creemos que marcan la diferencia en el proceso de gestión de incidencias:
 

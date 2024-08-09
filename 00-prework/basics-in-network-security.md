@@ -82,7 +82,7 @@ A **VPN** (Virtual Private Network) is a technology that creates a secure and en
 | Public Access VPN | Offers VPN services through public service providers. Users can subscribe to these services to protect their online privacy. |
 | Layer 2 and Layer 3 VPN | Different types of VPNs can operate at different network layers (such as Layer 2 or Layer 3) and have specific applications based on the organization's needs. |
 
-![VPN](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/VPN.png?raw=true)
+![VPN](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/VPN.us.png?raw=true)
 
 > 📖 A **VPN** is an essential tool for protecting online privacy and security, as well as for establishing secure connections on public networks or accessing network resources remotely. Its ability to encrypt data and hide IP addresses makes it valuable for both individual users and companies looking to protect the confidentiality of their communications and data.
 

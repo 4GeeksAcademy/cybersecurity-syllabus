@@ -45,9 +45,7 @@ Organizations must adopt a proactive approach to cloud security to ensure sensit
 
 ## Denial of Service
 
-<!-- hide -->
 ![Denial of Service Attack](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-1.jpg?raw=true)
-<!-- endhide -->
 
 ### Denial of Service (DoS) Attacks
 
@@ -66,21 +64,15 @@ Social engineering is the manipulation of people to perform actions or divulge c
 
 ### How does social engineering work?
 
-<!-- hide -->
-![Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-2.jpg?raw=true)
-<!-- endhide -->
+![Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security2.us.png?raw=true)
 
 ### Types of Social Engineering
 
-<!-- hide -->
-![Types of Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-3.jpg?raw=true)
-<!-- endhide -->
+![Types of Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security3.us.png?raw=true)
 
 Two-level attacks:
 
-<!-- hide -->
-![Types of Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-4.jpg?raw=true)
-<!-- endhide -->
+![Types of Social Engineering](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security4.us.png?raw=true)
 
 ## How to protect ourselves?
 
@@ -105,7 +97,7 @@ If data security engineering protects the network and other physical assets like
 
 In the event of data interception, encryption makes it difficult for hackers to do anything with them. This is because **encrypted data is unreadable to unauthorized users without the encryption key.** Encryption should not be left for the end and must be carefully integrated into the network and existing workflow to be more successful.
 
-### **Intrusion Detection and Breach Response**
+### Intrusion Detection and Breach Response
 
 If suspicious actions occur on the network, like someone or something trying to break in, intrusion detection will be triggered. **Network Intrusion Detection Systems (NIDS) continuously and passively monitor network traffic for behavior that appears illicit or abnormal and flag it for review.** NIDS not only block that traffic but **also gather information about it and alert network administrators.**
 
@@ -224,9 +216,7 @@ Giving importance to company security is crucial. Therefore, it is necessary to 
 - Protecting the confidentiality of the information.
 - Regulating the availability of the information so that it is always available to the authorized person for use, at any time and under any circumstance.
 
-<!-- endhide -->
 ![Information Security Policies](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-5.jpg?raw=true)
-<!-- hide -->
 
 This involves countless tasks, many of them technical. But others relate to the general administration of the organization, ranging from having the appropriate budget for implementation to overcoming any mental model objections regarding its use.
 

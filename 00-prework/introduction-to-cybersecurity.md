@@ -32,7 +32,7 @@ Companies issue invoices for thousands or millions of dollars every day. Imagine
 
 In cybersecurity, there are three pillars: **Confidentiality, Availability, and Integrity**. Your duty as a professional is to protect these pillars as a very valuable asset.
 
-![Pillars of Cybersecurity](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ciberseguridad.png?raw=true)
+![Pillars of Cybersecurity](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ciberseguridad.us.png?raw=true)
 
 1. **Confidentiality:**
 

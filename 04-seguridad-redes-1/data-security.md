@@ -93,7 +93,7 @@ Ensure that you, your colleagues, and your employees are not the weakest link in
 
 Be careful with photos, as they contain much information that the next attacker might need. Make sure you are not the one exposing information that needs to be protected.
 
-![Data security - CIA Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-2.jpg)
+![Data security - CIA Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security.us.png)
 
 The **CIA Triad** consists of the following elements:
 
@@ -133,7 +133,7 @@ Let's expand on the **CIA Triad** concept. The McCumber Cube is a model framewor
 
 ### The Fundamental Principles to Protect Information Systems
 
-![Data security - The Cube](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-3.jpg)
+![Data security - The Cube](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security2.us.png)
 
 **As we have already seen, these principles refer to:**
 
@@ -143,11 +143,11 @@ Let's expand on the **CIA Triad** concept. The McCumber Cube is a model framewor
 
 ### Protecting Information in Each of Its Possible States
 
-![Data security - possible states for information protection](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-4.jpg)
+![Data security - possible states for information protection](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security3.us.png)
 
 ### Security Measures Used to Protect Data
 
-![Data security - Security measures to protect information](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security-image-5.jpg)
+![Data security - Security measures to protect information](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security4.us.png)
 
 - **Awareness**, training, and education are the measures implemented by an organization to ensure that users are informed about potential security threats and the actions they can take to protect information systems.
 - **Technology** refers to software (and hardware) solutions designed to protect information systems, such as firewalls, which continuously monitor your network for potential malicious incidents.
