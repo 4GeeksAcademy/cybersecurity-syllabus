@@ -6,25 +6,25 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## **Arquitectura de seguridad con IDS**
+## Arquitectura de seguridad con IDS
 
 La primera arquitectura, presentada en la Figura, describe la colocación de dispositivos de tipo IDS para monitorizar el tráfico dentro de la red de control. Para ello, todo el tráfico que pasa por los router/switches se lleva al sensor del IDS a través de puertos espejo (*mirror/SPAN*). También se añade una sonda para recibir información del cortafuegos y tener así controlado el tráfico intercambiado con la red correspondiente a la zona empresarial. Los IDS deberán de disponer de las reglas adecuadas para generar las alertas oportunas que serán mostradas al operario o administrador de seguridad correspondiente a través de la consola.
 
 ![Arquitectura de seguridad con IDS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-1.jpg)
 
-## **Arquitectura de seguridad con IPS**
+## Arquitectura de seguridad con IPS
 
 La evolución de una arquitectura de seguridad con IDS pasa por bloquear tráfico. Para ello es necesario que los sensores pasen a estar en medio del tráfico, en lugar de escuchando el tráfico a través de los puertos espejo (*mirror/SPAN*), como refleja la Figura. La configuración de reglas debe ser adecuada para que no se interrumpa el flujo de tráfico de control habitual y solo se bloqueen las intrusiones y fallos de seguridad. La situación de los sensores IPS es similar a la de los sensores IDS, y el funcionamiento será exactamente el mismo, generando alerta que serán mostradas en la consola de IDS.
 
 ![Arquitectura de seguridad con IPS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-2.jpg)
 
-## **Arquitectura de seguridad con SIEM**
+## Arquitectura de seguridad con SIEM
 
 La Figura representa la instalación de un SIEM dentro de los sistemas de control. Hay que tener en cuenta que el SIEM se dedica a recoger y gestionar eventos de log, por lo que las fuentes de datos provendrán de todos los dispositivos. En este caso hay que tener cuidado con las comunicaciones, ya que todos los dispositivos deben poder enviar sus registro de eventos hasta el SIEM, y esto puede implicar una sobrecarga de tráfico en la red. La mejor forma de solucionar esta sobrecarga es disponer de una red exclusiva para el envío de estos mensajes.
 
 ![Arquitectura de seguridad con SIEM](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-3.jpg)
 
-## **Arquitectura unificada con IDS, IPS y SIEM**
+## Arquitectura unificada con IDS, IPS y SIEM
 
 La representación final (Ver Figura) muestra la puesta en conjunto de las tres tecnologías dentro de una arquitectura de red de sistemas de control. El IPS quedaría para los niveles superiores, controlando el tráfico intercambiado entre la parte de control y la parte corporativa o de negocio, los IDS gestionarían el tráfico entre la red de control y las de campo, informado de posibles anomalías en el tráfico; y el SIEM recogería la información del mayor número posible de dispositivos, incluyendo dispositivos de proceso y elementos de red, así como la información de las alertas tanto de los IDS como del IPS.
 
@@ -32,7 +32,7 @@ Las líneas rojas mostradas en las figuras indican los puntos donde tanto los se
 
 ![Arquitectura de seguridad con SIEM](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/security-architecture-control-system-image-4.jpg)
 
-## **CONCLUSIONES**
+## CONCLUSIONES
 
 Los sistemas de detección y prevención de intrusiones y los sistemas de tratamiento y gestión de eventos e incidentes aportan un nivel de seguridad a los sistemas de control siempre y cuando estén correctamente configurados y supervisados. La configuración de un sistema de prevención puede implicar muchos problemas sobre un sistema de control en producción, por lo que deben ser correctamente valoradas todas las implicaciones, así como realizar todas las posibles pruebas previamente, incluyendo las de mantener el sistema sólo en modo detección hasta estar totalmente seguros de que no se bloqueará tráfico crítico para el sistema e ir afinando progresivamente el sistema para que sólo detecte o informe de eventos importantes.
 

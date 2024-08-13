@@ -13,9 +13,9 @@ authors: ["blindma1den", "lorenagubaira"]
     
     Según un informe de IDC un 26% de las empresas encuestadas manifestaron haber sufrido brechas de seguridad con exfiltración de datos como resultado de ataques vía DNS. En 2024, las empresas utilizarán cada vez más *DNS como primera línea de defensa*, para monitorizar el tráfico IP e identificar y prevenir el robo de datos.
     
-- **Ransomware como Servicio (RaaS).** El Ransomware ha crecido durante los dos últimos años de manera exponencial, y ya en 2023 se ha experimentado un crecimiento en el denominado *Ransomware como Servicio (RaaS)*.Ambas modalidades seguirán siendo protagonistas en 2024 Como en otras áreas, los ciberdelincuentes también están utilizando los nuevos modelos de entrega de servicios de TI disponibles en el mercado. Muchas organizaciones criminales carecen de las habilidades para crear su propio ransomware y contratan este servicio en la red. La utilización de ataques RaaS con objetivos muy precisos está siendo lucrativo para los ciberdelincuentes. No son ataques masivos, sino que se utiliza ingeniería social para elaborar vectores de ataque de apariencia legítima, como correos electrónicos bien elaborados. En otros casos, los actores de amenazas pueden apuntar a vulnerabilidades específicas de un grupo de víctimas objetivo.
+- **Ransomware como Servicio (RaaS).** El Ransomware ha crecido durante los dos últimos años de manera exponencial, y ya en 2023 se ha experimentado un crecimiento en el denominado *Ransomware como Servicio (RaaS)*. Ambas modalidades seguirán siendo protagonistas en 2024 Como en otras áreas, los ciberdelincuentes también están utilizando los nuevos modelos de entrega de servicios de TI disponibles en el mercado. Muchas organizaciones criminales carecen de las habilidades para crear su propio ransomware y contratan este servicio en la red. La utilización de ataques RaaS con objetivos muy precisos está siendo lucrativo para los ciberdelincuentes. No son ataques masivos, sino que se utiliza ingeniería social para elaborar vectores de ataque de apariencia legítima, como correos electrónicos bien elaborados. En otros casos, los actores de amenazas pueden apuntar a vulnerabilidades específicas de un grupo de víctimas objetivo.
 
-## **Retos y oportunidades para la seguridad en redes**
+## Retos y oportunidades para la seguridad en redes
 
 La seguridad de las redes es el área de la ciberseguridad que se centra en la protección de las redes informáticas frente a las ciberamenazas. Tiene tres objetivos principales: impedir el acceso no autorizado a los recursos de la red, detectar y neutralizar los ciberataques y las violaciones de la seguridad en curso, y garantizar que los usuarios autorizados tengan un acceso seguro a los recursos de la red que necesitan, cuando los necesitan.
 
@@ -23,7 +23,7 @@ El riesgo de ciberataque aumenta al tiempo que crece el tamaño y la complejidad
 
 La seguridad de la red protege la integridad de la infraestructura, los recursos y el tráfico de la red para frustrar estos ataques y minimizar sus repercusiones financieras y operativas.
 
-### **Tipos de tecnologías de seguridad de la red**
+### Tipos de tecnologías de seguridad de la red
 
 Los sistemas de seguridad de la red operan en el perímetro y dentro de la red.
 
@@ -31,13 +31,13 @@ En el perímetro, los controles de seguridad intentan impedir que las ciberamena
 
 Cada reto contrae una oportunidad de mejora y hay mucho sobre lo que trabajar ya que en este 2024 se espera, como cada año, un aumento en la actividad de los ciber criminales y mayor sofisticación tanto en técnicas como en herramientas. Puntualicemos los casos fundamentales a tener en cuenta sobre lo que más debemos prestar atención. El establecimiento de sistemas de seguridad de red implica la combinación de las siguientes herramientas:
 
-### **Cortafuegos**
+### Cortafuegos
 
 Un cortafuegos es un software o hardware que impide que el tráfico sospechoso entre o salga de una red, al tiempo que permite el paso del tráfico legítimo. Los cortafuegos pueden instalarse en el extremo de una red o utilizarse internamente para dividir redes más grandes en subredes más pequeñas. De este modo, si una parte se ve comprometida, los piratas informáticos no pueden acceder al resto de la red.
 
 Existen diferentes tipos de cortafuegos con diferentes características. Los cortafuegos básicos utilizan el filtrado de paquetes para inspeccionar el tráfico. Los sistemas de nueva generación, más avanzados, ofrecen una protección mejorada con prevención de intrusiones, IA y aprendizaje automático, vigilancia y control de aplicaciones, además de alimentación de inteligencia sobre amenazas.
 
-### **Control de acceso a la red (NAC)**
+### Control de acceso a la red (NAC)
 
 Las soluciones de control de acceso a la red (NAC) actúan como guardianes, autenticando y autorizando a los usuarios para determinar quién está autorizado a acceder a la red y qué puede hacer en ella. La "autenticación" consiste en comprobar que un usuario es quien dice ser. La parte de "autorización" consiste en conceder a los usuarios autenticados autorización para acceder a los recursos de la red.
 
@@ -45,29 +45,29 @@ Las soluciones NAC se utilizan a menudo para aplicar políticas de control de ac
 
 Además de autenticar a los usuarios, algunas soluciones NAC pueden evaluar los riesgos en los terminales de los usuarios. El objetivo es impedir que los dispositivos no seguros o comprometidos accedan a la red. Si un usuario intenta acceder a la red en un dispositivo equipado con un software antimalware obsoleto o mal configurado, el sistema denegará el acceso. Algunas herramientas NAC avanzadas son incluso capaces de resolver automáticamente los problemas de no conformidad de los terminales.
 
-### **Sistemas de detección y prevención de intrusiones (IDPS)**
+### Sistemas de detección y prevención de intrusiones (IDPS)
 
 Un sistema de detección y prevención de intrusiones (IDPS), a veces denominado simplemente sistema de prevención de intrusiones (IPS), puede desplegarse directamente detrás de un cortafuegos para analizar el tráfico entrante en busca de amenazas a la seguridad. Estas herramientas derivan de los sistemas de detección de intrusos (IDS), que se limitaban a señalar las actividades sospechosas para su examen. Los sistemas IDPS son ahora capaces de reaccionar automáticamente ante posibles infracciones, por ejemplo bloqueando el tráfico o restableciendo la conexión. Son especialmente eficaces para detectar y bloquear ataques de fuerza bruta, denegación de servicio (DoS) y denegación de servicio distribuida (DDoS).
 
-### **Redes privadas virtuales (VPN)**
+### Redes privadas virtuales (VPN)
 
 Una red privada virtual (o VPN del inglés "virtual private network") se utiliza para proteger la identidad de un usuario cifrando sus datos y enmascarando su dirección IP y su ubicación. Cuando alguien utiliza una VPN, ya no se conecta directamente a Internet, sino a un servidor seguro que se conecta a Internet en su nombre.
 
 Las VPN permiten a los teletrabajadores acceder a las redes corporativas con total seguridad, incluso a través de conexiones wifi públicas no seguras, como las que se encuentran en cafeterías y aeropuertos. Las VPN cifran el tráfico de los usuarios, protegiéndolo de los hackers que quieran interceptar sus comunicaciones.
 
-En lugar de VPN, algunas organizaciones utilizan el modelo Zero Trust Network Access (o ZTNA del inglés "acceso a red de confianza cero").En lugar de utilizar un servidor proxy, ZTNA conecta a los usuarios remotos de forma segura utilizando políticas de control de acceso zero trust. Cuando los usuarios remotos se conectan a una red a través de ZTNA, no obtienen acceso a toda la red. Solo tienen acceso a los recursos que están autorizados a utilizar, y deben ser controlados cada vez que acceden a un nuevo recurso.
+En lugar de VPN, algunas organizaciones utilizan el modelo Zero Trust Network Access (o ZTNA del inglés "acceso a red de confianza cero"). En lugar de utilizar un servidor proxy, ZTNA conecta a los usuarios remotos de forma segura utilizando políticas de control de acceso zero trust. Cuando los usuarios remotos se conectan a una red a través de ZTNA, no obtienen acceso a toda la red. Solo tienen acceso a los recursos que están autorizados a utilizar, y deben ser controlados cada vez que acceden a un nuevo recurso.
 
-### **Seguridad de aplicaciones**
+### Seguridad de aplicaciones
 
 La seguridad de las aplicaciones se refiere a las medidas adoptadas para proteger las aplicaciones y las interfaces de programación de aplicaciones (API) de los atacantes. En la actualidad, muchas empresas utilizan aplicaciones para llevar a cabo funciones empresariales esenciales o procesar datos confidenciales, por lo que los ciberdelincuentes suelen atacar las aplicaciones. Y como muchas aplicaciones empresariales están alojadas en nubes públicas, los piratas informáticos pueden aprovechar sus vulnerabilidades para entrar en las redes privadas de las empresas.
 
 Las medidas de seguridad de las aplicaciones las protegen de los agentes maliciosos. Las herramientas más habituales son los cortafuegos de aplicaciones web (WAF), la autoprotección de aplicaciones en tiempo de ejecución (RASP) y las pruebas de seguridad estática y dinámica de aplicaciones (SAST y DAST).
 
-### **Seguridad del correo electrónico**
+### Seguridad del correo electrónico
 
 El índice X-Force Threat Intelligence de IBM Security muestra que el phishing es el vector inicial de ciberataque más común. Las herramientas de seguridad del correo electrónico pueden ayudar a frustrar los ataques de phishing y otros intentos de poner en peligro el correo electrónico de los usuarios. La mayoría de los servicios de correo electrónico incluyen herramientas de seguridad, como filtros antispam y cifrado de mensajes. Algunas herramientas están equipadas con sandboxes, es decir, entornos aislados en los que los equipos de seguridad pueden inspeccionar los archivos adjuntos al correo electrónico en busca de malware sin exponer la red.
 
-### **Tecnologías de seguridad asociadas**
+### Tecnologías de seguridad asociadas
 
 Aunque las siguientes herramientas no son estrictamente herramientas de seguridad de red, los administradores las utilizan a menudo para proteger zonas y activos de la red.
 
@@ -83,7 +83,7 @@ Las soluciones de seguridad en la nube protegen los centros de datos, las aplica
 
 El análisis del comportamiento de usuarios y entidades (UEBA) utiliza el análisis del comportamiento y el aprendizaje automático para detectar actividades anómalas de usuarios y dispositivos. UEBA se utiliza para detectar amenazas internas y piratas informáticos que se han apoderado de cuentas de usuario.
 
-### **Un enfoque zero trust para la seguridad de la red**
+### Un enfoque zero trust para la seguridad de la red
 
 En el pasado, las redes corporativas estaban centralizadas, con terminales, datos y aplicaciones clave ubicados en las instalaciones de la empresa. Los sistemas de seguridad de aquella época se centraban en impedir que las amenazas atravesaran el perímetro de la red. Una vez que un usuario estaba dentro, se le consideraba de confianza y tenía un acceso prácticamente ilimitado.
 

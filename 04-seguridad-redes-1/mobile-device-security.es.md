@@ -8,7 +8,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 La seguridad móvil se refiere a las estrategias, infraestructuras y software que se utilizan para proteger cualquier dispositivo móvil que viaja junto con los usuarios, incluyendo smartphones, tabletas y notebooks. La seguridad en los dispositivos móviles incluye la protección de datos en el dispositivo local, en los endpoints conectados al dispositivo y en los equipos de redes. Mientras estos dispositivos sigan siendo los preferidos por los usuarios, en vez de los equipos de sobremesa, seguirán siendo los principales objetivos para los hackers.
 
-### **¿Por qué es tan importante la seguridad móvil?**
+### ¿Por qué es tan importante la seguridad móvil?
 
 Como cada vez más usuarios viajan y trabajan desde casa, los dispositivos móviles se han integrado cada vez más en sus vidas diarias, incluyendo a los empleados de corporaciones. La actividad de navegación web solía estar limitada a los ordenadores de sobremesa y los únicos que tenían ordenadores portátiles eran los empleados que tenían que viajar por trabajo. Ahora, los teléfonos móviles, notebooks y tabletas son los más utilizados para navegar por internet y el tráfico proveniente de estos dispositivos se ha convertido en la principal forma de navegación, por delante de los PC.
 
@@ -26,7 +26,7 @@ Hoy en día, los ciberdelincuentes pueden hackear automóviles, cámaras de segu
 
 ## Amenazas y vulnerabilidades de la seguridad de los dispositivos móviles
 
-### **Amenazas para aplicaciones**
+### Amenazas para aplicaciones
 
 Los administradores pueden bloquear la instalación de aplicaciones en un ordenador de escritorio, pero un usuario puede instalar cualquier cosa en un dispositivo móvil. Las aplicaciones externas introducen diversos problemas de seguridad para estos dispositivos. Las corporaciones deben crear políticas de seguridad que ayuden a los usuarios a comprender los peligros de instalar aplicaciones externas no aprobadas.
 
@@ -36,19 +36,19 @@ Aunque sin duda es fundamental establecer y aplicar una política de seguridad p
 
 Y las empresas que adoptan políticas de traiga su propio dispositivo" (BYOD) también se abren a mayores riesgos de seguridad. Permiten que dispositivos posiblemente inseguros accedan a servidores corporativos y bases de datos sensibles, exponiéndolos a ataques. Los ciberdelincuentes y estafadores pueden explotar estas vulnerabilidades y causar daños o perjuicios al usuario y a la organización. Buscan secretos comerciales, información privilegiada y acceso no autorizado a una red segura para encontrar cualquier cosa que pueda ser rentable.
 
-### **Phishing**
+### Phishing
 
 El phishing, la principal amenaza para la seguridad móvil, es un intento de estafa para robar las credenciales o los datos confidenciales de los usuarios, como los números de las tarjetas de crédito. Los estafadores envían a los usuarios correos electrónicos o mensajes SMS (mensajes de texto breves), comúnmente conocidos como mensajes de texto, diseñados para parecer que proceden de una fuente legítima, utilizando hipervínculos falsos.
 
-### **Malware y ransomware**
+### Malware y ransomware
 
 El [malware](https://www.ibm.com/mx-es/topics/malware) móvil es un software no detectado, como una aplicación maliciosa o un programa espía, creado para dañar, desarticular u obtener acceso ilegítimo a un cliente, una computadora, un servidor o una red informática. El ransomware, una forma de malware, amenaza con destruir o retener los datos o archivos de una víctima a menos que se pague un rescate para desencriptar los archivos y restaurar el acceso.
 
-### **Cryptojacking**
+### Cryptojacking
 
 El criptojacking, una forma de malware, utiliza la potencia informática de una organización o de una persona sin su conocimiento para minar criptomonedas, disminuyendo la capacidad de procesamiento y la eficacia de un dispositivo.
 
-### **Red Wi-Fi no segura**
+### Red Wi-Fi no segura
 
 Los puntos de acceso wifi no seguros sin una red privada virtual (VPN) hacen que los dispositivos móviles sean más vulnerables a los ciberataques. Los ciberdelincuentes pueden interceptar el tráfico y robar información privada utilizando métodos como los ataques de intermediario. Los ciberdelincuentes también pueden engañar a los usuarios para que se conecten a puntos de acceso fraudulentos, lo que facilita la extracción de datos corporativos o personales.
 
@@ -56,21 +56,21 @@ Los equipos de trabajo móviles, y especialmente los del tipo “traiga su propi
 
 Los administradores pueden obligar a cualquier persona que tenga un BYOD a instalar programas antimalware, pero esto no garantiza que el software esté actualizado. Si la corporación ofrece redes Wi-Fi públicas para los clientes y empleados, esto también puede ser un punto de preocupación. Cuando los empleados se conectan a redes Wi-Fi públicas y transfieren sus datos a lugares en que otros usuarios pueden leerlos, esto deja la red vulnerable ante ataques de intermediario (MitM, por las siglas en inglés de “*Man in the Middle*”) y posible apropiación de cuenta, si el atacante roba las credenciales.
 
-### **Sistemas operativos obsoletos**
+### Sistemas operativos obsoletos
 
 Los sistemas operativos más antiguos suelen contener vulnerabilidades que han sido explotadas por los ciberdelincuentes, y los dispositivos con OS obsoletos siguen siendo vulnerables a los ataques. Las actualizaciones de los fabricantes suelen incluir parches de seguridad críticos para hacer frente a las vulnerabilidades que pueden ser explotadas activamente.
 
-### **Permisos excesivos de las aplicaciones**
+### Permisos excesivos de las aplicaciones
 
 Las aplicaciones móviles tienen el poder de comprometer la privacidad de los datos a través de los permisos excesivos de las aplicaciones. Los permisos de las aplicaciones determinan la funcionalidad de una aplicación y su acceso al dispositivo del usuario y a sus funciones, como el micrófono y la cámara. Algunas aplicaciones son más peligrosas que otras. Algunas pueden verse comprometidas, y los datos confidenciales pueden canalizarse a través de terceros no confiables.
 
-### **Amenazas basadas en la web y endpoints**
+### Amenazas basadas en la web y endpoints
 
 Las aplicaciones móviles se conectan a los datos y a las aplicaciones internas mediante endpoints o puntos finales de contacto. Estos endpoints reciben y procesan datos, y después devuelven una respuesta al dispositivo móvil. Tanto los endpoints como cualquier aplicación basada en la web, agregan nuevas amenazas para las organizaciones. Los endpoints usados por la aplicación deben codificarse correctamente con los controles de autenticación adecuados para detener a los atacantes. Unos endpoints protegidos de manera incorrecta podrían ser objetivos para un hacker dispuesto a usarlos para comprometer la aplicación y robar datos.
 
 Como los teléfonos móviles y notebooks son cada vez más populares, algunos ataques basados en web se dirigen a estos usuarios. Los atacantes usan las páginas que lucen como las oficiales para engañar a los usuarios para que carguen datos delicados o descarguen aplicaciones malintencionadas. No es raro que un atacante le diga a un usuario que debe descargar una aplicación específica para poder ver un video u otro tipo de medios. Los usuarios descargan la aplicación sin darse cuenta de que es una app malintencionada que se usa para analizar los dispositivos en busca de vulnerabilidades y para revelar datos.
 
-## **Medidas de seguridad para la seguridad de los dispositivos móviles**
+## Medidas de seguridad para la seguridad de los dispositivos móviles
 
 La protección de los dispositivos móviles requiere un enfoque unificado y multicapa. Hay componentes esenciales para la seguridad de los dispositivos móviles, pero cada enfoque puede ser un poco diferente. Para optimizar la seguridad, debe encontrar el enfoque que mejor se adapte a su red.
 
