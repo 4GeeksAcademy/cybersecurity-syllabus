@@ -13,7 +13,7 @@ keyword_us: "end user security - 1 90"
 In today’s digital age, **end user security** is more critical than ever. This security decalogue provides practical and effective tips to protect your information:
 
 <!-- hide -->
-![Tips to Increase end user security at Home](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-1.jpg)
+![Tips to Increase end user security at Home](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-1.us.png)
 <!-- endhide -->
 
 - To enhance **end user security**, it is crucial to protect your **workstation** and keep it free of papers containing sensitive information.
@@ -44,7 +44,7 @@ In today’s digital age, **end user security** is more critical than ever. This
 
 By distributing your emails into these 3 accounts, you can better control the emails you receive, contain spam or junk mail, and raise alarms if an out-of-place email arrives. You will also have the security that if the Public Email is compromised, your personal data will not be reached.
 
-![Email Security - Best Practices](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-2.jpg)
+![Email Security - Best Practices](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-2.us.png)
 
 ## **Most Used End User Technology:**
 
@@ -57,7 +57,7 @@ By distributing your emails into these 3 accounts, you can better control the em
 **If you handle a company phone** with confidential information, we advise you to avoid connecting to open or public networks, such as those in cafes or restaurants, as you could be a victim of a Man-In-The-Middle attack. In such an attack, people infiltrate and exploit network insecurity to access and obtain confidential information that they are not authorized to have. If you must do this, use a tool known as VPN to ensure the information travels securely and to protect end user security.
 
 <!-- hide -->
-![Cellphone Security](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-3.jpg)
+![Cellphone Security](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-3.us.png)
 <!-- endhide -->
 
 ## Web Browsing End User Security Tips
@@ -77,7 +77,7 @@ To access your equipment, whether it is your email, Instagram, Facebook, etc., m
 This group focuses primarily on handling information security incidents that occur on assets supported by the entity's technological platform.
 
 <!-- hide -->
-![Email Security - Best Practices](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-4.jpg)
+![Email Security - Best Practices](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-4.us.png)
 <!-- endhide -->
 
 ### How to Prepare and Ensure Security for End Users
