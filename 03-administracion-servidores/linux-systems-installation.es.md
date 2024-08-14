@@ -7,7 +7,7 @@ authors: ["blindma1den", "lorenagubaira"]
 ---
 
 
-## **Preparación del entorno de virtualización.**
+## Preparación del entorno de virtualización
 
 Aunque ya hayamos tocado el tema de virtualización anteriormente, recordaremos brevemente el concepto. La virtualización es una tecnología que permite la creación de múltiples entornos virtuales en un solo servidor físico. Estos entornos virtuales, también conocidos como máquinas virtuales, son independientes entre sí y pueden ejecutar diferentes sistemas operativos y aplicaciones.
 
@@ -15,7 +15,7 @@ Preparar un entorno para virtualización puede constar de diferentes pasos, tale
 
 - **Hardware adecuado**: Antes de comenzar, asegúrate de contar con un hardware adecuado para la virtualización. Esto incluye un servidor potente con suficiente capacidad de almacenamiento, memoria RAM y capacidad de procesamiento para soportar las máquinas virtuales que planeas crear.
 - **Selección del software de virtualización**: Existen diferentes opciones de software de virtualización, como VMware, VirtualBox y Hyper-V. Es importante investigar y seleccionar el software que mejor se adapte a tus necesidades y requisitos.
-- **Instalación del software**: Una vez que hayas seleccionado el software de virtualización, deberás instalarlo en el servidor. Podemos seguir la documentacion de la empresa desarrolladora del software o conseguir documentacion en linea
+- **Instalación del software**: Una vez que hayas seleccionado el software de virtualización, deberás instalarlo en el servidor. Podemos seguir la documentacion de la empresa desarrolladora del software o conseguir documentacion en linea.
 - **Configuración de la red**: Este paso es esencial para permitir la comunicación entre las máquinas virtuales y el resto de la red. Configura las interfaces de red de acuerdo con tus necesidades y asegúrate de asignar direcciones IP únicas a cada máquina virtual.
 - **Creación de máquinas virtuales**: Una vez que el entorno de virtualización esté configurado, podrás crear las máquinas virtuales. Define los recursos asignados a cada máquina virtual, como la cantidad de memoria RAM, espacio en disco y número de núcleos de procesador.
 - **Instalación de sistemas operativos y aplicaciones**: Después de crear las máquinas virtuales, deberás instalar los sistemas operativos y las aplicaciones necesarias en cada una de ellas. Esto se puede hacer utilizando imágenes ISO o discos de instalación.
@@ -23,7 +23,7 @@ Preparar un entorno para virtualización puede constar de diferentes pasos, tale
 
 La preparación de un entorno de virtualización es un proceso que requiere planificación y ejecución cuidadosa. Sin embargo, los beneficios de la virtualización pueden ser significativos, por lo que vale la pena invertir el tiempo y los recursos necesarios para preparar un entorno adecuado.
 
-## **Descarga e instalación de una distribución de Linux en servidores**
+## Descarga e instalación de una distribución de Linux en servidores
 
 Recordemos que una distribución de Linux es un sistema operativo que puede usar el kernel de Linux, el cual cada versión puede variar en su sistema de gestión de paquetes y librerías.
 
@@ -93,36 +93,31 @@ Para comenzar la configuración de nuestro servidor seleccionamos la opción nue
 
 ![Virtual Machine instalación - paso 2](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-3.jpg)
 
-
 2. Seleccionamos la opción de crear un disco duro virtual y asignamos la cantidad de memoria.
 
 ![Virtual Machine instalación - paso 3](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-4.jpg)
-
 
 3. Vemos el resumen de cómo estará configurada nuestra máquina virtual y aceptamos.
 
 ![Virtual Machine instalación - paso 4](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-5.jpg)
 
-
 > 👉 Ya tenemos nuestra máquina virtual configurada y lista para funcionar, en la próxima lectura aprenderemos como configurar ubuntu server y por primera vez ver el entorno de un servidor.
 
-## **Configuración inicial del sistema operativo**
+## Configuración inicial del sistema operativo
 
 Aca te dejamos una pequeña guia de como configurar inicialmente ubuntu server dentro de nuestra máquina virtual:
 
-- Antes de comenzar la instalación tenemos que hacer una previa configuración de la red por lo que entraremos en la seccion de configuracion del menu
+- Antes de comenzar la instalación tenemos que hacer una previa configuración de la red por lo que entraremos en la seccion de configuracion del menu.
 
 ![Virtual Box - Configuración de sistema operativo](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-6.jpg)
-
 
 - Seleccionaremos la opción de red y en la opción de *Conectado a:* seleccionamos la opción *Adaptador puente*. Esto nos permite que nuestra máquina virtual pueda conectarse a la tarjeta de red que tengamos en la máquina host y seleccionamos aceptar
 
 ![Virtual Box - Opciones de red ](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-7.jpg)
 
-
 - Una vez configurado la red, le damos click en iniciar y se nos abrirá una nueva ventana con la maquina virtual
 
-### **Laboratorio 1** Escenario:
+### Laboratorio 1 Escenario:
 
 Acabas de ser contratado por la start-up D´sistemas cta para ser su administrador de sistemas, esta empresa necesita montar unos servidores para poder operar y facilitar el acceso a su información, aunque no tengas muchos conocimiento de como instalar un sistema operativo en un servidor, tu jefe decide acompañarte y explicarte en todo momento el paso a paso para la instalacion de nuestro servidor ubuntu.
 
@@ -173,8 +168,6 @@ Acabas de ser contratado por la start-up D´sistemas cta para ser su administrad
     
     ![Install Ubuntu server - Instalacion completada](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/instalacion-de-sistema-linux/instalacion-de-sistema-linux-image-18.jpg)
     
-
-
 #### Reflexiona
 
 💭 Una vez terminada la instalacion tu jefe se sienta contigo y te hace ciertas preguntas saber que tanto aprendiste en este proceso.
