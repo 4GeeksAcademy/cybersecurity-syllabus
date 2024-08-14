@@ -174,4 +174,4 @@ Esta lección proporciona una visión general de los requisitos legales y normat
 Para una comprensión más profunda de las leyes y regulaciones de ciberseguridad específicas de España y Estados Unidos, consulte las siguientes lecciones:
 
 - [Cumplimiento Legal y Normativo en Ciberseguridad: Enfoque en España](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-espana)
-- [Cumplimiento Legal y Normativo en Ciberseguridad: Enfoque en Estados Unidos](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-estados-unidos)
+- [Cumplimiento Legal y Normativo en Ciberseguridad: Enfoque en Estados Unidos](https://4geeks.com/es/lesson/cumplimiento-legal-y-normativo-de-ciberseguridad-en-estados-unidos)
