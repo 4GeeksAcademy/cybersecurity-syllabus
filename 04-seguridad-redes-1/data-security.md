@@ -93,7 +93,7 @@ Ensure that you, your colleagues, and your employees are not the weakest link in
 
 Be careful with photos, as they contain much information that the next attacker might need. Make sure you are not the one exposing information that needs to be protected.
 
-![Data security - CIA Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security.us.png)
+![Data security - CIA Triad](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/data-security/data-security.us.jpg)
 
 The **CIA Triad** consists of the following elements:
 

@@ -19,7 +19,7 @@ While an IDS is limited to detecting and notifying the system administrator of t
 
 IPS resemble the behavior of firewalls, as both make decisions about accepting packets into a system. However, firewalls base their decisions primarily on packet headers (network and transport layers), while IPS consider both the headers and the content of the data packet. This allows for a more comprehensive view of network operations, providing information about malicious activities, bad connections, inappropriate content, and other functions with minimal oversight.
 
-![intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/7intrucion-prevension-system.png?raw=true)
+![intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/7intrucion-prevension-system.us.png?raw=true)
 
 ### Packet headers and content depending on the protocol.
 
@@ -67,7 +67,7 @@ There are five categories of IPS based on their function, capabilities, and loca
 
 ## Benefits and Challenges
 
-![ventajas intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/8ventajas-intrusion-prevesion-system.png?raw=true)
+![ventajas intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/8intrucion-prevension-system.us.png?raw=true)
 
 ### Advantages of IPS
 

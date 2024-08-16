@@ -52,7 +52,7 @@ Para enfrentar esos problemas, los administradores de redes deben desplegar de m
 
 La siguiente ilustración representa un escenario de una empresa típica, donde el departamento de TI tiene que prestar atención a la gestión de seguridad de red:
 
-![Departamento TI - gestión de la red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-1.jpg)
+![Departamento TI - gestión de la red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-1.us.png)
 
 - La gestión de seguridad de red reduce las tareas manuales y los errores humanos, ya que simplifica la administración con políticas de seguridad y herramientas de flujo de trabajo a través de una interfaz de administración centralizada.
 - La gestión de seguridad de red puede reducir el riesgo en toda la red y proteger los datos mediante la obtención de información sobre amenazas, vulnerabilidades de red y su relevancia, la evaluación de posibles opciones para bloquear el ataque y la inteligencia para respaldar las decisiones.

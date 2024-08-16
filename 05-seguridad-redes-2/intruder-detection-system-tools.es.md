@@ -56,7 +56,7 @@ OSSEC se compone de múltiples piezas:
 - **Servidor**: El servidor es la pieza central del despliegue OSSEC. Almacena la integridad de los archivos de bases de datos, comprobación de los registros, eventos y entradas de auditoría del sistema. Todas las reglas, decodificadores y las principales opciones de configuración se almacenan de forma centralizada en el administrador; por lo que es fácil de administrar incluso con un gran número de agentes.
 - **Agentes/sensores**: El agente es un pequeño programa o conjunto de programas instalado en el sistema que va a ser monitorizado. El agente recopilará información y la transmitirá al gestor para su análisis y para llevar a cabo una correlación de información. Parte de la información se recoge en tiempo real, y otra será recogida periódicamente. Tiene un pequeño uso de memoria y CPU por defecto, que no afecta el uso del sistema.
 
-![intruder prevention system ossec](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips2-ossec.png?raw=true)
+![intruder prevention system ossec](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/cpu.es.png?raw=true)
 
 #### OSSEC en redes industriales
 

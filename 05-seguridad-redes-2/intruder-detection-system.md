@@ -52,7 +52,7 @@ There are statistical indicators of sensitivity, specificity, and precision that
 
 There are different classifications of IDSs based on their approach, data source, structure, and behavior.
 
-![intrusion detection system classification](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/3intrusion-detection-system-clasification.png?raw=true)
+![intrusion detection system classification](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/3intrusion-detection-system-clasification.us.png?raw=true)
 
 ## **Based on Approach**
 
@@ -94,7 +94,7 @@ Classification based on control strategies:
 
 - **Centralized Intrusion Detection System:** Employs sensors that transmit information to a central system for control, reducing equipment costs.
 
-![centralized intrusion detection system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/6centralized-intrusion-detection-system.png?raw=true)
+![centralized intrusion detection system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/6centralized-instrusion-detection-system.us.png?raw=true)
 
 ## **Based on Behavior**
 

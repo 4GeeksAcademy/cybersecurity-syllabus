@@ -10,7 +10,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 The first architecture, presented in the Figure, describes the placement of IDS-type devices to monitor traffic within the control network. For this purpose, all traffic passing through the routers/switches is brought to the IDS sensor through mirror ports (*mirror/SPAN*). A probe is also added to receive information from the firewall and thus control the traffic exchanged with the network corresponding to the enterprise zone. The IDSs must have the appropriate rules to generate the proper alerts that will be displayed to the corresponding operator or security administrator through the console.
 
-![Security Architecture with IDS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/arquitectura2.us.png)
+![Security Architecture with IDS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/security-architecture/aquitectura-2.us.png)
 
 ## Security architecture with IPS
 
