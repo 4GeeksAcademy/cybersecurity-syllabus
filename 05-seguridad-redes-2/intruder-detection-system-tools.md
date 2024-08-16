@@ -33,7 +33,7 @@ Quickdraw signatures (rules in Snort's jargon) identify unauthorized requests, e
 
 Zeek is another tool that serves as an IDS/IPS due to its network analysis features, similar to Snort and Suricata. It is based on a powerful analysis engine that allows high-performance network monitoring, analyzing protocols and application-layer information in real time.
 
-![intruder prevention system Bro](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips1-bro.png?raw=true)
+![intruder prevention system Bro](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips1-bro.us.png?raw=true)
 
 #### Zeek Architecture
 
@@ -57,7 +57,7 @@ OSSEC consists of multiple components:
 - **Server**: The server is the central piece of the OSSEC deployment. It stores the integrity of the file databases, log checks, events, and system audit entries. All rules, decoders, and main configuration options are stored centrally in the manager, making it easy to manage even with a large number of agents.
 - **Agents/Sensors**: The agent is a small program or set of programs installed on the system that will be monitored. The agent will collect information and transmit it to the manager for analysis and information correlation. Part of the information is collected in real-time, and other data will be collected periodically. It has a small default memory and CPU usage, which does not affect system usage.
 
-![intruder prevention system ossec](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ips2-ossec.png?raw=true)
+![intruder prevention system ossec](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/cpu.us.png?raw=true)
 
 #### OSSEC in Industrial Networks
 

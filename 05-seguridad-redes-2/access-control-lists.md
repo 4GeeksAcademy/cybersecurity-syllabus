@@ -43,7 +43,7 @@ $ router(config-if)# ip access-group N {in|out}
 
 In the figure, we want to allow all traffic from external networks (beyond the ethernet-1 interface) except for traffic from the 144.21.0.0 network. The ACL would be:
 
-![Access control table](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/access-control-list/listas-de-control-de-acceso-image-1.jpg)
+![Access control table](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/access-control-list/listas-de-control-de-acceso-image-1.us.png)
 
 ```bash
 $ router(config)# access-list 1 deny 144.21.0.0 0.0.255.255

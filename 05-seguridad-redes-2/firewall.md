@@ -46,7 +46,7 @@ A firewall is a crucial tool that protects a network of interconnected systems a
 
 #### Example: `iptables` for Linux
 
-![Firewall - filtering / OSI model](../assets/05-seguridad-en-redes-2/firewall/firewall-image-2.jpg)
+![Firewall - filtering / OSI model](../assets/05-seguridad-en-redes-2/firewall/firewall-image-2.us.png)
 
 ### 2. **Stateful Inspection**
 

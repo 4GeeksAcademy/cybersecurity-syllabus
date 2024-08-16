@@ -18,7 +18,7 @@ Hemos de partir de la base que aunque tengamos el cortafuegos habilitado, por no
 
 Además desde el punto de vista del programación (*software*) existen diferentes tipos de herramienta, los sistemas de detección de intrusos (HIDS), sistemas de detección de intrusos en red (IDPS), los sistemas de detección de intrusos basados en firmas (SIDS) y por último los sistemas de detección de intrusos basados en anomalías.
 
-![network intrusion detection](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/2network-intrusion-detection.png?raw=true)
+![network intrusion detection](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/2network-intrusion-detection.es.png?raw=true)
 
 Los sistemas IDS utilizan tres métodos para detectar el tráfico. Estos son la detección de anomalías, el análisis de protocolos y el análisis de firmas.
 
@@ -87,7 +87,7 @@ Clasificación basada en las estrategias de control:
 
 **Sistema de Detección de Intrusión Distribuido (DIDS):** Se basa en la instalación en un sistema distribuido, ubicando sensores repartidos por varios equipos de la red. Estos sensores se comunican con un nodo central donde se recibirá toda la información y donde se cruzan los datos, lo que nos permitirá detectar los ataques con fiabilidad y obtener una visión global mejorando la detección de incidentes.
 
-![distributed intrusion detection systems](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/5distributed-intrusion-detection-systems.png?raw=true)
+![distributed intrusion detection systems](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/5distributed-intrusion-detection-systems.es.png?raw=true)
 
 **Sistema de Detección de Intrusión Centralizado:** Emplea sensores que transmiten información a un sistema central que realiza el control, permitiendo ahorrar en equipamientos.
 
