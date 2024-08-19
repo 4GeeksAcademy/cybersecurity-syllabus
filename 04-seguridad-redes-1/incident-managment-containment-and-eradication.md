@@ -1,6 +1,6 @@
 ---
 title: "Strategies for Incident Management: Containment, Eradication, and Recovery"
-technologies: ["manejo-de-incidentes-de-ciberseguridad", "cybersecurity-incident-management", "cybersecurity", "ciberseguridad"]
+technologies: ["cybersecurity", "ciberseguridad"]
 
 ---
 
