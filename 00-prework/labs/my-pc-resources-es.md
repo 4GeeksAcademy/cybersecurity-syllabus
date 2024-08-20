@@ -2,7 +2,7 @@
 
 **Descubre como ver la información de tu hardware en tu computador:**
 
-- **Para Windows:**
+- **Para Windows:**🤓
 
 1. Presiona en tu teclado los botones **`win + r`** e introduce en la ventana **msinfo32** para ver información interna como el procesador, versión del software y cantidad de **RAM**.
 

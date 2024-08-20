@@ -6,7 +6,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-## Que es un Firewall
+## Que es un Firewall🥷
 
 Un firewall es un sistema de seguridad en la red, el cual restringe el tráfico de internet entrante, saliente o dentro de una red privada, el término proviene del concepto de paredes físicas que actúan como barreras para ralentizar la propagación del fuego hasta que los servicios de emergencia puedan extinguir.
 
@@ -74,7 +74,7 @@ Los firewalls de última generación están diseñados para examinar e identific
 
 Una red inalámbrica o una red wifi es una señal de frecuencia por ondas, que puede conectar a los equipos en internet sin necesidad de usar cables, como esta conexión es por transmisión en vez de cables, es posible que usuarios no autorizados puedan acceder a esta red. Esto puede reducir la velocidad de la conexión o generar vulnerabilidad en situaciones como robo de identidad. Por lo que es necesario tomar ciertas medidas de seguridad para proteger nuestra información en WiFi tales como:
 
-### Encriptación
+### Encriptación ↓
 
 La encriptación de las redes inalámbricas se utilizan para añadir seguridad mediante un protocolo de autenticación, el cual solicita una contraseña o una clave de red cuando un usuario o dispositivo intenta conectarse. Si la red Wifi no está asegurada con algún tipo de cifrado, es posible que algún usuario no autorizado pueda acceder a ella y obtener información personal, además de reducir la velocidad y el rendimiento de la red.
 
