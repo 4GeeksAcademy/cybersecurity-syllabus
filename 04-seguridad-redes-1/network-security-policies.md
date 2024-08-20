@@ -69,4 +69,4 @@ Network Security Architecture
 
 The base architecture selected is based on the proposal offered by the IEC 62443 standard. It defines different zones associated with the levels into which an industrial control system is divided. The base architecture presents segmentation based on firewalls to separate the control and corporate zones, also having two DMZs for information exchange between both zones. The following proposed architectures present security architectures to ensure communications and devices located on the control side of the network. Corporate security is not considered in this study as it is outside its scope.
 
-![IT Department - Network Management](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-2.jpg)
+![IT Department - Network Management](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-2.us.png)
