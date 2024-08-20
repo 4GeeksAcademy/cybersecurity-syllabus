@@ -216,7 +216,7 @@ Giving importance to company security is crucial. Therefore, it is necessary to 
 - Protecting the confidentiality of the information.
 - Regulating the availability of the information so that it is always available to the authorized person for use, at any time and under any circumstance.
 
-![Information Security Policies](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-5.jpg?raw=true)
+![Information Security Policies](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security5.us.png?raw=true)
 
 This involves countless tasks, many of them technical. But others relate to the general administration of the organization, ranging from having the appropriate budget for implementation to overcoming any mental model objections regarding its use.
 
