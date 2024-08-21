@@ -66,9 +66,9 @@ $ router(config-if)# ip access-group 1 in
 
 Filtrando así, solamente, el tráfico entrante.
 
-## Aplicacion de control de acceso para ACL extended
+## Aplicacion de control de acceso para ACL extended (Extendida)
 
-**Las ACLs de tipo extended,** comparten todas las demás características del **standard**, pero tienen una sintaxis más complicada, atendiendo a que permiten filtrar utilizando muchos otros criterios:
+**Las ACLs de tipo extended,** comparten todas las demás características del **standard (estándar)**, pero tienen una sintaxis más complicada, atendiendo a que permiten filtrar utilizando muchos otros criterios:
 
 ```bash
 $ router(config)# access-list N {permit|deny} protocolo dir.IP-fuente [máscara-fuente] [op puerto-fuente] dir.IP-destino [máscara-destino] [op puerto-destino]
