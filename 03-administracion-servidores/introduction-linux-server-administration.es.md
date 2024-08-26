@@ -55,3 +55,51 @@ Algunos conceptos que tenemos que tener claros al momento de hablar de administr
 5. **Monitoreo de procesos**: Es importante monitorear el rendimiento del servidor para garantizar su correcto funcionamiento. Esto implica supervisar el uso de recursos como la CPU, la memoria y el almacenamiento, así como el tráfico de red. El monitoreo permite identificar posibles cuellos de botella y tomar medidas para optimizar el rendimiento del servidor.
 6. **Administración remota**: La administración remota permite gestionar el servidor desde cualquier ubicación. Esto se logra a través de herramientas de administración remota como SSH (Secure Shell) o herramientas de administración centralizada. La administración remota facilita la configuración, el monitoreo y la solución de problemas sin necesidad de estar físicamente en el lugar donde se encuentra el servidor.
 7. **Servidor de nube:** Es un recurso de servidor centralizado y agrupado que se aloja y distribuye a través de una red y al que pueden acceder múltiples usuarios cuando lo necesiten. Los servidores de nube pueden realizar las mismas funciones que un servidor físico tradicional, proporcionando potencia de procesamiento, almacenamiento y aplicaciones. Para su funcionamiento se instalan un software de gestión llamado hipervisor en servidores físicos para conectarlos y virtualizarlos, los recursos combinados se desvinculan y se agrupan para crear servidores virtuales.
+
+## Distribuciones de Linux
+
+Entre las distribuciones de Linux más populares para servidores tenemos:
+
+- **Ubuntu Server:**
+
+Ubuntu server es una de las distribuciones más conocidas y usadas para servidores actualmente en el mercado, es una variación de los sistemas operativos basados en Debian, esto significa que pueden tener una arquitectura similar y el mismo sistema manejador de paquetes, aunque en un ambiente profesional, Ubuntu Server puede tener un manejo mucho más fácil y una más alta compatibilidad del hardware.
+
+Su instalación y configuración del sistema operativo son relativamente sencillas, y cuenta con una gran cantidad de documentación y recursos en línea para ayudarte en el proceso. Además, es compatible con una amplia gama de arquitecturas de hardware, lo que te brinda flexibilidad al elegir el servidor adecuado para tus necesidades.
+
+La principal desventaja que puede tener Ubuntu server es que es un sistema operativo que ocupa mucho espacio en la máquina, y que las personalizaciones del sistema son posibles solo dentro de un marco limitado
+
+> 👉 Ubuntu Server es una gran opción cuando se busca administrar un servidor dentro de una estructura más fácil de manejar, sobre todo si se está en cambio desde windows.
+
+- **Red Hat Enterprise Linux (RHEL)**
+
+Este sistema operativo es otra de las plataformas más usadas en servidores y en entornos empresariales, también hay que mencionar que está certificado en cientos de nubes, RHEL se destaca por su enfoque en la estabilidad, seguridad y rendimiento.
+
+Una de las características clave de RHEL para servidores es su capacidad para manejar cargas de trabajo críticas y de alto rendimiento. Está diseñado para ofrecer un rendimiento óptimo y una alta disponibilidad, lo que lo convierte en una opción confiable para aplicaciones empresariales y servicios en línea también ofrece una amplia gama de herramientas y servicios para facilitar la administración y el despliegue de servidores.
+
+La empresa detrás de RHEL, Red hat ofrece soporte técnico y servicios profesionales, lo que brinda a las empresas la tranquilidad de contar con asistencia experta en caso de problemas o necesidades específicas. También hay una gran comunidad de usuarios y desarrolladores de RHEL que proporcionan recursos y soporte adicional en línea.
+
+Entre las desventajas que ofrece RHEL tenemos que no un sistema gratuito, ya que se maneja por suscripciones y además, no es un sistema solamente basado en línea de comando por lo que no lo hace ideal para principiantes
+
+Si bien mencionamos como desventaja que RHEL no es un sistema gratuito, esto lo podemos tomar también como una ventaja ya que en seguridad, ofrece varias soluciones como Security-Enhanced Linux (SELinux) y los controles de acceso obligatorios (MAC), que le permiten evitar las intrusiones y cumplir con la normativa vigente. La plataforma también está certificada conforme a los Estándares Federales de Procesamiento de la Información (FIPS) 140-2, y es el primer soporte de los marcos de contenedores de Linux en obtener la certificación de Common Criteria (v7.1).
+
+Este sistema operativo es ideal cuando queremos trabajar en un amplio ecosistema de software, hardware y nube (AWS, Microsoft Azure, Oracle Cloud Infrastructure).
+
+- **CentOs**
+
+CentOS está basado en Red Hat Enterprise Linux (RHEL) desde 2009, pero es de código abierto y gratuito. El sistema operativo es compatible con RHEL y destaca por su facilidad de uso. Especialmente en el ámbito de las distribuciones de servidores Linux, CentOS siempre ha sido convincente y se consideraba una solución de entrada que era válida para muchos usuarios. Sin embargo, Red Hat ha anunciado que la compatibilidad con CentOS finalizará en 2024. El sucesor CentOS Stream es visto con recelo por muchos desarrolladores, ya que es muy experimental y no es totalmente compatible con RHEL. La nueva solución funciona más bien como un entorno de prueba para el sistema.
+
+CentOS es y fue considerado una solución gratuita a nivel básico que podía ofrecer las características de RHEL. El sistema operativo funciona de forma muy estable y es muy seguro gracias a una fuerte supervisión y a los parches regulares de la comunidad.
+
+Sin embargo, CentOS no es una solución para el futuro, ya que la compatibilidad del sistema operativo se interrumpirá en un futuro cercano. Aunque muchas aplicaciones de RHEL también funcionan en CentOS, esto no siempre está garantizado porque faltan muchas certificaciones necesarias.
+
+CentOS solo es apto para principiantes que quieran conocer RHEL sin pagar por él. Para proyectos a largo plazo, recomendamos otras distribuciones de Linux.
+
+- **Debian**
+
+Debian es una de las distribuciones para servidores web clásicas y de larga duración. El sistema existe desde 1993 y cuenta con una enorme comunidad en todo el mundo. Esta comunidad no solo utiliza Debian, sino que también mantiene el sistema. Debian es la base de muchas otras distribuciones de Linux, pero también está siendo constantemente optimizado por más de 1000 desarrolladores oficiales. El sistema operativo es igualmente recomendable para servidores, ordenadores de mesa y portátiles.
+
+Además de su disponibilidad gratuita, la estabilidad y versatilidad de Debian hablan por sí mismas. El sistema operativo no solo es fiable, sino que también es compatible con numerosas arquitecturas de hardware y permite a los usuarios realizar numerosos ajustes individuales
+
+Los principiantes pueden tener dificultades con Debian, ya que la instalación y la configuración pueden resultar complejas. Las actualizaciones no se producen a intervalos fijos y, por tanto, son difíciles de planificar. No se admiten archivos de paquetes personales. Además, la interfaz es clara, pero no muy moderna.
+
+Debian es una solución fiable para los desarrolladores experimentados que se dediquen principalmente al sector del software y el hardware.
