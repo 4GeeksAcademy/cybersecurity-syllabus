@@ -1,1 +1,0 @@
-Felicitaciones por haber llegado hasta aquí, mientras más vamos avanzando en los módulos más cosas aprenderemos y pondremos en práctica lo aprendido, en este modulo pondremos en práctica todo lo aprendido en Linux para asi saber como manejar y administrar servidores de Linux.
