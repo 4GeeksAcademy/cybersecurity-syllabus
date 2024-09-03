@@ -1,4 +1,4 @@
-## **Conectividad a internet**
+## Conectividad a internet
 
 Sabemos que el internet es un protocolo que conecta a todas las redes y asi acceder a ellas, lo utilizan distintos tipos de usuario. Hoy en día hay compañías encargadas de administrar esas conexiones. Usando distintos tipos de tecnologías para esto, entre las cuales tenemos:
 
@@ -85,92 +85,79 @@ Los ISP desempeñan un papel crucial en la conectividad de Internet, ya que son 
 3. Configuramos las interfaces del router. Existen dos maneras de hacerlo
 4. A través de la interfaz gráfica
 5. Hacemos click en el router y nos dirigimos a la pestaña **config**
-6. Hacemos click en la pestaña **FastEthernet0/0** y configuramos la ip
-
-**IPv4 Address 192.168.5.1**
-
-**Subnet Mask 255.255.255.0**
-
+6. Hacemos click en la pestaña **FastEthernet0/0** y configuramos la ip `IPv4 Address 192.168.5.1` y `Subnet Mask 255.255.255.0`
 7. Encendemos el puerto dando click en el recuadro de **Port Status**
 
 ![Port Status](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/port-status.png?raw=true)
 
-8. Repetimos el proceso con el puerto **FastEthernet0/1**
+8. Repetimos el proceso con el puerto **FastEthernet0/1**: `IpV4 Address 192.168.10.1`, y `Subnet Mask 255.255.255.0`
 
-**IpV4 Address 192.168.10.1**
-
-**Subnet Mask 255.255.255.0**
-
-**A través de la terminal**
+#### A través de la terminal
 
 9. Hacemos click en el router y nos dirigimos a la pestaña CLI y agregamos los siguientes comandos
 
-*Router>enable*
+```bash
 
-*Router#configure terminal*
+Router> enable
 
-*Enter configuration commands, one per line.  End with CNTL/Z.*
+Router#configure terminal
 
-*Router(config)#interface FastEthernet0/0*
+Enter configuration commands, one per line.  End with CNTL/Z.
 
-*Router(config-if)#ip address 192.168.5.1 255.255.255.0*
+Router(config)#interface FastEthernet0/0
+Router(config-if)#ip address 192.168.5.1 255.255.255.0
+Router(config-if)#no shutdown
+Router(config-if)#
 
-*Router(config-if)#no shutdown*
-
-*Router(config-if)#*
-
-*%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up*
-
-*%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up*
+%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
 
 *exit*
+```
 
 10. Repetimos el proceso para la interfaz **FastEthernet0/1**
 
-*Router(config)#interface FastEthernet0/1*
+```bash
 
-*Router(config-if)#ip address 192.168.10.1 255.255.255.0*
+Router(config)#interface FastEthernet0/1
+Router(config-if)#ip address 192.168.10.1 255.255.255.0
+Router(config-if)#no shutdown
+Router(config-if)#
 
-*Router(config-if)#no shutdown*
-
-*Router(config-if)#*
-
-*%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up*
-
-*%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up*
+%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
 
 *exit*
+```
 
 ![Router](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/router.png?raw=true)
 
-**Configuracion del pool DHCP**
+## Configuracion del pool DHCP
 
 Un pool DHCP son las direcciones comprendidas en un intervalo determinado. Todas las direcciones IP comprendidas en ese intervalo las irá adjudicando el servidor DHCP a medida que los clientes las soliciten.
 
 Este pool es util cuando estamos configurando una red grande y queremos asignar ips mediante el protocolo DHCP
 
-1 Para configurar el pool entramos nuevamente en el router en la pestaña **CLI** y agregamos los siguientes comandos:
+Para configurar el pool entramos nuevamente en el router en la pestaña **CLI** y agregamos los siguientes comandos:
 
-*Router(config)#ip dhcp pool ip5*
-
-*Router(dhcp-config)#network 192.168.5.0 255.255.255.0*
-
-*Router(dhcp-config)#default-router 192.168.5.1*
-
-*Router(dhcp-config)#exit*
+```bash
+Router(config)#ip dhcp pool ip5
+Router(dhcp-config)#network 192.168.5.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.5.1
+Router(dhcp-config)#exit
+```
 
 ![Dialog](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/dialog.png?raw=true)
 
 11. El comando ip dhcp pool **NOMBRE** crea un conjunto de ip´s con el nombre elegido y provoca que el router entre en el modo de configuración de DHCP,
 12. Repetimos el proceso ahora con la **ip10**
 
-*Router(config)#ip dhcp pool ip10*
-
-*Router(dhcp-config)#network 192.168.10.0 255.255.255.0*
-
-*Router(dhcp-config)#default-router 192.168.10.1*
-
-*Router(dhcp-config)#exit*
+```bash
+Router(config)#ip dhcp pool ip10
+Router(dhcp-config)#network 192.168.10.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.10.1
+Router(dhcp-config)#exit
+```
 
 13. Configuración de ip de pc
 14. Ahora nos vamos a hacerle click en las computadoras y seleccionar la opción IP configuration

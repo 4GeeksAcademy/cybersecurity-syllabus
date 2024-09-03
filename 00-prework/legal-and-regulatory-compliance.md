@@ -1,5 +1,5 @@
 ---
-title: "Legal and regulatory compliance"
+title: "Legal and regulatory compliance in cybersecurity"
 subtitle: "Understanding Global Frameworks and Their Impact on Cybersecurity Practices"
 tags: ["cybersecurity", "legal compliance", "international regulations"]
 authors: ["blindma1den", "lorenagubaira"]
