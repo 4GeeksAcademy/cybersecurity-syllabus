@@ -1,3 +1,11 @@
+---
+title: "Guía Completa de Conectividad a Internet: DSL, Cable, Fibra Óptica y Proveedores de Servicio (ISP)"
+subtitle: "Comprende las Principales Tecnologías de Conexión a Internet y Configura tu Red con Routers y DHCP"
+tags: ["ciberseguridad", "redes"]
+authors: ["blindma1den", "lorenagubaira"]
+
+---
+
 ## Conectividad a internet
 
 Sabemos que el internet es un protocolo que conecta a todas las redes y asi acceder a ellas, lo utilizan distintos tipos de usuario. Hoy en día hay compañías encargadas de administrar esas conexiones. Usando distintos tipos de tecnologías para esto, entre las cuales tenemos:
@@ -44,7 +52,7 @@ El cable coaxial es un tipo de cable de cobre construido especialmente con un bl
 
 Los cables coaxiales tienen capas concéntricas de conductores eléctricos y material aislante.Esta construcción asegura que las señales están encerradas dentro del cable y evita que el ruido eléctrico interfiera con la señal.
 
-La capa conductora central es un cable conductor delgado, ya sea de cobre sólido o trenzado. Una capa dieléctrica, formada por un material aislante con características eléctricas muy definidas, envuelve el hilo. Luego, una capa de protección rodea la capa dieléctrica con una hoja de metal o una malla de cobre trenzada.Todo el conjunto está envuelto en una funda aislante.La capa de blindaje de metal exterior del cable coaxial generalmente se conecta a tierra en los conectores en ambos extremos para proteger las señales y como un lugar para que se disipen las señales de interferencia parásitas.
+La capa conductora central es un cable conductor delgado, ya sea de cobre sólido o trenzado. Una capa dieléctrica, formada por un material aislante con características eléctricas muy definidas, envuelve el hilo. Luego, una capa de protección rodea la capa dieléctrica con una hoja de metal o una malla de cobre trenzada. Todo el conjunto está envuelto en una funda aislante. La capa de blindaje de metal exterior del cable coaxial generalmente se conecta a tierra en los conectores en ambos extremos para proteger las señales y como un lugar para que se disipen las señales de interferencia parásitas.
 
 Generalmente podemos ver este tipo de conexiones en los servicios de internet que proveen las empresas de televisión por cable.
 
@@ -83,13 +91,12 @@ Los ISP desempeñan un papel crucial en la conectividad de Internet, ya que son 
 ![Switch](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/switch.png?raw=true)
 
 3. Configuramos las interfaces del router. Existen dos maneras de hacerlo
-4. A través de la interfaz gráfica
-5. Hacemos click en el router y nos dirigimos a la pestaña **config**
-6. Hacemos click en la pestaña **FastEthernet0/0** y configuramos la ip
+4. A través de la interfaz gráfica.
+5. Hacemos click en el router y nos dirigimos a la pestaña **config**.
+6. Hacemos click en la pestaña **FastEthernet0/0** y configuramos la ip.
 
-**IPv4 Address 192.168.5.1**
-
-**Subnet Mask 255.255.255.0**
+- **IPv4 Address:** `192.168.5.1`
+- **Subnet Mask:** `255.255.255.0`
 
 7. Encendemos el puerto dando click en el recuadro de **Port Status**
 
@@ -97,49 +104,37 @@ Los ISP desempeñan un papel crucial en la conectividad de Internet, ya que son 
 
 8. Repetimos el proceso con el puerto **FastEthernet0/1**
 
-**IpV4 Address 192.168.10.1**
-
-**Subnet Mask 255.255.255.0**
+- **IPv4 Address:** `192.168.10.1`
+- **Subnet Mask:** `255.255.255.0`
 
 **A través de la terminal**
 
-9. Hacemos click en el router y nos dirigimos a la pestaña CLI y agregamos los siguientes comandos
+9. Hacemos click en el router y nos dirigimos a la pestaña CLI y agregamos los siguientes comandos:
 
-*Router>enable*
-
-*Router#configure terminal*
-
-*Enter configuration commands, one per line.  End with CNTL/Z.*
-
-*Router(config)#interface FastEthernet0/0*
-
-*Router(config-if)#ip address 192.168.5.1 255.255.255.0*
-
-*Router(config-if)#no shutdown*
-
-*Router(config-if)#*
-
-*%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up*
-
-*%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up*
-
-*exit*
+```
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line. End with CNTL/Z.
+Router(config)#interface FastEthernet0/0
+Router(config-if)#ip address 192.168.5.1 255.255.255.0
+Router(config-if)#no shutdown
+Router(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+exit
+```
 
 10. Repetimos el proceso para la interfaz **FastEthernet0/1**
 
-*Router(config)#interface FastEthernet0/1*
-
-*Router(config-if)#ip address 192.168.10.1 255.255.255.0*
-
-*Router(config-if)#no shutdown*
-
-*Router(config-if)#*
-
-*%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up*
-
-*%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up*
-
-*exit*
+```
+Router(config)#interface FastEthernet0/1
+Router(config-if)#ip address 192.168.10.1 255.255.255.0
+Router(config-if)#no shutdown
+Router(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+exit
+```
 
 ![Router](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/router.png?raw=true)
 
@@ -147,41 +142,39 @@ Los ISP desempeñan un papel crucial en la conectividad de Internet, ya que son 
 
 Un pool DHCP son las direcciones comprendidas en un intervalo determinado. Todas las direcciones IP comprendidas en ese intervalo las irá adjudicando el servidor DHCP a medida que los clientes las soliciten.
 
-Este pool es util cuando estamos configurando una red grande y queremos asignar ips mediante el protocolo DHCP
+Este pool es util cuando estamos configurando una red grande y queremos asignar ips mediante el protocolo DHCP.
 
-1 Para configurar el pool entramos nuevamente en el router en la pestaña **CLI** y agregamos los siguientes comandos:
+Para configurar el pool entramos nuevamente en el router en la pestaña **CLI** y agregamos los siguientes comandos:
 
-*Router(config)#ip dhcp pool ip5*
-
-*Router(dhcp-config)#network 192.168.5.0 255.255.255.0*
-
-*Router(dhcp-config)#default-router 192.168.5.1*
-
-*Router(dhcp-config)#exit*
+```
+Router(config)#ip dhcp pool ip5
+Router(dhcp-config)#network 192.168.5.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.5.1
+Router(dhcp-config)#exit
+```
 
 ![Dialog](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/dialog.png?raw=true)
 
-11. El comando ip dhcp pool **NOMBRE** crea un conjunto de ip´s con el nombre elegido y provoca que el router entre en el modo de configuración de DHCP,
+11. El comando ip dhcp pool **NOMBRE** crea un conjunto de ip´s con el nombre elegido y provoca que el router entre en el modo de configuración de DHCP.
 12. Repetimos el proceso ahora con la **ip10**
 
-*Router(config)#ip dhcp pool ip10*
+```
+Router(config)#ip dhcp pool ip10
+Router(dhcp-config)#network 192.168.10.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.10.1
+Router(dhcp-config)#exit
+```
 
-*Router(dhcp-config)#network 192.168.10.0 255.255.255.0*
-
-*Router(dhcp-config)#default-router 192.168.10.1*
-
-*Router(dhcp-config)#exit*
-
-13. Configuración de ip de pc
-14. Ahora nos vamos a hacerle click en las computadoras y seleccionar la opción IP configuration
-15. En la selección ip Configuration seleccionamos DHCP y esperamos a la asignación de la IP
+13. Configuración de ip de pc.
+14. Ahora nos vamos a hacerle click en las computadoras y seleccionar la opción IP configuration.
+15. En la selección ip Configuration seleccionamos DHCP y esperamos a la asignación de la IP.
 
 ![DHCP](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/dhcp.png?raw=true)
 
 Debe estar dentro de la misma red asignada en la interfaz de red.
 
-16. Podemos comprobar que la conexión entre las computadoras de la red está establecida haciendo ping entre ellas
-17.  El comando ipconfig nos dara la informacion de la IP del dispositivo
+16. Podemos comprobar que la conexión entre las computadoras de la red está establecida haciendo ping entre ellas.
+17.  El comando ipconfig nos dara la informacion de la IP del dispositivo.
 
 ![ipconfig](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ipconfig.png?raw=true)
 
