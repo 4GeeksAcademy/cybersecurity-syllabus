@@ -12,7 +12,7 @@ Un sistema de detección de intrusiones puede ser descrito como un proceso de de
 
 ![intrusion detection system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/1intrusion-detection-systen.png?raw=true)
 
-## **¿En qué consiste un IDS y cómo funciona?**
+## ¿En qué consiste un IDS y cómo funciona?
 
 Hemos de partir de la base que aunque tengamos el cortafuegos habilitado, por normal general, tendremos muchos puertos abiertos, como por ejemplo el 80 y el 443 para las aplicaciones web. Por lo que debemos tener un sistema adicional que nos ayude a controlar estas puertas abiertas. Por lo que para llevar un mayor control debemos de utilizar un sistema IDS, esto es, un sistema de detección de intrusos y también de vulnerabilidades. Existen los IDS activos y los pasivos. Con los primeros se genera entradas en el registro y se generan alertas. Con los segundos en cambio, además de realizar las mismas funciones que con el pasivo, también se generarían acciones, como bloquear direcciones IP o cerrar el acceso a puertos restringidos.
 
@@ -32,9 +32,9 @@ Existen una serie de organizaciones, asociaciones y empresas que nos permiten es
 
 - Bugtraq: Es una lista de difusión dedicada a la publicación de vulnerabilidades, su uso y corrección. ( [https://www.securityfocus.com/](https://www.securityfocus.com/))
 - CERT: *Computer Emergency Response Team*. Se trata de una organización que estudia las vulnerabilidades, investiga las evaluaciones en términos de redes y seguridad y ofrece servicios relacionados con la seguridad. ([Entrada de Wikipedia al respecto](https://es.wikipedia.org/wiki/Equipo_de_Respuesta_ante_Emergencias_Inform%C3%A1ticas))
-- CIAC: Computer Incident Advisory Capability. Una organización de alerta e investigación gestionado por el departament de energía de Estados Unidos. ( [https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center](https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center))
+- CIAC: Computer Incident Advisory Capability. Una organización de alerta e investigación gestionado por el departament de energía de Estados Unidos. ([https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center](https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center))
 
-**Tareas de un IDS**
+### Tareas de un IDS
 
 Un IDS realiza dos tareas fundamentales:
 
@@ -48,13 +48,13 @@ Existen indicadores estadísticos de sensibilidad, especificidad y precisión qu
 - Falsos negativos (FN): Intrusión existente y no detectada.
 - Verdaderos negativos (TN): Intrusión no existente y no detectada.
 
-**Tipos de IDS**
+### **Tipos de IDS**
 
 Existen distintas clasificaciones de los IDS, según sea su enfoque, origen de datos, estructura y comportamiento
 
 ![intrusion detection system clasification](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/3intrusion-detection-system-clasification.png?raw=true)
 
-## **En función del enfoque**
+## En función del enfoque
 
 Se presentan dos grupos: Los sistemas de detección de usos indebidos, que comparan las firmas con la información recogida; y los de detección de anomalías, que usan técnicas estadísticas para distinguir el comportamiento usual del anormal.
 
@@ -69,7 +69,7 @@ Se presentan dos grupos: Los sistemas de detección de usos indebidos, que compa
 - **Análisis de transacción de estados:** Los ataques se representan como una secuencia de transiciones (máquina de estados finitos). Cuando se alcanza un estado considerado como intrusión se lanza una alarma.
 - **Híbridos:** Los IDS basados en firmas resultan más fiables y proporcionan mejores rendimientos frente a ataques conocidos, pero presentan una deficiencia ante nuevos ataques. Los IDS basados en anomalías presentan la capacidad de detectar ataques desconocidos, pero su rendimiento es inferior. Los sistemas híbridos serán una mezcla de ambos, y por lo tanto, pueden ajustarse para operar como ambos tipos de detectores, mejorando la funcionalidad, la detección de ataques y la mejora de rendimiento.
 
-## **En función del origen de los datos**
+## En función del origen de los datos
 
 Se encuentran tres tipos de IDS atendiendo a las fuentes de información que se utilicen:
 
@@ -81,7 +81,7 @@ Se encuentran tres tipos de IDS atendiendo a las fuentes de información que se 
 
 **IDS Híbridos:** Los sistemas híbridos recogen lo mejor de ambos tipos HIDS y NIDS. Permiten una detección local de los sistemas y un sensor en cada segmento de red se encarga de la vigilancia. De esta forma se cubren las necesidades HIDS con las del NIDS, permitiendo el aprovechamiento de las ventajas de ambas arquitecturas.
 
-## **En función de su estructura**
+## En función de su estructura
 
 Clasificación basada en las estrategias de control:
 
@@ -93,7 +93,7 @@ Clasificación basada en las estrategias de control:
 
 ![centralized instrusion detection system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/6centralized-instrusion-detection-system.png?raw=true)
 
-**En función de su comportamiento**
+### En función de su comportamiento
 
 Encontramos dos tipos de IDS según si realizan la prevención escuchando el tráfico o si se elabora una respuesta defensiva cuando se detecta un ataque.
 
