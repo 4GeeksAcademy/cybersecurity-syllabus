@@ -22,7 +22,7 @@ En el sitio web oficial de OWASP [puedes ver que la última lista de vulnerabili
 - **Descripción:** Se refiere a debilidades en los procesos criptográficos que pueden llevar a la exposición de datos sensibles. Los problemas incluyen cifrado insuficiente, gestión insegura de claves y el uso de algoritmos débiles.
 
 ### 💉 A03:2021 – Injection
-- **Descripción:** Los fallos de inyección ocurren cuando se envían datos no confiables a un intérprete como parte de un comando o consulta. La inyección SQL es el ejemplo más conocido, pero también incluye inyección NoSQL, comandos del sistema operativo, entre otros.
+- **Descripción:** Los fallos de inyección ocurren cuando se envían datos no confiables a un intérprete como parte de un comando o consulta. La [inyección SQL](https://4geeks.com/es/lesson/entendiendo-la-inyeccion-sql-la-segunda-vulnerabilidad-mas-critica-segun-owasp) es el ejemplo más conocido, pero también incluye inyección NoSQL, comandos del sistema operativo, entre otros.
 
 ### 🏗️ A04:2021 – Insecure Design
 - **Descripción:** Esta categoría aborda los riesgos asociados con patrones de diseño inseguros y la falta de principios de diseño seguro, como una arquitectura segura y modelado de amenazas.

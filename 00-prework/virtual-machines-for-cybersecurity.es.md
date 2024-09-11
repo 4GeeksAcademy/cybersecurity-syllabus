@@ -26,16 +26,16 @@ Usamos una combinación de VMs internas y de dominio público diseñadas especí
   - Explotación de FTP: Explotar servicios FTP vulnerables para obtener acceso no autorizado o leer/escribir archivos.
   - Misconfiguraciones de Apache: Identificar y explotar configuraciones incorrectas comunes en el servidor Apache.
   - Explotación de Comparticiones Samba: Obtener acceso no autorizado a través de comparticiones Samba mal configuradas.
-  - Explotación de Vulnerabilidades de Base de Datos: Usar inyección SQL en servicios MySQL vulnerables para acceder o manipular contenidos de la base de datos.
+  - Explotación de Vulnerabilidades de Base de Datos: Usar [inyección SQL](https://4geeks.com/es/lesson/entendiendo-la-inyeccion-sql-la-segunda-vulnerabilidad-mas-critica-segun-owasp) en servicios MySQL vulnerables para acceder o manipular contenidos de la base de datos.
 
 ## 2. DVWA (Damn Vulnerable Web Application)
 
 - **Nivel de Dificultad**: Principiante
 - **Sistema Operativo**: Cualquier pila LAMP (Linux, Apache, MySQL, PHP)
-- **Prácticas Ideales**: Seguridad de aplicaciones web, desde inyección SQL hasta XSS y CSRF
+- **Prácticas Ideales**: Seguridad de aplicaciones web, desde [inyección SQL](https://4geeks.com/es/lesson/entendiendo-la-inyeccion-sql-la-segunda-vulnerabilidad-mas-critica-segun-owasp) hasta XSS y CSRF
 - **Algunos ejemplos de ejercicios que puedes hacer**:
   - Realizar inyecciones SQL para revelar contenidos de la base de datos.
-  - Implementar y probar ataques de Cross-Site Scripting (XSS).
+  - Implementar y probar ataques de [Cross-Site Scripting (XSS)](https://4geeks.com/es/lesson/como-realizar-o-prevenir-el-ataque-xss-secuencias-de-comandos-entre-sitios).
   - Asegurar aplicaciones contra vulnerabilidades CSRF.
   - Práctica de Inyección SQL: Realizar inyecciones SQL para recuperar datos ocultos de la base de datos.
   - Cross-Site Scripting (XSS): Crear y ejecutar cargas útiles de XSS para comprender las vulnerabilidades de scripting del lado del cliente.
@@ -64,7 +64,7 @@ Usamos una combinación de VMs internas y de dominio público diseñadas especí
 - **Sistema Operativo**: Multiplataforma (Node.js)
 - **Prácticas Ideales**: Vulnerabilidades modernas de aplicaciones web, seguridad de API y mejores prácticas de seguridad
 - **Algunos ejemplos de ejercicios que puedes hacer**:
-  - Realizar un ataque XSS y luego implementar políticas de seguridad de contenido para mitigarlo.
+  - Realizar un ataque [XSS](https://4geeks.com/es/lesson/como-realizar-o-prevenir-el-ataque-xss-secuencias-de-comandos-entre-sitios) y luego implementar políticas de seguridad de contenido para mitigarlo.
   - Realizar ejercicios de Control de Acceso Roto.
   - Explorar deserialización insegura y configuración ambiental incorrecta.
   - Autenticación Rota: Identificar y explotar problemas de autenticación para obtener acceso no autorizado.

@@ -35,7 +35,7 @@ La diferencia entre un ciberataque y una ciberamenaza radica en su naturaleza y 
 3. **Ataque de Día Cero:** Explotación de vulnerabilidades de software antes de que se conozcan y se publiquen parches.
 4. **Ataque de Hombre en el Medio (MitM):** Interceptación y manipulación de la comunicación entre dos partes.
 5. **Ataque de Fuerza Bruta:** Intentos repetidos para adivinar contraseñas.
-6. **Ataque de Inyección SQL:** Inserción de código SQL malicioso en aplicaciones web.
+6. **[Ataque de Inyección SQL](https://4geeks.com/es/lesson/entendiendo-la-inyeccion-sql-la-segunda-vulnerabilidad-mas-critica-segun-owasp):** Inserción de código SQL malicioso en aplicaciones web.
 7. **Ataque de Denegación de Servicio (DoS/DDoS):** Saturación de servidores o redes para inutilizar servicios.
 8. **Ataque de Suplantación de Identidad (Spoofing):** Engañar a sistemas o usuarios haciéndose pasar por otra entidad.
 9. **Ataque de Exfiltración de Datos:** Robo y transferencia no autorizada de datos sensibles.

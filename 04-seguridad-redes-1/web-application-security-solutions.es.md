@@ -16,7 +16,7 @@ Cuando se trata de soluciones de seguridad para aplicaciones web, estamos hablan
 
 2. **Firewall de Aplicación Web (WAF)**:
     2.1. Despliega un WAF para monitorear y filtrar el tráfico HTTP hacia tu aplicación web.
-    2.2. Úsalo para bloquear ataques web comunes como inyección SQL y scripting entre sitios (XSS).
+    2.2. Úsalo para bloquear ataques web comunes como [inyección SQL](https://4geeks.com/es/lesson/entendiendo-la-inyeccion-sql-la-segunda-vulnerabilidad-mas-critica-segun-owasp) y [scripting entre sitios (XSS)](https://4geeks.com/es/lesson/como-realizar-o-prevenir-el-ataque-xss-secuencias-de-comandos-entre-sitios).
 
 3. **Herramientas de Pruebas de Seguridad**:
     3.1. Realiza pruebas de seguridad regulares usando herramientas como OWASP ZAP, Burp Suite o Fortify.
