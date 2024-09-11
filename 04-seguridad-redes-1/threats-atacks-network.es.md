@@ -42,7 +42,7 @@ Este tipo de ataque consiste en enviar un paquete TCP SYN falso, donde la direcc
 
 ### Smurf Attack
 
-Este ataque consiste en enviar una gran cantidad de mensajes ICMP Echo request a la dirección IP de broadcast con la IP de origen de la víctima. De esta forma, la víctima real recibirá todas las respuestas ICMP Echo Reply de toda la red, haciendo que se sature. Antes de realizar este ataque, se debe hacer IP Spoofing para falsificar la dirección IP de origen del ICMP Echo Request, para posteriormente realizar este ataque masivo. La red dejará de funcionar con normalidad mientras se realiza el ataque, porque tendremos un alto tráfico de broadcast. Hoy en día los switches están preparados para evitar estos ataques automáticamente, en función de los PPS (Paquetes por segundo)., estas solicitudes t
+Este ataque consiste en enviar una gran cantidad de mensajes ICMP Echo request a la dirección IP de broadcast con la IP de origen de la víctima. De esta forma, la víctima real recibirá todas las respuestas ICMP Echo Reply de toda la red, haciendo que se sature. Antes de realizar este ataque, se debe hacer IP Spoofing para falsificar la dirección IP de origen del ICMP Echo Request, para posteriormente realizar este ataque masivo. La red dejará de funcionar con normalidad mientras se realiza el ataque, porque tendremos un alto tráfico de broadcast. Hoy en día los switches están preparados para evitar estos ataques automáticamente, en función de los PPS (Paquetes por segundo).
 
 ### SYN Flood
 
