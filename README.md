@@ -24,8 +24,8 @@ The coursework's last 2-3 weeks are reserved for a final project.
 - Week 4: Network Security
 - Week 5: Cloud Environments
 - Week 6: Introduction to Pentesting
-- Week 7: Pentesting Blue Team
-- Week 8: Pentesting Red Team
+- Week 7: Pentesting Red Team
+- Week 8: Pentesting Blue Team
 - Week 9: Cyber-Intelligence and OSINT
 - Week 10: DLP and Risk Management
 - Week 11: ISO 27001
