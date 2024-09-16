@@ -1,175 +1,181 @@
-## Conectividad a internet
+---
+title: "Complete Guide to Internet Connectivity: DSL, Cable, Fiber Optics, and Internet Service Providers (ISP)"
+subtitle: "Understand the Main Internet Connection Technologies and Configure Your Network with Routers and DHCP"
+tags: ["cybersecurity", "networks"]
+authors: ["blindma1den", "lorenagubaira"]
 
-Sabemos que el internet es un protocolo que conecta a todas las redes y asi acceder a ellas, lo utilizan distintos tipos de usuario. Hoy en día hay compañías encargadas de administrar esas conexiones. Usando distintos tipos de tecnologías para esto, entre las cuales tenemos:
+---
+
+## Internet connectivity
+
+We know that the internet is a protocol that connects all the networks and so access to them, it is used by different types of users. Nowadays there are companies in charge of managing these connections. Using different types of technologies for this, among which we have:
 
 - **DSL**
 
-DSL significa línea de suscriptor digital y se utiliza para proporcionar una conexión a internet de banda ancha y existen varios tipos de DSL.
+DSL stands for digital subscriber line and is used to provide a broadband internet connection and there are several types of DSL.
 
-Las tecnologías DSL utilizan dos tipos de modos de transmisión de datos: simétrico y asimétrico.
+DSL technologies use two types of data transmission modes: symmetric and asymmetric.
 
-- **DSL Simétrico**
+- **Symmetrical DSL**
 
-Línea de suscriptor digital simétrica (SDSL) — Symmetric digital subscriber line– desarrollada para superar las limitaciones de la tecnología tradicional de acceso. En comparación con esta antigua tecnología de transmisión tradicional, el DSL es fácil de instalar y de corregir errores.
+Symmetric digital subscriber line (SDSL), developed to overcome the limitations of traditional access technology. Compared to this older traditional transmission technology, DSL is easy to install and error-correct.
 
-La multiplexación es compatible con los servicios de multiplexación de voz, vídeo y datos. La tecnología HDSL, SDSL, IDSL son algunas de las principales formas de DSL simétrica.
+Multiplexing supports voice, video and data multiplexing services. HDSL, SDSL, IDSL technologies are some of the main forms of symmetrical DSL.
 
 - **SDSL**
 
-La Línea Simple DSL (Single Line DSL) es una versión de HDSL que utiliza un solo cable y proporciona transferencia de datos bidireccional de velocidad de bits, variable de alta velocidad también conocida como SHDSL. Utiliza el par único de cables trenzados para entregar una carga útil de 192 kbit/s a 2.312 kbit/s en incrementos de 8 kbit/s y de 384 kbit/s a 4.624 kbit/s en incrementos de 16 kbit/s para dos pares de cables.
+Single Line DSL (Single Line DSL) is a version of HDSL that uses a single cable and provides bidirectional bit-rate, high-speed variable data transfer also known as SHDSL. It uses the single twisted pair of wires to deliver a payload of 192 kbit/s to 2,312 kbit/s in 8 kbit/s increments and 384 kbit/s to 4,624 kbit/s in 16 kbit/s increments for two pairs of wires.
 
-En la SDSL la dirección del ancho de banda ascendente (suscriptor a la red) y descendente (red al suscriptor) es idéntica entre sí y puede considerarse como la contraparte de la línea de suscriptor digital asimétrica (ADSL), pero con ligeras variaciones.
+In SDSL the upstream (subscriber to network) and downstream (network to subscriber) bandwidth direction is identical to each other and can be considered as the counterpart of the asymmetrical digital subscriber line (ADSL), but with slight variations.
 
 - **HDSL**
 
-HDSL significa línea de suscriptor de datos de alta velocidad de bits (High Bit Rate Data subscriber line). Esta tecnología DSL cae bajo el modo de transmisión de datos simétrica; este protocolo de transmisión fue aprobado en 1994 y fue la primera tecnología DSL. Utiliza dos pares de cables de par trenzado de cobre para transmitir los datos a distintas velocidades de N × 64 kbps, hasta la velocidad E1. En 3,6 Km, la HDSL puede transmitir los datos normalmente sin necesidad de amplificadores. HDSL2 y HDSL4, propiedad de SDSL, y G.SHDSL son las versiones mejoradas.
+HDSL stands for High Bit Rate Data subscriber line. This DSL technology falls under the symmetrical data transmission mode; this transmission protocol was approved in 1994 and was the first DSL technology. It uses two pairs of twisted-pair copper wires to transmit data at various speeds of N × 64 kbps, up to E1 speed. Over 3.6 km, HDSL can transmit data normally without the need for amplifiers. HDSL2 and HDSL4, proprietary SDSL, and G.SHDSL are the enhanced versions.
 
-- **DSL Asimétrico**
+- **Asymmetric DSL**
 
-En la tecnología DSL asimétrica, el ancho de banda ascendente es inferior al ancho de banda descendente. Proporciona un ancho de banda bidireccional para diferentes requisitos como la navegación web, multimedia bajo demanda y distribución de información. Las tecnologías DSL asimétricas incluyen principalmente ADSL y VDSL.
+In asymmetric DSL technology, the upstream bandwidth is less than the downstream bandwidth. It provides bi-directional bandwidth for different requirements such as web browsing, multimedia on demand and information distribution. Asymmetric DSL technologies mainly include ADSL and VDSL.
 
 - **ADSL**
 
-ADSL (DSL asimétrico / Asymmetric DSL) también utiliza un par trenzado de líneas telefónicas de cobre con una capacidad de velocidad descendente de hasta 8Mbps y ascendente de 1Mbps. Puede transmitir hasta 3 o 5 kilómetros. Por lo general en el hogar, la ADSL sólo necesita instalar equipos de ADSL en ambos extremos de la línea para proporcionar servicios de banda ancha de alta velocidad sin necesidad de recablear.
+ADSL (Asymmetric DSL / Asymmetric DSL) also uses a twisted pair of copper telephone lines with a downstream speed capacity of up to 8Mbps and upstream of 1Mbps. It can transmit up to 3 or 5 kilometers. Typically in the home, ADSL only needs to install ADSL equipment at both ends of the line to provide high-speed broadband services without the need for rewiring.
 
 - **VDSL**
 
-VDSL (Línea de suscriptor digital de muy alta velocidad / Very High-Speed Digital Subscriber Line) es el ancho de banda de transmisión, es una de las tecnologías de acceso xDSL más altas, se considera como la transferencia de servicios residenciales de banda ancha de alta gama en la tecnología final de cobre. La tecnología VDSL tiene las siguientes características.
+VDSL (Very High-Speed Digital Subscriber Line) is the transmission bandwidth, is one of the highest xDSL access technologies, it is regarded as the transfer of high-end residential broadband services on the copper end technology. VDSL technology has the following characteristics.
 
-La velocidad de transmisión es alta, proporcionando modos de transmisión simétricos y asimétricos tanto en el enlace ascendente como en el descendente. En el modo asimétrico, la velocidad máxima de bajada de la VDSL puede alcanzar los 52 Mbit/s (en la gama de 300 m), y la velocidad máxima en el modo simétrico puede alcanzar los 34 Mbit/s (en la gama de 300 m). La VDSL supera las deficiencias del insuficiente ancho de banda de la ADSL en la dirección de subida.
+The transmission speed is high, providing symmetrical and asymmetrical transmission modes in both uplink and downlink. In asymmetric mode, the maximum downlink speed of VDSL can reach 52 Mbit/s (in the 300 m range), and the maximum speed in symmetric mode can reach 34 Mbit/s (in the 300 m range). VDSL overcomes the shortcomings of ADSL's insufficient bandwidth in the upstream direction.
 
-## **Conexión por cable coaxial**
+## Coaxial cable connection
 
-El cable coaxial es un tipo de cable de cobre construido especialmente con un blindaje de metal y otros componentes diseñados para bloquear la interferencia de la señal.
+Coaxial cable is a type of specially constructed copper cable with metal shielding and other components designed to block signal interference.
 
-Los cables coaxiales tienen capas concéntricas de conductores eléctricos y material aislante.Esta construcción asegura que las señales están encerradas dentro del cable y evita que el ruido eléctrico interfiera con la señal.
+Coaxial cables have concentric layers of electrical conductors and insulating material. This construction ensures that signals are enclosed within the cable and prevents electrical noise from interfering with the signal.
 
-La capa conductora central es un cable conductor delgado, ya sea de cobre sólido o trenzado. Una capa dieléctrica, formada por un material aislante con características eléctricas muy definidas, envuelve el hilo. Luego, una capa de protección rodea la capa dieléctrica con una hoja de metal o una malla de cobre trenzada.Todo el conjunto está envuelto en una funda aislante.La capa de blindaje de metal exterior del cable coaxial generalmente se conecta a tierra en los conectores en ambos extremos para proteger las señales y como un lugar para que se disipen las señales de interferencia parásitas.
+The center conductor layer is a thin conductive wire, either solid copper or stranded. A dielectric layer, consisting of an insulating material with well-defined electrical characteristics, surrounds the wire. Then, a shield layer surrounds the dielectric layer with a metal foil or braided copper mesh. The entire assembly is wrapped in an insulating sheath. The outer metal shield layer of the coaxial cable is usually grounded at the connectors at both ends to protect the signals and as a place for stray interference signals to dissipate.
 
-Generalmente podemos ver este tipo de conexiones en los servicios de internet que proveen las empresas de televisión por cable.
+Generally we can see this type of connection in the internet services provided by cable television companies.
 
-### **Fibra óptica**
+### Fiber optic
 
-El Internet por fibra óptica, es la conexión de banda ancha que puede alcanzar velocidades de hasta 940 Megabits por segundo (Mbps), con poca demora. La tecnología utiliza cable de fibra óptica, que sorprendentemente puede enviar datos a una velocidad de aproximadamente un 70% la velocidad de la luz. Además, los cables de fibra óptica no son tan susceptibles a las condiciones climáticas rigurosas como otros tipos de cables tradicionales, lo que minimiza las interrupciones del servicio. También resisten la interferencia eléctrica de manera más efectiva.
+Fiber optic Internet is a broadband connection that can reach speeds of up to 940 Megabits per second (Mbps) with little delay. The technology uses fiber optic cable, which surprisingly can send data at a speed of approximately 70% the speed of light. In addition, fiber optic cables are not as susceptible to harsh weather conditions as other types of traditional cables, minimizing service interruptions. They also resist electrical interference more effectively.
 
-La Internet por fibra óptica es una tecnología compleja que permite la transmisión de información en forma de luz, en lugar de electricidad. Son muchos los componentes que conforman esta tecnología de avanzada, pero dos de los principales son la fibra óptica y lo que se denomina "última milla" de la red de fibra óptica.
+Fiber optic Internet is a complex technology that enables the transmission of information in the form of light, rather than electricity. There are many components that make up this advanced technology, but two of the main ones are the optical fiber and what is called the “last mile” of the fiber optic network.
 
-Las fibras ópticas son diminutas, con un diámetro aproximado de 125 micrones o apenas un poco más grande que un cabello humano. Muchas de estas fibras se agrupan para formar cables (a no confundirse con los cables coaxiales, que están compuestos de cobre). Las fibras ópticas conducen pulsos de láser o luz LED por la línea, que transmiten información en forma "binaria", similar a los 0 y 1 que se usan en electrónica.
+Optical fibers are tiny, with a diameter of approximately 125 microns or just a little larger than a human hair. Many of these fibers are bundled together to form cables (not to be confused with coaxial cables, which are composed of copper). Optical fibers conduct pulses of laser or LED light down the line, which transmit information in “binary” form, similar to the 0's and 1's used in electronics.
 
-Una vez que estos pulsos superrápidos de luz llegan a destino, se convierten en potencia eléctrica que los dispositivos pueden comprender y usar. Esto se logra gracias a un equipo especial denominado terminal de red óptica, que luego envía la señal por una conexión de Ethernet al usuario.
+Once these superfast pulses of light reach their destination, they are converted into electrical power that devices can understand and use. This is accomplished by special equipment called an optical network terminal, which then sends the signal over an Ethernet connection to the user.
 
-## **Proveedores de servicio de internet (ISP)**
+## Internet Service Providers (ISP)
 
-Un Proveedor de Servicios de Internet (ISP, por sus siglas en inglés) es una empresa o entidad que ofrece acceso a Internet a los usuarios. Los ISP desempeñan un papel fundamental en la conectividad global, ya que son los encargados de proporcionar el acceso a la red de redes a nivel mundial.
+An Internet Service Provider (ISP) is a company or entity that provides Internet access to users. ISPs play a key role in global connectivity, as they are responsible for providing access to the worldwide network of networks.
 
-Los ISP ofrecen una variedad de servicios, que van desde la conexión básica a Internet hasta servicios más avanzados, como la telefonía IP y la televisión por Internet. Para brindar estos servicios, los ISP utilizan una infraestructura de red que incluye cables de fibra óptica, líneas telefónicas, satélites y tecnologías inalámbricas.
+ISPs offer a variety of services, ranging from basic Internet connectivity to more advanced services such as IP telephony and Internet TV. To provide these services, ISPs use a network infrastructure that includes fiber optic cables, telephone lines, satellites and wireless technologies.
 
-Existen diferentes tipos de ISP, que se clasifican según su alcance y la forma en que brindan el servicio. Los ISP de nivel 1 son los proveedores de Internet de mayor nivel, que tienen una infraestructura de red global y se conectan directamente a los puntos de intercambio de tráfico de Internet. Estos ISP suelen ser empresas de telecomunicaciones a gran escala.
+There are different types of ISPs, which are classified according to their scope and the way in which they provide the service. Tier 1 ISPs are the top-tier Internet providers, which have a global network infrastructure and connect directly to the Internet's traffic exchange points. These ISPs are usually large-scale telecommunications companies.
 
-Por otro lado, los ISP de nivel 2 son proveedores regionales o nacionales que se conectan a los ISP de nivel 1 para obtener acceso a Internet. Estos ISP pueden ofrecer servicios a nivel local o en una región específica, y suelen ser empresas más pequeñas o proveedores de servicios de telecomunicaciones.
+On the other hand, Tier 2 ISPs are regional or national providers that connect to Tier 1 ISPs for Internet access. These ISPs may offer services locally or in a specific region, and are typically smaller companies or telecommunications service providers.
 
-Además de los ISP de nivel 1 y 2, también existen los ISP de nivel 3, que son proveedores de servicios más pequeños que se conectan a los ISP de nivel 2 para obtener acceso a Internet. Estos ISP suelen ofrecer servicios a nivel local o en áreas geográficas más pequeñas.
-Los ISP desempeñan un papel crucial en la conectividad de Internet, ya que son responsables de mantener y gestionar la infraestructura de red necesaria para transmitir datos a través de Internet. Además de proporcionar acceso a Internet, los ISP también pueden ofrecer servicios adicionales, como el alojamiento de sitios web, el registro de dominios y la seguridad en línea.
+In addition to Tier 1 and 2 ISPs, there are also Tier 3 ISPs, which are smaller service providers that connect to Tier 2 ISPs for Internet access. These ISPs typically offer services locally or in smaller geographic areas.
+ISPs play a crucial role in Internet connectivity, as they are responsible for maintaining and managing the network infrastructure necessary to transmit data over the Internet. In addition to providing Internet access, ISPs may also offer additional services, such as website hosting, domain registration and online security.
 
-> 💡 Es importante destacar que los ISP también pueden aplicar políticas de uso aceptable y gestionar el ancho de banda para garantizar un uso equitativo y eficiente de los recursos de red. También pueden implementar medidas de seguridad, como firewalls y sistemas de detección de intrusiones, para proteger a los usuarios de amenazas en línea.
+> 💡 Importantly, ISPs may also enforce acceptable use policies and manage bandwidth to ensure fair and efficient use of network resources. They can also implement security measures, such as firewalls and intrusion detection systems, to protect users from online threats.
 
-**Laboratorio: Configuración básica del enrutador para conexión de internet** 
+**Lab: Basic router configuration for Internet connection**. 
 
-> 🔥 Este laboratorio utiliza el cisco packet tracer.
+> 🔥 This lab uses cisco packet tracer.
 
-1. Hacemos la configuración del entorno.
-2. Agregamos un router y lo conectamos a dos switches, cada switch se conectará a dos PC
+1. We do the environment configuration.
+2. We add a router and connect it to two switches, each switch will connect to two PCs.
 
 ![Switch](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/switch.png?raw=true)
 
-3. Configuramos las interfaces del router. Existen dos maneras de hacerlo
-4. A través de la interfaz gráfica
-5. Hacemos click en el router y nos dirigimos a la pestaña **config**
-6. Hacemos click en la pestaña **FastEthernet0/0** y configuramos la ip `IPv4 Address 192.168.5.1` y `Subnet Mask 255.255.255.0`
-7. Encendemos el puerto dando click en el recuadro de **Port Status**
+3. Configure the router interfaces. There are two ways to do this
+4. Through the graphical interface.
+5. Click on the router and go to the **config** tab.
+6. Click on the **FastEthernet0/0** tab and configure the ip.
+
+- IPv4 Address:** `192.168.5.1`.
+- Subnet Mask:** `255.255.255.0`.
+
+7. Turn on the port by clicking on the **Port Status** box.
 
 ![Port Status](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/port-status.png?raw=true)
 
-8. Repetimos el proceso con el puerto **FastEthernet0/1**: `IpV4 Address 192.168.10.1`, y `Subnet Mask 255.255.255.0`
+8. Repeat the process with port **FastEthernet0/1**.
 
-#### A través de la terminal
+- IPv4 Address:** `192.168.10.1` **Subnet Mask:** `255.255.255.0` **Subnet Mask:** `255.255.255.0` **Subnet Mask:** `255.255.255.0
+- Subnet Mask:** `255.255.255.0` **Subnet Mask:** `255.255.255.0` **Terminal
 
-9. Hacemos click en el router y nos dirigimos a la pestaña CLI y agregamos los siguientes comandos
+**Through the terminal**
 
-```bash
+9. We click on the router and go to the CLI tab and add the following commands:
 
-Router> enable
-
+```
+Router>enable
 Router#configure terminal
-
-Enter configuration commands, one per line.  End with CNTL/Z.
-
+Enter configuration commands, one per line. End with CNTL/Z.
 Router(config)#interface FastEthernet0/0
-Router(config-if)#ip address 192.168.5.1 255.255.255.0
+Router(config-if)#ip address 192.168.5.1 255.255.255.255.0
 Router(config-if)#no shutdown
 Router(config-if)#
-
 %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
-
-*exit*
+exit
 ```
 
-10. Repetimos el proceso para la interfaz **FastEthernet0/1**
+10. Repeat the process for interface **FastEthernet0/1**.
 
-```bash
-
+```
 Router(config)#interface FastEthernet0/1
-Router(config-if)#ip address 192.168.10.1 255.255.255.0
+Router(config-if)#ip address 192.168.10.1 255.255.255.255.0
 Router(config-if)#no shutdown
 Router(config-if)#
-
 %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up
 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
-
-*exit*
+exit
 ```
 
 ![Router](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/router.png?raw=true)
 
-## Configuracion del pool DHCP
+**DHCP pool configuration**
 
-Un pool DHCP son las direcciones comprendidas en un intervalo determinado. Todas las direcciones IP comprendidas en ese intervalo las irá adjudicando el servidor DHCP a medida que los clientes las soliciten.
+A DHCP pool is the addresses within a given range. All IP addresses within that range will be allocated by the DHCP server as clients request them.
 
-Este pool es util cuando estamos configurando una red grande y queremos asignar ips mediante el protocolo DHCP
+This pool is useful when we are configuring a large network and we want to assign ips through the DHCP protocol.
 
-Para configurar el pool entramos nuevamente en el router en la pestaña **CLI** y agregamos los siguientes comandos:
+To configure the pool we enter again in the router in the **CLI** tab and add the following commands:
 
-```bash
+```
 Router(config)#ip dhcp pool ip5
-Router(dhcp-config)#network 192.168.5.0 255.255.255.0
+Router(dhcp-config)#network 192.168.5.0 255.255.255.255.0
 Router(dhcp-config)#default-router 192.168.5.1
 Router(dhcp-config)#exit
 ```
 
 ![Dialog](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/dialog.png?raw=true)
 
-11. El comando ip dhcp pool **NOMBRE** crea un conjunto de ip´s con el nombre elegido y provoca que el router entre en el modo de configuración de DHCP,
-12. Repetimos el proceso ahora con la **ip10**
+11. The ip dhcp pool **NAME** command creates a set of ip's with the chosen name and causes the router to enter DHCP configuration mode.
+12. We repeat the process now with **ip10**.
 
-```bash
+```
 Router(config)#ip dhcp pool ip10
-Router(dhcp-config)#network 192.168.10.0 255.255.255.0
+Router(dhcp-config)#network 192.168.10.0 255.255.255.255.0
 Router(dhcp-config)#default-router 192.168.10.1
 Router(dhcp-config)#exit
 ```
 
-13. Configuración de ip de pc
-14. Ahora nos vamos a hacerle click en las computadoras y seleccionar la opción IP configuration
-15. En la selección ip Configuration seleccionamos DHCP y esperamos a la asignación de la IP
+13. Configuration of pc ip.
+14. Now we are going to click on the computers and select the IP configuration option.
+15. In the ip Configuration selection we select DHCP and wait for the IP assignment.
 
 ![DHCP](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/dhcp.png?raw=true)
 
-Debe estar dentro de la misma red asignada en la interfaz de red.
+It must be within the same network assigned on the network interface.
 
-16. Podemos comprobar que la conexión entre las computadoras de la red está establecida haciendo ping entre ellas
-17.  El comando ipconfig nos dara la informacion de la IP del dispositivo
+16. We can check that the connection between the computers on the network is established by pinging each other.
+17.  The ipconfig command will give us the IP information of the device.
 
 ![ipconfig](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ipconfig.png?raw=true)
 
-De esta manera podemos configurar un red para así tener una mejor administración de la red, y también asignar el rango de IP el cual queremos trabajar en las distintas subredes que podamos tener.
+In this way we can configure a network in order to have a better administration of the network, and also assign the IP range which we want to work in the different subnets that we can have.
