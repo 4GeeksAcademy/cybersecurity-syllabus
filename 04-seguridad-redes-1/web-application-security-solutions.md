@@ -27,59 +27,59 @@ When it comes to web application security solutions, there are 10 key strategies
 
 ## 2. Web Application Firewall (WAF)
 
-    - Deploy a WAF to monitor and filter HTTP traffic to your web application.
-    - Use it to block common web attacks like [SQL injection](https://4geeks.com/lesson/what-is-sql-injection) and cross-site scripting (XSS).
+- Deploy a WAF to monitor and filter HTTP traffic to your web application.
+- Use it to block common web attacks like [SQL injection](https://4geeks.com/lesson/what-is-sql-injection) and cross-site scripting (XSS).
 
 ## 3. Security Testing Tools
 
-    - Perform regular security testing using tools like OWASP ZAP, Burp Suite, or Fortify.
-    - Use static code analysis (SAST) and dynamic application security testing (DAST) tools.
+- Perform regular security testing using tools like OWASP ZAP, Burp Suite, or Fortify.
+- Use static code analysis (SAST) and dynamic application security testing (DAST) tools.
 
 ## 4. Authentication and Authorization
 
-    - Implement strong authentication mechanisms like multi-factor authentication (MFA).
-    - Use role-based access control (RBAC) or attribute-based access control (ABAC) to restrict user privileges.
+- Implement strong authentication mechanisms like multi-factor authentication (MFA).
+- Use role-based access control (RBAC) or attribute-based access control (ABAC) to restrict user privileges.
 
 ## 5. Secure Communication
 
-    - Use HTTPS with SSL/TLS certificates to encrypt data in transit.
-    - Implement secure communication protocols like HTTP/2.
+- Use HTTPS with SSL/TLS certificates to encrypt data in transit.
+- Implement secure communication protocols like HTTP/2.
 
 ## 6. Regular Updates and Patches
 
-    - Keep your application and its dependencies up to date with the latest security patches.
-    - Regularly scan for vulnerabilities and apply fixes promptly.
+- Keep your application and its dependencies up to date with the latest security patches.
+- Regularly scan for vulnerabilities and apply fixes promptly.
 
 ## 7. Monitoring and Logging
 
-    - Implement logging and monitoring solutions to detect and respond to security incidents.
-    - Use tools like ELK Stack (Elasticsearch, Logstash, Kibana) or Splunk for log analysis.
+- Implement logging and monitoring solutions to detect and respond to security incidents.
+- Use tools like ELK Stack (Elasticsearch, Logstash, Kibana) or Splunk for log analysis.
 
 ## 8. Security Training
 
-    - Educate your developers and users about security best practices and common threats.
-    - Conduct regular security awareness training sessions.
+- Educate your developers and users about security best practices and common threats.
+- Conduct regular security awareness training sessions.
 
 ## 9. Third-Party Services
 
-    - Use reputable third-party services for payment processing, authentication, and other sensitive operations.
-    - Ensure that third-party services are compliant with security standards.
+- Use reputable third-party services for payment processing, authentication, and other sensitive operations.
+- Ensure that third-party services are compliant with security standards.
 
 ## 10. Incident Response Plan
 
-    - Develop a comprehensive incident response plan to handle security breaches.
-    - Regularly test and update your incident response plan.
+- Develop a comprehensive incident response plan to handle security breaches.
+- Regularly test and update your incident response plan.
 
 ## 11. Content Security Policy (CSP)
 
-    - Implement CSP headers to prevent XSS attacks and other code injection vulnerabilities.
-    - Use CSP to control which resources can be loaded by the browser.
+- Implement CSP headers to prevent XSS attacks and other code injection vulnerabilities.
+- Use CSP to control which resources can be loaded by the browser.
 
 ## 12. API Security
 
-    - Implement proper authentication and authorization for APIs.
-    - Use rate limiting and input validation for API endpoints.
-    - Consider using API gateways for centralized security management.
+- Implement proper authentication and authorization for APIs.
+- Use rate limiting and input validation for API endpoints.
+- Consider using API gateways for centralized security management.
 
 ## 🥇 Top Rated Tools for Web App Security
 
