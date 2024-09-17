@@ -42,6 +42,8 @@ Un ejemplo de ataque XSS es cuando un hacker explota la vulnerabilidad de un cam
 
 Los hackers tienen un control total sobre lo que ocurre una vez que sus objetivos hacen clic en el enlace infectado. La razón principal por la que el XSS se considera un fallo de seguridad de alto riesgo es que permite al atacante ver los datos almacenados en LocalStorage, SessionStorage o cookies en el sistema de destino. Por lo tanto, no se debe almacenar ningún dato personal en estos sistemas.
 
+> Lee más sobre [Cross-Site Scripting (XSS)](https://4geeks.com/es/lesson/como-realizar-o-prevenir-el-ataque-xss-secuencias-de-comandos-entre-sitios).
+
 ### **Falsificación de peticiones en sitios cruzados (CSRF)**
 
 Un ataque CSRF emplea técnicas de ingeniería social para convencer a un usuario de que modifique los datos de la aplicación, como el nombre de usuario o la contraseña. Un ataque CSRF requiere una aplicación que utilice cookies de sesión únicamente para identificar al usuario que realiza una solicitud. Estas cookies se utilizan entonces para rastrear o validar las solicitudes del usuario.

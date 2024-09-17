@@ -41,7 +41,7 @@ Al evaluar las características de seguridad de un proveedor de hosting, debes b
    - **Automatización y Facilidad:** Verifica que el proveedor ofrezca certificados SSL/TLS automáticos y gratuitos para asegurar las conexiones HTTPS.
   
 2. **Firewall de Aplicaciones Web (WAF):**
-   - **Protección Avanzada:** Busca un servicio que incluya un WAF para proteger contra amenazas comunes como inyecciones SQL, XSS, y otros ataques de capa de aplicación.
+   - **Protección Avanzada:** Busca un servicio que incluya un WAF para proteger contra amenazas comunes como inyecciones SQL, [XSS](https://4geeks.com/es/lesson/como-realizar-o-prevenir-el-ataque-xss-secuencias-de-comandos-entre-sitios), y otros ataques de capa de aplicación.
 
 3. **Autenticación de Dos Factores (2FA):**
    - **Seguridad de Acceso:** La implementación de 2FA para las cuentas de administración es crucial para proteger el acceso no autorizado.

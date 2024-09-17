@@ -35,7 +35,7 @@ Las contraseñas débiles pueden ser fácilmente comprometidas por atacantes, po
 
 **6. Instalar y configurar un firewall de aplicaciones web**
 
-Los firewalls de aplicaciones web (WAF) filtran y supervisan el tráfico entre una aplicación web e Internet, bloquean las solicitudes sospechosas o maliciosas y generan alertas para su posterior investigación. Ayuda a proteger las aplicaciones web de ciberataques como el cross-site scripting (XSS) y la inyección SQL.
+Los firewalls de aplicaciones web (WAF) filtran y supervisan el tráfico entre una aplicación web e Internet, bloquean las solicitudes sospechosas o maliciosas y generan alertas para su posterior investigación. Ayuda a proteger las aplicaciones web de ciberataques como el [cross-site scripting (XSS)](https://4geeks.com/es/lesson/como-realizar-o-prevenir-el-ataque-xss-secuencias-de-comandos-entre-sitios) y la inyección SQL.
 
 No todas las empresas de alojamiento web incluyen un firewall de aplicaciones web con sus servicios, por lo que es posible que tengas que adquirir uno por separado. El **[WAF de Cloudflare](https://www.cloudflare.com/es-es/waf/)** es una gran opción. Además de las ventajas de seguridad, es fácil de activar y tiene un plan gratuito disponible. Además de utilizar un firewall basado en IA para proteger tu servidor privado virtual, Hostinger es totalmente compatible con Cloudflare.
 

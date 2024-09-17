@@ -6,70 +6,101 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-When it comes to web application security solutions, we are mainly talking about 10 possible strategies, after thorough review we have come up with the following list of recommendations and tools you can use to enforce these recommendations:
+When it comes to web application security solutions, there are 10 key strategies to consider. After thorough review, we recommend the following practices and tools to enhance your web application's security:
 
-1. Secure Coding Practices:
-    1.1. Follow OWASP Top 10 recommendations to avoid common web application vulnerabilities.
-    1.2. Implement input validation and output encoding to prevent injection attacks.
-    1.3. Use secure coding frameworks and libraries.
+## 1. Secure Coding Practices
 
-2. Web Application Firewall (WAF):
-    2.1. Deploy a WAF to monitor and filter HTTP traffic to your web application.
-    2.2. Use it to block common web attacks like SQL injection and cross-site scripting (XSS).
+- Follow [OWASP Top 10](https://4geeks.com/lesson/owasp-top-10) recommendations to avoid common web application vulnerabilities.
+- Implement input validation and output encoding to prevent injection attacks.
+- Use secure coding frameworks and libraries, the following is a list of the most used frameworks and the rate of updates and last vulnerability found:
+  
+| Programming Language | Framework       | Rate of Updates | Last Vulnerability Found | Vulnerability Reported          |
+|----------------------|-----------------|-----------------|--------------------------|---------------------------------|
+| PHP                  | Laravel         | Frequent        | March 2022               | SQL Injection                   |
+| Python               | Django          | Frequent        | April 2022               | Cross-Site Scripting (XSS)      |
+| Node.js              | Express         | Frequent        | February 2022            | Remote Code Execution (RCE)     |
+| Java                 | Spring          | Frequent        | January 2022             | Directory Traversal             |
+| Ruby                 | Rails           | Frequent        | March 2022               | Cross-Site Request Forgery (CSRF)|
+| Rust                 | Rocket          | Moderate        | December 2021            | Denial of Service (DoS)         |
 
-3. Security Testing Tools:
-    3.1. Perform regular security testing using tools like OWASP ZAP, Burp Suite, or Fortify.
-    3.2. Use static code analysis (SAST) and dynamic application security testing (DAST) tools.
 
-4. Authentication and Authorization:
-    4.1. Implement strong authentication mechanisms like multi-factor authentication (MFA).
-    4.2. Use role-based access control (RBAC) to restrict user privileges.
 
-5. Secure Communication:
-    5.1. Use HTTPS with SSL/TLS certificates to encrypt data in transit.
-    5.2. Implement secure communication protocols like HTTP/2.
+## 2. Web Application Firewall (WAF)
 
-6. Regular Updates and Patches:
-    6.1. Keep your application and its dependencies up to date with the latest security patches.
-    6.2. Regularly scan for vulnerabilities and apply fixes promptly.
+- Deploy a WAF to monitor and filter HTTP traffic to your web application.
+- Use it to block common web attacks like [SQL injection](https://4geeks.com/lesson/what-is-sql-injection) and cross-site scripting (XSS).
 
-7. Monitoring and Logging:
-    7.1. Implement logging and monitoring solutions to detect and respond to security incidents.
-    7.2. Use tools like ELK Stack (Elasticsearch, Logstash, Kibana) or Splunk for log analysis.
+## 3. Security Testing Tools
 
-8. Security Training:
-    8.1. Educate your developers and users about security best practices and common threats.
-    8.2. Conduct regular security awareness training sessions.
+- Perform regular security testing using tools like OWASP ZAP, Burp Suite, or Fortify.
+- Use static code analysis (SAST) and dynamic application security testing (DAST) tools.
 
-9. Third-Party Services:
-    9.1. Use reputable third-party services for payment processing, authentication, and other sensitive operations.
-    9.2. Ensure that third-party services are compliant with security standards.
+## 4. Authentication and Authorization
 
-10. Incident Response Plan:
-    10.1. Develop a comprehensive incident response plan to handle security breaches.
-    10.2. Regularly test and update your incident response plan.
+- Implement strong authentication mechanisms like multi-factor authentication (MFA).
+- Use role-based access control (RBAC) or attribute-based access control (ABAC) to restrict user privileges.
 
-## Top rated tools for Web App Security
+## 5. Secure Communication
 
-- **Hydra**: A powerful brute force tool. It can perform rapid dictionary attacks against more than 50 protocols, including telnet, ftp, http, https, smb, and more.
+- Use HTTPS with SSL/TLS certificates to encrypt data in transit.
+- Implement secure communication protocols like HTTP/2.
 
-- **OWASP ZAP**: A free security tool for finding vulnerabilities in web applications. It's ideal for developers and functional testers as well as security experts.
+## 6. Regular Updates and Patches
 
-- **Burp Suite**: This is a suite of tools for web application testing. It is widely used by security professionals and is highly rated for its effectiveness.
-ZAP (Zed Attack Proxy): This is an open-source web application security scanner that can be used to identify vulnerabilities in web applications. It is easy to use and highly effective, making it a popular choice among security professionals.
+- Keep your application and its dependencies up to date with the latest security patches.
+- Regularly scan for vulnerabilities and apply fixes promptly.
 
-- **SQLMap**: This is a tool for testing the security of database servers, including the ability to perform SQL injection attacks. It is highly effective and is considered one of the best tools for testing the security of database servers.
+## 7. Monitoring and Logging
 
-- **Maltego**: This is a tool for gathering and visualizing intelligence about a target, including information about people, organizations, and infrastructure. It is highly rated for its effectiveness and is commonly used by security professionals.
+- Implement logging and monitoring solutions to detect and respond to security incidents.
+- Use tools like ELK Stack (Elasticsearch, Logstash, Kibana) or Splunk for log analysis.
 
-- **Shodan**: This is a search engine for Internet-connected devices, allowing you to find and analyze servers, routers, and other devices that may be vulnerable to attack. It is widely used by security professionals and is highly rated for its effectiveness.
+## 8. Security Training
 
-- **Wfuzz**: is a tool for performing web application security testing, specifically for identifying and exploiting vulnerabilities. It is designed to brute force web application parameters, including URLs, form fields, and HTTP headers, in order to discover hidden resources.
+- Educate your developers and users about security best practices and common threats.
+- Conduct regular security awareness training sessions.
 
-- **Recon-ng**: This is a tool for performing reconnaissance on targets, including the ability to gather information from social media, domain name servers, and other sources. It is highly rated for its effectiveness and is commonly used by security professionals.
+## 9. Third-Party Services
 
-- **Gophish**: This is a tool for simulating phishing attacks and testing the effectiveness of employee training programs. It is highly rated for its effectiveness and is widely used by security professionals.
+- Use reputable third-party services for payment processing, authentication, and other sensitive operations.
+- Ensure that third-party services are compliant with security standards.
 
-- **Wapiti**: This is a web application vulnerability scanner that can identify a wide range of vulnerabilities, including SQL injection, cross-site scripting, and more. It is highly rated and is commonly used by security professionals.
+## 10. Incident Response Plan
 
-- **Acunetix**: Quickly find and fix the vulnerabilities that put your web applications at risk of attack. OWASP Top 10, SQL injections, XSS, Misconfigurations, Exposed databases, Out-of-band vulnerabilities.
+- Develop a comprehensive incident response plan to handle security breaches.
+- Regularly test and update your incident response plan.
+
+## 11. Content Security Policy (CSP)
+
+- Implement CSP headers to prevent XSS attacks and other code injection vulnerabilities.
+- Use CSP to control which resources can be loaded by the browser.
+
+## 12. API Security
+
+- Implement proper authentication and authorization for APIs.
+- Use rate limiting and input validation for API endpoints.
+- Consider using API gateways for centralized security management.
+
+## 🥇 Top Rated Tools for Web App Security
+
+- **Hydra**: A powerful brute force tool that can perform rapid dictionary attacks against more than 50 protocols, including telnet, ftp, http, https, smb, and more.
+
+- **OWASP ZAP**: A free security tool for finding vulnerabilities in web applications. It's ideal for developers, functional testers, and security experts.
+
+- **Burp Suite**: A suite of tools for web application testing, widely used by security professionals for its effectiveness.
+
+- **SQLMap**: A tool for testing the security of database servers, including the ability to perform SQL injection attacks. It is highly effective and considered one of the best tools for testing database security.
+
+- **Maltego**: A tool for gathering and visualizing intelligence about a target, including information about people, organizations, and infrastructure. It is highly rated for its effectiveness and commonly used by security professionals.
+
+- **Shodan**: A search engine for Internet-connected devices, allowing you to find and analyze servers, routers, and other devices that may be vulnerable to attack. It is widely used by security professionals and highly rated for its effectiveness.
+
+- **Wfuzz**: A tool for performing web application security testing, specifically for identifying and exploiting vulnerabilities. It is designed to brute force web application parameters, including URLs, form fields, and HTTP headers, to discover hidden resources.
+
+- **Recon-ng**: A tool for performing reconnaissance on targets, including the ability to gather information from social media, domain name servers, and other sources. It is highly rated for its effectiveness and commonly used by security professionals.
+
+- **Gophish**: A tool for simulating phishing attacks and testing the effectiveness of employee training programs. It is highly rated for its effectiveness and widely used by security professionals.
+
+- **Wapiti**: A web application vulnerability scanner that can identify a wide range of vulnerabilities, including SQL injection, cross-site scripting, and more. It is highly rated and commonly used by security professionals.
+
+- **Acunetix**: Quickly find and fix the vulnerabilities that put your web applications at risk of attack, including OWASP Top 10, SQL injections, XSS, misconfigurations, exposed databases, and out-of-band vulnerabilities.
