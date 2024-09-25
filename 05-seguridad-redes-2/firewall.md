@@ -6,6 +6,12 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
+If Target's network was protected by a firewall, the attackers would not have been able to move laterally within the network to access 40 million credit and debit card accounts of Target's customers.
+
+If Equifax's network was protected by a firewall, the attackers would not have been able to access the personal information of 147 million individuals and consumers.
+
+## Why do we need firewalls?
+
 Security on each individual device remains essential, but it cannot be considered in isolation due to:
 
 - **The number of devices** in many organizations.
@@ -18,12 +24,18 @@ A firewall is a crucial tool that protects a network of interconnected systems a
 - Only traffic authorized based on the security policy can continue.
 - It must be completely unassailable.
 
+![firewall](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/05-seguridad-en-redes-2/firewall/how-a-firewall-works.jpg?raw=true)
+
 ## Advantages of Firewalls
 
 - **Centralized Security Policy Enforcement**: Allow defining and enforcing security policies in a centralized manner.
+
 - **Advanced Authentication**: Support advanced authentication techniques more efficiently and economically than if done on a per-device basis.
+
 - **Centralization of Alarms and Logs**: Can centralize alarms and traffic logs, facilitating monitoring.
+
 - **Lower Configuration Complexity**: Require less configuration compared to a general-purpose system.
+
 - **Simple Maintenance**: Need few defined users for configuration and maintenance.
 
 ## Disadvantages of Firewalls
