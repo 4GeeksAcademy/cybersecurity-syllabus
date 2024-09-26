@@ -90,7 +90,7 @@
         },
         {
           "option": "DHCP can generate IP address conflicts.",
-          "correct": true
+          "correct": false
         }
       ]
     },
