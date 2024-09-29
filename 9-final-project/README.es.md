@@ -6,7 +6,7 @@ Los estudiantes deben partir de una máquina virtual que presente vulnerabilidad
 
 El profesor contará con herramientas para intentar vulnerar el servidor y evaluar las medidas implementadas por el estudiante. El estudiante debe proponer mecanismos de mitigación de las amenazas y proponer medidas para el control de daño en caso de que ocurran.
 
-La maquina virtual corresponde a un servidor de la empresa, que a su vez es parte de una gran topología donde están toda la red de la compañía. El estudiante debe diseñar la topología en base a los requerimientos de la empresa
+La máquina virtual corresponde a un servidor de la empresa, que a su vez es parte de una gran topología donde están toda la red de la compañía. El estudiante debe diseñar la topología en base a los requerimientos de la empresa
 
 ## Requerimientos técnicos
 
