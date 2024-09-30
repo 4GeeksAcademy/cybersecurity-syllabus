@@ -48,7 +48,7 @@ Otro problema de velocidad de la red podría surgir si los empleados deciden des
 
 - **Problemas de conectividad física**
 
-Una conexión de red puede interrumpirse repentinamente por problemas de conectividad física, este problema es común cuando un cable de red se daña o se suelta. Es posible que en el momento que se añadan o se quiten cables en un conmutador uno de los otros sables se desconecten accidentalmente.
+Una conexión de red puede interrumpirse repentinamente por problemas de conectividad física, este problema es común cuando un cable de red se daña o se suelta. Es posible que en el momento que se añadan o se quiten cables en un conmutador uno de los otros cables se desconecten accidentalmente.
 
 - **Búsqueda DNS lentas**
 

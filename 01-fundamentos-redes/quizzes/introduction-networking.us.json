@@ -3,6 +3,7 @@
         "main": "Welcome to the world of networks. This first step will take you to great things in the future...",
         "name": "Introduction to Networking",
         "slug": "introduction-networking-us",
+        "difficulty": "beginner",
         "badges": [
             {
                 "slug": "cybersecurity_guru",
