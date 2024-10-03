@@ -8,3 +8,8 @@
 - Marco operacional
 - Responsables dentro del esquema
 - Medidas de protección de ENS
+
+
+Proyecto
+
+- Revisar un plan de riesgos e insidencias y hacerle match con cual normativa es la que aplica para esa parte del plan.
