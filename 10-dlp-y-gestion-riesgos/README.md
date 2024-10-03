@@ -16,3 +16,7 @@
 - 📗 [Integración de la gestión de riesgos a la cultura de la empresa](./integracion-de-la-gestion-de-riesgos-y-dlp-en-la-cultura-de-la-empresa.md)
 - 📗 [Implementación de un programa DLP](./implementacion-de-un-programa-de-dlp.md)
 - 📗 [Auditoría y evaluación del programa de gestión de riesgos y DLP](./auditoria-y-evaluacion-del-programa-de-gestion-de-riesgos-y-dlp.md)
+
+
+- Ejercicio practico
+- Tambien crear un plan de prevension de riesgo
