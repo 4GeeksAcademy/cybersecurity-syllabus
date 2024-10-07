@@ -5,8 +5,6 @@ tags: ["DLP", "cybersecurity", "data loss prevention"]
 authors: ["alesanchezr"]
 ---
 
-# Regulatory Compliance
-
 Making sure that the organization complies with the regulations is the most important part of DLP. This is true because non-compliance can lead to severe finantial penalties, damage the organization's reputation or even put the organization out of business.
 
 The following are the most important regulations that affect DLP:

@@ -5,8 +5,6 @@ tags: ["DLP", "ciberseguridad", "prevención de pérdida de datos"]
 authors: ["alesanchezr"]
 ---
 
-# Introducción a la Prevención de Pérdida de Datos (DLP)
-
 En 2017, la filtración de datos de Equifax expuso información personal y financiera sensible de aproximadamente 147 millones de estadounidenses. Equifax acordó un acuerdo global de hasta $425 millones para ayudar a las personas afectadas por la filtración de datos.
 
 > La filtración de datos de Equifax fue el resultado de medidas inadecuadas de Prevención de Pérdida de Datos (DLP), entre otros fallos de seguridad.

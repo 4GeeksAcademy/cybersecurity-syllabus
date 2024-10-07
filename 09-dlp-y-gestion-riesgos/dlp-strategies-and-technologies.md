@@ -5,8 +5,6 @@ tags: ["DLP", "cybersecurity", "data loss prevention"]
 authors: ["alesanchezr"]
 ---
 
-# DLP Strategies and Technologies
-
 Data Loss Prevention (DLP) is a crucial aspect of modern cybersecurity. This lesson covers key DLP strategies and technologies, focusing on protecting 3 main strategies:
 
 - Data at rest. 

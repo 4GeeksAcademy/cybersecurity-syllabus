@@ -5,8 +5,6 @@ tags: ["DLP", "ciberseguridad", "prevención de pérdida de datos"]
 authors: ["alesanchezr"]
 ---
 
-# Cumplimiento Normativo
-
 Asegurarse de que la organización cumpla con las regulaciones es la parte más importante de la DLP. Esto es cierto porque el incumplimiento puede llevar a severas sanciones financieras, dañar la reputación de la organización o incluso sacar a la organización del negocio.
 
 Las siguientes son las regulaciones más importantes que afectan a la DLP:

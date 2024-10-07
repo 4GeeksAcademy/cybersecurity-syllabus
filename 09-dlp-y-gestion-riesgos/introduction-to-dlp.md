@@ -6,8 +6,6 @@ authors: ["alesanchezr"]
 
 ---
 
-# Introduction to Data Loss Prevention (DLP)
-
 In 2017 the Equifax data breach included sensitive personal and financial information of approximately 147 million Americans was exposed. Equifax agreed to a global settlement of up to $425 million to help people affected by the data breach. 
 
 > The Equifax data breach was a result of inadequate Data Loss Prevention (DLP) measures, among other security failures.

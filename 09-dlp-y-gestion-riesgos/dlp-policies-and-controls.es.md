@@ -5,8 +5,6 @@ tags: ["DLP", "ciberseguridad", "prevención de pérdida de datos"]
 authors: ["alesanchezr"]
 ---
 
-# Políticas y Controles de DLP
-
 Después de definir las estrategias y tecnologías utilizadas para implementar DLP, necesitamos aplicarlas con políticas y controles. Esta lección cubrirá los aspectos clave del diseño de políticas efectivas de DLP, la implementación de controles de DLP y la gestión de excepciones y falsos positivos.
 
 ## Diseño de Políticas Efectivas
