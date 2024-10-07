@@ -15,3 +15,7 @@
 
 - Recovery and Business Continuity
 - Basic Security Incident Management
+
+
+# Projecto
+- Plan de respuesta a incidente de ransomware (es el mas comun): Como tienen que armar el plan en base a nist?

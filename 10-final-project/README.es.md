@@ -1,18 +1,27 @@
 # Diseño de escenario
 
-## Definición del escenario
+Darle al los objetivos organizacionales: 
+  - Cual es la informacion critica que esta protegiendo?
 
-Los estudiantes deben partir de una máquina virtual que presente vulnerabilidades previamente establecidas. Esta maquina corresponde al servidor de la empresa y fue recientemente hackeada. El estudiante debe evaluar y corregir las vulnerabilidades y garantizar el debido funcionamiento de todos los servicios en el servidor.
+## Fase 1: Corrigue un hackeo
 
-El profesor contará con herramientas para intentar vulnerar el servidor y evaluar las medidas implementadas por el estudiante. El estudiante debe proponer mecanismos de mitigación de las amenazas y proponer medidas para el control de daño en caso de que ocurran.
+Resumen: Analysis Forensico, bloquea el exploit y evita que escale, corrige la vulnerabilidad y crea un informe para evitarlo en el futuro.
 
-La máquina virtual corresponde a un servidor de la empresa, que a su vez es parte de una gran topología donde están toda la red de la compañía. El estudiante debe diseñar la topología en base a los requerimientos de la empresa
+- Los estudiantes deben partir de una máquina virtual que presente vulnerabilidades y un hackeo previamente realizado. 
+- Esta maquina corresponde al servidor de la empresa y fue recientemente hackeada.
+- El estudiante debe roponer medidas para el control de daño. 
+- El estudiante debe evaluar y corregir las vulnerabilidades explotadas durante el hackedo y garantizar el debido funcionamiento de todos los servicios en el servidor.
+- El estudiante debe re-diseñar la topología en base a los requerimientos de la empresa
 
-## Requerimientos técnicos
+## Fase 2: Detecta y corrije una vulnerablidad diferente a la hackeada
 
-- Tamaño mínimo de la red
-- Qué servicios se deben montar en el servidor virtual
-- Instalarse una maquina windows como ejemplo de usuario, con implementaciones de seguridad
+Resumen: Escanea y detecta una nueva vulnerabilidad, explotala, escalala, corrigela y presenta un informe.
+
+### Fase 3: Plan de respuesta de incidentes y certificacion
+
+- Plan de respuesta a incidente usando NIST
+- Plan de prevención de perdida de datos.
+- Armar un Sistema de Gestión de la Seguridad de la Información (SGSI) siguiendo las normas de ISO 27001.
 
 # Entregables
 
@@ -22,17 +31,3 @@ La máquina virtual corresponde a un servidor de la empresa, que a su vez es par
 - Informe de incidente de seguridad
 - Plan de recuperación en caso de incidencia
 - Presentación orientada a la gerencia de lo ocurrido
-
-
-## Dia 1
-
-Topología y revision del servidor
-
-## Dia 2
-
-Evaluación de la topología
-Informar las vulnerabilidades y corregirlas
-
-## Dia 3
-
-Evaluar vulnerabilidades en el servidor a nivel de red
