@@ -1,3 +1,11 @@
+---
+title: "Introduction to Data Loss Prevention (DLP)"
+subtitle: "🛡️ Understanding the critical role of DLP in protecting sensitive information. Types of sensitive data and data leakage channels."
+tags: ["DLP", "cybersecurity", "data loss prevention"]
+authors: ["alesanchezr"]
+
+---
+
 # Introduction to Data Loss Prevention (DLP)
 
 In 2017 the Equifax data breach included sensitive personal and financial information of approximately 147 million Americans was exposed. Equifax agreed to a global settlement of up to $425 million to help people affected by the data breach. 

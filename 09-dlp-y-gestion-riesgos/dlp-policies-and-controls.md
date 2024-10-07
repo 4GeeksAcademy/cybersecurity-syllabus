@@ -1,3 +1,10 @@
+---
+title: "DLP Policies and Controls"
+subtitle: "🛡️ Understanding the key aspects of designing effective DLP policies, implementing DLP controls, and managing exceptions and false positives"
+tags: ["DLP", "cybersecurity", "data loss prevention"]
+authors: ["alesanchezr"]
+---
+
 # DLP Policies and Controls
 
 After defining the strategies and technologies used to implement DLP, we need to enforce them with policies and controls. This lesson will cover the key aspects of designing effective DLP policies, implementing DLP controls, and managing exceptions and false positives.

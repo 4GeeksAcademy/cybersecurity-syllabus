@@ -1,3 +1,10 @@
+---
+title: "DLP Strategies and Technologies"
+subtitle: "🛡️ Understanding the key strategies and technologies for Data Loss Prevention (DLP). Protecting data at rest, in motion and in use. Implementing DLP controls and integrating DLP into existing infrastructure."
+tags: ["DLP", "cybersecurity", "data loss prevention"]
+authors: ["alesanchezr"]
+---
+
 # DLP Strategies and Technologies
 
 Data Loss Prevention (DLP) is a crucial aspect of modern cybersecurity. This lesson covers key DLP strategies and technologies, focusing on protecting 3 main strategies:

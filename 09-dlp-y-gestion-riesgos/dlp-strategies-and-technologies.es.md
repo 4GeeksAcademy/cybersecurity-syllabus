@@ -1,3 +1,10 @@
+---
+title: "Estrategias y Tecnologías de DLP"
+subtitle: "🛡️ Entendiendo las estrategias y tecnologías clave para la Prevención de Pérdida de Datos en Reposo, en Movimiento y en Uso. Implementación de controles de DLP y herramientas para integrar DLP en la infraestructura existente"
+tags: ["DLP", "ciberseguridad", "prevención de pérdida de datos"]
+authors: ["alesanchezr"]
+---
+
 # Estrategias y Tecnologías de DLP
 
 La Prevención de Pérdida de Datos (DLP) es un aspecto crucial de la ciberseguridad moderna. Esta lección cubre estrategias y tecnologías clave de DLP, centrándose en la protección de 3 estrategias principales:

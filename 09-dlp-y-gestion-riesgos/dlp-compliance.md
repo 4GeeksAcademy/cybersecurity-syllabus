@@ -1,3 +1,10 @@
+---
+title: "Regulatory Compliance in Data Loss Prevention (DLP)"
+subtitle: "🛡️ Understanding the key aspects of regulatory compliance in data loss prevention (DLP) for GDPR, PCI-DSS e HIPAA. Implementing DLP controls and managing exceptions and false positives"
+tags: ["DLP", "cybersecurity", "data loss prevention"]
+authors: ["alesanchezr"]
+---
+
 # Regulatory Compliance
 
 Making sure that the organization complies with the regulations is the most important part of DLP. This is true because non-compliance can lead to severe finantial penalties, damage the organization's reputation or even put the organization out of business.

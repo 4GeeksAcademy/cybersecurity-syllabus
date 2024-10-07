@@ -1,3 +1,10 @@
+---
+title: "Introducción a la Prevención de Pérdida de Datos (DLP)"
+subtitle: "🛡️ Que es la Prevención de Pérdida de Datos y por que es importante. Entendiendo el papel crucial del DLP en la protección de la información sensible. Tipos de datos sensibles y canales de fuga de datos."
+tags: ["DLP", "ciberseguridad", "prevención de pérdida de datos"]
+authors: ["alesanchezr"]
+---
+
 # Introducción a la Prevención de Pérdida de Datos (DLP)
 
 En 2017, la filtración de datos de Equifax expuso información personal y financiera sensible de aproximadamente 147 millones de estadounidenses. Equifax acordó un acuerdo global de hasta $425 millones para ayudar a las personas afectadas por la filtración de datos.

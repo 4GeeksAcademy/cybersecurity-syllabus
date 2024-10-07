@@ -1,3 +1,10 @@
+---
+title: "Cumplimiento Normativo en la Prevención de Pérdida de Datos (DLP)"
+subtitle: "🛡️ Entendiendo los aspectos clave del cumplimiento normativo en DLP para GDPR, PCI-DSS e HIPA. Implementación de controles de DLP y la gestión de excepciones y falsos positivos"
+tags: ["DLP", "ciberseguridad", "prevención de pérdida de datos"]
+authors: ["alesanchezr"]
+---
+
 # Cumplimiento Normativo
 
 Asegurarse de que la organización cumpla con las regulaciones es la parte más importante de la DLP. Esto es cierto porque el incumplimiento puede llevar a severas sanciones financieras, dañar la reputación de la organización o incluso sacar a la organización del negocio.
