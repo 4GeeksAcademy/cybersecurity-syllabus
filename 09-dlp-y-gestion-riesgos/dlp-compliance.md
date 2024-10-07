@@ -14,10 +14,10 @@ One of the most famous cases of financial penalties for breaking GDPR is the [â‚
 
 ### Key aspects of GDPR
 
-- Requires organizations to have a legal basis for processing personal data. This is known as "Lawfulness of processing". It means that the organization must have a valid reason for processing the data, such as consent from the data subject or a contract.
-- Mandates the appointment of a Data Protection Officer (DPO) for certain organizations. This is a person who is responsible for ensuring that the organization complies with the GDPR. The DPO is not personally liable for data protection compliance, but the organization remains responsible for compliance and may face penalties for non-compliance.
+- Requires organizations to have "Lawfulness of processing". It means that the organization must have a valid reason for processing the data, such as consent from the data subject or a contract.
+- Mandates the appointment of a Data Protection Officer (DPO) for certain organizations, responsible for ensuring that the organization complies with the GDPR. The DPO is not personally liable for data protection compliance, but the organization remains responsible for compliance and may face penalties for non-compliance.
 - Requires implementation of appropriate technical and organizational measures to ensure data security. This includes measures such as encryption, access control, and data minimization.
-- Mandates conducting Data Protection Impact Assessments (DPIA) for high-risk processing activities. This is a process to identify and mitigate the risks associated with a specific processing activity.
+- Mandates conducting Data Protection Impact Assessments (DPIA) for high-risk processing activities (like training an AI). It can be done internally or by an external DPO.
 - Requires maintaining a record of processing activities. This is known as "Records of processing activities". It includes information about the purposes of the processing, the categories of data subjects, and the measures taken to ensure data security.
 - Requires obtaining explicit consent for processing sensitive personal data. This is known as "Consent". It means that the data subject must actively agree to the processing of their data.
 - Requires organizations to provide data subjects with access to their personal data upon request. This is known as "Subject access request".
