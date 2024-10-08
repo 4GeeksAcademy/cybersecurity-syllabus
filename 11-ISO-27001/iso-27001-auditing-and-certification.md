@@ -7,7 +7,7 @@ authors: ["alesanchezr"]
 
 ISO 27001 certification is a rigorous process that demonstrates an organization's commitment to information security management. This document outlines the certification process, audit preparation, common findings, and maintenance of certification.
 
-![iso-27001-certification-process](../assets/11-ISO-27001/iso-27001-process.png)
+![iso-27001-certification-process](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/iso-27001-process.png?raw=true)
 
 ## Certification Process Overview
 
