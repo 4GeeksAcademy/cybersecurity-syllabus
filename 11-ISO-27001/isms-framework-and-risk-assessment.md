@@ -164,7 +164,7 @@ Determine which parts of the organization will be covered by the ISMS. To better
 - **Who**: People and organizations involved in the ISMS.
 - **Where**: Geographical areas covered by the ISMS.
 
-![ISMS Scope](../assets/11-ISO-27001/isms-scope.png)
+![ISMS Scope](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-scope.png?raw=true)
 
 Another set of questions you can use to define the scope is:
 
