@@ -11,7 +11,7 @@ If you want to get certified for ISO 27001, you need to have an ISMS in place. T
 
 An Information Security Management System (ISMS) is a systematic approach to managing sensitive company information so that it remains secure. It includes people, processes and IT systems by applying a risk management process.
 
-![ISMS Implementation Plan](../assets/11-ISO-27001/isms-implementation-plan.png)
+![ISMS Implementation Plan](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-implementation-plan.png?raw=true)
 
 ## ISMS Framework Components
 
@@ -34,7 +34,7 @@ The ISMS framework consists of the following key components:
 
 These components work together to create a comprehensive approach to managing and protecting an organization's sensitive information across people, processes, and IT systems.
 
-![ISMS Components](../assets/11-ISO-27001/isms-components.jpg)
+![ISMS Components](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-components.jpg?raw=true)
 
 ### Information Security Policies 
 
@@ -188,13 +188,13 @@ Create a high-level document that outlines the organization's approach to inform
 - **Procedures**: Provides detailed procedures for implementing and maintaining the ISMS.
 - **Review and Update**: Outlines the process for reviewing and updating the ISMS.
 
-![ISMS Policy](../assets/11-ISO-27001/information-security-policy.webp)
+![ISMS Policy](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.webp)
 
 ### 3) Conduct a Risk Assessment
 
 Identify, analyze, and evaluate information security risks. With all the knowledge gained from pentesting, DLP scans, and other sources, you should have a good understanding of the risks. Use this matrix to structure the risk assessment:
 
-![Risk Assessment Matrix](../assets/11-ISO-27001/risk-assessment-matrix.png)
+![Risk Assessment Matrix](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/risk-assessment-matrix.png?raw=true)
 
 ### 4) Develop a Risk Treatment Plan
 
@@ -206,7 +206,7 @@ This is what you can do with a risk: Accept, Avoid, Transfer, Mitigate, Monitor.
 - Mitigate a risk if you can't avoid it. 
 - Monitor a risk if you accept it or transfer it.
 
-![Risk Mitigation Strategies](../assets/11-ISO-27001/risk-mitigation-strategies.png)    
+![Risk Mitigation Strategies](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/risk-mitigation-strategies.png?raw=true)    
 
 ### 5) Select and Implement Controls
 
