@@ -7,7 +7,7 @@ authors: ["alesanchezr"]
 
 La certificación ISO 27001 es un proceso riguroso que demuestra el compromiso de una organización con la gestión de seguridad de la información. Este documento describe el proceso de certificación, la preparación para auditorías, los hallazgos comunes y el mantenimiento de la certificación.
 
-![proceso-certificación-iso-27001](../assets/11-ISO-27001/iso-27001-process.png)
+![proceso-certificación-iso-27001](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/iso-27001-process.png?raw=true)
 
 ## Resumen del Proceso de Certificación
 
@@ -21,7 +21,7 @@ La certificación ISO 27001 es un proceso riguroso que demuestra el compromiso d
 
 ## 1) Preparación y Documentación
 
-La fase de preparación y documentación implica establecer los cimientos para el Sistema de Gestión de Seguridad de la Información (SGSI). Esto incluye definir el alcance, desarrollar políticas, realizar evaluaciones de riesgos y crear la documentación necesaria. Para una explicación detallada de este paso, consulta el artículo [Implementación del Marco SGSI y Evaluación de Riesgos](./isms-framework-and-risk-assessment.md), donde cubrimos el proceso de preparación y documentación en profundidad.
+La fase de preparación y documentación implica establecer los cimientos para el Sistema de Gestión de Seguridad de la Información (SGSI). Esto incluye definir el alcance, desarrollar políticas, realizar evaluaciones de riesgos y crear la documentación necesaria. Para una explicación detallada de este paso, consulta el artículo [Implementación del Marco SGSI y Evaluación de Riesgos](https://4geeks.com/lesson/isms-framework-implementation-and-risk-assessment), donde cubrimos el proceso de preparación y documentación en profundidad.
 
 ## 2) Auditorías Internas
 
