@@ -1,10 +1,9 @@
-Aquí tienes la traducción al español del markdown:
-
 ---
 title: "Introducción a ISO 27001"
 subtitle: "🔒 Entendiendo los fundamentos de ISO 27001, su importancia en la gestión de seguridad de la información y el proceso de certificación"
 tags: ["ISO 27001", "SGSI", "ciberseguridad"]
 authors: ["alesanchezr"]
+
 ---
 
 # Introducción a ISO 27001
