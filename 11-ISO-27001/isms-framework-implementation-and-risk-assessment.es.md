@@ -1,10 +1,9 @@
-Aquí tienes la traducción al español del markdown:
-
 ---
 title: "Implementación del Marco SGSI (o ISMS) y Evaluación de Riesgos"
 subtitle: "🔒 Comprendiendo el marco SGSI y cómo implementarlo para la certificación ISO 27001. Realizando evaluación de riesgos e implementando controles."
 tags: ["ISO 27001", "SGSI", "evaluación de riesgos", "ciberseguridad"]
 authors: ["alesanchezr"]
+
 ---
 
 Si deseas obtener la certificación ISO 27001, necesitas tener un SGSI / ISMS implementado. Este documento explica el marco y cómo implementarlo.
