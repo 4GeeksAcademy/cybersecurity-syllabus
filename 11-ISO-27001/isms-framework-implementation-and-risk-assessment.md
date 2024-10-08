@@ -248,7 +248,7 @@ ISO 27001 doesn't prescribe a specific risk assessment methodology, but some com
 
 3. **OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)**: A method that focuses on organizational risk and strategic, practice-related issues.
 
-![OCTAVE](../assets/11-ISO-27001/octave.jpg)
+![OCTAVE](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/octave.jpg?raw=true)
 
 4. **FAIR (Factor Analysis of Information Risk)**: A model for understanding, analyzing, and measuring information risk.
 
