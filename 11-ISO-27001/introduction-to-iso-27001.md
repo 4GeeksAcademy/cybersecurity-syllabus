@@ -10,7 +10,7 @@ authors: ["alesanchezr"]
 
 ISO 27001 has been a game changer for the way organizations approach information security. It provides a structured approach to managing sensitive company information, helping organizations identify and mitigate risks. more than 40,000 organizations worldwide have achieved certification to ISO 27001, including many large and well-known companies like Apple, Microsoft, Salesforce, IBM, JPMorgan Chase, Mastercard, and many more.
 
-![iso-certified](../assets/11-iso-27001/iso-certified.jpg)
+![iso-certified](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/11-iso-27001/iso-certified.jpg)
 
 ISO 27001 is an internationally recognized standard for Information Security Management Systems (ISMS). It provides a framework for organizations to establish, implement, maintain, and continually improve their information security practices. This standard is crucial in today's digital landscape, where data breaches and cyber threats pose significant risks to businesses of all sizes.
 
