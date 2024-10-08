@@ -42,7 +42,7 @@ The ISO 27001 certification process involves several key steps:
 
 7. Recertification: Every three years, a full recertification audit is required, additional to the surveillance audits.
 
-We address more in detail the certification process in the article [ISO 27001 Auditing and Certification Process](#).
+We address more in detail the certification process in the article [ISO 27001 Auditing and Certification Process](https://4geeks.com/lesson/iso-27001-auditing-and-certification).
 
 ## Who Requires ISO 27001?
 

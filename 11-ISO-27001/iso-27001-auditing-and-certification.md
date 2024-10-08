@@ -21,7 +21,7 @@ ISO 27001 certification is a rigorous process that demonstrates an organization'
 
 ## 1) Preparation & Documentation
 
-The preparation and documentation phase involves laying the groundwork for the Information Security Management System (ISMS). This includes defining the scope, developing policies, conducting risk assessments, and creating necessary documentation. For a detailed explanation of this step, please refer to the article [ISMS Framework Implementation and Risk Assessment](./isms-framework-and-risk-assessment.md), where we cover the preparation and documentation process in depth.
+The preparation and documentation phase involves laying the groundwork for the Information Security Management System (ISMS). This includes defining the scope, developing policies, conducting risk assessments, and creating necessary documentation. For a detailed explanation of this step, please refer to the article [ISMS Framework Implementation and Risk Assessment](https://4geeks.com/lesson/isms-framework-implementation-and-risk-assessment), where we cover the preparation and documentation process in depth.
 
 ## 2) Internal Audits 1
 
