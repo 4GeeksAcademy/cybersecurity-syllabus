@@ -1,23 +1,20 @@
-Aquí tienes la traducción al español del markdown:
-
 ---
-title: "Implementación del Marco ISMS y Evaluación de Riesgos"
-subtitle: "🔒 Comprendiendo el marco y cómo implementarlo para la certificación ISO 27001. Realizando evaluación de riesgos e implementando controles."
-tags: ["ISO 27001", "ISMS", "evaluación de riesgos", "ciberseguridad"]
+title: "Implementación del Marco SGSI (o ISMS) y Evaluación de Riesgos"
+subtitle: "🔒 Comprendiendo el marco SGSI y cómo implementarlo para la certificación ISO 27001. Realizando evaluación de riesgos e implementando controles."
+tags: ["ISO 27001", "SGSI", "evaluación de riesgos", "ciberseguridad"]
 authors: ["alesanchezr"]
+
 ---
 
-# Implementación del Marco ISMS y Evaluación de Riesgos
-
-Si deseas obtener la certificación ISO 27001, necesitas tener un ISMS implementado. Este documento explica el marco y cómo implementarlo.
+Si deseas obtener la certificación ISO 27001, necesitas tener un SGSI / ISMS implementado. Este documento explica el marco y cómo implementarlo.
 
 Un Sistema de Gestión de Seguridad de la Información (SGSI o ISMS por sus siglas en inglés) es un enfoque sistemático para gestionar la información sensible de la empresa, asegurando que se mantenga segura. Incluye personas, procesos y sistemas de TI mediante la aplicación de un proceso de gestión de riesgos.
 
-![Plan de Implementación ISMS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-implementation-plan.png?raw=true)
+![Plan de Implementación SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-implementation-plan.png?raw=true)
 
-## Componentes del Marco ISMS
+## Componentes del Marco SGSI
 
-El marco ISMS consta de los siguientes componentes clave:
+El marco SGSI consta de los siguientes componentes clave:
 
 1. Políticas de Seguridad de la Información.
 2. Organización de la Seguridad de la Información.
@@ -36,25 +33,25 @@ El marco ISMS consta de los siguientes componentes clave:
 
 Estos componentes trabajan juntos para crear un enfoque integral en la gestión y protección de la información sensible de la organización en personas, procesos y sistemas de TI.
 
-![Componentes del ISMS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-components.jpg?raw=true)
+![Componentes del SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-components.jpg?raw=true)
 
 ### Políticas de Seguridad de la Información
 
 Directrices generales que definen el enfoque de la organización hacia la seguridad de la información. Por ejemplo:
 
 - **Declaración de la Política**: Una declaración de alto nivel que describe el compromiso de la organización con la seguridad de la información.
-- **Alcance**: Define qué partes de la organización están cubiertas por el ISMS.
+- **Alcance**: Define qué partes de la organización están cubiertas por el SGSI.
 - **Roles y Responsabilidades**: Asigna roles y responsabilidades específicas para la seguridad de la información.
-- **Procedimientos**: Proporciona procedimientos detallados para implementar y mantener el ISMS.
-- **Revisión y Actualización**: Describe el proceso para revisar y actualizar el ISMS.
+- **Procedimientos**: Proporciona procedimientos detallados para implementar y mantener el SGSI.
+- **Revisión y Actualización**: Describe el proceso para revisar y actualizar el SGSI.
 
 ### Organización de la Seguridad de la Información
 
 Define los roles y responsabilidades para la seguridad de la información dentro de la organización. Por ejemplo:
 
-- **Comité de Seguridad de la Información**: Un grupo de altos directivos responsables de supervisar el ISMS.
-- **Responsable de Seguridad de la Información (ISO)**: Una persona designada para implementar y mantener el ISMS.
-- **Equipo de Seguridad de la Información**: Un grupo de individuos responsables de aspectos específicos del ISMS.
+- **Comité de Seguridad de la Información**: Un grupo de altos directivos responsables de supervisar el SGSI.
+- **Responsable de Seguridad de la Información (ISO)**: Una persona designada para implementar y mantener el SGSI.
+- **Equipo de Seguridad de la Información**: Un grupo de individuos responsables de aspectos específicos del SGSI.
 
 ### Seguridad de los Recursos Humanos
 
@@ -68,7 +65,7 @@ Asegura que los empleados comprendan sus responsabilidades y sean adecuados para
 
 Identifica los activos organizacionales y define responsabilidades de protección adecuadas. Por ejemplo:
 
-- **Identificación de Activos**: Identifica todos los activos valiosos dentro del alcance del ISMS.
+- **Identificación de Activos**: Identifica todos los activos valiosos dentro del alcance del SGSI.
 - **Clasificación de Activos**: Asigna un nivel de importancia a cada activo según su valor para la organización.
 - **Protección de Activos**: Define las medidas de seguridad apropiadas para cada activo.
 
@@ -153,22 +150,22 @@ Evita infracciones de obligaciones legales, estatutarias, regulatorias o contrac
 - **Monitoreo del Cumplimiento**: Monitorea el cumplimiento de estos requisitos.
 - **Reporte del Cumplimiento**: Reporta el cumplimiento de estos requisitos.
 
-## Proceso de Implementación del ISMS
+## Proceso de Implementación del SGSI
 
-Ahora que conocemos el marco, veamos el proceso de implementación de un ISMS. La implementación de un ISMS sigue típicamente estos pasos:
+Ahora que conocemos el marco, veamos el proceso de implementación de un SGSI. La implementación de un SGSI sigue típicamente estos pasos:
 
 ### 1) Definir el Alcance
 
-Determina qué partes de la organización estarán cubiertas por el ISMS. Para comprender mejor el alcance, puedes usar `Cómo, Qué, Quién, Dónde`:
+Determina qué partes de la organización estarán cubiertas por el SGSI. Para comprender mejor el alcance, puedes usar `Cómo, Qué, Quién, Dónde`:
 
-- **Cómo**: ¿Cómo se implementará el ISMS?
-- **Qué**: ¿Qué cubrirá el ISMS? Activos, Datos, Sistemas de información, Software, Hardware, etc.
-- **Quién**: Personas y organizaciones involucradas en el ISMS.
-- **Dónde**: Áreas geográficas cubiertas por el ISMS.
+- **Cómo**: ¿Cómo se implementará el SGSI?
+- **Qué**: ¿Qué cubrirá el SGSI? Activos, Datos, Sistemas de información, Software, Hardware, etc.
+- **Quién**: Personas y organizaciones involucradas en el SGSI.
+- **Dónde**: Áreas geográficas cubiertas por el SGSI.
 
 
 
-![Alcance del ISMS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-scope.png?raw=true)
+![Alcance del SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-scope.png?raw=true)
 
 Otro conjunto de preguntas que puedes usar para definir el alcance es:
 
@@ -180,19 +177,19 @@ Otro conjunto de preguntas que puedes usar para definir el alcance es:
 - **¿Cuáles son los riesgos para la organización?**
 - **¿Cuáles son los controles para la organización?**
 
-> Ten en cuenta que para obtener la certificación, el ISMS debe estar implementado en toda la organización.
+> Ten en cuenta que para obtener la certificación, el SGSI debe estar implementado en toda la organización.
 
 ### 2) Desarrollar una Política de Seguridad de la Información
 
 Crea un documento de alto nivel que describa el enfoque de la organización hacia la seguridad de la información. El siguiente índice es un buen punto de partida:
 
-- **Introducción**: Proporciona una visión general del ISMS y su propósito.
-- **Alcance**: Define qué partes de la organización están cubiertas por el ISMS.
+- **Introducción**: Proporciona una visión general del SGSI y su propósito.
+- **Alcance**: Define qué partes de la organización están cubiertas por el SGSI.
 - **Roles y Responsabilidades**: Asigna roles y responsabilidades específicos para la seguridad de la información.
-- **Procedimientos**: Proporciona procedimientos detallados para implementar y mantener el ISMS.
-- **Revisión y Actualización**: Describe el proceso para revisar y actualizar el ISMS.
+- **Procedimientos**: Proporciona procedimientos detallados para implementar y mantener el SGSI.
+- **Revisión y Actualización**: Describe el proceso para revisar y actualizar el SGSI.
 
-![Política de Seguridad del ISMS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.webp)
+![Política de Seguridad del SGSI](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.webp)
 
 ### 3) Realizar una Evaluación de Riesgos
 
@@ -226,11 +223,11 @@ Asegura que todo el personal relevante esté consciente de sus roles y responsab
 
 ### 7) Monitorear y Revisar
 
-Monitorea y mejora continuamente la efectividad del ISMS y haz mejoras según sea necesario, ¡incluyendo revisiones por la dirección! Para lograr esto, puedes:
+Monitorea y mejora continuamente la efectividad del SGSI y haz mejoras según sea necesario, ¡incluyendo revisiones por la dirección! Para lograr esto, puedes:
 
-- **Auditorías Internas Regulares**: Nombra a una persona o equipo para realizar auditorías internas regulares del ISMS. Asegúrate de que sean independientes y tengan la autoridad para reportar a la alta dirección.
-- **Auditorías Externas Regulares**: Contrata a un auditor externo para realizar auditorías externas regulares del ISMS.
-- **Revisión por la Dirección**: Involucra a la alta dirección en la revisión del ISMS. Programa una reunión recurrente con la alta dirección para revisar los KPIs y proponer mejoras.
+- **Auditorías Internas Regulares**: Nombra a una persona o equipo para realizar auditorías internas regulares del SGSI. Asegúrate de que sean independientes y tengan la autoridad para reportar a la alta dirección.
+- **Auditorías Externas Regulares**: Contrata a un auditor externo para realizar auditorías externas regulares del SGSI.
+- **Revisión por la Dirección**: Involucra a la alta dirección en la revisión del SGSI. Programa una reunión recurrente con la alta dirección para revisar los KPIs y proponer mejoras.
 
 Debes elegir tus KPIs (Indicadores Clave de Desempeño) basados en la evaluación de riesgos y el plan de tratamiento de riesgos. Por ejemplo:
 
@@ -260,7 +257,7 @@ ISO 27001 no prescribe una metodología específica para la evaluación de riesg
 
 El proceso de identificación y evaluación de riesgos generalmente involucra:
 
-1. **Identificación de Activos**: Enumera todos los activos valiosos dentro del alcance del ISMS.
+1. **Identificación de Activos**: Enumera todos los activos valiosos dentro del alcance del SGSI.
 
 2. **Identificación de Amenazas**: Determina amenazas potenciales para estos activos.
 
@@ -286,4 +283,4 @@ ISO 27001 describe cuatro opciones principales para el tratamiento de riesgos:
 
 La estrategia elegida debe estar documentada en un plan de tratamiento de riesgos, que detalla los controles seleccionados, responsabilidades y plazos para la implementación.
 
-Al seguir este marco y estas metodologías, las organizaciones pueden establecer un ISMS sólido que gestione eficazmente los riesgos de seguridad de la información en cumplimiento con ISO 27001.
+Al seguir este marco y estas metodologías, las organizaciones pueden establecer un SGSI sólido que gestione eficazmente los riesgos de seguridad de la información en cumplimiento con ISO 27001.

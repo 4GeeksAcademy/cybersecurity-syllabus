@@ -1,13 +1,10 @@
-Aquí tienes la traducción al español del markdown:
-
 ---
 title: "Introducción a ISO 27001"
 subtitle: "🔒 Entendiendo los fundamentos de ISO 27001, su importancia en la gestión de seguridad de la información y el proceso de certificación"
 tags: ["ISO 27001", "SGSI", "ciberseguridad"]
 authors: ["alesanchezr"]
----
 
-# Introducción a ISO 27001
+---
 
 ISO 27001 ha sido un cambio significativo en la manera en que las organizaciones abordan la seguridad de la información. Proporciona un enfoque estructurado para gestionar la información sensible de la empresa, ayudando a las organizaciones a identificar y mitigar riesgos. Más de 40,000 organizaciones en todo el mundo han obtenido la certificación ISO 27001, incluidas muchas grandes y reconocidas empresas como Apple, Microsoft, Salesforce, IBM, JPMorgan Chase, Mastercard y muchas más.
 
