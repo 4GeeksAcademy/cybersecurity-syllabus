@@ -2,6 +2,7 @@
   "info": {
     "slug": "fundamentos-iso-27001",
     "name": "Fundamentos de ISO 27001",
+    "technologies": ["iso-27001", "ciberseguridad", "sgsi"],
     "main": "Comprueba tu conocimiento sobre los fundamentos de ISO 27001, su implementación y proceso de certificación",
     "results": "¡Felicidades! Ahora tienes una sólida comprensión de los fundamentos de ISO 27001 y su importancia en la gestión de la seguridad de la información.",
     "badges": [

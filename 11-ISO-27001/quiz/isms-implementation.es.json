@@ -2,6 +2,7 @@
   "info": {
     "slug": "implementacion-y-auditoria-de-sgsi",
     "name": "Implementación y Auditoría de SGSI",
+    "technologies": ["iso-27001", "ciberseguridad", "sgsi"],
     "main": "Comprueba tu conocimiento sobre el proceso de implementación de un Sistema de Gestión de Seguridad de la Información (SGSI) y los procedimientos de auditoría según ISO 27001",
     "badges": [
       { "slug": "iso_27001_expert", "points": 15 }
