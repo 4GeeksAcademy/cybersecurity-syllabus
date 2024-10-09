@@ -1,0 +1,434 @@
+{
+  "info": {
+    "slug": "iso-27001-fundamentals",
+    "name": "ISO 27001 Fundamentals",
+    "main": "Test your knowledge of the fundamentals of ISO 27001, its implementation, and certification process",
+    "results": "Congratulations! You now have a solid understanding of ISO 27001 fundamentals and its importance in information security management.",
+    "badges": [
+      { "slug": "iso_27001_expert", "points": 10 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "What is ISO 27001?",
+      "a": [
+        {
+          "option": "An internationally recognized standard for Information Security Management Systems (ISMS)",
+          "correct": true
+        },
+        {
+          "option": "A type of antivirus software",
+          "correct": false
+        },
+        {
+          "option": "A government regulation for data protection",
+          "correct": false
+        },
+        {
+          "option": "A cybersecurity certification for individuals",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What does ISMS stand for in the context of ISO 27001?",
+      "a": [
+        {
+          "option": "Information Security Management System",
+          "correct": true
+        },
+        {
+          "option": "International Standard Management System",
+          "correct": false
+        },
+        {
+          "option": "Internal Security Monitoring Service",
+          "correct": false
+        },
+        {
+          "option": "Integrated Software Management Solution",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT one of the main components of the ISMS framework?",
+      "a": [
+        {
+          "option": "Financial Management",
+          "correct": true
+        },
+        {
+          "option": "Information Security Policies",
+          "correct": false
+        },
+        {
+          "option": "Asset Management",
+          "correct": false
+        },
+        {
+          "option": "Access Control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of conducting a risk assessment in ISO 27001?",
+      "a": [
+        {
+          "option": "To identify, analyze, and evaluate information security risks",
+          "correct": true
+        },
+        {
+          "option": "To determine the financial budget for cybersecurity",
+          "correct": false
+        },
+        {
+          "option": "To assess employee performance in security practices",
+          "correct": false
+        },
+        {
+          "option": "To choose which antivirus software to use",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the three pillars of information security according to ISO 27001?",
+      "a": [
+        {
+          "option": "Confidentiality, Integrity, and Availability",
+          "correct": true
+        },
+        {
+          "option": "Prevention, Detection, and Response",
+          "correct": false
+        },
+        {
+          "option": "People, Process, and Technology",
+          "correct": false
+        },
+        {
+          "option": "Authentication, Authorization, and Accounting",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the correct order of steps in the ISO 27001 certification process?",
+      "a": [
+        {
+          "option": "Preparation, Stage 1 Audit, Implementation, Stage 2 Audit, Addressing Non-conformities, Certification Decision",
+          "correct": true
+        },
+        {
+          "option": "Implementation, Preparation, Stage 1 Audit, Stage 2 Audit, Certification Decision, Addressing Non-conformities",
+          "correct": false
+        },
+        {
+          "option": "Stage 1 Audit, Preparation, Implementation, Stage 2 Audit, Certification Decision, Addressing Non-conformities",
+          "correct": false
+        },
+        {
+          "option": "Preparation, Implementation, Stage 1 Audit, Stage 2 Audit, Certification Decision, Addressing Non-conformities",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "How often are surveillance audits typically conducted after ISO 27001 certification?",
+      "a": [
+        {
+          "option": "Annually",
+          "correct": true
+        },
+        {
+          "option": "Every six months",
+          "correct": false
+        },
+        {
+          "option": "Every two years",
+          "correct": false
+        },
+        {
+          "option": "Only when recertifying",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of the Statement of Applicability (SoA) in ISO 27001?",
+      "a": [
+        {
+          "option": "To document which controls are applicable to the organization and why",
+          "correct": true
+        },
+        {
+          "option": "To list all employees who have access to sensitive information",
+          "correct": false
+        },
+        {
+          "option": "To outline the organization's financial statements",
+          "correct": false
+        },
+        {
+          "option": "To describe the physical security measures of the organization",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is NOT typically included in an ISO 27001 internal audit?",
+      "a": [
+        {
+          "option": "Financial performance review",
+          "correct": true
+        },
+        {
+          "option": "Review of ISMS documentation",
+          "correct": false
+        },
+        {
+          "option": "Interviews with staff",
+          "correct": false
+        },
+        {
+          "option": "Verification of security controls",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "How long is an ISO 27001 certification typically valid?",
+      "a": [
+        {
+          "option": "3 years",
+          "correct": true
+        },
+        {
+          "option": "1 year",
+          "correct": false
+        },
+        {
+          "option": "5 years",
+          "correct": false
+        },
+        {
+          "option": "Indefinitely",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the primary goal of implementing an ISMS according to ISO 27001?",
+      "a": [
+        {
+          "option": "To protect the confidentiality, integrity, and availability of information",
+          "correct": true
+        },
+        {
+          "option": "To increase the organization's profit margins",
+          "correct": false
+        },
+        {
+          "option": "To comply with all government regulations",
+          "correct": false
+        },
+        {
+          "option": "To eliminate all cybersecurity risks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the role of top management in ISO 27001 implementation?",
+      "a": [
+        {
+          "option": "To demonstrate leadership and commitment to the ISMS",
+          "correct": true
+        },
+        {
+          "option": "To perform daily security checks",
+          "correct": false
+        },
+        {
+          "option": "To write all security policies",
+          "correct": false
+        },
+        {
+          "option": "To conduct internal audits",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of the Plan-Do-Check-Act (PDCA) cycle in ISO 27001?",
+      "a": [
+        {
+          "option": "To ensure continuous improvement of the ISMS",
+          "correct": true
+        },
+        {
+          "option": "To schedule regular security updates",
+          "correct": false
+        },
+        {
+          "option": "To organize staff training sessions",
+          "correct": false
+        },
+        {
+          "option": "To manage the certification budget",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a key difference between Stage 1 and Stage 2 audits in ISO 27001 certification?",
+      "a": [
+        {
+          "option": "Stage 1 focuses on documentation review, while Stage 2 involves on-site assessment",
+          "correct": true
+        },
+        {
+          "option": "Stage 1 is conducted by internal auditors, while Stage 2 is done by external auditors",
+          "correct": false
+        },
+        {
+          "option": "Stage 1 is optional, while Stage 2 is mandatory",
+          "correct": false
+        },
+        {
+          "option": "Stage 1 assesses technical controls, while Stage 2 focuses on administrative controls",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of the Risk Treatment Plan in ISO 27001?",
+      "a": [
+        {
+          "option": "To outline how identified risks will be addressed",
+          "correct": true
+        },
+        {
+          "option": "To list all potential threats to the organization",
+          "correct": false
+        },
+        {
+          "option": "To schedule regular security training for employees",
+          "correct": false
+        },
+        {
+          "option": "To document the results of penetration testing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT a typical risk treatment option in ISO 27001?",
+      "a": [
+        {
+          "option": "Ignore the risk",
+          "correct": true
+        },
+        {
+          "option": "Modify the risk",
+          "correct": false
+        },
+        {
+          "option": "Retain the risk",
+          "correct": false
+        },
+        {
+          "option": "Share the risk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of conducting regular management reviews in ISO 27001?",
+      "a": [
+        {
+          "option": "To ensure the ISMS remains suitable, adequate, and effective",
+          "correct": true
+        },
+        {
+          "option": "To approve the annual IT budget",
+          "correct": false
+        },
+        {
+          "option": "To review employee performance",
+          "correct": false
+        },
+        {
+          "option": "To plan marketing strategies for security products",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the role of the ISMS scope in ISO 27001?",
+      "a": [
+        {
+          "option": "To define the boundaries of the ISMS implementation",
+          "correct": true
+        },
+        {
+          "option": "To list all the organization's assets",
+          "correct": false
+        },
+        {
+          "option": "To outline the company's financial goals",
+          "correct": false
+        },
+        {
+          "option": "To describe the physical layout of the office",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the primary purpose of asset management in ISO 27001?",
+      "a": [
+        {
+          "option": "To identify and protect information assets",
+          "correct": true
+        },
+        {
+          "option": "To maximize the financial value of company assets",
+          "correct": false
+        },
+        {
+          "option": "To track employee work hours",
+          "correct": false
+        },
+        {
+          "option": "To manage the company's real estate portfolio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main goal of the continual improvement process in ISO 27001?",
+      "a": [
+        {
+          "option": "To enhance the effectiveness of the ISMS over time",
+          "correct": true
+        },
+        {
+          "option": "To increase the organization's market share",
+          "correct": false
+        },
+        {
+          "option": "To reduce operational costs",
+          "correct": false
+        },
+        {
+          "option": "To expand the company's product line",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
+

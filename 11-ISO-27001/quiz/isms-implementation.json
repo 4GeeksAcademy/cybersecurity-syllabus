@@ -1,0 +1,329 @@
+{
+  "info": {
+    "slug": "isms-implementation-and-auditing",
+    "name": "ISMS Implementation and Auditing",
+    "main": "Test your knowledge of the implementation process of an Information Security Management System (ISMS) and the auditing procedures according to ISO 27001",
+    "results": "Congratulations! You now have a solid understanding of ISMS implementation and auditing processes as per ISO 27001 standards.",
+    "badges": [
+      { "slug": "iso_27001_expert", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "What is the first step in implementing an ISMS according to ISO 27001?",
+      "a": [
+        {
+          "option": "Define the scope of the ISMS",
+          "correct": true
+        },
+        {
+          "option": "Conduct a risk assessment",
+          "correct": false
+        },
+        {
+          "option": "Implement security controls",
+          "correct": false
+        },
+        {
+          "option": "Obtain management approval",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What does the 'Plan' phase of the PDCA cycle involve in ISMS implementation?",
+      "a": [
+        {
+          "option": "Establishing ISMS objectives, processes, and policies",
+          "correct": true
+        },
+        {
+          "option": "Implementing and operating the ISMS",
+          "correct": false
+        },
+        {
+          "option": "Monitoring and reviewing the ISMS",
+          "correct": false
+        },
+        {
+          "option": "Taking actions to continually improve the ISMS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of a Statement of Applicability (SoA) in ISO 27001?",
+      "a": [
+        {
+          "option": "To document which controls are applicable and which are not",
+          "correct": true
+        },
+        {
+          "option": "To list all employees involved in ISMS implementation",
+          "correct": false
+        },
+        {
+          "option": "To outline the organization's financial goals",
+          "correct": false
+        },
+        {
+          "option": "To describe the physical security measures",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main objective of conducting internal audits in ISO 27001?",
+      "a": [
+        {
+          "option": "To assess the effectiveness and compliance of the ISMS",
+          "correct": true
+        },
+        {
+          "option": "To evaluate employee performance",
+          "correct": false
+        },
+        {
+          "option": "To reduce operational costs",
+          "correct": false
+        },
+        {
+          "option": "To increase market share",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "How often should internal audits be conducted according to ISO 27001?",
+      "a": [
+        {
+          "option": "At planned intervals",
+          "correct": true
+        },
+        {
+          "option": "Once a year",
+          "correct": false
+        },
+        {
+          "option": "Every six months",
+          "correct": false
+        },
+        {
+          "option": "Only when required by external auditors",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the role of top management in ISMS implementation?",
+      "a": [
+        {
+          "option": "To provide leadership and commitment to the ISMS",
+          "correct": true
+        },
+        {
+          "option": "To perform daily security checks",
+          "correct": false
+        },
+        {
+          "option": "To conduct internal audits",
+          "correct": false
+        },
+        {
+          "option": "To write all security policies",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of a risk treatment plan in ISO 27001?",
+      "a": [
+        {
+          "option": "To outline how identified risks will be managed",
+          "correct": true
+        },
+        {
+          "option": "To list all possible risks",
+          "correct": false
+        },
+        {
+          "option": "To describe the organization's assets",
+          "correct": false
+        },
+        {
+          "option": "To schedule employee training sessions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main focus of Stage 1 of the ISO 27001 certification audit?",
+      "a": [
+        {
+          "option": "To review the organization's ISMS documentation",
+          "correct": true
+        },
+        {
+          "option": "To test the effectiveness of security controls",
+          "correct": false
+        },
+        {
+          "option": "To interview all employees",
+          "correct": false
+        },
+        {
+          "option": "To issue the ISO 27001 certificate",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of management review in ISO 27001?",
+      "a": [
+        {
+          "option": "To ensure the ISMS remains suitable, adequate, and effective",
+          "correct": true
+        },
+        {
+          "option": "To approve the annual IT budget",
+          "correct": false
+        },
+        {
+          "option": "To review employee performance",
+          "correct": false
+        },
+        {
+          "option": "To plan marketing strategies",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main goal of the 'Check' phase in the PDCA cycle?",
+      "a": [
+        {
+          "option": "To monitor and measure processes against policies, objectives, and requirements",
+          "correct": true
+        },
+        {
+          "option": "To implement security controls",
+          "correct": false
+        },
+        {
+          "option": "To establish ISMS objectives",
+          "correct": false
+        },
+        {
+          "option": "To take actions for continual improvement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of the ISO 27001 surveillance audit?",
+      "a": [
+        {
+          "option": "To ensure continued compliance with ISO 27001 requirements",
+          "correct": true
+        },
+        {
+          "option": "To renew the ISO 27001 certificate",
+          "correct": false
+        },
+        {
+          "option": "To conduct a full reassessment of the ISMS",
+          "correct": false
+        },
+        {
+          "option": "To train new employees on ISMS procedures",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main purpose of documenting the ISMS?",
+      "a": [
+        {
+          "option": "To ensure consistency and continuity of ISMS implementation",
+          "correct": true
+        },
+        {
+          "option": "To impress external auditors",
+          "correct": false
+        },
+        {
+          "option": "To comply with legal requirements",
+          "correct": false
+        },
+        {
+          "option": "To increase the organization's market value",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the role of the ISMS manager?",
+      "a": [
+        {
+          "option": "To oversee the implementation and operation of the ISMS",
+          "correct": true
+        },
+        {
+          "option": "To perform all security-related tasks",
+          "correct": false
+        },
+        {
+          "option": "To conduct external audits",
+          "correct": false
+        },
+        {
+          "option": "To approve the organization's budget",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of the 'Act' phase in the PDCA cycle?",
+      "a": [
+        {
+          "option": "To take actions to continually improve the ISMS",
+          "correct": true
+        },
+        {
+          "option": "To implement security controls",
+          "correct": false
+        },
+        {
+          "option": "To monitor and measure ISMS processes",
+          "correct": false
+        },
+        {
+          "option": "To establish ISMS objectives",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main difference between Stage 1 and Stage 2 of the ISO 27001 certification audit?",
+      "a": [
+        {
+          "option": "Stage 1 focuses on documentation review, while Stage 2 assesses the implementation and effectiveness of the ISMS",
+          "correct": true
+        },
+        {
+          "option": "Stage 1 is conducted on-site, while Stage 2 is done remotely",
+          "correct": false
+        },
+        {
+          "option": "Stage 1 involves all employees, while Stage 2 only involves management",
+          "correct": false
+        },
+        {
+          "option": "Stage 1 is optional, while Stage 2 is mandatory",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
+

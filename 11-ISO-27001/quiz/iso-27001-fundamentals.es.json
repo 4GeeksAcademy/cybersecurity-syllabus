@@ -1,0 +1,433 @@
+{
+  "info": {
+    "slug": "fundamentos-iso-27001",
+    "name": "Fundamentos de ISO 27001",
+    "main": "Comprueba tu conocimiento sobre los fundamentos de ISO 27001, su implementación y proceso de certificación",
+    "results": "¡Felicidades! Ahora tienes una sólida comprensión de los fundamentos de ISO 27001 y su importancia en la gestión de la seguridad de la información.",
+    "badges": [
+      { "slug": "iso_27001_expert", "points": 10 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Qué es ISO 27001?",
+      "a": [
+        {
+          "option": "Un estándar internacionalmente reconocido para Sistemas de Gestión de Seguridad de la Información (SGSI)",
+          "correct": true
+        },
+        {
+          "option": "Un tipo de software antivirus",
+          "correct": false
+        },
+        {
+          "option": "Una regulación gubernamental para la protección de datos",
+          "correct": false
+        },
+        {
+          "option": "Una certificación de ciberseguridad para individuos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué significa SGSI en el contexto de ISO 27001?",
+      "a": [
+        {
+          "option": "Sistema de Gestión de Seguridad de la Información",
+          "correct": true
+        },
+        {
+          "option": "Sistema de Gestión de Estándares Internacionales",
+          "correct": false
+        },
+        {
+          "option": "Servicio de Monitoreo de Seguridad Interna",
+          "correct": false
+        },
+        {
+          "option": "Solución Integrada de Gestión de Software",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de los siguientes NO es uno de los componentes principales del marco SGSI?",
+      "a": [
+        {
+          "option": "Gestión Financiera",
+          "correct": true
+        },
+        {
+          "option": "Políticas de Seguridad de la Información",
+          "correct": false
+        },
+        {
+          "option": "Gestión de Activos",
+          "correct": false
+        },
+        {
+          "option": "Control de Acceso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de realizar una evaluación de riesgos en ISO 27001?",
+      "a": [
+        {
+          "option": "Identificar, analizar y evaluar los riesgos de seguridad de la información",
+          "correct": true
+        },
+        {
+          "option": "Determinar el presupuesto financiero para la ciberseguridad",
+          "correct": false
+        },
+        {
+          "option": "Evaluar el desempeño de los empleados en prácticas de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Elegir qué software antivirus usar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son los tres pilares de la seguridad de la información según ISO 27001?",
+      "a": [
+        {
+          "option": "Confidencialidad, Integridad y Disponibilidad",
+          "correct": true
+        },
+        {
+          "option": "Prevención, Detección y Respuesta",
+          "correct": false
+        },
+        {
+          "option": "Personas, Procesos y Tecnología",
+          "correct": false
+        },
+        {
+          "option": "Autenticación, Autorización y Contabilidad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el orden correcto de los pasos en el proceso de certificación ISO 27001?",
+      "a": [
+        {
+          "option": "Preparación, Auditoría Etapa 1, Implementación, Auditoría Etapa 2, Abordar No Conformidades, Decisión de Certificación",
+          "correct": true
+        },
+        {
+          "option": "Implementación, Preparación, Auditoría Etapa 1, Auditoría Etapa 2, Decisión de Certificación, Abordar No Conformidades",
+          "correct": false
+        },
+        {
+          "option": "Auditoría Etapa 1, Preparación, Implementación, Auditoría Etapa 2, Decisión de Certificación, Abordar No Conformidades",
+          "correct": false
+        },
+        {
+          "option": "Preparación, Implementación, Auditoría Etapa 1, Auditoría Etapa 2, Decisión de Certificación, Abordar No Conformidades",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Con qué frecuencia se realizan típicamente las auditorías de vigilancia después de la certificación ISO 27001?",
+      "a": [
+        {
+          "option": "Anualmente",
+          "correct": true
+        },
+        {
+          "option": "Cada seis meses",
+          "correct": false
+        },
+        {
+          "option": "Cada dos años",
+          "correct": false
+        },
+        {
+          "option": "Solo al recertificar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la Declaración de Aplicabilidad (SoA) en ISO 27001?",
+      "a": [
+        {
+          "option": "Documentar qué controles son aplicables a la organización y por qué",
+          "correct": true
+        },
+        {
+          "option": "Listar todos los empleados que tienen acceso a información sensible",
+          "correct": false
+        },
+        {
+          "option": "Delinear los estados financieros de la organización",
+          "correct": false
+        },
+        {
+          "option": "Describir las medidas de seguridad física de la organización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué NO se incluye típicamente en una auditoría interna de ISO 27001?",
+      "a": [
+        {
+          "option": "Revisión del desempeño financiero",
+          "correct": true
+        },
+        {
+          "option": "Revisión de la documentación del SGSI",
+          "correct": false
+        },
+        {
+          "option": "Entrevistas con el personal",
+          "correct": false
+        },
+        {
+          "option": "Verificación de los controles de seguridad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por cuánto tiempo es típicamente válida una certificación ISO 27001?",
+      "a": [
+        {
+          "option": "3 años",
+          "correct": true
+        },
+        {
+          "option": "1 año",
+          "correct": false
+        },
+        {
+          "option": "5 años",
+          "correct": false
+        },
+        {
+          "option": "Indefinidamente",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal de implementar un SGSI según ISO 27001?",
+      "a": [
+        {
+          "option": "Proteger la confidencialidad, integridad y disponibilidad de la información",
+          "correct": true
+        },
+        {
+          "option": "Aumentar los márgenes de beneficio de la organización",
+          "correct": false
+        },
+        {
+          "option": "Cumplir con todas las regulaciones gubernamentales",
+          "correct": false
+        },
+        {
+          "option": "Eliminar todos los riesgos de ciberseguridad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el papel de la alta dirección en la implementación de ISO 27001?",
+      "a": [
+        {
+          "option": "Demostrar liderazgo y compromiso con el SGSI",
+          "correct": true
+        },
+        {
+          "option": "Realizar controles de seguridad diarios",
+          "correct": false
+        },
+        {
+          "option": "Escribir todas las políticas de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Realizar auditorías internas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito del ciclo Planificar-Hacer-Verificar-Actuar (PHVA) en ISO 27001?",
+      "a": [
+        {
+          "option": "Asegurar la mejora continua del SGSI",
+          "correct": true
+        },
+        {
+          "option": "Programar actualizaciones regulares de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Organizar sesiones de capacitación del personal",
+          "correct": false
+        },
+        {
+          "option": "Gestionar el presupuesto de certificación",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es una diferencia clave entre las auditorías de Etapa 1 y Etapa 2 en la certificación ISO 27001?",
+      "a": [
+        {
+          "option": "La Etapa 1 se centra en la revisión de documentación, mientras que la Etapa 2 implica una evaluación in situ",
+          "correct": true
+        },
+        {
+          "option": "La Etapa 1 es realizada por auditores internos, mientras que la Etapa 2 es realizada por auditores externos",
+          "correct": false
+        },
+        {
+          "option": "La Etapa 1 es opcional, mientras que la Etapa 2 es obligatoria",
+          "correct": false
+        },
+        {
+          "option": "La Etapa 1 evalúa los controles técnicos, mientras que la Etapa 2 se centra en los controles administrativos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito del Plan de Tratamiento de Riesgos en ISO 27001?",
+      "a": [
+        {
+          "option": "Delinear cómo se abordarán los riesgos identificados",
+          "correct": true
+        },
+        {
+          "option": "Listar todas las amenazas potenciales para la organización",
+          "correct": false
+        },
+        {
+          "option": "Programar capacitación regular de seguridad para los empleados",
+          "correct": false
+        },
+        {
+          "option": "Documentar los resultados de las pruebas de penetración",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes NO es una opción típica de tratamiento de riesgos en ISO 27001?",
+      "a": [
+        {
+          "option": "Ignorar el riesgo",
+          "correct": true
+        },
+        {
+          "option": "Modificar el riesgo",
+          "correct": false
+        },
+        {
+          "option": "Retener el riesgo",
+          "correct": false
+        },
+        {
+          "option": "Compartir el riesgo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de realizar revisiones regulares por parte de la dirección en ISO 27001?",
+      "a": [
+        {
+          "option": "Asegurar que el SGSI siga siendo adecuado, suficiente y eficaz",
+          "correct": true
+        },
+        {
+          "option": "Aprobar el presupuesto anual de TI",
+          "correct": false
+        },
+        {
+          "option": "Revisar el desempeño de los empleados",
+          "correct": false
+        },
+        {
+          "option": "Planificar estrategias de marketing para productos de seguridad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el papel del alcance del SGSI en ISO 27001?",
+      "a": [
+        {
+          "option": "Definir los límites de la implementación del SGSI",
+          "correct": true
+        },
+        {
+          "option": "Listar todos los activos de la organización",
+          "correct": false
+        },
+        {
+          "option": "Delinear los objetivos financieros de la empresa",
+          "correct": false
+        },
+        {
+          "option": "Describir la disposición física de la oficina",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito principal de la gestión de activos en ISO 27001?",
+      "a": [
+        {
+          "option": "Identificar y proteger los activos de información",
+          "correct": true
+        },
+        {
+          "option": "Maximizar el valor financiero de los activos de la empresa",
+          "correct": false
+        },
+        {
+          "option": "Rastrear las horas de trabajo de los empleados",
+          "correct": false
+        },
+        {
+          "option": "Gestionar la cartera inmobiliaria de la empresa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal del proceso de mejora continua en ISO 27001?",
+      "a": [
+        {
+          "option": "Mejorar la eficacia del SGSI con el tiempo",
+          "correct": true
+        },
+        {
+          "option": "Aumentar la cuota de mercado de la organización",
+          "correct": false
+        },
+        {
+          "option": "Reducir los costos operativos",
+          "correct": false
+        },
+        {
+          "option": "Expandir la línea de productos de la empresa",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

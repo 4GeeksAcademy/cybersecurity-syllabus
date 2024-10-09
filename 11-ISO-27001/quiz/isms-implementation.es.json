@@ -1,0 +1,328 @@
+{
+  "info": {
+    "slug": "implementacion-y-auditoria-de-sgsi",
+    "name": "Implementación y Auditoría de SGSI",
+    "main": "Comprueba tu conocimiento sobre el proceso de implementación de un Sistema de Gestión de Seguridad de la Información (SGSI) y los procedimientos de auditoría según ISO 27001",
+    "badges": [
+      { "slug": "iso_27001_expert", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Cuál es el primer paso para implementar un SGSI según ISO 27001?",
+      "a": [
+        {
+          "option": "Definir el alcance del SGSI",
+          "correct": true
+        },
+        {
+          "option": "Realizar una evaluación de riesgos",
+          "correct": false
+        },
+        {
+          "option": "Implementar controles de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Obtener la aprobación de la dirección",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué implica la fase 'Planificar' del ciclo PDCA en la implementación del SGSI?",
+      "a": [
+        {
+          "option": "Establecer los objetivos, procesos y políticas del SGSI",
+          "correct": true
+        },
+        {
+          "option": "Implementar y operar el SGSI",
+          "correct": false
+        },
+        {
+          "option": "Monitorear y revisar el SGSI",
+          "correct": false
+        },
+        {
+          "option": "Tomar acciones para mejorar continuamente el SGSI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la Declaración de Aplicabilidad (SoA) en ISO 27001?",
+      "a": [
+        {
+          "option": "Documentar qué controles son aplicables y cuáles no",
+          "correct": true
+        },
+        {
+          "option": "Listar todos los empleados involucrados en la implementación del SGSI",
+          "correct": false
+        },
+        {
+          "option": "Delinear los objetivos financieros de la organización",
+          "correct": false
+        },
+        {
+          "option": "Describir las medidas de seguridad física",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal de realizar auditorías internas en ISO 27001?",
+      "a": [
+        {
+          "option": "Evaluar la eficacia y el cumplimiento del SGSI",
+          "correct": true
+        },
+        {
+          "option": "Evaluar el desempeño de los empleados",
+          "correct": false
+        },
+        {
+          "option": "Reducir los costos operativos",
+          "correct": false
+        },
+        {
+          "option": "Aumentar la cuota de mercado",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Con qué frecuencia deben realizarse las auditorías internas según ISO 27001?",
+      "a": [
+        {
+          "option": "A intervalos planificados",
+          "correct": true
+        },
+        {
+          "option": "Una vez al año",
+          "correct": false
+        },
+        {
+          "option": "Cada seis meses",
+          "correct": false
+        },
+        {
+          "option": "Solo cuando lo requieran los auditores externos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el papel de la alta dirección en la implementación del SGSI?",
+      "a": [
+        {
+          "option": "Proporcionar liderazgo y compromiso con el SGSI",
+          "correct": true
+        },
+        {
+          "option": "Realizar comprobaciones de seguridad diarias",
+          "correct": false
+        },
+        {
+          "option": "Realizar auditorías internas",
+          "correct": false
+        },
+        {
+          "option": "Redactar todas las políticas de seguridad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de un plan de tratamiento de riesgos en ISO 27001?",
+      "a": [
+        {
+          "option": "Delinear cómo se gestionarán los riesgos identificados",
+          "correct": true
+        },
+        {
+          "option": "Listar todos los riesgos posibles",
+          "correct": false
+        },
+        {
+          "option": "Describir los activos de la organización",
+          "correct": false
+        },
+        {
+          "option": "Programar sesiones de capacitación para empleados",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el enfoque principal de la Etapa 1 de la auditoría de certificación ISO 27001?",
+      "a": [
+        {
+          "option": "Revisar la documentación del SGSI de la organización",
+          "correct": true
+        },
+        {
+          "option": "Probar la eficacia de los controles de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Entrevistar a todos los empleados",
+          "correct": false
+        },
+        {
+          "option": "Emitir el certificado ISO 27001",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la revisión por la dirección en ISO 27001?",
+      "a": [
+        {
+          "option": "Asegurar que el SGSI siga siendo adecuado, suficiente y eficaz",
+          "correct": true
+        },
+        {
+          "option": "Aprobar el presupuesto anual de TI",
+          "correct": false
+        },
+        {
+          "option": "Revisar el desempeño de los empleados",
+          "correct": false
+        },
+        {
+          "option": "Planificar estrategias de marketing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal de la fase 'Verificar' en el ciclo PDCA?",
+      "a": [
+        {
+          "option": "Monitorear y medir los procesos contra las políticas, objetivos y requisitos",
+          "correct": true
+        },
+        {
+          "option": "Implementar controles de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Establecer los objetivos del SGSI",
+          "correct": false
+        },
+        {
+          "option": "Tomar acciones para la mejora continua",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la auditoría de seguimiento de ISO 27001?",
+      "a": [
+        {
+          "option": "Asegurar el cumplimiento continuo de los requisitos de ISO 27001",
+          "correct": true
+        },
+        {
+          "option": "Renovar el certificado ISO 27001",
+          "correct": false
+        },
+        {
+          "option": "Realizar una reevaluación completa del SGSI",
+          "correct": false
+        },
+        {
+          "option": "Capacitar a nuevos empleados en los procedimientos del SGSI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito principal de documentar el SGSI?",
+      "a": [
+        {
+          "option": "Asegurar la consistencia y continuidad en la implementación del SGSI",
+          "correct": true
+        },
+        {
+          "option": "Impresionar a los auditores externos",
+          "correct": false
+        },
+        {
+          "option": "Cumplir con los requisitos legales",
+          "correct": false
+        },
+        {
+          "option": "Aumentar el valor de mercado de la organización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el papel del gestor del SGSI?",
+      "a": [
+        {
+          "option": "Supervisar la implementación y operación del SGSI",
+          "correct": true
+        },
+        {
+          "option": "Realizar todas las tareas relacionadas con la seguridad",
+          "correct": false
+        },
+        {
+          "option": "Realizar auditorías externas",
+          "correct": false
+        },
+        {
+          "option": "Aprobar el presupuesto de la organización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la fase 'Actuar' en el ciclo PDCA?",
+      "a": [
+        {
+          "option": "Tomar acciones para mejorar continuamente el SGSI",
+          "correct": true
+        },
+        {
+          "option": "Implementar controles de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Monitorear y medir los procesos del SGSI",
+          "correct": false
+        },
+        {
+          "option": "Establecer los objetivos del SGSI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la principal diferencia entre la Etapa 1 y la Etapa 2 de la auditoría de certificación ISO 27001?",
+      "a": [
+        {
+          "option": "La Etapa 1 se centra en la revisión de la documentación, mientras que la Etapa 2 evalúa la implementación y eficacia del SGSI",
+          "correct": true
+        },
+        {
+          "option": "La Etapa 1 se realiza in situ, mientras que la Etapa 2 se hace de forma remota",
+          "correct": false
+        },
+        {
+          "option": "La Etapa 1 involucra a todos los empleados, mientras que la Etapa 2 solo involucra a la dirección",
+          "correct": false
+        },
+        {
+          "option": "La Etapa 1 es opcional, mientras que la Etapa 2 es obligatoria",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
+
