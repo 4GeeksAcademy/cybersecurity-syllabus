@@ -188,7 +188,7 @@ Create a high-level document that outlines the organization's approach to inform
 - **Procedures**: Provides detailed procedures for implementing and maintaining the ISMS.
 - **Review and Update**: Outlines the process for reviewing and updating the ISMS.
 
-![ISMS Policy](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.webp)
+![ISMS Policy](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.jpg)
 
 ### 3) Conduct a Risk Assessment
 
