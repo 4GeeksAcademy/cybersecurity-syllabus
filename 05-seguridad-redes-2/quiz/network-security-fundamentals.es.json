@@ -1,0 +1,332 @@
+
+
+
+{
+  "info": {
+    "slug": "fundamentos-seguridad-redes",
+    "name": "Fundamentos de Seguridad de Redes",
+    "technologies": ["ciberseguridad", "redes"],
+    "main": "Pon a prueba tus conocimientos sobre los fundamentos de seguridad de redes, incluyendo Sistemas de Detección de Intrusos (IDS), Sistemas de Prevención de Intrusos (IPS) y Listas de Control de Acceso (ACL)",
+    "results": "¡Felicidades! Ahora tienes una sólida comprensión de los conceptos y tecnologías clave de seguridad de redes.",
+    "badges": [
+      { "slug": "network_security_expert", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Cuál es el propósito principal de un Sistema de Detección de Intrusos (IDS)?",
+      "a": [
+        {
+          "option": "Detectar actividad sospechosa en un recurso informático o red",
+          "correct": true
+        },
+        {
+          "option": "Bloquear todo el tráfico de red entrante",
+          "correct": false
+        },
+        {
+          "option": "Encriptar todo el tráfico de red",
+          "correct": false
+        },
+        {
+          "option": "Administrar permisos de acceso de usuario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes NO es un método utilizado por IDS para detectar tráfico?",
+      "a": [
+        {
+          "option": "Autenticación de usuario",
+          "correct": true
+        },
+        {
+          "option": "Detección de anomalías",
+          "correct": false
+        },
+        {
+          "option": "Análisis de protocolos",
+          "correct": false
+        },
+        {
+          "option": "Análisis de firmas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la principal diferencia entre un Sistema de Detección de Intrusos (IDS) y un Sistema de Prevención de Intrusos (IPS)?",
+      "a": [
+        {
+          "option": "IPS puede responder automáticamente y bloquear potenciales amenazas",
+          "correct": true
+        },
+        {
+          "option": "IDS es más caro de implementar",
+          "correct": false
+        },
+        {
+          "option": "IPS solo puede detectar amenazas, no prevenirlas",
+          "correct": false
+        },
+        {
+          "option": "IDS siempre es hardware-basado, mientras que IPS siempre es software-basado",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la función principal de las Listas de Control de Acceso (ACL)?",
+      "a": [
+        {
+          "option": "Filtrar el tráfico de red basado en reglas predefinidas",
+          "correct": true
+        },
+        {
+          "option": "Encriptar todo el tráfico de red",
+          "correct": false
+        },
+        {
+          "option": "Detectar intrusione en tiempo real",
+          "correct": false
+        },
+        {
+          "option": "Administrar contraseñas de usuario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el tipo de IDS que se instala en un host específico para monitorear ese sistema en particular?",
+      "a": [
+        {
+          "option": "Host-based IDS (HIDS)",
+          "correct": true
+        },
+        {
+          "option": "Network-based IDS (NIDS)",
+          "correct": false
+        },
+        {
+          "option": "Wireless IDS (WIDS)",
+          "correct": false
+        },
+        {
+          "option": "Cloud-based IDS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es una ventaja clave de un Sistema de Prevención de Intrusos (IPS) sobre un Sistema de Detección de Intrusos (IDS)?",
+      "a": [
+        {
+          "option": "Respuesta en tiempo real a amenazas",
+          "correct": true
+        },
+        {
+          "option": "Costo de implementación más bajo",
+          "correct": false
+        },
+        {
+          "option": "Configuración más fácil",
+          "correct": false
+        },
+        {
+          "option": "Mejor detección de amenazas conocidas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes es un tipo de Lista de Control de Acceso (ACL)?",
+      "a": [
+        {
+          "option": "Extended ACL",
+          "correct": true
+        },
+        {
+          "option": "Encrypted ACL",
+          "correct": false
+        },
+        {
+          "option": "Dynamic ACL",
+          "correct": false
+        },
+        {
+          "option": "Adaptive ACL",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué significa NIPS en el contexto de la seguridad de la red?",
+      "a": [
+        {
+          "option": "Sistema de Prevención de Intrusos basado en la red",
+          "correct": true
+        },
+        {
+          "option": "New Internet Protocol Security",
+          "correct": false
+        },
+        {
+          "option": "Network Integrated Protection Service",
+          "correct": false
+        },
+        {
+          "option": "Next-generation Intrusion Prevention Software",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes NO es una característica típica de un Sistema de Prevención de Intrusos (IPS)?",
+      "a": [
+        {
+          "option": "Administración de autenticación de usuario",
+          "correct": true
+        },
+        {
+          "option": "Respuesta automática a incidentes",
+          "correct": false
+        },
+        {
+          "option": "Bloqueo automático de ataques en tiempo real",
+          "correct": false
+        },
+        {
+          "option": "Optimización del rendimiento del tráfico",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito principal de una ACL estándar en la seguridad de la red?",
+      "a": [
+        {
+          "option": "Filtrar el tráfico basado en direcciones IP de origen",
+          "correct": true
+        },
+        {
+          "option": "Encriptar todo el tráfico de red",
+          "correct": false
+        },
+        {
+          "option": "Detectar intrusiones en la red",
+          "correct": false
+        },
+        {
+          "option": "Administrar contraseñas de usuario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes es una limitación de la detección de intrusión basada en firmas?",
+      "a": [
+        {
+          "option": "Incapacidad para detectar nuevos ataques desconocidos",
+          "correct": true
+        },
+        {
+          "option": "Alta tasa de falsos positivos",
+          "correct": false
+        },
+        {
+          "option": "Velocidad de detección lenta",
+          "correct": false
+        },
+        {
+          "option": "Costo de implementación alto",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la principal ventaja de un Sistema de Prevención de Intrusos basado en la red (NIPS) sobre un Sistema de Prevención de Intrusos basado en host (HIPS)?",
+      "a": [
+        {
+          "option": "Capacidad para detectar amenazas a nivel de red",
+          "correct": true
+        },
+        {
+          "option": "Costo de implementación más bajo",
+          "correct": false
+        },
+        {
+          "option": "Mejor rendimiento en hosts individuales",
+          "correct": false
+        },
+        {
+          "option": "Configuración y administración más fácil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "En el contexto de las ACL, ¿qué significa la regla 'implicit deny'?",
+      "a": [
+        {
+          "option": "Todo el tráfico no explícitamente permitido es denegado por defecto",
+          "correct": true
+        },
+        {
+          "option": "Todo el tráfico es permitido a menos que sea explícitamente denegado",
+          "correct": false
+        },
+        {
+          "option": "Solo el tráfico cifrado es permitido",
+          "correct": false
+        },
+        {
+          "option": "Todo el tráfico de fuentes desconocidas es bloqueado automáticamente",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes es un desafío clave en la implementación de un Sistema de Prevención de Intrusos (IPS)?",
+      "a": [
+        {
+          "option": "Administrar falsos positivos y negativos",
+          "correct": true
+        },
+        {
+          "option": "Limitada escalabilidad",
+          "correct": false
+        },
+        {
+          "option": "Incapacidad para detectar amenazas conocidas",
+          "correct": false
+        },
+        {
+          "option": "Falta de capacidades de respuesta en tiempo real",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es la principal ventaja de usar ACL extendidas sobre ACL estándar?",
+      "a": [
+        {
+          "option": "Control más granular sobre el filtrado de tráfico",
+          "correct": true
+        },
+        {
+          "option": "Procesamiento más rápido de paquetes de red",
+          "correct": false
+        },
+        {
+          "option": "Capacidad de encriptar todo el tráfico de red",
+          "correct": false
+        },
+        {
+          "option": "Capacidad de respuesta automática a amenazas",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

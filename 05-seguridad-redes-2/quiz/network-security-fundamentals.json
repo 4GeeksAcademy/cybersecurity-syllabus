@@ -1,0 +1,329 @@
+{
+  "info": {
+    "slug": "network-security-fundamentals",
+    "name": "Network Security Fundamentals",
+    "technologies": ["cybersecurity", "networks"],
+    "main": "Test your knowledge of network security fundamentals, including Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and Access Control Lists (ACLs)",
+    "results": "Congratulations! You now have a solid understanding of key network security concepts and technologies.",
+    "badges": [
+      { "slug": "network_security_expert", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "What is the main purpose of an Intrusion Detection System (IDS)?",
+      "a": [
+        {
+          "option": "To detect suspicious activity on a computer resource or network",
+          "correct": true
+        },
+        {
+          "option": "To block all incoming network traffic",
+          "correct": false
+        },
+        {
+          "option": "To encrypt all network communications",
+          "correct": false
+        },
+        {
+          "option": "To manage user access permissions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT a method used by IDS to detect traffic?",
+      "a": [
+        {
+          "option": "User authentication",
+          "correct": true
+        },
+        {
+          "option": "Anomaly detection",
+          "correct": false
+        },
+        {
+          "option": "Protocol analysis",
+          "correct": false
+        },
+        {
+          "option": "Signature analysis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main difference between an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS)?",
+      "a": [
+        {
+          "option": "IPS can automatically respond to and block potential threats",
+          "correct": true
+        },
+        {
+          "option": "IDS is more expensive to implement",
+          "correct": false
+        },
+        {
+          "option": "IPS can only detect threats, not prevent them",
+          "correct": false
+        },
+        {
+          "option": "IDS is always hardware-based, while IPS is always software-based",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the primary function of Access Control Lists (ACLs)?",
+      "a": [
+        {
+          "option": "To filter network traffic based on predefined rules",
+          "correct": true
+        },
+        {
+          "option": "To encrypt network communications",
+          "correct": false
+        },
+        {
+          "option": "To detect intrusions in real-time",
+          "correct": false
+        },
+        {
+          "option": "To manage user passwords",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which type of IDS is installed on a specific host to monitor that particular system?",
+      "a": [
+        {
+          "option": "Host-based IDS (HIDS)",
+          "correct": true
+        },
+        {
+          "option": "Network-based IDS (NIDS)",
+          "correct": false
+        },
+        {
+          "option": "Wireless IDS (WIDS)",
+          "correct": false
+        },
+        {
+          "option": "Cloud-based IDS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a key advantage of an Intrusion Prevention System (IPS) over an Intrusion Detection System (IDS)?",
+      "a": [
+        {
+          "option": "Real-time response to threats",
+          "correct": true
+        },
+        {
+          "option": "Lower implementation cost",
+          "correct": false
+        },
+        {
+          "option": "Easier configuration",
+          "correct": false
+        },
+        {
+          "option": "Better detection of known threats",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is a type of Access Control List (ACL)?",
+      "a": [
+        {
+          "option": "Extended ACL",
+          "correct": true
+        },
+        {
+          "option": "Encrypted ACL",
+          "correct": false
+        },
+        {
+          "option": "Dynamic ACL",
+          "correct": false
+        },
+        {
+          "option": "Adaptive ACL",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What does NIPS stand for in the context of network security?",
+      "a": [
+        {
+          "option": "Network-based Intrusion Prevention System",
+          "correct": true
+        },
+        {
+          "option": "New Internet Protocol Security",
+          "correct": false
+        },
+        {
+          "option": "Network Integrated Protection Service",
+          "correct": false
+        },
+        {
+          "option": "Next-generation Intrusion Prevention Software",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT a typical feature of an Intrusion Prevention System (IPS)?",
+      "a": [
+        {
+          "option": "User authentication management",
+          "correct": true
+        },
+        {
+          "option": "Automatic incident response",
+          "correct": false
+        },
+        {
+          "option": "Real-time attack blocking",
+          "correct": false
+        },
+        {
+          "option": "Traffic performance optimization",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main purpose of a standard ACL in network security?",
+      "a": [
+        {
+          "option": "To filter traffic based on source IP addresses",
+          "correct": true
+        },
+        {
+          "option": "To encrypt network traffic",
+          "correct": false
+        },
+        {
+          "option": "To detect network intrusions",
+          "correct": false
+        },
+        {
+          "option": "To manage user passwords",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is a limitation of signature-based intrusion detection?",
+      "a": [
+        {
+          "option": "Inability to detect new, unknown attacks",
+          "correct": true
+        },
+        {
+          "option": "High rate of false positives",
+          "correct": false
+        },
+        {
+          "option": "Slow detection speed",
+          "correct": false
+        },
+        {
+          "option": "High implementation cost",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the primary advantage of a Network-based IPS (NIPS) over a Host-based IPS (HIPS)?",
+      "a": [
+        {
+          "option": "Ability to detect network-wide threats",
+          "correct": true
+        },
+        {
+          "option": "Lower implementation cost",
+          "correct": false
+        },
+        {
+          "option": "Better performance on individual hosts",
+          "correct": false
+        },
+        {
+          "option": "Easier configuration and management",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "In the context of ACLs, what does the 'implicit deny' rule mean?",
+      "a": [
+        {
+          "option": "All traffic not explicitly allowed is denied by default",
+          "correct": true
+        },
+        {
+          "option": "All traffic is allowed unless explicitly denied",
+          "correct": false
+        },
+        {
+          "option": "Only encrypted traffic is allowed",
+          "correct": false
+        },
+        {
+          "option": "All traffic from unknown sources is automatically blocked",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which of the following is a key challenge in implementing an Intrusion Prevention System (IPS)?",
+      "a": [
+        {
+          "option": "Managing false positives and negatives",
+          "correct": true
+        },
+        {
+          "option": "Limited scalability",
+          "correct": false
+        },
+        {
+          "option": "Inability to detect known threats",
+          "correct": false
+        },
+        {
+          "option": "Lack of real-time response capabilities",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main advantage of using extended ACLs over standard ACLs?",
+      "a": [
+        {
+          "option": "More granular control over traffic filtering",
+          "correct": true
+        },
+        {
+          "option": "Faster processing of network packets",
+          "correct": false
+        },
+        {
+          "option": "Ability to encrypt network traffic",
+          "correct": false
+        },
+        {
+          "option": "Automatic threat response capabilities",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
