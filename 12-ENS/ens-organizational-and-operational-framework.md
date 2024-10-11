@@ -6,9 +6,9 @@ authors: ["alesanchezr"]
 
 ---
 
+Before reading this article, we assume you already have some knowledge about the ENS and what it entails. If not, we recommend reading our [introduction to Spain's National Security Framework](https://4geeks.com/lesson/spain-national-security-scheme-esquema-nacional-de-seguridad).
 
-
-## Organizational Framework
+## Spain's ENS Organizational Framework
 
 The Organizational Framework of the National Security Scheme (ENS) is a set of documents, guidelines, and measures related to the organization of the entity's security. This framework defines the functions, responsibilities, and policies that allow for daily management and incident resolution.
 
