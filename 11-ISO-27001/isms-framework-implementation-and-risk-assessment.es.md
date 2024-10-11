@@ -163,8 +163,6 @@ Determina qué partes de la organización estarán cubiertas por el SGSI. Para c
 - **Quién**: Personas y organizaciones involucradas en el SGSI.
 - **Dónde**: Áreas geográficas cubiertas por el SGSI.
 
-
-
 ![Alcance del SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-scope.png?raw=true)
 
 Otro conjunto de preguntas que puedes usar para definir el alcance es:
@@ -189,7 +187,7 @@ Crea un documento de alto nivel que describa el enfoque de la organización haci
 - **Procedimientos**: Proporciona procedimientos detallados para implementar y mantener el SGSI.
 - **Revisión y Actualización**: Describe el proceso para revisar y actualizar el SGSI.
 
-![Política de Seguridad del SGSI](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.webp)
+![Política de Seguridad del SGSI](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.jpg)
 
 ### 3) Realizar una Evaluación de Riesgos
 
