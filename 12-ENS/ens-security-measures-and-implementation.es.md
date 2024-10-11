@@ -62,7 +62,7 @@ Determina los requisitos de seguridad de la información tratada según los par�
 
 ## Implementación del ENS
 
-![Implementación del ENS](../assets/12-ens/proceso-ens.png)
+![Implementación del ENS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/proceso-ens.png?raw=true)
 
 Para implementar un Sistema de Gestión de Seguridad de la Información (SGSI) que cumpla con el Esquema Nacional de Seguridad (ENS) de España, necesitarás seguir un enfoque estructurado que se alinee con el marco regulatorio. A continuación, se presenta un plan de implementación paso a paso:
 
