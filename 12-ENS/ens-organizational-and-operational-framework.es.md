@@ -6,15 +6,15 @@ authors: ["alesanchezr"]
 
 ---
 
+Antes de leer este artículo, asumimos que ya tienes algunos conocimientos sobre el ENS y lo que implica. De no ser así, te recomendamos leer nuestra [introducción al Esquema Nacional de Seguridad de España](https://4geeks.com/es/lesson/introduccion-al-ens-esquema-nacional-de-seguridad).
 
-
-## Marco Organizacional
+## Marco Organizacional del ENS
 
 El Marco Organizacional del Esquema Nacional de Seguridad (ENS) es un conjunto de documentos, directrices y medidas relacionadas con la organización de la seguridad de la entidad. Este marco define las funciones, responsabilidades y políticas que permiten la gestión diaria y la resolución de incidentes.
 
 ![Cybersecurity Framework](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ens/cybersecurity-framework.jpg?raw=true)
 
-### Políticas de Seguridad
+### Políticas de Seguridad del ENS
 
 Las políticas de seguridad son un componente clave del Marco Organizacional. Son documentos que establecen directrices, normas y procedimientos a seguir para garantizar la protección de la información, sistemas, activos y recursos frente a amenazas y riesgos de seguridad.
 
