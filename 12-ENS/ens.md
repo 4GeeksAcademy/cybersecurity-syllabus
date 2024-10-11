@@ -1,7 +1,7 @@
 ---
 title: "Introduction to ENS (Spain National Security Scheme)"
 subtitle: "🛡️ Understanding the fundamentals of spain's National Security Scheme, its importance in information security management, and the certification process"
-tags: ["ENS", "cybersecurity"]
+tags: ["spain-national-security-framework", "cybersecurity"]
 authors: ["alesanchezr"]
 
 ---
