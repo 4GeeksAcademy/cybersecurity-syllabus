@@ -1,0 +1,330 @@
+{
+  "info": {
+    "slug": "ens-implementation-and-compliance",
+    "name": "ENS Implementation and Compliance",
+    "difficulty": "BEGINNER",
+    "technologies": ["spain-national-security-framework", "cybersecurity"],
+    "main": "Test your knowledge of the implementation process and compliance requirements of the National Security Scheme (ENS) in Spain",
+    "results": "Congratulations! You now have a solid understanding of ENS implementation and compliance processes as per Spanish regulations.",
+    "badges": [
+      { "slug": "ens_expert", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "What is the main objective of the National Security Scheme (ENS)?",
+      "a": [
+        {
+          "option": "To ensure the security of information systems used by public administrations",
+          "correct": true
+        },
+        {
+          "option": "To regulate private sector cybersecurity",
+          "correct": false
+        },
+        {
+          "option": "To establish international cybersecurity standards",
+          "correct": false
+        },
+        {
+          "option": "To provide cybersecurity training to government employees",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What are the three security levels established by ENS?",
+      "a": [
+        {
+          "option": "Low, Medium, and High",
+          "correct": true
+        },
+        {
+          "option": "Basic, Intermediate, and Advanced",
+          "correct": false
+        },
+        {
+          "option": "Minimal, Standard, and Maximum",
+          "correct": false
+        },
+        {
+          "option": "Level 1, Level 2, and Level 3",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the validity period of an ENS certification?",
+      "a": [
+        {
+          "option": "2 years",
+          "correct": true
+        },
+        {
+          "option": "1 year",
+          "correct": false
+        },
+        {
+          "option": "3 years",
+          "correct": false
+        },
+        {
+          "option": "5 years",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Which organization supervises compliance with ENS in Spain?",
+      "a": [
+        {
+          "option": "National Cryptologic Center (CCN)",
+          "correct": true
+        },
+        {
+          "option": "Ministry of Digital Transformation",
+          "correct": false
+        },
+        {
+          "option": "Spanish Data Protection Agency",
+          "correct": false
+        },
+        {
+          "option": "National Intelligence Center",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the first step in implementing ENS?",
+      "a": [
+        {
+          "option": "Conduct a risk analysis",
+          "correct": true
+        },
+        {
+          "option": "Implement security controls",
+          "correct": false
+        },
+        {
+          "option": "Obtain certification",
+          "correct": false
+        },
+        {
+          "option": "Train employees",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What does the Organizational Framework of ENS include?",
+      "a": [
+        {
+          "option": "Security policies, regulations, and procedures",
+          "correct": true
+        },
+        {
+          "option": "Hardware specifications",
+          "correct": false
+        },
+        {
+          "option": "Software development guidelines",
+          "correct": false
+        },
+        {
+          "option": "Network architecture designs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of the Statement of Applicability in ENS?",
+      "a": [
+        {
+          "option": "To prepare a statement of applicable security measures",
+          "correct": true
+        },
+        {
+          "option": "To list all employees in the organization",
+          "correct": false
+        },
+        {
+          "option": "To document the organization's financial status",
+          "correct": false
+        },
+        {
+          "option": "To outline the organization's marketing strategy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is a key difference between ENS and ISO 27001?",
+      "a": [
+        {
+          "option": "ENS is mandatory for Spanish public administrations, while ISO 27001 is voluntary",
+          "correct": true
+        },
+        {
+          "option": "ENS is international, while ISO 27001 is specific to Spain",
+          "correct": false
+        },
+        {
+          "option": "ENS focuses on private sector, while ISO 27001 is for public sector",
+          "correct": false
+        },
+        {
+          "option": "ENS is free to implement, while ISO 27001 requires payment",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What does the Operational Framework in ENS cover?",
+      "a": [
+        {
+          "option": "Measures to protect the operation of the system as an integral set of components",
+          "correct": true
+        },
+        {
+          "option": "Financial operations of the organization",
+          "correct": false
+        },
+        {
+          "option": "Human resources management",
+          "correct": false
+        },
+        {
+          "option": "Marketing and public relations activities",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of capacity management in ENS?",
+      "a": [
+        {
+          "option": "To ensure systems can handle current and future workloads",
+          "correct": true
+        },
+        {
+          "option": "To manage employee capacities",
+          "correct": false
+        },
+        {
+          "option": "To increase storage capacity",
+          "correct": false
+        },
+        {
+          "option": "To manage financial capacities",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the role of the Security Officer in ENS implementation?",
+      "a": [
+        {
+          "option": "To oversee the implementation and operation of security measures",
+          "correct": true
+        },
+        {
+          "option": "To perform all security-related tasks personally",
+          "correct": false
+        },
+        {
+          "option": "To conduct external audits",
+          "correct": false
+        },
+        {
+          "option": "To manage the organization's finances",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of periodic reassessment in ENS?",
+      "a": [
+        {
+          "option": "To review and update security controls to ensure they remain effective",
+          "correct": true
+        },
+        {
+          "option": "To reassess employee performance",
+          "correct": false
+        },
+        {
+          "option": "To reevaluate the organization's market position",
+          "correct": false
+        },
+        {
+          "option": "To recalculate the organization's financial status",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What does the principle of differentiated function in ENS refer to?",
+      "a": [
+        {
+          "option": "Differentiating between those responsible for information, service, and security",
+          "correct": true
+        },
+        {
+          "option": "Differentiating between various software functions",
+          "correct": false
+        },
+        {
+          "option": "Differentiating between hardware components",
+          "correct": false
+        },
+        {
+          "option": "Differentiating between different types of data",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the main focus of the 'protection measures' category in ENS?",
+      "a": [
+        {
+          "option": "Implementing specific security controls to protect information and systems",
+          "correct": true
+        },
+        {
+          "option": "Protecting employees from workplace hazards",
+          "correct": false
+        },
+        {
+          "option": "Protecting the organization from financial risks",
+          "correct": false
+        },
+        {
+          "option": "Protecting the organization's public image",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "What is the purpose of incident management in ENS?",
+      "a": [
+        {
+          "option": "To effectively respond to and mitigate the impact of security incidents",
+          "correct": true
+        },
+        {
+          "option": "To manage employee incidents",
+          "correct": false
+        },
+        {
+          "option": "To manage public relations incidents",
+          "correct": false
+        },
+        {
+          "option": "To manage financial incidents",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "info": {
+    "slug": "implementacion-y-cumplimiento-del-ens",
+    "name": "Implementación y Cumplimiento del ENS",
+    "difficulty": "PRINCIPIANTE",
+    "technologies": ["esquema-nacional-de-seguridad-espana", "ciberseguridad"],
+    "main": "Pon a prueba tus conocimientos sobre el proceso de implementación y los requisitos de cumplimiento del Esquema Nacional de Seguridad (ENS) en España",
+    "results": "¡Felicidades! Ahora tienes una sólida comprensión de los procesos de implementación y cumplimiento del ENS según las regulaciones españolas.",
+    "badges": [
+      { "slug": "ens_expert", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Cuál es el objetivo principal del Esquema Nacional de Seguridad (ENS)?",
+      "a": [
+        {
+          "option": "Garantizar la seguridad de los sistemas de información utilizados por las administraciones públicas",
+          "correct": true
+        },
+        {
+          "option": "Regular la ciberseguridad del sector privado",
+          "correct": false
+        },
+        {
+          "option": "Establecer estándares internacionales de ciberseguridad",
+          "correct": false
+        },
+        {
+          "option": "Proporcionar formación en ciberseguridad a los empleados del gobierno",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuáles son los tres niveles de seguridad establecidos por el ENS?",
+      "a": [
+        {
+          "option": "Bajo, Medio y Alto",
+          "correct": true
+        },
+        {
+          "option": "Básico, Intermedio y Avanzado",
+          "correct": false
+        },
+        {
+          "option": "Mínimo, Estándar y Máximo",
+          "correct": false
+        },
+        {
+          "option": "Nivel 1, Nivel 2 y Nivel 3",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el período de validez de una certificación ENS?",
+      "a": [
+        {
+          "option": "2 años",
+          "correct": true
+        },
+        {
+          "option": "1 año",
+          "correct": false
+        },
+        {
+          "option": "3 años",
+          "correct": false
+        },
+        {
+          "option": "5 años",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué organización supervisa el cumplimiento del ENS en España?",
+      "a": [
+        {
+          "option": "Centro Criptológico Nacional (CCN)",
+          "correct": true
+        },
+        {
+          "option": "Ministerio de Transformación Digital",
+          "correct": false
+        },
+        {
+          "option": "Agencia Española de Protección de Datos",
+          "correct": false
+        },
+        {
+          "option": "Centro Nacional de Inteligencia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el primer paso en la implementación del ENS?",
+      "a": [
+        {
+          "option": "Realizar un análisis de riesgos",
+          "correct": true
+        },
+        {
+          "option": "Implementar controles de seguridad",
+          "correct": false
+        },
+        {
+          "option": "Obtener la certificación",
+          "correct": false
+        },
+        {
+          "option": "Formar a los empleados",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué incluye el Marco Organizativo del ENS?",
+      "a": [
+        {
+          "option": "Políticas de seguridad, normativas y procedimientos",
+          "correct": true
+        },
+        {
+          "option": "Especificaciones de hardware",
+          "correct": false
+        },
+        {
+          "option": "Directrices de desarrollo de software",
+          "correct": false
+        },
+        {
+          "option": "Diseños de arquitectura de red",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la Declaración de Aplicabilidad en el ENS?",
+      "a": [
+        {
+          "option": "Preparar una declaración de las medidas de seguridad aplicables",
+          "correct": true
+        },
+        {
+          "option": "Listar a todos los empleados de la organización",
+          "correct": false
+        },
+        {
+          "option": "Documentar el estado financiero de la organización",
+          "correct": false
+        },
+        {
+          "option": "Esbozar la estrategia de marketing de la organización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es una diferencia clave entre el ENS y la ISO 27001?",
+      "a": [
+        {
+          "option": "El ENS es obligatorio para las administraciones públicas españolas, mientras que la ISO 27001 es voluntaria",
+          "correct": true
+        },
+        {
+          "option": "El ENS es internacional, mientras que la ISO 27001 es específica de España",
+          "correct": false
+        },
+        {
+          "option": "El ENS se centra en el sector privado, mientras que la ISO 27001 es para el sector público",
+          "correct": false
+        },
+        {
+          "option": "El ENS es gratuito de implementar, mientras que la ISO 27001 requiere pago",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué abarca el Marco Operacional en el ENS?",
+      "a": [
+        {
+          "option": "Medidas para proteger el funcionamiento del sistema como un conjunto integral de componentes",
+          "correct": true
+        },
+        {
+          "option": "Operaciones financieras de la organización",
+          "correct": false
+        },
+        {
+          "option": "Gestión de recursos humanos",
+          "correct": false
+        },
+        {
+          "option": "Actividades de marketing y relaciones públicas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la gestión de capacidad en el ENS?",
+      "a": [
+        {
+          "option": "Asegurar que los sistemas puedan manejar las cargas de trabajo actuales y futuras",
+          "correct": true
+        },
+        {
+          "option": "Gestionar las capacidades de los empleados",
+          "correct": false
+        },
+        {
+          "option": "Aumentar la capacidad de almacenamiento",
+          "correct": false
+        },
+        {
+          "option": "Gestionar las capacidades financieras",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el papel del Responsable de Seguridad en la implementación del ENS?",
+      "a": [
+        {
+          "option": "Supervisar la implementación y operación de las medidas de seguridad",
+          "correct": true
+        },
+        {
+          "option": "Realizar personalmente todas las tareas relacionadas con la seguridad",
+          "correct": false
+        },
+        {
+          "option": "Realizar auditorías externas",
+          "correct": false
+        },
+        {
+          "option": "Gestionar las finanzas de la organización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la reevaluación periódica en el ENS?",
+      "a": [
+        {
+          "option": "Revisar y actualizar los controles de seguridad para asegurar que sigan siendo efectivos",
+          "correct": true
+        },
+        {
+          "option": "Reevaluar el desempeño de los empleados",
+          "correct": false
+        },
+        {
+          "option": "Reevaluar la posición de la organización en el mercado",
+          "correct": false
+        },
+        {
+          "option": "Recalcular el estado financiero de la organización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿A qué se refiere el principio de función diferenciada en el ENS?",
+      "a": [
+        {
+          "option": "Diferenciar entre los responsables de la información, del servicio y de la seguridad",
+          "correct": true
+        },
+        {
+          "option": "Diferenciar entre varias funciones de software",
+          "correct": false
+        },
+        {
+          "option": "Diferenciar entre componentes de hardware",
+          "correct": false
+        },
+        {
+          "option": "Diferenciar entre diferentes tipos de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el enfoque principal de la categoría 'medidas de protección' en el ENS?",
+      "a": [
+        {
+          "option": "Implementar controles de seguridad específicos para proteger la información y los sistemas",
+          "correct": true
+        },
+        {
+          "option": "Proteger a los empleados de los peligros en el lugar de trabajo",
+          "correct": false
+        },
+        {
+          "option": "Proteger a la organización de riesgos financieros",
+          "correct": false
+        },
+        {
+          "option": "Proteger la imagen pública de la organización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de la gestión de incidentes en el ENS?",
+      "a": [
+        {
+          "option": "Responder eficazmente y mitigar el impacto de los incidentes de seguridad",
+          "correct": true
+        },
+        {
+          "option": "Gestionar incidentes de empleados",
+          "correct": false
+        },
+        {
+          "option": "Gestionar incidentes de relaciones públicas",
+          "correct": false
+        },
+        {
+          "option": "Gestionar incidentes financieros",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
