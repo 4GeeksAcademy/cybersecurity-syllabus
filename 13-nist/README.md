@@ -1,21 +1,17 @@
-# NIST
+# NIST 
 
-## Day 1
+## Day 33
 
-- What is NIST?
-- Principles of the NIST Cybersecurity Framework
+- 📗 [What is NIST?](./what-is-nist.md)
+- 📗 [Nist Framework Principles and Functions](./nist-framework.md)
+- 📗 [Identify and Risk Management](./nist-identify-and-risk-manag.md)
+- 📗 [Protection and Mitigation](./nist-protection-and-mitigation.md)
 
-## Day 2
+## Day 34
 
-- Risk Identification and Assessment
-- Risk Protection and Mitigation
-- Detection and Response to Security Incidents
-
-## Day 3
-
-- Recovery and Business Continuity
-- Basic Security Incident Management
-
+- 📗 [Detection and Response](./nist-detection-and-response.md)
+- 📗 [Recovery and Business Continuity](./nist-recovery-and-business-continuity.md)
 
 # Projecto
-- Plan de respuesta a incidente de ransomware (es el mas comun): Como tienen que armar el plan en base a nist?
+
+- 📗 [Project: Ransomware Incident Response Plan based on NIST](./project/README.md)

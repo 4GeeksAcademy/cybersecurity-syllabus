@@ -1,4 +1,4 @@
-### ISO 27001
+### ISO 27001 `Day 29 - 30`
 
 - 📗 [Introduction to ISO 27001](./introduction-to-iso-27001.md)
 - 📗 [ISMS Framework and Risk Assessment](./isms-framework-implementation-and-risk-assessment.md)

@@ -1,6 +1,4 @@
-# ENS
-
-## Table of Contents
+# ENS Days 31 - 32
 
 - 📗 [Introduction to ENS (Esquema Nacional de Seguridad)](./ens.md)
 - 📝 [QUIZ: ENS Fundamentals](./quiz/ens-fundamentals.md)

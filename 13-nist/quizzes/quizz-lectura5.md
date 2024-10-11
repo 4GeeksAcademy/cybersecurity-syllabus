@@ -13,3 +13,4 @@
 3. **Es buena práctica realizar las copias de seguridad de información crítica una sola vez.**
     1. Cierto.
     2. Falso.
+
