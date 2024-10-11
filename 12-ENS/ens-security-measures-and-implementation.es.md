@@ -9,11 +9,11 @@ authors: ["alesanchezr"]
 # Implementación y Medidas de Seguridad del ENS
 
 > Antes de comenzar, cubrimos exhaustivamente el ENS (Esquema Nacional de Seguridad) en varias lecciones. Esta lección se centra únicamente en las medidas de seguridad y la implementación.
-> Lee una [Introducción al ENS](./ens.md) y aprende más sobre el [Marco organizativo y operativo del ENS](./ens-organizational-and-operational-framework.md).
+> Lee una [Introducción al ENS](https://4geeks.com/es/lesson/introduccion-al-ens-esquema-nacional-de-seguridad) y aprende más sobre el [Marco organizativo y operativo del ENS](#todo).
 
 Para implementar el Esquema Nacional de Seguridad (ENS) de España 🇪🇸, primero necesitamos nombrar un comité que será responsable de la implementación del esquema.
 
-![Implementación del ENS](../assets/12-ens/esquema-nacional-de-seguridad.jpg)
+![Implementación del ENS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/raw/main/assets/12-ens/esquema-nacional-de-seguridad.jpg?raw=true)
 
 ## ¿Quién es responsable de la implementación del ENS dentro de una organización?
 
