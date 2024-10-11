@@ -1,7 +1,7 @@
 ---
 title: "Marco Organizacional y Operacional del ENS"
 subtitle: "🏛️ Understanding the key components of the organizational and operational framework in Spain's National Security Scheme (ENS)"
-tags: ["ENS", "cybersecurity"]
+tags: ["ENS", "ciberseguridad"]
 authors: ["alesanchezr"]
 
 ---
