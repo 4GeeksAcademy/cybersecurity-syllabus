@@ -1,7 +1,7 @@
 ---
 title: "ENS Implementation and Security Measures"
 subtitle: "🛡️ Understanding the key components of the implementation and security measures in Spain's National Security Scheme (ENS)"
-tags: ["ENS", "cybersecurity"]
+tags: ["spain-national-security-framework", "cybersecurity"]
 authors: ["alesanchezr"]
 
 ---
