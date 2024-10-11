@@ -63,7 +63,7 @@ Determines the security requirements of the information treated according to the
 
 ## Implementation of the ENS
 
-![ENS Implementation](../assets/12-ens/proceso-ens.png)
+![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/proceso-ens.png?raw=true)
 
 To implement an Information Security Management System (ISMS) that complies with Spain’s **Esquema Nacional de Seguridad (ENS)**, you'll need to follow a structured approach that aligns with the regulatory framework. Below is a step-by-step implementation plan:
 
