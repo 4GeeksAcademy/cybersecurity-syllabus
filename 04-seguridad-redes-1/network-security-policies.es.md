@@ -68,4 +68,4 @@ Arquitectura de seguridad en redes
 
 La arquitectura base seleccionada está basada en la propuesta ofrecida por la norma IEC 62443. En ella se definen diferentes zonas asociadas a los niveles en los que se divide un sistema de control industrial. La arquitectura base presenta una segmentación basada en cortafuegos para separar las zonas de control y corporativa, contando además con dos DMZ para el intercambio de información entre ambas zonas. Las arquitecturas siguientes propuestas presentas arquitecturas de seguridad para asegurar las comunicaciones y los dispositivos situados en la parte de control de la red. La seguridad de la parte corporativa no se ha tenido en cuenta en este estudio al quedar fuera del ámbito del mismo.
 
-![Departamento TI - gestión de la red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-2.jpg)
+![Departamento TI - gestión de la red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/network-security/seguridad-en-redes-image-2.es.jpg)
