@@ -20,7 +20,7 @@ La seguridad en la red también implica la protección contra amenazas específi
 
 > En resumen, la seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información en un entorno de red. Implica la autenticación, el control de acceso, la gestión de amenazas y la protección de datos en tránsito, entre otros aspectos, para garantizar que las redes sean seguras y confiables en un mundo cada vez más digital y conectado.
 
-![Seguridad de la Red](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/seguridad.png?raw=true)
+![Seguridad de la Red](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/seguridad.es.png?raw=true)
 
 ## **Firewall y filtrado de paquetes**
 
