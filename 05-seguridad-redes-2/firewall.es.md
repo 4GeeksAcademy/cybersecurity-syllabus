@@ -18,6 +18,8 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 - Solo el tráfico autorizado basado en la política de seguridad puede continuar.
 - Debe ser completamente inatacable.
 
+![firewall](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/05-seguridad-en-redes-2/firewall/how-a-firewall-works.es.jpg?raw=true)
+
 ## Ventajas de los Firewalls
 
 - **Aplicación Centralizada de Políticas de Seguridad**: Permiten definir y aplicar políticas de seguridad de manera centralizada.
@@ -46,7 +48,7 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 
 #### Ejemplo: `iptables` para Linux
 
-![Firewall - filtrados / modelo OSI](../assets/05-seguridad-en-redes-2/firewall/firewall-image-2.jpg)
+![Firewall - filtering / OSI model](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/05-seguridad-en-redes-2/firewall/firewall-image-2.jpg?raw=true)
 
 ### 2. **Stateful Inspection (Inspección con Estado)**
 

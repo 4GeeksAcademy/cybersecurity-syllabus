@@ -68,7 +68,7 @@ Existen cinco categorías de IPS según su funcionamiento, capacidades y ubicaci
 
 ## Beneficios y desafíos
 
-![ventajas intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/8ventajas-intrusion-prevesion-system.png?raw=true)
+![ventajas intrusion prevention system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/8ventajas-intrusion-prevesion-system.es.png?raw=true)
 
 ### Ventajas de los IPS
 
