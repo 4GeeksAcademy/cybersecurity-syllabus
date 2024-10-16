@@ -18,7 +18,7 @@ Even though we have the firewall enabled, we generally have many open ports, suc
 
 From a software perspective, there are different types of tools: host-based intrusion detection systems (HIDS), network intrusion detection systems (NIDS), signature-based intrusion detection systems (SIDS), and anomaly-based intrusion detection systems.
 
-![network intrusion detection](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/2network-intrusion-detection.png?raw=true)
+![network intrusion detection](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/2network-intrusion-detection.us.png?raw=true)
 
 IDSs use three methods to detect traffic: anomaly detection, protocol analysis, and signature analysis.
 
@@ -90,11 +90,11 @@ Classification based on control strategies:
 
 - **Distributed Intrusion Detection System (DIDS):** Based on installation in a distributed system, with sensors located on several network devices. These sensors communicate with a central node where all information is received and cross-referenced, allowing for reliable detection of attacks and a global view that improves incident detection.
 
-![distributed intrusion detection systems](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/5distributed-intrusion-detection-systems.png?raw=true)
+![distributed intrusion detection systems](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/5distributed-intrusion-detection-systems.us.png?raw=true)
 
 - **Centralized Intrusion Detection System:** Employs sensors that transmit information to a central system for control, reducing equipment costs.
 
-![centralized intrusion detection system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/6centralized-instrusion-detection-system.us.png?raw=true)
+![centralized intrusion detection system](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/6centralized-instrusion-detection-system.png?raw=true)
 
 ## **Based on Behavior**
 
