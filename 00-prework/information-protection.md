@@ -61,8 +61,6 @@ Data encryption plays a key role in protecting information and data privacy, pro
 
 - Data encryption is essential to protect the information stored in mobile devices and storage services in the cloud.
 
-![Data Encryption](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/cifrado-de-datos.png?raw=true)
-
 ## Physical and logical access control
 
 Physical and logical access control are two critical components of information security and are used to regulate who has access to specific resources and areas in a corporate environment. Here I explain what they are and their importance, along with examples of implementation:
