@@ -61,8 +61,6 @@ El cifrado de datos desempeña un papel fundamental en la protección de la info
 
 - En dispositivos móviles y servicios de almacenamiento en la nube, el cifrado de datos es esencial para proteger la información almacenada en estos dispositivos y plataformas.
 
-![Cifrado de Datos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/cifrado-de-datos.png?raw=true)
-
 ## Control de acceso físico y lógico
 
 El control de acceso físico y lógico son dos componentes críticos de la seguridad de la información y se utilizan para regular quién tiene acceso a recursos y áreas específicas en un entorno empresarial. Aquí te explico qué son y su importancia, junto con ejemplos de implementación:
