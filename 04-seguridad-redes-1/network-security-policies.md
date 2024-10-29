@@ -2,7 +2,7 @@
 
 title: "Network Security Policy"
 subtitle: "Strengthening Infrastructure: Network Security Policy for Comprehensive Protection in an Interconnected World"
-tags: ["networks"]
+tags: ["networks", "data loss prevention", "data security", "network security"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
