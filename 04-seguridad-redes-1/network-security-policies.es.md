@@ -1,7 +1,7 @@
 ---
 title: "Política de seguridad de la red"
 subtitle: "Fortaleciendo la Infraestructura: Política de Seguridad de Red para Protección Integral en un Mundo Interconectado"
-tags: ["networks"]
+tags: ["ciberseguridad", "redes", "seguridad de red"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
