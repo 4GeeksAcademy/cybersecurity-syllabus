@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Linux"
 subtitle: "Discover the fundamentals of Linux: security, user management, robust passwords, and firewalls. Learn how to protect your system and more."
-tags: ["linux"]
+tags: ["linux", "operating systems"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
