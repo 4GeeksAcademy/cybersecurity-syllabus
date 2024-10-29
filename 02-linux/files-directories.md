@@ -1,7 +1,7 @@
 ---
 title: "File and Directory Management"
 subtitle: "Navigating and Manipulating Files in Linux: Essential Commands and Best Practices for System Administrators."
-tags: ["linux", "the-terminal", "file hierarchy", "sistema de archivos", "operating systems", "sistemas operativos"]
+tags: ["linux", "the-terminal", "file hierarchy", "operating systems"]
 authors: ["blindma1den", "lorenagubaira"]
 ---
 
