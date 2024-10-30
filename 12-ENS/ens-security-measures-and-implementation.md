@@ -13,7 +13,7 @@ authors: ["alesanchezr"]
 
 In order to implement Spain's 🇪🇸 National Security Framework (ENS) we first need to name a committee that will be responsible for the implementation of the scheme.
 
-![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/esquema-nacional-de-seguridad.jpg?raw=true)
+![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/esquema-nacional-de-seguridad.us.jpg?raw=true)
 
 ## Who is responsible for the implementation of the ENS inside an organization?
 
@@ -63,7 +63,7 @@ Determines the security requirements of the information treated according to the
 
 ## Implementation of the ENS
 
-![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/proceso-ens.png?raw=true)
+![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/proceso-ens.us.png?raw=true)
 
 To implement an Information Security Management System (ISMS) that complies with Spain’s **Esquema Nacional de Seguridad (ENS)**, you'll need to follow a structured approach that aligns with the regulatory framework. Below is a step-by-step implementation plan:
 

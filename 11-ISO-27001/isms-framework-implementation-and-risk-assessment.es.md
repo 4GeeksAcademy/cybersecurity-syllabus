@@ -10,7 +10,7 @@ Si deseas obtener la certificación ISO 27001, necesitas tener un SGSI / ISMS im
 
 Un Sistema de Gestión de Seguridad de la Información (SGSI o ISMS por sus siglas en inglés) es un enfoque sistemático para gestionar la información sensible de la empresa, asegurando que se mantenga segura. Incluye personas, procesos y sistemas de TI mediante la aplicación de un proceso de gestión de riesgos.
 
-![Plan de Implementación SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-implementation-plan.png?raw=true)
+![Plan de Implementación SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-implementation-plan.es.png?raw=true)
 
 ## Componentes del Marco SGSI
 
@@ -33,7 +33,7 @@ El marco SGSI consta de los siguientes componentes clave:
 
 Estos componentes trabajan juntos para crear un enfoque integral en la gestión y protección de la información sensible de la organización en personas, procesos y sistemas de TI.
 
-![Componentes del SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-components.jpg?raw=true)
+![Componentes del SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-components.es.jpg?raw=true)
 
 ### Políticas de Seguridad de la Información
 
@@ -163,7 +163,7 @@ Determina qué partes de la organización estarán cubiertas por el SGSI. Para c
 - **Quién**: Personas y organizaciones involucradas en el SGSI.
 - **Dónde**: Áreas geográficas cubiertas por el SGSI.
 
-![Alcance del SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-scope.png?raw=true)
+![Alcance del SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-scope.es.png?raw=true)
 
 Otro conjunto de preguntas que puedes usar para definir el alcance es:
 
@@ -187,13 +187,13 @@ Crea un documento de alto nivel que describa el enfoque de la organización haci
 - **Procedimientos**: Proporciona procedimientos detallados para implementar y mantener el SGSI.
 - **Revisión y Actualización**: Describe el proceso para revisar y actualizar el SGSI.
 
-![Política de Seguridad del SGSI](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.jpg)
+![Política de Seguridad del SGSI](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/refs/heads/main/assets/11-iso-27001/information-security-policy.es.jpg)
 
 ### 3) Realizar una Evaluación de Riesgos
 
 Identifica, analiza y evalúa los riesgos de seguridad de la información. Con el conocimiento obtenido de pentesting, escaneos DLP y otras fuentes, debes tener una buena comprensión de los riesgos. Usa esta matriz para estructurar la evaluación de riesgos:
 
-![Matriz de Evaluación de Riesgos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/risk-assessment-matrix.png?raw=true)
+![Matriz de Evaluación de Riesgos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/risk-assessment-matrix.es.png?raw=true)
 
 ### 4) Desarrollar un Plan de Tratamiento de Riesgos
 
@@ -205,7 +205,7 @@ Esto es lo que puedes hacer con un riesgo: Aceptar, Evitar, Transferir, Mitigar,
 - Mitiga un riesgo si no puedes evitarlo.
 - Monitorea un riesgo si lo aceptas o lo transfieres.
 
-![Estrategias de Mitigación de Riesgos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/risk-mitigation-strategies.png?raw=true)
+![Estrategias de Mitigación de Riesgos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/risk-mitigation-strategies.es.png?raw=true)
 
 ### 5) Seleccionar e Implementar Controles
 
@@ -247,7 +247,7 @@ ISO 27001 no prescribe una metodología específica para la evaluación de riesg
 
 3. **OCTAVE (Evaluación de Amenazas, Activos y Vulnerabilidades Críticas Operativas)**: Un método que se enfoca en el riesgo organizacional y cuestiones estratégicas relacionadas con la práctica.
 
-![OCTAVE](../assets/11-ISO-27001/octave.jpg)
+![OCTAVE](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/octave.es.jpg?raw=true)
 
 4. **FAIR (Análisis Factorial del Riesgo de Información)**: Un modelo para comprender, analizar y medir el riesgo de información.
 
