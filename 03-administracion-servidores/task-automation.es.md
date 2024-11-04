@@ -1,7 +1,7 @@
 ---
 title: "Ques el cron y como usarlo para programar tareas"
 subtitle: "Automatización eficiente: Entiende que es el cron y como configurarlo Linux para optimizar tareas repetitivas y asegurar la estabilidad del servidor. Aprende paso a paso."
-tags: ["servidores"]
+tags: ["servidores", "cron-jobs", "tareas de sistemas", "procesamiento de tareas"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Introducción a Linux"
 subtitle: "Descubre los fundamentos de Linux: seguridad, gestión de usuarios, contraseñas robustas y cortafuegos. Aprende cómo proteger tu sistema y más."
-tags: ["linux"]
+tags: ["linux", "sistemas operativos"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---

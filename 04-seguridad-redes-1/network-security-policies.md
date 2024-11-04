@@ -2,14 +2,14 @@
 
 title: "Network Security Policy"
 subtitle: "Strengthening Infrastructure: Network Security Policy for Comprehensive Protection in an Interconnected World"
-tags: ["networks"]
+tags: ["networks", "data loss prevention", "data security", "network security", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
 In today's connected world, businesses rely on computer networks for everything from daily activities to critical business functions. The primary goal is to reduce costs and increase convenience. This excessive dependence on the Internet has its downsides. Poor network security practices and inconsistency among different teams operating on a network leave the organization vulnerable to more network security threats.
 
-To overcome this, businesses create a network security policy: a set of rules that must be followed throughout the organization to present a unified front against network security threats. Losses from network security breaches continue to increase each year, and without a strict network security policy, an organization only exacerbates them. Losses from cyber security incidents are expected to be $8 trillion in 2023 and projected to grow to $10.5 trillion by 2025.
+To overcome this, businesses create a network security policy: a set of rules that must be followed throughout the organization to present a unified front against network security threats. Losses from network security breaches continue to increase each year, and without a strict network security policy, an organization only exacerbates them. Losses from cyber security incidents are expected to be `$8 trillion` in 2023 and projected to grow to `$10.5 trillion` by 2025.
 
 ## What is a Network Security Policy?
 

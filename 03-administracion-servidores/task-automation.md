@@ -1,7 +1,7 @@
 ---
 title: "What is Cron and how to use it to schedule and automate Tasks"
 subtitle: "Efficient Automation: Understand what cron is and how to configure it in Linux to optimize repetitive tasks and ensure server stability. Learn step by step."
-tags: ["servers"]
+tags: ["servers", "cron-jobs", "task processing", "computational task"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
