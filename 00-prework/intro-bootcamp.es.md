@@ -33,4 +33,4 @@ Nuestra formación tiene como objetivo que nuestros egresados sean profesionales
 
 ## ¿Dónde puedo trabajar y cuánto puedo ganar?
 
-Los egresados de nuestra formación están capacitados para desempeñarse en diferentes roles como el de administrador de sistemas con enfoque en seguridad informática, pentester, consultor de ciberseguridad en empresas, analista técnico de seguridad. Al finalizar esta formación puedes trabajar en cualquiera de los perfiles mencionados. Un analista de ciberseguridad o pentester junior podría ganar entre 20.000. 36.000 dólares al año según el promedio en LinkedIn.
+Los egresados de nuestra formación están capacitados para desempeñarse en diferentes roles como el de administrador de sistemas con enfoque en seguridad informática, pentester, consultor de ciberseguridad en empresas, analista técnico de seguridad. Al finalizar esta formación puedes trabajar en cualquiera de los perfiles mencionados. Un analista de ciberseguridad o pentester junior podría ganar en EEUU alreadedor de US$60,000 y en españa entre €20.000 €36.000 al año según el promedio en LinkedIn.
