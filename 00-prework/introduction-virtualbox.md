@@ -38,7 +38,7 @@ In VirtualBox, resource management for virtual machines is based on the configur
 
 Determines how memory is allocated to the virtual machine. The value assigned will be the one available for the guest machine to use to operate. 
 
-It can be determined when the machine is created:
+It can be determined when the machine is created: 
 
 ![Memoria de maquina virtual VirtualBox](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/vb-memoria.png?raw=true)
 
