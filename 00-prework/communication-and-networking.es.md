@@ -48,7 +48,7 @@ El servidor DNS utiliza una base de datos distribuida y jerárquica que almacena
 
 La asignación de nombres a direcciones IP es ciertamente la función más conocida de los protocolos DNS. Por ejemplo, si la dirección IP del sitio Google es 216.58.210.163, la mayoría de la gente llega a este equipo especificando [www.google.com](http://www.google.com/) y no la dirección IP. Además de ser más fácil de recordar, el nombre es más fiable. La dirección numérica podría cambiar por muchas razones, sin que tenga que cambiar el nombre del sitio web. Incluso, en el caso de que una página web utilice una red de distribución de contenidos (Content delivery network o CDN, por sus siglas en inglés) por medio del DNS el usuario recibirá la dirección IP del servidor más cercano según su localización geográfica (cada CDN a su vez tiene sus propios servidores DNS).
 
-- **DCPH (Dynamic Host Configuration Protocol)**
+- **DHCP (Dynamic Host Configuration Protocol)**
 
 Es un protocolo de red  mediante el cual un servidor **DHCP** asigna dinámicamente una dirección IP y otros parámetros de configuración de red a cada dispositivo en una red para que puedan comunicarse con otras redes IP. Este servidor posee una lista de direcciones IP dinámicas y las va asignando a los clientes conforme éstas van quedando libres, sabiendo en todo momento quién ha estado en posesión de esa IP, cuánto tiempo la ha tenido y a quién se la ha asignado después. Así los clientes de una red IP pueden conseguir sus parámetros de configuración automáticamente.
 
