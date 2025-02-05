@@ -1,7 +1,7 @@
 ---
 title: "Modelos de referencia de redes"
 subtitle: "Viaje a través de las redes: ARPANET a Internet, protocolos, topologías y roles de servidor. Conoce los misterios del networking!"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
