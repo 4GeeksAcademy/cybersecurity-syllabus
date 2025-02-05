@@ -1,7 +1,7 @@
 ---
 title: "Enterprise Network Architecture"
 subtitle: "Crafting Optimal Enterprise Network Architectures: Balancing Performance, Security, and Scalability for Seamless Operations and Growth."
-tags: ["networks"]
+tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
