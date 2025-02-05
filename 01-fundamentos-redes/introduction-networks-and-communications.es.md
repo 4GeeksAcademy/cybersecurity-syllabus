@@ -1,7 +1,7 @@
 ---
 title: "Introducción a las redes y comunicaciones"
 subtitle: "Decodificación de Redes: OSI 7 capas y TCP/IP 4 capas. Explora el lenguaje de red para solución de problemas y diseño seguro"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
