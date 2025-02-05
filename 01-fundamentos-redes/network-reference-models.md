@@ -1,7 +1,7 @@
 ---
 title: "Network Reference Models"
 subtitle: "Decoding Networks: OSI's 7 layers & TCP/IP's 4 layers. Unveil network language for troubleshooting & secure design."
-tags: ["networks"]
+tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
