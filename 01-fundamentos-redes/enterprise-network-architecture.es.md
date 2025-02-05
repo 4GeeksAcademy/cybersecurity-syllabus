@@ -1,7 +1,7 @@
 ---
 title: "Que es una arquitectura de red y cómo se aplica en una empresa"
 subtitle: "Creación de arquitecturas de redes empresariales óptimas: equilibrio entre rendimiento, seguridad y escalabilidad para operaciones y crecimiento fluidos"
-tags: ["redes"]
+tags: ["redes", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
