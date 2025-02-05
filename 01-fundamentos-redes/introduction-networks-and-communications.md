@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Networks and Communications"
 subtitle: "Journey through Networks: ARPANET to Internet, Protocols, Topologies & Server Roles. Unravel the mysteries of networking! ."
-tags: ["networks"]
+tags: ["networks", "cybersecurity]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---  
