@@ -1,7 +1,7 @@
 ---
 title: "Best Practices in Cybersecurity"
 subtitle: "Explore the essential principles and practices to safeguard information confidentiality, availability, and integrity in organizations. Learn about user-centric security practices, best practices for system administrators, and the cultural aspect of cybersecurity."
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "DLP", "risk-management"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
