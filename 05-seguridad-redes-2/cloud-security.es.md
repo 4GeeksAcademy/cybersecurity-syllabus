@@ -1,7 +1,7 @@
 ---
 title: "Seguridad en la nube"
 subtitle: "Protegiendo tus Activos Digitales: Conceptos Clave de Seguridad en la Nube para Empresas y Usuarios - Todo lo que Necesitas Saber sobre la Seguridad en la Nube"
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "seguridad-en-la-nube"]
 authors: ["alesanchezr"]
 
 ---
