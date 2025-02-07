@@ -1,7 +1,7 @@
 ---
 title: "Cloud Security"
 description: "Protecting Your Digital Assets: Key Concepts of Cloud Security for Businesses and Users - Everything You Need to Know About Cloud Security"
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "cloud-security"]
 authors: ["alesanchezr"]
 
 ---
