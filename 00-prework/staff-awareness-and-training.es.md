@@ -1,7 +1,7 @@
 ---
 title: "Concienciación y formación del personal"
 subtitle: "Explora la importancia de la concienciación sobre la ciberseguridad en el panorama digital actual y su papel crucial en la protección de personas y organizaciones."
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "concienciacion-ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
