@@ -1,7 +1,7 @@
 ---
 title: "Staff Awareness and Training"
 subtitle: "Explore the significance of cybersecurity awareness in today's digital landscape and its crucial role in protecting individuals and organizations."
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "cybersecurity-awareness"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
