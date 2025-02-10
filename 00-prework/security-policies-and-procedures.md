@@ -1,7 +1,7 @@
 ---
 title: "Security Policies and Procedures"
 subtitle: "Explore the fundamental aspects of cybersecurity policies, procedures, and their crucial role in safeguarding digital assets."
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "cybersecurity-policies"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
