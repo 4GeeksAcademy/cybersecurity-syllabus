@@ -1,10 +1,17 @@
 ---
-title: "File and Directory Management"
-subtitle: "Navigating and Manipulating Files in Linux: Essential Commands and Best Practices for System Administrators."
-tags: ["linux", "the-terminal", "file hierarchy", "operating systems"]
-authors: ["blindma1den", "lorenagubaira"]
+title: File and Directory Management
+tags:
+  - linux
+  - the-terminal
+  - file hierarchy
+  - operating systems
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master file and directory management in Linux! Learn essential commands, best
+  practices, and tips for system administrators. Discover more now!
 ---
-
 For a system administrator, having knowledge of navigating and manipulating files and directories is a fundamental part of the job. In Linux, all this can be achieved from the command line. Through certain commands and tools, we can navigate the file system, create, copy, move, and delete files and directories.
 
 To begin, it's important to understand the directory structure. The file system is organized hierarchically, with a root directory represented by "/". From there, directories are organized in a tree structure, allowing for easy navigation and location of files.

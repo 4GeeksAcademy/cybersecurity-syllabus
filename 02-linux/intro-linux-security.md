@@ -1,11 +1,15 @@
 ---
-title: "Introduction to Linux Security"
-subtitle: "Basic concepts and best practices for Linux security: how to protect your system, manage users, secure passwords, firewalls, and more."
-tags: ["linux", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Introduction to Linux Security
+tags:
+  - linux
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn essential Linux security concepts and best practices to protect your
+  system. Discover user management, firewalls, and secure passwords today!
 ---
-
 Security is a fundamental aspect of any operating system, and as more people and organizations use Linux, it is important to understand basic security concepts to protect our systems and data.
 
 - **Users and permissions**: In Linux, each user has their own account and set of permissions. It is important to create separate user accounts for each person accessing the system and assign appropriate permissions. Permissions determine what actions users can perform on files and directories, such as reading, writing, or executing.

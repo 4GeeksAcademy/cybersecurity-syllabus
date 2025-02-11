@@ -1,12 +1,14 @@
 ---
-title: "Protocolos de red"
-subtitle: "Descifrando protocolos de red: pilares digitales para la interoperabilidad, confiabilidad, seguridad, eficiencia y escalabilidad en Pentesting"
-tags: ["redes"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Protocolos de red
+tags:
+  - redes
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre los protocolos de red esenciales para la interoperabilidad, seguridad
+  y eficiencia en pentesting. ¡Aprende a proteger tu red hoy!
 ---
-
-
 Los protocolos de red son una parte fundamental de la comunicación en la era digital. Son conjuntos de reglas y estándares que permiten que dispositivos y sistemas informáticos se comuniquen y compartan datos de manera efectiva en una red. Estos protocolos establecen las pautas para el formato de los datos, la secuencia de eventos y las acciones a seguir durante la comunicación entre dispositivos.
 
 La importancia de los protocolos de red radica en varios aspectos clave:

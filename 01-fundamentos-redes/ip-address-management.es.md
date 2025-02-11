@@ -1,11 +1,15 @@
 ---
-title: "Gestión de dirección IP"
-subtitle: "Mastering IP Address Management: Vital Skills for Network and Cybersecurity Pros. Learn How IP Addresses Drive Network Infrastructure and Cybersecurity."
-tags: ["direccion-ip", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Gestión de dirección IP
+tags:
+  - direccion-ip
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master IP Address Management and enhance your network security skills. Learn
+  about IPv4, IPv6, and subnetting. Discover essential strategies now!
 ---
-
 Es fundamental que un profesional de redes y ciberseguridad sepa gestionar direcciones IP debido a que las direcciones IP son elementos esenciales en la infraestructura de cualquier red, y desempeñan un papel crítico en la ciberseguridad.
 
 ## Dirección IP

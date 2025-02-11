@@ -1,11 +1,14 @@
 ---
-title: "Network Devices"
-subtitle: "Explore and learn what is a Router, Modem, Switch, Access Point, Firewall & more. Design your LAN Network with Cisco Packet Tracer Lab Challenge! "
-tags: ["networks"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Network Devices
+tags:
+  - networks
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential network devices like routers, modems, and firewalls. Learn
+  how to design your LAN network with our Cisco Packet Tracer Lab Challenge!
 ---
-
 Network devices are tools that allow electronic devices to communicate with each other, like when you use the internet on your computer or phone. Here I explain some of the most common network devices in simple language:
 
 1. **Router**: This is like the brain of your home network. It decides how data travels between your home and the outside world, such as the internet. It also assigns addresses to your devices so they know where to send and receive information.

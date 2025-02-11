@@ -1,11 +1,16 @@
 ---
-title: "Planificación y documentación de redes"
-subtitle: "Planificación estratégica de redes: lograr escalabilidad y eficiencia a través de documentación, topología y estrategias de crecimiento"
-tags: ["redes", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Planificación y documentación de redes
+tags:
+  - redes
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master la planificación y documentación de redes para lograr escalabilidad y
+  eficiencia. Descubre estrategias clave y mejores prácticas para optimizar tu
+  red.
 ---
-
 La planificación y documentación de redes es un proceso esencial para garantizar el diseño, implementación y mantenimiento efectivo de una red. Consiste en la creación de un plan estratégico que define los objetivos, requisitos y recursos necesarios para construir y gestionar una red de manera eficiente y segura esoimplica identificar las necesidades específicas de la organización, como el número de usuarios, los servicios requeridos y el volumen de tráfico esperado. También implica evaluar las tecnologías disponibles y seleccionar las más adecuadas para satisfacer las necesidades de la red.
 
 ### **Documentación de red: diagramas, inventario de equipos**

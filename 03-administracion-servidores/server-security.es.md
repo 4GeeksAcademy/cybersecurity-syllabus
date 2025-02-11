@@ -1,11 +1,15 @@
 ---
-title: "Configuración de seguridad del servidor"
-subtitle: "Optimiza la seguridad de tu servidor: Configuración del firewall, gestión de usuarios y registros de auditoría en Linux. Aprende paso a paso."
-tags: ["servidores"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Configuración de seguridad del servidor
+tags:
+  - servidores
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Optimiza la seguridad de tu servidor Linux con nuestra guía sobre
+  configuración de firewall, gestión de usuarios y registros de auditoría.
+  ¡Descubre cómo proteger tu sistema!
 ---
-
 ## Configuración del firewall
 
 Los firewall son una pieza clave en la seguridad de nuestros servidores, por lo que como administradores de sistemas es necesario que sepamos cómo configurarlo. Recordemos que un firewall actúa como una barrera entre tu servidor y posibles amenazas externas, controlando el tráfico de red y permitiendo o bloqueando conexiones según las reglas establecidas.

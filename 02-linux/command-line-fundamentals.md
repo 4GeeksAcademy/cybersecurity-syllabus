@@ -1,11 +1,16 @@
 ---
-title: "Command Line Basics"
-subtitle: "Discover the basics of the command line: how to navigate, manipulate files and manage permissions in Linux. Learn from scratch in this complete tutorial!"
-tags: ["linux", "command-line"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Command Line Basics
+tags:
+  - linux
+  - command-line
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the essentials of the command line in Linux! Learn to navigate,
+  manipulate files, and manage permissions with our complete beginner's
+  tutorial.
 ---
-
 In IT, using a terminal or command interpreter to communicate with our computer or laptop is common. These commands help us communicate directly with our computer, as we are giving an order that can be interpreted and processed by a computer language, thus having a significant level of interaction with the PC. In other words, commands as a form of interaction can rescue us when the system is overloaded.
 
 A terminal is a computing device that allows a user to interact with a computer system, usually to perform tasks such as running programs, logging in and out of the system, or conducting web searches.

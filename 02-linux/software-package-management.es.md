@@ -1,11 +1,14 @@
 ---
-title: "Gestión de paquetes y software"
-subtitle: "Domina gestión de paquetes en Linux: instala, actualiza y elimina software con facilidad. Aprende a configurar repositorios y mantén tu sistema seguro."
-tags: ["linux"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Gestión de paquetes y software
+tags:
+  - linux
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master Linux package management! Learn to install, update, and remove software
+  effortlessly while keeping your system secure. Discover more now!
 ---
-
 Hemos hablado previamente sobre el uso de gestores de paquetes y cómo nos pueden ayudar a instalar aplicaciones y actualizar software, recordemos que en el entorno de los servidores Linux, los gestores de paquetes son herramientas fundamentales para la gestión eficiente del software ya que simplifican la instalación, actualización y eliminación de paquetes de software en un servidor, lo que resulta esencial para mantener el sistema actualizado y seguro.
 
 ## Gestor de paquetes apt

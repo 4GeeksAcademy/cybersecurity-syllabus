@@ -1,3 +1,8 @@
+---
+description: >-
+  Descubre cómo ver la información de hardware en tu PC con nuestros sencillos
+  pasos para Windows. ¡Aprende a optimizar tu equipo hoy mismo!
+---
 ## 🔎 Laboratorio
 
 **Descubre como ver la información de tu hardware en tu computador:**
