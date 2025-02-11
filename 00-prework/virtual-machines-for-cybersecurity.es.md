@@ -1,10 +1,11 @@
 ---
-title: "Máquinas Virtuales para practicar ciberseguridad"
-description: "Explora las mejores máquinas virtuales para entrenamiento en ciberseguridad, incluyendo Metasploitable, DVWA y OWASP WebGoat. Domina habilidades como inyección SQL, XSS y seguridad de red a través de laboratorios prácticos. Ideal para principiantes y estudiantes avanzados. Mejora tu experiencia en ciberseguridad de manera efectiva."
-tags: ["ciberseguridad"]
-
+title: Máquinas Virtuales para practicar ciberseguridad
+description: >-
+  Descubre las mejores máquinas virtuales para practicar ciberseguridad. Aprende
+  a dominar inyección SQL, XSS y más en un entorno seguro. ¡Empieza hoy!
+tags:
+  - ciberseguridad
 ---
-
 # Máquinas Virtuales y proyectos para practicar ciberseguridad
 
 En 4Geeks, nos gusta que nuestros estudiantes aprendan en entornos reales similares a los que encontrarán una vez que consigan un trabajo en el campo. Es por eso que preferimos usar máquinas virtuales en lugar de servicios en la nube como HackABox, TryHackMe, etc. Recomendamos usar servicios en la nube una vez que te familiarices con la instalación y el uso de configuraciones reales.

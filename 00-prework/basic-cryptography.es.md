@@ -1,11 +1,15 @@
 ---
-title: "Criptografía Básica"
-subtitle: "Explora el papel vital de la criptografía para garantizar la confidencialidad, integridad y autenticidad en el ámbito digital. Obtén información sobre cifrado simétrico y asimétrico, tipos de cifrados y aplicaciones comunes."
-tags: ["criptografia", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Criptografía Básica
+tags:
+  - criptografia
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre cómo la criptografía garantiza la seguridad digital. Aprende sobre
+  cifrado simétrico y asimétrico, y su importancia en la ciberseguridad.
 ---
-
 La criptografía en informática es el campo que se ocupa de desarrollar técnicas y métodos para cifrar y descifrar información con el objetivo de asegurar su confidencialidad, integridad y autenticidad en el entorno digital. La criptografía permite que los datos se transmitan y almacenen de manera segura, incluso si son interceptados por personas no autorizadas.
 
 En términos simples, la criptografía en informática utiliza algoritmos matemáticos para convertir datos legibles en un formato ilegible y luego volver a convertirlos al formato original cuando sea necesario. Los datos originales se llaman "**texto claro**" y los datos cifrados se denominan "**texto cifrado**". Para llevar a cabo el proceso de cifrado y descifrado, se utilizan claves, que son valores secretos utilizados por los algoritmos.

@@ -1,11 +1,17 @@
 ---
-title: "Guía Completa de Conectividad a Internet: DSL, Cable, Fibra Óptica y Proveedores de Servicio (ISP)"
-subtitle: "Comprende las Principales Tecnologías de Conexión a Internet y Configura tu Red con Routers y DHCP"
-tags: ["ciberseguridad", "redes"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: >-
+  Guía Completa de Conectividad a Internet: DSL, Cable, Fibra Óptica y
+  Proveedores de Servicio (ISP)
+tags:
+  - ciberseguridad
+  - redes
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre las tecnologías de conectividad a Internet: DSL, cable, fibra óptica
+  y cómo elegir el mejor ISP. ¡Aprende a configurar tu red hoy!
 ---
-
 ## Conectividad a internet
 
 Sabemos que el internet es un protocolo que conecta a todas las redes y asi acceder a ellas, lo utilizan distintos tipos de usuario. Hoy en día hay compañías encargadas de administrar esas conexiones. Usando distintos tipos de tecnologías para esto, entre las cuales tenemos:

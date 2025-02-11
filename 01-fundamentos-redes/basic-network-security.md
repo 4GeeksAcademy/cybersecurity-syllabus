@@ -1,3 +1,8 @@
+---
+description: >-
+  Learn the fundamentals of network security, including firewalls and WiFi
+  protection. Discover essential tips to safeguard your network today!
+---
 ## What is a Firewall
 
 A firewall is a network security system that restricts incoming, outgoing, or internal internet traffic within a private network. The term comes from the concept of physical walls that act as barriers to slow the spread of fire until emergency services can extinguish it.

@@ -1,11 +1,15 @@
 ---
-title: "Introduction to Linux"
-subtitle: "Discover the fundamentals of Linux: security, user management, robust passwords, and firewalls. Learn how to protect your system and more."
-tags: ["linux", "operating systems"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Introduction to Linux
+tags:
+  - linux
+  - operating systems
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the fundamentals of Linux, from security to user management. Learn
+  how to protect your system and unlock the power of open-source software!
 ---
-
 ## What is Linux and its Importance in Computing
 
 Contrary to what you might generally hear about Linux, it is actually a kernel, or **kernel**, that can control hardware. A simpler way to explain it is that Linux is a set of drivers necessary to use a device like a computer or laptop. It was created as a kernel similar to a UNIX operating system.

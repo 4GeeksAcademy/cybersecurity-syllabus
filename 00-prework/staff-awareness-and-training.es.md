@@ -1,11 +1,15 @@
 ---
-title: "Concienciación y formación del personal"
-subtitle: "Explora la importancia de la concienciación sobre la ciberseguridad en el panorama digital actual y su papel crucial en la protección de personas y organizaciones."
-tags: ["ciberseguridad", "concienciacion-ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Concienciación y formación del personal
+tags:
+  - ciberseguridad
+  - concienciacion-ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn the importance of ciberseguridad concienciación for protecting your
+  organization. Discover how to foster a culture of security today!
 ---
-
 La concienciación en ciberseguridad es fundamental para todos los **usuarios** en el mundo digital actual. Esto se debe a que nuestras vidas están cada vez más conectadas en línea, y existen amenazas constantes que pueden comprometer la seguridad de nuestra información y actividades en línea.
 
 Algunos de los principales motivos para la concienciación en ciberseguridad incluyen la protección de nuestros datos personales, la prevención de fraudes y el robo de identidad, la seguridad en las transacciones en línea y la preservación de nuestra reputación en línea.

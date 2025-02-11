@@ -1,11 +1,20 @@
 ---
-titulo: "Cumplimiento Legal y Normativo Internacional en Ciberseguridad"
-subtítulo: "Entendiendo los Marcos Globales y su Impacto en las Prácticas de Ciberseguridad"
-etiquetas: ["ciberseguridad", "cumplimiento legal", "regulaciones internacionales"]
-autores: ["blindma1den", "lorenagubaira"]
-
+titulo: Cumplimiento Legal y Normativo Internacional en Ciberseguridad
+subtítulo: >-
+  Entendiendo los Marcos Globales y su Impacto en las Prácticas de
+  Ciberseguridad
+etiquetas:
+  - ciberseguridad
+  - cumplimiento legal
+  - regulaciones internacionales
+autores:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential international legal and regulatory compliance in
+  cybersecurity. Learn key frameworks and best practices to protect your
+  organization today!
 ---
-
 La ciberseguridad es una preocupación global, y diferentes países han establecido diversas leyes y regulaciones para proteger los datos, la privacidad y la infraestructura crítica. Comprender estos marcos internacionales es crucial para los profesionales de la ciberseguridad, especialmente aquellos que trabajan en entornos multinacionales. También tenemos artículos centrados en las [normativas del mercado de ciberseguridad en españa](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-espana) y [normativas en el mercado de ciberseguridad en Estados Unidos](https://4geeks.com/es/lesson/normativa-leyes-ciberseguridad-estados-unidos) para proporcionar más información específica sobre las regulaciones regionales.
 
 Esta lección proporciona una visión general de los requisitos legales y normativos internacionales clave en ciberseguridad.

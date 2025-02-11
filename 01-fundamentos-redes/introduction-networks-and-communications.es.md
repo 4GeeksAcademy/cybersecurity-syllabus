@@ -1,11 +1,15 @@
 ---
-title: "Introducción a las redes y comunicaciones"
-subtitle: "Decodificación de Redes: OSI 7 capas y TCP/IP 4 capas. Explora el lenguaje de red para solución de problemas y diseño seguro"
-tags: ["redes", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Introducción a las redes y comunicaciones
+tags:
+  - redes
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre el fascinante mundo de las redes y comunicaciones. Aprende sobre el
+  modelo OSI, TCP/IP y cómo diseñar redes seguras. ¡Empieza tu viaje hoy!
 ---
-
 ## Introducción a las Redes: Un Viaje a través de la Conectividad
 
 Las redes han revolucionado la forma en que el mundo se comunica y comparte información. Estas estructuras interconectadas permiten la transmisión de datos, recursos y servicios entre dispositivos electrónicos, independientemente de su ubicación física. Desde los inicios modestos de la comunicación electrónica hasta las vastas redes globales que definen la era moderna, la evolución de las redes ha sido un viaje fascinante.

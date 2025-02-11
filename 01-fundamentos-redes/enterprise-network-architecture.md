@@ -1,11 +1,15 @@
 ---
-title: "Enterprise Network Architecture"
-subtitle: "Crafting Optimal Enterprise Network Architectures: Balancing Performance, Security, and Scalability for Seamless Operations and Growth."
-tags: ["networks", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Enterprise Network Architecture
+tags:
+  - networks
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover how to design optimal enterprise network architectures that balance
+  performance, security, and scalability for seamless operations and growth.
 ---
-
 A network architecture is a structured set of components and protocols that are used to design, implement and manage a computer network. This architecture provides an overview of how devices within a network interconnect and communicate, as well as how they are managed and their performance and security are ensured. Choosing an appropriate network architecture is essential to ensure that the network meets an organization's objectives and requirements.
 
 Network architectures can vary significantly in size and complexity, from small home networks to large enterprise and telecommunications networks. Here are some key elements that are typically part of a network architecture:

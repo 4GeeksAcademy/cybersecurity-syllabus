@@ -1,11 +1,17 @@
 ---
-title: "Ques el cron y como usarlo para programar tareas"
-subtitle: "Automatización eficiente: Entiende que es el cron y como configurarlo Linux para optimizar tareas repetitivas y asegurar la estabilidad del servidor. Aprende paso a paso."
-tags: ["servidores", "cron-jobs", "tareas de sistemas", "procesamiento de tareas"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Ques el cron y como usarlo para programar tareas
+tags:
+  - servidores
+  - cron-jobs
+  - tareas de sistemas
+  - procesamiento de tareas
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Aprende a usar cron en Linux para programar tareas automáticas y optimizar tu
+  servidor. ¡Descubre cómo simplificar tus tareas repetitivas hoy!
 ---
-
 Cron es una herramienta muy útil en sistemas operativos Linux que permite programar tareas para que se ejecuten automáticamente en momentos específicos. Con cron, puedes automatizar tareas repetitivas, como realizar copias de seguridad, actualizar bases de datos, enviar informes por correo electrónico y mucho más.
 
 La configuración de tareas en cron se realiza a través de archivos llamados "crontabs". Cada usuario puede tener su propio crontab, que contiene las tareas programadas para ese usuario en particular. Para editar el crontab de un usuario, puedes utilizar el comando `crontab -e`.

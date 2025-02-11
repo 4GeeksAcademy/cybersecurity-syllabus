@@ -1,11 +1,15 @@
 ---
-title: "Introduction to Networks and Communications"
-subtitle: "Journey through Networks: ARPANET to Internet, Protocols, Topologies & Server Roles. Unravel the mysteries of networking! ."
-tags: ["networks", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
----  
-
+title: Introduction to Networks and Communications
+tags:
+  - networks
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the evolution of networks from ARPANET to the Internet! Learn about
+  protocols, topologies, and server roles in our comprehensive guide.
+---
 ## **Introduction to Networking: A Journey Through Connectivity**
 
 Networks have revolutionized the way the world communicates and shares information. These interconnected structures enable the transmission of data, resources, and services between electronic devices, regardless of their physical location. From the modest beginnings of electronic communication to the vast global networks that define the modern era, the evolution of networks has been a fascinating journey.

@@ -1,11 +1,15 @@
 ---
-title: "Basic User and Group Administration"
-subtitle: "Essential Practices for Secure User and Group Management on Linux Servers: Efficient Management and Proper Permission Assignment."
-tags: ["servers"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Basic User and Group Administration
+tags:
+  - servers
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master essential user and group administration on Linux servers! Learn secure
+  practices for managing accounts, permissions, and groups effectively. Discover
+  more!
 ---
-
 ## Creating and Managing User Accounts
 
 Within the system, the system administrator has the privilege of being the root user, which means they are the only authorized user to create and manage user accounts and groups, and administer all these files. This practice is not recommended because in the event of an error, we can cause severe system failures. Therefore, in the following practices, we will be under a system user and grant superuser privileges with sudo.

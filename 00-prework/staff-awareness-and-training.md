@@ -1,11 +1,15 @@
 ---
-title: "Staff Awareness and Training"
-subtitle: "Explore the significance of cybersecurity awareness in today's digital landscape and its crucial role in protecting individuals and organizations."
-tags: ["cybersecurity", "cybersecurity-awareness"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Staff Awareness and Training
+tags:
+  - cybersecurity
+  - cybersecurity-awareness
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the importance of cybersecurity awareness for staff training. Learn
+  how to protect your organization and foster a culture of security today!
 ---
-
 Cybersecurity awareness is critical for all **users** in today's digital world. This is because our lives are increasingly connected online, and there are constant threats that can compromise the security of our information and online activities.
 
 Some of the main reasons for cybersecurity awareness include protecting our data, preventing fraud and identity theft, securing online transactions, and preserving our online reputation.

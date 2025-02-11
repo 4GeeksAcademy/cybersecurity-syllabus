@@ -1,11 +1,15 @@
 ---
-title: "Fundamentos de la línea de comandos"
-subtitle: "Descubre los fundamentos de la línea de comandos: cómo navegar, manipular archivos y gestionar permisos en Linux. ¡Aprende desde cero en este completo tutorial!"
-tags: ["linux", "linea-de-comandos"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Fundamentos de la línea de comandos
+tags:
+  - linux
+  - linea-de-comandos
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre los fundamentos de la línea de comandos en Linux. Aprende a navegar,
+  manipular archivos y gestionar permisos. ¡Comienza tu viaje ahora!
 ---
-
 ## Introducción a la terminal y el intérprete de comandos
 
 En IT es normal usar una terminal o intérprete de comandos para comunicarnos con nuestra computadora o laptop, estos comandos nos pueden ayudar a tener una comunicación directa con nuestra computadora, ya que estamos dictando una orden capaz de ser interpretada y procesada por el lenguaje informático, y así tener una importancia con el nivel de interacción con la PC. En otras palabras, los comandos como forma de interacción, pueden rescatarnos cuando el sistema está colapsado.

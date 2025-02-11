@@ -1,11 +1,14 @@
 ---
-title: "Introduction to Linux Server Administration"
-subtitle: "Manage servers: Install Linux on a Virtual Machine. Discover concepts, advantages, and more. Start now!"
-tags: ["servers"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Introduction to Linux Server Administration
+tags:
+  - servers
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master Linux server administration! Learn to install, configure, and manage
+  servers securely. Discover the advantages of Linux today!
 ---
-
 Servers generally store and process critical data for organizations. Therefore, understanding how to manage them securely is crucial to protect information and ensure system integrity. In the following module, we will learn everything necessary to know how to administer servers, from installing and configuring them to managing permissions and users and monitoring server activities and performance.
 
 ## What is a Server and its Importance in Network Environments

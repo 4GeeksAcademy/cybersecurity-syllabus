@@ -1,11 +1,15 @@
 ---
-title: "Administración básica de usuarios y grupos"
-subtitle: "Prácticas esenciales para la administración segura de usuarios y grupos en servidores Linux: Gestión eficiente y asignación adecuada de permisos."
-tags: ["servidores"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Administración básica de usuarios y grupos
+tags:
+  - servidores
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master the basics of user and group management in Linux servers. Learn
+  essential practices for secure user administration and permission assignment.
+  Discover more!
 ---
-
 ## Creación y gestión de cuentas de Usuario.
 
 Dentro del sistema, el administrador de sistema tiene el privilegio de ser el usuario root el cual significa que es el único usuario autorizado todos la creación de usuario y grupos y administración de todos estos archivos. Esta práctica no es recomendable ya que en algún caso de error, podemos causar fallas graves al sistema por lo que en el transcurso de las siguientes prácticas estamos bajo un usuario de sistema y le otorgamos privilegios de superusuarios con sudo.

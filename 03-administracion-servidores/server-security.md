@@ -1,11 +1,14 @@
 ---
-title: "Server Security Configuration"
-subtitle: "Optimize Your Server's Security: Firewall Configuration, User Management, and Audit Logs in Linux. Step-by-Step Guide."
-tags: ["servers"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Server Security Configuration
+tags:
+  - servers
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master server security configuration with our step-by-step guide on firewall
+  setup, user management, and audit logs in Linux. Discover essential tips now!
 ---
-
 ## Firewall Configuration
 
 Firewalls are a key component in securing our servers, so as system administrators, it is necessary to know how to configure them. Remember that a firewall acts as a barrier between your server and potential external threats, controlling network traffic and allowing or blocking connections according to established rules.

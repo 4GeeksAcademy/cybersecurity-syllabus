@@ -1,12 +1,15 @@
 ---
-title: "Introduction to cybersecurity"
-subtitle: "Explore the diverse disciplines within cybersecurity, its crucial role in protecting sensitive data, and the three pillars: Confidentiality, Availability, and Integrity."
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Introduction to cybersecurity
+tags:
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the essentials of cybersecurity, its importance, and the three
+  pillars: Confidentiality, Availability, and Integrity. Learn how to protect
+  your data!
 ---
-
-
 Cybersecurity encompasses a series of practices that are often confused with hacking, so let's clear up any doubts. **Cybersecurity** is a set of interdisciplinary practices that includes information security, data security, privacy, secure infrastructure, policies and regulations, and, of course, hacking. In other words, cybersecurity is the universe in which all these practices are possible. Each discipline mentioned above is a planet in this vast universe called cybersecurity.
 
 Cybersecurity is often mistakenly confused with *hacking*, and hacking is indeed part of cybersecurity. However, cybersecurity is a box full of multiple disciplines, as mentioned above. Therefore, a cybersecurity professional can play various roles such as SOC Analyst, pentester, cybersecurity analyst, system administrator, malware analyst, and risk analyst, among others.

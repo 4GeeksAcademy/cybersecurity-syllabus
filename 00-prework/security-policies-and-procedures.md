@@ -1,11 +1,16 @@
 ---
-title: "Security Policies and Procedures"
-subtitle: "Explore the fundamental aspects of cybersecurity policies, procedures, and their crucial role in safeguarding digital assets."
-tags: ["cybersecurity", "cybersecurity-policies"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Security Policies and Procedures
+tags:
+  - cybersecurity
+  - cybersecurity-policies
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential cybersecurity policies and procedures to safeguard your
+  digital assets. Learn how to protect your organization from cyber threats
+  today!
 ---
-
 Cybersecurity policies and procedures are fundamental documents for establishing and maintaining a secure environment within an organization. These guidelines provide a clear framework for the protection of digital assets and the mitigation of cybersecurity risks. You will delve deeper into this in the following three weeks as you learn about ISO 27001, ENS, and NIST. During this week, you will familiarize yourself with basic concepts in preparation for the next three:
 
 ### Cybersecurity Policies

@@ -1,3 +1,9 @@
+---
+description: >-
+  Discover how to check your PC's hardware details on Windows! Learn essential
+  commands for viewing RAM, processor info, and more. Click to master your
+  system!
+---
 ## 🔎 Lab
 
 **Discover how to view information about your hardware on your computer:**

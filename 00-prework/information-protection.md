@@ -1,11 +1,15 @@
 ---
-title: "Information protection"
-subtitle: "Explore the crucial aspects of information protection and data privacy. Learn about data encryption, access control, and the measures to safeguard confidential information."
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Information protection
+tags:
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential strategies for information protection and data privacy.
+  Learn about encryption, access control, and safeguarding confidential data
+  today!
 ---
-
 Information protection and data privacy are critical issues in today's digital age. They refer to practices and measures designed to safeguard information, whether personal or corporate, from unauthorized access, theft, loss, or misuse. These are key considerations:
 
 ### Information Protection

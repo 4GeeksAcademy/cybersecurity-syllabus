@@ -1,12 +1,15 @@
 ---
-title: "Amenazas y Ataques Comunes"
-subtitle: "Explora el ámbito de la ciberseguridad mientras profundizamos en las diferencias entre las ciberamenazas y los ciberataques. Descubra las diez ciberamenazas más comunes y obtén información sobre los ciberataques más frecuentes."
-tags: ["ciberseguridad", "IDS"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Amenazas y Ataques Comunes
+tags:
+  - ciberseguridad
+  - IDS
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre las ciberamenazas y ciberataques más comunes en ciberseguridad.
+  Aprende a protegerte y mantén tus datos seguros. ¡Infórmate ahora!
 ---
-
-
 Ciberamenazas, ciberincidentes, ciberataques. La lucha contra los tres anteriores es el día a día de los profesionales de ciberseguridad y por ello es hora de que conozcas las ciberamenazas y ciberataques más comunes. 
 
 ### Diferencia entre ciberataque y ciberamenaza

@@ -1,11 +1,17 @@
 ---
-title: "What is Cron and how to use it to schedule and automate Tasks"
-subtitle: "Efficient Automation: Understand what cron is and how to configure it in Linux to optimize repetitive tasks and ensure server stability. Learn step by step."
-tags: ["servers", "cron-jobs", "task processing", "computational task"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: What is Cron and how to use it to schedule and automate Tasks
+tags:
+  - servers
+  - cron-jobs
+  - task processing
+  - computational task
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn how to use Cron to automate tasks in Linux! Discover scheduling tips,
+  crontab configurations, and boost your server efficiency today!
 ---
-
 Cron is a very useful tool in Linux operating systems that allows you to schedule tasks to run automatically at specific times. With cron, you can automate repetitive tasks such as making backups, updating databases, sending email reports, and much more.
 
 Tasks in cron are configured through files called "crontabs." Each user can have their own crontab, which contains the scheduled tasks for that particular user. To edit a user's crontab, you can use the command `crontab -e`.

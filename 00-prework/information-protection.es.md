@@ -1,11 +1,14 @@
 ---
-title: "Protección de la información"
-subtitle: "Explora los aspectos cruciales de la protección de la información y la privacidad de los datos. Obtén información sobre el cifrado de datos, el control de acceso y las medidas para salvaguardar la información confidencial."
-tags: ["ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Protección de la información
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre cómo proteger la información y la privacidad de los datos con
+  cifrado, control de acceso y medidas efectivas. ¡Aprende más ahora!
 ---
-
 La protección de la información y la privacidad de los datos son aspectos críticos en la era digital actual. Se refieren a las prácticas y medidas destinadas a salvaguardar la información, ya sea personal o empresarial, de accesos no autorizados, robo, pérdida o uso indebido. Estas son consideraciones clave:
 
 ### Protección de la Información

@@ -1,11 +1,17 @@
 ---
-title: "OWASP Top 10: The Pillar of Cybersecurity"
-subtitle: "🔍 What is OWASP and why is it so important for mastering cibersecurity"
-tags: ["OWASP", "cybersecurity", "web security", "vulnerabilities"]
-authors: ["alesanchezr", "lorenagubaira"]
-
+title: 'OWASP Top 10: The Pillar of Cybersecurity'
+tags:
+  - OWASP
+  - cybersecurity
+  - web security
+  - vulnerabilities
+authors:
+  - alesanchezr
+  - lorenagubaira
+description: >-
+  Master the OWASP Top 10 vulnerabilities and enhance your cybersecurity skills.
+  Discover essential insights for protecting web applications today!
 ---
-
 The **OWASP Top 10** is the most important thing you need to know about cybersecurity. It is the reason cybersecurity exists. It’s 99% of what you need to learn to investigate, prevent, explore, exploit, document, and every other verb ending in `ar` in the dictionary. The Spanish language doesn't have words to express how important it is to master the OWASP Top 10. 🚨
 
 ## 🔍 But, what is the OWASP Top 10?

@@ -1,12 +1,16 @@
 ---
-title: "Common Threats and Attacks"
-subtitle: "Explore the realm of cybersecurity as we delve into the differences between cyber threats and cyber attacks. Uncover the ten most common cyber threats and gain insights into prevalent cyber attacks."
-tags: ["cybersecurity", "IDS"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Common Threats and Attacks
+tags:
+  - cybersecurity
+  - IDS
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the key differences between cyber threats and attacks. Learn about
+  the top 10 common cyber threats and attacks to enhance your cybersecurity
+  knowledge!
 ---
-
-
 Cyber threats, cyber incidents, cyber-attacks. The daily struggle against these three is routine for cybersecurity professionals, and it's time for you to learn about the most common cyber threats and attacks.
 
 ### Difference between Cyber Threat and Cyber Attack

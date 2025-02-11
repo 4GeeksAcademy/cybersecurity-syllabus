@@ -1,11 +1,15 @@
 ---
-title: "Basic System Administration"
-subtitle: "Manage users and groups in Linux: practical guide for security and efficiency. Create, manage, and assign permissions securely. Optimize your system!"
-tags: ["linux"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Basic System Administration
+tags:
+  - linux
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master Linux user and group management, network configuration, and system
+  resource monitoring. Discover essential commands for efficient system
+  administration!
 ---
-
 ## User and Group Management
 
 Linux can be described as a multi-user operating system. There are two types of users: the root or administrator user and other regular users.

@@ -1,11 +1,14 @@
 ---
-title: "Redes en VirtualBox"
-subtitle: "Conoce las posibilidades de conexión entre maquinas virtuales en VirtualBox y descubre opciones para experimentar en distintos escenarios"
-tags: ["redes", "ciberseguridad"]
-authors: ["arnaldoperez"]
-
+title: Redes en VirtualBox
+tags:
+  - redes
+  - ciberseguridad
+authors:
+  - arnaldoperez
+description: >-
+  Discover how to set up and manage networks in VirtualBox! Learn about NAT,
+  Bridged, and Host-Only connections for your virtual machines.
 ---
-
 ## Interfaces Virtuales
 
 En VirtualBox es una poderosa herramienta que nos permite ejecutar sistemas operativos por completo, desde la comodidad de una ventana en nuestra computadora, como si se tratase de una aplicación más. Si bien esto es muy util a la hora de explorar sistemas operativos desconocidos o experimentar con las opciones que ya conocemos, también resulta muy util a la hora de estudiar como pueden interactuar estos sistemas operativos entre si o con el resto de computadoras en nuestra red.

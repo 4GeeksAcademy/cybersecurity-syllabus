@@ -1,11 +1,15 @@
 ---
-title: "Basics in Network security"
-subtitle: "Learn how to enhance network security by configuring packet filtering rules in a firewall."
-tags: ["networking", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Basics in Network security
+tags:
+  - networking
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn the basics of network security! Discover how to configure firewall
+  packet filtering rules to protect your network from vulnerabilities.
 ---
-
 In today's world, over 90% of data breaches start with network vulnerabilities. In this lesson, you'll learn to enhance your network's security by configuring packet filtering rules on a firewall. We'll cover the basics of firewalls, packet filtering, and advanced technologies like VPNs and WPA/WPA2. By the end, you'll be able to set up firewall rules to protect your network and ensure secure communication. Let's get started!
 
 ## Firewall and Packet Filtering

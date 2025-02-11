@@ -1,11 +1,13 @@
 ---
-title: "Configuración de Git en una máquina"
-subtitle: "Guía paso a paso para configurar y utilizar Git en tu máquina local o virtual. Aprende a verificar la instalación, configurar tus credenciales de GitHub, y trabajar con repositorios."
-tags: ["ciberseguridad"]
-authors: ["rosinni"]
-
+title: Configuración de Git en una máquina
+tags:
+  - ciberseguridad
+authors:
+  - rosinni
+description: >-
+  Aprende a configurar Git en tu máquina con esta guía paso a paso. Verifica la
+  instalación, configura tus credenciales y clona repositorios. ¡Descubre cómo!
 ---
-
 # Configuración de Git en una máquina
 
 Durante las distintas prácticas que estaremos realizando, te vamos a pedir que descargues algunos repositorios a tu máquina anfitriona o a algunas de tus máquinas virtuales. De esta forma, vamos a poder llevar a cabo algunas verificaciones para hacer que tu aprendizaje sea exitoso. A continuación, te detallamos un paso a paso de cómo hacer esa configuración por primera vez en cualquiera de tus máquinas.

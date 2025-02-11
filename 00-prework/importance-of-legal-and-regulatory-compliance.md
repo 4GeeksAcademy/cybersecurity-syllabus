@@ -1,11 +1,14 @@
 ---
-title: "Importance of Legal and Regulatory Compliance"
-subtitle: "Uncover the vital role of legal and regulatory compliance in cybersecurity. Learn about ISO 27001, ENS, and NIST standards."
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Importance of Legal and Regulatory Compliance
+tags:
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the vital role of legal and regulatory compliance in cybersecurity.
+  Learn about ISO 27001, ENS, and NIST standards to protect your data!
 ---
-
 Cybersecurity legal and regulatory compliance is a critical aspect of information protection and risk mitigation in the digital world. Its history and importance are intertwined with the evolution of cyber threats and the need for regulations and standards to address these challenges.
 
 The history of legal and regulatory compliance in cybersecurity can be traced back to the earliest days of computing and networking. As organizations began to adopt information and communication technologies, challenges related to data security and privacy arose. However, it was in the last decade of the 20th century that cybersecurity began to receive more significant attention.

@@ -1,11 +1,15 @@
 ---
-title: "Modelos de referencia de redes"
-subtitle: "Viaje a través de las redes: ARPANET a Internet, protocolos, topologías y roles de servidor. Conoce los misterios del networking!"
-tags: ["redes", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Modelos de referencia de redes
+tags:
+  - redes
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre los modelos de referencia de redes, como OSI y TCP/IP. Aprende sobre
+  protocolos, topologías y cómo funcionan las redes de comunicación.
 ---
-
 Los modelos de referencia de redes son marcos teóricos que se utilizan para describir y entender cómo funcionan las redes de comunicación y cómo se organizan los diferentes componentes que las componen. Estos modelos establecen una estructura conceptual que ayuda a los profesionales de redes y a los diseñadores a comprender mejor los procesos de comunicación y a desarrollar estándares y protocolos de manera coherente. Dos de los modelos de referencia más conocidos son el Modelo OSI (Open Systems Interconnection) y el Modelo TCP/IP (Transmission Control Protocol/Internet Protocol):
 
 ### **Modelo OSI (Open Systems Interconnection):**

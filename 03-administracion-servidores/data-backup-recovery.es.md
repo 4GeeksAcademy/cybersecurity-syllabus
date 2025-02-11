@@ -1,11 +1,14 @@
 ---
-title: "Respaldo y recuperación de datos"
-subtitle: "Planificación y ejecución de respaldos: Garantiza la seguridad y disponibilidad de tus datos. Aprende estrategias y herramientas para respaldar y recuperar información de manera efectiva."
-tags: ["servidores"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Respaldo y recuperación de datos
+tags:
+  - servidores
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn essential strategies for data backup and recovery. Ensure your data's
+  security and availability with effective tools and practices. Discover more!
 ---
-
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
 
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)

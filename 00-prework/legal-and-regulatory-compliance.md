@@ -1,11 +1,17 @@
 ---
-title: "Legal and regulatory compliance in cybersecurity"
-subtitle: "Understanding Global Frameworks and Their Impact on Cybersecurity Practices"
-tags: ["cybersecurity", "legal compliance", "international regulations"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Legal and regulatory compliance in cybersecurity
+tags:
+  - cybersecurity
+  - legal compliance
+  - international regulations
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential international regulations and compliance practices in
+  cybersecurity. Learn how to navigate legal frameworks and protect your data
+  effectively!
 ---
-
 Cybersecurity is a global concern, and different countries have established various laws and regulations to protect data, privacy, and critical infrastructure. Understanding these international frameworks is crucial for cybersecurity professionals, especially those working in multinational environments. We also have articles focused on the Spanish market and the USA market to provide more specific insights into regional regulations.
 
 This lesson provides an overview of key international legal and regulatory requirements in cybersecurity.

@@ -1,11 +1,16 @@
 ---
-title: "Communication & Networking"
-subtitle: "Explore the fundamentals of computer networks, from different types to key protocols and essential devices. Learn more about IP addresses, routers, and switches!"
-tags: ["networking", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Communication & Networking
+tags:
+  - networking
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the essentials of communication and networking! Learn about LANs,
+  WANs, IP addresses, routers, and protocols. Start your networking journey
+  today!
 ---
-
 We can define the network as the technology that allows computers to connect, share, and send data between them. Nowadays, not only computers can be connected, but also any intelligent device from phones to TVs'.
 
 There are various types of networks, such as:

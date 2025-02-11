@@ -1,11 +1,13 @@
 ---
-title: "Configuring Git on a Machine"
-subtitle: "Step-by-step guide to setting up and using Git on your local or virtual machine. Learn how to verify the installation, configure your GitHub credentials, and work with repositories."
-tags: ["cybersecurity"]
-authors: ["rosinni"]
-
+title: Configuring Git on a Machine
+tags:
+  - cybersecurity
+authors:
+  - rosinni
+description: >-
+  Learn how to configure Git on your machine with our step-by-step guide. Master
+  installation, setup, and repository management. Discover more now!
 ---
-
 # Configuring Git on a Machine
 
 During the various exercises we will be conducting, you will be asked to download some repositories to your host machine or to some of your virtual machines. This will allow us to carry out certain verifications to ensure your learning is successful. Below, we provide a step-by-step guide on how to perform this configuration for the first time on any of your machines.

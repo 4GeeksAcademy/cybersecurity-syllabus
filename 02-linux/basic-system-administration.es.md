@@ -1,11 +1,15 @@
 ---
-title: "Administración basica del sistema"
-subtitle: "Administra usuarios y grupos en Linux: guía práctica para seguridad y eficiencia. Crea, gestiona y asigna permisos de forma segura. ¡Optimiza tu sistema!"
-tags: ["linux"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Administración basica del sistema
+tags:
+  - linux
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master la administración básica del sistema en Linux. Aprende a gestionar
+  usuarios, grupos y optimizar la seguridad. ¡Descubre cómo mejorar tu sistema
+  ahora!
 ---
-
 ## Gestion de grupos y usuario
 
 Podemos denominar a Linux como un sistema operativo multiusuario, donde existen dos tipos de usuarios, el usuario root o administrador, y el resto de los usuario

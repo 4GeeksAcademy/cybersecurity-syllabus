@@ -1,10 +1,11 @@
 ---
-title: "Virtual Machines to practice cybersecurity"
-description: "Explore top virtual machines for cybersecurity training, including Metasploitable, DVWA, and OWASP WebGoat. Master skills like SQL injection, XSS, and network security through hands-on labs. Ideal for beginners to advanced learners. Enhance your cybersecurity expertise effectively."
-tags: ["cybersecurity"]
-
+title: Virtual Machines to practice cybersecurity
+description: >-
+  Master cybersecurity skills with top virtual machines like Metasploitable and
+  DVWA. Discover hands-on labs for beginners to advanced learners!
+tags:
+  - cybersecurity
 ---
-
 # Virtual Machines and projects to practice cybersecurity
 
 At 4Geeks, we like our students to learn in real-life environments similar to those they will find once they get a job in the field. That is why we like using virtual machines instead of cloud services like HackABox, TryHackMe, etc. We recommend using cloud services once you get familiar with installing and using real-life setups.

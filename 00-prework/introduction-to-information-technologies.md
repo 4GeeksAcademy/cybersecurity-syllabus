@@ -1,11 +1,14 @@
 ---
-title: "Introduction to Information Technology"
-subtitle: "Explore the basics of IT and ICT, programming languages, understand the importance of cybersecurity and dive into the history of computer science."
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Introduction to Information Technology
+tags:
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the essentials of Information Technology and Cybersecurity. Learn
+  about IT components, programming languages, and the impact of IoT today!
 ---
-
 For your professional training, you need to know that knowing the basics of **IT** is very important. Remember that all your work will be through information technology and communications systems, so it is necessary to enter into context and know more than the basics about **IT** and **ICT's** to advance in your career.
 
 In this first reading, you will understand what are the components of your computer, and how they interact with each other, you will delve into more technical concepts related to your next professional profile and also to elements related to users. You must take into account that to beat a hacker you must **think like a hacker** and that attackers anticipate new technologies to take advantage of the ignorance of users, so you as a professional in cybersecurity must understand in-depth computer science and computing as a "whole".

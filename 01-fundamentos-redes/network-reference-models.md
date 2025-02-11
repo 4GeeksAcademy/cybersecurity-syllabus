@@ -1,11 +1,15 @@
 ---
-title: "Network Reference Models"
-subtitle: "Decoding Networks: OSI's 7 layers & TCP/IP's 4 layers. Unveil network language for troubleshooting & secure design."
-tags: ["networks", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Network Reference Models
+tags:
+  - networks
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the OSI and TCP/IP network reference models! Learn how these
+  frameworks enhance troubleshooting and secure network design.
 ---
-
 Network reference models are theoretical frameworks that are used to describe and understand how communication networks work and how the various components that comprise them are organized. These models establish a conceptual structure that helps network professionals and designers to better understand communication processes and to develop standards and protocols in a consistent manner. Two of the best known reference models are the OSI (Open Systems Interconnection) Model and the TCP/IP (Transmission Control Protocol/Internet Protocol) Model:
 
 ### **OOSI Model (Open Systems Interconnection):** 

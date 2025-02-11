@@ -1,11 +1,15 @@
 ---
-title: "Redes y comunicaciones"
-subtitle: "Explora los fundamentos de las redes informáticas, desde diferentes tipos hasta protocolos clave y dispositivos esenciales. ¡Obtén más información sobre direcciones IP, enrutadores y conmutadores!"
-tags: ["networking", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Redes y comunicaciones
+tags:
+  - networking
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre los fundamentos de redes y comunicaciones: tipos, protocolos,
+  direcciones IP y más. ¡Aprende a conectar dispositivos y optimizar tu red!
 ---
-
 Podemos definir a la red como la tecnología que permite que las computadoras se conecten entre sí, para poder compartir y enviar datos entre ellas, en la actualidad no solo podemos conectar computadoras, podemos conectar en la red cualquier dispositivo inteligente desde teléfonos hasta televisores.
 
 Existen varios tipos de redes tales como:
