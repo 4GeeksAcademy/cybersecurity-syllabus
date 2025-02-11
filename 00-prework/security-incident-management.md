@@ -1,11 +1,15 @@
 ---
-title: "Security Incident Management"
-subtitle: "Explore the essential functions of security incident management. Learn how organizations detect, respond to, and mitigate security threats for damage minimization and regulatory compliance"
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Security Incident Management
+tags:
+  - cybersecurity
+  - incident-management
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn essential security incident management strategies to detect, respond,
+  and mitigate threats. Discover how to protect your organization today!
 ---
-
 Security incident management is an essential process in cybersecurity that is used to identify, respond to, and mitigate security threats and events in an organization. Its goal is to minimize the impact of incidents and ensure continuity of operations. Here we explain its role, importance, and examples of use cases:
 
 ### Role of Security Incident Management

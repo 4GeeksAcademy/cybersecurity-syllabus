@@ -1,11 +1,17 @@
 ---
-title: "Buenas prácticas de ciberseguridad"
-subtitle: "Explora los principios y prácticas esenciales para salvaguardar la confidencialidad, disponibilidad e integridad de la información en las organizaciones. Conoce las prácticas de seguridad centradas en el usuario, las mejores prácticas para administradores de sistemas y el aspecto cultural de la ciberseguridad."
-tags: ["ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Buenas prácticas de ciberseguridad
+tags:
+  - ciberseguridad
+  - gestion-de-riesgos
+  - DLP
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre las mejores prácticas de ciberseguridad para proteger la información
+  en tu organización. Aprende a salvaguardar la confidencialidad y la
+  integridad.
 ---
-
 Los fundamentos de seguridad de la información son los principios y prácticas básicas que se utilizan para proteger la confidencialidad, la disponibilidad y la integridad de la información en una organización. Estos fundamentos son esenciales para garantizar que los activos de información de una empresa estén protegidos contra amenazas cibernéticas y físicas. Todas estas prácticas de seguridad las conocerás durante el bootcamp cuando comiences a aprender sobre **gestión de riesgos y DLP**, por ahora vamos a concentrarnos en las nociones básicas de seguridad
 
 Es importante que sepas que los principales actores y partícipes en el manejo de la información son los usuarios, por ello es necesario que los usuarios sean educados con buenas prácticas de ciberseguridad tales como: 

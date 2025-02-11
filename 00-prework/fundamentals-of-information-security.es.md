@@ -1,11 +1,14 @@
 ---
-title: "Fundamentos de la Seguridad de la Información"
-subtitle: "Explora los fundamentos de la Tríada de Seguridad (CIA: Confidencialidad, Integridad, Disponibilidad) y proteja sus datos en el ámbito digital."
-tags: ["ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Fundamentos de la Seguridad de la Información
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre los fundamentos de la seguridad de la información y aprende sobre la
+  Tríada de Seguridad (CIA) para proteger tus datos en el mundo digital.
 ---
-
 ## Triada de la seguridad
 
 Hoy en día la información se encuentra en todos lados, esta información puede correr peligro de ser intervenida o alterada por otra persona. Existen principios que son diseñados para poder proteger nuestros datos e información. Una de las principales es el triángulo de la seguridad.

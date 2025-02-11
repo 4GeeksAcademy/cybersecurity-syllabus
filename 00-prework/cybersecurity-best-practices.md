@@ -1,11 +1,17 @@
 ---
-title: "Best Practices in Cybersecurity"
-subtitle: "Explore the essential principles and practices to safeguard information confidentiality, availability, and integrity in organizations. Learn about user-centric security practices, best practices for system administrators, and the cultural aspect of cybersecurity."
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Best Practices in Cybersecurity
+tags:
+  - cybersecurity
+  - DLP
+  - risk-management
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential cybersecurity best practices to protect your organization's
+  data. Learn user-centric strategies and system admin tips for a secure
+  environment!
 ---
-
 The following are the basic principles and practices used to protect the confidentiality, availability, and integrity of information in an organization. These fundamentals are essential to ensure that a company's information assets are protected against cyber and physical threats. You will learn about these security practices during the boot camp when you start learning about **risk management and DLP**. For now, let's focus on the basic concepts of security.
 
 It's important to know that the main actors and participants in information management are the users. Therefore, users must be educated in good cybersecurity practices such as:
