@@ -1,7 +1,7 @@
 ---
 title: "Virtual Machines to practice cybersecurity"
 description: "Explore top virtual machines for cybersecurity training, including Metasploitable, DVWA, and OWASP WebGoat. Master skills like SQL injection, XSS, and network security through hands-on labs. Ideal for beginners to advanced learners. Enhance your cybersecurity expertise effectively."
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "virtual-machines"]
 
 ---
 
