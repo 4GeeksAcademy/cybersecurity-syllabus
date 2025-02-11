@@ -1,7 +1,7 @@
 ---
 title: "Máquinas Virtuales para practicar ciberseguridad"
 description: "Explora las mejores máquinas virtuales para entrenamiento en ciberseguridad, incluyendo Metasploitable, DVWA y OWASP WebGoat. Domina habilidades como inyección SQL, XSS y seguridad de red a través de laboratorios prácticos. Ideal para principiantes y estudiantes avanzados. Mejora tu experiencia en ciberseguridad de manera efectiva."
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "maquinas-virtuales"]
 
 ---
 
