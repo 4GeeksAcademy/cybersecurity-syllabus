@@ -1,11 +1,15 @@
 ---
-title: "Políticas y procedimientos de seguridad"
-subtitle: "Explora los aspectos fundamentales de las políticas y procedimientos de ciberseguridad y su papel crucial en la protección de los activos digitales."
-tags: ["ciberseguridad", "incidentes-de-seguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Políticas y procedimientos de seguridad
+tags:
+  - ciberseguridad
+  - incidentes-de-seguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre cómo las políticas y procedimientos de ciberseguridad protegen tus
+  activos digitales. Aprende a implementar medidas efectivas hoy mismo.
 ---
-
 Las políticas y procedimientos de ciberseguridad son documentos fundamentales para establecer y mantener un entorno seguro en una organización. Estas directrices proporcionan un marco claro para la protección de los activos digitales y la mitigación de riesgos cibernéticos. Esto lo aprenderás más a fondo en las tres siguientes semanas en las que aprenderás sobre ISO 27001, ENS y NIST. Durante esta semana te familiarizarás con conceptos básicos de cara a las tres siguientes: 
 
 ### Políticas de Ciberseguridad

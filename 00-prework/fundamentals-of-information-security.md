@@ -1,11 +1,14 @@
 ---
-title: "Information Security Fundamentals"
-subtitle: "Explore the fundamentals of the Security Triad (CIA: Confidentiality, Integrity, Availability) and safeguard your data in the digital realm."
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Information Security Fundamentals
+tags:
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master the essentials of information security with our guide on the Security
+  Triad (CIA). Discover how to protect your data today!
 ---
-
 ## Security Triad
 
 Nowadays, information is everywhere, and this information may be at risk of being intercepted or altered by someone else. There are principles designed to protect our data and information, and one of the main ones is the Security Triad.

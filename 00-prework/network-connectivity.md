@@ -1,11 +1,17 @@
 ---
-title: "Complete Guide to Internet Connectivity: DSL, Cable, Fiber Optics, and Internet Service Providers (ISP)"
-subtitle: "Understand the Main Internet Connection Technologies and Configure Your Network with Routers and DHCP"
-tags: ["cybersecurity", "networks"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: >-
+  Complete Guide to Internet Connectivity: DSL, Cable, Fiber Optics, and
+  Internet Service Providers (ISP)
+tags:
+  - cybersecurity
+  - networks
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the essentials of internet connectivity! Learn about DSL, cable,
+  fiber optics, and ISPs to optimize your network setup today!
 ---
-
 ## Internet connectivity
 
 We know that the internet is a protocol that connects all the networks and so access to them, it is used by different types of users. Nowadays there are companies in charge of managing these connections. Using different types of technologies for this, among which we have:

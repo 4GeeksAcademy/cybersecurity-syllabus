@@ -1,11 +1,14 @@
 ---
-title: "Importancia del cumplimiento legal y normativo en Ciberseguridad"
-subtitle: "Descubre el papel vital del cumplimiento legal y normativo en la ciberseguridad. Conoce los estándares ISO 27001, ENS y NIST."
-tags: ["ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Importancia del cumplimiento legal y normativo en Ciberseguridad
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre la importancia del cumplimiento legal y normativo en ciberseguridad.
+  Aprende sobre ISO 27001, ENS y NIST para proteger tu información.
 ---
-
 El cumplimiento legal y normativo en ciberseguridad es un aspecto crítico en la protección de la información y la mitigación de riesgos en el mundo digital. Su historia y su importancia se entrelazan con la evolución de las amenazas cibernéticas y la necesidad de regulaciones y estándares para abordar estos desafíos.
 
 La historia del cumplimiento legal y normativo en ciberseguridad se puede rastrear desde los primeros días de la informática y las redes. A medida que las organizaciones comenzaron a adoptar tecnologías de información y comunicación, surgieron desafíos relacionados con la seguridad de los datos y la privacidad. Sin embargo, fue en la última década del siglo XX cuando la ciberseguridad empezó a recibir una atención más significativa.
