@@ -2,6 +2,7 @@
 
 title: "How to Prepare for Handling a Security Incident or Attack"
 technologies: ["cybersecurity incident management", "cybersecurity"]
+description: "This lesson provides a practical guide on preparing for and effectively managing a cyberattack, covering everything from forming a response team to implementing communication policies. Learn how to keep your systems updated, use analysis tools, and apply best security practices to protect your organization."
 keyword_us: prepare for cyber attack 16 - 60
 
 ---
