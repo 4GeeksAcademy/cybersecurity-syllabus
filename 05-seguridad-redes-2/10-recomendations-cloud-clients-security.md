@@ -1,7 +1,7 @@
 ---
 title: "Security Checklist Recommendations for Cloud Clients"
 subtitle: "Discover the Top 10 Security Best Practices for Cloud Clients: From Data Protection to Operational Security and User Management"
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "cloud-security"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
