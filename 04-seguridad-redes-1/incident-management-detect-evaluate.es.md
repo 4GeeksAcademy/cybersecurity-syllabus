@@ -1,7 +1,7 @@
 ---
 title: "Deteccion y respuesta de un incidente de ciberseguridad"
 technologies: ["ciberseguridad", "manejo-de-incidentes-de-ciberseguridad"]
-description: In this article, you will learn how to effectively detect and respond to cybersecurity incidents; understand the different mechanisms for identifying security breaches, how to analyze logs and classify incidents, and how to prioritize them based on their impact and severity. Additionally, you'll learn about response times and the importance of systematic, coordinated incident management.
+description: Este artículo ofrece una guía completa sobre cómo las empresas pueden estructurar un proceso de reporte de incidentes, implementar estrategias para la toma de decisiones oportuna y prevenir la propagación del incidente. Además, detalla cómo manejar las actividades posteriores al incidente y preparar un informe que incluya las lecciones aprendidas. Finalmente, identifica todos los roles involucrados en la gestión de incidentes para garantizar una respuesta coordinada y efectiva.
 
 ---
 
