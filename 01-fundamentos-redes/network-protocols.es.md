@@ -1,7 +1,7 @@
 ---
 title: "Protocolos de red"
 subtitle: "Descifrando protocolos de red: pilares digitales para la interoperabilidad, confiabilidad, seguridad, eficiencia y escalabilidad en Pentesting"
-tags: ["redes"]
+tags: ["redes", "http"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
