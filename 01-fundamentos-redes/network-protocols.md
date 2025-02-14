@@ -1,7 +1,7 @@
 ---
 title: "Network Protocols"
 subtitle: "Deciphering Network Protocols: Digital Pillars for Interoperability, Reliability, Security, Efficiency, and Scalability in Pentesting."
-tags: ["networks"]
+tags: ["networks", "http"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
