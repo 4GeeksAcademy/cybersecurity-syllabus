@@ -2,7 +2,7 @@
 
 title: "Data Security and Privacy"
 subtitle: "Essential Fundamentals of Data Security and privacy of information: Protection and Practices for Safeguarding Information inside companies by controlling the people, the processes and the technology"
-tags: ["networks"]
+tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 keyword: "data security and privacy - 26 600"
 
