@@ -4,7 +4,7 @@
     "name": "ISO 27001 Fundamentals",
     "difficulty": "BEGINNER",
     "technologies": ["iso-27001", "cybersecurity", "isms"],
-    "main": "Test your knowledge of the fundamentals of ISO 27001, its implementation, and certification process",
+    "main": "Test your knowledge of ISO 27001 fundamentals, how to implement it, and the steps involved in the certification process for better security practices.",
     "results": "Congratulations! You now have a solid understanding of ISO 27001 fundamentals and its importance in information security management.",
     "badges": [
       { "slug": "iso_27001_expert", "points": 10 }
