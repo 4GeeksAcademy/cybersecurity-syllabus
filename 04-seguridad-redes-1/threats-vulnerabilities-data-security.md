@@ -1,6 +1,6 @@
 ---
 title: "Vulnerabilities and Threats to Data Security"
-subtitle: "Protecting Information: Threats, Vulnerabilities, and Security Measures"
+subtitle: "Protecting information from threats and vulnerabilities through effective security measures. Learn about cybersecurity risks and how to implement solutions to ensure data protection, maintaining the confidentiality, integrity, and availability of information."
 tags: ["data security", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
