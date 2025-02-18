@@ -1,7 +1,7 @@
 ---
 title: "Basics in Network Security"
 subtitle: "Explore the critical aspects of network security, including authentication, access control, threat management, and data protection."
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "network-security"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
