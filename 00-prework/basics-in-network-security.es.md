@@ -1,7 +1,7 @@
 ---
 title: "Seguridad en la red"
 subtitle: "Explora los aspectos críticos de la seguridad de la red, incluida la autenticación, el control de acceso, la gestión de amenazas y la protección de datos."
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "seguridad-en-redes"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
