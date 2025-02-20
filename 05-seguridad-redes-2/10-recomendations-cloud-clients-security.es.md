@@ -46,7 +46,7 @@ El proveedor de la nube también debe ofrecer funcionalidad para implementar pro
 
 Cuando se considera un proveedor de servicios en la nube, la seguridad y el cumplimiento van de la mano. Deben cumplir los requisitos de cumplimiento global que son validados por una organización tercera. Usted desea un proveedor de servicios en la nube que siga las mejores prácticas de la industria en materia de Cloud Security e idealmente tenga una certificación reconocida.
 
-El programa de Registro de Seguridad, Confianza y Garantía de la Alianza de Cloud Security (STAR) es un buen indicador. Además, si usted está operando en una industria altamente regulada – donde HIPPA, PCI-DSS, y [GDPR](https://kinsta.com/es/blog/cumplimiento-gdpr/) podrían aplicarse – también tendrá que identificar un proveedor con certificación específica de la industria.
+El programa de Registro de Seguridad, Confianza y Garantía de la Alianza de Cloud Security (STAR) es un buen indicador. Además, si usted está operando en una industria altamente regulada – donde HIPPA, PCI-DSS y [GDPR](https://kinsta.com/es/blog/cumplimiento-gdpr/) podrían aplicarse – también tendrá que identificar un proveedor con certificación específica de la industria.
 
 Para asegurar que sus esfuerzos de cumplimiento son rentables y eficientes, el proveedor de servicios en la nube debe ofrecerle la posibilidad de heredar sus controles de seguridad en sus propios programas de cumplimiento y certificación.
 
