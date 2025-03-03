@@ -1,7 +1,7 @@
 ---
 title: "Introducción a las tecnologías de información"
 subtitle: "Explora los fundamentos de IT y TICs, lenguajes de programación, comprende la importancia de la ciberseguridad y sumérgete en la historia de la informática."
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "IT", "TIC"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
