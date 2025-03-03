@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Information Technology"
 subtitle: "Explore the basics of IT and ICT, programming languages, understand the importance of cybersecurity and dive into the history of computer science."
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "IT", "ICT"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
