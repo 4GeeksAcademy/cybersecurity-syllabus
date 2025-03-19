@@ -1,7 +1,7 @@
 ---
 title: "Gestión de incidentes de seguridad"
 subtitle: "Explora las funciones esenciales de la gestión de incidentes de seguridad. Aprenda cómo las organizaciones detectan, responden y mitigan las amenazas a la seguridad para minimizar los daños y cumplir la normativa."
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "gestion-incidentes"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
