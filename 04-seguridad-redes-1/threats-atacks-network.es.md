@@ -166,7 +166,7 @@ Para limitar la información que vamos a proporcionar a un atacante en un escane
 - Cerrar todos los puertos en el firewall, excepto los que tengan que estar abiertos para el buen funcionamiento del sistema.
 - Utilizar una política del firewall restrictiva, solamente se abre lo que se vaya a utilizar.
 - Cerrar servicios del sistema operativo que no sean necesarios.
-- Configurar los servicios web, SSH, FTP de tal forma que nos proporcionen información como el número de versión, para evitar la explotación de posibles vulnerabilidades.
+- Configurar los servicios web, SSH, FTP de tal forma que no proporcionen información como el número de versión, para evitar la explotación de posibles vulnerabilidades.
 - Usar TCP Wrappers, un encapsulador de TCP que darán al administrador mayor flexibilidad para permitir o denegar el acceso a determinados servicios.
 - Hacer uso de programas como fail2ban para bloquear direcciones IP que realicen ataques.
 - Usar IDS/IPS como Snort o Suricata, para que bloqueen las IPs de los atacantes.
