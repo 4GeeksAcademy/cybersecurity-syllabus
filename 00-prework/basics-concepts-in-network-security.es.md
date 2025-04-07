@@ -1,7 +1,7 @@
 ---
 title: "Seguridad de red Básica"
 subtitle: "¡Aprende los fundamentos de la seguridad de red! Descubre cómo configurar reglas de filtrado de paquetes en firewalls para proteger tu red de vulnerabilidades."
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "redes"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
