@@ -1,6 +1,6 @@
 ---
 title: "Basics in Network security"
-subtitle: "Learn how to enhance network security by configuring packet filtering rules in a firewall."
+subtitle: "Learn the basics of network security! Discover how to configure packet filtering rules in firewalls to protect your network from vulnerabilities."
 tags: ["networking", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
