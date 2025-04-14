@@ -1,7 +1,7 @@
 ---
 title: "What is VirtualBox?"
-subtitle: "Learn how this powerful tool works, and learn how to create a virtual machine."
-tags: ["cybersecurity"]
+subtitle: "Learn how to use VirtualBox, a free tool that allows you to create and manage virtual machines. Discover how to install operating systems, allocate resources such as CPU, RAM, and storage, and configure networks to safely simulate different environments."
+tags: ["cybersecurity", "virtualbox"]
 authors: ["arnaldoperez"]
 
 ---
