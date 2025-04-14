@@ -1,7 +1,7 @@
 ---
 title: "Introducción a VirtualBox"
-subtitle: "Conoce como funciona esta poderosa herramienta, y aprende a crear una maquina virtual."
-tags: ["cybersecurity"]
+subtitle: "Aprende a usar VirtualBox, una herramienta gratuita que permite crear y administrar máquinas virtuales. Descubre cómo instalar sistemas operativos, asignar recursos como CPU, RAM y almacenamiento, y configurar redes para simular distintos entornos de forma segura."
+tags: ["ciberseguridad", "virtualbox"]
 authors: ["arnaldoperez"]
 
 ---
