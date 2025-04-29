@@ -1,7 +1,7 @@
 ---
 title: "Network Troubleshooting"
 subtitle: "Mastering Network Troubleshooting: Diagnostic Tools, Problem Identification, Resolution, and Event Monitoring for Optimal Performance."
-tags: ["networks"]
+tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
