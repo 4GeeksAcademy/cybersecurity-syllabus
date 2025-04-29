@@ -1,7 +1,7 @@
 ---
 title: "Solución de problemas de red"
 subtitle: "Domina la resolución de problemas de la red: herramientas de diagnóstico, identificación de problemas, resolución y monitoreo de eventos para un rendimiento óptimo."
-tags: ["redes"]
+tags: ["redes", "networking", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
