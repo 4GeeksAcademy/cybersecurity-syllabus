@@ -1,7 +1,7 @@
 ---
 title: "Servicios de red"
-subtitle: "Conoce como configurar los servicios básicos de red para mejorar la seguridad de tu servidor."
-tags: ["linux"]
+subtitle: "Aprende a configurar servicios de red esenciales para la seguridad de su servidor. Domina la configuración de IP, DNS, HTTP y FTP con nuestra guía paso a paso."
+tags: ["linux", "networking", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
