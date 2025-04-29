@@ -2,7 +2,7 @@
 
 title: "Network Threats, Vulnerabilities, and Security Procedures"
 subtitle: "Network Security: Threats, Vulnerabilities, and Defense Strategies. Learn to Combat DoS, DDoS, MITM Attacks, and More"
-tags: ["networks"]
+tags: ["networks", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
