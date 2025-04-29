@@ -1,7 +1,7 @@
 ---
 title: "Network Services"
-subtitle: "Learn how to configure basic network services to improve your server's security."
-tags: ["linux"]
+subtitle: "Learn how to configure essential network services for your server’s security. Master IP settings, DNS, HTTP, and FTP with our step-by-step guide!"
+tags: ["linux", "networking", "cybersecurity"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---
