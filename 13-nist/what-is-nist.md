@@ -1,66 +1,66 @@
 ---
-title: "Qué es NIST y su importancia en la ciberseguridad"
-subtitle: "🛡️ Comprendiendo los fundamentos del Marco de Ciberseguridad NIST, su importancia en la gestión de la seguridad de la información y su implementación"
+title: "What is NIST and Its Importance in Cybersecurity"
+subtitle: "🛡️ Understanding the fundamentals of the NIST Cybersecurity Framework, its importance in information security management, and its implementation"
 tags: ["NIST", "cybersecurity"]
 authors: ["alesanchezr"]
 
 ---
 
-Uno de los marcos más utilizando en esta área es el marco NIST ya ayudara a tener planes de acción en casos de una amenaza que pueda afectar la continuidad de negocios, asi que te explicamos qué tan importante es este marco para nuestra area!
+One of the most widely used frameworks in this area is the NIST framework, which helps create action plans in case of threats that could affect business continuity. Here, we explain why this framework is so important for our field!
 
-## ¿Qué es NIST?
+## What is NIST?
 
-NIST (Instituto Nacional de Estándares y Tecnología de Estados Unidos) es una agencia que desarrolla y promueve estándares en tecnología y seguridad. 
+NIST (National Institute of Standards and Technology of the United States) is an agency that develops and promotes standards in technology and security.
 
-> 💡 Aunque NIST es una agencia estadounidense, su Marco de Ciberseguridad no está limitado solo a los Estados Unidos. De hecho, se ha adoptado y adaptado globalmente.
+> 💡 Although NIST is a U.S. agency, its Cybersecurity Framework is not limited to the United States. In fact, it has been adopted and adapted globally.
 
-Es crucial en ciberseguridad por:
+It is crucial in cybersecurity because it:
 
-1. Desarrollar estándares para sistemas, seguridad informática y otras áreas tecnológicas.
-2. Garantizar compatibilidad y seguridad en sistemas y redes.
-3. Proporcionar el Marco de Ciberseguridad NIST, una guía para evaluar y mejorar la postura de ciberseguridad en organizaciones.
-4. Realizar investigaciones sobre amenazas y vulnerabilidades cibernéticas.
-5. Impulsar la innovación en soluciones de protección para sistemas y redes.
+1. Develops standards for systems, IT security, and other technological areas.
+2. Ensures compatibility and security in systems and networks.
+3. Provides the NIST Cybersecurity Framework, a guide to assess and improve cybersecurity posture in organizations.
+4. Conducts research on cyber threats and vulnerabilities.
+5. Drives innovation in protection solutions for systems and networks.
 
 ![Nist](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/nist.png)
 
-## Introducción al marco de ciberseguridad de NIST
+## Introduction to the NIST Cybersecurity Framework
 
-El marco de ciberseguridad de NIST es una guía integral para evaluar y gestionar la ciberseguridad en organizaciones. Sus principales características son:
+The NIST Cybersecurity Framework is a comprehensive guide for assessing and managing cybersecurity in organizations. Its main features are:
 
-1. Enfoque estructurado basado en mejores prácticas.
-2. Promueve la resiliencia sistemática frente a vulnerabilidades y amenazas.
-3. Proporciona procedimientos para proteger contra ciberamenazas.
-4. Aborda obligaciones legales y morales de seguridad y privacidad.
-5. Ofrece flexibilidad y adaptabilidad a necesidades específicas.
-6. Se actualiza regularmente para mantenerse relevante ante nuevas amenazas.
+1. Structured approach based on best practices.
+2. Promotes systematic resilience against vulnerabilities and threats.
+3. Provides procedures to protect against cyber threats.
+4. Addresses legal and moral obligations regarding security and privacy.
+5. Offers flexibility and adaptability to specific needs.
+6. Is regularly updated to remain relevant to new threats.
 
-Este marco se ha convertido en una referencia popular en el área de tecnología por su enfoque integral y adaptable a los desafíos de seguridad de la información.
+This framework has become a popular reference in the technology field due to its comprehensive and adaptable approach to information security challenges.
 
-### Objetivos y beneficios de la implementación del Marco de ciberseguridad de NIST
+### Objectives and Benefits of Implementing the NIST Cybersecurity Framework
 
-> 🔥 El objetivo principal del Marco de Ciberseguridad del NIST es ayudar a las organizaciones a comprender y gestionar los riesgos cibernéticos de manera efectiva. 
+> 🔥 The main objective of the NIST Cybersecurity Framework is to help organizations understand and manage cyber risks effectively.
 
-El marco se basa en cinco funciones principales: 
+The framework is based on five main functions:
 
-✅ Identificar.
+✅ Identify.
 
-✅ Proteger.
+✅ Protect.
 
-✅ Detectar.
+✅ Detect.
 
-✅ Responder.
+✅ Respond.
 
-✅ Recuperar. 
+✅ Recover.
 
-Estas funciones se aplican a través de una serie de categorías y subcategorías que abordan aspectos específicos de la ciberseguridad, como la gestión de riesgos, la protección de datos, la detección de amenazas y la respuesta a incidentes.
+These functions are applied through a series of categories and subcategories that address specific aspects of cybersecurity, such as risk management, data protection, threat detection, and incident response.
 
-En resumen, el marco de ciberseguridad NIST tiene varios objetivos clave:
+In summary, the NIST Cybersecurity Framework has several key objectives:
 
-1. Mejorar la postura de ciberseguridad de las organizaciones, identificando áreas de mejora y estableciendo metas claras.
-2. Fomentar una cultura de ciberseguridad en toda la organización, promoviendo la conciencia y responsabilidad de todos los miembros.
-3. Ayudar a cumplir con requisitos normativos y regulatorios en materia de ciberseguridad.
-4. Evaluar y gestionar riesgos cibernéticos de manera efectiva.
-5. Fortalecer la capacidad de proteger activos de información y responder a ciberamenazas.
+1. Improve the cybersecurity posture of organizations by identifying areas for improvement and setting clear goals.
+2. Foster a culture of cybersecurity throughout the organization, promoting awareness and responsibility among all members.
+3. Help comply with cybersecurity regulatory and legal requirements.
+4. Effectively assess and manage cyber risks.
+5. Strengthen the ability to protect information assets and respond to cyber threats.
 
-La implementación de este marco es crucial para establecer una sólida cultura de seguridad y cumplir con estándares de la industria.
+Implementing this framework is crucial for establishing a strong security culture and meeting industry standards.
