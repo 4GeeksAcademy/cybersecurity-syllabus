@@ -1,0 +1,102 @@
+{
+  "info": {
+    "slug": "nist-cybersecurity-framework",
+    "name": "NIST Cybersecurity Framework",
+    "difficulty": "BEGINNER",
+    "technologies": ["nist", "cybersecurity"],
+    "main": "Test your knowledge of the principles, functions, and best practices of the NIST Cybersecurity Framework.",
+    "results": "Congratulations! You now have a solid understanding of how to implement and manage cybersecurity using the NIST Framework.",
+    "badges": [
+      { "slug": "nist_foundations", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "What is the NIST Framework?",
+      "a": [
+        { "option": "A set of activities and practices to manage an organization's cybersecurity risks", "correct": true },
+        { "option": "A practical guide for setting up a security operations center", "correct": false },
+        { "option": "A regulation on how information must be stored in an organization", "correct": false }
+      ]
+    },
+    {
+      "q": "What is the first activity to perform in the NIST Cybersecurity Framework?",
+      "a": [
+        { "option": "Identify critical systems and information assets", "correct": true },
+        { "option": "Establish policies for data storage", "correct": false },
+        { "option": "Create access controls for information systems", "correct": false }
+      ]
+    },
+    {
+      "q": "What is the first step when starting a cybersecurity plan using the NIST Framework?",
+      "a": [
+        { "option": "Identify and classify information assets, evaluate threats and vulnerabilities, and prioritize risks", "correct": true },
+        { "option": "Implement access controls and create backups", "correct": false },
+        { "option": "Review previous incidents and contact legal", "correct": false }
+      ]
+    },
+    {
+      "q": "What measures can you implement to protect information systems?",
+      "a": [
+        { "option": "Access controls, encryption, firewalls, employee training, clear policies, and regular backups", "correct": true },
+        { "option": "Only update software regularly", "correct": false },
+        { "option": "Limit internet access to employees", "correct": false }
+      ]
+    },
+    {
+      "q": "What does the incident detection and response process look like?",
+      "a": [
+        { "option": "Monitoring, planned response, analysis, containment, eradication, recovery, and lessons learned", "correct": true },
+        { "option": "Shut down systems, change passwords, and reboot servers", "correct": false },
+        { "option": "Wait for antivirus vendor confirmation before acting", "correct": false }
+      ]
+    },
+    {
+      "q": "What is the approach to recover systems after a cyberattack?",
+      "a": [
+        { "option": "Activate business continuity plans, restore from backups, apply patches, and monitor recovery", "correct": true },
+        { "option": "Call external tech support to assess damage", "correct": false },
+        { "option": "Format everything and restart without backups", "correct": false }
+      ]
+    },
+    {
+      "q": "What is the best way to control the asset identification process?",
+      "a": [
+        { "option": "Tagging each asset with physical labels", "correct": false },
+        { "option": "Creating an inventory with detailed asset information", "correct": true },
+        { "option": "Asking managers to provide the asset list", "correct": false }
+      ]
+    },
+    {
+      "q": "What is the goal of an impact assessment?",
+      "a": [
+        { "option": "The physical impact on information assets", "correct": false },
+        { "option": "The impact of implementing the NIST Framework on the organization", "correct": false },
+        { "option": "The impact of a security incident on the confidentiality, availability, and integrity of information", "correct": true }
+      ]
+    },
+    {
+      "q": "How can we detect security events?",
+      "a": [
+        { "option": "Through event monitoring", "correct": true },
+        { "option": "Through log analysis", "correct": true },
+        { "option": "Through communication with other departments", "correct": true }
+      ]
+    },
+    {
+      "q": "Once an incident is detected, what is the next step?",
+      "a": [
+        { "option": "Activate the incident response plan", "correct": true },
+        { "option": "Create backups", "correct": false },
+        { "option": "Report the incident and wait for instructions", "correct": false }
+      ]
+    },
+    {
+      "q": "It is good practice to perform backups of critical data only once.",
+      "a": [
+        { "option": "True", "correct": false },
+        { "option": "False", "correct": true }
+      ]
+    }
+  ]
+}

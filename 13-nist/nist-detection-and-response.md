@@ -1,57 +1,62 @@
-# Lectura 5 📕: Detección y respuesta ante incidentes de seguridad
+---
+title: "Detection and Response to Incidents in the NIST Framework"
+subtitle: "🚨 Applying monitoring, forensic analysis, and response plans to strengthen resilience against cyber threats"
+tags: ["NIST", "detection", "incident response", "cybersecurity"]
+authors: ["rosinni"]
+---
 
-La detección y respuesta ante incidentes de seguridad es una de las funciones más importantes del marco de ciberseguridad del NIST y de tus funciones como analista de ciberseguridad dentro de una organización. En esta función nos concentramos en la identificación temprana de actividades sospechosas o maliciosas en los sistemas de información, mediante la implementación de herramientas y tecnologías de monitoreo como sistemas de detección de intrusos y análisis de logs.
+Detection and response to security incidents is one of the most important functions of the NIST cybersecurity framework and of your role as a cybersecurity analyst within an organization. In this function, we focus on the early identification of suspicious or malicious activities in information systems, through the implementation of monitoring tools and technologies such as intrusion detection systems and log analysis.
 
-Una organización debe abordar los problemas emergentes y actuales identificando políticas nuevas o revisadas, procedimientos u operaciones y sus factores de riesgos, el NIST Framework desarrolló varias cláusulas para ir alineados con las necesidades de una organización.
+An organization must address emerging and current issues by identifying new or revised policies, procedures, operations, and their risk factors. The NIST Framework developed several clauses to align with the needs of an organization.
 
-- **Monitoreo y detección de eventos de seguridad.**
+- **Monitoring and detection of security events.**
 
-La identificación de eventos y la verificación de la efectividad de las medidas tomadas son determinadas por el monitoreo y detección de eventos de seguridad, El monitoreo de eventos de seguridad implica la supervisión constante de los sistemas de información en busca de actividades sospechosas o maliciosas, lo ideal sería lograr un monitoreo efectivo a través de estrategias de monitoreo de la red de la organización y contar con una infraestructura de seguridad diseñado para la detección de anomalías, con herramientas como firewall, IDS e IPS.
+The identification of events and the verification of the effectiveness of the measures taken are determined by the monitoring and detection of security events. Security event monitoring involves the constant supervision of information systems for suspicious or malicious activities. Ideally, effective monitoring is achieved through network monitoring strategies and a security infrastructure designed for anomaly detection, with tools such as firewalls, IDS, and IPS.
 
-Durante el monitoreo buscaremos toda conexión, dispositivo o software no autorizado, también podemos reforzar las debilidades mediante escaneos de vulnerabilidades.
+During monitoring, we look for any unauthorized connection, device, or software. We can also reinforce weaknesses through vulnerability scans.
 
-El marco del NIST recomienda seguir un enfoque de cuatro fases para el monitoreo y detección de eventos de seguridad: planificación, implementación, evaluación y mejora.
+The NIST framework recommends following a four-phase approach for monitoring and detecting security events: planning, implementation, evaluation, and improvement.
 
-En la fase de planificación, las organizaciones deben definir sus objetivos de monitoreo y detección, así como establecer políticas y procedimientos claros. También es importante identificar los activos críticos y los eventos de seguridad que se deben monitorear, y establecer criterios para la generación de alertas.
+In the planning phase, organizations must define their monitoring and detection objectives, as well as establish clear policies and procedures. It is also important to identify critical assets and the security events to be monitored, and to establish criteria for alert generation.
 
-La fase de implementación implica la selección e implementación de las herramientas y tecnologías de monitoreo adecuadas. Esto puede incluir la configuración de sistemas de detección de intrusiones, la implementación de soluciones de análisis de registros y la configuración de alertas personalizadas. Además, se deben establecer mecanismos para recopilar y almacenar los datos de eventos de seguridad de manera segura.
+The implementation phase involves selecting and implementing the appropriate monitoring tools and technologies. This may include configuring intrusion detection systems, implementing log analysis solutions, and setting up custom alerts. In addition, mechanisms must be established to securely collect and store security event data.
 
-Una vez que se ha implementado el sistema de monitoreo, es importante evaluar su eficacia. Esto implica revisar regularmente los registros y las alertas generadas, y realizar análisis de tendencias para identificar posibles brechas de seguridad o áreas de mejora. También se deben realizar pruebas de penetración y simulaciones de incidentes para evaluar la capacidad de detección y respuesta del sistema.
+Once the monitoring system has been implemented, it is important to evaluate its effectiveness. This involves regularly reviewing logs and generated alerts, and conducting trend analysis to identify possible security gaps or areas for improvement. Penetration tests and incident simulations should also be conducted to assess the system's detection and response capabilities.
 
-La fase de mejora se centra en la optimización continua del sistema de monitoreo y detección de eventos de seguridad. Esto puede incluir la actualización de las herramientas y tecnologías utilizadas, la capacitación del personal en nuevas técnicas de ataque y la implementación de controles adicionales para mitigar las vulnerabilidades identificadas.
+The improvement phase focuses on the continuous optimization of the security event monitoring and detection system. This may include updating the tools and technologies used, training staff in new attack techniques, and implementing additional controls to mitigate identified vulnerabilities.
 
-- **Gestión de registros y registros de auditoría.**
+- **Log management and audit logs.**
 
-Cuando hablamos de la gestión de registros nos referimos al proceso de recopilación, almacenamiento y análisis de la información generada por los sistemas de información y las actividades relacionadas con la seguridad. Los registros pueden incluir eventos de seguridad, registros de acceso, registros de cambios en la configuración, registros de auditoría, entre otros. Estos registros son valiosos para la identificación de incidentes de seguridad, la investigación forense y el cumplimiento de las regulaciones.
+Log management refers to the process of collecting, storing, and analyzing information generated by information systems and security-related activities. Logs may include security events, access logs, configuration change logs, audit logs, among others. These logs are valuable for identifying security incidents, forensic investigation, and regulatory compliance.
 
-Los registros de auditoría, por su parte, son un subconjunto de los registros de seguridad y se centran en el seguimiento y registro de las actividades de auditoría realizadas en un sistema de información. Estos registros proporcionan una trazabilidad de las acciones llevadas a cabo por los auditores, como revisiones de seguridad, evaluaciones de riesgos y pruebas de penetración. Además, los registros de auditoría permiten la supervisión y el control de las actividades de auditoría, así como la revisión y el análisis de los resultados obtenidos.
+Audit logs, in turn, are a subset of security logs and focus on tracking and recording audit activities performed on an information system. These logs provide traceability of actions carried out by auditors, such as security reviews, risk assessments, and penetration tests. In addition, audit logs allow for the monitoring and control of audit activities, as well as the review and analysis of the results obtained.
 
-Dentro del marco de ciberseguridad en NIST, se establecen una serie de requisitos y mejores prácticas para la gestión de registros y los registros de auditoría. Algunos de estos requisitos incluyen:
+Within the NIST cybersecurity framework, a series of requirements and best practices are established for log management and audit logs. Some of these requirements include:
 
-- Recopilación exhaustiva de registros: Se deben recopilar registros de todas las actividades relevantes para la seguridad de los sistemas de información, incluyendo eventos de seguridad, cambios en la configuración y acciones de los usuarios.
-- Almacenamiento seguro: Los registros deben almacenarse de manera segura para evitar su alteración, pérdida o acceso no autorizado. Se recomienda utilizar técnicas de cifrado y copias de seguridad periódicas.
-- Retención adecuada: Los registros deben conservarse durante un período de tiempo adecuado, de acuerdo con las regulaciones y políticas internas de la organización. Esto permite la revisión y el análisis de los registros en caso de incidentes o auditorías.
-- Protección de la privacidad: Es importante garantizar la protección de la privacidad de los datos contenidos en los registros. Se deben aplicar medidas de anonimización y protección de datos personales, de acuerdo con las regulaciones vigentes.
+- Comprehensive log collection: Logs of all activities relevant to the security of information systems must be collected, including security events, configuration changes, and user actions.
+- Secure storage: Logs must be stored securely to prevent alteration, loss, or unauthorized access. It is recommended to use encryption techniques and periodic backups.
+- Proper retention: Logs must be retained for an appropriate period, in accordance with regulations and the organization's internal policies. This allows for the review and analysis of logs in case of incidents or audits.
+- Privacy protection: It is important to ensure the protection of the privacy of the data contained in the logs. Anonymization and personal data protection measures must be applied, in accordance with current regulations.
 
-- **Respuesta a incidentes y recuperación de datos.**
+- **Incident response and data recovery.**
 
-La respuesta a incidentes son un conjunto de acciones y procedimientos que se llevan a cabo para detectar, analizar y responder a los incidentes de seguridad en un sistema de información. Estos incidentes pueden incluir ataques cibernéticos, brechas de seguridad, malware, robo de datos, entre otros. La respuesta a incidentes tiene como objetivo principal minimizar el impacto de los incidentes y restaurar la operatividad normal del sistema de información lo más rápido posible.
+Incident response is a set of actions and procedures carried out to detect, analyze, and respond to security incidents in an information system. These incidents may include cyberattacks, security breaches, malware, data theft, among others. The main objective of incident response is to minimize the impact of incidents and restore the normal operation of the information system as quickly as possible.
 
-El NIST Framework establecen algunas buenas prácticas para un buen cumplimiento de las respuestas de incidentes: Entre esas buenas prácticas tenemos
+The NIST Framework establishes some best practices for effective incident response. Among these best practices are:
 
-- Plan de respuesta a incidentes: Se debe desarrollar y mantener un plan de respuesta a incidentes que establezca los roles y responsabilidades de los miembros del equipo de respuesta, los procedimientos a seguir y las herramientas a utilizar durante un incidente de seguridad.
-- Sistemas de detección temprano: Se deben implementar sistemas de detección de intrusiones y monitoreo de seguridad para identificar rápidamente los incidentes de seguridad. Esto permite una respuesta más rápida y efectiva.
-- Evaluación y clasificación de incidentes: Los incidentes deben ser evaluados y clasificados según su gravedad y el impacto en el sistema de información. Esto ayuda a priorizar las acciones de respuesta y asignar los recursos adecuados.
-- Contención y mitigación: Se deben tomar medidas para contener y mitigar los efectos de los incidentes de seguridad. Esto puede incluir el aislamiento de sistemas comprometidos, la eliminación de malware y la restauración de servicios críticos.
-- Investigación forense: En casos de incidentes graves, se debe llevar a cabo una investigación forense para determinar el origen y la causa del incidente. Esto ayuda a prevenir futuros incidentes y fortalecer las medidas de seguridad.
+- Incident response plan: An incident response plan must be developed and maintained, establishing the roles and responsibilities of the response team members, the procedures to follow, and the tools to use during a security incident.
+- Early detection systems: Intrusion detection and security monitoring systems must be implemented to quickly identify security incidents. This enables a faster and more effective response.
+- Incident assessment and classification: Incidents must be assessed and classified according to their severity and impact on the information system. This helps prioritize response actions and allocate appropriate resources.
+- Containment and mitigation: Measures must be taken to contain and mitigate the effects of security incidents. This may include isolating compromised systems, removing malware, and restoring critical services.
+- Forensic investigation: In cases of serious incidents, a forensic investigation must be carried out to determine the origin and cause of the incident. This helps prevent future incidents and strengthen security measures.
 
-La recuperación de datos, por su parte, se refiere al proceso de restaurar la integridad y disponibilidad de los datos después de un incidente de seguridad. Esto implica la recuperación de copias de seguridad, la reconstrucción de datos dañados o perdidos y la implementación de medidas para prevenir futuras pérdidas de datos.
+Data recovery, in turn, refers to the process of restoring the integrity and availability of data after a security incident. This involves recovering backups, reconstructing damaged or lost data, and implementing measures to prevent future data loss.
 
-Algunas mejores prácticas para la recuperación de datos dentro del marco de ciberseguridad en NIST incluyen:
+Some best practices for data recovery within the NIST cybersecurity framework include:
 
-- Copias de seguridad regulares: Se deben realizar copias de seguridad periódicas de los datos críticos y almacenarlas en ubicaciones seguras. Esto garantiza que los datos puedan ser restaurados en caso de pérdida o daño.
-- Pruebas de recuperación: Se deben realizar pruebas periódicas de recuperación de datos para verificar la efectividad de los procedimientos y las copias de seguridad. Esto ayuda a identificar posibles problemas y mejorar los procesos de recuperación.
-- Seguridad de las copias de seguridad: Las copias de seguridad deben estar protegidas mediante técnicas de cifrado y acceso restringido. Esto evita el acceso no autorizado a los datos de respaldo.
-- Documentación y actualización: Se debe mantener una documentación clara y actualizada de los procedimientos de recuperación de datos. Esto facilita la respuesta rápida y efectiva en caso de incidentes.
+- Regular backups: Periodic backups of critical data must be performed and stored in secure locations. This ensures that data can be restored in case of loss or damage.
+- Recovery testing: Periodic data recovery tests must be performed to verify the effectiveness of procedures and backups. This helps identify potential problems and improve recovery processes.
+- Backup security: Backups must be protected using encryption techniques and restricted access. This prevents unauthorized access to backup data.
+- Documentation and updating: Clear and up-to-date documentation of data recovery procedures must be maintained. This facilitates a quick and effective response in case of incidents.
 
-> ☝ Una buena gestión en la detección y respuesta ante incidentes de ciberseguridad, marcarán la diferencia en el porcentaje de éxito que podríamos tener para defendernos ante una anomalía o amenaza dentro de la organización, nuestro trabajo como analista de ciberseguridad es velar que todas las funciones y herramientas para la el cumplimento de una buena detección y planes de respuesta ante incidentes están en sincronía con las necesidades de la organización.
+> ☝ Good management in the detection and response to cybersecurity incidents will make the difference in the success rate we could have in defending against an anomaly or threat within the organization. Our job as cybersecurity analysts is to ensure that all functions and tools for effective detection and incident response plans are in sync with the organization's needs.

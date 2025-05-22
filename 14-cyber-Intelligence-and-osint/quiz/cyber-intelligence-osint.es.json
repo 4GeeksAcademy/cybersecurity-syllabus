@@ -1,0 +1,87 @@
+{
+  "info": {
+    "slug": "osint-y-ciberinteligencia",
+    "name": "OSINT y Ciberinteligencia",
+    "difficulty": "INTERMEDIATE",
+    "technologies": ["osint", "ciberinteligencia", "ciberseguridad"],
+    "main": "Pon a prueba tus conocimientos sobre recolección de inteligencia mediante fuentes abiertas y evaluación de exposición digital usando técnicas OSINT.",
+    "results": "¡Felicidades! Has demostrado un sólido dominio de las técnicas y principios de OSINT en ciberinteligencia.",
+    "badges": [
+      { "slug": "osint_analyst", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Qué significa hacer OSINT sobre un dominio como example.com?",
+      "a": [
+        { "option": "Recolectar información pública y legal sobre sus activos digitales sin interactuar activamente con sus sistemas", "correct": true },
+        { "option": "Realizar escaneos de puertos y pruebas de intrusión sobre el dominio", "correct": false },
+        { "option": "Enviar correos de phishing a cuentas del dominio para detectar vulnerabilidades", "correct": false },
+        { "option": "Auditar sus sistemas internos mediante acceso remoto controlado", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál de estas herramientas permite visualizar relaciones entre personas, correos, dominios e IPs?",
+      "a": [
+        { "option": "Maltego", "correct": true },
+        { "option": "Shodan", "correct": false },
+        { "option": "theHarvester", "correct": false },
+        { "option": "Spiderfoot", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué tipo de búsqueda permite Google Dorks?",
+      "a": [
+        { "option": "Búsqueda avanzada con operadores para encontrar información sensible indexada", "correct": true },
+        { "option": "Acceso a bases de datos internas de empresas", "correct": false },
+        { "option": "Escaneo de vulnerabilidades en sitios web", "correct": false },
+        { "option": "Detección de malware oculto en páginas web", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es un error común en investigaciones OSINT?",
+      "a": [
+        { "option": "Buscar sin un objetivo definido", "correct": true },
+        { "option": "Usar múltiples fuentes para verificar datos", "correct": false },
+        { "option": "Trabajar desde un entorno anónimo", "correct": false },
+        { "option": "Centrarse en datos verificados y recientes", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito del uso de Shodan en OSINT?",
+      "a": [
+        { "option": "Identificar dispositivos y servicios accesibles públicamente asociados a un dominio o IP", "correct": true },
+        { "option": "Crear direcciones IP falsas para pruebas", "correct": false },
+        { "option": "Simular ataques de denegación de servicio", "correct": false },
+        { "option": "Enviar notificaciones de phishing a usuarios", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué permite detectar Have I Been Pwned?",
+      "a": [
+        { "option": "Filtraciones de credenciales asociadas a correos electrónicos específicos", "correct": true },
+        { "option": "Servicios de hosting disponibles para un dominio", "correct": false },
+        { "option": "Correos electrónicos internos no indexados", "correct": false },
+        { "option": "Versiones de software instaladas en un servidor", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es una buena práctica en recolección OSINT?",
+      "a": [
+        { "option": "Cruzar la información obtenida con múltiples fuentes para verificar su autenticidad", "correct": true },
+        { "option": "Analizar exclusivamente la información que aparece en la primera página de Google", "correct": false },
+        { "option": "Enviar solicitudes de acceso a bases de datos privadas", "correct": false },
+        { "option": "Confiar en foros sin verificar la identidad de los usuarios", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué se busca con la identificación de subdominios como mail.example.com o login.example.com?",
+      "a": [
+        { "option": "Detectar posibles servicios expuestos o rutas de ataque en la infraestructura de una organización", "correct": true },
+        { "option": "Enviar peticiones automatizadas de prueba a esos subdominios", "correct": false },
+        { "option": "Generar phishing activo desde esos dominios", "correct": false },
+        { "option": "Simular tráfico de red dentro de sus servidores", "correct": false }
+      ]
+    }
+  ]
+}
