@@ -1,6 +1,7 @@
 ---
 title: "Fundamentals of Digital Forensics"
 subtitle: "🕵️‍♂️ Modern techniques for investigating cybersecurity incidents and preserving digital evidence"
+description: "Learn the core principles of digital forensics to investigate incidents, preserve evidence, and strengthen the cybersecurity posture of any organization."
 tags: ["cybersecurity", "digital forensics", "digital investigation"]
 authors: ["alesanchezr"]
 ---
