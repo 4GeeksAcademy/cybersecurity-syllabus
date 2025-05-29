@@ -8,107 +8,153 @@ authors: ["alesanchezr"]
 
 El **marco de Ciberseguridad** ó **NIST Framework** es una guía desarrollada para proporcionar un enfoque estructurado para gestionar y mejorar ciberseguridad de una organización. Este framework consta de tres componentes principales: el Núcleo, los perfiles y los planes de acción.
 
-Al hablar del núcleo del NIST Framework (también conocido como core), nos referimos a un conjunto de actividades y prácticas recomendadas para gestionar los riesgos de ciberseguridad de una organización.
+El núcleo del [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) (también conocido como Core) es un conjunto estructurado de resultados deseados y buenas prácticas para gestionar los riesgos de ciberseguridad. Se organiza en seis funciones clave: Gobernar, identificar, proteger, detectar, responder y recuperar. Estas funciones se dividen a su vez en **categorías** y **subcategorías** que ayudan a establecer prioridades, medir capacidades y definir planes de mejora.
 
-El núcleo se divide en cinco funciones principales
+El núcleo se divide en seis funciones principales:
 
-- 🔍 Identificar
-- 🛡️ Proteger
-- 🚨 Detectar
-- 🚑 Responder
-- 🔄 Recuperar
+- Gobernar
+- Identificar
+- Proteger
+- Detectar
+- Responder
+- Recuperar
+
 
 ![Marco de Ciberseguridad de NIST](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/marco-de-ciberseguridad-de-nist.png)
 
-## Funciones detalladas del NIST Framework 🔍
+Cada función del Core contiene **categorías** y **subcategorías** que permiten detallar acciones específicas y objetivos de seguridad, ofreciendo así una estructura flexible pero clara para su aplicación práctica.
 
-### 1) Identificación de los sistemas críticos y activos de información 🏢
+## Funciones del NIST Cybersecurity Framework 2.0
 
-La función de identificación del marco NIST se enfoca en desarrollar una comprensión organizacional para gestionar los riesgos de ciberseguridad. Esto implica:
+El **CSF 2.0** introduce una estructura actualizada con **seis funciones clave** que representan el ciclo completo de gestión del riesgo cibernético. Cada función se compone de **categorías** (grupos temáticos) y **subcategorías** (resultados deseados específicos). Esta organización permite a cualquier organización, pública o privada, adaptarlo según su realidad y madurez.
 
-1. Entender el contexto empresarial y los recursos que apoyan las funciones críticas 🏭
-2. Identificar sistemas críticos, activos de información, vulnerabilidades y amenazas 💻
-3. Crear un inventario completo de activos de información (sistemas, redes, datos, aplicaciones) 📊
-4. Evaluar vulnerabilidades y debilidades en sistemas y redes 🔍
-5. Tomar medidas proactivas para protegerse contra posibles ataques cibernéticos 🛡️
-6. Priorizar esfuerzos de seguridad en línea con las estrategias de gestión de riesgos y necesidades del negocio 📈
+### 1. Gobernar – Gobernanza de la Ciberseguridad
 
-Esta función permite a las organizaciones comprender sus riesgos y tomar medidas efectivas para proteger sus activos críticos.
+| Categoría | Descripción | Subcategorías (ejemplos) |
+|-----------|-------------|---------------------------|
+| GV.RM - Estrategia de Gestión de Riesgos | Estrategia formalizada y comunicada | GV.RM-1: La estrategia de riesgo está documentada y alineada con los objetivos organizacionales |
+| GV.OV - Contexto Organizacional | Comprensión de misión, entorno y obligaciones legales | GV.OV-1: Se identifican responsabilidades y límites regulatorios |
+| GV.PO - Políticas y Procedimientos | Políticas y procedimientos establecidos | GV.PO-1: Las políticas están documentadas y se revisan regularmente |
+| GV.SU - Gestión de Riesgos en la Cadena de Suministro | Riesgos de terceros gestionados eficazmente | GV.SU-1: Existen acuerdos y monitoreo sobre seguridad con proveedores |
 
-#### Las categorías que entran desde esta función son:
 
-| Administración de activos | Identificar los activos físicos y de software dentro de la organización para establecer un programa de administración de activos. 📦 |
-| --- | --- |
-| Ambiente de Negocio | Esto se refiere a todo el ambiente de negocio que apoya a la organización, incluyendo a todo lo que se refiere a todas las partes interesadas dentro para su comprensión y su priorización. 🏢 |
-| Gobernanza | Identificar todas las políticas legales, regulatorias y operacionales de la organización para así definir el programa de gobernanza. 📜 |
-| Evaluación de riesgos | Identificar todas las amenazas y riesgos a los recursos internos y externos de la organización. ⚠️ |
-| Estrategia de administración de riesgos | Identificar cualquier estrategia para manejar los riesgos, estableciendo una tolerancia de riesgos 🎯 |
-| Gestión de riesgos | Identificar todas las estrategias de gestión de riesgos, tales como: definir prioridades, tolerancias de riesgos y asumir el riesgo de las decisiones dentro de la organización. 🧠 |
+### 2. Identificar – Comprensión del contexto
 
-### 2) Protección de los sistemas de información 🛡️
+| Categoría | Descripción | Subcategorías (ejemplos) |
+|-----------|-------------|---------------------------|
+| ID.AM - Gestión de Activos | Inventario completo de activos físicos y digitales | ID.AM-1: Se identifican los dispositivos físicos<br>ID.AM-2: Se identifican los activos de software |
+| ID.BE - Entorno Empresarial | Identificación de funciones y dependencias críticas | ID.BE-1: Se comprenden las funciones críticas<br>ID.BE-2: Se documentan dependencias internas y externas |
+| ID.RA - Evaluación de Riesgos | Evaluación continua de amenazas y vulnerabilidades | ID.RA-1: Se identifican amenazas relevantes<br>ID.RA-2: Se evalúan vulnerabilidades existentes |
+| ID.RM - Gestión de Riesgos | Priorización de riesgos | ID.RM-1: Se determinan niveles aceptables de riesgo<br>ID.RM-2: Se documentan respuestas ante riesgos priorizados |
 
-La función de protección en el marco NIST se enfoca en implementar medidas de seguridad para prevenir y mitigar riesgos cibernéticos. Esto incluye:
 
-1. Protección de activos y sistemas de información 🔒
-2. Gestión de acceso y control de usuarios 🔑
-3. Implementación de políticas y controles de seguridad 📋
-4. Preparación para responder a incidentes 🚨
-5. Limitación del impacto de eventos de ciberseguridad 🛑
+### 3. Proteger – Implementación de salvaguardas
 
-El objetivo principal es reducir la probabilidad y el impacto de ataques cibernéticos mediante medidas preventivas y de mitigación.
+| Categoría | Descripción | Subcategorías (ejemplos) |
+|-----------|-------------|---------------------------|
+| PR.AC - Control de Acceso | Gestión de identidades y control de accesos | PR.AC-1: Solo usuarios autorizados pueden acceder a sistemas |
+| PR.AT - Concientización y Capacitación | Formación continua del personal | PR.AT-1: Se brinda capacitación periódica sobre ciberseguridad |
+| PR.DS - Seguridad de los Datos | Protección de datos en tránsito y reposo | PR.DS-1: La información está cifrada y protegida |
+| PR.IP - Procesos de Protección de la Información | Procedimientos definidos para proteger activos | PR.IP-1: Se aplican configuraciones seguras y gestión de cambios |
+| PR.MA - Mantenimiento | Mantenimiento seguro y documentado | PR.MA-1: Se realizan mantenimientos con control de acceso |
+| PR.PT - Tecnologías de Protección | Tecnologías de protección implementadas | PR.PT-1: Se utilizan firewalls, antivirus, IDS/IPS y control de ejecución |
 
-#### Dentro de las categorías de esta función tenemos
 
-- **Control de acceso y autenticación:** Proteger la administración de identidad dentro de la organización para dar un control de acceso solo a los individuos autorizados. 🔐
-- **Concientización y entrenamiento:** El personal de la organización debe ser educado de acuerdo a sus particulares necesidades de ciberseguridad y la concientización debe ser creada sobre cada responsabilidad de ciberseguridad. 🎓
-- **Seguridad de datos:** Establecer estrategias de seguridad para proteger la confidencialidad, integridad y disponibilidad de la información. 🔏
-- **Procedimientos y procesos de protección de información:** Los sistemas y activos de información deben ser manejados y mantenidos por políticas efectivas de seguridad. 📘
-- **Mantenimiento:** Cualquier reparación o mantenimiento hecho a las instalaciones de los sistemas de seguridad debe estar en concordancia con las políticas y procedimientos de la organización. 🔧
-- **Tecnología de protección:** La seguridad y la resiliencia de los sistemas de información deben ser manejadas por soluciones de tenencia de seguridad. 🖥️
+### 4. Detectar – Identificación de anomalías
 
-### 3) Detección y respuesta ante incidentes de seguridad 🚨
+| Categoría | Descripción | Subcategorías (ejemplos) |
+|-----------|-------------|---------------------------|
+| DE.AE - Anomalías y Eventos | Detección de actividades anómalas | DE.AE-1: Se definen comportamientos esperados<br>DE.AE-2: Se detectan desviaciones |
+| DE.CM - Monitoreo Continuo | Monitoreo continuo de redes y sistemas | DE.CM-1: Se monitorean eventos de seguridad<br>DE.CM-2: Se recogen y analizan logs |
+| DE.DP - Procesos de Detección | Evaluación de efectividad de detección | DE.DP-1: Se revisan los procesos de detección periódicamente |
 
-Esta función implementa sistemas y herramientas de monitoreo para identificar actividades maliciosas o sospechosas en los sistemas organizacionales, como firewalls, sistemas de detección de intrusos y prevención de pérdidas de datos. Una vez detectado un incidente, la respuesta es vital para contener y mitigar los daños. 
 
-El NIST define un ciclo de vida de respuesta a incidentes que consta de cuatro fases principales: preparación, detección y análisis, contención y erradicación, y recuperación. 
+### 5. Responder – Respuesta ante incidentes
 
-Este enfoque estructurado permite a las organizaciones manejar eficazmente los incidentes de seguridad y minimizar su impacto.
+| Categoría | Descripción | Subcategorías (ejemplos) |
+|-----------|-------------|---------------------------|
+| RS.RP - Planificación de respuesta | Preparación para responder a incidentes | RS.RP-1: Existe un plan de respuesta documentado y aprobado |
+| RS.CO - Comunicaciones | Comunicación interna y externa durante incidentes | RS.CO-1: Se establecen contactos para reportar incidentes<br>RS.CO-2: Se informa a las partes interesadas |
+| RS.AN - Análisis | Análisis del impacto del incidente | RS.AN-1: Se analiza el incidente para determinar alcance y causa |
+| RS.MI - Mitigación | Reducción del impacto | RS.MI-1: Se mitigan los efectos del incidente |
+| RS.IM - Mejora | Lecciones aprendidas | RS.IM-1: Se actualizan planes y procedimientos post-incidente |
 
-#### Dentro de las categorías de esta función tenemos
+### 6. Recuperar – Restauración de capacidades
 
-- **Preparación**: En esta etapa realizamos un plan de respuesta ante incidentes que establezca roles y responsabilidades, así como los procedimientos a seguir en caso de un incidente de seguridad. 📝
-- **Detección y análisis:** En esta etapa hacemos usos de herramientas de detección como las que mencionamos anteriormente para identificar y analizar el incidente. Además hacemos una recopilación y examinamos los registro de auditorías y realizamos los análisis forenses para así determinar la naturaleza y alcance del incidente. 🔍
-- **Contención y erradicación:** Una vez sabemos la magnitud del incidente, tomamos las medidas adecuadas para contenerlo y evitar su propagación, esto puede implicar desde la desconexión de sistemas afectados, hasta la eliminación del malware y aplicación de parches de seguridad 🛑
-- **Recuperación:** Después de contener y erradicar el incidente, procedemos a la recuperación de los sistemas afectados. Algunas formas de lograrlo puede ser con la restauración de datos desde copias de seguridad, reconstrucción de sistemas comprometidos o la implementación de medidas adicionales de seguridad 🔄
+| Categoría | Descripción | Subcategorías (ejemplos) |
+|-----------|-------------|---------------------------|
+| RC.RP - Planificación de Recuperación | Planes formales para restauración de servicios | RC.RP-1: Se documentan y prueban planes de recuperación |
+| RC.IM - Mejoras | Mejora continua tras incidentes | RC.IM-1: Se aplican lecciones aprendidas en futuros planes |
+| RC.CO - Comunicaciones | Comunicación efectiva durante recuperación | RC.CO-1: Se comunica el estado de recuperación a partes interesadas |
 
-#### Entre las categorías de la detección dentro del marco de ciberseguridad tenemos:
+> 💡 Esta estructura actualizada permite a las organizaciones realizar diagnósticos más precisos, construir perfiles personalizados y aplicar el Framework como una hoja de ruta realista para mejorar su postura de seguridad cibernética.
 
-| Anomalías y eventos | La organización debe registrar cualquier anomalía detectada y analizarlas para su completo entendimiento. 🔎 |  |
-| --- | --- | --- |
-| Monitoreo de seguridad continuo | Los sistemas de seguridad deben ser monitoreados para así identificar cualquier evento de y así verificar la efectividad en la protección. 👀 |  |
-| Procesos de detección | Son los procesos implementados y probados para anomalías y eventos. 🕵️ |  |
+Además de las funciones, el NIST Framework define cuatro niveles de implementación o madurez organizacional, llamados **Tiers**, que permiten entender hasta qué punto una organización ha integrado la gestión de riesgos en su cultura y operaciones.
 
-### 4) Recuperación y continuidad del negocio 🔄
+## Tiers o niveles de madurez del riesgo
 
-Esta función se centra en garantizar que una organización pueda recuperarse rápidamente de un incidente de seguridad y pueda mantener la continuidad de sus operaciones comerciales mediante planes y medidas de acción que permitan la minimizar el impacto a las operaciones de la organización.
+Los *Tiers* ayudan a una organización a evaluar el grado en que su gestión de riesgos cibernéticos está formalizada, integrada y adaptativa. No representan niveles de madurez obligatorios, sino puntos de referencia para guiar mejoras.
 
-Dentro del marco se recomienda un enfoque sistemático para facilitar el cumpliento de esta función.
+- **Tier 1 – Parcial (Partial)**
+    - La gestión de riesgos es improvisada y sin planificación: se actúa solo cuando ocurre un problema, sin medidas preventivas establecidas.
+    - La organización no tiene procesos formalizados.
+    - No hay una integración entre los objetivos de ciberseguridad y los objetivos del negocio.
+    - La alta dirección rara vez está involucrada.
 
-- **Planeación de respuesta:** Asegurarse que los procesos de planeación de respuesta sean ejecutados durante y después de un incidente. 📅
-- **Comunicaciones:** Las políticas deben ser lo suficientemente flexiones para permitir la coordinación entre todas las partes interesadas tanto internas como externas 📢
-- **Análisis**: Para una respuesta efectiva y recuperación de actividades, se deben de conducir los análisis 📊
-- **Mitigación:** La organización debe manejar actividades apropiadas para detener la expansión y mitigar los efectos de los riesgos de ciberseguridad 🛡️
-- **Mejoras:** Las actividades de mejoras deben ser manejadas desde la experiencia obtenida de cualquier actividad de detección o respuesta actual o pasada 📈
+- **Tier 2 – Informado (Risk Informed)**
+    - Existen procesos de gestión de riesgos, pero no están implementados de manera uniforme.
+    - Algunas funciones están informadas sobre los riesgos cibernéticos.
+    - Las decisiones sobre ciberseguridad se toman parcialmente en base al conocimiento del riesgo.
+    - Falta una alineación clara entre todas las áreas de la organización.
 
-### 5) Gestión de riesgos ⚖️
+- **Tier 3 – Repetible (Repeatable)**
+    - La organización ha desarrollado políticas y procedimientos formales.
+    - Las prácticas de ciberseguridad están documentadas, revisadas y mantenidas.
+    - Hay integración con los objetivos estratégicos.
+    - Se revisan y actualizan planes de respuesta y recuperación.
 
-Esta función se centra en identificar, evaluar y mitigar los riesgos asociados con los activos de información de una organización.
+- **Tier 4 – Adaptativo (Adaptive)**
+    - La organización tiene una cultura de mejora continua.
+    - Se adapta dinámicamente a cambios en el entorno y nuevas amenazas.
+    - Utiliza inteligencia de amenazas para anticiparse a incidentes.
+    - La ciberseguridad es una prioridad en todos los niveles de decisión.
 
-La gestión de riesgos implica un enfoque sistemático y proactivo para identificar y abordar los riesgos de seguridad de la información. El NIST recomienda seguir un proceso de gestión de riesgos que consta de las siguientes etapas:
 
-- **Identificación de activos:** En esta etapa, se identifican y clasifican los activos de información de una organización. Esto puede incluir datos confidenciales, sistemas críticos, infraestructuras de red y cualquier otro elemento que sea valioso para la organización. 🏢
-- **Evaluación de riesgos:** Una vez que se han identificado los activos, se procede a evaluar los riesgos asociados con cada uno de ellos. Esto implica identificar las amenazas potenciales, las vulnerabilidades existentes y el impacto que un incidente de seguridad podría tener en los activos. 🔍
-- **Análisis de riesgos**: En esta etapa, se realiza un análisis detallado de los riesgos identificados. Esto implica evaluar la probabilidad de que ocurra un incidente de seguridad y el impacto potencial en los activos de información. También se pueden utilizar herramientas y técnicas como el análisis cuantitativo y cualitativo de riesgos. 📊
-- **Mitigación de riesgos:** Una vez que se comprenden los riesgos, se desarrollan e implementan medidas de mitigación para reducir la probabilidad de que ocurran incidentes de seguridad y minimizar su impacto. Estas medidas pueden incluir la implementación de controles de seguridad, la actualización de software, la capacitación del personal y la mejora de los procesos internos. 🛡️
+> Estos niveles no son una escala de calidad, sino una herramienta para ayudar a cada organización a entender su punto de partida y planificar mejoras.
 
-> 💡 Comprender estos principios nos ayudará mucho en nuestra carrera como analistas de ciberseguridad, ya en algunas ocasiones podemos entrar a una organización donde no hay ningún sistema de seguridad, y nuestra primera labor será la implementación de la misma. En esos casos podemos usar el Marco de Ciberseguridad del NIST como una guia para así saber por dónde comenzar nuestro trabajo y cuáles pueden ser todos los pasos a seguir.
+## ¿Qué es un perfil en el NIST Cybersecurity Framework?
+
+Un **perfil** en el contexto del NIST CSF es una representación personalizada del **Core** del framework, adaptada a la realidad específica de una organización. No todas las organizaciones enfrentan los mismos riesgos ni disponen de los mismos recursos, por lo que el perfil permite alinear los objetivos de ciberseguridad con las prioridades operativas.
+
+Por ejemplo un perfil podria reflejar lo siguiente:
+
+- Las **prioridades del negocio**: ejemplo, si la continuidad del servicio es más crítica que la confidencialidad de los datos.
+- El **entorno operativo**: incluyendo sector, tamaño, normativas aplicables y complejidad tecnológica.
+- La **tolerancia al riesgo**: cuánto riesgo está dispuesta a aceptar la organización según su apetito y capacidades.
+- Los **recursos disponibles**: tanto humanos como técnicos y presupuestarios.
+
+#### Tipos de perfiles
+
+- **Perfil actual** (*Current Profile*): Describe el estado real de la organización frente a cada subcategoría del Core. Se basa en evidencias, prácticas existentes y evaluaciones internas o externas.
+- **Perfil objetivo** (*Target Profile*): Representa la situación ideal que la organización quiere alcanzar. Se basa en su estrategia, políticas y objetivos de gestión de riesgos.
+
+### ¿Para qué sirve comparar perfiles?
+
+La comparación entre el perfil actual y el perfil objetivo permite:
+
+- Identificar brechas y vulnerabilidades.
+- Priorizar acciones de mejora de acuerdo con el impacto y el esfuerzo.
+- Justificar presupuestos y estrategias de implementación.
+- Medir el progreso a lo largo del tiempo.
+
+> 💡 El perfil es un **instrumento dinámico**, que debe actualizarse regularmente a medida que cambian las amenazas, los recursos o los objetivos del negocio.
+
+## ¿Por qué adoptar el NIST CSF?
+
+- Proporciona un lenguaje común entre equipos técnicos y ejecutivos.
+- Es adaptable a cualquier tamaño o sector organizacional.
+- Permite priorizar inversiones en ciberseguridad según el riesgo.
+- Facilita auditorías y alineación con otras normas como ISO/IEC 27001.
+- Mejora la resiliencia organizacional y la respuesta ante incidentes.
+
+Además que comprender y aplicar estos principios permitirá a los profesionales de ciberseguridad implementar una postura sólida, medible y evolutiva dentro de cualquier organización. Incluso en entornos donde no existen controles previos, el [NIST CSF 2.0](https://www.nist.gov/cyberframework/quick-start-guides) actúa como una hoja de ruta clara y efectiva para comenzar desde cero o mejorar continuamente.

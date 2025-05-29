@@ -1,0 +1,87 @@
+{
+  "info": {
+    "slug": "analisis-forense-digital",
+    "name": "Fundamentos del Análisis Forense Digital",
+    "difficulty": "INTERMEDIATE",
+    "technologies": ["ciberseguridad", "forense", "DFIR"],
+    "main": "Evalúa tus conocimientos sobre las fases, metodologías y mejores prácticas del análisis forense digital.",
+    "results": "¡Felicidades! Has demostrado una comprensión sólida de las prácticas clave del análisis forense digital.",
+    "badges": [
+      { "slug": "digital_forensics_foundations", "points": 20 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Cuál es la finalidad principal del análisis forense digital?",
+      "a": [
+        { "option": "Detectar vulnerabilidades en tiempo real", "correct": false },
+        { "option": "Identificar, preservar y analizar evidencia digital tras un incidente", "correct": true },
+        { "option": "Realizar pruebas de penetración", "correct": false },
+        { "option": "Configurar firewalls y EDRs", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué herramienta es adecuada para capturar una imagen forense de un disco?",
+      "a": [
+        { "option": "Burp Suite", "correct": false },
+        { "option": "FTK Imager", "correct": true },
+        { "option": "Wireshark", "correct": false },
+        { "option": "Metasploit", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Por qué es crucial calcular hashes criptográficos durante la adquisición de evidencia?",
+      "a": [
+        { "option": "Para cifrar los datos antes del análisis", "correct": false },
+        { "option": "Para verificar la integridad y autenticidad de la evidencia", "correct": true },
+        { "option": "Para detectar virus ocultos", "correct": false },
+        { "option": "Para eliminar datos redundantes", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué herramienta se recomienda para el análisis de memoria RAM?",
+      "a": [
+        { "option": "Autopsy", "correct": false },
+        { "option": "Volatility", "correct": true },
+        { "option": "Plaso", "correct": false },
+        { "option": "Splunk", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es una buena práctica durante la fase de análisis?",
+      "a": [
+        { "option": "Modificar directamente la imagen original", "correct": false },
+        { "option": "Correlacionar múltiples fuentes como logs y tráfico de red", "correct": true },
+        { "option": "Eliminar archivos sospechosos encontrados", "correct": false },
+        { "option": "Compartir credenciales del equipo de análisis", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal de la fase de presentación?",
+      "a": [
+        { "option": "Eliminar toda la evidencia tras el análisis", "correct": false },
+        { "option": "Configurar el SIEM tras el incidente", "correct": false },
+        { "option": "Comunicar los hallazgos forenses de forma comprensible y verificable", "correct": true },
+        { "option": "Reinstalar el sistema afectado", "correct": false }
+      ]
+    },
+    {
+      "q": "En el caso práctico presentado, ¿cómo se detectó el incidente?",
+      "a": [
+        { "option": "Se encontró un proceso inusual en RAM", "correct": false },
+        { "option": "Aparecieron archivos cifrados con la extensión .locked", "correct": true },
+        { "option": "Se detectó un puerto abierto en el firewall", "correct": false },
+        { "option": "Se generó un error 404 en el servidor web", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál de estas metodologías se recomienda para análisis forense en entornos corporativos?",
+      "a": [
+        { "option": "DFRWS", "correct": false },
+        { "option": "ACPO", "correct": false },
+        { "option": "SANS DFIR", "correct": true },
+        { "option": "ISO/IEC 27002", "correct": false }
+      ]
+    }
+  ]
+}
