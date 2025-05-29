@@ -1,6 +1,7 @@
 ---
 title: "Fundamentos del Análisis Forense Digital"
 subtitle: "🕵️‍♂️ Técnicas modernas para investigar incidentes de ciberseguridad y preservar evidencias digitales"
+description: "Aprende los principios clave del análisis forense digital para investigar incidentes, preservar evidencias y fortalecer la postura de ciberseguridad de cualquier organización."
 tags: ["ciberseguridad", "análisis forense", "investigación digital"]
 authors: ["alesanchezr"]
 ---
@@ -66,7 +67,7 @@ El **análisis forense digital** es una disciplina crítica dentro de la ciberse
     - Generar líneas de tiempo con herramientas como **Plaso** o **Timesketch** para entender la secuencia de acciones.
     - Correlacionar múltiples fuentes de datos: logs del sistema, tráfico de red, registros de autenticación, etc.
     - Analizar la memoria RAM con herramientas como **Volatility** para detectar procesos ocultos, credenciales en memoria o conexiones activas.
-    - Aplicar una metodología reconocida como [**SANS DFIR**](https://www.sans.org/cyber-security-courses/digital-forensics-incident-response/), [**NIJ (National Institute of Justice)**](https://nij.ojp.gov/library/publications/forensic-examinations-digital-evidence-guide-law-enforcement), o [**ISO/IEC 27037**](https://www.iso.org/standard/44381.html) para garantizar trazabilidad.
+    - Aplicar una metodología reconocida como **SANS DFIR**, **NIJ (National Institute of Justice)**, o [**ISO/IEC 27037**](https://www.iso.org/standard/44381.html) para garantizar trazabilidad.
     - Documentar cada hallazgo con precisión: ubicación, timestamp, herramienta utilizada y hash del archivo si aplica.
     - Usar herramientas confiables como **Autopsy**, **X-Ways Forensics**, **Volatility**, **Log2timeline**, entre otras.
     - No emitir conclusiones sin evidencia validada. Todo hallazgo debe ser reproducible y sustentado con pruebas técnicas.
@@ -131,7 +132,7 @@ El análisis forense digital debe seguir metodologías estandarizadas para garan
 - Muy utilizado en instituciones gubernamentales y privadas en EE.UU.
 
 
-### 6. [ACPO Guidelines (Association of Chief Police Officers - Reino Unido)](https://library.npia.police.uk/docs/acpo/digital-evidence-2008.pdf)
+### 6. ACPO Guidelines (Association of Chief Police Officers - Reino Unido)
 
 - Basado en **cuatro principios** fundamentales del manejo de evidencia digital.
 - Requiere que cualquier intervención sea documentada y justificable.
