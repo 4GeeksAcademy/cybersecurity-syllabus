@@ -130,7 +130,7 @@ Digital forensics must follow standardized methodologies to ensure procedures ar
 - Widely used in US government and private institutions.
 
 
-### 6. [ACPO Guidelines (Association of Chief Police Officers - UK)](https://library.npia.police.uk/docs/acpo/digital-evidence-2008.pdf)
+### 6. ACPO Guidelines (Association of Chief Police Officers - UK)
 
 - Based on **four fundamental principles** of digital evidence handling.
 - Requires that any intervention be documented and justifiable.
