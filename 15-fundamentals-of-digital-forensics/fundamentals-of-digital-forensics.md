@@ -65,7 +65,7 @@ authors: ["alesanchezr"]
     - Generate timelines with tools like **Plaso** or **Timesketch** to understand the sequence of actions.
     - Correlate multiple data sources: system logs, network traffic, authentication records, etc.
     - Analyze RAM with tools like **Volatility** to detect hidden processes, credentials in memory, or active connections.
-    - Apply a recognized methodology such as [**SANS DFIR**](https://www.sans.org/cyber-security-courses/digital-forensics-incident-response/), [**NIJ (National Institute of Justice)**](https://nij.ojp.gov/library/publications/forensic-examinations-digital-evidence-guide-law-enforcement), or [**ISO/IEC 27037**](https://www.iso.org/standard/44381.html) to ensure traceability.
+    - Apply a recognized methodology such as **SANS DFIR**, [**NIJ (National Institute of Justice)**](https://nij.ojp.gov/library/publications/forensic-examinations-digital-evidence-guide-law-enforcement), or [**ISO/IEC 27037**](https://www.iso.org/standard/44381.html) to ensure traceability.
     - Document each finding precisely: location, timestamp, tool used, and file hash if applicable.
     - Use reliable tools such as **Autopsy**, **X-Ways Forensics**, **Volatility**, **Log2timeline**, among others.
     - Do not draw conclusions without validated evidence. Every finding must be reproducible and supported by technical proof.
