@@ -1,101 +1,101 @@
 {
   "info": {
     "slug": "nist-cybersecurity-framework",
-    "name": "Marco de Ciberseguridad NIST",
+    "name": "NIST Cybersecurity Framework",
     "difficulty": "BEGINNER",
     "technologies": ["nist", "cybersecurity"],
-    "main": "Pon a prueba tus conocimientos sobre los principios, funciones y buenas prácticas del Marco de Ciberseguridad de NIST.",
-    "results": "¡Felicidades! Has demostrado un buen entendimiento sobre la implementación y gestión de la ciberseguridad usando el NIST Framework.",
+    "main": "Test your knowledge of the principles, functions, and best practices of the NIST Cybersecurity Framework.",
+    "results": "Congratulations! You now have a solid understanding of how to implement and manage cybersecurity using the NIST Framework.",
     "badges": [
       { "slug": "nist_foundations", "points": 15 }
     ]
   },
   "questions": [
     {
-      "q": "¿En qué consiste el NIST Framework?",
+      "q": "What is the NIST Framework?",
       "a": [
-        { "option": "Un conjunto de actividades y prácticas para gestionar los riesgos de ciberseguridad de una organización 🌟", "correct": true },
-        { "option": "Una guía práctica para la instalación del centro de operaciones de seguridad en una organización", "correct": false },
-        { "option": "Un reglamento de cómo se debe almacenar la información dentro de una organización", "correct": false }
+        { "option": "A set of activities and practices to manage an organization's cybersecurity risks", "correct": true },
+        { "option": "A practical guide for setting up a security operations center", "correct": false },
+        { "option": "A regulation on how information must be stored in an organization", "correct": false }
       ]
     },
     {
-      "q": "¿Cuál es la primera actividad que realizaremos en el marco de ciberseguridad de NIST?",
+      "q": "What is the first activity to perform in the NIST Cybersecurity Framework?",
       "a": [
-        { "option": "Identificar los sistemas críticos y los activos de información", "correct": true },
-        { "option": "Establecer políticas para guardar la información", "correct": false },
-        { "option": "Crear controles de acceso para la administración de los sistemas de información", "correct": false }
+        { "option": "Identify critical systems and information assets", "correct": true },
+        { "option": "Establish policies for data storage", "correct": false },
+        { "option": "Create access controls for information systems", "correct": false }
       ]
     },
     {
-      "q": "¿Cuál es el primer paso para comenzar el trabajo según el NIST Framework?",
+      "q": "What is the first step when starting a cybersecurity plan using the NIST Framework?",
       "a": [
-        { "option": "Identificar y clasificar los activos de información, evaluar amenazas y vulnerabilidades, y priorizar los riesgos", "correct": true },
-        { "option": "Implementar controles de acceso y crear backups", "correct": false },
-        { "option": "Revisar los incidentes previos y contactar al equipo legal", "correct": false }
+        { "option": "Identify and classify information assets, evaluate threats and vulnerabilities, and prioritize risks", "correct": true },
+        { "option": "Implement access controls and create backups", "correct": false },
+        { "option": "Review previous incidents and contact legal", "correct": false }
       ]
     },
     {
-      "q": "¿Qué medidas puedes implementar para la protección de los sistemas de información?",
+      "q": "What measures can you implement to protect information systems?",
       "a": [
-        { "option": "Controles de acceso, cifrado, firewalls, capacitación, políticas claras y backups", "correct": true },
-        { "option": "Solo actualizar software regularmente", "correct": false },
-        { "option": "Reducir el número de empleados con acceso a internet", "correct": false }
+        { "option": "Access controls, encryption, firewalls, employee training, clear policies, and regular backups", "correct": true },
+        { "option": "Only update software regularly", "correct": false },
+        { "option": "Limit internet access to employees", "correct": false }
       ]
     },
     {
-      "q": "¿Cómo sería el proceso de detección y respuesta ante incidentes de seguridad?",
+      "q": "What does the incident detection and response process look like?",
       "a": [
-        { "option": "Monitoreo, respuesta planificada, análisis, contención, erradicación, recuperación y lecciones aprendidas", "correct": true },
-        { "option": "Cerrar todos los sistemas, cambiar contraseñas y reiniciar los servidores", "correct": false },
-        { "option": "Esperar confirmación del proveedor de antivirus antes de actuar", "correct": false }
+        { "option": "Monitoring, planned response, analysis, containment, eradication, recovery, and lessons learned", "correct": true },
+        { "option": "Shut down systems, change passwords, and reboot servers", "correct": false },
+        { "option": "Wait for antivirus vendor confirmation before acting", "correct": false }
       ]
     },
     {
-      "q": "¿Cuál es el enfoque para recuperar el sistema en caso de un ataque a los sistemas?",
+      "q": "What is the approach to recover systems after a cyberattack?",
       "a": [
-        { "option": "Activar el plan de continuidad, restaurar desde backups, aplicar parches y monitorear la recuperación", "correct": true },
-        { "option": "Llamar a soporte técnico externo para que evalúe el daño", "correct": false },
-        { "option": "Formatear todo el sistema sin respaldo y empezar desde cero", "correct": false }
+        { "option": "Activate business continuity plans, restore from backups, apply patches, and monitor recovery", "correct": true },
+        { "option": "Call external tech support to assess damage", "correct": false },
+        { "option": "Format everything and restart without backups", "correct": false }
       ]
     },
     {
-      "q": "¿Cuál es la mejor manera de controlar el proceso de identificación de activos?",
+      "q": "What is the best way to control the asset identification process?",
       "a": [
-        { "option": "Colocando sellos o elementos distintivos en cada uno de los activos", "correct": false },
-        { "option": "Creando un inventario con la información de cada uno de los activos", "correct": true },
-        { "option": "Acudiendo a nuestros jefes para que nos den la información", "correct": false }
+        { "option": "Tagging each asset with physical labels", "correct": false },
+        { "option": "Creating an inventory with detailed asset information", "correct": true },
+        { "option": "Asking managers to provide the asset list", "correct": false }
       ]
     },
     {
-      "q": "¿Qué buscamos al realizar una evaluación de impacto?",
+      "q": "What is the goal of an impact assessment?",
       "a": [
-        { "option": "El impacto físico que puedan recibir los activos de información", "correct": false },
-        { "option": "El impacto que puede haber dentro de la organización la implementación del NIST Framework", "correct": false },
-        { "option": "El impacto que puede tener un incidente de seguridad sobre la confidencialidad, disponibilidad e integridad de la información", "correct": true }
+        { "option": "The physical impact on information assets", "correct": false },
+        { "option": "The impact of implementing the NIST Framework on the organization", "correct": false },
+        { "option": "The impact of a security incident on the confidentiality, availability, and integrity of information", "correct": true }
       ]
     },
     {
-      "q": "¿Cómo podemos identificar eventos de seguridad?",
+      "q": "How can we detect security events?",
       "a": [
-        { "option": "Mediante monitoreos de eventos", "correct": true },
-        { "option": "Mediante revisión de registros", "correct": true },
-        { "option": "Mediante comunicación de otras áreas", "correct": true }
+        { "option": "Through event monitoring", "correct": true },
+        { "option": "Through log analysis", "correct": true },
+        { "option": "Through communication with other departments", "correct": true }
       ]
     },
     {
-      "q": "Una vez identificado un incidente, ¿Cuál es el siguiente paso a seguir?",
+      "q": "Once an incident is detected, what is the next step?",
       "a": [
-        { "option": "Poner en marcha un plan de respuesta a incidentes", "correct": true },
-        { "option": "Crear copias de seguridad", "correct": false },
-        { "option": "Reportar el incidente y esperar respuesta para actuar", "correct": false }
+        { "option": "Activate the incident response plan", "correct": true },
+        { "option": "Create backups", "correct": false },
+        { "option": "Report the incident and wait for instructions", "correct": false }
       ]
     },
     {
-      "q": "Es buena práctica realizar las copias de seguridad de información crítica una sola vez.",
+      "q": "It is good practice to perform backups of critical data only once.",
       "a": [
-        { "option": "Cierto", "correct": false },
-        { "option": "Falso", "correct": true }
+        { "option": "True", "correct": false },
+        { "option": "False", "correct": true }
       ]
     }
   ]
