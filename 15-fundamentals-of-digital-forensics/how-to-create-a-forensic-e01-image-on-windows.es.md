@@ -15,17 +15,31 @@ Para ello, se utilizará **FTK Imager**, una herramienta gratuita que permite ca
 2. Abre el programa como administrador.
 3. En el menú superior, selecciona -> `File → Create Disk Image...`
 
-![create-disk-image]()
+![create-disk-image](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/create-disk-image.png?raw=true)
 
-4. Elige la opción `Physical Drive`. Aparecerá una lista de discos conectados. Selecciona el disco externo (verifica que no sea tu disco del sistema).
+4. Elige la opción `Physical Drive`. Aparecerá una lista de discos conectados. Selecciona el disco externo (verifica que no sea tu disco del sistema) ¿Cómo lo haces? Bueno, cuando seleccionas Physical Drive en FTK Imager, vas a ver algo como:
+
+    ```python
+    PhysicalDrive0 - 500GB - WDC WD5000LPCX-...
+    PhysicalDrive1 - 120GB - SanDisk SSD PLUS...
+    PhysicalDrive2 - 16GB - Generic USB Flash...
+    ```
+
+    > **Observa si coincide con el tamaño de tu disco externo, el disco de tu sistema suele ser `PhysicalDrive0` por lo que no deberias seleccionarlo a menos que estés absolutamente seguro de que ese es el disco externo (lo cual casi nunca será el caso).**
+
 5. Completa los campos del caso (por ejemplo: número de caso, nombre del perito, descripción del análisis). Pueden dejarse en blanco si es una práctica.
 
+![inputs](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/cases-inputs.png?raw=true)
+
 6. En tipo de imagen, seleccioná `E01 (Expert Witness Format)`.
+![select format](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/format-selection.png?raw=true)
+
 7. Elegí una carpeta de destino donde guardar la imagen.
 8. En opciones de configuración:
-   - **Compresión**: poné el valor `1` (rápido).
-   - **Fragmentación**: usá `1500 MB` para dividir la imagen en partes más manejables.
-   - Activá la casilla "Verify images after they are created".
+   - **Compresión**: pon el valor `6` (rápido).
+   - **Fragmentación**: usa `1500 MB` para dividir la imagen en partes más manejables.
+   ![select format](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/select-img-destination.png?raw=true)
+
 9. Presioná `Start` para comenzar la adquisición.
 
 Al finalizar, obtendrás una serie de archivos `.E01`, `.E02`, etc., junto con un archivo `.txt` que documenta los hashes generados y los detalles del caso.
