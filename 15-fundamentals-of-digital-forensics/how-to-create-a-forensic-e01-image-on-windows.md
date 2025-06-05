@@ -112,4 +112,8 @@ FTK Imager will generate:
 - Segmented files: `.E01`, `.E02`, `.E03`, etc.
 - A `.txt` file with the verification hash and case metadata
 
+    ![images results](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/results-e01.png?raw=true)
+
+
+
 These files can be analyzed directly with tools like **Autopsy** or reloaded into FTK Imager for exploration. It is important to keep all files together in the same folder and not change their names if you want to maintain the integrity of the evidence.
