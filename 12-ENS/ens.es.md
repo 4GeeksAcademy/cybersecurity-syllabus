@@ -19,157 +19,188 @@ El Esquema Nacional de Seguridad (ENS) es una normativa o conjunto de políticas
 
 ## Regulación y Finalidad del ENS
 
-El ENS se encuentra regulado por el Centro Criptológico Nacional (CCN-CERT) mediante guías y herramientas específicas. Su principal finalidad, de acuerdo al Real Decreto 3/2010, es "la creación de las condiciones necesarias de confianza en el uso de los medios electrónicos, a través de medidas para garantizar la seguridad de los sistemas, los datos, las comunicaciones, y los servicios electrónicos, que permita a los ciudadanos y a las Administraciones públicas, el ejercicio de derechos y el cumplimiento de deberes a través de estos medios".
+El Esquema Nacional de Seguridad (ENS) es un marco normativo establecido en el Real Decreto 311/2022, que tiene como finalidad garantizar la protección de la información en el sector público y en entidades privadas que gestionan servicios tecnológicos para administraciones públicas. El ENS es de **obligado cumplimiento** para:
 
-## Objetivos del ENS 🎯
+- Todas las **Administraciones Públicas** españolas.
+- **Empresas privadas** que presten servicios tecnológicos o gestionen sistemas públicos bajo contrato.
+
+El cumplimiento del ENS es, por tanto, esencial tanto en entornos gubernamentales como en colaboraciones público-privadas.
+
+## Objetivos del ENS 
 
 Los principales objetivos del ENS son:
 
-1. Crear las condiciones necesarias para la confianza en el uso de los medios electrónicos. 🤝
-2. Promover la gestión continuada de la seguridad. 🔄
+1. Crear las condiciones necesarias para la confianza en el uso de los medios electrónicos. 
+2. Promover la gestión continuada de la seguridad. 
 3. Proporcionar un lenguaje común para la interacción entre administraciones en materia de seguridad. 🗣️
-4. Establecer marcos de trabajo que garanticen la seguridad de la información digital en la administración pública.
-5. Establecer reglas, medidas y requisitos mínimos de seguridad para las entidades públicas.
-6. Enseñar elementos y metodologías de trabajo en materia de seguridad de información y tecnologías.
+4. Establecer reglas, medidas y requisitos mínimos de seguridad para las entidades públicas.
 
 ## Principios básicos 📊
 
 El ENS se basa en los siguientes principios:
 
-- Seguridad integral 🔐
-- Gestión de riesgos ⚠️
-- Prevención, reacción y recuperación 🚨
-- Líneas de defensa 🛡️
-- Reevaluación periódica 🔄
-- Función diferenciada 🔀
-- Enfoque integral
-- Responsabilidad y participación
-- Mejora continua
-- Cumplimiento normativo
+- **Seguridad integral:** La seguridad debe ser abordada desde una perspectiva global. No basta con proteger solo los sistemas tecnológicos, sino que debe abarcar: Infraestructura física, procesos internos, información en papel y digital, personas (usuarios, administradores, terceros) y servicios externos o subcontratados.
 
-### Seguridad integral 🔐
+    El enfoque integral garantiza que ninguna parte del ecosistema quede desprotegida o aislada de las políticas de seguridad.
 
-La seguridad integral implica la protección de todos los aspectos de la seguridad, incluyendo la infraestructura, los datos, los sistemas y los servicios. Por ejemplo:
+- **Gestión de riesgos:** Todas las decisiones de seguridad deben basarse en un análisis sistemático de riesgos. Esto implica: Identificar amenazas y vulnerabilidades, evaluar el impacto potencial, estimar la probabilidad de ocurrencia y aplicar medidas proporcionales para mitigarlos.
 
-- Proteger la infraestructura física de los sistemas de información.
-- Entrenar a los humanos que trabajan en la organización.
-- Proteger los datos de los sistemas de información.
-- Proteger los sistemas de información.
-- Proteger los servicios de los sistemas de información.
+    Este principio promueve una gestión proactiva y racional, evitando inversiones innecesarias o decisiones reactivas mal fundamentadas.
 
-### Gestión de riesgos ⚠️
+- **Prevención, detección, respuesta y recuperación:** La seguridad debe contemplar todo el ciclo de vida de un incidente. Se deben implementar mecanismos para prevenir amenazas, detectar actividades anómalas, responder adecuadamente ante incidentes y recuperar la operatividad.
 
-La gestión de riesgos implica identificar, evaluar y mitigar los riesgos que afectan a la seguridad de los sistemas de información. Este principio guía a las entidades a tener un enfoque proactivo para anticipar posibles amenazas y vulnerabilidades, permitiendo la toma de decisiones informada y la implementación de medidas preventivas.
+    Este enfoque garantiza la resiliencia de los sistemas y reduce el impacto de los ataques.
 
-### Prevención, reacción y recuperación 🚨
+- **Reevaluación periódica:** Las medidas de seguridad deben revisarse con regularidad para asegurar su vigencia y eficacia. Esto incluye evaluar los cambios tecnológicos, organizativos y normativos que puedan afectar al sistema.
 
-La prevención implica la detección y mitigación de los riesgos antes de que ocurran. La reacción implica la respuesta a los incidentes de seguridad y la recuperación implica la restauración de los sistemas de información a su estado original.
+    La revisión periódica permite adaptar la protección a las nuevas circunstancias y evitar obsolescencia.
 
-### Líneas de defensa 🛡️
+- **Función diferenciada:** Es necesario separar claramente las funciones de seguridad dentro de la organización. Se debe distinguir entre responsables de la información, del servicio, de la seguridad, y de la operación técnica.
 
-Las líneas de defensa son las medidas y controles que se implementan para proteger los sistemas de información.
+    Esta división de responsabilidades evita conflictos de interés y facilita el control y la rendición de cuentas.
 
-### Reevaluación periódica 🔄
+- **Mejora continua:** La seguridad no es un estado estático, sino un proceso en evolución. Las organizaciones deben aprender de sus errores, revisar procedimientos y adoptar buenas prácticas de forma constante.
 
-La reevaluación periódica implica la revisión y actualización de los controles de seguridad para asegurar que siguen siendo efectivos.
+    Este principio refuerza la madurez y la eficiencia del sistema de gestión de seguridad.
 
-### Función diferenciada 🔀
+- **Cumplimiento normativo:** Todas las medidas deben alinearse con las leyes y regulaciones vigentes. Esto incluye normativas como el RGPD, legislación sectorial, y otras disposiciones aplicables.
 
-La función diferenciada implica la diferenciación entre los responsables y sus principales funciones. Tanto responsables de la información, como del servicio y de la seguridad.
+    El cumplimiento normativo asegura la legalidad de las actuaciones y la protección de derechos fundamentales.
 
-## Medidas de seguridad 🔒
+- **Responsabilidad y compromiso:** La seguridad es responsabilidad de todos los miembros de la organización, no solo del personal técnico. La alta dirección debe liderar el compromiso institucional y los usuarios deben ser conscientes de su papel en la protección de la información.
 
-El ENS establece tres niveles de seguridad (bajo, medio y alto) y define 75 medidas de seguridad divididas en 3 grupos:
+    Este principio fortalece la cultura organizacional en torno a la seguridad.
 
-- Marco organizativo (4 controles) 📋
-- Marco operacional (31 controles) 🛠️
-- Medidas de protección (40 controles) 🔐
 
-Estas medidas abarcan aspectos como la política de seguridad, la gestión de riesgos, la formación del personal, el control de acceso, la protección de las instalaciones, la gestión de incidentes, entre otros. 👥🚪🏢🚨
+## Clasificación y niveles de medidas de seguridad
 
-## Implementación y cumplimiento ✅
+El Real Decreto 311/2022 establece **73 medidas de seguridad**, clasificadas en:
 
-Las organizaciones públicas deben:
+- **Marco organizativo**: 16 medidas  
+- **Marco operacional**: 31 medidas  
+- **Medidas de protección**: 26 medidas
 
-1. Realizar un análisis de riesgos. 📊
-2. Preparar una declaración de aplicabilidad. 📝
-3. Elaborar un plan de adecuación. 📅
-4. Implementar las medidas de seguridad. 🔒
-5. Realizar auditorías periódicas. 🔍
+Cada medida tiene tres niveles de aplicación:
 
-El cumplimiento del ENS es obligatorio para todas las administraciones públicas españolas y es supervisado por el Centro Criptológico Nacional (CCN). 🏛️👀
+- **BASE** (obligatorio)  
+- **Reforzado**  
+- **Alto**
 
-## Certificación ENS 🏅
+Los niveles permiten adaptar la exigencia de seguridad según la categoría del sistema (baja, media o alta criticidad), de acuerdo con lo establecido en la Guía CCN-STIC 808.
 
-La certificación del Esquema Nacional de Seguridad (ENS) es un proceso mediante el cual una organización demuestra su conformidad con los requisitos establecidos por el ENS. Esta certificación es especialmente relevante para las administraciones públicas y entidades que prestan servicios al sector público.
+## Perfil de cumplimiento
 
-### Proceso de Certificación 📋
+El **perfil de cumplimiento** es un concepto introducido por el Real Decreto 311/2022 como mecanismo para **adaptar las medidas de seguridad del ENS a la realidad de cada organización**, permitiendo así una aplicación **proporcional, eficaz y sostenible**. Este enfoque reconoce que no todas las entidades tienen las mismas capacidades ni enfrentan los mismos riesgos. Por ello, el perfil de cumplimiento considera los siguientes factores:
 
-El proceso de certificación ENS generalmente incluye los siguientes pasos:
+- **La criticidad de los sistemas:** Es decir, la importancia que tiene un determinado sistema o servicio para la continuidad operativa, la protección de datos sensibles o la prestación de servicios esenciales. Un sistema crítico requerirá medidas más exigentes.
 
-1. Autoevaluación: La organización realiza una evaluación interna de su cumplimiento con el ENS.
+- **El nivel de madurez en ciberseguridad:** Evalúa la capacidad organizativa y técnica para gestionar adecuadamente la seguridad de la información. Las entidades más maduras pueden abordar medidas avanzadas, mientras que otras podrán escalar gradualmente.
 
-2. Auditoría: Una entidad de certificación acreditada realiza una auditoría exhaustiva del sistema de información.
+- **Los recursos disponibles:** Incluye el personal cualificado, presupuesto, infraestructura tecnológica y herramientas disponibles. El ENS reconoce la necesidad de adecuar la carga de cumplimiento a la capacidad real de cada organización.
 
-3. Informe de conformidad: Si la auditoría es satisfactoria, se emite un informe de conformidad.
+El perfil de cumplimiento se plasma en la **declaración de aplicabilidad** y en el **plan de adecuación**, que determinan cómo, cuándo y con qué profundidad se implementarán las medidas exigidas. Este mecanismo busca evitar la aplicación rígida y homogénea de los controles, permitiendo un ENS más **realista, flexible y orientado al riesgo**, sin menoscabar la seguridad.
 
-4. Certificación: El Centro Criptológico Nacional (CCN) revisa el informe y, si es aprobado, emite el certificado de conformidad.
 
-### Niveles de Certificación 🏆
+## Implementación y cumplimiento
 
-La certificación ENS se otorga en función de los niveles de seguridad establecidos:
+Para cumplir con las obligaciones establecidas por el ENS, las organizaciones deben seguir un **proceso estructurado** que asegure la implementación eficaz y verificable de las medidas de seguridad. Este proceso consta de las siguientes fases:
 
-- Básico
-- Medio
-- Alto
+1. **Análisis de riesgos:** Identificación y evaluación de los riesgos que amenazan la seguridad de la información y los servicios. Es la base para seleccionar las medidas adecuadas y definir su nivel de exigencia (BASE, Reforzado o Alto).
 
-### Importancia de la Certificación 🌟
+2. **Declaración de aplicabilidad:** Documento en el que se identifican las medidas del ENS aplicables a la organización, indicando su nivel de implementación según el perfil de cumplimiento. Debe estar debidamente justificada.
 
-- Demuestra el compromiso con la seguridad de la información.
-- Es obligatoria para ciertos sistemas de información de las administraciones públicas.
-- Puede ser un requisito para participar en licitaciones públicas.
-- Aumenta la confianza de los ciudadanos y otras organizaciones.
+3. **Plan de adecuación:** Documento estratégico que establece las actividades, recursos y plazos necesarios para alcanzar el cumplimiento. Prioriza acciones en función del riesgo y la criticidad de los sistemas.
 
-### Validez y Renovación ⏳
+4. **Implementación de medidas:** Ejecución del plan de adecuación, lo cual puede incluir la adopción de políticas, configuraciones técnicas, procedimientos, formación del personal y auditoría interna.
 
-La certificación ENS tiene una validez de 2 años, tras los cuales debe renovarse mediante una nueva auditoría.
+5. **Auditorías periódicas:** Evaluaciones internas o externas que verifican el grado de cumplimiento y la eficacia de las medidas. Son obligatorias y permiten detectar desviaciones y oportunidades de mejora.
 
-Esta certificación no solo es un requisito legal para muchas entidades públicas, sino que también representa un sello de calidad en materia de seguridad de la información en el ámbito de la administración electrónica española.
+> 🕓 De acuerdo con la disposición transitoria del Real Decreto 311/2022, las entidades disponían de un **plazo de 24 meses desde abril de 2022** para adaptarse al nuevo ENS. Este periodo de transición concluyó en **abril de 2024**, por lo que **el cumplimiento es ya exigible en su totalidad**.
 
-## Diferencia entre ENS y ISO 27001 🤔
+## Certificación del ENS
 
-El Esquema Nacional de Seguridad (ENS) y el estándar ISO 27001 son dos sistemas de gestión de seguridad de la información diferentes.
+La **certificación del Esquema Nacional de Seguridad (ENS)** es un proceso formal mediante el cual una organización acredita que cumple con los requisitos de seguridad establecidos en el Real Decreto 311/2022. Esta certificación no solo verifica el cumplimiento legal, sino que también constituye una herramienta clave para **mejorar la confianza institucional, facilitar la transparencia y acreditar la madurez en ciberseguridad** ante terceros.
 
-La siguiente tabla muestra las principales diferencias y similitudes entre el ENS y la ISO 27001, destacando sus características únicas y áreas de compatibilidad.
+### ¿Quién puede certificarse?
 
-| Característica | ENS | ISO 27001 |
-|----------------|-----|-----------|
-| Ámbito de aplicación | Específico para España | Internacional |
-| Obligatoriedad | Obligatorio para administraciones públicas españolas | Voluntario |
-| Enfoque | Seguridad de la información en el sector público | Gestión de seguridad de la información en cualquier organización |
-| Organismo regulador | Centro Criptológico Nacional (CCN) | Organización Internacional de Normalización (ISO) |
-| Estructura | Basado en niveles de seguridad (bajo, medio, alto) | Basado en controles de seguridad |
-| Certificación | Válida por 2 años | Válida por 3 años |
-| Medidas de seguridad | 75 medidas específicas | 114 controles en 14 dominios |
-| Análisis de riesgos | Obligatorio | Obligatorio |
-| Mejora continua | Sí | Sí |
-| Compatibilidad | Compatible con ISO 27001 | Compatible con ENS |
+- **Organismos de la Administración Pública** (AGE, CCAA, Entidades Locales)
+- **Empresas privadas** que presten servicios tecnológicos a las AAPP
+- **Proveedores tecnológicos** en procesos de licitación pública que requieran estar alineados con el ENS
+
+> El ENS permite certificar tanto organizaciones completas como sistemas de información concretos (por ejemplo, una aplicación crítica, una infraestructura determinada, etc.).
+
+El proceso habitual de certificación ENS comprende las siguientes etapas:
+
+1. **Autoevaluación interna:**  
+   La organización realiza una revisión interna de su grado de cumplimiento del ENS. Identifica brechas, elabora la declaración de aplicabilidad y define su perfil de cumplimiento.
+
+2. **Auditoría por una entidad acreditada:**  
+   Una empresa certificadora reconocida por ENAC (Entidad Nacional de Acreditación) evalúa el sistema de información o la organización. La auditoría verifica la implementación de las medidas según lo declarado.
+
+3. **Informe de conformidad:**  
+   Si la auditoría es satisfactoria, se emite un informe que justifica que el sistema cumple con los requisitos del ENS en el nivel correspondiente.
+
+4. **Emisión del certificado por el CCN:**  
+   El Centro Criptológico Nacional (CCN), como autoridad competente, aprueba el informe y emite el certificado de conformidad.
+
+### Niveles de certificación
+
+La certificación puede emitirse para uno de los siguientes niveles, según el análisis de riesgos y el impacto del sistema:
+
+- **Nivel Básico:** Para sistemas sin información sensible y de impacto limitado.
+- **Nivel Medio:** Para sistemas con impacto apreciable sobre la operativa, servicios o reputación.
+- **Nivel Alto:** Para sistemas críticos que afectan a servicios esenciales, datos especialmente protegidos o funciones estratégicas del Estado.
+
+> 🔐 La elección del nivel de certificación condiciona el número y la exigencia de las medidas que deben implementarse.
+
+
+La certificación es importante porque demuestra el compromiso con la seguridad de la información, es obligatoria para ciertos sistemas de información de las administraciones públicas, puede ser un requisito para participar en licitaciones públicas y aumenta la confianza de los ciudadanos y otras organizaciones.
+
+### Validez y renovación
+
+La certificación ENS tiene una **validez de 2 años** desde la fecha de emisión. Una vez transcurrido ese periodo, la organización debe: someterse nuevamente a auditoría, actualizar su declaración de aplicabilidad y demostrar mejoras o mantenimiento en su sistema de seguridad
+
+La renovación garantiza que el sistema sigue siendo **efectivo, actualizado y conforme con las exigencias regulatorias y tecnológicas** actuales.
+
+## Comparación ENS vs ISO 27001
+
+| Característica              | ENS                                       | ISO 27001                           |
+|----------------------------|-------------------------------------------|-------------------------------------|
+| Ámbito                     | Sector público en España                  | Internacional                       |
+| Obligatorio                | Sí, para AAPP y empresas proveedoras      | No (voluntario)                     |
+| Medidas / Controles        | 73 medidas específicas                    | 114 controles en 14 dominios        |
+| Niveles de aplicación      | Bajo, Medio, Alto                         | No definidos                        |
+| Certificación              | 2 años                                    | 3 años                              |
+| Análisis de riesgos        | Obligatorio                               | Obligatorio                         |
+| Compatibilidad             | Compatible con ISO 27001                  | Puede ser base para ENS             |
 
 ### ¿La certificación ISO 27001 es suficiente para cumplir con el ENS? 🤔
 
-Aunque la certificación ISO 27001 es un paso importante hacia la seguridad de la información, no es suficiente por sí sola para cumplir completamente con los requisitos del ENS. Aquí te explicamos por qué:
+La certificación **ISO/IEC 27001** es un estándar internacional reconocido para la gestión de la seguridad de la información, y puede servir como una base sólida para cumplir con muchos de los requisitos del ENS. Sin embargo, **no es suficiente por sí sola** para garantizar la conformidad total con el Esquema Nacional de Seguridad. A continuación, se explican las diferencias clave:
 
-1. **Requisitos adicionales**: El ENS tiene requisitos específicos que no están cubiertos por ISO 27001, como medidas de seguridad concretas para los niveles bajo, medio y alto.
+1. **Requisitos adicionales específicos:**  
+   El ENS establece **73 medidas de seguridad** distribuidas en tres marcos (organizativo, operacional y de protección), cada una con niveles de aplicación (BASE, Reforzado, Alto). Estos requisitos son concretos y obligatorios, y no están contemplados de forma detallada en ISO 27001.
 
-2. **Marco legal**: El ENS es un requisito legal para las administraciones públicas españolas, mientras que ISO 27001 es voluntario.
+2. **Marco legal y ámbito de aplicación:**  
+   El ENS es de **cumplimiento obligatorio** en España para todas las Administraciones Públicas y para empresas proveedoras de servicios tecnológicos públicos. En cambio, ISO 27001 es una **norma voluntaria** de aplicación general.
 
-3. **Auditoría y certificación**: El proceso de certificación del ENS es diferente al de ISO 27001, incluyendo la participación del Centro Criptológico Nacional (CCN).
+3. **Auditoría y certificación diferenciadas:**  
+   La certificación ENS se gestiona a través de entidades acreditadas por ENAC, y el proceso incluye la **validación y emisión del certificado por el Centro Criptológico Nacional (CCN)**. ISO 27001 no exige este nivel de control institucional en su proceso de certificación.
 
-4. **Medidas de seguridad**: El ENS define 75 medidas de seguridad específicas, mientras que ISO 27001 se basa en 114 controles en 14 dominios que no siempre coinciden con las medidas del ENS.
+4. **Compatibilidad parcial entre controles:**  
+   ISO 27001 incluye **114 controles agrupados en 14 dominios**, que no coinciden uno a uno con las medidas del ENS. Aunque hay solapamientos, muchos aspectos específicos del ENS (por ejemplo, medidas para sistemas clasificados, niveles de criticidad, perfil de cumplimiento) no están contemplados en la ISO.
 
-Sin embargo, es importante destacar que existe una compatibilidad significativa entre ambos estándares. La implementación de ISO 27001 puede proporcionar una base sólida para cumplir con muchos de los requisitos del ENS, facilitando el proceso de certificación ENS.
+### ¿Cómo puede ayudarte ISO 27001 a cumplir con el ENS?
 
-> 💡 Si tu organización ya está certificada en ISO 27001 y necesita cumplir con el ENS, considera realizar un análisis de brechas para identificar los requisitos adicionales del ENS que necesitas implementar. Esto te permitirá aprovechar el trabajo ya realizado para ISO 27001 y enfocarte en los aspectos específicos del ENS.
+La implementación de ISO 27001 puede facilitar el cumplimiento del ENS en varios aspectos:
+
+- Establece una base sólida de gobernanza en seguridad.
+- Fomenta una cultura de mejora continua compatible con el enfoque del ENS.
+- Estandariza procedimientos como el análisis de riesgos, la documentación y la auditoría interna.
+
+> 💡 Si tu organización ya cuenta con una certificación ISO 27001, se recomienda realizar un **análisis de brechas (gap analysis)** con respecto a las exigencias del ENS. Este análisis te permitirá **reutilizar parte del trabajo realizado** y centrarte en los **requisitos adicionales específicos** del marco español.
+
+
 
 ## Conclusión 🏁
 
