@@ -17,7 +17,7 @@ For this, **FTK Imager** will be used, a free tool that allows you to capture di
 
 ### Steps:
 
-1. Download and install [FTK Imager](https://www.exterro.com/ftk-imager).
+1. Download and install `FTK Imager`.
 2. Open the program as administrator.
 3. In the top menu, select -> `File → Create Disk Image...`
 

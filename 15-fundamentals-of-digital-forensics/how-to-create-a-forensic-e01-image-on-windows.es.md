@@ -18,7 +18,7 @@ Para ello, se utilizará **FTK Imager**, una herramienta gratuita que permite ca
 
 ### Pasos:
 
-1. Descarga e instalá [FTK Imager](https://www.exterro.com/ftk-imager).
+1. Descarga e instalá `FTK Imager`.
 2. Abre el programa como administrador.
 3. En el menú superior, selecciona -> `File → Create Disk Image...`
 
