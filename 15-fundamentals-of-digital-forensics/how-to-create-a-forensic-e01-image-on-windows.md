@@ -5,7 +5,6 @@ tags: ["forensics", "cybersecurity", "windows", "e01", "ftk-imager"]
 author: ["alesanchezr"]
 ---
 
-# How to Create a Forensic `.E01` Image from a Physical or Virtual Disk (on Windows)
 
 In digital forensics, an `.E01` image allows you to capture the complete contents of a hard drive without altering the original. This file can contain metadata, be split into smaller parts, and be automatically verified using hashes. Below, two ways to generate an `.E01` image are explained: one from a physically connected hard drive, and another from a virtual machine file.
 

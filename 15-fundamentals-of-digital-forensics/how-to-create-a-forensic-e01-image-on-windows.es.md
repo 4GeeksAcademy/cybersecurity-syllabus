@@ -5,8 +5,6 @@ tags: ["forense", "ciberseguridad", "windows", "e01", "ftk-imager"]
 author: ["alesanchezr"]
 ---
 
-# Cómo crear una imagen forense `.E01` desde un disco físico o virtual (en Windows)
-
 En el análisis forense digital, una imagen `.E01` permite capturar el contenido completo de un disco duro sin alterar el original. Este archivo puede contener metadatos, fragmentarse en partes más pequeñas y verificarse automáticamente mediante hashes. A continuación, se explican dos formas de generar una imagen `.E01`: una desde un disco duro conectado físicamente al equipo, y otra desde un archivo de máquina virtual.
 
 
