@@ -15,7 +15,7 @@ Para ello, se utilizará **FTK Imager**, una herramienta gratuita que permite ca
 2. Abre el programa como administrador.
 3. En el menú superior, selecciona -> `File → Create Disk Image...`
 
-![create-disk-image](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/create-disk-image.png?raw=true)
+    ![create-disk-image](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/create-disk-image.png?raw=true)
 
 4. Elige la opción `Physical Drive`. Aparecerá una lista de discos conectados. Selecciona el disco externo (verifica que no sea tu disco del sistema) ¿Cómo lo haces? Bueno, cuando seleccionas Physical Drive en FTK Imager, vas a ver algo como:
 
@@ -29,22 +29,31 @@ Para ello, se utilizará **FTK Imager**, una herramienta gratuita que permite ca
 
 5. Completa los campos del caso (por ejemplo: número de caso, nombre del perito, descripción del análisis). Pueden dejarse en blanco si es una práctica.
 
-![inputs](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/cases-inputs.png?raw=true)
+    ![inputs](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/cases-inputs.png?raw=true)
 
 6. En tipo de imagen, seleccioná `E01 (Expert Witness Format)`.
-![select format](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/format-selection.png?raw=true)
+
+    ![select format](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/format-selection.png?raw=true)
 
 7. Elegí una carpeta de destino donde guardar la imagen.
-8. En opciones de configuración:
+
+    ![select format](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/select-img-destination.png?raw=true)
+
+En opciones de configuración:
    - **Compresión**: pon el valor `6` (rápido).
    - **Fragmentación**: usa `1500 MB` para dividir la imagen en partes más manejables.
-   ![select format](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/select-img-destination.png?raw=true)
 
-9. Presioná `Start` para comenzar la adquisición.
+
+
+8. Presiona `Start` para comenzar la adquisición. Asegurate de activar la opción **"Verify images after they are created"**, para garantizar la integridad de la copia.
+
+    ![select-file](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/start-img.png?raw=true)
+
+
+
 
 Al finalizar, obtendrás una serie de archivos `.E01`, `.E02`, etc., junto con un archivo `.txt` que documenta los hashes generados y los detalles del caso.
 
----
 
 ## Creación de imagen desde una máquina virtual (archivo `.vdi` o `.vmdk`)
 
@@ -54,9 +63,9 @@ Cuando se trabaja con máquinas virtuales, no se dispone de un disco físico, si
 
 El formato `.raw` es una copia directa del contenido del disco virtual. Para obtenerlo, se usa la herramienta `qemu-img`.
 
-1. Descargá QEMU para Windows desde [qemu.weilnetz.de](https://qemu.weilnetz.de/w64/).
-2. Extraé o instalá QEMU y ubicá el archivo `qemu-img.exe`.
-3. Abrí la terminal (CMD o PowerShell) y ejecutá el comando correspondiente según tu tipo de disco:
+1. Descarga QEMU para Windows desde [qemu.weilnetz.de](https://qemu.weilnetz.de/w64/).
+2. Extra o instala QEMU y ubica el archivo `qemu-img.exe`.
+3. Abre la terminal (CMD o PowerShell) y ejecuta el comando correspondiente según tu tipo de disco:
 
 Para VirtualBox:
 ```bash
@@ -77,20 +86,33 @@ qemu-img convert -f vmdk -O raw "C:\ruta\al\archivo.vmdk" "C:\salida\imagen.raw"
 
    `File → Create Disk Image...`
 
-3. Seleccioná el tipo de fuente:
+3. Seleccioná el tipo de fuente, en este caso seria `Image File`:
 
-   `Image File`
+   ![select-source](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/select-source.png?raw=true)
 
-4. Seleccioná el archivo `.raw` como fuente.
-5. En el tipo de imagen de salida, seleccioná:
+4. Selecciona el archivo `.raw` como fuente.
+    
+    ![select-file](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/start-img.png?raw=true)
 
-   `E01`
+    > Asegurate de activar la opción **"Verify images after they are created"**, para garantizar la integridad de la copia.
 
-6. Completá los metadatos del caso.
-7. Elegí carpeta de destino, nombre del archivo, compresión y fragmentación.
+5. Luego, haz clic en **Add** para definir el tipo de imagen de salida y donde se va guardar, selecciona:
+
+    ![format](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/format-selection.png?raw=true)
+
+6. Completa los metadatos del caso.
+
+    ![inputs](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/cases-inputs.png?raw=true)
+
+7. Elige carpeta de destino, nombre del archivo, compresión y fragmentación.
+
+    ![select destination](https://github.com/rosinni/cybersecurity-syllabus/blob/main/assets/15-fundamentals-of-digital-forensics/select-img-destination.png?raw=true)
+
+    > Deja desmarcada la opción “Use AD Encryption”
+
 8. Presioná **Finish**, luego **Start** para comenzar la creación de la imagen.
 
----
+
 
 ## Resultado esperado
 
@@ -99,6 +121,4 @@ FTK Imager generará:
 - Archivos segmentados: `.E01`, `.E02`, `.E03`, etc.
 - Un archivo `.txt` con el hash de verificación y los metadatos del caso
 
-Estos archivos pueden analizarse directamente con herramientas como **Autopsy** o volver a cargarse en FTK Imager para explorarlos.
-
-Es importante conservar todos los archivos juntos en una misma carpeta y no modificar sus nombres si se desea mantener la integridad de la evidencia.
+Estos archivos pueden analizarse directamente con herramientas como **Autopsy** o volver a cargarse en FTK Imager para explorarlos. Es importante conservar todos los archivos juntos en una misma carpeta y no modificar sus nombres si se desea mantener la integridad de la evidencia.
