@@ -15,401 +15,253 @@ Para implementar el Esquema Nacional de Seguridad (ENS) de España 🇪🇸, pri
 
 ![Implementación del ENS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/raw/main/assets/12-ens/esquema-nacional-de-seguridad.jpg?raw=true)
 
-## ¿Quién es responsable de la implementación del ENS dentro de una organización?
+## Roles responsables de la implementación del ENS dentro de una organización
 
-Desde 2022, el ENS se rige por el [Real Decreto 311/2022](https://www.boe.es/buscar/act.php?id=BOE-A-2022-12345) y establece 4 roles en 2 niveles según su artículo 11. Estos roles también se detallan en [la Guía 801 del Centro Criptológico Nacional](https://www.ccn-cert.cni.es/es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/501-ccn-stic-801-responsabilidades-y-funciones-en-el-ens/file?format=html).
+Desde la entrada en vigor del **Real Decreto 311/2022**, el **Esquema Nacional de Seguridad (ENS)** define de forma clara y precisa cuatro roles clave que deben estar presentes en todas las organizaciones sujetas al cumplimiento del ENS. Estos roles se especifican en el **Artículo 11** del real decreto, y **sustituyen modelos antiguos como comités o presidentes con voto de calidad**, los cuales **no figuran en la normativa oficial**.
 
-### Composición del comité
+Cada rol tiene responsabilidades bien delimitadas que aseguran la adecuada protección de los sistemas, la información y los servicios que gestiona una entidad. A continuación se describen en detalle:
 
-> 💡 Aunque el ENS define roles distintos con responsabilidades específicas, es importante tener en cuenta que en la práctica, especialmente en organizaciones más pequeñas o aquellas con recursos limitados
 
-Este comité estará compuesto por un presidente que tendrá el papel de moderador de las reuniones y en caso de empate en la votación, tendrá el voto de calidad, algunos miembros que tendrán voz y voto dentro de las reuniones y un secretario del comité que se encarga de las convocatorias y lee las actas de las últimas reuniones:
+### 🗂️ Responsable de la Información
 
-### Responsable de la Información 🧑‍💼📊
+Es la figura encargada de **determinar los requisitos de seguridad de la información que se trata** dentro del sistema. Esta persona, o en su caso un órgano colegiado, debe identificar la sensibilidad y criticidad de los datos, y establecer los niveles de protección necesarios conforme al **Anexo I del ENS**, que establece la categoría del sistema.
 
-Determina los requisitos de seguridad de la información tratada según los parámetros del Anexo I del ENS. Puede ser una persona o un órgano colegiado.
+**Responsabilidades clave**:
 
-### Responsable del Servicio 🛠️👨‍💼
+- Clasificar la información.
+- Identificar riesgos asociados al tratamiento de datos.
+- Establecer requerimientos de seguridad en función de la sensibilidad.
 
-- Ayuda a determinar los requisitos de seguridad de los servicios que se prestan, identificando los niveles de seguridad de estos mediante la evaluación del impacto de los incidentes sobre ellos, y proporcionando la información necesaria para realizar los respectivos análisis de riesgos para establecer las salvaguardas a implementar.
-- Cuenta con la ayuda del responsable del sistema para realizar sus tareas.
 
-### Responsable de Seguridad (CISO) 🕵️‍♂️🔒
+### ⚙️ Responsable del Servicio
 
-- Desarrolla Planes con Medidas para gestionar los riesgos detectados.
-- Supervisa y desarrolla políticas, normativas y procedimientos de seguridad, su eficacia... Realizando controles periódicos.
-- Prepara el documento de Declaración de Aplicabilidad de medidas de seguridad.
-- Promueve y forma sobre las "mejores prácticas" de la organización en materia de ciberseguridad.
-- Presenta notificaciones de incidentes con efectos adversos a la autoridad competente.
-- Recibe, interpreta y supervisa la aplicación de instrucciones y directrices de la autoridad competente.
-- Recopila y proporciona información o documentación a la autoridad competente.
+Tiene la responsabilidad de **definir los requisitos de seguridad de los servicios prestados por el sistema**. Esto implica evaluar el impacto que tendría una alteración, interrupción o fallo en la prestación del servicio, y colaborar con el Responsable del Sistema para identificar los riesgos y las medidas necesarias.
 
-### Responsable del Sistema 💻🛠️
+**Responsabilidades clave**:
 
-- Desarrolla, opera y mantiene el sistema.
-- Define la tipología y política de Gestión del Sistema.
-- La conexión/desconexión de equipos/usuarios.
-- Aprueba cambios operativos que afecten al sistema.
-- Decide sobre las medidas de seguridad a aplicar por los proveedores de componentes.
-- Implementa, controla e integra medidas de seguridad específicas.
-- La configuración autorizada y la aprobación de modificaciones sustanciales de hardware y software.
-- Mantiene actualizado el Análisis de Riesgos en el sistema.
-- Determina la Categoría del Sistema (proceso en Anexo I ENS) y las medidas de seguridad que deben aplicarse (Anexo II ENS).
-- Elabora y aprueba la documentación del sistema y determina las responsabilidades de los implicados en el mantenimiento, explotación, implantación y supervisión del sistema.
-- Investiga Incidentes de Seguridad y los comunica a quien corresponda si procede.
-- Establece Planes de Contingencia o Emergencia y realiza ejercicios programados.
-- Acuerda el uso de cierta información o prestación de servicio si existen vulnerabilidades graves en el sistema, decisión acordada previamente con el Responsable de Seguridad.
+- Identificar el impacto de incidentes sobre los servicios.
+- Establecer los niveles de seguridad adecuados para cada servicio.
+- Coordinarse con el Responsable del Sistema en la planificación de medidas.
 
-## Implementación del ENS
+
+### 🕵️‍♂️ Responsable de Seguridad (CISO)
+
+Es el encargado de la **gestión integral de la seguridad de la información** en la organización. Debe desarrollar planes de seguridad, realizar controles periódicos, coordinar auditorías, gestionar incidentes, y servir como punto de contacto con las autoridades competentes.
+
+**Responsabilidades clave**:
+
+- Diseñar, aplicar y mantener políticas de seguridad.
+- Coordinar la Declaración de Aplicabilidad (DoA).
+- Supervisar la respuesta a incidentes y notificar a las autoridades.
+- Impulsar campañas de formación y concienciación.
+
+
+### 💻 Responsable del Sistema
+
+Su función principal es **desarrollar, operar y mantener el sistema de información**, asegurando que se implementen y mantengan las medidas de seguridad adecuadas en todas las fases del ciclo de vida del sistema. También se encarga de categorizar el sistema según el ENS y realizar el análisis de riesgos.
+
+**Responsabilidades clave**:
+
+- Definir la arquitectura técnica y las políticas operativas.
+- Aprobar configuraciones y cambios críticos de hardware/software.
+- Mantener actualizado el análisis de riesgos.
+- Coordinarse con otros responsables para asegurar la continuidad del servicio y la protección del sistema.
+
+> 🔒 **Nota**: Estos cuatro roles deben estar **claramente definidos, documentados y asignados formalmente** dentro de la organización, y no pueden fusionarse de forma arbitraria. Su correcta implementación es un requisito fundamental para el cumplimiento del ENS y la obtención de la certificación correspondiente.
+
+
+## Implementación del ENS: Enfoque Escalonado y Ciclo de Vida
 
 ![Implementación del ENS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/proceso-ens.png?raw=true)
 
-Para implementar un Sistema de Gestión de Seguridad de la Información (SGSI) que cumpla con el Esquema Nacional de Seguridad (ENS) de España, necesitarás seguir un enfoque estructurado que se alinee con el marco regulatorio. A continuación, se presenta un plan de implementación paso a paso:
+La implementación del Esquema Nacional de Seguridad (ENS) no debe entenderse como una acción puntual, sino como un proceso continuo que abarca todo el ciclo de vida del sistema, desde su diseño inicial hasta su retirada definitiva.
 
-### 1. **Comprender los requisitos del ENS**
+Este proceso debe estar guiado por un análisis de riesgos que determine qué medidas deben aplicarse, con qué nivel de exigencia (BASE, Reforzado, Alto) y en qué momento. La correcta implementación del ENS garantiza no solo el cumplimiento normativo, sino también la protección efectiva de los servicios y la información.
 
-- **Clasificación de sistemas:** El ENS define diferentes niveles de seguridad (Básico, Medio y Alto). Comienza clasificando tus sistemas de información basándote en la sensibilidad y criticidad de los datos manejados.
-- **Medidas de Seguridad:** Cada nivel requiere medidas de seguridad específicas (administrativas, técnicas y operativas). Revisa el Anexo II y el Anexo III del ENS para los requisitos detallados.
-- **Revisión Legal:** Estado actual del cumplimiento de la organización con las leyes españolas relacionadas (por ejemplo, RGPD, Ley Orgánica de Protección de Datos).
 
-### 2. **Análisis de Brechas**
+### 1. Comprensión del ENS
 
-- **Evaluación del Estado Actual:** Realiza un análisis exhaustivo de tu postura de seguridad actual. Evalúa las medidas, políticas y procedimientos de seguridad existentes.
-- **Identificación de Brechas:** Compara tus controles de seguridad actuales con los requisitos del ENS. Identifica las brechas tanto en aspectos técnicos (por ejemplo, firewalls, encriptación) como organizativos (por ejemplo, políticas, gestión de riesgos).
+Antes de aplicar cualquier medida, la organización debe entender su contexto y obligaciones. Este paso inicial sienta las bases para el resto del proceso:
 
-### 3. **Establecer un Marco de Gobernanza de Seguridad**
+- Clasifica tus sistemas: Determina si se trata de sistemas de nivel Bajo, Medio o Alto en función del impacto que tendría una brecha de seguridad en la confidencialidad, integridad o disponibilidad.
+- Revisa los Anexos I y II del ENS:
+  - Anexo I: Establece cómo categorizar los sistemas según su nivel.
+  - Anexo II: Contiene las 73 medidas de seguridad obligatorias, divididas en organizativas, operacionales y de protección.
+- Evalúa el cumplimiento legal vigente: Asegúrate de cumplir también con otras normativas complementarias, como el RGPD, la LOPDGDD, la Ley 40/2015 o la Ley 39/2015, entre otras.
 
-- **Nombrar un Responsable de Seguridad:** Designa un responsable de seguridad encargado del cumplimiento del ENS y asegúrate de que esté adecuadamente formado.
-- **Crear un Comité de Seguridad:** Establece un comité con representantes de TI, legal, RRHH y otros departamentos relevantes para supervisar el programa de seguridad.
 
-### 4. **Desarrollar el Marco del SGSI**
+### 2. Análisis de brechas (Gap Analysis)
 
-- **Desarrollo de Políticas:** Crea o actualiza las políticas de seguridad de la información para reflejar los requisitos del ENS. Incluye políticas sobre control de acceso, gestión de incidentes y clasificación de datos.
-- **Proceso de Gestión de Riesgos:** Implementa un proceso formal de gestión de riesgos, incluyendo identificación, evaluación y tratamiento de riesgos. Asegúrate de que la estrategia de gestión de riesgos se alinee con las directrices del ENS.
-- **Gestión de Activos:** Identifica y clasifica los activos (hardware, software, datos) según su importancia para tu organización. Define medidas de protección apropiadas para cada activo.
+Este análisis permite conocer el estado actual de la organización frente a los requisitos del ENS y detectar puntos débiles:
 
-### 5. **Implementación de Controles de Seguridad Técnicos**
+- Compara las medidas del ENS con la situación real de tus sistemas.
+- Identifica qué controles no están implementados o lo están de forma insuficiente.
+- Clasifica cada brecha según su impacto y urgencia.
 
-- **Encriptación:** Utiliza encriptación fuerte para datos sensibles en almacenamiento y tránsito.
-- **Control de Acceso:** Implementa controles de acceso basados en roles (RBAC) y autenticación de dos factores (2FA) para todos los sistemas críticos.
-- **Monitoreo y Detección de Incidentes:** Instala herramientas de monitoreo (SIEM, IDS/IPS) para detectar y responder a incidentes. Alinea esto con los requisitos regulatorios españoles para la notificación de incidentes.
-- **Copia de Seguridad y Recuperación:** Establece un sistema fiable de copia de seguridad y recuperación ante desastres. Asegúrate de que las copias de seguridad estén encriptadas y se prueben regularmente.
-- **Seguridad Perimetral:** Refuerza las defensas perimetrales utilizando firewalls, sistemas de detección de intrusiones y segmentación de red.
+Este análisis alimentará el Plan de Adecuación al ENS, que recoge los pasos concretos para alcanzar el cumplimiento.
 
-### 6. **Medidas Administrativas y Organizativas**
 
-- **Programas de Concienciación y Formación:** Desarrolla y ejecuta un programa de concienciación en seguridad para todos los empleados, cubriendo temas como phishing, manejo seguro de datos y notificación de incidentes.
-- **Plan de Respuesta a Incidentes:** Crea un plan de respuesta a incidentes que cumpla con las directrices del ENS. Asegúrate de que cubra la detección, respuesta, recuperación y notificación de incidentes.
-- **Monitoreo Continuo:** Establece un proceso de monitoreo de amenazas de seguridad, asegurando que se realicen auditorías periódicas y evaluaciones de vulnerabilidades.
+### 3. Gobierno de Seguridad
 
-### 7. **Gestión de Terceros y Proveedores**
+Para cumplir con el ENS, la organización debe establecer una estructura clara de responsabilidades, sin recurrir a comités informales ni órganos sin reconocimiento normativo.
 
-- **Evaluación de Riesgos de Proveedores:** Evalúa las medidas de seguridad de los proveedores de servicios externos para asegurar que cumplan con los requisitos del ENS.
-- **Obligaciones Contractuales:** Incorpora cláusulas relacionadas con el ENS en los contratos con proveedores y socios, especialmente aquellos que manejan información sensible.
+- Designa formalmente los cuatro roles definidos en el artículo 11 del RD 311/2022:
+  - Responsable de la Información
+  - Responsable del Servicio
+  - Responsable del Sistema
+  - Responsable de Seguridad (CISO)
+- Define funciones, autoridad, flujos de aprobación y mecanismos de coordinación entre ellos.
 
-### 8. **Auditoría y Certificación**
 
-- **Auditoría Interna:** Realiza auditorías internas regulares para asegurar el cumplimiento continuo del ENS. Aborda cualquier no conformidad identificada durante las auditorías.
-- **Certificación ENS:** Involucra a auditores acreditados para obtener la certificación ENS. Este paso es crucial para las administraciones públicas y los proveedores que trabajan con el sector público.
-- **Auditoría Externa:** Dependiendo de tu nivel de seguridad, es posible que necesites someterte a una auditoría externa para la certificación oficial (particularmente para los niveles Medio y Alto).
+### 4. Desarrollo del SGSI (Sistema de Gestión de Seguridad de la Información)
 
-### 9. **Gestión y Notificación de Incidentes**
+Este paso consiste en crear los fundamentos organizativos y técnicos que permitirán gestionar la seguridad de forma estructurada:
 
-- **Proceso de Manejo de Incidentes:** Implementa un proceso formal para la notificación y respuesta a incidentes. Asegúrate de que los incidentes se notifiquen a las autoridades pertinentes, siguiendo las directrices del ENS.
-- **Mejora Continua:** Después de los incidentes, realiza un análisis post-mortem para actualizar el SGSI y prevenir incidentes similares en el futuro.
+- Redacta e implementa políticas y procedimientos de seguridad.
+- Establece un proceso de gestión de riesgos, acorde con metodologías reconocidas (como MAGERIT).
+- Clasifica los activos de información (datos, servicios, infraestructura, personal).
+- Define controles de protección según su nivel de criticidad.
 
-### 10. **Documentación e Informes**
 
-- **Plan de Seguridad:** Documenta el plan de seguridad, que debe incluir objetivos, enfoques de gestión de riesgos y medidas de seguridad en línea con el ENS.
-- **Informes de Conformidad:** Produce informes regulares de conformidad que demuestren la adherencia a los requisitos del ENS.
-- **Comunicación con las Autoridades:** Asegura una comunicación regular con las autoridades reguladoras para la notificación de incidentes y certificaciones.
+### 5. Aplicación de controles técnicos
 
-### 11. **Mejora Continua**
+Aquí se despliegan las medidas técnicas del ENS, siempre alineadas con los resultados del análisis de riesgos. Entre ellas:
 
-- **Revisión Regular:** Revisa y actualiza periódicamente tu SGSI para alinearlo con las amenazas en evolución y las actualizaciones del ENS.
-- **Pruebas de Penetración:** Realiza pruebas de penetración anuales para evaluar la efectividad de tus controles de seguridad.
-- **Re-formación de Empleados:** Actualiza regularmente la concienciación de seguridad de los empleados a través de programas de formación continuos.
+- Cifrado de la información (en reposo y en tránsito).
+- Mecanismos robustos de autenticación y control de accesos.
+- Sistemas de monitorización y detección de incidentes.
+- Copias de seguridad, segmentación de redes, alta disponibilidad, entre otros.
 
-## Medidas de Protección del ENS
+La implementación técnica sin gobierno ni políticas claras puede resultar ineficaz. Ambos componentes deben ir de la mano.
 
-La siguiente es una lista de todas las medidas de protección que debemos implementar para cumplir con el ENS.
 
-### Protección de instalaciones 🔒🏢
 
-La protección de instalaciones se erige como un pilar fundamental en el Esquema Nacional de Seguridad, desempeñando un papel crítico en la preservación de la integridad y la información de una entidad pública. Este componente, que abarca desde infraestructuras estratégicas hasta edificios clave, se convierte en un eslabón esencial para el desarrollo seguro y sostenible.
+### 6. Medidas administrativas
 
-La protección de instalaciones se refiere a la aplicación de medidas y estrategias destinadas a salvaguardar física y estratégicamente los lugares y estructuras considerados cruciales para el funcionamiento y bienestar de una sociedad. Estas instalaciones pueden abarcar desde centrales eléctricas y plantas de tratamiento de agua hasta edificios gubernamentales y centros de investigación.
+Las medidas administrativas complementan las técnicas y organizativas, asegurando que el factor humano también se gestione adecuadamente:
 
-Entre sus controles tenemos:
+- Programas de formación y concienciación en seguridad para el personal.
+- Protocolos de respuesta ante incidentes.
+- Procedimientos para la gestión del cambio, control de configuraciones y revisiones periódicas.
 
-#### Áreas separadas con control de acceso 🔒🚧
 
-Según el ENS, la infraestructura de todos los sistemas debe seguir una distribución de zonas separadas según su función y tener control de acceso para estas zonas
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.if.1 | Áreas separadas con control de acceso |
+### 7. Relación con terceros
 
-#### Identificación de personas 🧑‍💼🚧
+La seguridad no termina en los límites de la organización. El ENS exige gestionar los riesgos derivados de proveedores externos o servicios contratados:
 
-Todas las entidades deben tener control de acceso a las instalaciones y con registro de entrada y salida
+- Revisión de contratos y cláusulas de seguridad.
+- Evaluación de riesgos de terceros.
+- Supervisión del cumplimiento de medidas por parte de proveedores (auditorías, informes, etc.).
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.if.2 | Identificación de personas |
 
-#### Acondicionamiento de los locales 🌡️💧
+### 8. Auditoría y certificación
 
-Todas las instalaciones deben tener condiciones favorables de temperatura y humedad, y tener protección contra amenazas obtenidas del análisis de riesgos
+Una vez implementadas las medidas, es necesario verificar el cumplimiento del ENS mediante auditorías:
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.if.3 | Acondicionamiento de los locales |
+- Las entidades obligadas deben pasar una auditoría externa cada 2 años.
+- La auditoría debe realizarla un organismo acreditado o una unidad independiente, conforme a lo establecido en la Guía CCN-STIC 820.
+- Si se supera la evaluación, se emite el certificado ENS, válido por 24 meses.
 
-#### Energía eléctrica 🔌💡
+La certificación no es el final, sino el inicio de un ciclo de mejora continua. Las medidas deben mantenerse y actualizarse durante todo el ciclo de vida del sistema.
 
-Según el ENS, las instalaciones deben tener suministro de energía en caso de fallo eléctrico o al menos garantizar el correcto funcionamiento de las luces de emergencia
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | + | = | mp.if.4 | Energía eléctrica |
+# Medidas de Seguridad del ENS
 
-#### Protección frente a incendios 🔥🚨
+Las medidas de seguridad del Esquema Nacional de Seguridad (ENS) se organizan en tres marcos:
 
-Las instalaciones deben tener protección contra incendios, así como equipos para extinguir el fuego
+- **Marco organizativo** (`org`)
+- **Marco operacional** (`op`)
+- **Medidas de protección** (`mp`)
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.if.5 | Protección frente a incendios |
+Cada medida tiene niveles de aplicación según el perfil de seguridad del sistema:
 
-#### Protección frente a inundaciones 🌊🚨
+- `=`: Requisito **BASE** (obligatorio para todos)
+- `+`: Requisito para sistemas de **nivel medio**
+- `++`: Requisito para sistemas de **nivel alto**
 
-Al igual que en el punto anterior, debe haber protección en caso de inundaciones, podemos referenciar esta protección según la normativa industrial seguida en la instalación y adecuación del edificio para incendios e inundaciones
+> Esta no es una lista exhaustiva. Las 73 medidas completas están disponibles en la Guía CCN-STIC 808.
 
-En este caso, los controles deben aplicarse en entidades de categoría media y alta.
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | Aplica | = | mp.if.6 | Protección frente a inundaciones |
+## Marco Organizativo (`org`)
 
-#### Registro de entrada y salida de equipamiento 📦🚧
+### Normativas y Procedimientos de Seguridad
 
-Todo equipo que salga y entre debe ser identificado y documentado, así como quién lo autorizó, la fecha de salida y el tiempo estimado.
+| Medida                       | Nivel Bajo | Nivel Medio | Nivel Alto | Código |
+|-----------------------------|------------|-------------|------------|--------|
+| Normativas de seguridad     | =          | +           | ++         | org.2  |
+| Procedimientos de seguridad | =          | +           | ++         | org.3  |
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.if.7 | Registro de entrada y salida de equipamiento |
+### Procesos de Autorización
 
-#### Instalaciones alternativas 🚧🚨
+| Medida                                 | Nivel Bajo | Nivel Medio | Nivel Alto | Código |
+|----------------------------------------|------------|-------------|------------|--------|
+| Control de instalaciones y componentes | =          | =           | =          | org.4  |
 
-Las entidades públicas con sistemas de categoría alta deben tener instalaciones alternativas en caso de que un incidente deje fuera de funcionamiento la instalación principal, estas instalaciones alternativas deben tener las mismas garantías de seguridad que las habituales
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.if.1 | Instalaciones alternativas |
+## Marco Operacional (`op`)
 
-### Protección de activos y personal
+### Planificación
 
-La protección de activos y personal implica la implementación de estrategias y medidas destinadas a salvaguardar tanto los recursos críticos de las entidades públicas del país, como la información estratégica y la seguridad de sus ciudadanos.
+| Medida                             | Nivel Bajo | Nivel Medio | Nivel Alto | Código   |
+|------------------------------------|------------|-------------|------------|----------|
+| Análisis de riesgos                | =          | +           | ++         | op.pl.1  |
+| Arquitectura de seguridad          | =          | +           | ++         | op.pl.2  |
+| Adquisición de nuevos componentes  | =          | =           | =          | op.pl.3  |
+| Gestión de capacidades             | —          | =           | =          | op.pl.4  |
 
-Dentro del ENS, la gestión y protección del personal está mayormente relacionada con la función y obligaciones dentro de su puesto de trabajo así como la formación y concienciación respecto a la seguridad, sus controles son:
 
-#### Caracterización del puesto de trabajo 🧑‍💼📄
+## Medidas de Protección (`mp`)
 
-En este control se debe estipular documentación con las responsabilidades de seguridad de cada empleado según su puesto de trabajo, así como los requisitos que se deben cumplir para ocupar el puesto de trabajo y en la selección de personal.
+### Protección de Instalaciones (`mp.if.*`)
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | Aplica | = | mp.if.1 | Caracterización del puesto de trabajo |
+| Medida                                           | Nivel Bajo | Nivel Medio | Nivel Alto | Código   |
+|--------------------------------------------------|------------|-------------|------------|----------|
+| Áreas separadas con control de acceso            | =          | =           | =          | mp.if.1  |
+| Identificación de personas                       | =          | =           | =          | mp.if.2  |
+| Acondicionamiento de los locales                 | =          | =           | =          | mp.if.3  |
+| Energía eléctrica                                 | +          | =           | =          | mp.if.4  |
+| Protección frente a incendios                     | =          | =           | =          | mp.if.5  |
+| Protección frente a inundaciones                  | —          | =           | =          | mp.if.6  |
+| Registro de entrada y salida de equipamiento      | =          | =           | =          | mp.if.7  |
+| Instalaciones alternativas                        | —          | —           | =          | mp.if.8  |
 
-#### Deberes y obligaciones 🧑‍💼🔒
+### Protección de Personal y Activos (`mp.per.*`)
 
-Se deben explicar los deberes y responsabilidades respecto a la seguridad en el puesto de trabajo. También se deben tomar medidas disciplinarias en caso de incumplimiento de deberes en el puesto de trabajo
+| Medida                              | Nivel Bajo | Nivel Medio | Nivel Alto | Código    |
+|-------------------------------------|------------|-------------|------------|-----------|
+| Caracterización del puesto          | —          | =           | =          | mp.per.1  |
+| Deberes y obligaciones              | =          | =           | =          | mp.per.2  |
+| Concienciación                      | =          | =           | =          | mp.per.3  |
+| Formación                           | =          | =           | =          | mp.per.4  |
+| Personal alternativo                | —          | —           | =          | mp.per.5  |
+| Medios alternativos (equipamiento) | —          | —           | =          | mp.per.8  |
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.per2 | Deberes y obligaciones |
+### Protección de Información (`mp.info.*`)
 
-#### Concienciación 🧑‍🏫🔒
+| Medida                     | Nivel Bajo | Nivel Medio | Nivel Alto | Código     |
+|----------------------------|------------|-------------|------------|------------|
+| Datos de carácter personal | =          | =           | =          | mp.info.1  |
+| Calificación de la información | +      | =           | =          | mp.info.2  |
+| Cifrado                    | —          | —           | =          | mp.info.3  |
+| Firma electrónica          | +          | ++          | ++         | mp.info.4  |
+| Sellos de tiempo           | =          | =           | =          | mp.info.5  |
+| Limpieza de documentos     | =          | =           | =          | mp.info.6  |
+| Copias de seguridad        | =          | =           | =          | mp.info.9  |
 
-El ENS explica que se deben dar charlas periódicamente al personal para recordar la normativa de seguridad y los procedimientos de gestión de incidentes
+### Protección de Servicios (`mp.s.*`)
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.per3 | Concienciación |
+| Medida                                        | Nivel Bajo | Nivel Medio | Nivel Alto | Código   |
+|-----------------------------------------------|------------|-------------|------------|----------|
+| Protección del correo electrónico             | =          | =           | =          | mp.s.1   |
+| Protección de servicios y aplicaciones web    | =          | +           | +          | mp.s.2   |
+| Protección frente a la denegación de servicio | —          | =           | +          | mp.s.8   |
+| Medios alternativos para servicios críticos   | —          | —           | =          | mp.s.9   |
 
-#### Formación 🧑‍🏫🔒
 
-Este control implica gestionar correctamente la información de la institución y formar al personal para que sepa cómo reaccionar ante diferentes tipos de incidentes
+## Leyenda de Niveles de Aplicación
 
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.per4 | Formación |
-
-#### Personal alternativo 🧑‍💼🚨
-
-Debe haber personal que se haga cargo de las funciones en caso de cualquier indisponibilidad del personal habitual.
-
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.per5 | Personal alternativo |
-
-En cuanto a la protección de activos, la norma está más orientada hacia los puestos de trabajo y su manipulación y protección
-
-#### Puesto de trabajo despejado 🧑‍💼🚧
-
-Este control establece la política de que el puesto de trabajo debe estar limpio y solo se debe realizar la actividad que se está llevando a cabo en el momento, el material que no se esté utilizando debe guardarse en un lugar cerrado
-
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.eq1 | Puesto de trabajo despejado |
-
-#### Bloqueo de puesto de trabajo 🔒🧑‍💻
-
-En sistemas de categoría media, los puestos de trabajo deben tener un bloqueo tras un periodo de inactividad y requerir autenticación para ser reactivados, principalmente con el fin de cerrar sesiones abiertas.
-
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.eq2 | Bloqueo de puesto de trabajo |
-
-#### Protección de equipos portátiles 📱🚧
-
-Este es el control más riguroso dentro de los controles de protección de activos y es que debe haber un inventario de todos los equipos portátiles que salen de la instalación junto con el responsable del mismo, y debe haber documentación de todos los procedimientos de información sobre cualquier incidente que pueda existir con dicho equipo
-
-Estos equipos también deben tener limitación de información accesible y almacenamiento de información sensible, es aconsejable manejar información con un alto nivel de cifrado
-
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.eq3 | Protección de equipos portátiles |
-
-#### Medios alternativos 🚧🚨
-
-Debe haber disponibilidad de equipos alternativos en caso de que fallen los equipos habituales.
-
-| Dimensiones |  |  | Medidas de protección |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.per4 | Medios alternativos |
-
-### Protección de la información y los servicios
-
-Es importante tener protección de la información que se puede manejar dentro de una entidad pública, así como sus servicios, es por ello que el ENS mantiene controles respecto a estas áreas que veremos a continuación
-
-#### Datos de carácter personal 🧑‍💼📄
-
-Este control se basa en los sistemas con datos de carácter personal, los cuales deben cumplir los requisitos de la Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales
-
-| Dimensiones |  |  | Protección de la información |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.info1 | Datos de carácter personal |
-
-#### Calificación de la información 🧑‍💼📄
-
-Esta política da al responsable de la información la responsabilidad de determinar su clasificación y describir los criterios para etiquetar la información según su nivel de seguridad
-
-| Dimensiones |  |  | Protección de la información |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | + | = | mp.info2 | Calificación de la información |
-
-#### Cifrado 🔒🔑
-
-Debe haber cifrado de alto nivel para la información almacenada y transmitida
-
-| Dimensiones |  |  | Protección de la información |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.info3 | Cifrado |
-
-#### Firma electrónica 🔑🖋️
-
-La firma electrónica debe existir dentro de sistemas y documentos para verificar su integridad y autenticidad
-
-| Dimensiones |  |  | Protección de la información |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | + | ++ | mp.info4 | Firma electrónica |
-
-#### Sellos de tiempo 🕒🔑
-
-Los sellos de tiempo ayudan a analizar la integridad de la información cuando se requiere temporalmente, generalmente orientado a datos utilizados como evidencia electrónica
-
-| Dimensiones |  |  | Protección de la información |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.info5 | Sellos de tiempo |
-
-#### Limpieza de documentos 🧑‍💼📄
-
-Se debe eliminar la información en campos ocultos, metadatos y revisiones especiales especialmente cuando el documento se hace público
-
-| Dimensiones |  |  | Protección de la información |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.info6 | Limpieza de documentos |
-
-#### Copias de seguridad 💾📄
-
-Debe haber copias de seguridad que tengan el mismo nivel de seguridad que los datos originales y deben cubrir tanto la información de trabajo como las aplicaciones y claves
-
-| Dimensiones |  |  | Protección de la información |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.info9 | Copias de seguridad |
-
-Dentro de la protección de servicios se establecen los siguientes controles
-
-#### Protección del correo electrónico 📧🔒
-
-Debe haber medidas de seguridad que se utilizarán para prevenir incidentes como SPAM o malware, además de documentación que explique el uso seguro del correo electrónico
-
-Es aconsejable utilizar un proveedor de correo electrónico de confianza
-
-| Dimensiones |  |  | Protección de servicios |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | = | mp.s.1 | Protección del correo electrónico |
-
-#### Protección de servicios y aplicaciones web 📧🧑‍💻
-
-Debe haber medidas de seguridad para prevenir incidentes como manipulación de URL y cookies, escalada de privilegios, entre otros. Para sistemas de categoría alta, se recomienda el uso de certificados de autenticación cualificados
-
-| Dimensiones |  |  | Protección de servicios |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| Aplica | = | + | mp.s.2 | Protección de servicios y aplicaciones web |
-
-#### Protección frente a la denegación de servicio 🚨🧑‍💻
-
-Debe haber protección contra este tipo de ataques, como control de solicitudes y balanceadores de carga, así como sistemas para detectar el ataque y procedimientos para reaccionar al ataque
-
-| Dimensiones |  |  | Protección de servicios |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | Aplica | + | mp.s.8 | Protección frente a la denegación de servicio |
-
-#### Medios alternativos 🚨🧑‍💻
-
-Debe haber disponibilidad de medios alternativos para prestar el servicio de aplicaciones con las mismas garantías que los medios habituales, esto puede incluirse en el plan de continuidad del negocio
-
-| Dimensiones |  |  | Protección de servicios |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Marco operacional |
-| No aplica | No aplica | Aplica | mp.s.9 | Medios alternativos |
+- `=`: Nivel BASE, obligatorio para todos los sistemas
+- `+`: Aplicable a sistemas de nivel medio
+- `++`: Aplicable a sistemas de nivel alto
+- `—`: No aplicable explícitamente (puede depender del análisis de riesgos)
