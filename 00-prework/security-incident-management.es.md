@@ -1,11 +1,15 @@
 ---
-title: "Gestión de incidentes de seguridad"
-subtitle: "Explora las funciones esenciales de la gestión de incidentes de seguridad. Aprenda cómo las organizaciones detectan, responden y mitigan las amenazas a la seguridad para minimizar los daños y cumplir la normativa."
-tags: ["ciberseguridad", "gestion-incidentes"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Gestión de incidentes de seguridad
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre cómo gestionar incidentes de seguridad en ciberseguridad. Aprende a
+  detectar, responder y mitigar amenazas para proteger tu organización.
+  
 ---
-
 La gestión de incidentes de seguridad es un proceso esencial en ciberseguridad que se utiliza para identificar, responder y mitigar las amenazas y los eventos de seguridad en una organización. Su objetivo es minimizar el impacto de los incidentes y garantizar la continuidad de las operaciones. Aquí se explica su función, importancia y ejemplos de casos de uso:
 
 ### Función de la Gestión de Incidentes de Seguridad

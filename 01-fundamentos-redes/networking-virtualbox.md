@@ -1,12 +1,14 @@
 ---
-title: "Networks on VirtualBox"
-subtitle: "Get to know the possibilities of connection between virtual machines in VirtualBox"
-tags: ["network", "cybersecurity"]
-authors: ["arnaldoperez"]
-
+title: Networks on VirtualBox
+tags:
+  - network
+  - cybersecurity
+authors:
+  - arnaldoperez
+description: >-
+  Discover the power of VirtualBox networks! Learn how to connect virtual
+  machines using NAT, Bridged, and Host-Only networks for seamless interaction.
 ---
-
-
 ## Virtual Interfaces
 
 VirtualBox is a powerful tool that allows us to run operating systems completely, from the comfort of a window on our computer, as if it were another application. While this is very useful when exploring unfamiliar operating systems or experimenting with the options we already know, it is also very useful when studying how these operating systems can interact with each other or with other computers on our network.

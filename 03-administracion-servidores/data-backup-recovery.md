@@ -1,11 +1,14 @@
 ---
-title: "Data Backup and Recovery"
-subtitle: "Planning and Executing Backups: Ensure the Security and Availability of Your Data. Learn Effective Strategies and Tools for Backup and Recovery."
-tags: ["servers"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Data Backup and Recovery
+tags:
+  - servers
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover effective strategies for data backup and recovery. Learn essential
+  tools and best practices to secure your data and ensure its availability!
 ---
-
 ![Planning and Executing Backups](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
 
 ![Planning and Executing Backups](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)

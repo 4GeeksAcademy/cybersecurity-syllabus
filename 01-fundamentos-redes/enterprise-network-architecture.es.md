@@ -1,11 +1,15 @@
 ---
-title: "Que es una arquitectura de red y cómo se aplica en una empresa"
-subtitle: "Creación de arquitecturas de redes empresariales óptimas: equilibrio entre rendimiento, seguridad y escalabilidad para operaciones y crecimiento fluidos"
-tags: ["redes", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Que es una arquitectura de red y cómo se aplica en una empresa
+tags:
+  - redes
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre qué es una arquitectura de red y cómo implementarla en tu empresa
+  para optimizar rendimiento, seguridad y escalabilidad. ¡Aprende más ahora!
 ---
-
 Una **arquitectura de red** es un conjunto estructurado de componentes y protocolos que se utilizan para diseñar, implementar y gestionar una red de computadoras. Esta arquitectura proporciona una visión general de cómo se interconectan y comunican los dispositivos dentro de una red, así como cómo se administran y se garantiza su rendimiento y seguridad. La elección de una arquitectura de red adecuada es esencial para garantizar que la red cumpla con los objetivos y requisitos de una organización.
 
 Las **arquitecturas de red** pueden variar significativamente en tamaño y complejidad, desde redes domésticas pequeñas hasta grandes redes empresariales y de telecomunicaciones. Aquí hay algunos elementos clave que suelen formar parte de una arquitectura de red:

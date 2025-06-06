@@ -1,11 +1,15 @@
 ---
-title: "Basic Cryptography"
-subtitle: "Explore the vital role of cryptography in ensuring confidentiality, integrity, and authenticity in the digital realm. Learn about symmetric and asymmetric encryption, types of ciphers, and common applications."
-tags: ["cryptography", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Basic Cryptography
+tags:
+  - cryptography
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover the essentials of cryptography! Learn about symmetric and asymmetric
+  encryption, ciphers, and their vital role in securing digital communications.
 ---
-
 Cryptography in computing is the field that deals with developing techniques and methods for encrypting and decrypting information to ensure its confidentiality, integrity, and authenticity in the digital environment. Cryptography enables data to be transmitted and stored securely, even if intercepted by unauthorized individuals.
 
 In simple terms, cryptography in computing uses mathematical algorithms to convert readable data into an unreadable format and then reconvert it to the original format when necessary. The original data is called "**plaintext**", and the encrypted data is referred to as "**ciphertext**." To carry out the process of encryption and decryption, keys are used, which are secret values employed by the algorithms.

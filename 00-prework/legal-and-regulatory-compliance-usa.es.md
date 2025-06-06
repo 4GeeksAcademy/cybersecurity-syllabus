@@ -1,11 +1,14 @@
 ---
-title: "Cumplimiento Legal y Normativo de ciberseguridad en Estados Unidos"
-subtitle: "Entendiendo el Panorama Legal de la Ciberseguridad en Estados Unidos: Leyes Clave, Regulaciones y el Papel de los Planes de Respuesta a Incidentes en la Protección de la Infraestructura Digital."
-tags: ["ciberseguridad"]
-autores: ["blindma1den", "lorenagubaira"]
-
+title: Cumplimiento Legal y Normativo de ciberseguridad en Estados Unidos
+tags:
+  - ciberseguridad
+autores:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre las leyes y regulaciones clave de ciberseguridad en EE. UU. y cómo
+  proteger tu organización. ¡Aprende a cumplir y salvaguardar datos hoy!
 ---
-
 La ciberseguridad es un tema crítico en la era digital, y los gobiernos de todo el mundo han establecido leyes y regulaciones para proteger la información, la privacidad y la infraestructura en línea. Estas regulaciones pueden variar según el país, pero generalmente tienen como objetivo prevenir los delitos cibernéticos, promover buenas prácticas de ciberseguridad y establecer responsabilidades legales en caso de incumplimiento.
 
 ### Legislación Estadounidense sobre Ciberseguridad

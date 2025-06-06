@@ -1,11 +1,15 @@
 ---
-title: "IP address management"
-subtitle: "Mastering IP address management: vital skills for network and cybersecurity professionals. Discover how IP addresses drive network infrastructure and cybersecurity."
-tags: ["ip-address", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: IP address management
+tags:
+  - ip-address
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master IP address management and enhance your network security skills. Learn
+  about IPv4, IPv6, subnetting, and more. Discover essential techniques now!
 ---
-
 A network and cybersecurity professional needs to know how to manage IP addresses because IP addresses are essential elements in any network infrastructure, and play a critical role in cybersecurity.
 
 ## IP address

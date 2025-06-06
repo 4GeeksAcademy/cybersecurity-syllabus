@@ -1,11 +1,15 @@
 ---
-title: "Network Services"
-subtitle: "Learn how to configure essential network services for your server’s security. Master IP settings, DNS, HTTP, and FTP with our step-by-step guide!"
-tags: ["linux", "networking", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
+title: Network Services
+tags:
+  - linux
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn how to configure essential network services like HTTP and FTP on your
+  server. Master network security and improve connectivity today!
 
 ---
-
 ## Network Interface Configuration
 
 The network interface and its configuration are some of the most important parts of a server and the tasks of a systems administrator, as with the network interface, we can establish connectivity and allow the server to communicate with other devices on the network.

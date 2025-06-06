@@ -1,11 +1,15 @@
 ---
-title: "What is VirtualBox?"
-subtitle: "Learn how to use VirtualBox, a free tool that allows you to create and manage virtual machines. Discover how to install operating systems, allocate resources such as CPU, RAM, and storage, and configure networks to safely simulate different environments."
-tags: ["cybersecurity", "virtualbox"]
-authors: ["arnaldoperez"]
-
+title: What is VirtualBox?
+tags:
+  - cybersecurity
+authors:
+  - arnaldoperez
+description: >-
+  Discover how VirtualBox works and learn to create virtual machines
+  effortlessly. Explore the benefits of running multiple operating systems on
+  one computer!
+  
 ---
-
 VirtualBox is a free program that allows you to install different operating systems inside your current computer, as if they were independent programs. It's like having several computers in one.
 
 VirtualBox is relatively easy to use, even for people with no computer experience.

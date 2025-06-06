@@ -1,11 +1,14 @@
 ---
-title: "Basics in Network Security"
-subtitle: "Explore the critical aspects of network security, including authentication, access control, threat management, and data protection."
-tags: ["cybersecurity", "network-security"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Basics in Network Security
+tags:
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn the essentials of network security, including authentication, access
+  control, and data protection. Discover how to safeguard your network today!
 ---
-
 Network security is a critical aspect of cybersecurity that focuses on protecting communication infrastructure and the information flowing through it. It involves a series of measures and practices designed to ensure the confidentiality, integrity, and availability of data in a network environment. Here is continuous text-format information on network security:
 
 Network security covers a variety of aspects and challenges. One of the primary focuses is **authentication**, ensuring that only authorized users have access to network resources. This involves implementing secure passwords, two-factor authentication (2FA), and, in some cases, biometric authentication to verify users' identities.

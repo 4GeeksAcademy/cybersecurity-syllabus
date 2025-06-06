@@ -1,11 +1,16 @@
 ---
-title: "Network Protocols"
-subtitle: "Deciphering Network Protocols: Digital Pillars for Interoperability, Reliability, Security, Efficiency, and Scalability in Pentesting."
-tags: ["networks", "http"]
-authors: ["blindma1den", "lorenagubaira"]
+title: Network Protocols
+tags:
+  - networks
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential network protocols for interoperability, security, and
+  efficiency in pentesting. Learn how to identify vulnerabilities and enhance
+  your skills!
 
 ---
-
 Network protocols are a fundamental part of communication in the digital age. They are sets of rules and standards that allow devices and computer systems to communicate and share data effectively on a network. These protocols establish guidelines for the format of data, the sequence of events and the actions to be taken during communication between devices.
 
 The importance of network protocols lies in several key aspects:

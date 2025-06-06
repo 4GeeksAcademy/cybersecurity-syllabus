@@ -1,11 +1,15 @@
 ---
-title: "Servicios de red"
-subtitle: "Aprende a configurar servicios de red esenciales para la seguridad de su servidor. Domina la configuración de IP, DNS, HTTP y FTP con nuestra guía paso a paso."
-tags: ["linux", "networking", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
+title: Servicios de red
+tags:
+  - linux
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn how to configure essential network services like HTTP and FTP on your
+  server to enhance security. Discover practical steps for a robust setup!
 
 ---
-
 ## **Configuración de la interfaz de red**
 
 La interfaz de red y su configuración es una de las partes más importantes de un servidor y las labores de un administrador de sistemas, ya que con la interfaz de red podemos establecer la conectividad y permitir que el servidor se comunique con otros dispositivos en la red.

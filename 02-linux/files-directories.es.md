@@ -1,11 +1,18 @@
 ---
-title: "Gestión de archivos y directorios"
-subtitle: "Navegación y manipulación de archivos en Linux: Comandos esenciales y buenas prácticas para administradores de sistemas."
-tags: ["linux", "la terminal", "sistema de archivos", "sistemas operativos"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Gestión de archivos y directorios
+tags:
+  - linux
+  - la terminal
+  - sistema de archivos
+  - sistemas operativos
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master file and directory management in Linux! Learn essential commands and
+  best practices for navigating and manipulating files efficiently. Discover
+  more!
 ---
-
 ## Navegación y manipulación de archivos y directorios.
 
 Para un administrador de sistema, tener conocimiento de navegación y manipulación de archivos y directorios es una parte fundamental del trabajo, en linux todo esto lo podemos lograr desde la misma línea de comandos, a través de ciertos comandos y herramientas, podemos navegar por el sistema de archivos, crear, copiar mover y eliminar archivos y directorios.

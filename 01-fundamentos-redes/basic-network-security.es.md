@@ -1,11 +1,14 @@
 ---
-title: "Basic Network Security"
-subtitle: "Strengthening Networks: The Crucial Role of Firewalls in Protecting Against Unauthorized Access and DDoS Attacks, Enhancing Security."
-tags: ["networks"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Basic Network Security
+tags:
+  - networks
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Learn the essentials of basic network security! Discover how firewalls protect
+  against unauthorized access and DDoS attacks. Strengthen your network today!
 ---
-
 ## Que es un Firewall
 
 Un firewall es un sistema de seguridad en la red, el cual restringe el tráfico de internet entrante, saliente o dentro de una red privada, el término proviene del concepto de paredes físicas que actúan como barreras para ralentizar la propagación del fuego hasta que los servicios de emergencia puedan extinguir.

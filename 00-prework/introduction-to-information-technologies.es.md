@@ -1,11 +1,15 @@
 ---
-title: "Introducción a las tecnologías de información"
-subtitle: "Explora los fundamentos de IT y TICs, lenguajes de programación, comprende la importancia de la ciberseguridad y sumérgete en la historia de la informática."
-tags: ["ciberseguridad", "IT", "TIC"]
-authors: ["blindma1den", "lorenagubaira"]
+title: Introducción a las tecnologías de información
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre los fundamentos de IT y TICs, la importancia de la ciberseguridad y
+  la historia de la informática. ¡Empieza tu viaje en el mundo digital hoy!
 
 ---
-
 Para tu formación profesional es necesario que sepas que conocer los aspectos básicos de **IT** es muy importante. Recuerda que todo tu trabajo será a través de sistemas de tecnología de información y de comunicaciones, por ello es necesario entrar en contexto y conocer más de lo básico acerca de **IT** y **TIC’s** para avanzar en tu carrera. 
 
 En esta primera lectura entenderás cuáles son los componentes de tu computador, cómo interactúan entre sí, profundizarás en conceptos más técnicos relacionados a tu próximo perfil profesional y también a elementos relacionados a los usuarios. Debes tomar en cuenta que para vencer a un hacker debes **pensar como un hacker** y que los atacantes se anticipan a las nuevas tecnologías para aprovechar el desconocimiento de los usuarios, por eso es importante que tú como profesional en ciberseguridad entiendas a profundidad la informática y la computación como un “todo”. 
