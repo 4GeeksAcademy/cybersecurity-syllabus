@@ -3,10 +3,9 @@ title: Cybersecurity incident detection and response
 technologies: ["cybersecurity", "cybersecurity-incident-management"]
 
 keyword: incident detection and response 9 - 150
+description: This article provides a comprehensive guide on how companies can structure an incident reporting process, implement strategies for timely decision-making, and prevent the spread of the incident. Additionally, it details how to handle post-incident activities and prepare a report that includes lessons learned. Finally, it identifies all the roles involved in incident management to ensure a coordinated and effective response.
 
 ---
-
-This article provides a comprehensive guide on how companies can structure an incident reporting process, implement strategies for timely decision-making, and prevent the spread of the incident. Additionally, it details how to handle post-incident activities and prepare a report that includes lessons learned. Finally, it identifies all the roles involved in incident management to ensure a coordinated and effective response.
 
 ## Incident Reporting Process
 

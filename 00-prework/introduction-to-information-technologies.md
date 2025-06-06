@@ -8,6 +8,7 @@ authors:
 description: >-
   Discover the essentials of Information Technology and Cybersecurity. Learn
   about IT components, programming languages, and the impact of IoT today!
+
 ---
 For your professional training, you need to know that knowing the basics of **IT** is very important. Remember that all your work will be through information technology and communications systems, so it is necessary to enter into context and know more than the basics about **IT** and **ICT's** to advance in your career.
 

@@ -1,6 +1,6 @@
 ---
 title: "Amenazas y vulnerabilidades de la seguridad de los datos"
-subtitle: "Protegiendo la Información: Amenazas, Vulnerabilidades y Medidas de Seguridad"
+subtitle: "Protegiendo la información frente a amenazas y vulnerabilidades mediante medidas de seguridad eficaces. Conoce los riesgos cibernéticos y cómo implementar soluciones para garantizar la protección de datos, asegurando la confidencialidad, integridad y disponibilidad de la información."
 tags: ["seguridad de datos", "ciberseguridad"]
 authors: ["blindma1den", "lorenagubaira"]
 

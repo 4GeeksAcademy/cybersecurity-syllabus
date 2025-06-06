@@ -1,0 +1,87 @@
+{
+  "info": {
+    "slug": "digital-forensics-fundamentals",
+    "name": "Digital Forensics Fundamentals",
+    "difficulty": "INTERMEDIATE",
+    "technologies": ["cybersecurity", "forensics", "DFIR"],
+    "main": "Test your knowledge of the phases, methodologies, and best practices in digital forensic analysis.",
+    "results": "Congratulations! You've demonstrated a strong understanding of key concepts in digital forensics.",
+    "badges": [
+      { "slug": "digital_forensics_foundations", "points": 20 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "What is the primary purpose of digital forensics?",
+      "a": [
+        { "option": "To detect vulnerabilities in real time", "correct": false },
+        { "option": "To identify, preserve, and analyze digital evidence after a security incident", "correct": true },
+        { "option": "To conduct penetration testing", "correct": false },
+        { "option": "To configure firewalls and EDRs", "correct": false }
+      ]
+    },
+    {
+      "q": "Which tool is appropriate for acquiring a forensic disk image?",
+      "a": [
+        { "option": "Burp Suite", "correct": false },
+        { "option": "FTK Imager", "correct": true },
+        { "option": "Wireshark", "correct": false },
+        { "option": "Metasploit", "correct": false }
+      ]
+    },
+    {
+      "q": "Why is calculating cryptographic hashes important during evidence acquisition?",
+      "a": [
+        { "option": "To encrypt the data before analysis", "correct": false },
+        { "option": "To verify the integrity and authenticity of the evidence", "correct": true },
+        { "option": "To detect hidden viruses", "correct": false },
+        { "option": "To remove duplicate data", "correct": false }
+      ]
+    },
+    {
+      "q": "Which tool is recommended for memory analysis?",
+      "a": [
+        { "option": "Autopsy", "correct": false },
+        { "option": "Volatility", "correct": true },
+        { "option": "Plaso", "correct": false },
+        { "option": "Splunk", "correct": false }
+      ]
+    },
+    {
+      "q": "What is a good practice during the analysis phase?",
+      "a": [
+        { "option": "Modifying the original image directly", "correct": false },
+        { "option": "Correlating multiple sources such as logs and network traffic", "correct": true },
+        { "option": "Deleting suspicious files immediately", "correct": false },
+        { "option": "Sharing credentials of the analysis team", "correct": false }
+      ]
+    },
+    {
+      "q": "What is the main objective of the presentation phase?",
+      "a": [
+        { "option": "To delete all evidence after analysis", "correct": false },
+        { "option": "To reconfigure the SIEM post-incident", "correct": false },
+        { "option": "To communicate forensic findings in a clear and verifiable manner", "correct": true },
+        { "option": "To reinstall the affected system", "correct": false }
+      ]
+    },
+    {
+      "q": "In the provided case study, how was the incident initially detected?",
+      "a": [
+        { "option": "An unusual process was found in RAM", "correct": false },
+        { "option": "Files appeared encrypted with a .locked extension", "correct": true },
+        { "option": "An open port was found on the firewall", "correct": false },
+        { "option": "A 404 error occurred on the web server", "correct": false }
+      ]
+    },
+    {
+      "q": "Which methodology is recommended for digital forensics in corporate environments?",
+      "a": [
+        { "option": "DFRWS", "correct": false },
+        { "option": "ACPO", "correct": false },
+        { "option": "SANS DFIR", "correct": true },
+        { "option": "ISO/IEC 27002", "correct": false }
+      ]
+    }
+  ]
+}

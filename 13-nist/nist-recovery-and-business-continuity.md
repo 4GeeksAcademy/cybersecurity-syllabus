@@ -1,55 +1,61 @@
-# Lectura 6 📕: Recuperación y continuidad del negocio
+---
+title: "Recovery and Business Continuity in the NIST Framework"
+subtitle: "Strategic planning, backups, and drills to maintain operational resilience after cybersecurity incidents"
+tags: ["NIST", "business continuity", "recovery", "resilience", "cybersecurity"]
+authors: ["alejandrosz"]
+---
 
-La recuperación y continuidad del negocio es una parte primordial y esencial en nuestro trabajo como analistas de ciberseguridad, ya que es muy importante que nuestros sistemas puedan recuperarse en el menor tiempo posible. Esta recuperación dependerá de las estrategias y planes de continuidad de negocios que hayamos establecido para los diferentes casos de eventos y amenazas de ciberseguridad que pueda ocurrir en el sistema de la empresa.
+Recovery and business continuity are fundamental and essential parts of our work as cybersecurity analysts, as it is crucial that our systems can recover as quickly as possible. This recovery will depend on the business continuity strategies and plans we have established for different cybersecurity events and threats that may occur in the company's systems.
 
-Recuerden que de cómo sea nuestra actuación ante un evento de ciberseguridad, puede salir afectada la reputación, la data la parte legal y la parte económica de la organización, así que debemos tener una gran gestión dentro de esta función.
+Remember that our response to a cybersecurity event can affect the organization's reputation, data, legal standing, and finances, so we must have strong management within this function.
 
-La organización debe enfrentar los problemas presentes y emergentes a través de políticas nuevas o revisadas, procedimientos u operaciones, y sus factores de riesgos, algunas claus:
+The organization must address current and emerging problems through new or revised policies, procedures or operations, and their risk factors. Some key points:
 
-- **Planificación de la continuidad del negocio.**
+- **Business Continuity Planning**
 
-Este sería el primer paso que realizaremos en nuestra gestión de recuperación y continuidad de negocio, aquí realizaremos una evaluación exhaustiva de los activos críticos de la organización y los riesgos asociados con ellos, así que identificamos los sistemas, datos y procesos clave que son fundamentales para el funcionamiento continuo de la organización y además, se deben identificar las amenazas y vulnerabilidades potenciales que podrían afectar a estos activos.
+This is the first step in our recovery and business continuity management. Here, we conduct a thorough assessment of the organization's critical assets and the risks associated with them. We identify the key systems, data, and processes that are essential for the organization's ongoing operations, and we must also identify potential threats and vulnerabilities that could impact these assets.
 
-Una vez que hayamos identificado los activos críticos y los riesgos asociados, se deben desarrollar estrategias de mitigación. Estas estrategias pueden incluir medidas preventivas, como la implementación de controles de seguridad robustos, la capacitación del personal en ciberseguridad y la realización de pruebas de penetración regulares. También tenemos que establecer planes de respuesta a incidentes que permitan a la organización actuar rápidamente en caso de una interrupción o violación de seguridad.
+Once we have identified the critical assets and associated risks, mitigation strategies must be developed. These strategies may include preventive measures such as implementing robust security controls, training staff in cybersecurity, and conducting regular penetration tests. We also need to establish incident response plans that enable the organization to act quickly in the event of a disruption or security breach.
 
-Es muy importante establecer procedimientos de recuperación que permitan a la organización restaurar sus operaciones normales lo más rápido posible, estos procedimientos los podemos hacer con sistemas de respaldo y redundancia, creación de planes de comunicación para mantener informados a los empleados y a los clientes, y la realización de pruebas periódicas para garantizar la efectividad de los planes de recuperación.
+It is very important to establish recovery procedures that allow the organization to restore normal operations as quickly as possible. These procedures can include backup and redundancy systems, creating communication plans to keep employees and customers informed, and conducting regular tests to ensure the effectiveness of recovery plans.
 
-La planificación de la continuidad del negocio dentro del marco de ciberseguridad de NIST requiere un enfoque continuo y proactivo, se deben revisar y actualizar regularmente sus planes de continuidad del negocio para adaptarse a los cambios en el entorno de amenazas y a las nuevas tecnologías. Además, se deben realizar ejercicios de simulación y pruebas para evaluar la efectividad de los planes y realizar mejoras cuando sea necesario.
+Business continuity planning within the NIST cybersecurity framework requires a continuous and proactive approach. Business continuity plans should be reviewed and updated regularly to adapt to changes in the threat landscape and new technologies. In addition, simulation exercises and tests should be conducted to evaluate the effectiveness of the plans and make improvements as needed.
 
-- **Respaldos y recuperación de datos.**
+- **Data Backup and Recovery**
 
-Los respaldos y recuperación de datos nos podrán ayudar a minimizar las consecuencias y a acelerar la continuidad del negocio de manera efectiva, este paso va en conjunto con los planes de la continuidad del negocio, ya que trabajaremos con los activos ya inventariados para identificar los activos críticos de información o los fundamentales para el funcionamiento continuo de la organización.
+Data backups and recovery help minimize consequences and accelerate business continuity effectively. This step goes hand in hand with business continuity plans, as we work with already inventoried assets to identify critical information assets or those essential for the organization's ongoing operations.
 
-Ya habiendo identificado estos activos de información y los riesgos asociados, debemos implementar medidas de protección adecuadas como controles de acceso y autenticación robustos, el cifrado de datos sensibles, la segmentación de redes y la implementación de soluciones de detección y prevención de intrusiones.
+After identifying these information assets and associated risks, we must implement appropriate protection measures such as strong access controls and authentication, encryption of sensitive data, network segmentation, and the implementation of intrusion detection and prevention solutions.
 
-Es esencial establecer una estrategia de respaldo de datos sólida, esto implica realizar copias de seguridad periódicas de los datos críticos y almacenarlas en ubicaciones seguras y separadas de los sistemas principales, hoy en día es muy popular el uso de la nube para proteger nuestros respaldos de información. Las copias de seguridad deben ser probadas regularmente para garantizar su integridad y disponibilidad en caso de necesidad.
+It is essential to establish a solid data backup strategy. This involves making regular backups of critical data and storing them in secure locations separate from the main systems. Today, using the cloud to protect information backups is very popular. Backups should be tested regularly to ensure their integrity and availability when needed.
 
-En caso de una interrupción o pérdida de datos, la recuperación efectiva es fundamental. Las organizaciones deben desarrollar planes de recuperación de datos que incluyan procedimientos claros y detallados para restaurar los datos desde las copias de seguridad. Estos planes deben ser probados y actualizados regularmente para garantizar su efectividad.
+In the event of a disruption or data loss, effective recovery is crucial. Organizations should develop data recovery plans that include clear and detailed procedures for restoring data from backups. These plans should be tested and updated regularly to ensure their effectiveness.
 
-> ⚠️ Además, es importante tener en cuenta la gestión de incidentes en la recuperación de datos. Las organizaciones deben establecer un proceso de notificación y respuesta a incidentes que permita una acción rápida y coordinada en caso de una pérdida de datos o una violación de seguridad. Esto implica la identificación y mitigación de la causa raíz del incidente, así como la implementación de medidas correctivas para evitar futuras interrupciones.
+> ⚠️ It is also important to consider incident management in data recovery. Organizations should establish a notification and incident response process that enables quick and coordinated action in the event of data loss or a security breach. This involves identifying and mitigating the root cause of the incident, as well as implementing corrective measures to prevent future disruptions.
 
-- **Pruebas y ejercicios de continuidad del negocio**.
+- **Business Continuity Testing and Exercises**
 
-La continuidad del negocio es la capacidad de una organización para continuar operando de manera efectiva en caso de una interrupción, todas las pruebas y ejercicios de continuidad del negocio son una parte importante de cualquier plan de continuidad del negocio. Estas pruebas ayudan a garantizar que la organización esté preparada para responder a una interrupción y que pueda recuperarse rápidamente.
+Business continuity is an organization's ability to continue operating effectively in the event of a disruption. All business continuity tests and exercises are an important part of any business continuity plan. These tests help ensure that the organization is prepared to respond to a disruption and can recover quickly.
 
-Dentro del NIST Framework existen algunas directrices para las pruebas y ejercicios de continuidad del negocio. Estas directrices se basan en los siguientes principios:
+Within the NIST Framework, there are some guidelines for business continuity testing and exercises. These guidelines are based on the following principles:
 
-- Enfoque holístico: Las pruebas y ejercicios deben considerar todos los aspectos de la organización, incluyendo sus operaciones, procesos y sistemas.
-- Realismo: Las pruebas y ejercicios deben ser lo más realistas posible para garantizar que la organización esté preparada para responder a una interrupción real.
-- Medición: Las pruebas y ejercicios deben ser medidos para evaluar su eficacia.
+- Holistic approach: Tests and exercises should consider all aspects of the organization, including its operations, processes, and systems.
+- Realism: Tests and exercises should be as realistic as possible to ensure the organization is prepared to respond to a real disruption.
+- Measurement: Tests and exercises should be measured to evaluate their effectiveness.
 
-El marco de ciberseguridad de NIST proporciona una serie de recomendaciones específicas para las pruebas y ejercicios de continuidad del negocio. Estas recomendaciones incluyen:
+The NIST cybersecurity framework provides a series of specific recommendations for business continuity testing and exercises. These recommendations include:
 
-- Las pruebas y ejercicios deben realizarse con regularidad para garantizar que la organización esté preparada para responder a una interrupción.
-- Las pruebas y ejercicios deben involucrar a todos los niveles de la organización, desde la alta dirección hasta los empleados de primera línea.
-- Las pruebas y ejercicios deben utilizar una variedad de métodos de prueba, incluyendo pruebas de mesa, pruebas en el sitio y pruebas simuladas.
+- Tests and exercises should be conducted regularly to ensure the organization is prepared to respond to a disruption.
+- Tests and exercises should involve all levels of the organization, from senior management to frontline employees.
+- Tests and exercises should use a variety of testing methods, including tabletop exercises, on-site tests, and simulated tests.
 
-Las pruebas y ejercicios de continuidad del negocio son una parte importante de cualquier plan de continuidad del negocio. Al seguir las directrices del marco de ciberseguridad de NIST, las organizaciones pueden garantizar que estén preparadas para responder a una interrupción.
+Business continuity tests and exercises are an important part of any business continuity plan. By following the guidelines of the NIST cybersecurity framework, organizations can ensure they are prepared to respond to a disruption.
 
-Algunos ejemplos de pruebas y ejercicios de continuidad del negocio:
+Some examples of business continuity tests and exercises:
 
-- Prueba de mesa: Una prueba de mesa es una prueba de papel que simula una interrupción. En una prueba de mesa, los participantes discuten cómo responderían a una interrupción.
-- Prueba en el sitio: Una prueba en el sitio es una prueba que se lleva a cabo en el lugar de trabajo. En una prueba en el sitio, los participantes ponen en práctica su plan de continuidad del negocio.
-- Prueba simulada: Una prueba simulada es una prueba que utiliza un sistema simulado para simular una interrupción. En una prueba simulada, los participantes responden a una interrupción que se produce en un sistema simulado.
+- Tabletop exercise: A tabletop exercise is a paper-based test that simulates a disruption. In a tabletop exercise, participants discuss how they would respond to a disruption.
+- On-site test: An on-site test is conducted at the workplace. In an on-site test, participants put their business continuity plan into practice.
+- Simulated test: A simulated test uses a simulated system to mimic a disruption. In a simulated test, participants respond to a disruption that occurs in a simulated system.
 
-> 💡 La elección del tipo de prueba o ejercicio de continuidad del negocio adecuado dependerá de las necesidades específicas de la organización, ya será de nuestra parte como analistas de ciberseguridad y encargados de medir la eficacia de los planes de recuperación y continuidad del negocio, dar la recomendación de cuál es la mejor prueba que se puede hacer.
+> 💡 The choice of the appropriate type of business continuity test or exercise will depend on the specific needs of the organization. As cybersecurity analysts and those responsible for measuring the effectiveness of recovery and business continuity plans, it is up to us to recommend the best test to perform.
+

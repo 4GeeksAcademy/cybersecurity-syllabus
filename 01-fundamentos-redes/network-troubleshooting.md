@@ -8,6 +8,7 @@ authors:
 description: >-
   Master network troubleshooting with essential diagnostic tools and techniques.
   Learn to identify and resolve common issues for optimal performance!
+
 ---
 Sometimes we may have performance problems in our network, and it is necessary to know the reason so we can take corrective actions. For this, we have tools that can perform a network diagnostic.
 

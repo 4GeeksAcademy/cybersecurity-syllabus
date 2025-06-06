@@ -1,0 +1,102 @@
+{
+  "info": {
+    "slug": "examen-nist-framework-ciberseguridad",
+    "name": "Marco de Ciberseguridad NIST",
+    "difficulty": "BEGINNER",
+    "technologies": ["nist", "cybersecurity"],
+    "main": "Pon a prueba tus conocimientos sobre los principios, funciones y buenas prácticas del Marco de Ciberseguridad de NIST.",
+    "results": "¡Felicidades! Has demostrado un buen entendimiento sobre la implementación y gestión de la ciberseguridad usando el NIST Framework.",
+    "badges": [
+      { "slug": "nist_foundations", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿En qué consiste el NIST Framework?",
+      "a": [
+        { "option": "Un conjunto de actividades y prácticas para gestionar los riesgos de ciberseguridad de una organización 🌟", "correct": true },
+        { "option": "Una guía práctica para la instalación del centro de operaciones de seguridad en una organización", "correct": false },
+        { "option": "Un reglamento de cómo se debe almacenar la información dentro de una organización", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es la primera actividad que realizaremos en el marco de ciberseguridad de NIST?",
+      "a": [
+        { "option": "Identificar los sistemas críticos y los activos de información", "correct": true },
+        { "option": "Establecer políticas para guardar la información", "correct": false },
+        { "option": "Crear controles de acceso para la administración de los sistemas de información", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es el primer paso para comenzar el trabajo según el NIST Framework?",
+      "a": [
+        { "option": "Identificar y clasificar los activos de información, evaluar amenazas y vulnerabilidades, y priorizar los riesgos", "correct": true },
+        { "option": "Implementar controles de acceso y crear backups", "correct": false },
+        { "option": "Revisar los incidentes previos y contactar al equipo legal", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué medidas puedes implementar para la protección de los sistemas de información?",
+      "a": [
+        { "option": "Controles de acceso, cifrado, firewalls, capacitación, políticas claras y backups", "correct": true },
+        { "option": "Solo actualizar software regularmente", "correct": false },
+        { "option": "Reducir el número de empleados con acceso a internet", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cómo sería el proceso de detección y respuesta ante incidentes de seguridad?",
+      "a": [
+        { "option": "Monitoreo, respuesta planificada, análisis, contención, erradicación, recuperación y lecciones aprendidas", "correct": true },
+        { "option": "Cerrar todos los sistemas, cambiar contraseñas y reiniciar los servidores", "correct": false },
+        { "option": "Esperar confirmación del proveedor de antivirus antes de actuar", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es el enfoque para recuperar el sistema en caso de un ataque a los sistemas?",
+      "a": [
+        { "option": "Activar el plan de continuidad, restaurar desde backups, aplicar parches y monitorear la recuperación", "correct": true },
+        { "option": "Llamar a soporte técnico externo para que evalúe el daño", "correct": false },
+        { "option": "Formatear todo el sistema sin respaldo y empezar desde cero", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es la mejor manera de controlar el proceso de identificación de activos?",
+      "a": [
+        { "option": "Colocando sellos o elementos distintivos en cada uno de los activos", "correct": false },
+        { "option": "Creando un inventario con la información de cada uno de los activos", "correct": true },
+        { "option": "Acudiendo a nuestros jefes para que nos den la información", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué buscamos al realizar una evaluación de impacto?",
+      "a": [
+        { "option": "El impacto físico que puedan recibir los activos de información", "correct": false },
+        { "option": "El impacto que puede haber dentro de la organización la implementación del NIST Framework", "correct": false },
+        { "option": "El impacto que puede tener un incidente de seguridad sobre la confidencialidad, disponibilidad e integridad de la información", "correct": true }
+      ]
+    },
+    {
+      "q": "¿Cómo podemos identificar eventos de seguridad?",
+      "a": [
+        { "option": "Mediante monitoreos de eventos", "correct": true },
+        { "option": "Mediante revisión de registros", "correct": true },
+        { "option": "Mediante comunicación de otras áreas", "correct": true }
+      ]
+    },
+    {
+      "q": "Una vez identificado un incidente, ¿Cuál es el siguiente paso a seguir?",
+      "a": [
+        { "option": "Poner en marcha un plan de respuesta a incidentes", "correct": true },
+        { "option": "Crear copias de seguridad", "correct": false },
+        { "option": "Reportar el incidente y esperar respuesta para actuar", "correct": false }
+      ]
+    },
+    {
+      "q": "Es buena práctica realizar las copias de seguridad de información crítica una sola vez.",
+      "a": [
+        { "option": "Cierto", "correct": false },
+        { "option": "Falso", "correct": true }
+      ]
+    }
+  ]
+}

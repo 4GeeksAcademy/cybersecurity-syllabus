@@ -1,48 +1,53 @@
-# Lectura 3 📕: Identificación y evaluación de riesgos
+---
+title: "Identification and Risk Assessment in the NIST Framework"
+subtitle: "🔍 Exploring the 'Identify' function to understand threats, vulnerabilities, and critical assets in cybersecurity management"
+tags: ["NIST", "risk management", "cybersecurity"]
+authors: ["alejandrosz"]
+---
 
-Es momento de entrar un poco más en profundidad dentro de una de las partes más importante del marco de ciberseguridad de NIST, y es la primera función que es identificación y evaluación de riesgos en una organización.
+It's time to dive deeper into one of the most important parts of the NIST cybersecurity framework: the first function, which is the identification and assessment of risks within an organization.
 
-En esta etapa hacemos la identificación de las amenazas potenciales que puedan afectar los activos de información, así como las vulnerabilidades existentes en los sistemas y procesos de una organización, para ello realizamos procesos como análisis de riesgos, revisión de seguridad y evaluación de vulnerabilidades.
+At this stage, we identify potential threats that may affect information assets, as well as existing vulnerabilities in the systems and processes of an organization. To do this, we carry out processes such as risk analysis, security reviews, and vulnerability assessments.
 
-![Identificación de Amenazas](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/identificacion-de-amenazas.png)
+![Threat Identification](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/identificacion-de-amenazas.png)
 
-Vamos a explicar un poco más detallado en qué consiste cada proceso:
+Let's explain in more detail what each process involves:
 
-- **Proceso de identificación y clasificación de activos.**
+- **Asset Identification and Classification Process**
 
-En esta etapa, nos centramos en la identificación y clasificación de los activos de una organización, de esta manera podremos saber cuáles son los activos más importantes y valiosos, estos pueden incluir: datos confidenciales, infraestructura de red, aplicaciones, hardware, software y cualquier otro elemento que sea importante para el funcionamiento de la empresa.
+In this stage, we focus on identifying and classifying an organization's assets. This allows us to determine which assets are the most important and valuable. These can include confidential data, network infrastructure, applications, hardware, software, and any other element that is critical to the company's operations.
 
-El primer paso para realizar este proceso es realizar un inventario exhaustivo de todos los activos de información, recopilar información detallada sobre cada activo como su ubicación o su propietario, su función y su importancia para la organización.
+The first step is to conduct a thorough inventory of all information assets, gathering detailed information about each asset such as its location or owner, its function, and its importance to the organization.
 
-Después a tener este inventario, es necesario realizar una clasificación, según su importancia y valor para la organización, esta clasificación de activos nos permitirá priorizar los recursos y esfuerzos de seguridad en función de la importancia de cada activo, como por ejemplo, no será el mismo enfoque a la seguridad que le daremos a los servidores de la organización, que a los dispositivos de una red de invitados.
+After compiling this inventory, it is necessary to classify the assets according to their importance and value to the organization. This asset classification allows us to prioritize security resources and efforts based on the importance of each asset. For example, the security approach for the organization's servers will not be the same as for guest network devices.
 
-Todos los activos deben entrar dentro de la clasificación de esta manera podemos saber:
+All assets should be included in this classification so we can determine:
 
-- Cuáles dispositivos y sistemas son necesarios para el funcionamiento de la organización
-- Cuáles plataformas o aplicaciones de software son más requeridos para la organización
-- Cuáles son los sistemas de información externos para el funcionamiento de la organización
-- Cuáles son las rutas de comunicación y flujo de datos para el funcionamiento de la organización
+- Which devices and systems are necessary for the organization's operations
+- Which platforms or software applications are most required by the organization
+- Which external information systems are essential for the organization's operations
+- What are the communication routes and data flows necessary for the organization's operations
 
-Comúnmente se usará una escala de clasificación como alta, media y baja para asignar los niveles de importancia de los activos. Los activos de alta importancia son aquellos que, sí se ven comprometidos, podrían tener un impacto significativo en la organización, mientras que los activos de baja importancia son aquellos que tienen un mínimo impacto.
+A common classification scale such as high, medium, and low is used to assign importance levels to assets. High-importance assets are those that, if compromised, could have a significant impact on the organization, while low-importance assets have minimal impact.
 
-En algunos casos nuestro trabajo como analista de ciberseguridad es realizar este inventario y clasificarlo en concordancia a las necesidades y objetivos de la organización así como administrar estos activos para las necesidades y objetivos actuales y futuras.
+In some cases, our job as cybersecurity analysts is to carry out this inventory and classification in accordance with the organization's needs and objectives, as well as to manage these assets for current and future requirements.
 
-- **Análisis de riesgos y evaluación de impacto.**
+- **Risk Analysis and Impact Assessment**
 
-Esta parte del proceso de identificación y evaluación de riesgos se centra en comprender el impacto que un incidente de seguridad podría tener en la confidencialidad, integridad y disponibilidad de la información.
+This part of the risk identification and assessment process focuses on understanding the impact that a security incident could have on the confidentiality, integrity, and availability of information.
 
-El análisis de riesgo implica identificar las amenazas potenciales que podrían afectar los activos de información, así como las vulnerabilidades existentes en los sistemas y procesos de una organización, así como también entender cómo estas amenazas podrían afectar la misión, función, imagen, reputación, activos e individuos dentro de una organización.
+Risk analysis involves identifying potential threats that could affect information assets, as well as existing vulnerabilities in the organization's systems and processes. It also involves understanding how these threats could affect the mission, function, image, reputation, assets, and individuals within the organization.
 
-Para lograrlo podemos hacer varios procesos como la evaluación de los activos vulnerables de la organización e identificar y documentar esos activos. También para saber el alcance de una amenaza podemos acudir a fuentes externas de la empresa para recolectar información de cómo tratar con dicha amenaza, por ejemplo: Compartir información dentro de foros y discusiones de ciberseguridad.
+To achieve this, we can carry out various processes such as evaluating the organization's vulnerable assets and identifying and documenting those assets. To understand the scope of a threat, we can also turn to external sources to gather information on how to deal with such threats, for example: sharing information in cybersecurity forums and discussions.
 
-De acuerdo a estos análisis podemos determinar cuáles son las prioridades, tolerancias de riesgos y otras suposiciones que mejor encajen a nuestros requerimientos dentro de la empresa.
+Based on these analyses, we can determine priorities, risk tolerances, and other assumptions that best fit our requirements within the company.
 
-Estos procesos de análisis de riesgos y evaluación de impacto son procesos continuos. A medida que evolucionan las amenazas y cambian los entornos de seguridad, es necesario revisar y actualizar regularmente estos procesos para así, garantizar que la organización está preparada para enfrentar los nuevos desafíos.
+These risk analysis and impact assessment processes are ongoing. As threats evolve and security environments change, it is necessary to regularly review and update these processes to ensure the organization is prepared to face new challenges.
 
-- **Evaluación de vulnerabilidades y amenazas.**
+- **Vulnerability and Threat Assessment**
 
-La evaluación de vulnerabilidades implica identificar las debilidades y fallos de seguridad en los sistemas, redes y aplicaciones de una organización. Esto se puede lograr mediante la realización de pruebas de penetración, análisis de código, escaneos de vulnerabilidades y revisiones de configuración. El objetivo es identificar las vulnerabilidades que podrían ser aprovechadas por un atacante para comprometer la seguridad de los activos de información.
+Vulnerability assessment involves identifying weaknesses and security flaws in an organization's systems, networks, and applications. This can be achieved through penetration testing, code analysis, vulnerability scans, and configuration reviews. The goal is to identify vulnerabilities that could be exploited by an attacker to compromise the security of information assets.
 
-En este proceso también se busca identificar y comprender las amenazas potenciales que podrían afectar a una organización. Esto incluye amenazas internas y externas, como ataques cibernéticos, malware, phishing, ingeniería social, desastres naturales, entre otros. Es importante tener en cuenta que las amenazas pueden evolucionar con el tiempo, por lo que es necesario mantenerse actualizado sobre las últimas tendencias y técnicas utilizadas por los atacantes.
+This process also seeks to identify and understand potential threats that could affect an organization. This includes internal and external threats such as cyberattacks, malware, phishing, social engineering, natural disasters, among others. It is important to keep in mind that threats can evolve over time, so it is necessary to stay up to date on the latest trends and techniques used by attackers.
 
-Una vez que se han identificado las vulnerabilidades y las amenazas, se procede a evaluar su impacto potencial en los activos de información y en la organización en general. Esto implica determinar la probabilidad de que una vulnerabilidad sea explotada y el impacto que tendría en la confidencialidad, integridad y disponibilidad de los activos. Esta evaluación de impacto ayuda a priorizar los esfuerzos de mitigación y a tomar decisiones informadas sobre las medidas de seguridad que deben implementarse.
+Once vulnerabilities and threats have been identified, their potential impact on information assets and the organization as a whole is assessed. This involves determining the likelihood that a vulnerability will be exploited and the impact it would have on the confidentiality, integrity, and availability of assets. This impact assessment helps prioritize mitigation efforts and make informed decisions about which security measures should be implemented.

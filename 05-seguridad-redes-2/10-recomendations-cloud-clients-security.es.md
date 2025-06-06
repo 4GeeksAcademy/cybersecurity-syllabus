@@ -1,7 +1,7 @@
 ---
 title: "Recomendaciones de la lista de seguridad para los clientes de la nube"
 subtitle: "Descubre las 10 mejores prácticas de seguridad para clientes de la nube: desde protección de datos hasta seguridad operativa y gestión de usuarios."
-tags: ["ciberseguridad"]
+tags: ["ciberseguridad", "seguridad-en-la-nube"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---

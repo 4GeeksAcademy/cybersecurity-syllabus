@@ -8,6 +8,7 @@ authors:
 description: >-
   Descubre los fundamentos de IT y TICs, la importancia de la ciberseguridad y
   la historia de la informática. ¡Empieza tu viaje en el mundo digital hoy!
+
 ---
 Para tu formación profesional es necesario que sepas que conocer los aspectos básicos de **IT** es muy importante. Recuerda que todo tu trabajo será a través de sistemas de tecnología de información y de comunicaciones, por ello es necesario entrar en contexto y conocer más de lo básico acerca de **IT** y **TIC’s** para avanzar en tu carrera. 
 

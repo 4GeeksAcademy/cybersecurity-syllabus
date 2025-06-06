@@ -1,7 +1,7 @@
 ---
 title: "Cómo prepararse para un ciberataque: Manejo de incidentes de ciberseguridad"
 technologies: ["cybersecurity incident management", "manejo de incidentes de ciberseguridad", "cybersecurity", "ciberseguridad"]
-
+description: "Esta lección proporciona una guía práctica sobre cómo prepararse y gestionar eficazmente un ciberataque, cubriendo desde la formación de un equipo de respuesta hasta la implementación de políticas de comunicación. Aprende a mantener actualizados tus sistemas, usar herramientas de análisis y aplicar las mejores prácticas de seguridad para proteger tu organización."
 keyword_us: prepare for cyber attack 16 - 60
 
 ---

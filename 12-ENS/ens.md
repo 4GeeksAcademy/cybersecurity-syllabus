@@ -1,183 +1,202 @@
 ---
-title: "Introduction to ENS (Spain National Security Scheme)"
-subtitle: "🛡️ Understanding the fundamentals of spain's National Security Scheme, its importance in information security management, and the certification process"
-tags: ["spain-national-security-framework", "cybersecurity"]
+title: "Introduction to the ENS (National Security Framework)"
+subtitle: "🛡️ Understanding the fundamentals of the National Security Framework, its importance in information security management, and the certification process."
+tags: ["ENS", "cybersecurity"]
 authors: ["alesanchezr"]
 
 ---
 
-> 🇪🇸 If you are not going to work in 🇪🇸 Spain, this topic will be irrelevant to you, and you can skip the entire topic. Alternatives to ENS in other countries: NIST Cybersecurity Framework 🇺🇸, [ISO 27001](https://4geeks.com/lesson/introduction-to-iso-27001) 🌎, IT-Grundschutz 🇩🇪, NERC CIP 🇺🇸, CERC 🇨🇦, NIS Directive 🇪🇺, CNSSI 1253 🇨🇳
+> 🇪🇸 If you are not going to work in 🇪🇸 Spain, this topic will be irrelevant to you and you can skip the entire module. Alternatives to ENS in other countries: NIST Cybersecurity Framework 🇺🇸, [ISO 27001](https://4geeks.com/es/lesson/introduccion-a-iso-27001) 🌎, IT-Grundschutz 🇩🇪, NERC CIP 🇺🇸, CERC 🇨🇦, NIS Directive 🇪🇺, CNSSI 1253 🇨🇳.
 
-In some cases during our career as cybersecurity analysts in 🇪🇸 Spain, we will have to perform audits on systems of public organizations that are governed by the ENS, so it is necessary to have knowledge about this.
+In some cases during our careers as cybersecurity analysts in 🇪🇸 Spain, we will have to audit a system of a public body governed by the ENS, so it is necessary to have knowledge about this.
 
-Among the topics we will be covering about ENS, we will have frameworks, protection measures, and risk analyses, as well as certain tools that will help us implement the scheme. Without further ado, let's get into the topic.
+Among the ENS topics we will cover are frameworks, protection measures, risk analysis, and certain tools that will help us implement the framework. Without further ado, let's get into the topic.
 
-![Esquema Nacional de Seguridad](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ens/esquema-nacional-de-seguridad.jpg?raw=true)
+# Introduction to the ENS (National Security Framework) 🛡️🇪🇸
 
-# Introduction to ENS (Spain National Security Scheme) 🛡️🇪🇸
+The National Security Framework (ENS) is a set of policies and guidelines carefully designed to anticipate, prevent, and respond to cybersecurity challenges. This regulatory framework was established by the Spanish government to **ensure the security of information systems used by public administrations**. The ENS is essential for protecting the information and services managed by government entities. 🏛️💻
 
-The National Security Scheme (ENS) is a regulatory framework established by the Spanish government to **ensure the security of information systems used by public administrations**. This scheme is fundamental for protecting the information and services handled by government entities. 🏛️💻
+## Regulation and Purpose of the ENS
 
-## Objectives of ENS 🎯
+The National Security Framework (ENS) is a regulatory framework established in Royal Decree 311/2022, aimed at ensuring the protection of information in the public sector and in private entities that manage technology services for public administrations. The ENS is **mandatory** for:
 
-The main objectives of ENS are:
+- All **Spanish Public Administrations**.
+- **Private companies** that provide technology services or manage public systems under contract.
 
-1. Create the necessary conditions for trust in the use of electronic means. 🤝
-2. Promote continuous security management. 🔄
-3. Provide a common language for interaction between administrations in matters of security. 🗣️
+Compliance with the ENS is therefore essential in both governmental and public-private collaboration environments.
+
+## ENS Objectives
+
+The main objectives of the ENS are:
+
+1. Create the necessary conditions for trust in the use of electronic means.
+2. Promote continuous security management.
+3. Provide a common language for interaction between administrations on security matters. 🗣️
+4. Establish rules, measures, and minimum security requirements for public entities.
 
 ## Basic Principles 📊
 
-ENS is based on the following principles:
+The ENS is based on the following principles:
 
-- Comprehensive security 🔐
-- Risk management ⚠️
-- Prevention, reaction, and recovery 🚨
-- Lines of defense 🛡️
-- Periodic reassessment 🔄
-- Differentiated function 🔀
+- **Comprehensive security:** Security must be addressed from a global perspective. It is not enough to protect only technological systems; it must cover: Physical infrastructure, internal processes, information in paper and digital formats, people (users, administrators, third parties), and external or subcontracted services.
 
-### Comprehensive Security 🔐
+    The comprehensive approach ensures that no part of the ecosystem is left unprotected or isolated from security policies.
 
-Comprehensive security involves protecting all aspects of security, including infrastructure, data, systems, and services. For example:
+- **Risk management:** All security decisions must be based on a systematic risk analysis. This involves: Identifying threats and vulnerabilities, assessing potential impact, estimating the likelihood of occurrence, and applying proportional measures to mitigate them.
 
-- Protecting the physical infrastructure of information systems.
-- Training the humans working in the organization.
-- Protecting the data of information systems.
-- Protecting information systems.
-- Protecting the services of information systems.
+    This principle promotes proactive and rational management, avoiding unnecessary investments or poorly founded reactive decisions.
 
-### Risk Management ⚠️
+- **Prevention, detection, response, and recovery:** Security must cover the entire incident lifecycle. Mechanisms must be implemented to prevent threats, detect anomalous activities, respond appropriately to incidents, and restore operations.
 
-Risk management involves identifying, evaluating, and mitigating risks that affect the security of information systems. For example:
+    This approach ensures system resilience and reduces the impact of attacks.
 
-- Identifying risks that affect the security of information systems.
-- Evaluating risks that affect the security of information systems.
-- Mitigating risks that affect the security of information systems.
+- **Periodic reassessment:** Security measures must be regularly reviewed to ensure their validity and effectiveness. This includes assessing technological, organizational, and regulatory changes that may affect the system.
 
-### Prevention, Reaction, and Recovery 🚨
+    Periodic review allows protection to adapt to new circumstances and avoids obsolescence.
 
-Prevention involves detecting and mitigating risks before they occur. Reaction involves responding to security incidents, and recovery involves restoring information systems to their original state. For example:
+- **Differentiated function:** Security functions within the organization must be clearly separated. There must be a distinction between those responsible for information, service, security, and technical operation.
 
-- Detecting and mitigating risks before they occur.
-- Responding to security incidents.
-- Restoring information systems to their original state.
+    This division of responsibilities avoids conflicts of interest and facilitates control and accountability.
 
-### Lines of Defense 🛡️
+- **Continuous improvement:** Security is not a static state but an evolving process. Organizations must learn from their mistakes, review procedures, and constantly adopt best practices.
 
-Lines of defense are the measures and controls implemented to protect information systems. For example:
+    This principle reinforces the maturity and efficiency of the security management system.
 
-- Implementing security controls.
-- Implementing protection measures.
-- Implementing recovery measures.
+- **Regulatory compliance:** All measures must align with current laws and regulations. This includes regulations such as the GDPR, sectoral legislation, and other applicable provisions.
 
-### Periodic Reassessment 🔄
+    Regulatory compliance ensures the legality of actions and the protection of fundamental rights.
 
-Periodic reassessment involves reviewing and updating security controls to ensure they remain effective. For example:
+- **Responsibility and commitment:** Security is the responsibility of all members of the organization, not just technical staff. Senior management must lead institutional commitment, and users must be aware of their role in protecting information.
 
-- Reviewing and updating security controls.
-- Reviewing and updating protection measures.
-- Reviewing and updating recovery measures.
+    This principle strengthens the organizational culture around security.
 
-### Differentiated Function 🔀
+## Classification and Levels of Security Measures
 
-Differentiated function involves differentiating between those responsible and their main functions. This includes those responsible for information, service, and security.
+Royal Decree 311/2022 establishes **73 security measures**, classified into:
 
-## Security Measures 🔒
+- **Organizational framework**: 16 measures  
+- **Operational framework**: 31 measures  
+- **Protection measures**: 26 measures
 
-ENS establishes three security levels (low, medium, and high) and defines security measures in several categories:
+Each measure has three levels of application:
 
-- Organizational framework 📋
-- Operational framework 🛠️
-- Protection measures 🔐
+- **BASE** (mandatory)  
+- **Reinforced**  
+- **High**
 
-These measures cover aspects such as security policy, risk management, staff training, access control, facility protection, incident management, among others. 👥🚪🏢🚨
+The levels allow security requirements to be adapted according to the system's category (low, medium, or high criticality), as established in Guide CCN-STIC 808.
 
-## Implementation and Compliance ✅
+## Compliance Profile
 
-Public organizations must:
+The **compliance profile** is a concept introduced by Royal Decree 311/2022 as a mechanism to **adapt ENS security measures to the reality of each organization**, allowing for a **proportional, effective, and sustainable** application. This approach recognizes that not all entities have the same capabilities or face the same risks. Therefore, the compliance profile considers the following factors:
 
-1. Conduct a risk analysis. 📊
-2. Prepare a statement of applicability. 📝
-3. Develop an adaptation plan. 📅
-4. Implement security measures. 🔒
-5. Conduct periodic audits. 🔍
+- **System criticality:** That is, the importance of a particular system or service for operational continuity, protection of sensitive data, or provision of essential services. A critical system will require more demanding measures.
 
-Compliance with ENS is mandatory for all Spanish public administrations and is supervised by the National Cryptologic Center (CCN). 🏛️👀
+- **Cybersecurity maturity level:** Assesses the organizational and technical capacity to properly manage information security. More mature entities can address advanced measures, while others can scale up gradually.
 
-## ENS Certification 🏅
+- **Available resources:** Includes qualified personnel, budget, technological infrastructure, and available tools. The ENS recognizes the need to tailor compliance requirements to each organization's actual capacity.
 
-The National Security Scheme (ENS) certification is a process by which an organization demonstrates its compliance with the requirements established by the ENS. This certification is especially relevant for public administrations and entities that provide services to the public sector.
+The compliance profile is reflected in the **statement of applicability** and the **adaptation plan**, which determine how, when, and to what extent the required measures will be implemented. This mechanism seeks to avoid rigid and homogeneous application of controls, allowing for a more **realistic, flexible, and risk-oriented ENS**, without undermining security.
 
-### Certification Process 📋
+## Implementation and Compliance
 
-The ENS certification process generally includes the following steps:
+To comply with ENS requirements, organizations must follow a **structured process** to ensure the effective and verifiable implementation of security measures. This process consists of the following phases:
 
-1. Self-assessment: The organization conducts an internal evaluation of its compliance with the ENS.
+1. **Risk analysis:** Identification and assessment of risks threatening the security of information and services. It is the basis for selecting appropriate measures and defining their level of requirement (BASE, Reinforced, or High).
 
-2. Audit: An accredited certification entity conducts a thorough audit of the information system.
+2. **Statement of applicability:** A document identifying the ENS measures applicable to the organization, indicating their level of implementation according to the compliance profile. It must be properly justified.
 
-3. Conformity report: If the audit is satisfactory, a conformity report is issued.
+3. **Adaptation plan:** A strategic document establishing the activities, resources, and deadlines needed to achieve compliance. It prioritizes actions based on risk and system criticality.
 
-4. Certification: The National Cryptologic Center (CCN) reviews the report and, if approved, issues the certificate of conformity.
+4. **Implementation of measures:** Execution of the adaptation plan, which may include the adoption of policies, technical configurations, procedures, staff training, and internal audits.
 
-### Certification Levels 🏆
+5. **Periodic audits:** Internal or external evaluations that verify the degree of compliance and the effectiveness of the measures. They are mandatory and allow deviations and improvement opportunities to be detected.
 
-ENS certification is granted based on established security levels:
+> 🕓 According to the transitional provision of Royal Decree 311/2022, entities had a **24-month period from April 2022** to adapt to the new ENS. This transition period ended in **April 2024**, so **full compliance is now required**.
 
-- Basic
-- Medium
-- High
+## ENS Certification
 
-### Importance of Certification 🌟
+**ENS certification** is a formal process by which an organization certifies that it complies with the security requirements established in Royal Decree 311/2022. This certification not only verifies legal compliance but is also a key tool to **improve institutional trust, facilitate transparency, and demonstrate cybersecurity maturity** to third parties.
 
-- Demonstrates commitment to information security.
-- It is mandatory for certain information systems of public administrations.
-- It can be a requirement to participate in public tenders.
-- Increases trust from citizens and other organizations.
+### Who can be certified?
 
-### Validity and Renewal ⏳
+- **Public Administration bodies** (AGE, Autonomous Communities, Local Entities)
+- **Private companies** providing technology services to Public Administrations
+- **Technology providers** in public procurement processes that require ENS alignment
 
-ENS certification is valid for 2 years, after which it must be renewed through a new audit.
+> The ENS allows certification of both entire organizations and specific information systems (for example, a critical application, a specific infrastructure, etc.).
 
-This certification is not only a legal requirement for many public entities, but also represents a quality seal in terms of information security in the field of Spanish electronic administration.
+The usual ENS certification process includes the following stages:
 
-## Difference between ENS and ISO 27001 🤔
+1. **Internal self-assessment:**  
+   The organization conducts an internal review of its ENS compliance level. It identifies gaps, prepares the statement of applicability, and defines its compliance profile.
 
-The National Security Scheme (ENS) and the ISO 27001 standard are two different information security management systems.
+2. **Audit by an accredited entity:**  
+   A certification company recognized by ENAC (National Accreditation Entity) evaluates the information system or organization. The audit verifies the implementation of the measures as declared.
 
-The following table shows the main differences and similarities between ENS and ISO 27001, highlighting their unique characteristics and areas of compatibility.
+3. **Conformity report:**  
+   If the audit is satisfactory, a report is issued justifying that the system meets the ENS requirements at the corresponding level.
 
-| Characteristic | ENS | ISO 27001 |
-|----------------|-----|-----------|
-| Scope of application | Specific to Spain | International |
-| Mandatory nature | Mandatory for Spanish public administrations | Voluntary |
-| Focus | Information security in the public sector | Information security management in any organization |
-| Regulatory body | National Cryptologic Center (CCN) | International Organization for Standardization (ISO) |
-| Structure | Based on security levels (low, medium, high) | Based on security controls |
-| Certification | Valid for 2 years | Valid for 3 years |
-| Security measures | 75 specific measures | 114 controls in 14 domains |
-| Risk analysis | Mandatory | Mandatory |
-| Continuous improvement | Yes | Yes |
-| Compatibility | Compatible with ISO 27001 | Compatible with ENS |
+4. **Certificate issuance by the CCN:**  
+   The National Cryptologic Center (CCN), as the competent authority, approves the report and issues the certificate of conformity.
 
-### Is ISO 27001 certification sufficient to comply with ENS? 🤔
+### Certification Levels
 
-Although ISO 27001 certification is an important step towards information security, it is not sufficient on its own to fully comply with ENS requirements. Here's why:
+Certification can be issued for one of the following levels, according to risk analysis and system impact:
 
-1. **Additional requirements**: ENS has specific requirements that are not covered by ISO 27001, such as specific security measures for low, medium, and high levels.
+- **Basic Level:** For systems without sensitive information and limited impact.
+- **Medium Level:** For systems with appreciable impact on operations, services, or reputation.
+- **High Level:** For critical systems affecting essential services, specially protected data, or strategic state functions.
 
-2. **Legal framework**: ENS is a legal requirement for Spanish public administrations, while ISO 27001 is voluntary.
+> 🔐 The choice of certification level determines the number and stringency of measures to be implemented.
 
-3. **Audit and certification**: The ENS certification process is different from ISO 27001, including the involvement of the National Cryptologic Center (CCN).
+Certification is important because it demonstrates commitment to information security, is mandatory for certain public administration information systems, may be a requirement for participating in public tenders, and increases the confidence of citizens and other organizations.
 
-4. **Security measures**: ENS defines 75 specific security measures, while ISO 27001 is based on 114 controls in 14 domains that do not always coincide with ENS measures.
+### Validity and Renewal
 
-However, it's important to note that there is significant compatibility between both standards. Implementing ISO 27001 can provide a solid foundation for meeting many of the ENS requirements, facilitating the ENS certification process.
+ENS certification is **valid for 2 years** from the date of issue. Once this period has elapsed, the organization must: undergo another audit, update its statement of applicability, and demonstrate improvements or maintenance in its security system.
 
-> 💡 If your organization is already ISO 27001 certified and needs to comply with ENS, consider conducting a gap analysis to identify the additional ENS requirements you need to implement. This will allow you to leverage the work already done for ISO 27001 and focus on the specific aspects of ENS.
+Renewal ensures that the system remains **effective, up-to-date, and compliant with current regulatory and technological requirements**.
 
+## ENS vs ISO 27001 Comparison
+
+| Feature                    | ENS                                       | ISO 27001                           |
+|----------------------------|-------------------------------------------|-------------------------------------|
+| Scope                      | Public sector in Spain                    | International                       |
+| Mandatory                  | Yes, for public administrations and providers | No (voluntary)                      |
+| Measures / Controls        | 73 specific measures                      | 114 controls in 14 domains          |
+| Application levels         | Low, Medium, High                         | Not defined                         |
+| Certification              | 2 years                                   | 3 years                             |
+| Risk analysis              | Mandatory                                 | Mandatory                           |
+| Compatibility              | Compatible with ISO 27001                 | Can be a basis for ENS              |
+
+### Is ISO 27001 certification enough to comply with the ENS? 🤔
+
+**ISO/IEC 27001** certification is an internationally recognized standard for information security management and can serve as a solid foundation for meeting many ENS requirements. However, **it is not sufficient by itself** to guarantee full compliance with the National Security Framework. Key differences are explained below:
+
+1. **Additional specific requirements:**  
+   The ENS establishes **73 security measures** distributed in three frameworks (organizational, operational, and protection), each with application levels (BASE, Reinforced, High). These requirements are specific and mandatory and are not detailed in ISO 27001.
+
+2. **Legal framework and scope:**  
+   The ENS is **mandatory** in Spain for all Public Administrations and companies providing public technology services. In contrast, ISO 27001 is a **voluntary** standard of general application.
+
+3. **Distinct audit and certification processes:**  
+   ENS certification is managed through entities accredited by ENAC, and the process includes **validation and issuance of the certificate by the National Cryptologic Center (CCN)**. ISO 27001 does not require this level of institutional control in its certification process.
+
+4. **Partial compatibility between controls:**  
+   ISO 27001 includes **114 controls grouped into 14 domains**, which do not match one-to-one with ENS measures. Although there is overlap, many specific aspects of the ENS (e.g., measures for classified systems, criticality levels, compliance profile) are not covered by ISO.
+
+### How can ISO 27001 help you comply with the ENS?
+
+Implementing ISO 27001 can facilitate ENS compliance in several ways:
+
+- Establishes a solid security governance foundation.
+- Fosters a culture of continuous improvement compatible with the ENS approach.
+- Standardizes procedures such as risk analysis, documentation, and internal audit.
+
+> 💡 If your organization is already ISO 27001 certified, it is recommended to conduct a **gap analysis** with respect to ENS requirements. This analysis will allow you to **reuse part of the work already done** and focus on the **additional specific requirements** of the Spanish framework.
 
 ## Conclusion 🏁
 
-ENS plays a crucial role in cybersecurity in the Spanish public sector, providing a common framework for the protection of information and electronic services. Its effective implementation is essential to ensure trust in e-government and protect citizens' data. 🔐🇪🇸👥
+The ENS plays a crucial role in the cybersecurity of the Spanish public sector, providing a common framework for the protection of information and electronic services. Its effective implementation is essential to ensure trust in e-government and protect citizens' data. The ENS seeks to apply a cycle of continuous improvement, following the steps of planning, action, checking, and acting, thus ensuring the constant evolution and adaptation of security measures to the changing challenges of the digital environment. 🔐🇪🇸👥
+

@@ -8,6 +8,7 @@ description: >-
   Descubre cómo funciona VirtualBox y aprende a crear máquinas virtuales. Prueba
   nuevos sistemas operativos sin riesgo y mejora tus habilidades en
   ciberseguridad.
+
 ---
 ## ¿Qué es VirtualBox?
 

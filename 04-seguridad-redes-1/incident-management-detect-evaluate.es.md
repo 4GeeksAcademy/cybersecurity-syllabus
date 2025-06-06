@@ -1,6 +1,7 @@
 ---
 title: "Deteccion y respuesta de un incidente de ciberseguridad"
 technologies: ["ciberseguridad", "manejo-de-incidentes-de-ciberseguridad"]
+description: Este artículo ofrece una guía completa sobre cómo las empresas pueden estructurar un proceso de reporte de incidentes, implementar estrategias para la toma de decisiones oportuna y prevenir la propagación del incidente. Además, detalla cómo manejar las actividades posteriores al incidente y preparar un informe que incluya las lecciones aprendidas. Finalmente, identifica todos los roles involucrados en la gestión de incidentes para garantizar una respuesta coordinada y efectiva.
 
 ---
 

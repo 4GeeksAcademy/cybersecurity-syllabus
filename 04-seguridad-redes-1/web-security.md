@@ -1,7 +1,7 @@
 ---
 title: "Web Security"
 subtitle: "Protect your web application: Concepts, threats, and security measures to mitigate risks and strengthen defense against cyberattacks."
-tags: ["networks"]
+tags: ["networks", "sql-injection"]
 authors: ["blindma1den", "lorenagubaira"]
 
 ---

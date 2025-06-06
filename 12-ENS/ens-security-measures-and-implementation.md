@@ -1,416 +1,268 @@
 ---
-title: "ENS Implementation and Security Measures"
-subtitle: "🛡️ Understanding the key components of the implementation and security measures in Spain's National Security Scheme (ENS)"
-tags: ["spain-national-security-framework", "cybersecurity"]
+title: "ENS Security Measures and Implementation"
+subtitle: "🛡️ Understanding the key components of implementation and security measures in Spain's National Security Framework (ENS)"
+tags: ["ENS", "cybersecurity"]
 authors: ["alesanchezr"]
 
 ---
 
-# ENS Implementation and Security Measures
+# ENS Security Measures and Implementation
 
-> Before we start, we thoroughly cover ENS (Esquema Nacional de Seguridad) in several lessons. This lesson soly focused on the security measures and implementation.
-> Read an [Introduction to ENS](https://4geeks.com/lesson/spain-national-security-scheme-esquema-nacional-de-seguridad) and learn more about the [ENS Organizational and operational framework](https://4geeks.com/lesson/ens-organizational-and-operational-framework).
+> Before starting, we have thoroughly covered the ENS (Esquema Nacional de Seguridad) in several lessons. This lesson focuses solely on security measures and implementation.
+> Read an [Introduction to ENS](https://4geeks.com/es/lesson/introduccion-al-ens-esquema-nacional-de-seguridad) and learn more about the [Organizational and Operational Framework of ENS](https://4geeks.com/es/lesson/marco-organizacional-y-operacional-del-ens).
 
-In order to implement Spain's 🇪🇸 National Security Framework (ENS) we first need to name a committee that will be responsible for the implementation of the scheme.
+To implement Spain's National Security Framework (ENS) 🇪🇸, we first need to appoint a committee responsible for the scheme's implementation.
 
-![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/esquema-nacional-de-seguridad.us.jpg?raw=true)
+![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/raw/main/assets/12-ens/esquema-nacional-de-seguridad.es.jpg?raw=true)
 
-## Who is responsible for the implementation of the ENS inside an organization?
+## Key Roles Responsible for ENS Implementation within an Organization
 
-Since 2022 ENS is governed by [Real Decreto 311/2022](https://www.boe.es/buscar/act.php?id=BOE-A-2022-12345) and establishes 4 roles in 2 levels according to its article 11. These roles are also detailed in [the Guía 801 of the National Cryptographic Center](https://www.ccn-cert.cni.es/es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/501-ccn-stic-801-responsabilidades-y-funciones-en-el-ens/file?format=html).
+Since the entry into force of **Royal Decree 311/2022**, the **National Security Framework (ENS)** clearly defines four key roles that must be present in all organizations subject to ENS compliance. These roles are specified in **Article 11** of the decree and **replace old models such as committees or presidents with casting votes**, which **are not included in the official regulations**.
 
-### Committee composition
+Each role has well-defined responsibilities to ensure the proper protection of systems, information, and services managed by an entity. Below are detailed descriptions:
 
-> 💡 While the ENS defines distinct roles with specific responsibilities, it's important to note that in practice, especially in smaller organizations or those with limited resources
 
-This committee will be composed of a president who will have the role of moderator of the meetings and in case of a tie vote, he will have the casting vote, some members who will have voice and vote within the meetings and a secretary of the committee who is in charge of the convocations and reads the minutes of the last meetings:
+### 🗂️ Information Owner
 
+This role is responsible for **determining the security requirements for the information processed** within the system. This person, or a collegiate body, must identify the sensitivity and criticality of the data and establish the necessary protection levels according to **Annex I of the ENS**, which sets the system category.
 
-### Information Officer 🧑‍💼📊
+**Key responsibilities**:
 
-Determines the security requirements of the information treated according to the parameters of Annex I of the ENS. It can be a person or a collegiate body.
+- Classify information.
+- Identify risks associated with data processing.
+- Establish security requirements based on sensitivity.
 
-### Service Responsible 🛠️👨‍💼
 
-- Helps determine the security requirements of the services being provided, identifying the security levels of these by evaluating the impact of incidents on them, and providing the necessary information for performing the respective risk analyses to establish the safeguards to be implemented.
-- Counts on the help of the system responsible to perform its tasks
+### ⚙️ Service Owner
 
-### Security Officer (CISO) 🕵️‍♂️🔒
+Responsible for **defining the security requirements of the services provided by the system**. This involves assessing the impact of any alteration, interruption, or failure in service delivery and collaborating with the System Owner to identify risks and necessary measures.
 
-- Develop Plans with Measures to manage detected risks.
-- Supervise and develop security policies, regulations and procedures, their effectiveness... Conducting periodic controls.
-- Prepare the document of Declaration of Applicability of security measures.
-- Promote and train on the organization's "best practices" in cybersecurity matters.
-- Submit notifications of incidents with adverse effects to the competent authority.
-- Receive, interpret and supervise the application of instructions and guidelines from the competent authority.
-- Collect and provide information or documentation to the competent authority.
+**Key responsibilities**:
 
-### System Responsible 💻🛠️
+- Identify the impact of incidents on services.
+- Set appropriate security levels for each service.
+- Coordinate with the System Owner in planning measures.
 
-- Develop, operate and maintain the system.
-- Define the typology and policy of System Management.
-- The connection/disconnection of equipment/users.
-- Approve operational changes that affect the system.
-- Decide on security measures to be applied by component suppliers.
-- Implement, control and integrate specific security measures.
-- The authorized configuration and approval of substantial modifications to hardware and software.
-- Keep the Risk Analysis in the system updated.
-- Determine the System Category (process in Annex I ENS) and the security measures that should be applied (Annex II ENS).
-- Develop and approve system documentation and determine the responsibilities of those involved in the maintenance, exploitation, implementation and supervision of the system.
-- Investigate Security Incidents and communicate them to whom it may concern if appropriate.
-- Establish Contingency or Emergency Plans and carry out scheduled exercises.
-- Agree on the use of certain information or service provision if there are serious vulnerabilities in the system, a decision agreed upon with the Security Officer beforehand.
 
-## Implementation of the ENS
+### 🕵️‍♂️ Security Officer (CISO)
 
-![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/proceso-ens.us.png?raw=true)
+In charge of the **comprehensive management of information security** in the organization. Must develop security plans, conduct regular controls, coordinate audits, manage incidents, and serve as the point of contact with competent authorities.
 
-To implement an Information Security Management System (ISMS) that complies with Spain’s **Esquema Nacional de Seguridad (ENS)**, you'll need to follow a structured approach that aligns with the regulatory framework. Below is a step-by-step implementation plan:
+**Key responsibilities**:
 
-### 1. **Understand the ENS Requirements**
+- Design, implement, and maintain security policies.
+- Coordinate the Statement of Applicability (DoA).
+- Oversee incident response and notify authorities.
+- Lead training and awareness campaigns.
 
-- **Classification of systems:** The ENS defines different levels of security (Basic, Intermediate, and High). Start by classifying your information systems based on the sensitivity and criticality of the data handled.
-- **Security Measures:** Each level requires specific security measures (administrative, technical, and operational). Review Annex II and Annex III of the ENS for the detailed requirements.
-- **Legal Review:** Current state of the organization compliance with related Spanish laws (e.g., GDPR, Spanish Data Protection Act).
 
-### 2. **Gap Analysis**
+### 💻 System Owner
 
-- **Current State Assessment:** Conduct a comprehensive analysis of your current security posture. Evaluate existing security measures, policies, and procedures.
-- **Gap Identification:** Compare your current security controls against the ENS requirements. Identify gaps in both technical (e.g., firewalls, encryption) and organizational (e.g., policies, risk management) aspects.
+Mainly responsible for **developing, operating, and maintaining the information system**, ensuring that appropriate security measures are implemented and maintained throughout the system's lifecycle. Also responsible for categorizing the system according to the ENS and conducting risk analysis.
 
-### 3. **Set Up a Security Governance Framework**
+**Key responsibilities**:
 
-- **Appoint a Security Officer:** Designate a security officer responsible for ENS compliance and ensure they are appropriately trained.
-- **Create a Security Committee:** Establish a committee with representatives from IT, legal, HR, and other relevant departments to oversee the security program.
+- Define technical architecture and operational policies.
+- Approve critical hardware/software configurations and changes.
+- Keep risk analysis up to date.
+- Coordinate with other owners to ensure service continuity and system protection.
 
-### 4. **Develop the ISMS Framework**
+> 🔒 **Note**: These four roles must be **clearly defined, documented, and formally assigned** within the organization and cannot be arbitrarily merged. Their proper implementation is a fundamental requirement for ENS compliance and obtaining the corresponding certification.
 
-- **Policy Development:** Create or update information security policies to reflect ENS requirements. Include policies on access control, incident management, and data classification.
-- **Risk Management Process:** Implement a formal risk management process, including risk identification, assessment, and treatment. Ensure that the risk management strategy aligns with ENS guidelines.
-- **Asset Management:** Identify and classify assets (hardware, software, data) according to their importance to your organization. Define appropriate protection measures for each asset.
 
-### 5. **Technical Security Controls Implementation**
+## ENS Implementation: Phased Approach and Lifecycle
 
-- **Encryption:** Use strong encryption for sensitive data in storage and transit.
-- **Access Control:** Implement role-based access controls (RBAC) and two-factor authentication (2FA) for all critical systems.
-- **Monitoring and Incident Detection:** Install monitoring tools (SIEM, IDS/IPS) to detect and respond to incidents. Align this with Spain's regulatory requirements for incident reporting.
-- **Backup and Recovery:** Establish a reliable backup and disaster recovery system. Ensure that backups are encrypted and regularly tested.
-- **Perimeter Security:** Harden perimeter defenses using firewalls, intrusion detection systems, and network segmentation.
+![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/12-ens/proceso-ens.png?raw=true)
 
-### 6. **Administrative and Organizational Measures**
+The implementation of the National Security Framework (ENS) should not be seen as a one-off action, but as a continuous process covering the entire system lifecycle, from initial design to final decommissioning.
 
-- **Awareness and Training Programs:** Develop and execute a security awareness program for all employees, covering topics like phishing, safe data handling, and reporting incidents.
-- **Incident Response Plan:** Create an incident response plan that complies with ENS guidelines. Ensure it covers incident detection, response, recovery, and reporting.
-- **Continuous Monitoring:** Set up a monitoring process for security threats, ensuring periodic audits and vulnerability assessments are conducted.
+This process must be guided by a risk analysis that determines which measures to apply, at what level of stringency (BASE, Reinforced, High), and at what stage. Proper ENS implementation ensures not only regulatory compliance but also effective protection of services and information.
 
-### 7. **Third-Party and Supplier Management**
 
-- **Supplier Risk Assessment:** Evaluate the security measures of third-party service providers to ensure they comply with ENS requirements.
-- **Contractual Obligations:** Incorporate ENS-related clauses into contracts with suppliers and partners, especially those handling sensitive information.
+### 1. Understanding the ENS
 
-### 8. **Audit and Certification**
+Before applying any measures, the organization must understand its context and obligations. This initial step lays the foundation for the rest of the process:
 
-- **Internal Audit:** Perform regular internal audits to ensure ongoing compliance with ENS. Address any non-conformities identified during the audits.
-- **ENS Certification:** Engage with accredited auditors to obtain ENS certification. This step is crucial for public administrations and suppliers working with the public sector.
-- **External Audit:** Depending on your security level, you may need to undergo an external audit for official certification (particularly for Intermediate and High levels).
+- Classify your systems: Determine if they are Low, Medium, or High level systems based on the impact a security breach would have on confidentiality, integrity, or availability.
+- Review ENS Annexes I and II:
+    - Annex I: Establishes how to categorize systems by level.
+    - Annex II: Contains the 73 mandatory security measures, divided into organizational, operational, and protection measures.
+- Assess current legal compliance: Ensure compliance with other complementary regulations, such as GDPR, LOPDGDD, Law 40/2015, or Law 39/2015, among others.
 
-### 9. **Incident Management and Reporting**
 
-- **Incident Handling Process:** Implement a formal process for incident reporting and response. Ensure that incidents are reported to the relevant authorities, following the ENS guidelines.
-- **Continuous Improvement:** After incidents, conduct a post-mortem to update the ISMS and prevent similar incidents in the future.
+### 2. Gap Analysis
 
-### 10. **Documentation and Reporting**
+This analysis allows you to understand the organization's current state against ENS requirements and identify weaknesses:
 
-- **Security Plan:** Document the security plan, which should include objectives, risk management approaches, and security measures in line with ENS.
-- **Conformity Reports:** Produce regular conformity reports that demonstrate adherence to ENS requirements.
-- **Communication with Authorities:** Ensure regular communication with regulatory authorities for incident reporting and certifications.
+- Compare ENS measures with the actual state of your systems.
+- Identify which controls are not implemented or are insufficient.
+- Classify each gap by impact and urgency.
 
-### 11. **Continuous Improvement**
+This analysis will feed into the ENS Adaptation Plan, which outlines concrete steps to achieve compliance.
 
-- **Regular Review:** Periodically review and update your ISMS to align with evolving threats and ENS updates.
-- **Penetration Testing:** Conduct annual penetration tests to assess the effectiveness of your security controls.
-- **Employee Re-training:** Regularly refresh employees' security awareness through ongoing training programs.
 
-## ENS Protective Measures
+### 3. Security Governance
 
-The following is a list of all the protective measures that we must implement to comply with the ENS.
+To comply with the ENS, the organization must establish a clear structure of responsibilities, without resorting to informal committees or bodies not recognized by regulations.
 
-### Protection of facilities 🔒🏢
+- Formally designate the four roles defined in Article 11 of RD 311/2022:
+    - Information Owner
+    - Service Owner
+    - System Owner
+    - Security Officer (CISO)
+- Define functions, authority, approval flows, and coordination mechanisms among them.
 
-The protection of facilities stands as a fundamental pillar in the National Security Scheme, playing a critical role in preserving the integrity and information of a public entity. This component, which ranges from strategic infrastructures to key buildings, becomes an essential link for secure and sustainable development.
 
-The protection of facilities refers to the application of measures and strategies aimed at physically and strategically safeguarding places and structures considered crucial for the functioning and well-being of a society. These facilities can range from power plants and water treatment plants to government buildings and research centers.
+### 4. Development of the ISMS (Information Security Management System)
 
-Among its controls we have:
+This step involves creating the organizational and technical foundations for structured security management:
 
-#### Separate areas with access control 🔒🚧
+- Draft and implement security policies and procedures.
+- Establish a risk management process, in line with recognized methodologies (such as MAGERIT).
+- Classify information assets (data, services, infrastructure, personnel).
+- Define protection controls according to their criticality.
 
-According to the ENS, the infrastructure of all systems must follow a distribution of separate zones according to their function and have access control for these zones
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.if.1 | Separate areas with access control |
+### 5. Implementation of Technical Controls
 
-#### Identification of people 🧑‍💼🚧
+Here, the ENS technical measures are deployed, always aligned with the risk analysis results. Among them:
 
-All entities must have access control to the premises and with entry and exit registration
+- Data encryption (at rest and in transit).
+- Robust authentication and access control mechanisms.
+- Monitoring and incident detection systems.
+- Backups, network segmentation, high availability, among others.
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.if.2 | Identification of people |
+Technical implementation without clear governance or policies can be ineffective. Both components must go hand in hand.
 
-#### Conditioning of premises 🌡️💧
 
-All facilities must have favorable temperature and humidity conditions, and have protection against threats obtained from risk analysis
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.if.3 | Conditioning of premises |
+### 6. Administrative Measures
 
-#### Electrical power 🔌💡
+Administrative measures complement technical and organizational ones, ensuring that the human factor is also properly managed:
 
-According to the ENS, facilities must have power supply in case of electrical failure or at least guarantee the correct operation of emergency lights
+- Security training and awareness programs for staff.
+- Incident response protocols.
+- Procedures for change management, configuration control, and periodic reviews.
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | + | = | mp.if.4 | Electrical power |
 
-#### Fire protection 🔥🚨
 
-Facilities must have fire protection, as well as equipment to extinguish fire
+### 7. Third-Party Relationships
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.if.5 | Fire protection |
+Security does not end at the organization's boundaries. The ENS requires managing risks from external providers or contracted services:
 
-#### Flood protection 🌊🚨
+- Review contracts and security clauses.
+- Assess third-party risks.
+- Supervise compliance with measures by providers (audits, reports, etc.).
 
-As with the previous point, there must be protection in case of floods, we can reference this protection according to the industrial regulations followed in the installation and adaptation of the building for fires and floods
 
-In this case, controls must be applied in medium and high category entities.
+### 8. Audit and Certification
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Applies | = | mp.if.6 | Flood protection |
+Once measures are implemented, ENS compliance must be verified through audits:
 
-#### Equipment entry and exit registry 📦🚧
+- Obligated entities must undergo an external audit every 2 years.
+- The audit must be conducted by an accredited body or independent unit, as established in Guide CCN-STIC 820.
+- If the evaluation is passed, the ENS certificate is issued, valid for 24 months.
 
-All equipment that leaves and enters must be identified and documented, as well as who authorized it, the date of departure and the estimated time.
+Certification is not the end, but the start of a continuous improvement cycle. Measures must be maintained and updated throughout the system's lifecycle.
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.if.7 | Equipment entry and exit registry |
 
-#### Alternative facilities 🚧🚨
+# ENS Security Measures
 
-Public entities with high category systems must have alternative facilities in case an incident takes the main facility out of operation, these alternative facilities must have the same security guarantees as the usual ones
+The security measures of the National Security Framework (ENS) are organized into three frameworks:
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.if.1 | Alternative facilities |
+- **Organizational framework** (`org`)
+- **Operational framework** (`op`)
+- **Protection measures** (`mp`)
 
-### Protection of assets and personnel
+Each measure has application levels according to the system's security profile:
 
-The protection of assets and personnel involves the implementation of strategies and measures aimed at safeguarding both the critical resources of the country's public entities, as well as strategic information and the security of its citizens.
+- `=`: **BASE** requirement (mandatory for all)
+- `+`: Requirement for **medium-level** systems
+- `++`: Requirement for **high-level** systems
 
-Within the ENS, personnel management and protection is mostly related to the function and obligations within their job position as well as training and awareness regarding security, its controls are:
+> This is not an exhaustive list. The full 73 measures are available in Guide CCN-STIC 808.
 
-#### Job characterization 🧑‍💼📄
 
-In this control, documentation must be stipulated with the security responsibilities of each employee according to their job position, as well as the requirements that must be met to occupy the job position and in personnel selection.
+## Organizational Framework (`org`)
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Applies | = | mp.if.1 | Job characterization |
+### Security Policies and Procedures
 
-#### Duties and obligations 🧑‍💼🔒
+| Measure                      | Low Level | Medium Level | High Level | Code  |
+|------------------------------|-----------|--------------|------------|-------|
+| Security policies            | =         | +            | ++         | org.2 |
+| Security procedures          | =         | +            | ++         | org.3 |
 
-The duties and responsibilities regarding security in the job position must be explained. Disciplinary measures must also be taken in case of non-compliance with duties in the job position
+### Authorization Processes
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.per2 | Duties and obligations |
+| Measure                                 | Low Level | Medium Level | High Level | Code  |
+|------------------------------------------|-----------|--------------|------------|-------|
+| Control of facilities and components     | =         | =            | =          | org.4 |
 
-#### Awareness 🧑‍🏫🔒
 
-The ENS explains that talks should be given periodically to staff to remind them of security regulations and incident management procedures
+## Operational Framework (`op`)
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.per3 | Awareness |
+### Planning
 
-#### Training 🧑‍🏫🔒
+| Measure                             | Low Level | Medium Level | High Level | Code    |
+|-------------------------------------|-----------|--------------|------------|---------|
+| Risk analysis                       | =         | +            | ++         | op.pl.1 |
+| Security architecture               | =         | +            | ++         | op.pl.2 |
+| Acquisition of new components       | =         | =            | =          | op.pl.3 |
+| Capacity management                 | —         | =            | =          | op.pl.4 |
 
-This control involves correctly managing the institution's information and training staff so they know how to react to different types of incidents
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.per4 | Training |
+## Protection Measures (`mp`)
 
-#### Alternative Personnel 🧑‍💼🚨
+### Facility Protection (`mp.if.*`)
 
-There must be personnel who take charge of functions in case of any unavailability of regular personnel.
+| Measure                                         | Low Level | Medium Level | High Level | Code     |
+|-------------------------------------------------|-----------|--------------|------------|----------|
+| Separate areas with access control              | =         | =            | =          | mp.if.1  |
+| Identification of people                        | =         | =            | =          | mp.if.2  |
+| Conditioning of premises                        | =         | =            | =          | mp.if.3  |
+| Power supply                                    | +         | =            | =          | mp.if.4  |
+| Fire protection                                 | =         | =            | =          | mp.if.5  |
+| Flood protection                                | —         | =            | =          | mp.if.6  |
+| Equipment entry and exit log                    | =         | =            | =          | mp.if.7  |
+| Alternative facilities                          | —         | —            | =          | mp.if.8  |
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.per5 | Alternative Personnel |
+### Personnel and Asset Protection (`mp.per.*`)
 
-Regarding the protection of assets, the standard is more oriented towards workstations and their manipulation and protection
+| Measure                              | Low Level | Medium Level | High Level | Code      |
+|--------------------------------------|-----------|--------------|------------|-----------|
+| Job characterization                 | —         | =            | =          | mp.per.1  |
+| Duties and obligations               | =         | =            | =          | mp.per.2  |
+| Awareness                            | =         | =            | =          | mp.per.3  |
+| Training                             | =         | =            | =          | mp.per.4  |
+| Alternative personnel                | —         | —            | =          | mp.per.5  |
+| Alternative means (equipment)        | —         | —            | =          | mp.per.8  |
 
-#### Clear desk 🧑‍💼🚧
+### Information Protection (`mp.info.*`)
 
-This control establishes the policy that the work desk must be clean and only the activity that is being carried out at the moment should be performed, material that is not being used must be stored in a closed place
+| Measure                     | Low Level | Medium Level | High Level | Code       |
+|-----------------------------|-----------|--------------|------------|------------|
+| Personal data               | =         | =            | =          | mp.info.1  |
+| Information classification  | +         | =            | =          | mp.info.2  |
+| Encryption                  | —         | —            | =          | mp.info.3  |
+| Electronic signature        | +         | ++           | ++         | mp.info.4  |
+| Timestamps                  | =         | =            | =          | mp.info.5  |
+| Document sanitization       | =         | =            | =          | mp.info.6  |
+| Backups                     | =         | =            | =          | mp.info.9  |
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.eq1 | Clear desk |
+### Service Protection (`mp.s.*`)
 
-#### Workstation lock 🔒🧑‍💻
+| Measure                                        | Low Level | Medium Level | High Level | Code    |
+|------------------------------------------------|-----------|--------------|------------|---------|
+| Email protection                               | =         | =            | =          | mp.s.1  |
+| Web services and application protection        | =         | +            | +          | mp.s.2  |
+| Protection against denial of service           | —         | =            | +          | mp.s.8  |
+| Alternative means for critical services        | —         | —            | =          | mp.s.9  |
 
-In medium category systems, workstations must have a lock after a period of inactivity and require authentication to be reactivated, mainly for the purpose of closing open sessions.
 
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.eq2 | Workstation lock |
+## Application Level Legend
 
-#### Protection of portable equipment 📱🚧
+- `=`: BASE level, mandatory for all systems
+- `+`: Applicable to medium-level systems
+- `++`: Applicable to high-level systems
+- `—`: Not explicitly applicable (may depend on risk analysis)
 
-This is the most rigorous control within the asset protection controls and it is that there must be an inventory of all portable equipment that leaves the facility along with the person responsible for it, and there must be documentation of all information procedures on any incident that may exist with said equipment
-
-This equipment must also have limitation of accessible information and storage of sensitive information, it is advisable to handle information with a high level of encryption
-
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.eq3 | Protection of portable equipment |
-
-#### Alternative means 🚧🚨
-
-Alternative equipment must be available in case the usual equipment fails.
-
-| Dimensions |  |  | Protection measures |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.per4 | Alternative means |
-
-### Protection of information and services
-
-It is important to have protection of the information that can be handled within a public entity, as well as its services, which is why the ENS maintains controls regarding these areas which we will see below
-
-#### Personal data 🧑‍💼📄
-
-This control is based on systems with personal data, which must meet the requirements of the Organic Law on Data Protection and Guarantee of Digital Rights
-
-| Dimensions |  |  | Information protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.info1 | Personal data |
-
-#### Information classification 🧑‍💼📄
-
-This policy gives the information manager the responsibility to determine its classification and describe the criteria for labeling information according to its security level
-
-| Dimensions |  |  | Information protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | + | = | mp.info2 | Information classification |
-
-#### Encryption 🔒🔑
-
-There must be high-level encryption for stored and transmitted information
-
-| Dimensions |  |  | Information protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.info3 | Encryption |
-
-#### Electronic signature 🔑🖋️
-
-The electronic signature must exist within systems and documents to verify their integrity and authenticity
-
-| Dimensions |  |  | Information protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | + | ++ | mp.info4 | Electronic signature |
-
-#### Time stamps 🕒🔑
-
-Time stamps help analyze the integrity of information when it is required temporarily, generally oriented to data used as electronic evidence
-
-| Dimensions |  |  | Information protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.info5 | Time stamps |
-
-#### Document cleaning 🧑‍💼📄
-
-Information should be removed in hidden fields, metadata and special revisions especially when the document is made public
-
-| Dimensions |  |  | Information protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.info6 | Document cleaning |
-
-#### Backups 💾📄
-
-There must be backups that have the same level of security as the original data and must cover both work information and applications and keys
-
-| Dimensions |  |  | Information protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.info9 | Backups |
-
-Within the protection of services, the following controls are established
-
-#### Email protection 📧🔒
-
-There must be security measures that will be used to prevent incidents such as SPAM or malware, in addition to documentation explaining the safe use of email
-
-It is advisable to use a trusted email provider
-
-| Dimensions |  |  | Service protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | = | mp.s.1 | Email protection |
-
-#### Protection of services and applications 📧🧑‍💻
-
-There must be security measures to prevent incidents such as URL and cookie manipulation, privilege escalation, among others. For high category systems, the use of qualified authentication certificates is recommended
-
-| Dimensions |  |  | Service protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Applies | = | + | mp.s.2 | Protection of web services and applications |
-
-#### Protection against denial of service 🚨🧑‍💻
-
-There must be protection against these types of attacks, such as request control and load balancers, as well as systems to detect the attack and procedures to react to the attack
-
-| Dimensions |  |  | Service protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Applies | + | mp.s.8 | Protection against denial of service |
-
-#### Alternative means 🚨🧑‍💻
-
-There must be availability of alternative means to provide the service of applications with the same guarantees as the usual means, this can be included in the business continuity plan
-
-| Dimensions |  |  | Service protection |  |
-| --- | --- | --- | --- | --- |
-| L | M | H | Org | Operational Framework |
-| Does not apply | Does not apply | Applies | mp.s.9 | Alternative means |

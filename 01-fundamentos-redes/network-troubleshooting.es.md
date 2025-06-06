@@ -8,6 +8,7 @@ authors:
 description: >-
   Master la solución de problemas de red con herramientas de diagnóstico y
   monitoreo. Descubre cómo optimizar el rendimiento y asegurar tu red hoy.
+
 ---
 A veces podemos tener problemas de rendimiento en nuestra red y es necesario saber la razón para así poder tomar los correctivos. Para ello tenemos herramientas que pueden realizar un diagnóstico de red.
 

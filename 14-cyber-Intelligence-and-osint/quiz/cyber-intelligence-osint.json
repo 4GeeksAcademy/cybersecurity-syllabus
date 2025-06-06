@@ -1,0 +1,87 @@
+{
+  "info": {
+    "slug": "osint-and-cyberintelligence",
+    "name": "OSINT and Cyberintelligence",
+    "difficulty": "INTERMEDIATE",
+    "technologies": ["osint", "cyberintelligence", "cybersecurity"],
+    "main": "Test your knowledge of open-source intelligence (OSINT) and how to assess digital exposure using passive reconnaissance techniques.",
+    "results": "Congratulations! You have demonstrated a solid understanding of OSINT techniques and cyberintelligence principles.",
+    "badges": [
+      { "slug": "osint_analyst", "points": 15 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "What does performing OSINT on a domain like example.com involve?",
+      "a": [
+        { "option": "Collecting public and legally accessible information about its digital assets without actively interacting with its systems", "correct": true },
+        { "option": "Conducting port scans and intrusion testing on the domain", "correct": false },
+        { "option": "Sending phishing emails to accounts under the domain to detect vulnerabilities", "correct": false },
+        { "option": "Auditing its internal systems via remote access", "correct": false }
+      ]
+    },
+    {
+      "q": "Which tool allows you to visualize relationships between people, emails, domains, and IPs?",
+      "a": [
+        { "option": "Maltego", "correct": true },
+        { "option": "Shodan", "correct": false },
+        { "option": "theHarvester", "correct": false },
+        { "option": "Spiderfoot", "correct": false }
+      ]
+    },
+    {
+      "q": "What kind of search does Google Dorks allow?",
+      "a": [
+        { "option": "Advanced search using operators to find sensitive indexed information", "correct": true },
+        { "option": "Access to internal company databases", "correct": false },
+        { "option": "Vulnerability scanning of websites", "correct": false },
+        { "option": "Detection of hidden malware on web pages", "correct": false }
+      ]
+    },
+    {
+      "q": "What is a common mistake in OSINT investigations?",
+      "a": [
+        { "option": "Searching without a clear objective", "correct": true },
+        { "option": "Using multiple sources to verify data", "correct": false },
+        { "option": "Working from an anonymous environment", "correct": false },
+        { "option": "Focusing on verified and recent data", "correct": false }
+      ]
+    },
+    {
+      "q": "What is the purpose of using Shodan in OSINT?",
+      "a": [
+        { "option": "Identify publicly accessible devices and services associated with a domain or IP", "correct": true },
+        { "option": "Create fake IP addresses for testing", "correct": false },
+        { "option": "Simulate denial of service attacks", "correct": false },
+        { "option": "Send phishing notifications to users", "correct": false }
+      ]
+    },
+    {
+      "q": "What can Have I Been Pwned detect?",
+      "a": [
+        { "option": "Credential leaks associated with specific email addresses", "correct": true },
+        { "option": "Available hosting services for a domain", "correct": false },
+        { "option": "Unindexed internal emails", "correct": false },
+        { "option": "Installed software versions on a server", "correct": false }
+      ]
+    },
+    {
+      "q": "What is considered a good practice when collecting OSINT?",
+      "a": [
+        { "option": "Cross-check the obtained information with multiple sources for authenticity", "correct": true },
+        { "option": "Only analyze the first page of Google results", "correct": false },
+        { "option": "Request access to private databases", "correct": false },
+        { "option": "Rely on unverified forum posts", "correct": false }
+      ]
+    },
+    {
+      "q": "Why is identifying subdomains like mail.example.com or login.example.com important?",
+      "a": [
+        { "option": "To detect potentially exposed services or attack vectors within an organization's infrastructure", "correct": true },
+        { "option": "To send automated requests to those subdomains", "correct": false },
+        { "option": "To generate active phishing campaigns", "correct": false },
+        { "option": "To simulate network traffic inside their servers", "correct": false }
+      ]
+    }
+  ]
+}

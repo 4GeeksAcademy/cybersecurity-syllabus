@@ -8,6 +8,7 @@ authors:
 description: >-
   Learn how to configure essential network services like HTTP and FTP on your
   server to enhance security. Discover practical steps for a robust setup!
+
 ---
 ## **Configuración de la interfaz de red**
 
@@ -128,7 +129,7 @@ Podemos corroborar los cambios usando el comando sudo ufw status
 
 En algunos casos podemos tener una respuesta de Status: Inactive, esto ocurre porque el firewall está inactivo, para activarlo usamos el comando sudo ufw enable, y volvemos a chequear el status
 
-![Configuración de servicios de red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-14.jpg)
+![Network Services Configuration](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-14.jpg)
 
 ![Configuración de servicios de red - comando sudo systemctl status apache2](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-15.jpg)
 

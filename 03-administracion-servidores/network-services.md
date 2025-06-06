@@ -8,6 +8,7 @@ authors:
 description: >-
   Learn how to configure essential network services like HTTP and FTP on your
   server. Master network security and improve connectivity today!
+
 ---
 ## Network Interface Configuration
 
@@ -102,15 +103,15 @@ Let's configure our HTTP server with Apache by following these steps:
 
 - Once the packages are updated, we install our Apache server with **sudo apt install apache2.**
 
-    ![Network Services Configuration - firewall](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-10.jpg)
+![Network Services Configuration - firewall](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-10.jpg)
 
 - Before testing Apache, it's necessary to modify some firewall settings to allow external access to the default web ports. During installation, Apache registers with UFW to provide some application profiles that can be used to enable or disable access to Apache through the firewall.
     
 - With the command sudo ufw app list, we will have a list of application profiles.
 
-    ![Network Services Configuration - sudo ufw](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-11.jpg)
+![Network Services Configuration - sudo ufw](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-11.jpg)
     
-    The result will have three profiles available for Apache:
+ The result will have three profiles available for Apache:
     
     - **Apache**: This profile opens only port 80 (normal, unencrypted web traffic).
     - **Apache Full**: This profile opens port 80 (normal, unencrypted web traffic) and port 443 (encrypted TLS/SSL traffic).
@@ -123,9 +124,7 @@ Let's configure our HTTP server with Apache by following these steps:
 
 We can verify the changes using the sudo ufw status command.
 
-![sudo ufw status
-
-](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-13.jpg "sudo ufw status")
+![sudo ufw status](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-13.jpg "sudo ufw status")
 
 In some cases, we may get a Status: Inactive response. This happens because the firewall is inactive. To activate it, we use the sudo ufw enable command and check the status again.
 

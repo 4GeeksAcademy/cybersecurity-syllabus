@@ -8,6 +8,7 @@ description: >-
   Discover how VirtualBox works and learn to create virtual machines
   effortlessly. Explore the benefits of running multiple operating systems on
   one computer!
+  
 ---
 VirtualBox is a free program that allows you to install different operating systems inside your current computer, as if they were independent programs. It's like having several computers in one.
 

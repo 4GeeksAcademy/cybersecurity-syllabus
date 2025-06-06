@@ -1,69 +1,74 @@
-# Lectura 4 📕: Protección y Mitigación de riesgos
-    
-La protección y mitigación de riesgos es la segunda función del núcleo de NIST Framework, es importante familiarizarse, ya que consiste en la implementación de controles de seguridad adecuados para proteger todos los sistemas y activos de información y en caso de que se materialice una amenaza, cómo mitigar el impacto de todos estos riesgos.
+---
+title: "Protection and Risk Mitigation in the NIST Framework"
+subtitle: "🛡️ Implementing security controls, access management, vendor oversight, and contingency plans as part of the NIST Framework's 'Protect' function"
+tags: ["NIST", "security", "risk", "controls", "cybersecurity"]
+authors: ["alejandrosz"]
+---
 
-Como analistas de ciberseguridad, esta es una parte primordial de nuestro trabajo, ya que una buena gestión dentro de la protección y mitigación de riesgos nos puede ayudar a proteger la información y garantizar la seguridad de nuestros sistemas en caso de un ataque cibernético.
+Protection and risk mitigation is the second core function of the NIST Framework. It is important to become familiar with it, as it involves implementing appropriate security controls to protect all information systems and assets, and, in the event a threat materializes, mitigating the impact of these risks.
 
-Hablemos un poco de todo lo podemos hacer dentro dentro de esta función:
+As cybersecurity analysts, this is a fundamental part of our job, since effective management of protection and risk mitigation helps safeguard information and ensures the security of our systems in the event of a cyberattack.
 
-1. **Controles y salvaguardas de seguridad.**
+Let’s discuss what can be done within this function:
 
-Dentro del NIST Framework podemos conseguir directrices claras sobre cómo implementar controles y salvaguardas se seguridad de una manera efectiva. Según el mismo marco, estos controles los podemos dividir en tres categorías principales: controles de gestión, controles técnicos y controles operativos. Estas categorías abarcan una amplia gama de medidas que las organizaciones pueden implementar para proteger sus activos de información.
+1. **Security Controls and Safeguards**
 
-En los controles de gestión nos centraremos en la planificación, organización y supervisión de las actividades de seguridad cibernética, podemos lograrlo mediante la elaboración de políticas y procedimientos de seguridad, la asignación de responsabilidades claras, la realización de evaluaciones de riesgos y la implementación de programas de concientización y capacitación en seguridad.
+The NIST Framework provides clear guidelines on how to implement security controls and safeguards effectively. According to the framework, these controls can be divided into three main categories: management controls, technical controls, and operational controls. These categories cover a wide range of measures organizations can implement to protect their information assets.
 
-Los controles técnicos, por otro lado, se refieren a las medidas tecnológicas que se implementan para proteger los sistemas y la información. Estos controles pueden incluir el uso de firewalls, sistemas de detección y prevención de intrusiones, encriptación de datos, autenticación de usuarios y control de acceso a los recursos.
+Management controls focus on planning, organizing, and overseeing cybersecurity activities. This can be achieved by developing security policies and procedures, assigning clear responsibilities, conducting risk assessments, and implementing security awareness and training programs.
 
-Por último, los controles operativos se centran en los procesos y procedimientos que se implementan para garantizar la seguridad cibernética en el día a día de la organización. En este control podemos aplicar la gestión de cambios, la gestión de incidentes, la monitorización y el análisis de registros, y la realización de pruebas de seguridad periódicas.
+Technical controls refer to technological measures implemented to protect systems and information. These may include firewalls, intrusion detection and prevention systems, data encryption, user authentication, and access control to resources.
 
-Es importante destacar que los controles y salvaguardas de seguridad en el marco de ciberseguridad NIST no son una lista exhaustiva de medidas, sino que deben adaptarse a las necesidades y características específicas de cada organización. Es fundamental realizar una evaluación de riesgos para identificar las amenazas y vulnerabilidades relevantes, y luego implementar los controles adecuados para mitigar esos riesgos.
+Operational controls focus on the processes and procedures implemented to ensure cybersecurity in the organization’s daily operations. This includes change management, incident management, monitoring and analyzing logs, and conducting regular security testing.
 
-Además, es importante tener en cuenta que la implementación de controles de seguridad no es un proceso único, sino que debe ser continuamente evaluado y actualizado. Las organizaciones deben realizar auditorías periódicas para asegurarse de que los controles están funcionando correctamente y ajustarlos según sea necesario.
+It is important to note that security controls and safeguards in the NIST cybersecurity framework are not an exhaustive list of measures; they must be tailored to the specific needs and characteristics of each organization. Conducting a risk assessment is essential to identify relevant threats and vulnerabilities, and then implementing appropriate controls to mitigate those risks.
 
-2. **Políticas de seguridad y gestión de acceso.**
+Additionally, implementing security controls is not a one-time process; it must be continuously evaluated and updated. Organizations should conduct regular audits to ensure controls are functioning properly and adjust them as needed.
 
-Las políticas de seguridad son documentos que establecen las reglas y directrices para proteger la información y los sistemas de una organización estas políticas deben ser claras, concisas y comprensibles para todos los empleados y usuarios y deben abordar aspectos como la clasificación de la información, el uso aceptable de los recursos, la gestión de contraseñas, la protección de datos personales y la respuesta a incidentes, entre otros.
+2. **Security Policies and Access Management**
 
-Es importante que las políticas de seguridad se alineen con los objetivos y requisitos de la organización, así como con las leyes y regulaciones aplicables además, deben ser revisadas y actualizadas regularmente para adaptarse a los cambios en el entorno de ciberseguridad.
+Security policies are documents that establish the rules and guidelines for protecting an organization’s information and systems. These policies should be clear, concise, and understandable for all employees and users, and should address aspects such as information classification, acceptable use of resources, password management, personal data protection, and incident response, among others.
 
-La gestión de acceso, por otro lado, se refiere a los procesos y controles utilizados para garantizar que solo las personas autorizadas tengan acceso a los recursos y la información. Esto implica la implementación de medidas como la autenticación de usuarios, la autorización de acceso basada en roles y privilegios, y la supervisión de actividades de acceso.
+It is important that security policies align with the organization’s objectives and requirements, as well as applicable laws and regulations. They should also be reviewed and updated regularly to adapt to changes in the cybersecurity landscape.
 
-En el marco de ciberseguridad NIST, se recomienda seguir el principio de "menor privilegio", lo que significa que los usuarios solo deben tener los privilegios necesarios para realizar sus tareas. Esto reduce el riesgo de que un usuario malintencionado o comprometido cause daño a los sistemas o acceda a información confidencial.
+Access management refers to the processes and controls used to ensure that only authorized individuals have access to resources and information. This involves implementing measures such as user authentication, role- and privilege-based access authorization, and monitoring access activities.
 
-Además, la gestión de acceso también implica la implementación de controles técnicos, como sistemas de gestión de identidad y acceso, sistemas de control de acceso físico y lógico, y registros de auditoría para monitorear y rastrear las actividades de acceso.
+The NIST cybersecurity framework recommends following the principle of "least privilege," meaning users should only have the privileges necessary to perform their tasks. This reduces the risk of a malicious or compromised user causing harm to systems or accessing confidential information.
 
-Es importante destacar que las políticas de seguridad y la gestión de acceso no son sólo responsabilidad del departamento de TI, sino que deben ser una preocupación de toda la organización. Todos los empleados deben ser conscientes de las políticas de seguridad y cumplirlas en su trabajo diario. La capacitación y la concientización son clave para garantizar una cultura de seguridad cibernética en toda la organización.
+Access management also involves implementing technical controls such as identity and access management systems, physical and logical access controls, and audit logs to monitor and track access activities.
 
-3. **Seguridad en la gestión de proveedores y terceros.**
+It is important to highlight that security policies and access management are not solely the responsibility of the IT department; they should be a concern for the entire organization. All employees must be aware of security policies and comply with them in their daily work. Training and awareness are key to ensuring a cybersecurity culture throughout the organization.
 
-En la gestión de proveedores y terceros buscamos evaluar y gestionar los riesgos asociados con las relaciones comerciales y los servicios proporcionados por terceros. Esto es muy importante en un entorno digital, ya que las organizaciones a menudo dependen de proveedores externos para servicios críticos, como almacenamiento en la nube, procesamiento de pagos y soporte técnico.
+3. **Vendor and Third-Party Security Management**
 
-Dentro del NIST framework, se recomienda seguir un enfoque basado en el riesgo para la gestión de proveedores y terceros. Esto implica evaluar la importancia de los servicios proporcionados por terceros, así como el nivel de acceso que tienen a los sistemas y datos de la organización. Basándose en esta evaluación, se pueden implementar controles y salvaguardas adecuados para mitigar los riesgos identificados.
+Vendor and third-party management aims to assess and manage the risks associated with business relationships and services provided by third parties. This is very important in a digital environment, as organizations often rely on external vendors for critical services such as cloud storage, payment processing, and technical support.
 
-Algunas de las mejores prácticas recomendadas en la gestión de proveedores y terceros incluyen:
+Within the NIST framework, a risk-based approach is recommended for managing vendors and third parties. This involves assessing the importance of the services provided by third parties, as well as the level of access they have to the organization’s systems and data. Based on this assessment, appropriate controls and safeguards can be implemented to mitigate identified risks.
 
-- Evaluación de riesgos: Realizar una evaluación exhaustiva de los proveedores y terceros potenciales antes de establecer una relación comercial. Esto implica revisar sus políticas de seguridad, prácticas de gestión de riesgos y cumplimiento de regulaciones.
-- Acuerdos contractuales: Establecer acuerdos contractuales claros que incluyan cláusulas de seguridad cibernética. Estos acuerdos deben especificar las responsabilidades de cada parte en términos de protección de datos, notificación de incidentes y cumplimiento de regulaciones.
-- Supervisión continua: Realizar auditorías y evaluaciones periódicas de los proveedores y terceros para asegurarse de que cumplen con los requisitos de seguridad acordados. Esto puede incluir la revisión de informes de pruebas de seguridad, auditorías externas y evaluaciones de cumplimiento.
-- Gestión de incidentes: Establecer un plan de respuesta a incidentes que incluya la colaboración con los proveedores y terceros en caso de un incidente de seguridad. Esto garantiza una respuesta rápida y coordinada para minimizar el impacto de un incidente.
-- Concientización y capacitación: Proporcionar capacitación y concientización en seguridad cibernética a los empleados y proveedores para garantizar que estén al tanto de las mejores prácticas de seguridad y los riesgos asociados.
+Some best practices for vendor and third-party management include:
 
-Siguiendo las directrices del marco de ciberseguridad NIST, las organizaciones pueden establecer procesos y controles efectivos para evaluar y gestionar los riesgos asociados con los proveedores y terceros, fortaleciendo así su postura de seguridad cibernética.
+- Risk assessment: Conduct a thorough evaluation of potential vendors and third parties before establishing a business relationship. This includes reviewing their security policies, risk management practices, and regulatory compliance.
+- Contractual agreements: Establish clear contractual agreements that include cybersecurity clauses. These agreements should specify each party’s responsibilities regarding data protection, incident notification, and regulatory compliance.
+- Continuous monitoring: Conduct regular audits and assessments of vendors and third parties to ensure they meet agreed security requirements. This may include reviewing security test reports, external audits, and compliance assessments.
+- Incident management: Establish an incident response plan that includes collaboration with vendors and third parties in the event of a security incident. This ensures a rapid and coordinated response to minimize the impact of an incident.
+- Awareness and training: Provide cybersecurity training and awareness to employees and vendors to ensure they are aware of best security practices and associated risks.
 
-4. **Planes de respuesta a incidentes y continuidad del negocio**.
+By following the NIST cybersecurity framework guidelines, organizations can establish effective processes and controls to assess and manage risks associated with vendors and third parties, thereby strengthening their cybersecurity posture.
 
-Un plan de respuesta a incidentes es un conjunto de procedimientos y acciones predefinidas que se deben seguir cuando ocurre un incidente de seguridad. El objetivo principal de este plan es minimizar el impacto del incidente, restaurar los sistemas y la información afectados y mitigar cualquier daño adicional. El plan de respuesta a incidentes debe incluir la identificación y clasificación de incidentes, la notificación y escalada, la contención y erradicación del incidente, la recuperación y restauración de los sistemas y la realización de una revisión posterior al incidente para aprender de la experiencia.
+4. **Incident Response and Business Continuity Plans**
 
-Por otro lado, la continuidad del negocio se refiere a la capacidad de una organización para mantener sus operaciones críticas en caso de una interrupción significativa, ya sea causada por un incidente de seguridad, un desastre natural u otra contingencia. Un plan de continuidad del negocio debe incluir la identificación de los procesos y sistemas críticos, la evaluación de riesgos y vulnerabilidades, la implementación de medidas de mitigación, la elaboración de planes de recuperación y la realización de pruebas y ejercicios periódicos para garantizar la efectividad del plan.
+An incident response plan is a set of predefined procedures and actions to follow when a security incident occurs. The main objective of this plan is to minimize the impact of the incident, restore affected systems and information, and mitigate any further damage. The incident response plan should include incident identification and classification, notification and escalation, containment and eradication, recovery and restoration of systems, and a post-incident review to learn from the experience.
 
-Dentro del NIST Framework, se recomienda seguir un enfoque basado en el ciclo de vida para la gestión de incidentes y la continuidad del negocio. Esto implica la planificación y preparación previa, la respuesta y recuperación durante un incidente o interrupción, y la revisión y mejora continua después del incidente.
+Business continuity, on the other hand, refers to an organization’s ability to maintain its critical operations in the event of a significant disruption, whether caused by a security incident, natural disaster, or other contingency. A business continuity plan should include identification of critical processes and systems, risk and vulnerability assessment, implementation of mitigation measures, development of recovery plans, and regular testing and exercises to ensure the plan’s effectiveness.
 
-Algunas de las mejores prácticas recomendadas en la planificación de respuesta a incidentes y continuidad del negocio incluyen:
+Within the NIST Framework, a lifecycle approach is recommended for incident management and business continuity. This involves prior planning and preparation, response and recovery during an incident or disruption, and continuous review and improvement after the incident.
 
-- Identificación y clasificación de activos críticos: Identificar los activos de información y sistemas críticos para el negocio y priorizar su protección y recuperación en caso de incidente o interrupción.
-- Establecimiento de roles y responsabilidades: Definir claramente los roles y responsabilidades de los miembros del equipo de respuesta a incidentes y del equipo de continuidad del negocio, así como las líneas de comunicación y toma de decisiones.
-- Comunicación y coordinación: Establecer canales de comunicación claros y mecanismos de coordinación con las partes interesadas internas y externas, como proveedores, clientes y autoridades reguladoras.
-- Pruebas y ejercicios: Realizar pruebas y ejercicios periódicos para evaluar la efectividad de los planes de respuesta a incidentes y continuidad del negocio, identificar áreas de mejora y capacitar al personal en la ejecución de los planes.
-- Mejora continua: Realizar revisiones posteriores a los incidentes y las interrupciones para identificar lecciones aprendidas y realizar ajustes y mejoras en los planes y procesos.
+Some best practices for incident response and business continuity planning include:
 
-Todos estos pasos nos ayudarán para así hacer un mejor trabajo en cuanto a la protección y mitigación de riesgos dentro de la organización en la que nos estemos desempeñando.
+- Identification and classification of critical assets: Identify information assets and systems critical to the business and prioritize their protection and recovery in the event of an incident or disruption.
+- Establishment of roles and responsibilities: Clearly define the roles and responsibilities of the incident response team and business continuity team members, as well as communication and decision-making lines.
+- Communication and coordination: Establish clear communication channels and coordination mechanisms with internal and external stakeholders, such as vendors, customers, and regulatory authorities.
+- Testing and exercises: Conduct regular tests and exercises to assess the effectiveness of incident response and business continuity plans, identify areas for improvement, and train staff in plan execution.
+- Continuous improvement: Conduct post-incident and post-disruption reviews to identify lessons learned and make adjustments and improvements to plans and processes.
+
+All these steps will help us do a better job in protecting and mitigating risks within the organization where we work.
