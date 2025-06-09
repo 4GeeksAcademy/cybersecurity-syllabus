@@ -77,7 +77,7 @@ El mundo del malware es diverso, pero muchos tipos de malware comparten señales
 
 Determinadas cepas de malware son más fáciles de detectar que otras. El **ransomware** y el **adware** son normalmente visibles de inmediato, mientras que el **spyware** permanece oculto. El único modo seguro de detectar todo el malware antes de que infecte su dispositivo es con una herramienta antivirus específica.
 
-## Ingeniería social
+### Ingeniería social
 
 La ingeniería social es la práctica ilegítima de obtener información confidencial a través de la manipulación de usuarios legítimos. Es un conjunto de técnicas que pueden usar ciertas personas para obtener información, acceso o permisos en sistemas de información que les permitan realizar daños a la persona u organismo comprometidos y es utilizado en diversas formas de estafas y suplantación de identidad. El principio que sustenta la ingeniería social es el de que, en cualquier sistema, los usuarios son el eslabón débil.
 
