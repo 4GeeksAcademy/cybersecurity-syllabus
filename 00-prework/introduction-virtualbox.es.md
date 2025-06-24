@@ -1,11 +1,15 @@
 ---
-title: "Introducción a VirtualBox"
-subtitle: "Aprende a usar VirtualBox, una herramienta gratuita que permite crear y administrar máquinas virtuales. Descubre cómo instalar sistemas operativos, asignar recursos como CPU, RAM y almacenamiento, y configurar redes para simular distintos entornos de forma segura."
-tags: ["ciberseguridad", "virtualbox"]
-authors: ["arnaldoperez"]
+title: Introducción a VirtualBox
+tags:
+  - cybersecurity
+authors:
+  - arnaldoperez
+description: >-
+  Descubre cómo funciona VirtualBox y aprende a crear máquinas virtuales. Prueba
+  nuevos sistemas operativos sin riesgo y mejora tus habilidades en
+  ciberseguridad.
 
 ---
-
 ## ¿Qué es VirtualBox?
 
 VirtualBox es un programa gratuito que te permite instalar diferentes sistemas operativos dentro de tu computadora actual, como si fueran programas independientes. Es como tener varias computadoras en una sola.

@@ -1,11 +1,14 @@
 ---
-title: "Introducción a Cisco Packet Tracer"
-subtitle: "Conoce esta poderosa herramienta de simulación de redes. Con ella podrás crear entornos realistas de redes empresariales y aprender a como implementar prácticas de ciberseguridad en ella."
-tags: ["networking", "ciberseguridad"]
-authors: ["arnaldoperez"]
-
+title: Introducción a Cisco Packet Tracer
+tags:
+  - networking
+  - ciberseguridad
+authors:
+  - arnaldoperez
+description: >-
+  Descubre Cisco Packet Tracer, la herramienta ideal para simular redes y
+  aprender ciberseguridad. ¡Empieza a diseñar y practicar hoy mismo!
 ---
-
 Cisco Packet Tracer es un software de simulación de redes desarrollado por Cisco Systems. Permite a los estudiantes, profesionales y entusiastas de las redes crear, diseñar y experimentar con redes informáticas virtuales sin necesidad de hardware físico.
 
 ## Funciones

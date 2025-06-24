@@ -1,11 +1,14 @@
 ---
-title: "Introducción al curso de Ciberseguridad"
-subtitle: "Empoderando a los guardianes cibernéticos del mañana: ¡sumérjase en nuestro curso intensivo de capacitación en ciberseguridad de 16 semanas para obtener oportunidades profesionales lucrativas!"
-tags: ["networking", "ciberseguridad"]
-authors: ["arnaldoperez"]
-
+title: Introducción al curso de Ciberseguridad
+tags:
+  - networking
+  - ciberseguridad
+authors:
+  - arnaldoperez
+description: >-
+  ¡Descubre nuestro curso intensivo de ciberseguridad! Aprende hacking ético y
+  prepárate para una carrera lucrativa en 16 semanas. ¡Inscríbete ahora!
 ---
-
 Bienvenido al bootcamp de ciberseguridad de 4Geeks Academy. Durante este programa intensivo de 16 semanas experimentarás un muy sustancioso e intenso aprendizaje en materia de ciberseguridad y hacking que te preparará para encontrar tu primer trabajo en una de las profesiones mejor pagadas de la actualidad.
 
 ## ¿Qué esperar de este programa?

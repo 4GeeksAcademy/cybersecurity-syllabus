@@ -1,11 +1,14 @@
 ---
-title: "Dispositivos de red"
-subtitle: "Explora y conoce que es un enrutador, módem, conmutador, punto de acceso, firewall y más. ¡Diseñe su red LAN con Cisco Packet Tracer Lab Challenge!"
-tags: ["redes"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Dispositivos de red
+tags:
+  - redes
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre los dispositivos de red esenciales como routers, módems y firewalls.
+  Aprende a diseñar tu red LAN con Cisco Packet Tracer. ¡Empieza ahora!
 ---
-
 Los dispositivos de red son como las herramientas que permiten que los dispositivos electrónicos se comuniquen entre sí, como cuando usas internet en tu computadora o teléfono. Aquí te explico algunos de los dispositivos de red más comunes en un lenguaje sencillo:
 
 1. **Router**: Es como el cerebro de tu red en casa. Decide cómo los datos viajan entre tu casa y el mundo exterior, como internet. También asigna direcciones a tus dispositivos para que sepan a dónde enviar y recibir información.

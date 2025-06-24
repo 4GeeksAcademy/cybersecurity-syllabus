@@ -8,165 +8,218 @@ authors: ["alesanchezr"]
 
 Antes de leer este artículo, asumimos que ya tienes algunos conocimientos sobre el ENS y lo que implica. De no ser así, te recomendamos leer nuestra [introducción al Esquema Nacional de Seguridad de España](https://4geeks.com/es/lesson/introduccion-al-ens-esquema-nacional-de-seguridad).
 
-## Marco Organizacional del ENS
+## Marco Organizativo del ENS
 
-El Marco Organizacional del Esquema Nacional de Seguridad (ENS) es un conjunto de documentos, directrices y medidas relacionadas con la organización de la seguridad de la entidad. Este marco define las funciones, responsabilidades y políticas que permiten la gestión diaria y la resolución de incidentes.
+El Marco Organizativo del Esquema Nacional de Seguridad (ENS), regulado por el Real Decreto 311/2022, define las funciones, responsabilidades, políticas y medidas necesarias para organizar la seguridad en una entidad. Su objetivo es establecer una estructura clara que facilite la gestión diaria de la seguridad y la respuesta ante incidentes.
 
 ![Cybersecurity Framework](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ens/cybersecurity-framework.jpg?raw=true)
 
-### Políticas de Seguridad del ENS
+### Políticas de Seguridad (Org.1)
 
-Las políticas de seguridad son un componente clave del Marco Organizacional. Son documentos que establecen directrices, normas y procedimientos a seguir para garantizar la protección de la información, sistemas, activos y recursos frente a amenazas y riesgos de seguridad.
+Las políticas de seguridad son el eje central del marco organizativo. Establecen las directrices generales para proteger la información y los activos frente a amenazas. Estas políticas deben incluir:
 
-De acuerdo con el artículo 11 del Real Decreto 3/2010, todos los órganos superiores de la Administración Pública deben contar con una política de seguridad que incluya de manera clara y precisa:
+- Objetivos y misión de la organización en materia de seguridad  
+- Roles y responsabilidades  
+- Comité de seguridad y estructura de gobernanza  
+- Documentación de seguridad y procedimientos de acceso  
+- Revisión periódica de su eficacia
 
-- Objetivos y misión de la organización
-- Roles y funciones de seguridad, definiendo los deberes y responsabilidades de los cargos, así como los procedimientos de asignación y renovación
-- Marco legal y normativo en el que se desarrollarán las actividades
-- Estructura del comité de gestión y coordinación de la seguridad, detallando responsabilidades
-- Directrices para estructurar la documentación de seguridad del sistema, su gestión y acceso
+| Nivel | Bajo | Medio | Alto |
+|-------|------|-------|------|
+| Org.1 | ✓    | =     | =    |
 
-También se recomienda establecer planes de concienciación y formación del personal sobre las acciones de seguridad, contar con un plan de gestión de riesgos y saber cómo manejar posibles incidentes de seguridad. Estas políticas deben someterse a revisiones periódicas para mejorar su efectividad.
+> Esta medida se aplica en todos los niveles. El símbolo `=` indica que no hay requisitos adicionales para niveles superiores.
 
-El ENS establece que las políticas de seguridad deben aplicarse en niveles bajo, medio y alto:
+### Normativas y Procedimientos de Seguridad (Org.2 y Org.3)
 
-| Dimensiones |  |  | Medidas de Seguridad |  |
-| --- | --- | --- | --- | --- |
-| B | M | A | Org | Marco Organizacional |
-| Aplica | = | = | Org.1 | Políticas de Seguridad |
+Las medidas **Org.2** y **Org.3** forman parte del conjunto de controles organizativos fundamentales del ENS. Estas medidas establecen las reglas de uso de los sistemas de información, así como las instrucciones detalladas para operarlos de manera segura.
 
-**Explicación de Org.1 Políticas de Seguridad:**
+#### Org.2 – Normativas de Seguridad
 
-Esta medida requiere que las políticas de seguridad se implementen en todos los niveles de seguridad (Bajo, Medio y Alto). El "Aplica" en la columna Bajo (B) y los signos "=" en las columnas Medio (M) y Alto (A) indican que los mismos requisitos básicos se aplican en todos los niveles, sin requisitos adicionales para los niveles superiores.
+Las normativas de seguridad son **documentos normativos internos** que fijan las condiciones de uso aceptable de los sistemas, servicios y recursos tecnológicos de la organización. Su propósito es:
 
-En términos más simples:
-- Cada organización, independientemente de su nivel de seguridad, debe tener políticas de seguridad claramente definidas.
-- Estas políticas deben describir los objetivos de seguridad, roles, responsabilidades y directrices de la organización.
-- Las políticas deben ser apropiadas para el tamaño y la complejidad de la organización, pero el requisito básico de tenerlas existe en todos los niveles de seguridad.
+- Prevenir comportamientos indebidos por parte del personal.  
+- Establecer **derechos y deberes** de los usuarios.  
+- Definir el marco de **responsabilidad disciplinaria** en caso de incumplimiento.  
+- Homogeneizar el uso seguro de los activos en toda la entidad.
 
-### Normativas y Procedimientos de Seguridad
+Estas normativas deben ser conocidas, comprendidas y aceptadas por todos los usuarios con acceso a los sistemas. Su cumplimiento es obligatorio.
 
-Las normativas de seguridad son otro control crucial dentro del marco organizacional. Establecen el uso correcto de los sistemas de información y los activos, así como las responsabilidades del personal en cuanto al cumplimiento o incumplimiento de estas normas establecidas.
+#### Org.3 – Procedimientos de Seguridad
 
-El ENS establece que las normativas de seguridad deben abordar:
+Los procedimientos de seguridad detallan **cómo deben ejecutarse de forma segura** tareas específicas dentro del sistema. Actúan como guías operativas que:
 
-1. Uso correcto de los equipos, servicios e instalaciones
-2. Qué se considera un uso indebido
-3. Responsabilidad del personal en cuanto al cumplimiento o incumplimiento de estas normas: derechos, deberes y medidas disciplinarias de acuerdo con la legislación vigente
+- Describen paso a paso las acciones requeridas.  
+- Identifican qué roles o perfiles deben ejecutarlas.  
+- Incluyen criterios para **detectar comportamientos anómalos** o fallos de seguridad.  
+- Favorecen la continuidad operativa y la trazabilidad de acciones.
 
-Los procedimientos de seguridad son documentos que describen paso a paso cómo realizar ciertas actividades. El ENS establece que estos documentos deben incluir:
+Estos procedimientos deben ser actualizados periódicamente, fácilmente accesibles y compatibles con las normativas y políticas existentes.
 
-1. Cómo llevar a cabo las tareas rutinarias
-2. Quién debe realizar cada tarea
-3. Cómo identificar y reportar comportamientos anómalos
+#### Tabla de aplicabilidad:
 
-Tanto las normativas de seguridad como los procedimientos deben aplicarse en todos los niveles:
+| Nivel de seguridad | Bajo | Medio | Alto |
+|--------------------|------|-------|------|
+| Org.2 - Normativas | ✓    | +     | ++   |
+| Org.3 - Procedimientos | ✓ | +     | ++   |
 
-| Dimensiones |  |  | Medidas de Seguridad |  |
-| --- | --- | --- | --- | --- |
-| B | M | A | Org | Marco Organizacional |
-| Aplica | = | = | Org.2 | Normativas de Seguridad |
-| Aplica | = | = | Org.3 | Procedimientos de Seguridad |
+> En nivel **Bajo**, se exige al menos una normativa y un procedimiento base.  
+> En **Medio y Alto**, se requiere mayor granularidad, segmentación por perfiles, escenarios específicos (como emergencia o administración remota) y auditoría formal de su eficacia.
 
-En resumen:
-- Org.1 (Políticas) se aplica a todos los niveles y establece la dirección general de seguridad.
-- Org.2 (Normativas) añade reglas más detalladas para los niveles Medio y Alto.
-- Org.3 (Procedimientos) proporciona las instrucciones de seguridad más detalladas, requeridas solo para entornos de seguridad de nivel Alto.
 
-### Procesos de Autorización
+### Procesos de Autorización (Org.4)
 
-El último control establecido dentro del marco organizacional son los procesos de autorización. Estos tienen como objetivo establecer cómo será el proceso para autorizar a un usuario o componente para que ingrese y forme parte del sistema de la entidad.
+La medida **Org.4** regula los mecanismos mediante los cuales se concede o deniega acceso a los distintos componentes del sistema. Esta medida abarca tanto **personas como equipos, software o enlaces de comunicación**, y es clave para prevenir accesos no autorizados.
 
-Según el ENS, estos procesos deben cubrir:
+Los procesos de autorización deben:
 
-1. Uso de las instalaciones, tanto regulares como alternativas
-2. Ingreso de equipos a producción, en particular los que involucran criptografía
-3. Ingreso de aplicaciones a producción
-4. Establecimiento de enlaces de comunicación con otros sistemas
-5. Uso de medios de comunicación, tanto regulares como alternativos
-6. Uso de soportes de información
-7. Uso de equipos móviles (portátiles, PDAs, etc.)
-8. Uso de servicios de terceros, bajo contrato o acuerdo
+- Estar documentados formalmente.  
+- Incluir criterios claros de evaluación y aprobación.  
+- Garantizar la trazabilidad de todas las autorizaciones concedidas o revocadas.  
+- Aplicarse de forma coherente en situaciones regulares y extraordinarias (por ejemplo, reemplazos, subcontrataciones, movilidad).
 
-Los procesos de autorización deben aplicarse en todos los niveles:
+#### Algunos elementos típicos que deben estar sujetos a autorización previa:
 
-| Dimensiones |  |  | Medidas de Seguridad |  |
-| --- | --- | --- | --- | --- |
-| B | M | A | Org | Marco Organizacional |
-| Aplica | = | = | Org.4 | Procesos de Autorización |
+- **Instalaciones físicas** (acceso a CPDs, oficinas seguras, áreas restringidas).  
+- **Equipos en producción**, especialmente los que contienen datos sensibles o funciones críticas.  
+- **Aplicaciones y actualizaciones** que se incorporan al entorno activo.  
+- **Conexiones externas**, como túneles VPN o enlaces con otros sistemas.  
+- **Medios de almacenamiento**, como discos duros, pendrives o backups en la nube.  
+- **Dispositivos móviles**, como portátiles, tablets o smartphones corporativos.  
+- **Servicios de terceros**, especialmente si manejan datos clasificados o realizan tareas sensibles.
+
+#### Tabla de aplicabilidad:
+
+| Nivel de seguridad | Bajo | Medio | Alto |
+|--------------------|------|-------|------|
+| Org.4 - Procesos de Autorización | ✓ | =     | =    |
+
+> Esta medida se aplica de forma uniforme en todos los niveles, aunque el grado de control, automatización y trazabilidad puede incrementarse según la criticidad del entorno.
+
+## Perfil de cumplimiento
+
+Las medidas del ENS no se aplican de forma rígida, sino que están condicionadas por el **perfil de cumplimiento** del sistema, definido según:
+
+- Nivel de seguridad del sistema (bajo, medio o alto)  
+- Riesgo asociado a los servicios y datos tratados  
+- Madurez organizativa y recursos disponibles
+
+Este enfoque permite **ajustar la aplicación de las medidas de forma proporcional y razonable**, evitando cargas innecesarias en sistemas de bajo impacto.
 
 ## Marco Operacional
 
 El Marco Operacional se refiere a una serie de medidas que deben tomarse para proteger el funcionamiento del sistema como un conjunto integral de componentes para un propósito. Este marco juega un papel esencial en proporcionar la estructura necesaria para implementar y gestionar eficazmente las medidas de seguridad.
 
+
 ### Planificación de la Seguridad
 
-La planificación de la seguridad dentro del marco operacional es uno de los componentes más importantes del ENS. Implica un proceso estratégico que guía a las organizaciones en la identificación y gestión de riesgos, la implementación de medidas de seguridad y la preparación para responder a incidentes.
+La planificación de la seguridad dentro del marco operacional es uno de los componentes más importantes del ENS. Implica un proceso estratégico que guía a las organizaciones en la identificación y gestión de riesgos, la implementación de medidas de seguridad y la preparación para responder a incidentes. La planificación de la seguridad consta de varias etapas:
 
-La planificación de la seguridad consta de varias etapas:
+#### Análisis de Riesgos (op.pl.1)
 
-#### Análisis de Riesgos
+El análisis de riesgos es el proceso que permite a la organización **identificar, evaluar y priorizar amenazas y vulnerabilidades** que afectan a la información y los sistemas. Este análisis debe incluir:
 
-Esto implica una evaluación integral de los riesgos que enfrentan la información y los sistemas. El análisis identifica posibles amenazas, evalúa su impacto y determina la probabilidad de que ocurran.
+- Identificación de activos (datos, servicios, infraestructuras).
+- Evaluación de amenazas (internas, externas, accidentales o maliciosas).
+- Valoración de vulnerabilidades y su explotabilidad.
+- Estimación del **impacto potencial** y la **probabilidad de ocurrencia**.
+- Identificación de salvaguardas existentes y **riesgos residuales**.
+- Recomendaciones de medidas de mitigación adaptadas al perfil del sistema.
 
-El ENS establece diferentes requisitos para el análisis de riesgos según la categoría del sistema:
+La profundidad del análisis dependerá del nivel de seguridad asignado al sistema:
 
-- Sistemas de Categoría Básica: Un análisis simple que muestre los activos más valiosos, las amenazas más probables, las salvaguardas que protegen contra estas amenazas y los principales riesgos residuales.
-- Sistemas de Categoría Media: Un análisis semiformal con una presentación tabular que describa y valore cualitativamente los activos, cuantifique las amenazas, valore las salvaguardas y evalúe el riesgo residual.
-- Sistemas de Categoría Alta: Un análisis formal con cálculos matemáticos que cubra la valoración de activos, amenazas posibles, vulnerabilidades habilitantes, salvaguardas adecuadas y evaluación de riesgos residuales.
+| Nivel de seguridad | Requisito |
+|--------------------|-----------|
+| Bajo               | Evaluación simple, cualitativa, basada en activos clave. |
+| Medio              | Análisis semiformal, con representación tabular y valores cualitativos. |
+| Alto               | Análisis formal, con métricas cuantitativas y herramientas especializadas. |
 
-| Dimensiones |  |  | Medidas de Seguridad |  |
-| --- | --- | --- | --- | --- |
-| B | M | A | Org | Marco Operacional |
-| Aplica | + | ++ | op.pl.1 | Análisis de Riesgos |
+| Nivel | Bajo | Medio | Alto |
+|-------|------|-------|------|
+| op.pl.1 | ✓  | +     | ++   |
 
-#### Arquitectura de Seguridad
+---
 
-Esta es la estructura fundamental que respalda la salvaguarda de la información sensible en las administraciones públicas. Está diseñada para establecer un entorno seguro, garantizando la confidencialidad, integridad y disponibilidad de los sistemas y datos en un contexto digital en constante evolución.
+#### Arquitectura de Seguridad (op.pl.2)
 
-El ENS establece diferentes requisitos para la arquitectura de seguridad según la categoría del sistema:
+La arquitectura de seguridad define la **estructura técnica, lógica y organizativa** que protege los sistemas de la entidad frente a ataques o fallos.
 
-- Sistemas de Categoría Básica: Documentación de instalaciones, documentación del sistema, esquema de líneas de defensa y sistema de identificación y autenticación de usuarios.
-- Sistemas de Categoría Media: Sistema de gestión relacionado con la planificación, organización y control de los recursos de seguridad de la información.
-- Sistemas de Categoría Alta: Sistema de gestión de seguridad de la información con actualización y aprobación periódica, y controles técnicos internos.
+Esta medida abarca:
 
-| Dimensiones |  |  | Medidas de Seguridad |  |
-| --- | --- | --- | --- | --- |
-| B | M | A | Org | Marco Operacional |
-| Aplica | + | ++ | op.pl.2 | Arquitectura de Seguridad |
+- Diseño de la **topología de red segura** (segmentación, zonas desmilitarizadas, firewalls).
+- Mecanismos de **autenticación e identificación** robustos.
+- Control de accesos y privilegios (principio de menor privilegio).
+- Uso de **líneas de defensa** (defensa en profundidad).
+- Gestión de identidades y ciclo de vida de usuarios.
+- Supervisión y mantenimiento de las configuraciones seguras.
 
-#### Adquisición de Nuevos Componentes
+La complejidad y profundidad de esta arquitectura aumentan según el nivel de seguridad:
 
-Este proceso se realiza con el objetivo de fortalecer la infraestructura de seguridad dentro de la administración pública. Estos componentes deben cumplir con las normas del ENS y deben poder integrarse en el sistema existente.
+| Nivel de seguridad | Requisitos clave |
+|--------------------|------------------|
+| Bajo               | Documentación básica de sistemas, autenticación básica. |
+| Medio              | Gestión organizada de configuraciones y actualizaciones. |
+| Alto               | SGSI integrado con controles internos y planes de mejora continua. |
 
-| Dimensiones |  |  | Medidas de Seguridad |  |
-| --- | --- | --- | --- | --- |
-| B | M | A | Org | Marco Operacional |
-| Aplica | = | = | op.pl.3 | Adquisición de Nuevos Componentes |
+| Nivel | Bajo | Medio | Alto |
+|-------|------|-------|------|
+| op.pl.2 | ✓  | +     | ++   |
 
-#### Gestión de Capacidades
+---
 
-Esto se enfoca en identificar, adquirir y desarrollar las capacidades necesarias para garantizar la integridad, confidencialidad y disponibilidad de la información, enfrentando así los desafíos cambiantes del entorno cibernético.
+#### Adquisición de Nuevos Componentes (op.pl.3)
 
-| Dimensiones |  |  | Medidas de Seguridad |  |
-| --- | --- | --- | --- | --- |
-| B | M | A | Org | Marco Operacional |
-| N/A | Aplica | = | op.pl.4 | Gestión de Capacidades |
+Esta medida exige que **todo nuevo elemento tecnológico** (hardware, software, servicios) adquirido o desarrollado por la organización **cumpla con los requisitos de seguridad establecidos por el ENS** antes de ser desplegado.
 
-### Otros Controles Operacionales
+Incluye:
 
-El ENS también establece otros controles operacionales como:
+- Validación de seguridad en la fase de **adquisición o contratación**.  
+- Evaluación de cumplimiento normativo del proveedor.  
+- Revisión de **licencias, actualizaciones y ciclo de vida** del producto.  
+- Integración segura en el entorno de la organización (evitar introducir vulnerabilidades).  
+- Registro y control de cambios en el inventario de activos.
 
-- Gestión de la Configuración
-- Mantenimiento
-- Gestión de Cambios
-- Protección contra Código Malicioso
-- Gestión de Incidentes
-- Registro de Actividad de Usuarios
-- Protección de Registros de Actividad
-- Protección de Claves Criptográficas
-- Gestión de Servicios Externos
+| Nivel | Bajo | Medio | Alto |
+|-------|------|-------|------|
+| op.pl.3 | ✓  | =     | =    |
 
-Cada uno de estos controles tiene requisitos específicos y aplicabilidad según lacategoría del sistema (Bajo, Medio, Alto).
+> El símbolo "=" indica que el mismo conjunto de requisitos debe cumplirse en todos los niveles de seguridad.
+
+---
+
+#### Gestión de Capacidades (op.pl.4)
+
+Esta medida garantiza que la organización disponga de las **capacidades humanas, técnicas y operativas suficientes** para mantener la seguridad de sus sistemas y servicios.
+
+Abarca:
+
+- Formación continua del personal en ciberseguridad, concienciación y buenas prácticas.
+- Dotación adecuada de **herramientas y recursos técnicos**.
+- Asignación de responsabilidades claras y perfiles cualificados.
+- Evaluación periódica de **capacidades internas y externas** para responder a incidentes.
+- Preparación ante la evolución de amenazas y tecnologías emergentes.
+
+| Nivel | Bajo | Medio | Alto |
+|-------|------|-------|------|
+| op.pl.4 | —  | ✓     | =    |
+
+> En nivel **Bajo**, esta medida no es obligatoria.  
+> En **Medio y Alto**, se exige implementar programas formativos y estructuras organizativas que respalden eficazmente la gestión de la seguridad.
+
+### Otros controles operacionales (referencia al Anexo II)
+
+El ENS incluye otras medidas clave que también deben implementarse según el perfil de cumplimiento. Algunas de ellas son:
+
+- **Gestión de la configuración** (`op.ex.1`)  
+- **Mantenimiento seguro** (`op.ex.3`)  
+- **Gestión de cambios** (`op.ex.4`)  
+- **Protección contra malware** (`op.pro.1`)  
+- **Gestión de incidentes** (`op.mon.6`)  
+- **Registro y monitoreo de actividad** (`op.mon.1`, `op.mon.4`)  
+- **Gestión de claves criptográficas** (`op.pro.5`)  
+- **Control de servicios externos** (`op.ext.1`)
+
+Cada una tiene una aplicabilidad distinta según el nivel del sistema.
+
 
 Al implementar estos marcos organizacional y operacional, las administraciones públicas pueden asegurar un enfoque integral para la seguridad de la información, alineándose con los requisitos del Esquema Nacional de Seguridad.

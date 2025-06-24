@@ -1,11 +1,15 @@
 ---
-title: "Legal and Regulatory Cybersecurity Compliance in Spain"
-subtitle: "Explore the world of security incidents, incident response, and the importance of an Incident Response Plan (IRP) in Spain's cybersecurity field"
-tags: ["cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Legal and Regulatory Cybersecurity Compliance in Spain
+tags:
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Discover essential insights on legal and regulatory cybersecurity compliance
+  in Spain. Learn about key laws, organizations, and the importance of an
+  Incident Response Plan!
 ---
-
 Cybersecurity is a critical issue in the digital era, and governments worldwide have established laws and regulations to protect information, privacy, and online infrastructure. These regulations may vary by country, but they generally aim to prevent cybercrimes, promote good cybersecurity practices, and establish legal responsibilities in case of non-compliance.
 
 ### Spanish Legislation on Cybersecurity

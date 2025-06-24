@@ -1,11 +1,15 @@
 ---
-title: "Seguridad de red Básica"
-subtitle: "¡Aprende los fundamentos de la seguridad de red! Descubre cómo configurar reglas de filtrado de paquetes en firewalls para proteger tu red de vulnerabilidades."
-tags: ["ciberseguridad", "redes"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Seguridad de red Básica
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Aprende a mejorar la seguridad de tu red con reglas de filtrado de paquetes en
+  un firewall. ¡Descubre cómo proteger tu información hoy!
+  
 ---
-
 En el mundo actual, más del 90% de las brechas de datos comienzan con vulnerabilidades en la red. En esta lección, aprenderás a mejorar la seguridad de tu red configurando reglas de filtrado de paquetes en un firewall. Cubriremos los conceptos básicos de los firewalls, el filtrado de paquetes y tecnologías avanzadas como VPN y WPA/WPA2. Al final, podrás configurar reglas de firewall para proteger tu red y asegurar una comunicación segura. ¡Empecemos!
 
 ## Firewall y filtrado de paquetes

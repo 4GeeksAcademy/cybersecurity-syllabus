@@ -1,11 +1,15 @@
 ---
-title: "Server Performance Monitoring and Optimization"
-subtitle: "Monitor and optimize servers: Tools, adjustments, and solutions. Improve system performance and efficiency. Optimize now!"
-tags: ["servers"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Server Performance Monitoring and Optimization
+tags:
+  - servers
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master server performance monitoring and optimization! Discover essential
+  tools and techniques to enhance efficiency and boost your Linux server's
+  speed.
 ---
-
 ## Using System Monitoring Tools
 
 Monitoring and optimizing the performance of our server are fundamental aspects to ensure efficient and reliable operation of computer systems. An optimally performing server can improve response speed, service availability, and user experience. Some key practices for monitoring and optimizing the performance of a Linux server:

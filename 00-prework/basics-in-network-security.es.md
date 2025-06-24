@@ -1,11 +1,14 @@
 ---
-title: "Seguridad en la red"
-subtitle: "Explora los aspectos críticos de la seguridad de la red, incluida la autenticación, el control de acceso, la gestión de amenazas y la protección de datos."
-tags: ["ciberseguridad", "seguridad-en-redes"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Seguridad en la red
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre cómo proteger tu red con autenticación, control de acceso y gestión
+  de amenazas. Aprende las mejores prácticas de seguridad en la red hoy.
 ---
-
 La seguridad en la red es un aspecto crítico de la ciberseguridad que se centra en la protección de la infraestructura de comunicaciones y la información que fluye a través de ella. Implica una serie de medidas y prácticas diseñadas para garantizar la confidencialidad, la integridad y la disponibilidad de los datos en un entorno de red. Aquí tienes información en formato de texto continuo sobre seguridad en la red:
 
 La seguridad en la red abarca una variedad de aspectos y desafíos. Uno de los principales enfoques es la **autenticación**, que asegura que solo los usuarios autorizados tengan acceso a los recursos de la red. Esto implica la implementación de contraseñas seguras, la autenticación de dos factores (2FA) y, en algunos casos, la autenticación biométrica para verificar la identidad de los usuarios.

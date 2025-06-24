@@ -1,11 +1,14 @@
 ---
-title: "Package and Software Management"
-subtitle: "Master Package Management in Linux: Install, Update, and Remove Software with Ease. Learn to Configure Repositories and Keep Your System Secure."
-tags: ["linux"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Package and Software Management
+tags:
+  - linux
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master package management in Linux! Learn to install, update, and remove
+  software easily while keeping your system secure. Discover essential tips now!
 ---
-
 Previously, we talked about using package managers and how they can help us install applications and update software. Remember that in the Linux server environment, package managers are fundamental tools for efficient software management. They simplify the installation, updating, and removal of software packages on a server, which is essential to keeping the system updated and secure.
 
 ## Package Manager apt-get

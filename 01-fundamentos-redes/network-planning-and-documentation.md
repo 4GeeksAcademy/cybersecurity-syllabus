@@ -1,11 +1,16 @@
 ---
-title: "Network Planning and Documentation"
-subtitle: "Strategic Network Planning: Achieving Scalability & Efficiency through Documentation, Topology, and Growth Strategies"
-tags: ["networks", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Network Planning and Documentation
+tags:
+  - networks
+  - cybersecurity
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master network planning and documentation for optimal scalability and
+  efficiency. Learn essential strategies and best practices to enhance your
+  network today!
 ---
-
 Network planning and documentation is an essential process to ensure the effective design, implementation, and maintenance of a network. It involves creating a strategic plan that defines the objectives, requirements, and resources needed to build and manage a network efficiently and securely. It involves identifying the specific needs of the organization, such as the number of users, the services required, and the expected volume of traffic. Likewise, it also involves evaluating the available technologies and selecting the most appropriate ones to meet the needs of the network.
 
 ### Network documentation: diagrams, inventory of equipment

@@ -1,10 +1,16 @@
 ---
-title: "OWASP Top 10: El Pilar de la Ciberseguridad"
-subtitle: "🔍 Que es OWASP y su importancia para dominar las Vulnerabilidades Más Críticas"
-tags: ["OWASP", "ciberseguridad", "seguridad web"]
-authors: ["alesanchezr", "lorenagubaira"]
+title: 'OWASP Top 10: El Pilar de la Ciberseguridad'
+tags:
+  - OWASP
+  - ciberseguridad
+  - seguridad web
+authors:
+  - alesanchezr
+  - lorenagubaira
+description: >-
+  Descubre el OWASP Top 10, el pilar de la ciberseguridad. Aprende sobre las
+  vulnerabilidades críticas y cómo proteger tus aplicaciones web.
 ---
-
 El **OWASP Top 10** es lo más importante que tienes que saber de la ciberseguridad. Es el motivo por el que existe la ciberseguridad (para solucionarlo). Es el 99% de las cosas que debes aprender a investigar, prevenir, explorar, explotar, documentar y todos los demás verbos del diccionario terminados en `ar`. El castellano no tiene palabras para expresarte lo importante que es dominar el OWASP Top 10. 🚨
 
 ## 🔍 Pero, ¿qué es el OWASP Top 10?

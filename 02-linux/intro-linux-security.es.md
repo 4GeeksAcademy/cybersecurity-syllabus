@@ -1,11 +1,16 @@
 ---
-title: "Introducción a la seguridad de Linux"
-subtitle: "Conceptos básicos y mejores prácticas de seguridad en Linux: cómo proteger tu sistema, gestionar usuarios, contraseñas seguras, cortafuegos y más."
-tags: ["linux", "ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Introducción a la seguridad de Linux
+tags:
+  - linux
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Aprende los conceptos básicos y mejores prácticas de seguridad en Linux.
+  Protege tu sistema con usuarios, contraseñas seguras y cortafuegos. ¡Descubre
+  más!
 ---
-
 La seguridad es un aspecto fundamental en cualquier sistema operativo, y a medida que más personas y organizaciones utilizan Linux, es importante comprender los conceptos básicos de seguridad para proteger nuestros sistemas y datos.
 
 - **Usuarios y permisos**: En Linux, cada usuario tiene su propia cuenta y conjunto de permisos. Es importante crear cuentas de usuario separadas para cada persona que acceda al sistema y asignar los permisos adecuados. Los permisos determinan qué acciones pueden realizar los usuarios en archivos y directorios, como leer, escribir o ejecutar.

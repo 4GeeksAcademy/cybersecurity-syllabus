@@ -1,11 +1,15 @@
 ---
-title: "Network Troubleshooting"
-subtitle: "Mastering Network Troubleshooting: Diagnostic Tools, Problem Identification, Resolution, and Event Monitoring for Optimal Performance."
-tags: ["networks", "cybersecurity"]
-authors: ["blindma1den", "lorenagubaira"]
+title: Network Troubleshooting
+tags:
+  - networks
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Master network troubleshooting with essential diagnostic tools and techniques.
+  Learn to identify and resolve common issues for optimal performance!
 
 ---
-
 Sometimes we may have performance problems in our network, and it is necessary to know the reason so we can take corrective actions. For this, we have tools that can perform a network diagnostic.
 
 A network diagnosis is the procedure we perform to determine and inspect everything that is happening within our network.

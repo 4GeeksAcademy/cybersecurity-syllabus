@@ -1,11 +1,15 @@
 ---
-title: "Cumplimiento Legal y Normativo de la Ciberseguridad en España"
-subtitle: "Explora el mundo de los incidentes de ciberseguridad, la respuesta a incidentes y la importancia de un Plan de respuesta a incidentes (IRP) en el campo español de ciberseguridad."
-tags: ["ciberseguridad"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Cumplimiento Legal y Normativo de la Ciberseguridad en España
+tags:
+  - ciberseguridad
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Descubre cómo cumplir con las leyes de ciberseguridad en España. Aprende sobre
+  normativas, protección de datos y la importancia de un Plan de respuesta a
+  incidentes.
 ---
-
 La ciberseguridad es un tema crítico en la era digital, y los gobiernos de todo el mundo han establecido leyes y regulaciones para proteger la información, la privacidad y la infraestructura en línea. Estas normativas pueden variar según el país, pero generalmente tienen como objetivo prevenir ciberdelitos, fomentar buenas prácticas de seguridad informática y establecer responsabilidades legales en caso de incumplimiento.
 
 ### Legislación Española en ciberseguridad

@@ -1,11 +1,14 @@
 ---
-title: "Monitoreo y optimización del rendimiento del servidor"
-subtitle: "Monitorea y optimiza servidores: Herramientas, ajustes y soluciones. Mejora el rendimiento del sistema y la eficiencia. ¡Optimiza ya!"
-tags: ["servidores"]
-authors: ["blindma1den", "lorenagubaira"]
-
+title: Monitoreo y optimización del rendimiento del servidor
+tags:
+  - servidores
+authors:
+  - blindma1den
+  - lorenagubaira
+description: >-
+  Optimiza el rendimiento de tu servidor Linux con herramientas de monitoreo y
+  ajustes clave. ¡Descubre cómo mejorar la eficiencia y la velocidad ahora!
 ---
-
 ## **Uso de herramientas de monitoreo del sistema**
 
 Monitorizar y optimizar el rendimiento de nuestro servidor son aspectos fundamentales para garantizar un funcionamiento eficiente y confiable de los sistemas informáticos. Un servidor con un rendimiento óptimo puede mejorar la velocidad de respuesta, la disponibilidad de los servicios y la experiencia del usuario. Algunas prácticas clave para el monitoreo y la optimización del rendimiento del servidor Linux:
