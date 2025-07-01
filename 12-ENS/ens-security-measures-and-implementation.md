@@ -9,7 +9,7 @@ authors: ["alesanchezr"]
 # ENS Security Measures and Implementation
 
 > Before starting, we have thoroughly covered the ENS (Esquema Nacional de Seguridad) in several lessons. This lesson focuses solely on security measures and implementation.
-> Read an [Introduction to ENS](https://4geeks.com/es/lesson/introduccion-al-ens-esquema-nacional-de-seguridad) and learn more about the [Organizational and Operational Framework of ENS](https://4geeks.com/es/lesson/marco-organizacional-y-operacional-del-ens).
+> Read an [Introduction to ENS](https://4geeks.com/es/lesson/introduccion-al-ens-esquema-nacional-de-seguridad) and learn more about the Organizational and Operational Framework of ENS.
 
 To implement Spain's National Security Framework (ENS) 🇪🇸, we first need to appoint a committee responsible for the scheme's implementation.
 
