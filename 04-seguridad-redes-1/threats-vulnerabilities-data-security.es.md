@@ -37,10 +37,6 @@ Como lo vimos antes, el *ramsomware* sólo es una parte de esta gran familia de 
 
 ## Phishing
 
-Los correos electrónicos de phishing pueden ser difíciles de detectar. Por ejemplo, a menudo se dirigirán a vos por tu nombre para parecer legítimos, pero los ciberdelincuentes pueden encontrar fácilmente esta información en Internet. Por lo tanto, es importante mantenerse alerta y pensar antes de hacer clic. El phishing es muy común y, a menudo, funciona. Por ejemplo, en agosto de 2020, la marca de juegos de élite Razer sufrió una violación de datos que expuso la información personal de aproximadamente 100 000 clientes.
-
-Un consultor de seguridad descubrió que un clúster en la nube (un grupo de servidores vinculados que proporcionan almacenamiento de datos, bases de datos, redes y software a través de Internet) estaba mal configurado y expuso un segmento de la infraestructura de Razer a la Internet pública, lo que provocó una fuga de datos. Razer tardó más de tres semanas en proteger la instancia en la nube del acceso público, tiempo durante el cual los ciberdelincuentes tuvieron acceso a la información de los clientes que podría haberse utilizado en ataques de ingeniería social y fraude, como la que acaba de descubrir.
-
 Los correos electrónicos de phishing pueden ser difíciles de detectar. Por ejemplo, a menudo se dirigirán por tu nombre para parecer legítimos, pero los ciberdelincuentes pueden encontrar fácilmente esta información en Internet. Por lo tanto, es importante mantenerse alerta y pensar antes de hacer clic. El phishing es muy común y, a menudo, funciona. Por ejemplo, en agosto de 2020, la marca de juegos de élite Razer sufrió una violación de datos que expuso la información personal de aproximadamente 100 000 clientes.
 
 Un consultor de seguridad descubrió que un clúster en la nube (un grupo de servidores vinculados que proporcionan almacenamiento de datos, bases de datos, redes y software a través de Internet) estaba mal configurado y expuso un segmento de la infraestructura de Razer a la Internet pública, lo que provocó una fuga de datos.
