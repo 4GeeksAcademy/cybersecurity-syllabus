@@ -13,7 +13,7 @@ authors: ["alesanchezr"]
 
 To implement Spain's National Security Framework (ENS) 🇪🇸, we first need to appoint a committee responsible for the scheme's implementation.
 
-![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/raw/main/assets/12-ens/esquema-nacional-de-seguridad.es.jpg?raw=true)
+![ENS Implementation](https://github.com/4GeeksAcademy/cybersecurity-syllabus/raw/main/assets/12-ens/esquema-nacional-de-seguridad.us.jpg?raw=true)
 
 ## Key Roles Responsible for ENS Implementation within an Organization
 
