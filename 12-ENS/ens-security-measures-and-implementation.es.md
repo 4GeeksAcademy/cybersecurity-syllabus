@@ -13,7 +13,7 @@ authors: ["alesanchezr"]
 
 Para implementar el Esquema Nacional de Seguridad (ENS) de España 🇪🇸, primero necesitamos nombrar un comité que será responsable de la implementación del esquema.
 
-![Implementación del ENS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/raw/main/assets/12-ens/esquema-nacional-de-seguridad.jpg?raw=true)
+![Implementación del ENS](https://github.com/4GeeksAcademy/cybersecurity-syllabus/raw/main/assets/12-ens/esquema-nacional-de-seguridad.png?raw=true)
 
 ## Roles responsables de la implementación del ENS dentro de una organización
 
