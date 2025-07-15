@@ -10,7 +10,7 @@ Si deseas obtener la certificación ISO 27001, necesitas tener un SGSI / ISMS im
 
 Un Sistema de Gestión de Seguridad de la Información (SGSI o ISMS por sus siglas en inglés) es un enfoque sistemático para gestionar la información sensible de la empresa, asegurando que se mantenga segura. Incluye personas, procesos y sistemas de TI mediante la aplicación de un proceso de gestión de riesgos.
 
-![Plan de Implementación SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-implementation-plan.es.png?raw=true)
+![plan de Implementación SGSI](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/11-iso-27001/isms-implementation-plan.es.png?raw=true)
 
 ## Componentes del Marco SGSI
 
