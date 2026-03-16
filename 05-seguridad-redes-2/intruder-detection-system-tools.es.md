@@ -92,9 +92,7 @@ La Tabla 1 refleja una comparación de las características de algunos de los si
 | Análisis Avanzado de HTTP      | Sí   | No    | Sí       | No    | No    |
 | HTTP Access Logging            | Sí   | No    | Sí       | No    | No    |
 | SMB Access Logging             | Sí   | No    | Sí       | No    | No    |
-| Gratis                         | Sí   | Sí    | Sí       | Sí    | Sí
-
-    |
+| Gratis                         | Sí   | Sí    | Sí       | Sí    | Sí    |
 | Integración con ELK Stack      | No   | No    | Parcial  | No    | Sí    |
 
 ---
