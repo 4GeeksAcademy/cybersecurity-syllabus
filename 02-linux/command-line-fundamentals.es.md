@@ -28,7 +28,7 @@ Al ingresar la orden con la tecla 'Intro', el intérprete analiza la secuencia d
 
 La interfaz de línea de comandos o interfaz de línea de órdenes (CLI) es un tipo de interfaz de usuario de computadora que permite a los usuarios dar instrucciones a algún programa informático o al sistema operativo por medio de una línea de texto simple
 
-Las CLI pueden emplearse interactivamente, escribiendo instrucciones en alguna especie de entrada de texto, o pueden utilizarse de una forma mucho más automatizada, leyendo órdenes desde un archivo de [Scripts](https://es.wikipedia.org/wiki/Script)scripts.
+Las CLI pueden emplearse interactivamente, escribiendo instrucciones en alguna especie de entrada de texto, o pueden utilizarse de una forma mucho más automatizada, leyendo órdenes desde un archivo de [scripts](https://es.wikipedia.org/wiki/Script).
 
 Algunas Shells CLI que frecuentemente conseguimos son:
 
@@ -39,47 +39,41 @@ Algunas Shells CLI que frecuentemente conseguimos son:
 
 ## Comandos básicos de navegación y manipulación de archivos y directorios
 
-Estos son varios comandos basicos que lo ayudaran a navegar en la terminal. 
+Estos son varios comandos básicos que te ayudarán a navegar en la terminal.
 
-Las flags son una manera de pasarle opciones a los comandos y asi tener algun resultado mas especifico a lo que estamos buscando.
+Las *flags* son opciones que se pasan a los comandos para obtener un resultado más específico.
 
 | Comando | Flags | Función |
 | --- | --- | --- |
-| pwd |  | Imprime el directorio  actual de trabajo |
-| cd |  | Cambiar el directorio de trabajo |
-| ls |  | Listar contenido del directorio |
-|  | -R | Listara todos los archivos dentro de los subdirectorios |
-|  | -a | Mostrará todos los archivos ocultos |
-|  | -al | Mostrará la información detallada de los archivos y directorios |
-| find |  | Buscará archivos dentro de un directorio en especifico |
-|  | -iname | Buscará archivos por el nombre o extension en el directorio |
-|  | -type | Buscará archivos por el tipo -f (file o archivo) -d (directorio) |
-|  | -syze | Filtra los archivos por su tamaño |
-|  | -user, -group | Filtra los archivos por usuario o grupo propietario del archivo |
-| head |  | Permite ver hasta las primeras 10 líneas de texto de un archivo |
-|  | -n o -lines | Nos imprime un numero de lineas personalizado (hasta 10) |
-| tail |  | Permite ver las últimas 10 líneas de texto de un archivo |
-|  | -n o -lines | Nos permite ver un numero de lineas personalizado
-(hasta 10) |
-| cat |  | Concatena y escribe contenido de los archivos en su salida estándar, también se puede usar para el contenido de los archivos |
-| cp |  | Copia archivos o directorios y su contenido.
-Se coloca el nombre del archivo a copiar y el directorio destino 
-cp nombrearchivo.txt /inicio/nombredeusuario/Documentos |
-| mv |  | Mueve uno o mas archivos o directorio y su contenido a otro directorio
-Se coloca el nombre del archivo a mover y el directorio destino 
-mv nombrearchivo.txt /inicio/nombredeusuario/Documentos. |
-| rm |  | Se utiliza para eliminar un archivo o directorio del sistema |
-|  | -i | Pide confirmación del sistema antes de borrar un archivo |
-|  | -f | Permite al sistema eliminar sin confirmacion |
-|  | -r | Borra archivos y directorios de forma recursivas |
-| touch |  | Crea un archivo en blanco |
-| grep |  | Permite conseguir una palabra dentro de todo el archivo en especifico |
-| mkdir |  | Crea un directorio |
-| chmod |  | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio. |
-| chown |  | Cambia la propiedad de un archivo, directorio o enlace simbólico a un nombre de usuario específico. |
-| kill |  | terminar manualmente un proceso que no responde. |
-| sudo |  | Ejecutar un comando como superusuario 
-Se pedirá contraseña para confirmar |
+| `pwd` | | Imprime el directorio actual de trabajo |
+| `cd` | | Cambia el directorio de trabajo |
+| `ls` | | Lista el contenido del directorio |
+| | `-R` | Lista todos los archivos dentro de los subdirectorios de forma recursiva |
+| | `-a` | Muestra todos los archivos, incluidos los ocultos |
+| | `-la` | Muestra información detallada de los archivos y directorios (formato largo) |
+| `find` | | Busca archivos dentro de un directorio según diferentes criterios |
+| | `-iname` | Busca archivos por nombre (insensible a mayúsculas/minúsculas) |
+| | `-type` | Filtra por tipo: `-type f` (archivo) o `-type d` (directorio) |
+| | `-size` | Filtra los archivos por su tamaño |
+| | `-user`, `-group` | Filtra los archivos por usuario o grupo propietario |
+| `head` | | Muestra las primeras 10 líneas de un archivo por defecto |
+| | `-n N` | Muestra las primeras N líneas (sin límite superior fijo) |
+| `tail` | | Muestra las últimas 10 líneas de un archivo por defecto |
+| | `-n N` | Muestra las últimas N líneas (sin límite superior fijo) |
+| `cat` | | Concatena y muestra el contenido de uno o varios archivos en la salida estándar |
+| `cp` | | Copia archivos o directorios. Ejemplo: `cp archivo.txt /home/usuario/Documentos` |
+| `mv` | | Mueve o renombra archivos y directorios. Ejemplo: `mv archivo.txt /home/usuario/Documentos` |
+| `rm` | | Elimina un archivo o directorio del sistema |
+| | `-i` | Pide confirmación antes de borrar |
+| | `-f` | Elimina sin pedir confirmación |
+| | `-r` | Borra directorios y su contenido de forma recursiva |
+| `touch` | | Crea un archivo vacío o actualiza la fecha de modificación de uno existente |
+| `grep` | | Busca un patrón de texto dentro de uno o varios archivos |
+| `mkdir` | | Crea un directorio |
+| `chmod` | | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio |
+| `chown` | | Cambia el propietario de un archivo, directorio o enlace simbólico |
+| `kill` | | Envía una señal a un proceso (por defecto SIGTERM para terminarlo) |
+| `sudo` | | Ejecuta un comando con privilegios de superusuario (pedirá contraseña) |
 
 ## Gestión de permisos de archivos y directorios
 
@@ -126,32 +120,37 @@ Otra forma de hacer la gestión de permisos de usuario en linux es por sus octet
 
 Cada permiso tiene una cantidad:
 
-- r-4
-- w-2
-- x-1
+- `r` = 4
+- `w` = 2
+- `x` = 1
 
-Si sumamos los permisos daría 7. Para hacer la asignación tenemos que sumar los números de los permisos que queremos otorgar
+Para asignar permisos, se suman los valores de los permisos deseados para cada grupo (propietario, grupo, otros):
 
-- 7 = rwx
-- 6 = rw-
-- 5 = r-x
-- 4 = r–
-- 3 = -wx
-- 2 = -w-
-- 1 = –x
+- 7 = `rwx` (4+2+1)
+- 6 = `rw-` (4+2)
+- 5 = `r-x` (4+1)
+- 4 = `r--` (4)
+- 3 = `-wx` (2+1)
+- 2 = `-w-` (2)
+- 1 = `--x` (1)
+- 0 = `---` (sin permisos)
 
-Todos los permisos lo podemos cambiar con el comando chmod seguido de los octetos y o permisos que queramos otorgar:
-
-**chmod 437 file**
-
-esto se resume a otorgar permiso de lectura al usuario propietario, premios de lectura y ejecución al resto de los usuarios del grupo y permiso de lectura, escritura al resto de los usuarios del sistema
+Todos los permisos se pueden cambiar con el comando `chmod` seguido de los tres dígitos octales:
 
 ```bash
-r---wxrwx 1 user group 0 sep 17 10:53 file
+chmod 755 script.sh
 ```
 
-## 💡Laboratorio: Comando básico de navegación y manipulación de archivos y directorios
+Esto asigna al propietario permisos de lectura, escritura y ejecución (`rwx` = 7), y al grupo y a otros usuarios permisos de lectura y ejecución (`r-x` = 5):
 
-Abrimos nuestro intérprete de comandos y comienza a explorar por los distintos comandos básicos que les dejamos. 
+```bash
+-rwxr-xr-x 1 user group 0 sep 17 10:53 script.sh
+```
 
-Sientete libre tambien de experimentar con la asignacion de permisos a usuario y archivos 
+Otro ejemplo habitual es `chmod 644`, que se usa comúnmente para archivos regulares: lectura y escritura para el propietario, solo lectura para grupo y otros.
+
+## Laboratorio: Comandos básicos de navegación y manipulación de archivos y directorios
+
+Abre tu intérprete de comandos y experimenta con los distintos comandos básicos que hemos visto.
+
+Practica también con la asignación de permisos a usuarios y archivos.
