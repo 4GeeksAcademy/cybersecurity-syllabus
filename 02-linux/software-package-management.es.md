@@ -6,8 +6,8 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Master Linux package management! Learn to install, update, and remove software
-  effortlessly while keeping your system secure. Discover more now!
+  Aprende a gestionar paquetes en Linux. Instala, actualiza y elimina software
+  de forma eficiente manteniendo tu sistema seguro.
 ---
 Hemos hablado previamente sobre el uso de gestores de paquetes y cómo nos pueden ayudar a instalar aplicaciones y actualizar software, recordemos que en el entorno de los servidores Linux, los gestores de paquetes son herramientas fundamentales para la gestión eficiente del software ya que simplifican la instalación, actualización y eliminación de paquetes de software en un servidor, lo que resulta esencial para mantener el sistema actualizado y seguro.
 
@@ -52,13 +52,13 @@ Debajo encontraremos una lista con otros manejadores de paquetes:
 
 Una gran cantidad de las vulnerabilidades de un computador ocurren debido a software y paquetes desactualizados. Cuando una vulnerabilidad en un paquete es detectada, los desarrolladores proceden a corregirla y luego proceden a publicar una nueva versión del paquete. Es importante estar al dia.
 
-Una de las ventajas clave de utilizar gestores de paquetes en servidores Linux es la capacidad de mantener el software actualizado de manera sencilla. Con un simple comando, como `sudo apt-get update` en apt-get o `sudo yum update" en yum, puedes verificar si hay actualizaciones disponibles para los paquetes instalados en el servidor. Luego, puedes ejecutar "sudo apt-get upgrade" o "sudo yum upgrade" para instalar las actualizaciones. Esto garantiza que el software esté actualizado y protegido contra vulnerabilidades conocidas.
+Una de las ventajas clave de utilizar gestores de paquetes en servidores Linux es la capacidad de mantener el software actualizado de manera sencilla. Con un simple comando, como `sudo apt-get update` en apt-get o `sudo yum update` en yum, puedes verificar si hay actualizaciones disponibles para los paquetes instalados en el servidor. Luego, puedes ejecutar `sudo apt-get upgrade` o `sudo yum upgrade` para instalar las actualizaciones. Esto garantiza que el software esté actualizado y protegido contra vulnerabilidades conocidas.
 
-Además, los gestores de paquetes en servidores Linux también permiten la eliminación de software de manera eficiente. Si ya no necesitas un paquete, puedes utilizar el comando correspondiente para desinstalarlo. Por ejemplo, "sudo apt-get remove nombre_paquete" en apt-get o "sudo yum remove nombre_paquete" en yum. Esto asegura una limpieza adecuada del sistema y evita la acumulación de software innecesario.
+Además, los gestores de paquetes en servidores Linux también permiten la eliminación de software de manera eficiente. Si ya no necesitas un paquete, puedes utilizar el comando correspondiente para desinstalarlo. Por ejemplo, `sudo apt-get remove nombre_paquete` en apt-get o `sudo yum remove nombre_paquete` en yum. Esto asegura una limpieza adecuada del sistema y evita la acumulación de software innecesario.
 
 ## Utilizando el manejador apt
 
-Para la explicación usaremos el gestor de paquetes `apt` siempre con el siguiente formato para los commandos:
+Para la explicación usaremos el gestor de paquetes `apt` siempre con el siguiente formato para los comandos:
 
 ```bash
 sudo apt <parámetros> <nombre del paquete or programa>
@@ -66,11 +66,11 @@ sudo apt <parámetros> <nombre del paquete or programa>
 
 En nuestro servidor ubuntu probaremos nuestro gestor de paquete de software actualizando e instalando un software.
 
-1. Primero usaremos el comando `sudo apt update` que se encargara de traer todas las aplicaciones que tengamos en el sistema.
+1. Primero usaremos el comando `sudo apt update` que se encargará de actualizar la lista de paquetes disponibles desde los repositorios configurados.
 
 ![apt-update](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-apt-update-69.jpg?raw=true) 
 
-1. Una vez actualizado los paquetes, procedemos instalar las actualizaciones con el comando `sudo apt upgrade`.
+2. Una vez actualizada la lista de paquetes, procedemos a instalar las actualizaciones con el comando `sudo apt upgrade`.
 
 ![apt upgrade](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-70.jpg?raw=true)
 
@@ -94,24 +94,24 @@ sudo apt install -y <paquete1> <paquete2>
 
 La búsqueda y eliminación de paquetes en Linux es una tarea común para los administradores de sistemas ya que a veces, es necesario encontrar un paquete específico o eliminar uno que ya no se necesita, afortunadamente, Linux cuenta con herramientas poderosas que facilitan estas tareas.
 
-Para buscar paquetes en Linux, puedes utilizar el gestor de paquetes específico de tu distribución. Por ejemplo, en distribuciones basadas en Debian y Ubuntu, como Ubuntu puedes utilizar el comando "apt-cache search término_de_búsqueda" con el gestor de paquetes apt-get. Esto buscará en los repositorios disponibles y mostrará una lista de paquetes que coincidan con el término de búsqueda. Puedes refinar la búsqueda utilizando expresiones regulares o palabras clave más específicas.
+Para buscar paquetes en Linux, puedes utilizar el gestor de paquetes específico de tu distribución. Por ejemplo, en distribuciones basadas en Debian y Ubuntu, puedes utilizar el comando `apt-cache search término_de_búsqueda`. Esto buscará en los repositorios disponibles y mostrará una lista de paquetes que coincidan con el término de búsqueda. Puedes refinar la búsqueda utilizando expresiones regulares o palabras clave más específicas.
 
-![administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image73.png](administracionDeServidores-parte1%20ab5924e8fe3644549acdf70f4425a531/image73.png)
+<!-- Imagen eliminada: la ruta original era local y no se resolvía correctamente -->
 
 
-En distribuciones como Red Hat y CentOS, que utilizan el gestor de paquetes yum, puedes utilizar el comando "yum search término_de_búsqueda" para buscar paquetes. Al igual que con apt-get, esto mostrará una lista de paquetes que coincidan con el término de búsqueda en los repositorios disponibles.
+En distribuciones como Red Hat y CentOS, que utilizan el gestor de paquetes yum, puedes utilizar el comando `yum search término_de_búsqueda` para buscar paquetes. Al igual que con apt-get, esto mostrará una lista de paquetes que coincidan con el término de búsqueda en los repositorios disponibles.
 
 ![apt-cache search mysql](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-73.jpg?raw=true)
 
-Además de los gestores de paquetes, también puedes utilizar herramientas adicionales para buscar paquetes en Linux. Por ejemplo, puedes utilizar el comando "dpkg -l | grep término_de_búsqueda" en distribuciones basadas en Debian para buscar paquetes instalados localmente. Esto mostrará una lista de paquetes que coincidan con el término de búsqueda.
+Además de los gestores de paquetes, también puedes utilizar herramientas adicionales para buscar paquetes en Linux. Por ejemplo, puedes utilizar el comando `dpkg -l | grep término_de_búsqueda` en distribuciones basadas en Debian para buscar paquetes instalados localmente. Esto mostrará una lista de paquetes que coincidan con el término de búsqueda.
 
 ![dpkg grep mysql](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/manejo-de-paquetes-75.jpg?raw=true)
 
-Una vez que hayas encontrado el paquete que deseas eliminar, puedes utilizar el gestor de paquetes correspondiente para eliminarlo. En distribuciones basadas en Debian y Ubuntu, puedes utilizar el comando "sudo apt-get remove nombre_paquete" con apt-get. Esto eliminará el paquete y todos sus archivos asociados del sistema.
+Una vez que hayas encontrado el paquete que deseas eliminar, puedes utilizar el gestor de paquetes correspondiente para eliminarlo. En distribuciones basadas en Debian y Ubuntu, puedes utilizar el comando `sudo apt-get remove nombre_paquete`. Esto eliminará el paquete y todos sus archivos asociados del sistema.
 
-En distribuciones como Red Hat y CentOS, puedes utilizar el comando "sudo yum remove nombre_paquete" con yum para eliminar un paquete. Al igual que con apt-get, esto eliminará el paquete y sus archivos asociados.
+En distribuciones como Red Hat y CentOS, puedes utilizar el comando `sudo yum remove nombre_paquete` para eliminar un paquete. Al igual que con apt-get, esto eliminará el paquete y sus archivos asociados.
 
-Si deseas eliminar completamente un paquete, incluidos los archivos de configuración, puedes utilizar el comando "sudo apt-get purge nombre_paquete" en distribuciones basadas en Debian y Ubuntu, o "sudo yum remove nombre_paquete" en distribuciones como Red Hat y CentOS.
+Si deseas eliminar completamente un paquete, incluidos los archivos de configuración, puedes utilizar el comando `sudo apt-get purge nombre_paquete` en distribuciones basadas en Debian y Ubuntu, o `sudo yum remove nombre_paquete` en distribuciones como Red Hat y CentOS.
 
 Es importante tener en cuenta que al eliminar un paquete, es posible que se eliminen también otros paquetes que dependan de él. El gestor de paquetes te informará sobre los cambios que se realizarán antes de proceder con la eliminación.
 
