@@ -19,35 +19,7 @@ Para un administrador de sistema, tener conocimiento de navegación y manipulaci
 
 Para comenzar, es importante comprender la estructura de directorios. El sistema de archivos se organiza jerárquicamente, con un directorio raíz representado por "/". A partir de ahí, los directorios se organizan en una estructura de árbol, lo que permite una fácil navegación y ubicación de archivos.
 
-Dentro de los comandos básicos tenemos:
-
-| Comando | Flags | Funcion |
-| --- | --- | --- |
-| pwd |  | Imprime el directorio actual de trabajo |
-| cd |  | Cambiar el directorio de trabajo |
-| ls |  | Listar contenido del directorio |
-|  | -R | Listara todos los archivos dentro de los subdirectorios |
-|  | -a | Mostrará todos los archivos ocultos |
-|  | -al | Mostrará la información detallada de los archivos y directorios |
-| head |  | Permite ver hasta las primeras 10 lineas de texto de un archivo |
-|  | -n o -lines | Nos imprime un numero de lineas personalizado (hasta 10) |
-| tail |  | Permite ver las ultimas 10 lineas de texto de un archivo |
-|  | -n o -lines | Nos permite ver un numero de lineas personalizado |
-| (hasta 10) |  |  |
-| cat |  | Concatena y escribe contenido de los archivos en su salida estanadar, tambien se puede usar para el contenido de los archivos |
-| cp |  | Copia archivos o directorios y su contenido. |
-| Se coloca el nombre del archivo a copiar y el directorio destino |  |  |
-| cp nombrearchivo.txt /inicio/nombredeusuario/Documentos |  |  |
-| mv |  | Mueve uno o mas archivos o directorio y su contenido a otro directorio |
-| Se coloca el nombre del archivo a mover y el directorio destino |  |  |
-| mv nombrearchivo.txt /inicio/nombredeusuario/Documentos. |  |  |
-| rm |  | Se utiliza para eliminar un archivo o directorio del sistema |
-|  | -i | Pide confirmacion del sistema antes de borrar un archivo |
-|  | -f | Permite al sistema eliminar sin confirmación |
-|  | -r | Borra archivos y directorios de forma recursivas |
-| touch |  | Crea un archivo en blanco |
-| mkdir |  | Crea un directorio |
-|  |  |  |
+La lista completa de comandos básicos de navegación y manipulación (`pwd`, `cd`, `ls`, `cp`, `mv`, `rm`, `mkdir`, `touch`, `head`, `tail`, `cat`, etc.) junto con sus flags más habituales se detalla en [Fundamentos de la línea de comandos](./command-line-fundamentals.es.md). En esta lección nos centramos en los conceptos específicos del sistema de archivos: permisos y búsqueda.
 
 > ⚠️ Es importante tener precaución al utilizar comandos de manipulación de archivos y directorios, ya que las acciones son irreversibles y pueden afectar los datos de manera permanente. Siempre asegúrate de tener copias de seguridad actualizadas y de verificar dos veces antes de ejecutar comandos que puedan tener consecuencias no deseadas.
 
@@ -108,25 +80,13 @@ Y después colocamos los permisos que queremos asignar
 
 ![otorgando persmisos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image37.jpg?raw=true)
 
-Según esta imagen tenemos un directorio IT y adentro hay un archivo llamado `script.sh`, el cual tiene permisos de lectura pero no de escritura ni de ejecucion para el grupo propietario , esto lo podemos cambiar usando el comando `chmod` y asignando los permisos mediante números basados en e formato octal de permisos de linux
+En esta imagen se muestra un directorio `IT` con un archivo `script.sh`, cuyo grupo propietario solo tiene permiso de lectura. Para cambiarlo podemos usar también la notación octal de `chmod` (por ejemplo `chmod 775 script.sh`), cuya tabla de equivalencias (7=rwx, 6=rw-, 5=r-x, etc.) se detalla en [Fundamentos de la línea de comandos](./command-line-fundamentals.es.md#gestión-de-permisos-de-archivos-y-directorios).
 
-![como ver permisos en linux](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image38.jpg?raw=true)
+### Cambiar el propietario o el grupo de un archivo
 
-- Lectura (r), Escritura (w) Ejecución (x) rwx = 7
-- Lectura (r), Escritura (w) rw- =6
-- Lectura (r), Ejecución (x) r-x = 5
-- Lectura (r) r– = 4
-- Escritura (w), Ejecución -wx = 3
-- Escritura (w) -w- = 2
-- Ejecución (x) –x = 1
-
-Podemos realizar el mismo ejercicio anterior, esta vez cambiaremos los permisos de forma octal
-
-![permisos de forma octal](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image39.jpg?raw=true)
-
-- Otro comando que aprenderemos es el `mkdir` el cual nos permitirá crear un directorio
-- `chown` nos permitirá cambiar el propietario del archivo o directorio
-- chgrp nos permitirá cambiar el grupo propietario del archivo o directorio
+- `chown usuario archivo` cambia el propietario del archivo o directorio.
+- `chown usuario:grupo archivo` cambia propietario y grupo en un solo comando.
+- `chgrp grupo archivo` cambia únicamente el grupo propietario.
 
 ## Búsqueda y filtrado de archivos
 
