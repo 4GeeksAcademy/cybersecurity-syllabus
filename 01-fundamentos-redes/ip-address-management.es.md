@@ -98,13 +98,13 @@ Tienen la misma función de la dirección IPv4, esta consta de 128 bits y se exp
 El cambio más grande de IPv4 a IPv6 es la longitud de las direcciones de red, para la ipV6 fue asignada con 128 bits, el cual corresponde a 32 dígitos hexadecimales, en muchas ocasiones las direcciones IPv6 están compuestas por dos partes lógicas: un prefijo de 64 bits y otra parte de 64 bits que corresponde al identificador de interfaz, que casi siempre se genera automáticamente a partir de la dirección MAC de la interfaz a la que está asignada la dirección. Esta se escribe como 8 grupos de cuatro dígitos hexadecimales por ejemplo:
 
 ```bash
-2001:0db8:85a4:0000:15e2::a8e2:1380:7545
+2001:0db8:85a4:0000:15e2:a8e2:1380:7545
 ```
 
 Se puede comprimir un grupo de cuatro dígitos si tiene el valor de 0000.
 
 ```bash
-2001:0db8:85a4::15e2::a8e2:1380:7545
+2001:0db8:85a4::15e2:a8e2:1380:7545
 ```
 
 Siguiendo esta regla, si más de dos grupos consecutivos son nulos, también pueden comprimirse como "::". Si la dirección tiene más de una serie de grupos nulos consecutivos la compresión solamente se permite en uno de ellos. Así, las siguientes son representaciones posibles de una misma dirección:
