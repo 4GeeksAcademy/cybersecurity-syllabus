@@ -11,7 +11,7 @@ description: >-
   eficiencia. Descubre estrategias clave y mejores prácticas para optimizar tu
   red.
 ---
-La planificación y documentación de redes es un proceso esencial para garantizar el diseño, implementación y mantenimiento efectivo de una red. Consiste en la creación de un plan estratégico que define los objetivos, requisitos y recursos necesarios para construir y gestionar una red de manera eficiente y segura esoimplica identificar las necesidades específicas de la organización, como el número de usuarios, los servicios requeridos y el volumen de tráfico esperado. También implica evaluar las tecnologías disponibles y seleccionar las más adecuadas para satisfacer las necesidades de la red.
+La planificación y documentación de redes es un proceso esencial para garantizar el diseño, implementación y mantenimiento efectivo de una red. Consiste en la creación de un plan estratégico que define los objetivos, requisitos y recursos necesarios para construir y gestionar una red de manera eficiente y segura. Eso implica identificar las necesidades específicas de la organización, como el número de usuarios, los servicios requeridos y el volumen de tráfico esperado. También implica evaluar las tecnologías disponibles y seleccionar las más adecuadas para satisfacer las necesidades de la red.
 
 ### **Documentación de red: diagramas, inventario de equipos**
 
