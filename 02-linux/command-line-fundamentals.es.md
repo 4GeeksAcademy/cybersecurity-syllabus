@@ -39,37 +39,18 @@ Algunas Shells CLI que frecuentemente conseguimos son:
 
 ## Comandos básicos de navegación y manipulación de archivos y directorios
 
-Estos son varios comandos básicos que te ayudarán a navegar en la terminal.
+En la lección de [Archivos y directorios](./files-directories.es.md) vimos los comandos fundamentales para navegar y manipular el sistema de archivos: `pwd`, `cd`, `ls`, `cat`, `head`, `tail`, `cp`, `mv`, `rm`, `touch` y `mkdir`. Aquí ampliamos con comandos adicionales que complementan el trabajo en la terminal.
 
 Las *flags* son opciones que se pasan a los comandos para obtener un resultado más específico.
 
 | Comando | Flags | Función |
 | --- | --- | --- |
-| `pwd` | | Imprime el directorio actual de trabajo |
-| `cd` | | Cambia el directorio de trabajo |
-| `ls` | | Lista el contenido del directorio |
-| | `-R` | Lista todos los archivos dentro de los subdirectorios de forma recursiva |
-| | `-a` | Muestra todos los archivos, incluidos los ocultos |
-| | `-la` | Muestra información detallada de los archivos y directorios (formato largo) |
 | `find` | | Busca archivos dentro de un directorio según diferentes criterios |
 | | `-iname` | Busca archivos por nombre (insensible a mayúsculas/minúsculas) |
 | | `-type` | Filtra por tipo: `-type f` (archivo) o `-type d` (directorio) |
 | | `-size` | Filtra los archivos por su tamaño |
 | | `-user`, `-group` | Filtra los archivos por usuario o grupo propietario |
-| `head` | | Muestra las primeras 10 líneas de un archivo por defecto |
-| | `-n N` | Muestra las primeras N líneas (sin límite superior fijo) |
-| `tail` | | Muestra las últimas 10 líneas de un archivo por defecto |
-| | `-n N` | Muestra las últimas N líneas (sin límite superior fijo) |
-| `cat` | | Concatena y muestra el contenido de uno o varios archivos en la salida estándar |
-| `cp` | | Copia archivos o directorios. Ejemplo: `cp archivo.txt /home/usuario/Documentos` |
-| `mv` | | Mueve o renombra archivos y directorios. Ejemplo: `mv archivo.txt /home/usuario/Documentos` |
-| `rm` | | Elimina un archivo o directorio del sistema |
-| | `-i` | Pide confirmación antes de borrar |
-| | `-f` | Elimina sin pedir confirmación |
-| | `-r` | Borra directorios y su contenido de forma recursiva |
-| `touch` | | Crea un archivo vacío o actualiza la fecha de modificación de uno existente |
 | `grep` | | Busca un patrón de texto dentro de uno o varios archivos |
-| `mkdir` | | Crea un directorio |
 | `chmod` | | Modifica los permisos de lectura, escritura y ejecución de un archivo o directorio |
 | `chown` | | Cambia el propietario de un archivo, directorio o enlace simbólico |
 | `kill` | | Envía una señal a un proceso (por defecto SIGTERM para terminarlo) |
