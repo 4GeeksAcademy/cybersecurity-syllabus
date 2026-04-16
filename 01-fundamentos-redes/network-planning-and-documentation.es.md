@@ -7,7 +7,7 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Master la planificación y documentación de redes para lograr escalabilidad y
+  Domina la planificación y documentación de redes para lograr escalabilidad y
   eficiencia. Descubre estrategias clave y mejores prácticas para optimizar tu
   red.
 ---
