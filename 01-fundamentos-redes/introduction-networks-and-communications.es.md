@@ -116,8 +116,9 @@ Los servidores son componentes esenciales en una red informática. Estos potente
 
 ### Tipos de Servidores:
 
-| Servidor de Archivos | Almacena y administra archivos que pueden ser accedidos y compartidos por usuarios y otros dispositivos en la red. Este tipo de servidor es común en entornos empresariales donde se necesita compartir documentos y recursos de manera centralizada. |
+| Tipo de servidor | Descripción |
 | --- | --- |
+| Servidor de Archivos | Almacena y administra archivos que pueden ser accedidos y compartidos por usuarios y otros dispositivos en la red. Este tipo de servidor es común en entornos empresariales donde se necesita compartir documentos y recursos de manera centralizada. |
 | Servidor Web | Alberga sitios web y aplicaciones web. Responde a las solicitudes de los navegadores de los usuarios y entrega contenido web, como páginas HTML, imágenes, videos y más. |
 | Servidor de Correo Electrónico | Administra el correo electrónico para una organización. Recibe, almacena y envía mensajes de correo electrónico, permitiendo que los usuarios accedan a sus bandejas de entrada y envíen mensajes. |
 | Servidor de Base de Datos | Almacena y administra bases de datos que contienen información estructurada. Permite el acceso, la consulta y la manipulación de datos por parte de aplicaciones y usuarios autorizados. |
