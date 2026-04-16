@@ -6,8 +6,8 @@ tags:
 authors:
   - arnaldoperez
 description: >-
-  Discover how to set up and manage networks in VirtualBox! Learn about NAT,
-  Bridged, and Host-Only connections for your virtual machines.
+  Aprende a configurar y gestionar redes en VirtualBox. Conoce las conexiones
+  NAT, Bridged y Host-Only para tus máquinas virtuales.
 ---
 ## Interfaces Virtuales
 
