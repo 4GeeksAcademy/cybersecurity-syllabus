@@ -83,7 +83,9 @@ La encriptación de las redes inalámbricas se utilizan para añadir seguridad m
 
 > 💡 Existen diferentes tipos de cifrados para redes LAN inalámbricas (WIFI)
 
-- **Wired Encryption Protocol (WEP)**
+- **Wired Equivalent Privacy (WEP)**
+
+> ⚠️ WEP se considera un protocolo **obsoleto e inseguro**. Sus vulnerabilidades criptográficas fueron demostradas públicamente en 2001 y permiten descifrar el tráfico en minutos con herramientas como `aircrack-ng`. No debe usarse en ningún entorno de producción. Se incluye aquí con fines históricos y para que el estudiante pueda identificarlo en auditorías de redes legacy.
 
 Este protocolo utiliza una clave secreta compartida entre un punto de acceso y un host, y todos los datos enviados y recibidos pueden ser cifrados utilizando esta clave compartida.
 
@@ -124,15 +126,26 @@ La principal debilidad que presenta WPA-PSK es precisamente el uso de clave comp
 
 ### WiFi Protected Access 2 (WPA2)
 
-WPA2 es un protocolo de cifrado WiFi que surge con la finalidad de solucionar los problemas de vulnerabilidad detectados en la primera versión (WAP).
+WPA2 es un protocolo de cifrado WiFi que surge con la finalidad de solucionar los problemas de vulnerabilidad detectados en la primera versión (WPA).
 
-Las especificaciones de WPA2, no son públicas por lo que la cantidad de información disponible es realmente escasa. Se sabe que WPA2 incluye el algoritmo de cifrado AES (Advanced Encryption Standard), desarrollado por el NIS.
+Las especificaciones de WPA2, no son públicas por lo que la cantidad de información disponible es realmente escasa. Se sabe que WPA2 incluye el algoritmo de cifrado AES (Advanced Encryption Standard), desarrollado por el NIST (National Institute of Standards and Technology).
 
 Como ya se ha comentado, se trata de un algoritmo de cifrado WiFi de bloque con clave de 128 bits.
 
 Es necesario un hardware potente para realizar los algoritmos de WPA2, lo que significa que dispositivos antiguos sin suficientes capacidades de procesamiento no podrán incorporar WPA2.
 
-El modo personal o Pre-Shared Key (PSK) funciona igual que en la seguridad WAP, y es el protocolo de cifrado WiFi más fácil de instalar ya que requiere que se cree una contraseña simple. Aunque WPA2 proporciona una fuerte encriptación y seguridad, y es “potencialmente indescifrable” por los atacantes si se utiliza una contraseña larga y fuerte.
+El modo personal o Pre-Shared Key (PSK) funciona igual que en la seguridad WPA, y es el protocolo de cifrado WiFi más fácil de instalar ya que requiere que se cree una contraseña simple. Aunque WPA2 proporciona una fuerte encriptación y seguridad, y es “potencialmente indescifrable” por los atacantes si se utiliza una contraseña larga y fuerte.
+
+### WiFi Protected Access 3 (WPA3)
+
+WPA3 es el estándar de seguridad WiFi más reciente, publicado por la Wi-Fi Alliance en 2018. Introduce mejoras significativas respecto a WPA2:
+
+- **Simultaneous Authentication of Equals (SAE):** Reemplaza el intercambio PSK por un protocolo de establecimiento de clave más robusto basado en Dragonfly (RFC 7664). Esto elimina los ataques de diccionario offline contra el handshake, que eran la principal debilidad práctica de WPA2-PSK.
+- **Forward secrecy:** Aunque un atacante capture tráfico cifrado y posteriormente obtenga la contraseña de la red, no podrá descifrar el tráfico capturado anteriormente.
+- **Cifrado individualizado:** En redes abiertas (como WiFi público), WPA3 ofrece Opportunistic Wireless Encryption (OWE), que cifra el tráfico entre cada cliente y el punto de acceso sin necesidad de contraseña.
+- **Suite criptográfica de 192 bits:** El modo WPA3-Enterprise ofrece una suite de seguridad opcional alineada con CNSA (Commercial National Security Algorithm Suite) para entornos que requieren máxima protección.
+
+> 👉 En la actualidad, WPA3 es el protocolo recomendado para cualquier nueva instalación WiFi. WPA2 sigue siendo aceptable en entornos existentes con contraseñas fuertes, pero se recomienda migrar a WPA3 cuando el hardware lo permita.
 
 ### Filtrado MAC
 
