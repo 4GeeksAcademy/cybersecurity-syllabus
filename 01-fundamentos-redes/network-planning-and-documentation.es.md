@@ -31,7 +31,7 @@ Estos archivos contienen registros precisos y actualizados del hardware y el sof
 | Nombre y modelo del dispositivo | Nombre de interfaz | Dirección mac | Dirección IPV4 | Dirección IPV6 |
 | --- | --- | --- | --- | --- |
 | R1 Cisco 1941 152-A.M1 | G0/0 | 0071.8580.A350 | 192.168.5.1/24 | 2001:ad4:cafe:10::1/64 |
-|  | G0/1 | 0071.8580.A351. | 192.168.10.1 | 2001:ad4:cafe::11::1/64 |
+|  | G0/1 | 0071.8580.A351 | 192.168.10.1/24 | 2001:ad4:cafe:11::1/64 |
 
 También podemos tener una lista de los archivos de configuración de sistema final, estos se centraron en el hardware y software usados en los dispositivos del sistema final, como servidores, consolas de administración de red y estaciones de trabajo de los usuarios
 
@@ -39,8 +39,8 @@ Esta lista nos ayudará ya que un sistema final mal configurado puede traernos u
 
 | Nombre de dispositivo | Sistema operativo | Dirección MAC | Dirección IP | Gateway predeterminado | Servidor DNS | Aplicaciones de red |
 | --- | --- | --- | --- | --- | --- | --- |
-| PC2 | Windows 10 | 5475:DB04.9A3E | 192.168.15.5/24 | 198.168.15.1 | 192.168.15.15 | HTTP, FTP |
-| SRV1 | Linux | 000C.D3691.A15B | 192.168.20.254/24 | 192.168.20.1 | 2200:DBB::ACAD:1::99 | HTTP, FTP |
+| PC2 | Windows 10 | 5475:DB04.9A3E | 192.168.15.5/24 | 192.168.15.1 | 192.168.15.15 | HTTP, FTP |
+| SRV1 | Linux | 000C.D369.1A15B | 192.168.20.254/24 | 192.168.20.1 | 2001:0DB8::ACAD:1:99 | HTTP, FTP |
 
 ### Diagramas de topología de red
 
