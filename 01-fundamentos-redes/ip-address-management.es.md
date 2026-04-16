@@ -19,7 +19,7 @@ Es fundamental que un profesional de redes y ciberseguridad sepa gestionar direc
 
 Imagina que tienes una red doméstica con varios dispositivos, como tu computadora, tu teléfono y tu impresora. Cada uno de estos dispositivos tiene su propia dirección IP única, como una etiqueta de dirección para que los datos puedan llegar al destino correcto.
 
-## Subnetting: Cómo se confórman las redes
+## Subnetting: Cómo se conforman las redes
 
 - Subnetting es el proceso de dividir una red en subredes más pequeñas. Esto se hace por varias razones, incluida la mejora de la eficiencia de la red y la seguridad.
 - En ciberseguridad y pentesting, subnetting se utiliza para segmentar una red en partes más pequeñas, lo que puede ayudar a aislar y controlar el tráfico. Esto es crucial para proteger los recursos críticos y limitar la propagación de amenazas en una red.
@@ -217,9 +217,9 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 
 >💡**Tema de discusión**
 >
->¿Cual es el motivo principal por el cual la ICAAN decidió sacar el protocolo de ipV6?
+>¿Cuál es el motivo principal por el cual se desarrolló el protocolo IPv6? ¿Qué organismo lo diseñó?
 >
->¿Que ventaja podemos tener al hacer una división de redes en una organización?
+>¿Qué ventaja podemos tener al hacer una división de redes en una organización?
 >
->¿Cual es la importancia de conocer la mascara de red en un proceso de división de redes?
+>¿Cuál es la importancia de conocer la máscara de red en un proceso de división de redes?
 >
