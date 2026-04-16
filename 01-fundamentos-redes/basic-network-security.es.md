@@ -1,13 +1,15 @@
 ---
-title: Basic Network Security
+title: Seguridad básica de redes
 tags:
-  - networks
+  - redes
+  - ciberseguridad
 authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Learn the essentials of basic network security! Discover how firewalls protect
-  against unauthorized access and DDoS attacks. Strengthen your network today!
+  Aprende los fundamentos de la seguridad de redes. Descubre cómo los firewalls
+  protegen contra accesos no autorizados y ataques DDoS, y conoce los
+  protocolos de cifrado WiFi (WEP, WPA, WPA2, WPA3).
 ---
 ## Que es un Firewall
 
