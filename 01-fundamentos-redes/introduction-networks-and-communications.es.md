@@ -22,7 +22,7 @@ La historia de las redes se remonta a mediados del siglo XX, cuando los científ
 
 ARPANET se estableció en 1969 y enlazó inicialmente a cuatro universidades de los Estados Unidos: la Universidad de California en Los Ángeles (UCLA), el Instituto de Investigación Stanford, la Universidad de California en Santa Bárbara y la Universidad de Utah. El primer mensaje transmitido a través de ARPANET fue "LOGIN", pero el sistema se bloqueó después de solo dos letras, lo que resultó en la primera vez que se envió "LO". A pesar de este comienzo modesto, ARPANET creció rápidamente y estableció los fundamentos de lo que eventualmente se convertiría en Internet.
 
-A medida que avanzaban los años 70, ARPANET siguió creciendo y más instituciones académicas y de investigación se unieron a la red. La creación del protocolo TCP/IP (Transmission Control Protocol/Internet Protocol) en la década de 1980 fue un paso crucial para conectar diferentes redes en un sistema interconectado. TCP/IP permitió que diversas redes se comunicaran entre sí sin importar las diferencias en sus tecnologías subyacentes.
+A medida que avanzaban los años 70, ARPANET siguió creciendo y más instituciones académicas y de investigación se unieron a la red. El desarrollo del protocolo TCP/IP (Transmission Control Protocol/Internet Protocol), iniciado en la década de 1970 por Vint Cerf y Bob Kahn (RFC 675, 1974), fue un paso crucial para conectar diferentes redes en un sistema interconectado. TCP/IP permitió que diversas redes se comunicaran entre sí sin importar las diferencias en sus tecnologías subyacentes.
 
 En 1983, ARPANET adoptó oficialmente el protocolo TCP/IP, lo que marcó el nacimiento de la Internet tal como la conocemos hoy en día. A medida que la tecnología evolucionó y se hizo más accesible, la década de 1990 vio la popularización de Internet en todo el mundo, y la World Wide Web (WWW) se convirtió en una interfaz gráfica para acceder a la información en línea.
 
@@ -116,8 +116,9 @@ Los servidores son componentes esenciales en una red informática. Estos potente
 
 ### Tipos de Servidores:
 
-| Servidor de Archivos | Almacena y administra archivos que pueden ser accedidos y compartidos por usuarios y otros dispositivos en la red. Este tipo de servidor es común en entornos empresariales donde se necesita compartir documentos y recursos de manera centralizada. |
+| Tipo de servidor | Descripción |
 | --- | --- |
+| Servidor de Archivos | Almacena y administra archivos que pueden ser accedidos y compartidos por usuarios y otros dispositivos en la red. Este tipo de servidor es común en entornos empresariales donde se necesita compartir documentos y recursos de manera centralizada. |
 | Servidor Web | Alberga sitios web y aplicaciones web. Responde a las solicitudes de los navegadores de los usuarios y entrega contenido web, como páginas HTML, imágenes, videos y más. |
 | Servidor de Correo Electrónico | Administra el correo electrónico para una organización. Recibe, almacena y envía mensajes de correo electrónico, permitiendo que los usuarios accedan a sus bandejas de entrada y envíen mensajes. |
 | Servidor de Base de Datos | Almacena y administra bases de datos que contienen información estructurada. Permite el acceso, la consulta y la manipulación de datos por parte de aplicaciones y usuarios autorizados. |
