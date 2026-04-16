@@ -7,8 +7,8 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Master IP Address Management and enhance your network security skills. Learn
-  about IPv4, IPv6, and subnetting. Discover essential strategies now!
+  Domina la gestión de direcciones IP y mejora tus habilidades en seguridad de
+  redes. Aprende sobre IPv4, IPv6 y subnetting.
 ---
 Es fundamental que un profesional de redes y ciberseguridad sepa gestionar direcciones IP debido a que las direcciones IP son elementos esenciales en la infraestructura de cualquier red, y desempeñan un papel crítico en la ciberseguridad.
 
