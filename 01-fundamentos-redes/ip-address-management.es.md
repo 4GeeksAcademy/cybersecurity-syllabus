@@ -65,7 +65,9 @@ Los dos tipos de dirección IP son:
 
 Este tipo de IP consta en una dirección de 32 bits separado en 4 octeto (grupo de 8 bits), limitadas a  4 294 967 296 direcciones únicas, muchas de ellas LAN. Desde el punto de vista técnico, son un código binario de 32 cifras entre 0 y 1. Generalmente se suele representar como una combinación de número decimales con valores entre 0 y 255 separados por puntos. Un ejemplo de una direccion IPv4 puede ser 192.168.178.31
 
-Actualmente esta asignación de direcciones IP pasa por una arquitectura de clases que consta de tres clases de direcciones IP que una organización puede recibir de parte de la Internet Corporation for Assigned Names and Numbers (ICANN).
+Históricamente, la asignación de direcciones IP se organizaba mediante una arquitectura de clases que constaba de tres clases principales de direcciones IP que una organización podía recibir de parte de la Internet Corporation for Assigned Names and Numbers (ICANN).
+
+> 📖 El sistema de clases (classful addressing) fue reemplazado en la práctica por **CIDR** (Classless Inter-Domain Routing, RFC 4632) en la década de 1990. CIDR permite asignar bloques de direcciones de cualquier tamaño usando notación de prefijo (por ejemplo, /20, /27), en lugar de limitarse a los bloques fijos de clase A, B o C. Hoy en día CIDR es el estándar universal, pero comprender las clases sigue siendo útil como base conceptual y porque aparecen en certificaciones y en la configuración de redes legacy.
 
 - **Red clase A**
 
