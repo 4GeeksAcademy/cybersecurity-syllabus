@@ -11,7 +11,7 @@ description: >-
 ---
 Generalmente en los servidores almacenan y procesan datos críticos para las organizaciones. Por lo tanto, comprender cómo administrarlos de manera segura es crucial para proteger la información y garantizar la integridad de los sistemas. Así que en el siguiente módulo aprenderemos todo lo necesario para saber cómo administrar servidores, desde instalarlos y configurarlos hasta gestionar los permisos y usuarios y monitorear las actividades y rendimiento del servidor.
 
-## **Qué es un servidor y su importancia en los entornos de red**
+## Qué es un servidor y su importancia en los entornos de red
 
 Un servidor es un equipo de computación dedicado a proporcionar servicios, recursos y almacenamiento a otros dispositivos conectados en la red. El servidor es un componente fundamental en los entornos de red ya que actúa como un intermediario entre los usuarios y los recursos que necesitan acceder.
 
@@ -32,7 +32,7 @@ En cuanto a la seguridad, cuando centralizamos los recursos de la empresa en un 
 
 Durante este módulo vamos a explorar todas las ventajas que vamos a tener al trabajar con un servidor y cómo administrar sus recursos para así sacar el mayor rendimiento de su funcionamiento.
 
-### **Ventajas de linux como sistema operativo de servidor.**
+### Ventajas de Linux como sistema operativo de servidor
 
 Como administradores de servidores es normal preguntarse cuál es el mejor sistema operativo para usar en nuestro servidor, en módulos anteriores hemos hablado de GNU/Linux y mencionamos que es un sistema operativo de código abierto basado en unix, la realidad es que GNU/Linux se ha convertido en una opción popular para servidores en entornos empresariales y de desarrollo, principalmente para las pequeñas y medianas empresas que dependen en gran medida de la estabilidad de sus sitios web, una de las ventajas que ofrece linux es una mayor estabilidad y seguridad, además de permitir manejar con fluidez un mayor número de procesos
 
@@ -45,7 +45,7 @@ Estas son las ventajas que podemos tener al utilizar Linux como sistema operativ
 | Costo |  Al ser un sistema operativo de código abierto, Linux no requiere el pago de licencias, lo que puede suponer en un ahorro significativo en comparación con otros sistemas operativos comerciales, además, los usuarios pueden tener acceso al código fuente y así modificarlo y adaptarlo según sus necesidades. |
 | Comunidad y soporte |  Linux cuenta con una gran comunidad de usuarios y desarrolladores que ofrecen soporte y asistencia, podemos conseguir una amplia gama de recursos en línea, foros y documentación disponible para resolver problemas y obtener ayuda en caso de necesitarlo. |
 
-### **Conceptos básicos para administración de servidores.**
+### Conceptos básicos para administración de servidores
 
 Podemos definir a la administración de servidores como un conjunto de prácticas y conocimientos necesarios para gestionar y mantener eficientemente los servidores en un entorno de red.
 
@@ -63,7 +63,7 @@ Algunos conceptos que tenemos que tener claros al momento de hablar de administr
 
 Entre las distribuciones de Linux más populares para servidores tenemos:
 
-- **Ubuntu Server:**
+### Ubuntu Server
 
 Ubuntu server es una de las distribuciones más conocidas y usadas para servidores actualmente en el mercado, es una variación de los sistemas operativos basados en Debian, esto significa que pueden tener una arquitectura similar y el mismo sistema manejador de paquetes, aunque en un ambiente profesional, Ubuntu Server puede tener un manejo mucho más fácil y una más alta compatibilidad del hardware.
 
@@ -73,7 +73,7 @@ La principal desventaja que puede tener Ubuntu server es que es un sistema opera
 
 > 👉 Ubuntu Server es una gran opción cuando se busca administrar un servidor dentro de una estructura más fácil de manejar, sobre todo si se está en cambio desde windows.
 
-- **Red Hat Enterprise Linux (RHEL)**
+### Red Hat Enterprise Linux (RHEL)
 
 Este sistema operativo es otra de las plataformas más usadas en servidores y en entornos empresariales, también hay que mencionar que está certificado en cientos de nubes, RHEL se destaca por su enfoque en la estabilidad, seguridad y rendimiento.
 
@@ -87,7 +87,7 @@ Si bien mencionamos como desventaja que RHEL no es un sistema gratuito, esto lo 
 
 Este sistema operativo es ideal cuando queremos trabajar en un amplio ecosistema de software, hardware y nube (AWS, Microsoft Azure, Oracle Cloud Infrastructure).
 
-- **CentOs**
+### CentOS
 
 CentOS Linux estuvo basado en Red Hat Enterprise Linux (RHEL) desde 2004, era de código abierto y gratuito, y fue durante años la alternativa binariamente compatible con RHEL más popular para servidores. Sin embargo, Red Hat discontinuó CentOS Linux: CentOS Linux 8 llegó a su fin de soporte el 31 de diciembre de 2021 y CentOS Linux 7 el 30 de junio de 2024. Su sucesor oficial, **CentOS Stream**, no es un clon de RHEL, sino su *upstream*: recibe los cambios antes que RHEL, por lo que es ligeramente más reciente y menos estable que una versión de RHEL ya publicada.
 
@@ -95,7 +95,7 @@ Ante esta situación surgieron dos sucesores de facto que sí mantienen la compa
 
 Para proyectos nuevos en producción, lo razonable es elegir entre RHEL (si se necesita soporte comercial), Rocky Linux o AlmaLinux (si se quiere compatibilidad RHEL sin coste), o CentOS Stream solo cuando se quiere probar lo que vendrá en próximas versiones de RHEL.
 
-- **Debian**
+### Debian
 
 Debian es una de las distribuciones para servidores web clásicas y de larga duración. El sistema existe desde 1993 y cuenta con una enorme comunidad en todo el mundo. Esta comunidad no solo utiliza Debian, sino que también mantiene el sistema. Debian es la base de muchas otras distribuciones de Linux, pero también está siendo constantemente optimizado por más de 1000 desarrolladores oficiales. El sistema operativo es igualmente recomendable para servidores, ordenadores de mesa y portátiles.
 
