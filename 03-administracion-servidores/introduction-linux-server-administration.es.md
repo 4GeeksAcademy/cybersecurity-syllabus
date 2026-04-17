@@ -89,13 +89,11 @@ Este sistema operativo es ideal cuando queremos trabajar en un amplio ecosistema
 
 - **CentOs**
 
-CentOS está basado en Red Hat Enterprise Linux (RHEL) desde 2009, pero es de código abierto y gratuito. El sistema operativo es compatible con RHEL y destaca por su facilidad de uso. Especialmente en el ámbito de las distribuciones de servidores Linux, CentOS siempre ha sido convincente y se consideraba una solución de entrada que era válida para muchos usuarios. Sin embargo, Red Hat ha anunciado que la compatibilidad con CentOS finalizará en 2024. El sucesor CentOS Stream es visto con recelo por muchos desarrolladores, ya que es muy experimental y no es totalmente compatible con RHEL. La nueva solución funciona más bien como un entorno de prueba para el sistema.
+CentOS Linux estuvo basado en Red Hat Enterprise Linux (RHEL) desde 2004, era de código abierto y gratuito, y fue durante años la alternativa binariamente compatible con RHEL más popular para servidores. Sin embargo, Red Hat discontinuó CentOS Linux: CentOS Linux 8 llegó a su fin de soporte el 31 de diciembre de 2021 y CentOS Linux 7 el 30 de junio de 2024. Su sucesor oficial, **CentOS Stream**, no es un clon de RHEL, sino su *upstream*: recibe los cambios antes que RHEL, por lo que es ligeramente más reciente y menos estable que una versión de RHEL ya publicada.
 
-CentOS es y fue considerado una solución gratuita a nivel básico que podía ofrecer las características de RHEL. El sistema operativo funciona de forma muy estable y es muy seguro gracias a una fuerte supervisión y a los parches regulares de la comunidad.
+Ante esta situación surgieron dos sucesores de facto que sí mantienen la compatibilidad binaria con RHEL y son gratuitos: **Rocky Linux** y **AlmaLinux**. Ambos son hoy la opción recomendada para entornos que antes usaban CentOS Linux.
 
-Sin embargo, CentOS no es una solución para el futuro, ya que la compatibilidad del sistema operativo se interrumpirá en un futuro cercano. Aunque muchas aplicaciones de RHEL también funcionan en CentOS, esto no siempre está garantizado porque faltan muchas certificaciones necesarias.
-
-CentOS solo es apto para principiantes que quieran conocer RHEL sin pagar por él. Para proyectos a largo plazo, recomendamos otras distribuciones de Linux.
+Para proyectos nuevos en producción, lo razonable es elegir entre RHEL (si se necesita soporte comercial), Rocky Linux o AlmaLinux (si se quiere compatibilidad RHEL sin coste), o CentOS Stream solo cuando se quiere probar lo que vendrá en próximas versiones de RHEL.
 
 - **Debian**
 
