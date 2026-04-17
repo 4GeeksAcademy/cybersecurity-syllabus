@@ -10,13 +10,14 @@ description: >-
   Garantiza la seguridad y disponibilidad de tu información con herramientas y
   prácticas efectivas. ¡Descubre más!
 ---
+
+## Planificación de respaldos y políticas de retención
+
+Como analistas de ciberseguridad y administradores de seguridad, la planificación de respaldos y las políticas de retención son aspectos críticos de nuestro trabajo, ya que garantizan la protección y la disponibilidad de los datos almacenados. Estas prácticas son fundamentales para asegurar la integridad de la información y la capacidad de recuperación ante posibles incidentes o pérdidas.
+
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
 
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)
-
-## Planificación de respaldos y políticas de retención.
-
-Como analistas de ciberseguridad y administradores de seguridad la planificación de respaldos y las políticas de retención son aspectos críticos en nuestro trabajo, ya que garantizan la protección y disponibilidad de los datos almacenados en ellos. Estas prácticas son fundamentales para asegurar la integridad de la información y la capacidad de recuperación ante posibles incidentes o pérdidas de datos.
 
 Unos aspectos importantes que tenemos que tomar en consideración cuando trabajemos en nuestros respaldos son:
 
