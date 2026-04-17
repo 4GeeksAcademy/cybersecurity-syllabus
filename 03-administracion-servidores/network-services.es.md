@@ -86,9 +86,9 @@ Les dejamos una lista de DNS públicas que pueden usar para la red
 
 Para esta configuración usaremos la DNS google
 
-Una vez editado el archivo YAML aplicamos el comando netplan apply
+Una vez editado el archivo YAML aplicamos el comando `sudo netplan apply`.
 
-Si queremos corroborar que tenemos conexion, usamos el comando ping junto a nuestro servidor alternativo
+Si queremos corroborar que tenemos conexión, usamos el comando `ping` junto a nuestro servidor alternativo.
 
 ![Configuración de la resolución de nombres - comando ping](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-8.jpg "comando ping")
 
@@ -100,18 +100,18 @@ Uno de los servicios de red más comunes en servidores Linux es el servidor web,
 
 Vamos a configurar nuestro servidor HTTP con Apache aplicando los siguientes pasos:
 
-- Instalamos Apache habiendo actualizando los paquetes locales previamente con **sudo apt update.**
+- Instalamos Apache tras actualizar los paquetes locales previamente con `sudo apt update`.
     
     ![Configuración de servicios de red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-9.jpg)
 
-- Una vez actualizados los paquetes instalamos nuestro servidor apache **sudo apt install apache2.**
+- Una vez actualizados los paquetes instalamos nuestro servidor Apache con `sudo apt install apache2`.
     
     ![Configuración de servicios de red - firewall](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-10.jpg)
 
 - Antes de probar apache, es necesario modificar unos ajustes de firewall para permitir acceso externo a los puertos web predeterminados, durante la instalación, Apache se registra con UFW para proporcionar algunos perfiles de aplicaciones que pueden utilizarse para habilitar o deshabilitar el acceso a Apache a través del firewall.
     
     
-- Con el comando sudo ufw app list tendremos una lista de los perfiles de aplicación.
+- Con el comando `sudo ufw app list` tendremos una lista de los perfiles de aplicación.
     
     ![Configuración de servicios de red - sudo ufw](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-11.jpg)
     
@@ -128,23 +128,23 @@ sudo ufw allow "Apache"
 
 ![sudo ufw allow "Apache"](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-12.jpg "sudo ufw allow Apache")
 
-Podemos corroborar los cambios usando el comando sudo ufw status
+Podemos corroborar los cambios usando el comando `sudo ufw status`.
 
 ![sudo ufw status](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-13.jpg "sudo ufw status")
 
-En algunos casos podemos tener una respuesta de Status: Inactive, esto ocurre porque el firewall está inactivo, para activarlo usamos el comando sudo ufw enable, y volvemos a chequear el status
+En algunos casos podemos tener una respuesta `Status: inactive`; esto ocurre porque el firewall está desactivado. Para activarlo usamos el comando `sudo ufw enable` y volvemos a comprobar el estado.
 
 ![Network Services Configuration](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-14.jpg)
 
 ![Configuración de servicios de red - comando sudo systemctl status apache2](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-15.jpg)
 
-- Ya una vez habiendo permitido el tráfico al puerto HTTP revisamos el estatus de nuestro servidor con el comando sudo systemctl status apache2
+- Una vez permitido el tráfico en el puerto HTTP, revisamos el estado de nuestro servidor con `sudo systemctl status apache2`.
 
 ![Configuración de servicios de red - Servidor activo](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-16.jpg)
 
 Podemos ver que su estado es activo y corriendo.
 
-- Otra forma de comprobar que nuestro servidor está activo es haciendo una solicitud de página, si no estamos seguro de la dirección IP de nuestro servidor, usamos el comando hostname -I y nos devolverá la IP la cual abriremos en un navegador web para comprobar que esté activo.
+- Otra forma de comprobar que nuestro servidor está activo es haciendo una solicitud HTTP. Si no estamos seguros de la dirección IP de nuestro servidor, usamos el comando `hostname -I` y nos devolverá la IP, que abriremos en un navegador web para comprobar que esté activo.
 
 ![Configuración de servicios de red - Host Name -I](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-17.jpg)
 
@@ -164,11 +164,11 @@ FTP funciona de manera análoga a HTTP (HyperText Transfer Protocol) o SMTP (Sim
 
 Para instalar este servicio en nuestro servidor podemos seguir los siguientes pasos:
 
-- Antes de instalar nuestro servicio, lo recomendable es actualizar nuestro sistema operativo con sudo apt update y sudo apt upgrade.
+- Antes de instalar nuestro servicio, lo recomendable es actualizar el sistema operativo con `sudo apt update` y `sudo apt upgrade`.
 
 ![Configuración de servicios de red - actualizar nuestro sistema operativo con sudo apt update y sudo apt upgrade](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-19.jpg "actualizar nuestro sistema operativo con sudo apt update y sudo apt upgrade")
 
-- Procederemos a instalar vsftpd (Very Secure FTP Daemon por sus siglas en inglés) el cual es un servidor FTP para los sistemas tipo unix incluido Linux, este lo haremos con el comando sudo apt install vsftpd
+- Procederemos a instalar **vsftpd** (Very Secure FTP Daemon), un servidor FTP para sistemas tipo Unix, incluido Linux. Lo instalamos con `sudo apt install vsftpd`.
 
 ![Configuración de servicios de red - vsftpd (Very Secure FTP Daemon por sus siglas en inglés)](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-20.jpg "vsftpd (Very Secure FTP Daemon por sus siglas en inglés)")
 
