@@ -6,8 +6,9 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Learn essential strategies for data backup and recovery. Ensure your data's
-  security and availability with effective tools and practices. Discover more!
+  Aprende estrategias esenciales para el respaldo y la recuperación de datos.
+  Garantiza la seguridad y disponibilidad de tu información con herramientas y
+  prácticas efectivas. ¡Descubre más!
 ---
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
 
