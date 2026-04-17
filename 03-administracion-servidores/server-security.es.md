@@ -14,7 +14,7 @@ description: >-
 
 Los firewall son una pieza clave en la seguridad de nuestros servidores, por lo que como administradores de sistemas es necesario que sepamos cómo configurarlo. Recordemos que un firewall actúa como una barrera entre tu servidor y posibles amenazas externas, controlando el tráfico de red y permitiendo o bloqueando conexiones según las reglas establecidas.
 
-En Linux, uno de los firewalls más utilizados es iptables, que es una herramienta de filtrado de paquetes integrada en el kernel del sistema operativo. Sin embargo, iptables puede resultar complejo de configurar debido a su sintaxis y reglas. Por esta razón, muchas distribuciones de Linux han adoptado herramientas de administración de firewall más amigables, como UFW (Uncomplicated Firewall) en Ubuntu y CentOS, o firewalld en Fedora.
+En Linux, durante años el motor de filtrado de paquetes del kernel fue `iptables`; hoy el reemplazo moderno es `nftables`, aunque muchas distribuciones siguen ofreciendo una interfaz `iptables` compatible por encima. Como configurar reglas a bajo nivel es complejo, las distribuciones suelen ofrecer frontends más amigables: **UFW** (Uncomplicated Firewall) en Debian/Ubuntu, y **firewalld** en RHEL, CentOS Stream, Rocky Linux, AlmaLinux y Fedora.
 
 Para configurar un firewall utilizando UFW, puedes utilizar comandos sencillos que simplifican el proceso. Por ejemplo, para permitir el tráfico SSH en tu servidor, puedes ejecutar el comando "sudo ufw allow ssh". Esto abrirá el puerto 22, que es el puerto predeterminado para SSH, y permitirá las conexiones entrantes.
 
