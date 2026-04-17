@@ -38,12 +38,13 @@ Como administradores de servidores es normal preguntarse cuál es el mejor siste
 
 Estas son las ventajas que podemos tener al utilizar Linux como sistema operativo en un servidor:
 
-| Estabilidad y fiabilidad | Una de las características más conocidas de Linux es su estabilidad y su fiabilidad. Esto es especialmente importante en entornos de servidor, ya que la disponibilidad y el tiempo de actividad es un elemento crítico dentro del entorno. |
+| Ventaja | Descripción |
 | --- | --- |
-| Seguridad | Linux es conocido por tener sistema operativo robusto en términos de seguridad. Al ser de código abierto, miles de desarrolladores en todo el mundo trabajan constantemente para identificar y solucionar vulnerabilidades, además, la estructura de permisos y la capacidad de personalizar la configuración de seguridad, hacen de Linux una opción segura para servidores. |
-| Flexibilidad y personalización | Linux nos ofrece una gran flexibilidad y capacidad de personalización, estas características hacen que los administradores de servidores puedan elegir entre una amplia variedad de distribuciones y configurar el sistema según sus necesidades específicas, así, optimizando el rendimiento y adaptar el sistema a los requisitos del sistema |
-| Costo |  Al ser un sistema operativo de código abierto, Linux no requiere el pago de licencias, lo que puede suponer en un ahorro significativo en comparación con otros sistemas operativos comerciales, además, los usuarios pueden tener acceso al código fuente y así modificarlo y adaptarlo según sus necesidades. |
-| Comunidad y soporte |  Linux cuenta con una gran comunidad de usuarios y desarrolladores que ofrecen soporte y asistencia, podemos conseguir una amplia gama de recursos en línea, foros y documentación disponible para resolver problemas y obtener ayuda en caso de necesitarlo. |
+| Estabilidad y fiabilidad | Una de las características más conocidas de Linux es su estabilidad y fiabilidad. Esto es especialmente importante en entornos de servidor, ya que la disponibilidad y el tiempo de actividad son elementos críticos dentro del entorno. |
+| Seguridad | Linux es conocido por ser un sistema operativo robusto en términos de seguridad. Al ser de código abierto, miles de desarrolladores en todo el mundo trabajan constantemente para identificar y solucionar vulnerabilidades; además, la estructura de permisos y la capacidad de personalizar la configuración de seguridad hacen de Linux una opción segura para servidores. |
+| Flexibilidad y personalización | Linux ofrece una gran flexibilidad y capacidad de personalización. Estas características permiten a los administradores de servidores elegir entre una amplia variedad de distribuciones y configurar el sistema según sus necesidades específicas, optimizando el rendimiento y adaptándolo a los requisitos del proyecto. |
+| Coste | Al ser un sistema operativo de código abierto, Linux no requiere el pago de licencias, lo que puede suponer un ahorro significativo frente a otros sistemas operativos comerciales. Además, los usuarios tienen acceso al código fuente y pueden modificarlo y adaptarlo según sus necesidades. |
+| Comunidad y soporte | Linux cuenta con una gran comunidad de usuarios y desarrolladores que ofrecen soporte y asistencia. Existe una amplia gama de recursos en línea, foros y documentación disponibles para resolver problemas y obtener ayuda cuando sea necesario. |
 
 ### Conceptos básicos para administración de servidores
 
