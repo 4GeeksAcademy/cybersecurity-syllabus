@@ -117,12 +117,12 @@ Para configurar nuestra clave pública y privada para autenticarnos dentro del s
 
 ![Configuración del firewall - ssh usuario](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-16.jpg)
 
-5. Aunque tengamos la cuenta SSH configurada, el mecanismo de autenticación basado en contraseña sigue activo, por lo que vamos a hacer un cambio en el archivo ubicado en la ruta `/etc/ssh/sshd_config` con nuestro editor de código.
-6. Ubicamos la directiva PasswordAuthentication y la activamos quitándole el #, nos aseguramos que el valor de la directiva sea no.
+4. Aunque tengamos la cuenta SSH configurada, el mecanismo de autenticación basado en contraseña sigue activo, por lo que vamos a modificar el archivo `/etc/ssh/sshd_config` con nuestro editor de código.
+5. Localizamos la directiva `PasswordAuthentication`, la descomentamos (quitando el `#` del inicio de la línea) y establecemos su valor a `no`.
     
 ![Configuración del firewall - PasswordAuthentication](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-17.jpg)
 
-7. Reiniciamos el servicio ssh con el comando `systemctl restart ssh`
+6. Reiniciamos el servicio SSH con `sudo systemctl restart ssh` (el nombre del servicio es `ssh` en Debian/Ubuntu y `sshd` en RHEL/Rocky/AlmaLinux/Fedora).
 
 ## Configuración de registros de auditoría (logs) del sistema.
 
