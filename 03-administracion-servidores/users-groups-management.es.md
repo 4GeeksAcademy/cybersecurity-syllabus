@@ -50,7 +50,7 @@ Como administradores de sistema, es importante saber y conocer cómo gestionar y
 
 Cuando manejamos un servidor una de las mejores prácticas para proteger la información es poniendo en práctica el principio del menor privilegio, el cual consiste en asignarle los permisos de accesos mínimos necesarios para que pueda desempeñar actividades en el sistema, para ello es necesario conocer sobre los permisos y cómo gestionarlos.
 
-En linux, lectura (r), escritura (w) y ejecución (x). Estos permisos se asignan a tres grupos de usuarios: el propietario del archivo, el grupo al que pertenece el archivo y otros usuarios. podemos ver estos permisos en los directorios o archivos con el comando: `ls -l`
+En Linux existen tres tipos de permisos: lectura (`r`), escritura (`w`) y ejecución (`x`). Estos permisos se asignan a tres conjuntos de usuarios: el propietario del archivo, el grupo al que pertenece el archivo y el resto de usuarios del sistema. Podemos ver los permisos de archivos y directorios con el comando `ls -l`.
 
 ![Asignación de permisos y privilegios - comando ls](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-privilegios-imagen-1.jpg "comando ls -l nos permite visualizar permisos en los directorios o archivos")
 
@@ -61,8 +61,6 @@ En la siguiente imagen podemos ver como tenemos un archivo llamado `text.txt` el
 - El tercer grupo de de permiso son los permisos para el resto de los usuarios del sistema el cual solo podrán leer el archivo mas no podrán ni escribir o editar sobre el ni ejecutarlos
 
 > 💡 Es normal que a todos los usuarios del sistema los separamos por grupos para que así puedan acceder únicamente a los archivos que necesitan leer, escribir o ejecutar de acuerdo al nivel de privilegios que tenga tal usuario, y así proteger información confidencial de otros departamentos de la organización, una vez que creamos un usuario, es necesario darle permisos de acuerdo a las labores que vaya a realizar en la organización.
-
-</aside>
 
 Con el comando `chmod` podemos cambiar y otorgar permisos a los usuarios sobre un archivo.
 
@@ -88,13 +86,13 @@ Ejecución x (1)
 1. Si queremos gestionar permisos por bits esta cuenta te puede resultar útil
 
 ```txt
-Lectura (r), Escritura (w) Ejecución (x) rwx = 7
-Lectura (r), Escritura (w) rw- =6
-Lectura (r), Ejecución (x) r-x = 5
-Lectura (r) r– = 4
-Escritura (w), Ejecución -wx = 3
-Escritura (w) -w- = 2
-Ejecución (x) –x = 1
+Lectura (r), Escritura (w), Ejecución (x)  rwx = 7
+Lectura (r), Escritura (w)                 rw- = 6
+Lectura (r), Ejecución (x)                 r-x = 5
+Lectura (r)                                r-- = 4
+Escritura (w), Ejecución (x)               -wx = 3
+Escritura (w)                              -w- = 2
+Ejecución (x)                              --x = 1
 ```
 
 2. Colocaremos la cantidad de bits que los permisos que queramos otorgar de acuerdo a la posición de usuario, grupo y otros.
