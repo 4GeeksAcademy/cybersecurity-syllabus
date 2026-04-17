@@ -145,9 +145,17 @@ Podemos ver que su estado es activo y corriendo.
 
 ![Configuración de servicios de red - FTP (File Transfer Protocol)](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-18.jpg)
 
-Otro de los servicios necesarios para nuestro servidor es el FTP (File Transfer Protocol) el cual lo usamos como un medio para enviar recibir archivos a través de una conexion de red usando un marco de referencia de cliente/servidor y seguridad SSL/TLS que permite a los usuarios compartir archivos y recibir desde computadoras remotas a través de una transferencia de datos segura, eficiente y confiable.
+Otro servicio habitual en un servidor es **FTP** (File Transfer Protocol), utilizado para enviar y recibir archivos entre cliente y servidor a través de la red. Es importante dejar claro que el FTP clásico (puerto 21) **transmite las credenciales y los datos en texto plano**, por lo que no es seguro y no debería usarse en redes no confiables.
 
-FTP funciona de la misma manera que HTTP(HypertText Transfer Protocol) o SMTP(Simple Mail Transfer Protocol). La diferencia es que el FTP se encarga de transportar archivos a través de Internet, mientras que el HTTP y el SMTP se encargan de transferir páginas web y correos electrónicos, respectivamente.
+Existen tres variantes relacionadas:
+
+- **FTP**: protocolo original, sin cifrado. No usar en producción.
+- **FTPS**: FTP sobre TLS/SSL (explícito con `AUTH TLS` en el puerto 21, o implícito en el puerto 990). Sí cifra tráfico y credenciales.
+- **SFTP**: SSH File Transfer Protocol. No es FTP; es un subsistema de SSH (puerto 22). Es la opción recomendada hoy por simplicidad y seguridad: si ya tienes SSH, tienes SFTP.
+
+FTP funciona de manera análoga a HTTP (HyperText Transfer Protocol) o SMTP (Simple Mail Transfer Protocol). La diferencia es que FTP está diseñado para transferir archivos, mientras que HTTP transfiere páginas web y SMTP correos electrónicos.
+
+> ⚠️ En un curso de ciberseguridad, la recomendación por defecto es **SFTP**. Si necesitas específicamente FTP, usa siempre **FTPS** con TLS obligatorio. A continuación mostramos la instalación de `vsftpd` como ejemplo didáctico; al final incluiremos la configuración TLS.
 
 Para instalar este servicio en nuestro servidor podemos seguir los siguientes pasos:
 
