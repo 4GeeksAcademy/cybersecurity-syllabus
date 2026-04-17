@@ -107,7 +107,9 @@ Saber cómo configurar y asignar un usuario a un grupo en específico es ideal c
 
 Para ello tenemos comandos que nos pueden ayudar tales como `groupadd` para crear un grupo.
 
-Para este ejercicio hemos creado un grupo llamado departamentomarketing, ya una vez creado podremos agregar al usuario al grupo con el comando adduser seguido del nombre de usuario y el grupo al cual queremos que pertenezca.
+Para este ejercicio hemos creado un grupo llamado `departamentomarketing`. Una vez creado, podemos añadir al usuario al grupo con `sudo adduser <usuario> <grupo>`, seguido del nombre de usuario y del grupo al que queremos que pertenezca.
+
+> 📝 `adduser` y `deluser` son comandos específicos de Debian/Ubuntu (son wrappers de alto nivel sobre `useradd` y `userdel`). En RHEL, CentOS Stream, Rocky y AlmaLinux no están disponibles con esta sintaxis; allí la alternativa portable para añadir a un grupo es `sudo usermod -aG <grupo> <usuario>`, y para eliminarlo, `sudo gpasswd -d <usuario> <grupo>`.
 
 ![Configuración de grupos y asignación de usuarios - comando groupadd para agregar grupos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-grupos-imagen-1.jpg "groupadd para agregar grupos")
 
