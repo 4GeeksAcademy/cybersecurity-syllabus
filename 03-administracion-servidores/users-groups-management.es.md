@@ -16,7 +16,7 @@ En un sistema Linux, el usuario **root** es el único con privilegios absolutos 
 
 Como administradores de sistemas, saber como crear y gestionar las cuentas de los usuarios de nuestro sistema es algo que necesitamos conocer y dominar, ya que los usuarios son las personas o entidades que van a interactuar con el servidor y van a requerir acceso a recursos y servicios específicos. Crear una cuenta de usuario no es algo difícil en Linux, involucra también crear contraseña y asignarlo a un grupo y permisos. Aquí les dejamos un ejemplo de como crear y gestionar una cuenta de usuario, para ello abriremos la máquina virtual de nuestro servidor y seguiremos los siguientes pasos:
 
-- Para crear a un usuario, usaremos el comando `useradd` seguido del nombre de usuario, una vez ingresado el comando se pedirá que ingrese una contraseña para el usuario
+- Para crear un usuario en Debian/Ubuntu lo más sencillo es `sudo adduser <usuario>`, que de forma interactiva crea el directorio `/home/<usuario>`, pide la contraseña y algunos datos. Si usas `useradd` directamente (disponible en todas las distros), recuerda pasar `-m` para crear el home y establecer la contraseña después con `passwd <usuario>`: `useradd` por sí solo **no** pide contraseña.
 
 ![Creación y gestión de cuentas de usuario - crear usuario](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-1.jpg)
 
@@ -24,7 +24,7 @@ Como administradores de sistemas, saber como crear y gestionar las cuentas de lo
 
 ![Creación y gestión de cuentas de usuario - comando password](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-2.jpg)
 
-- Una forma de facilitar la administración de permisos de directorios y archivos son a través de los grupos, podemos crear grupos con el comando **groupadd** y asignar al usuario en el grupo con el comando `usermod` junto a las flags `a` (para agregar a grupo) y `G` para agregar a grupo secundario, si queremos ver los grupos al que pertenece el usuario en el sistema usamos el comando groups.
+- Una forma de facilitar la administración de permisos sobre archivos y directorios es a través de los grupos. Podemos crear un grupo con `groupadd <grupo>` y añadir a un usuario a un grupo secundario con `usermod -aG <grupo> <usuario>`. La combinación `-aG` es importante: `-G` indica la lista de grupos suplementarios y `-a` (*append*) evita sobrescribir los grupos a los que ya pertenece el usuario. Para ver los grupos a los que pertenece un usuario usamos `groups <usuario>`.
 
 ![Creación y gestión de cuentas de usuario - crear grupos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/users-groups-management/administracion-basica-de-usuarios-imagen-3.jpg)
 
