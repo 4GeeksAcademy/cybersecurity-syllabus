@@ -6,15 +6,16 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Learn how to configure essential network services like HTTP and FTP on your
-  server to enhance security. Discover practical steps for a robust setup!
+  Aprende a configurar servicios de red esenciales como HTTP y FTP en tu
+  servidor para reforzar la seguridad. Descubre los pasos prácticos para una
+  configuración robusta.
 
 ---
 ## **Configuración de la interfaz de red**
 
 La interfaz de red y su configuración es una de las partes más importantes de un servidor y las labores de un administrador de sistemas, ya que con la interfaz de red podemos establecer la conectividad y permitir que el servidor se comunique con otros dispositivos en la red.
 
-Para poder entablar una conexión con otros dispositivos lo primero que tenemos que hacer es asignarle una IP a nuestro servidor bien sea de una forma estática en la cual nosotros le asignamos la IP y la agregamos manualmente, ò dinámica donde dejamos que un servidor DHCP sea que asigne una dirección IP temporal.
+Para poder entablar una conexión con otros dispositivos lo primero que tenemos que hacer es asignarle una IP a nuestro servidor, bien sea de forma **estática** (nosotros asignamos la IP manualmente) o **dinámica** (dejamos que un servidor DHCP le asigne una dirección IP temporal).
 
 La elección entre una dirección IP dinámica o estática para un servidor depende de varios factores y requisitos específicos. Aquí hay algunas consideraciones que pueden ayudarte a tomar una decisión informada:
 
