@@ -25,11 +25,11 @@ La elección entre una dirección IP dinámica o estática para un servidor depe
 
 Después de estas consideraciones podemos indicar que la mejor configuración de IP es estática para nuestro servidor, para lograr esta configuración hacemos los siguientes pasos.
 
-Usamos el comando `ifconfig` para conocer cuál es nuestra interfaz de red.
+Usamos el comando `ip addr show` (o su forma abreviada `ip a`) para conocer cuál es nuestra interfaz de red. En sistemas modernos (Debian 10+, Ubuntu 18.04+, RHEL 7+) `ifconfig` está deprecado y el paquete `net-tools` no se instala por defecto; `ip` es el reemplazo oficial del proyecto iproute2.
 
-![Configuración de la interfaz de red - comando ifconfig para conocer cuál es nuestra interfaz](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-1.jpg)
+![Configuración de la interfaz de red - comando ip addr show para conocer cuál es nuestra interfaz](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-1.jpg)
 
-lo podemos identificar como la primera interfaz que tenemos del resultado “enp0s3”
+Podemos identificar nuestra interfaz principal en el resultado (por ejemplo `enp0s3` en máquinas VirtualBox).
 
 Generalmente en las distribuciones debian, las interfaces de red se configuraban a través del archivo **/etc/network/interfaces**, en el caso de ubuntu, desde la version 17.10, se cambio las configuraciones de la interfaz de red a la utilidad netplan, el cual genera un archivo YAML para facilitar la configuraciones de red. Accederemos a este archivo con un editor de código a la ruta `/etc/netplan/00-installer-config-yaml`
 
