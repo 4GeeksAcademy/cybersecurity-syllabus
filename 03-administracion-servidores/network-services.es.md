@@ -31,7 +31,7 @@ Usamos el comando `ip addr show` (o su forma abreviada `ip a`) para conocer cuá
 
 Podemos identificar nuestra interfaz principal en el resultado (por ejemplo `enp0s3` en máquinas VirtualBox).
 
-Generalmente en las distribuciones debian, las interfaces de red se configuraban a través del archivo **/etc/network/interfaces**, en el caso de ubuntu, desde la version 17.10, se cambio las configuraciones de la interfaz de red a la utilidad netplan, el cual genera un archivo YAML para facilitar la configuraciones de red. Accederemos a este archivo con un editor de código a la ruta `/etc/netplan/00-installer-config-yaml`
+Generalmente en las distribuciones Debian las interfaces de red se configuran a través del archivo `/etc/network/interfaces`. En Ubuntu, desde la versión 17.10, la configuración de red pasó a la utilidad **netplan**, que genera un archivo YAML para facilitar la configuración. Accederemos a este archivo con un editor de código en la ruta `/etc/netplan/00-installer-config.yaml`. El nombre exacto puede variar según la instalación (por ejemplo `01-netcfg.yaml`); si no estás seguro, lista el directorio con `ls /etc/netplan/`.
 
 ![Configuración de la interfaz de red - Accederemos a este archivo con un editor de código a la ruta /etc/netplan/00-installer-config-yaml](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-2.jpg "Accederemos a este archivo con un editor de código a la ruta /etc/netplan/00-installer-config-yaml")
 
