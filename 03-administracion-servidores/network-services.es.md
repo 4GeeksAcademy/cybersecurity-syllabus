@@ -122,9 +122,11 @@ Vamos a configurar nuestro servidor HTTP con Apache aplicando los siguientes pas
     - **Apache Secure**: este perfil abre solo el puerto 443 (tráfico TLS/SSL cifrado)
     - Habilitamos el perfil más restrictivo el cual sería Apache permitiendo el tráfico en el puerto 80 (puerto http)
 
-### sudo ufw allow “Apache”
+```bash
+sudo ufw allow "Apache"
+```
 
-![sudo ufw allow “Apache”](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-12.jpg "sudo ufw allow “Apache”")
+![sudo ufw allow "Apache"](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-12.jpg "sudo ufw allow Apache")
 
 Podemos corroborar los cambios usando el comando sudo ufw status
 
