@@ -3,8 +3,8 @@ title: Qué es cron y cómo usarlo para programar tareas
 tags:
   - servidores
   - cron-jobs
-  - tareas de sistemas
-  - procesamiento de tareas
+  - tareas-de-sistema
+  - procesamiento-de-tareas
 authors:
   - blindma1den
   - lorenagubaira
