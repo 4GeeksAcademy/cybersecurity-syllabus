@@ -34,7 +34,7 @@ Durante este módulo vamos a explorar todas las ventajas que vamos a tener al tr
 
 ### Ventajas de Linux como sistema operativo de servidor
 
-Como administradores de servidores es normal preguntarse cuál es el mejor sistema operativo para usar en nuestro servidor, en módulos anteriores hemos hablado de GNU/Linux y mencionamos que es un sistema operativo de código abierto basado en unix, la realidad es que GNU/Linux se ha convertido en una opción popular para servidores en entornos empresariales y de desarrollo, principalmente para las pequeñas y medianas empresas que dependen en gran medida de la estabilidad de sus sitios web, una de las ventajas que ofrece linux es una mayor estabilidad y seguridad, además de permitir manejar con fluidez un mayor número de procesos
+Como administradores de servidores es normal preguntarse cuál es el mejor sistema operativo para nuestro servidor. En módulos anteriores hemos hablado de GNU/Linux y mencionamos que es un sistema operativo de código abierto tipo Unix (Unix-like), es decir, sigue muchos principios de diseño de Unix sin derivar de su código. GNU/Linux se ha convertido en una opción popular para servidores en entornos empresariales y de desarrollo, sobre todo para pequeñas y medianas empresas que dependen en gran medida de la estabilidad de sus servicios en línea. Entre sus ventajas destacan la estabilidad, la seguridad y la capacidad para manejar con fluidez un gran número de procesos.
 
 Estas son las ventajas que podemos tener al utilizar Linux como sistema operativo en un servidor:
 
