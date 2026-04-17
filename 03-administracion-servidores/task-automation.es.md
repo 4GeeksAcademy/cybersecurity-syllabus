@@ -1,5 +1,5 @@
 ---
-title: Ques el cron y como usarlo para programar tareas
+title: Qué es cron y cómo usarlo para programar tareas
 tags:
   - servidores
   - cron-jobs
