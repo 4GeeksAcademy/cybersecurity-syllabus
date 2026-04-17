@@ -18,7 +18,7 @@ La configuración de tareas en cron se realiza a través de archivos llamados "c
 
 El formato de un crontab consta de cinco campos separados por espacios: minutos, horas, día del mes, mes y día de la semana. Puedes utilizar números o asteriscos (*) para indicar todos los valores posibles en un campo. 
 
-Por ejemplo, si deseas que un script the python se ejecute todos los días a las 8:00 a.m., puedes configurar el crontab de la siguiente manera:
+Por ejemplo, si deseas que un script de Python se ejecute todos los días a las 8:00 a. m., puedes configurar el crontab de la siguiente manera:
 
 ```txt
 0 8 * * * python <ruta al archivo.py>
