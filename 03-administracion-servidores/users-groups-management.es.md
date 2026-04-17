@@ -6,13 +6,13 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Master the basics of user and group management in Linux servers. Learn
-  essential practices for secure user administration and permission assignment.
-  Discover more!
+  Domina los fundamentos de la gestión de usuarios y grupos en servidores
+  Linux. Aprende prácticas esenciales para administrar usuarios de forma segura
+  y asignar permisos. ¡Descubre más!
 ---
 ## Creación y gestión de cuentas de Usuario.
 
-Dentro del sistema, el administrador de sistema tiene el privilegio de ser el usuario root el cual significa que es el único usuario autorizado todos la creación de usuario y grupos y administración de todos estos archivos. Esta práctica no es recomendable ya que en algún caso de error, podemos causar fallas graves al sistema por lo que en el transcurso de las siguientes prácticas estamos bajo un usuario de sistema y le otorgamos privilegios de superusuarios con sudo.
+En un sistema Linux, el usuario **root** es el único con privilegios absolutos para crear y administrar usuarios, grupos y los archivos de configuración asociados. Trabajar directamente como root no es recomendable: cualquier error puede causar fallos graves en el sistema. Por eso, durante las siguientes prácticas usaremos un usuario normal y elevaremos privilegios puntualmente con `sudo`.
 
 Como administradores de sistemas, saber como crear y gestionar las cuentas de los usuarios de nuestro sistema es algo que necesitamos conocer y dominar, ya que los usuarios son las personas o entidades que van a interactuar con el servidor y van a requerir acceso a recursos y servicios específicos. Crear una cuenta de usuario no es algo difícil en Linux, involucra también crear contraseña y asignarlo a un grupo y permisos. Aquí les dejamos un ejemplo de como crear y gestionar una cuenta de usuario, para ello abriremos la máquina virtual de nuestro servidor y seguiremos los siguientes pasos:
 
