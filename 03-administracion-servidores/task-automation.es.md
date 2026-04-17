@@ -88,7 +88,7 @@ El archivo crontab tiene un formato específico que consta de cinco campos separ
 0 8 * * * comando
 ```
 
-En esta línea, "0" representa los minutos (en este caso, 0), "8" representa las horas (8:00 a.m.), y los asteriscos (*indican que cualquier valor es válido para los campos restantes.
+En esta línea, `0` representa los minutos (en este caso, 0), `8` representa las horas (8:00 a. m.), y los asteriscos (`*`) indican que cualquier valor es válido para los campos restantes.
 
 Además de los valores numéricos, también puedes utilizar expresiones especiales en los campos de tiempo. Por ejemplo, "@daily" se traduce en "0 0 * * *", lo que significa que la tarea se ejecutará todos los días a la medianoche. Otras expresiones útiles incluyen "@hourly", "@weekly" y "@monthly".
 
