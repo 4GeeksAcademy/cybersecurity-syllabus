@@ -70,7 +70,9 @@ De acuerdo a la documentación de netplan la forma de agregar nuestras DNS es a 
 
 **nameservers:**
 
-Ya que estamos trabajando con un servidor, la DNS principal que usaremos sera la misma IP de nuestro servidor, la alternativa sera una DNS publica
+En el archivo de netplan configuramos una o más direcciones DNS que el servidor usará para resolver nombres. Por defecto, para un servidor web/FTP/genérico, lo habitual es apuntar a un par de resolvers DNS públicos (Cloudflare, Google, OpenDNS) o a los del proveedor de red.
+
+> ⚠️ Apuntar como DNS primaria a la **propia IP del servidor** solo tiene sentido si ese servidor está ejecutando un servicio de resolución DNS (por ejemplo BIND, Unbound o dnsmasq). En caso contrario, dejará al servidor sin resolución de nombres.
 
 ![Configuración de la resolución de nombres - DNS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-7.jpg)
 
