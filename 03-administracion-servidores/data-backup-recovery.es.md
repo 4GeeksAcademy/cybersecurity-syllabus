@@ -19,8 +19,9 @@ Como analistas de ciberseguridad y administradores de seguridad la planificació
 
 Unos aspectos importantes que tenemos que tomar en consideración cuando trabajemos en nuestros respaldos son:
 
-| Identificación de los datos críticos |  El primer paso es identificar los datos más importantes que se encuentran en el servidor Linux. Esto puede incluir archivos de configuración, bases de datos, archivos de registro y cualquier otro dato esencial para el funcionamiento de la infraestructura. Estos datos deben ser respaldados de manera prioritaria y frecuente. |
+| Aspecto | Descripción |
 | --- | --- |
+| Identificación de los datos críticos | El primer paso es identificar los datos más importantes que se encuentran en el servidor Linux. Esto puede incluir archivos de configuración, bases de datos, archivos de registro y cualquier otro dato esencial para el funcionamiento de la infraestructura. Estos datos deben ser respaldados de manera prioritaria y frecuente. |
 | Selección de la herramienta de respaldo | Existen varias herramientas de respaldo disponibles para servidores Linux, como rsync, tar, Bacula, entre otras. Es importante seleccionar una herramienta que se ajuste a las necesidades específicas de tu servidor y que permita realizar respaldos de manera eficiente y confiable. |
 | Definición de la estrategia de respaldo | La estrategia de respaldo puede incluir respaldos completos, incrementales o diferenciales. Los respaldos completos copian todos los datos seleccionados, mientras que los incrementales y diferenciales solo respaldan los cambios realizados desde el último respaldo. Es importante evaluar cuál estrategia se ajusta mejor a tus necesidades en términos de tiempo, espacio de almacenamiento y capacidad de recuperación. |
 | Programación de los respaldos | Es recomendable establecer una programación regular para los respaldos. Esto puede incluir respaldos diarios, semanales o mensuales, dependiendo de la criticidad de los datos y la frecuencia de cambios en el servidor. Además, es importante considerar el impacto en el rendimiento del servidor durante el proceso de respaldo. |
