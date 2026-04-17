@@ -6,15 +6,16 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Learn how to configure essential network services like HTTP and FTP on your
-  server to enhance security. Discover practical steps for a robust setup!
+  Aprende a configurar servicios de red esenciales como HTTP y FTP en tu
+  servidor para reforzar la seguridad. Descubre los pasos prácticos para una
+  configuración robusta.
 
 ---
 ## **Configuración de la interfaz de red**
 
 La interfaz de red y su configuración es una de las partes más importantes de un servidor y las labores de un administrador de sistemas, ya que con la interfaz de red podemos establecer la conectividad y permitir que el servidor se comunique con otros dispositivos en la red.
 
-Para poder entablar una conexión con otros dispositivos lo primero que tenemos que hacer es asignarle una IP a nuestro servidor bien sea de una forma estática en la cual nosotros le asignamos la IP y la agregamos manualmente, ò dinámica donde dejamos que un servidor DHCP sea que asigne una dirección IP temporal.
+Para poder entablar una conexión con otros dispositivos lo primero que tenemos que hacer es asignarle una IP a nuestro servidor, bien sea de forma **estática** (nosotros asignamos la IP manualmente) o **dinámica** (dejamos que un servidor DHCP le asigne una dirección IP temporal).
 
 La elección entre una dirección IP dinámica o estática para un servidor depende de varios factores y requisitos específicos. Aquí hay algunas consideraciones que pueden ayudarte a tomar una decisión informada:
 
@@ -25,13 +26,13 @@ La elección entre una dirección IP dinámica o estática para un servidor depe
 
 Después de estas consideraciones podemos indicar que la mejor configuración de IP es estática para nuestro servidor, para lograr esta configuración hacemos los siguientes pasos.
 
-Usamos el comando `ifconfig` para conocer cuál es nuestra interfaz de red.
+Usamos el comando `ip addr show` (o su forma abreviada `ip a`) para conocer cuál es nuestra interfaz de red. En sistemas modernos (Debian 10+, Ubuntu 18.04+, RHEL 7+) `ifconfig` está deprecado y el paquete `net-tools` no se instala por defecto; `ip` es el reemplazo oficial del proyecto iproute2.
 
-![Configuración de la interfaz de red - comando ifconfig para conocer cuál es nuestra interfaz](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-1.jpg)
+![Configuración de la interfaz de red - comando ip addr show para conocer cuál es nuestra interfaz](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-1.jpg)
 
-lo podemos identificar como la primera interfaz que tenemos del resultado “enp0s3”
+Podemos identificar nuestra interfaz principal en el resultado (por ejemplo `enp0s3` en máquinas VirtualBox).
 
-Generalmente en las distribuciones debian, las interfaces de red se configuraban a través del archivo **/etc/network/interfaces**, en el caso de ubuntu, desde la version 17.10, se cambio las configuraciones de la interfaz de red a la utilidad netplan, el cual genera un archivo YAML para facilitar la configuraciones de red. Accederemos a este archivo con un editor de código a la ruta `/etc/netplan/00-installer-config-yaml`
+Generalmente en las distribuciones Debian las interfaces de red se configuran a través del archivo `/etc/network/interfaces`. En Ubuntu, desde la versión 17.10, la configuración de red pasó a la utilidad **netplan**, que genera un archivo YAML para facilitar la configuración. Accederemos a este archivo con un editor de código en la ruta `/etc/netplan/00-installer-config.yaml`. El nombre exacto puede variar según la instalación (por ejemplo `01-netcfg.yaml`); si no estás seguro, lista el directorio con `ls /etc/netplan/`.
 
 ![Configuración de la interfaz de red - Accederemos a este archivo con un editor de código a la ruta /etc/netplan/00-installer-config-yaml](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-2.jpg "Accederemos a este archivo con un editor de código a la ruta /etc/netplan/00-installer-config-yaml")
 
@@ -69,7 +70,9 @@ De acuerdo a la documentación de netplan la forma de agregar nuestras DNS es a 
 
 **nameservers:**
 
-Ya que estamos trabajando con un servidor, la DNS principal que usaremos sera la misma IP de nuestro servidor, la alternativa sera una DNS publica
+En el archivo de netplan configuramos una o más direcciones DNS que el servidor usará para resolver nombres. Por defecto, para un servidor web/FTP/genérico, lo habitual es apuntar a un par de resolvers DNS públicos (Cloudflare, Google, OpenDNS) o a los del proveedor de red.
+
+> ⚠️ Apuntar como DNS primaria a la **propia IP del servidor** solo tiene sentido si ese servidor está ejecutando un servicio de resolución DNS (por ejemplo BIND, Unbound o dnsmasq). En caso contrario, dejará al servidor sin resolución de nombres.
 
 ![Configuración de la resolución de nombres - DNS](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-7.jpg)
 
@@ -83,9 +86,9 @@ Les dejamos una lista de DNS públicas que pueden usar para la red
 
 Para esta configuración usaremos la DNS google
 
-Una vez editado el archivo YAML aplicamos el comando netplan apply
+Una vez editado el archivo YAML aplicamos el comando `sudo netplan apply`.
 
-Si queremos corroborar que tenemos conexion, usamos el comando ping junto a nuestro servidor alternativo
+Si queremos corroborar que tenemos conexión, usamos el comando `ping` junto a nuestro servidor alternativo.
 
 ![Configuración de la resolución de nombres - comando ping](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-8.jpg "comando ping")
 
@@ -97,18 +100,18 @@ Uno de los servicios de red más comunes en servidores Linux es el servidor web,
 
 Vamos a configurar nuestro servidor HTTP con Apache aplicando los siguientes pasos:
 
-- Instalamos Apache habiendo actualizando los paquetes locales previamente con **sudo apt update.**
+- Instalamos Apache tras actualizar los paquetes locales previamente con `sudo apt update`.
     
     ![Configuración de servicios de red](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-9.jpg)
 
-- Una vez actualizados los paquetes instalamos nuestro servidor apache **sudo apt install apache2.**
+- Una vez actualizados los paquetes instalamos nuestro servidor Apache con `sudo apt install apache2`.
     
     ![Configuración de servicios de red - firewall](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-10.jpg)
 
 - Antes de probar apache, es necesario modificar unos ajustes de firewall para permitir acceso externo a los puertos web predeterminados, durante la instalación, Apache se registra con UFW para proporcionar algunos perfiles de aplicaciones que pueden utilizarse para habilitar o deshabilitar el acceso a Apache a través del firewall.
     
     
-- Con el comando sudo ufw app list tendremos una lista de los perfiles de aplicación.
+- Con el comando `sudo ufw app list` tendremos una lista de los perfiles de aplicación.
     
     ![Configuración de servicios de red - sudo ufw](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-11.jpg)
     
@@ -119,43 +122,53 @@ Vamos a configurar nuestro servidor HTTP con Apache aplicando los siguientes pas
     - **Apache Secure**: este perfil abre solo el puerto 443 (tráfico TLS/SSL cifrado)
     - Habilitamos el perfil más restrictivo el cual sería Apache permitiendo el tráfico en el puerto 80 (puerto http)
 
-### sudo ufw allow “Apache”
+```bash
+sudo ufw allow "Apache"
+```
 
-![sudo ufw allow “Apache”](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-12.jpg "sudo ufw allow “Apache”")
+![sudo ufw allow "Apache"](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-12.jpg "sudo ufw allow Apache")
 
-Podemos corroborar los cambios usando el comando sudo ufw status
+Podemos corroborar los cambios usando el comando `sudo ufw status`.
 
 ![sudo ufw status](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-13.jpg "sudo ufw status")
 
-En algunos casos podemos tener una respuesta de Status: Inactive, esto ocurre porque el firewall está inactivo, para activarlo usamos el comando sudo ufw enable, y volvemos a chequear el status
+En algunos casos podemos tener una respuesta `Status: inactive`; esto ocurre porque el firewall está desactivado. Para activarlo usamos el comando `sudo ufw enable` y volvemos a comprobar el estado.
 
 ![Network Services Configuration](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-14.jpg)
 
 ![Configuración de servicios de red - comando sudo systemctl status apache2](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-15.jpg)
 
-- Ya una vez habiendo permitido el tráfico al puerto HTTP revisamos el estatus de nuestro servidor con el comando sudo systemctl status apache2
+- Una vez permitido el tráfico en el puerto HTTP, revisamos el estado de nuestro servidor con `sudo systemctl status apache2`.
 
 ![Configuración de servicios de red - Servidor activo](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-16.jpg)
 
 Podemos ver que su estado es activo y corriendo.
 
-- Otra forma de comprobar que nuestro servidor está activo es haciendo una solicitud de página, si no estamos seguro de la dirección IP de nuestro servidor, usamos el comando hostname -I y nos devolverá la IP la cual abriremos en un navegador web para comprobar que esté activo.
+- Otra forma de comprobar que nuestro servidor está activo es haciendo una solicitud HTTP. Si no estamos seguros de la dirección IP de nuestro servidor, usamos el comando `hostname -I` y nos devolverá la IP, que abriremos en un navegador web para comprobar que esté activo.
 
 ![Configuración de servicios de red - Host Name -I](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-17.jpg)
 
 ![Configuración de servicios de red - FTP (File Transfer Protocol)](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-18.jpg)
 
-Otro de los servicios necesarios para nuestro servidor es el FTP (File Transfer Protocol) el cual lo usamos como un medio para enviar recibir archivos a través de una conexion de red usando un marco de referencia de cliente/servidor y seguridad SSL/TLS que permite a los usuarios compartir archivos y recibir desde computadoras remotas a través de una transferencia de datos segura, eficiente y confiable.
+Otro servicio habitual en un servidor es **FTP** (File Transfer Protocol), utilizado para enviar y recibir archivos entre cliente y servidor a través de la red. Es importante dejar claro que el FTP clásico (puerto 21) **transmite las credenciales y los datos en texto plano**, por lo que no es seguro y no debería usarse en redes no confiables.
 
-FTP funciona de la misma manera que HTTP(HypertText Transfer Protocol) o SMTP(Simple Mail Transfer Protocol). La diferencia es que el FTP se encarga de transportar archivos a través de Internet, mientras que el HTTP y el SMTP se encargan de transferir páginas web y correos electrónicos, respectivamente.
+Existen tres variantes relacionadas:
+
+- **FTP**: protocolo original, sin cifrado. No usar en producción.
+- **FTPS**: FTP sobre TLS/SSL (explícito con `AUTH TLS` en el puerto 21, o implícito en el puerto 990). Sí cifra tráfico y credenciales.
+- **SFTP**: SSH File Transfer Protocol. No es FTP; es un subsistema de SSH (puerto 22). Es la opción recomendada hoy por simplicidad y seguridad: si ya tienes SSH, tienes SFTP.
+
+FTP funciona de manera análoga a HTTP (HyperText Transfer Protocol) o SMTP (Simple Mail Transfer Protocol). La diferencia es que FTP está diseñado para transferir archivos, mientras que HTTP transfiere páginas web y SMTP correos electrónicos.
+
+> ⚠️ En un curso de ciberseguridad, la recomendación por defecto es **SFTP**. Si necesitas específicamente FTP, usa siempre **FTPS** con TLS obligatorio. A continuación mostramos la instalación de `vsftpd` como ejemplo didáctico; al final incluiremos la configuración TLS.
 
 Para instalar este servicio en nuestro servidor podemos seguir los siguientes pasos:
 
-- Antes de instalar nuestro servicio, lo recomendable es actualizar nuestro sistema operativo con sudo apt update y sudo apt upgrade.
+- Antes de instalar nuestro servicio, lo recomendable es actualizar el sistema operativo con `sudo apt update` y `sudo apt upgrade`.
 
 ![Configuración de servicios de red - actualizar nuestro sistema operativo con sudo apt update y sudo apt upgrade](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-19.jpg "actualizar nuestro sistema operativo con sudo apt update y sudo apt upgrade")
 
-- Procederemos a instalar vsftpd (Very Secure FTP Daemon por sus siglas en inglés) el cual es un servidor FTP para los sistemas tipo unix incluido Linux, este lo haremos con el comando sudo apt install vsftpd
+- Procederemos a instalar **vsftpd** (Very Secure FTP Daemon), un servidor FTP para sistemas tipo Unix, incluido Linux. Lo instalamos con `sudo apt install vsftpd`.
 
 ![Configuración de servicios de red - vsftpd (Very Secure FTP Daemon por sus siglas en inglés)](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-services/network-services-image-20.jpg "vsftpd (Very Secure FTP Daemon por sus siglas en inglés)")
 

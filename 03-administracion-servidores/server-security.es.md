@@ -14,11 +14,11 @@ description: >-
 
 Los firewall son una pieza clave en la seguridad de nuestros servidores, por lo que como administradores de sistemas es necesario que sepamos cómo configurarlo. Recordemos que un firewall actúa como una barrera entre tu servidor y posibles amenazas externas, controlando el tráfico de red y permitiendo o bloqueando conexiones según las reglas establecidas.
 
-En Linux, uno de los firewalls más utilizados es iptables, que es una herramienta de filtrado de paquetes integrada en el kernel del sistema operativo. Sin embargo, iptables puede resultar complejo de configurar debido a su sintaxis y reglas. Por esta razón, muchas distribuciones de Linux han adoptado herramientas de administración de firewall más amigables, como UFW (Uncomplicated Firewall) en Ubuntu y CentOS, o firewalld en Fedora.
+En Linux, durante años el motor de filtrado de paquetes del kernel fue `iptables`; hoy el reemplazo moderno es `nftables`, aunque muchas distribuciones siguen ofreciendo una interfaz `iptables` compatible por encima. Como configurar reglas a bajo nivel es complejo, las distribuciones suelen ofrecer frontends más amigables: **UFW** (Uncomplicated Firewall) en Debian/Ubuntu, y **firewalld** en RHEL, CentOS Stream, Rocky Linux, AlmaLinux y Fedora.
 
-Para configurar un firewall utilizando UFW, puedes utilizar comandos sencillos que simplifican el proceso. Por ejemplo, para permitir el tráfico SSH en tu servidor, puedes ejecutar el comando "sudo ufw allow ssh". Esto abrirá el puerto 22, que es el puerto predeterminado para SSH, y permitirá las conexiones entrantes.
+Para configurar un firewall utilizando UFW, puedes utilizar comandos sencillos que simplifican el proceso. Por ejemplo, para permitir el tráfico SSH en tu servidor, puedes ejecutar el comando `sudo ufw allow ssh`. Esto abrirá el puerto 22, que es el puerto predeterminado para SSH, y permitirá las conexiones entrantes.
 
-Además de permitir conexiones específicas, también puedes bloquear puertos no deseados utilizando UFW. Por ejemplo, para bloquear el tráfico en el puerto 80, puedes ejecutar el comando "sudo ufw deny 80". Esto evitará que cualquier conexión entrante o saliente utilice el puerto 80.
+Además de permitir conexiones específicas, también puedes bloquear puertos no deseados utilizando UFW. Por ejemplo, para bloquear el tráfico en el puerto 80, puedes ejecutar el comando `sudo ufw deny 80`. Esto evitará que cualquier conexión entrante o saliente utilice el puerto 80.
 
 Otra herramienta comúnmente utilizada para la configuración de firewall en Linux es firewalld. Firewalld proporciona una interfaz de línea de comandos y una interfaz gráfica para administrar las reglas de firewall. Puedes utilizar comandos como `sudo firewall-cmd --add-service=ssh` para permitir el tráfico SSH, o `sudo firewall-cmd --remove-service=http` para eliminar una regla existente.
 
@@ -117,12 +117,12 @@ Para configurar nuestra clave pública y privada para autenticarnos dentro del s
 
 ![Configuración del firewall - ssh usuario](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-16.jpg)
 
-5. Aunque tengamos la cuenta SSH configurada, el mecanismo de autenticación basado en contraseña sigue activo, por lo que vamos a hacer un cambio en el archivo ubicado en la ruta `/etc/ssh/sshd_config` con nuestro editor de código.
-6. Ubicamos la directiva PasswordAuthentication y la activamos quitándole el #, nos aseguramos que el valor de la directiva sea no.
+4. Aunque tengamos la cuenta SSH configurada, el mecanismo de autenticación basado en contraseña sigue activo, por lo que vamos a modificar el archivo `/etc/ssh/sshd_config` con nuestro editor de código.
+5. Localizamos la directiva `PasswordAuthentication`, la descomentamos (quitando el `#` del inicio de la línea) y establecemos su valor a `no`.
     
 ![Configuración del firewall - PasswordAuthentication](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/server-security/server-security-image-17.jpg)
 
-7. Reiniciamos el servicio ssh con el comando `systemctl restart ssh`
+6. Reiniciamos el servicio SSH con `sudo systemctl restart ssh` (el nombre del servicio es `ssh` en Debian/Ubuntu y `sshd` en RHEL/Rocky/AlmaLinux/Fedora).
 
 ## Configuración de registros de auditoría (logs) del sistema.
 
