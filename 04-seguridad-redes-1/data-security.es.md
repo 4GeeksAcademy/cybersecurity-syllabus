@@ -134,9 +134,9 @@ Ampliemos el concepto del **Triangulo CIA.** El McCumber Cube es un marco modelo
 
 **Como ya vimos nos referimos a:**
 
-- **La confidencialidad** es un conjunto de reglas que evita que la información sensible sea revelada a personas no autorizadas, espacio de recursos y procesos. Los métodos utilizados para garantizar la confidencialidad incluyen **el cifrado** de datos, **la autenticación** y **el control de** acceso.
-- **La integridad** garantiza que la información o los procesos del sistema estén protegidos contra modificaciones intencionales o accidentales. Una forma de garantizar la integridad es utilizar una función **hash** o **suma** de comprobación.
-- **La disponibilidad** significa que los usuarios autorizados pueden acceder a los sistemas y datos cuando y donde sea necesario y aquellos que no cumplen con las condiciones establecidas, no lo son. Esto se puede lograr manteniendo el equipo, **realizando reparaciones de** hardware, **manteniendo los sistemas operativos y el software actualizados, y creando copias** de seguridad .
+- **La confidencialidad** es un conjunto de reglas que evita que la información sensible sea revelada a personas no autorizadas, recursos y procesos. Los métodos utilizados para garantizar la confidencialidad incluyen **el cifrado de datos**, **la autenticación** y **el control de acceso**.
+- **La integridad** garantiza que la información o los procesos del sistema estén protegidos contra modificaciones intencionales o accidentales. Una forma de garantizar la integridad es utilizar una **función hash** o una **suma de comprobación**.
+- **La disponibilidad** significa que los usuarios autorizados pueden acceder a los sistemas y datos cuando y donde sea necesario, y aquellos que no cumplen con las condiciones establecidas, no. Esto se puede lograr **manteniendo el equipo**, **realizando reparaciones de hardware**, **manteniendo los sistemas operativos y el software actualizados** y **creando copias de seguridad**.
 
 ### La protección de la información en cada uno de sus estados posibles.
 
