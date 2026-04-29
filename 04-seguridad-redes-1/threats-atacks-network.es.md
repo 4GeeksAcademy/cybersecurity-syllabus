@@ -6,7 +6,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-En los últimos diez o quince años, hemos ido viendo cómo cambiaba el paradigma por el cual los **crackers o cibercriminales** buscaban explotar todas las vulnerabilidades posibles, dentro de cualquier organización o infraestructura nacional. Con el claro fin de contrarrestar este hecho, lo que debemos tener claro todos y cada uno de nosotros, es que debemos cambiar nuestra perspectiva hacia la forma en la que vemos la seguridad en el ámbito informático y de red, debemos conocer ciertos ataques y comprender qué podemos aprender de los mismos, para estar preparados lo mejor posible para ellos, y en ocasiones hasta poder evitarlos. En este mundo de seguridad no podemos decir que estamos preparados para evitar cualquier ataque.
+En los últimos diez o quince años, hemos ido viendo cómo cambiaba el paradigma por el cual los **atacantes o cibercriminales** buscaban explotar todas las vulnerabilidades posibles, dentro de cualquier organización o infraestructura nacional. Con el claro fin de contrarrestar este hecho, lo que debemos tener claro todos y cada uno de nosotros, es que debemos cambiar nuestra perspectiva hacia la forma en la que vemos la seguridad en el ámbito informático y de red, debemos conocer ciertos ataques y comprender qué podemos aprender de los mismos, para estar preparados lo mejor posible para ellos, y en ocasiones hasta poder evitarlos. En este mundo de seguridad no podemos decir que estamos preparados para evitar cualquier ataque.
 
 ## Ataque DoS o ataque de denegación de servicio
 
@@ -159,7 +159,7 @@ Conocer los puertos que tenemos abiertos es también algo muy importante, porque
 
 ### ¿Cómo prevenir el escaneo de puertos?
 
-El escaneo de puertos no podemos evitarlo, porque no podemos evitar que un ciberdelincuente o cibercriminal intente ver qué puertos tenemos abiertos, pero lo que sí está en nuestras manos es proteger todos los puertos con un firewall bien configurado de forma restrictiva. Debemos tener en cuenta que realizar un escaneo de puertos es ilegal, según se han declarado en varios juzgados, porque es el primer paso de la intrusión o para explotar una vulnerabilidad.
+El escaneo de puertos no podemos evitarlo, porque no podemos impedir que un ciberdelincuente o cibercriminal intente ver qué puertos tenemos abiertos, pero lo que sí está en nuestras manos es proteger todos los puertos con un firewall bien configurado de forma restrictiva. Debemos tener en cuenta que la legalidad del escaneo de puertos depende de la jurisdicción y de si se cuenta con autorización del propietario del sistema: en España, por ejemplo, escanear sistemas ajenos sin permiso puede constituir un delito de descubrimiento de secretos o de daños informáticos según los artículos 197 bis y 264 del Código Penal, y en EE. UU. puede caer bajo la Computer Fraud and Abuse Act (CFAA). Realiza siempre el escaneo de puertos únicamente sobre sistemas propios o con autorización explícita por escrito.
 
 Para limitar la información que vamos a proporcionar a un atacante en un escaneo de puertos, debemos hacer lo siguiente:
 
