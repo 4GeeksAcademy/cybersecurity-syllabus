@@ -26,15 +26,15 @@ keyword_us: "end user security - 1 90"
 - No escribas tu contraseña en un post it o en un block de notas, tampoco la mandes por la web
 - Asegurate de usar https (cifrado)
 - No hagas click en ventanas emergentes de origen desconocido
-- No muestres informacion confifencial en grandes pantallas o muy visibles
-- Cuidado con quien observa tu pantalla
-- Usa VPN cuando te conectes a redes publicas
+- No muestres información confidencial en pantallas grandes o muy visibles
+- Cuidado con quién observa tu pantalla
+- Usa VPN cuando te conectes a redes públicas
 
-## Un consejo relevante: El Uso de 3 Emails Diferentes
+## Un consejo relevante: el uso de 3 emails diferentes
 
-- Email Publico: Subscripciones, newsletters, RRSS. Es el correo que compartes para crear cuentas que no sean importante o para dar a un servicio que quieras probar.
-- **Email Personal:** Para la familia, amigos, datos personales, registro civil. Bancos. Cosas serias y personales.
-- **Email Corporativo:** Solo usado para ámbito laborar.
+- **Email público:** suscripciones, newsletters, redes sociales. Es el correo que compartes para crear cuentas que no sean importantes o para dar a un servicio que quieras probar.
+- **Email personal:** para la familia, amigos, datos personales, registro civil, bancos. Cosas serias y personales.
+- **Email corporativo:** solo usado para el ámbito laboral.
 
 Con tus correos distribuidos en estas 3 cuentas, puedes tener mejor control de los correos que llegan, contener correos basura o spam, levantar alarmas en caso de la llegada de un correo fue de lugar. También podrás tener seguridad de que si el correo Email Publico, es comprometido, no alcanzarán tus datos personales.
 
@@ -44,25 +44,25 @@ Con tus correos distribuidos en estas 3 cuentas, puedes tener mejor control de l
 
 - **Celular:** recomendación, tener algún patrón o bloqueo, es importante que configures tu móvil para que no muestre las notificaciones en pantalla, así el teléfono este bloqueado, ya que puede ser información confidencial y puede ser leída por terceras personas.
 - **Computadoras:** por ningún motivo dejes sin contraseña tu equipo de trabajo o personal, y por ningún motivo te levantes y lo dejes sin bloquear.
-- **Bloc de notas:** en nuestro puntero, no solo escribimos lista de pendientes, también tenemos información personal y confidencial como clientes importantes, contraseñas que escribimos para no olvidar, cartas confidenciales, entre otros, lo mas importante es asegurarnos de no tener este tipo de información anotadas en libretas y estas libretas no deben estar al alcance de todos.
+- **Bloc de notas:** en nuestra libreta no solo escribimos listas de pendientes, también tenemos información personal y confidencial como clientes importantes, contraseñas que escribimos para no olvidar o cartas confidenciales, entre otros. Lo más importante es asegurarnos de no anotar este tipo de información en libretas, y estas libretas no deben estar al alcance de todos.
 
 > ⚠️ **Ten cuidado con quien observa tu pantalla**, ya que puedes tener chat abiertos con información confidencial o puedes tener tu banca en línea y no faltan las personas mal intencionadas que se pueden para detrás de nosotros y obtener esta información fácilmente que personal, privada y tuya o de la organización. Ten cuidado con esto, ya que es un ataque de ingeniería social bastante aplicada.
 
-**En caso de que manejes un celular empresario**, con información confidencial, te aconsejamos que tengas cuidado de NO conectarte a redes abiertas o públicas, como la de las cafeterías o restaurantes, puedes ser víctima de un ataque llamado MAN IN THE MIDDLE, en el que las personas se infiltran y se aprovechan de la inseguridad de la red para meterse y obtener información que es confidencial y que esa persona no está autorizada para tener. Si lo vas a hacer usa una herramienta conocida como BPN para asegurarte de que la información va a viajar segura.
+**En caso de que manejes un móvil corporativo** con información confidencial, te aconsejamos que tengas cuidado de NO conectarte a redes abiertas o públicas, como las de las cafeterías o restaurantes: puedes ser víctima de un ataque llamado **Man in the Middle**, en el que un atacante se infiltra y se aprovecha de la inseguridad de la red para obtener información confidencial a la que no está autorizado a acceder. Si necesitas conectarte, utiliza una **VPN** para asegurarte de que la información viaja cifrada.
 
 ![Seguridad en tu celular](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/04-seguridad-redes/endurser-network-security/endurser-network-security-image-3.jpg)
 
 ## Consejos de seguridad al navegar por la web
 
-En Internet asegúrate que en la barra de búsqueda veas la S después del http. (htpps:) Esto nos indica que la información está viajando cifrada al servidor. Si a la hora de navegar, te encuentras con un aviso como este
+En Internet asegúrate de que en la barra de direcciones veas la **S** después de `http` (es decir, `https://`). Esto nos indica que la información está viajando cifrada al servidor. Si a la hora de navegar te encuentras con un aviso como este
 
 Que te hacen sentir especial, no hagas caso a este tipo de publicidad, ya que es engañosa y puede ser muy dañino para tu computador descargar este tipo de virus. En algunos casos, estas ventanas emergentes no son necesariamente malware o virus que se va a instalar en nuestros computadores, muchas veces son app que Google nos muestra y que son inocentes o tal vez te interesen, es importante fijarnos donde se encuentra ubicado el enlace de esa ventana emergente.
 
 Otro tipo de ventana emergente es el siguiente: En el que te está avisando que van a capturar las cookies. En algunas empresas tiene pantallas gigantes donde muestran información, es importante que no tengan métricas ni información confidencial de la organización, porque muchas veces hay visitas de personas que no pertenecen a la organización y que quieren y pueden obtener acceso a esos datos y que no están autorizados a tener.
 
-### Consejos par acontraseñas**
+### Consejos para contraseñas
 
-Para ingresar a tu equipo**,** ya se a tu correo, Instagram, Facebook, entre otros, asegúrate de tener un gestor de contraseñas, ya sea que tengas uno o que Google Chrome te ofrezca uno gestor de contraseñas. Nunca dejes la contraseña escrita en un post donde todos pueden verla y menos envíes la contraseña por mensajes de texto, no almacenes tu contraseña en un blog de nota dentro de tu computador porque se puede encontrar muy fácilmente y sobre todo, no uses la misma contraseña para todo.
+Para acceder a tu equipo, ya sea a tu correo, Instagram, Facebook, etc., asegúrate de utilizar un gestor de contraseñas, ya sea uno dedicado o el que ofrece tu navegador. Nunca dejes la contraseña escrita en un post-it donde todos puedan verla, ni la envíes por mensajes de texto. No almacenes tu contraseña en un bloc de notas dentro de tu ordenador, porque se puede encontrar muy fácilmente. Y, sobre todo, no uses la misma contraseña para todo.
 
 Conceptos básicos de la gestión de incidentes de seguridad
 
