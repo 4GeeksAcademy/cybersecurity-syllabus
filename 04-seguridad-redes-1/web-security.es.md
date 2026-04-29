@@ -6,7 +6,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-### **Conceptos básicos de la seguridad web**
+## **Conceptos básicos de la seguridad web**
 
 Cambiar las contraseñas con frecuencia, bloquear los dispositivos y mantener el software actualizado son prácticas de seguridad habituales. Sin embargo, la seguridad de una aplicación puede ser a menudo un elemento ignorado y vulnerable.
 
@@ -18,7 +18,7 @@ Teniendo en cuenta que el **[43% de las violaciones de datos](https://securitybo
 
 En esta guía, cubriremos qué es la seguridad de las aplicaciones web, cómo funciona y qué herramientas puedes utilizar para asegurar tu aplicación web.
 
-### **¿Qué es la seguridad en aplicaciones web?**
+## **¿Qué es la seguridad en aplicaciones web?**
 
 Como parte de la ciberseguridad, la seguridad en aplicaciones web se centra en salvaguardar los sitios web, las aplicaciones basadas en la web y los servicios en línea de una variedad de ataques maliciosos, garantizando su buen funcionamiento y rendimiento.
 
