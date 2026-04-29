@@ -46,7 +46,7 @@ Los datos personales son cualquier información que se puede utilizar para ident
 
 ## Tus Datos
 
-Los datos personales describen cualquier información tuya, incluido tu nombre, número de seguro social, número de licencia de conducir, fecha y lugar de nacimiento e incluso fotos o mensajes que intercambia con familiares y amigos. Los ciberdelincuentes pueden utilizar esta información confidencial para identificarte y hacerse pasar por vos, lo que infringe tu privacidad y puede causar graves daños a tu reputación.
+Los datos personales describen cualquier información tuya, incluido tu nombre, número de seguro social, número de licencia de conducir, fecha y lugar de nacimiento e incluso fotos o mensajes que intercambias con familiares y amigos. Los ciberdelincuentes pueden utilizar esta información confidencial para identificarte y hacerse pasar por ti, lo que infringe tu privacidad y puede causar graves daños a tu reputación.
 
 - **Registros médicos**: Cada vez que visita al médico, la información personal sobre tu salud física y mental y tu bienestar se agrega a sus registros médicos electrónicos (EHR). Dado que la mayoría de estos registros se guardan en línea, debe conocer la información médica que comparte. Y estos registros van más allá de los límites del consultorio del médico. Por ejemplo, muchos monitores de actividad física recopilan grandes cantidades de datos clínicos, como la frecuencia cardíaca, la presión arterial y los niveles de azúcar en la sangre, que se transfieren, almacenan y muestran a través de la nube. Por lo tanto, debe considerar que estos datos forman parte de tu historia clínica.
 - **Registros educativos:** contienen información sobre sus calificaciones y logros académicos. Sin embargo, estos registros también pueden incluir tu información de contacto, registros de asistencia, informes disciplinarios, registros de salud y vacunas, así como cualquier registro de educación especial, incluidos los programas de educación individualizada.
@@ -88,7 +88,7 @@ Las tecnologías portátiles, como los relojes inteligentes y los rastreadores d
 
 **Una cadena es tan fuerte como su eslabón más débil.** Entre más crece nuestra responsabilidad, más aumenta la confidencialidad de nuestros datos y el impacto que puede generar que los atacantes u otras personas accedan a ellos.
 
-Asegúrate de que vos mismo, tus compañeros y tus empleados, no sean el eslabón más débil de la cadena, emplea estrategias dentro de tu organización y dentro de tu vida diaria que te ayuden a proteger la información, protégela tú, no esperes que los demás lo hagan por ti, como el área de IT, el área de tecnología, tú mismo puedes protegerla. Asegúrate de todos tus dispositivos, tenlos siempre a la vista, tenlos siempre bloqueados o encriptados.
+Asegúrate de que tú mismo, tus compañeros y tus empleados no seáis el eslabón más débil de la cadena: emplea estrategias dentro de tu organización y de tu vida diaria que te ayuden a proteger la información. Protégela tú, no esperes que los demás lo hagan por ti, como el área de IT o de tecnología; tú mismo puedes protegerla. Vigila todos tus dispositivos, tenlos siempre a la vista y mantenlos bloqueados o cifrados.
 
 Ten cuidado con las fotos, las fotos tienen mucha información que puede necesitar el próximo atacante. Asegúrate de no ser tú que expongas información que hay que cuidar.
 
