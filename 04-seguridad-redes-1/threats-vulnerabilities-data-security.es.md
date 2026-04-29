@@ -214,12 +214,11 @@ Dar importancia a la seguridad de la Empresa es fundamental. Por ello es necesar
 
 ![Políticas de seguridad de la información ](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-5.jpg?raw=true)
 
+Implementar una política de seguridad de la información requiere innumerables tareas, muchas de ellas técnicas, pero otras relacionadas con la administración general de la organización: desde contar con el presupuesto adecuado para la implementación hasta vencer los reparos que, por distintos modelos mentales, existan sobre su uso.
 
-requiere de innumerables tareas, muchas de ellas técnicas. Pero otras relacionadas con la administración general de la organización, que van desde contar con el presupuesto adecuado para la implementación hasta vencer los reparos que por distintos modelos mentales existan sobre su uso.
+Los responsables deben asegurar que la política de seguridad de la información que se establezca sea la más conveniente para la organización dentro de los recursos disponibles y no resulte solamente un “maquillaje”.
 
-deben asegurar que la política de seguridad de la información a establecer sea la más conveniente para la organización dentro de los recursos con que se cuente y no resulte solamente un “maquillaje”.
-
-En general se adopten los criterios de la **Norma ISO 27002**, que establece los principios generales para el inicio, la implementación, el mantenimiento y la mejora continua de la gestión de la seguridad de la información en una organización.
+En general, se recomienda adoptar los criterios de la **Norma ISO/IEC 27002**, que establece los principios generales para el inicio, la implementación, el mantenimiento y la mejora continua de la gestión de la seguridad de la información en una organización.
 
 ### Monitorizar de redes y servicios
 
