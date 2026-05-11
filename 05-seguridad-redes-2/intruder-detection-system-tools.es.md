@@ -82,10 +82,10 @@ La Tabla 1 refleja una comparación de las características de algunos de los si
 
 | Características                | Zeek | Snort | Suricata | OSSEC | Wazuh |
 |--------------------------------|------|-------|----------|-------|-------|
-| Multi Hilo                     | No   | v3.0  | Sí       | No    | No    |
+| Multi Hilo                     | No   | Sí (v3.0+) | Sí       | No    | No    |
 | Soporte para IPv6              | Sí   | Sí    | Sí       | Sí    | Sí    |
 | Reputación IP                  | Parcial| No   | Sí       | No    | Sí    |
-| Detección Automática de Protocolos | Sí | v3.0  | Sí       | No    | No    |
+| Detección Automática de Protocolos | Sí | Sí (v3.0+) | Sí       | No    | No    |
 | Aceleración con GPU            | No   | No    | Sí       | No    | No    |
 | Variables globales/Flowbits    | Sí   | No    | Sí       | No    | No    |
 | GeoIP                          | Sí   | No    | Sí       | No    | No    |
