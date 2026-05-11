@@ -23,13 +23,13 @@ Existen dos tipos principales de ACL: **estándar** y **extendida**.
 **Las ACL estándar** filtran el tráfico basándose únicamente en las direcciones IP de origen. Son menos flexibles que las ACL extendidas y generalmente se aplican cerca del destino del tráfico.
 **Las ACL extendidas** Permiten un control más detallado al filtrar tráfico basándose en múltiples criterios, incluyendo direcciones IP de origen y destino, protocolos y números de puerto.
 
-## Cómo Funcionan las ACL?
+## ¿Cómo funcionan las ACL?
 
 - Operación Básica: Las ACL examinan las cabeceras de los paquetes y aplican reglas para permitir o denegar el tráfico según los criterios especificados.
 - Filtrado de Paquetes: Es cuando las ACL analizan los paquetes de datos y toman decisiones basadas en las reglas definidas.
 
 
-## Aplicacion de control de acceso para ACL estandar
+## Aplicación de control de acceso para ACL estándar
 
 Para aplicar la ACL a una interfaz concreta, en el caso de los encaminadores de Cisco, se debe pasar a «modo de configuración de la interfaz» y aplicar el comando ip access-group. La sintaxis es:
 
@@ -66,7 +66,7 @@ router(config-if)# ip access-group 1 in
 
 Filtrando así, solamente, el tráfico entrante.
 
-## Aplicacion de control de acceso para ACL extended
+## Aplicación de control de acceso para ACL extendidas
 
 **Las ACLs de tipo extended,** comparten todas las demás características del **standard**, pero tienen una sintaxis más complicada, atendiendo a que permiten filtrar utilizando muchos otros criterios:
 
