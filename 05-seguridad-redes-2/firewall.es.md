@@ -16,7 +16,7 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 
 - Todo el tráfico de “dentro a fuera” y de “fuera a dentro” debe pasar por él.
 - Solo el tráfico autorizado basado en la política de seguridad puede continuar.
-- Debe ser completamente inatacable.
+- Debe estar diseñado para resistir intentos de compromiso (ningún firewall es invulnerable, pero su superficie de ataque debe minimizarse).
 
 ![firewall](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/05-seguridad-en-redes-2/firewall/how-a-firewall-works.es.jpg?raw=true)
 
