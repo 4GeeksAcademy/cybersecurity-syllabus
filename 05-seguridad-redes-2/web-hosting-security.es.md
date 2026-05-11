@@ -33,7 +33,7 @@ El alojamiento tradicional se divide en dos categorías principales:
 
 El alojamiento gestionado implica que el proveedor se encarga del mantenimiento, la seguridad y la gestión de la infraestructura del servidor. Esto permite a los usuarios concentrarse en sus aplicaciones y contenido sin preocuparse por las tareas de administración del servidor. Los servicios de alojamiento gestionado a menudo incluyen soporte técnico, actualizaciones de seguridad y optimización del rendimiento. Ejemplos de proveedores de alojamiento gestionado incluyen WP Engine y Kinsta.
 
-### ¿Qué características de seguridad buscar en ellos?
+## ¿Qué características de seguridad buscar en ellos?
 
 Al evaluar las características de seguridad de un proveedor de hosting, debes buscar las siguientes:
 
@@ -61,7 +61,7 @@ Al evaluar las características de seguridad de un proveedor de hosting, debes b
 8. **Actualizaciones y Parches de Seguridad:**
    - **Frecuencia de Actualizaciones:** Asegúrate de que el proveedor mantenga el software del servidor y las aplicaciones actualizadas con los últimos parches de seguridad.
 
-### ¿Qué tipo de alojamiento es el más seguro?
+## ¿Qué tipo de alojamiento es el más seguro?
 
 El tipo de alojamiento más seguro puede depender de las necesidades específicas del proyecto, pero aquí están algunas opciones y consideraciones generales:
 
@@ -78,7 +78,7 @@ El tipo de alojamiento más seguro puede depender de las necesidades específica
 | **Gestión de Accesos y Permisos**      | Limitada, configurada por el proveedor                            | Completa, responsabilidad del usuario               | Limitada en compartido; completa en dedicado     | Avanzada, gestionada por el proveedor          |
 
 
-### ¿Cómo encontrar un proveedor seguro?
+## ¿Cómo encontrar un proveedor seguro?
 
 Para encontrar un proveedor de hosting seguro, sigue estos pasos:
 
@@ -89,7 +89,7 @@ Para encontrar un proveedor de hosting seguro, sigue estos pasos:
 5. **Pruebas de Penetración:**: Comprueba si el proveedor realiza pruebas de penetración regulares para identificar y corregir vulnerabilidades.
 6. **Características de Seguridad Avanzadas:** Evalúa las características avanzadas de seguridad que ofrece el proveedor, como el uso de AI para detección de amenazas.
 
-### ¿Puede un proveedor garantizar la seguridad de un sitio web?
+## ¿Puede un proveedor garantizar la seguridad de un sitio web?
 
 Ningún proveedor puede **garantizar completamente** la seguridad de un sitio web. Sin embargo, pueden ofrecer un entorno más seguro mediante:
 
@@ -98,7 +98,7 @@ Ningún proveedor puede **garantizar completamente** la seguridad de un sitio we
 3. **Educación y Capacitación:** Ofrecer recursos educativos para que los desarrolladores y administradores de sitios sigan las mejores prácticas de seguridad.
 4. **Responsabilidad Compartida:** La seguridad es una responsabilidad compartida entre el proveedor y el cliente, requiriendo que ambos tomen medidas activas para proteger el sitio.
 
-### ¿Cuáles son las amenazas de seguridad más comunes a las que se enfrenta un servicio de alojamiento web?
+## ¿Cuáles son las amenazas de seguridad más comunes a las que se enfrenta un servicio de alojamiento web?
 
 Las amenazas más comunes incluyen:
 
