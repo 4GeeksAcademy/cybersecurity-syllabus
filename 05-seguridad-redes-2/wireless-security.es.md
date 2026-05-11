@@ -247,9 +247,11 @@ Por último tenemos [WPA2](https://es.wikipedia.org/wiki/WPA2), la evolución de
 
 Por supuesto, elijamos el que elijamos, debemos poner una clave lo suficientemente compleja como para que nadie pueda o por lo menos le resulte cómodo asaltarla por fuerza bruta, pero que nos sea relativamente fácil de recordar, sobre todo si vamos a querer usar nuevos dispositivos con frecuencia que requerirán de la inserción de la clave al conectarse por primera vez. Tampoco está de más cambiar esta contraseña de vez en cuando para evitar posibles intrusiones con ataques de fuerza bruta.
 
-### **Utiliza el filtrado MAC**
+### **Utiliza el filtrado MAC (capa cosmética)**
 
-Otra medida de seguridad que puede resultar útil es el llamado filtrado MAC (no se trata de no dejar conectarse a los equipos de Apple, no). Las [direcciones MAC](https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC) o también llamadas direcciones físicas son las que tiene asignada cada tarjeta de red grabada directamente en su hardware y que la identifican unívocamente del resto. Es algo así como una dirección IP pero de más bajo nivel y sólo se utiliza dentro de la misma subred.
+> ⚠️ El filtrado MAC y la ocultación del SSID **no son medidas de seguridad efectivas por sí solas**. Las direcciones MAC se pueden falsificar trivialmente con herramientas como `macchanger` o `ip link set ... address`, y un SSID oculto se revela en cualquier proceso de asociación de un cliente legítimo. Úsalo solo como capa adicional, nunca como sustituto del cifrado fuerte (WPA2/WPA3).
+
+Otra medida que puede aplicarse es el llamado filtrado MAC (no se trata de no dejar conectarse a los equipos de Apple, no). Las [direcciones MAC](https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC) o también llamadas direcciones físicas son las que tiene asignada cada tarjeta de red grabada directamente en su hardware y que la identifican unívocamente del resto. Es algo así como una dirección IP pero de más bajo nivel y sólo se utiliza dentro de la misma subred.
 
 El filtrado MAC te permite crear una especie de lista de equipos de red permitidos Está compuesta por 48 bits y se representa en 6 grupos de números hexadecimales separados por dos puntos o guiones. Es algo como esto: 01:23:45:67:89:AB o bien expresado como 01-23-45-67-89-AB.
 
