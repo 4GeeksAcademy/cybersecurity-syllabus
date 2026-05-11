@@ -68,7 +68,7 @@ La seguridad de la infraestructura implica proteger los componentes físicos y v
   - Divide la red en segmentos más pequeños y seguros para aislar diferentes partes de la infraestructura. Esto limita el alcance de posibles ataques y facilita la implementación de medidas de seguridad específicas para cada segmento.
 
 - **Monitoreo y Detección de Intrusos:**
-  - Implementa sistemas que detectan actividades sospechosas o no autorizadas dentro de la infraestructura. Las soluciones de detección de intrusos (IDS) y prevención de intrusos (IPS) ayudan a identificar y mitigar amenazas antes de que causen daño.
+  - Implementa sistemas que detectan actividades sospechosas o no autorizadas dentro de la infraestructura. Las soluciones de [detección de intrusos (IDS)](./intruder-detection-system.es.md) y [prevención de intrusos (IPS)](./intrusion-prevention-system.es.md) ayudan a identificar y mitigar amenazas antes de que causen daño.
 
 ### Seguridad de Aplicaciones
 
