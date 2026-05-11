@@ -37,7 +37,7 @@ La seguridad en la nube tiene ventajas ya que los grandes proveedores de nubes c
 - Seguridad de la Infraestructura: Segmentacion de red y monitoreo (deteccion de instrusos).
 - Seguridad de Aplicaciones: Pruebas de Vulnerabilidades, actualizaciones y parches.
 - Cumplimiento y Gobernanza: Politicas, regulaciones como GDPR, etc.
-- Continuidad del Negocio y Recuperación ante Desastres: Respados, planes de recuperacion.
+- Continuidad del Negocio y Recuperación ante Desastres: respaldos, planes de recuperación.
 
 ### Identidad
 
