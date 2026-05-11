@@ -60,9 +60,11 @@ El acceso no autorizado a un sitio web puede dar lugar a filtraciones de datos u
 - **Utiliza un gestor de accesos:** si trabajas en una agencia o colaboras con otros autónomos, utiliza la **función de compartir cuentas de hosting** en hPanel para crear y gestionar accesos.
 - **Crea una lista de IP permitidas:** crea una lista de URL bloqueadas para limitar el acceso solo a las direcciones IP autorizadas.
 
-### 10. Utilizar extensiones de seguridad adicionales
+### 10. Utilizar extensiones de seguridad adicionales (lado cliente)
 
-Las extensiones de seguridad de sitios web proporcionan una capa adicional de protección contra diversas amenazas en línea, como el malware, el phishing y los intentos de pirateo.
+> ℹ️ Estas extensiones protegen al **operador** del sitio mientras navega y administra el panel de control. **No protegen al sitio alojado en sí**: para eso necesitas WAF, escaneo de malware en servidor y las prácticas anteriores. Inclúyelas en tu higiene personal, no como sustituto de seguridad de hosting.
+
+Las extensiones de seguridad para el navegador proporcionan una capa adicional de protección contra diversas amenazas en línea, como el malware, el phishing y los intentos de pirateo.
 
 También pueden ofrecer funciones como el bloqueo de anuncios, el bloqueo de secuencias de comandos y la gestión de cookies para mejorar el rendimiento del sitio web y la privacidad del usuario.
 
