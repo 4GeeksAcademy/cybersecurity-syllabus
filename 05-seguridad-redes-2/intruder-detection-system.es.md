@@ -16,7 +16,7 @@ Un sistema de detección de intrusiones puede ser descrito como un proceso de de
 
 Hemos de partir de la base que aunque tengamos el cortafuegos habilitado, por norma general, tendremos muchos puertos abiertos, como por ejemplo el 80 y el 443 para las aplicaciones web. Por lo que debemos tener un sistema adicional que nos ayude a controlar estas puertas abiertas. Para llevar un mayor control debemos utilizar un sistema IDS, esto es, un sistema de detección de intrusos y también de vulnerabilidades. Existen los IDS pasivos y los activos. Con los **pasivos** se generan entradas en el registro y alertas. Con los **activos**, además de realizar esas funciones, también se ejecutan acciones de respuesta, como bloquear direcciones IP o cerrar el acceso a puertos restringidos (a este tipo de IDS activo se le denomina habitualmente IPS).
 
-Además desde el punto de vista del programación (*software*) existen diferentes tipos de herramienta, los sistemas de detección de intrusos (HIDS), sistemas de detección de intrusos en red (IDPS), los sistemas de detección de intrusos basados en firmas (SIDS) y por último los sistemas de detección de intrusos basados en anomalías.
+Además, desde el punto de vista del software, existen diferentes tipos de herramienta: sistemas de detección de intrusos basados en host (**HIDS**, *Host-based IDS*), basados en red (**NIDS**, *Network-based IDS*), basados en firmas (*signature-based IDS*) y basados en anomalías (*anomaly-based IDS*).
 
 ![network intrusion detection](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/2network-intrusion-detection.png?raw=true)
 
