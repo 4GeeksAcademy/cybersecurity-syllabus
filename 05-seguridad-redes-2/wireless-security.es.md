@@ -53,7 +53,6 @@ Ahora, ejecutar los cálculos necesarios para descifrar una clave WEP es una cue
 - La mayoría de los dispositivos reconocen WEP, lo que significa que fue sencillo de configurar y usar.
 - Su objetivo era igualar las ventajas de seguridad de las conexiones a Internet por cable.
 - Cuando se introdujo, el algoritmo de cifrado era lo suficientemente complejo como para mantener alejados a los usuarios desconocidos.
-- WEP protegía contra los ataques «man in the middle».
 
 **En contra:**
 
