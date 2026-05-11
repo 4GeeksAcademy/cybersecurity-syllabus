@@ -58,16 +58,25 @@ Existen distintas clasificaciones de los IDS, según sea su enfoque, origen de d
 
 Se presentan dos grupos: Los sistemas de detección de usos indebidos, que comparan las firmas con la información recogida; y los de detección de anomalías, que usan técnicas estadísticas para distinguir el comportamiento usual del anormal.
 
-**Detección de anomalías:** Es necesario definir cuál es el comportamiento normal de un sistema por medio de un aprendizaje de actividades, para clasificar los comportamientos que se desvíen de lo normal como sospechosos. Estos sistemas son propensos a dar falsos positivos, que son producidos cuando se dispara una alerta con actividad normal. Tienen la desventaja de que depende de la calidad del proceso de aprendizaje. Existen tres técnicas diferentes para realizar la detección de anomalías en un sistema:
+#### Detección de anomalías
 
-- **Sistemas basados en conocimiento:** Representa el inicio en los IDS, y se basa en las violaciones de seguridad detectadas mediante el uso de reglas. Resultan más fiables y proporcionan mejores rendimientos frente a ataques conocidos, con el inconveniente de su baja capacidad para detectar nuevos ataques no incluidos en la base de datos de firmas.
-- **Sistemas basados en métodos estadísticos**: Basado en perfiles de actividad que vienen definidos por el comportamiento del usuario, con respecto a ficheros, programas, registros, etc. Se realiza mediante el establecimiento de métricas y modelos estadísticos.
-- **Sistemas basados en aprendizaje automático:** Son los más desarrollados para el modelado de comportamientos normales y buscan mejorar los resultados en cuanto a detección, reducción de falsos positivos y tiempo de computación. Una ventaja reside en recoger las características de un ataque y añadirlo a una base de datos como firmas nuevas, permitiendo actualizar la base de firmas en un breve lapso de tiempo.
-- **Detección de usos incorrectos (detección por firma/regla):** Los sistemas de detección basados en uso indebido monitorizan las actividades que ocurren en un sistema y las compara con una base de datos de firmas de ataques. Cuando se encuentra una actividad que coincide con una de estas firmas, se genera una alarma. Presentan una facilidad de adaptación ya que basta con actualizar la base de datos, ya sea, escribiendo la nueva regla u obteniéndola de un tercero.
-- **Sistemas Expertos:** Conocimiento codificado mediante reglas de implicación (condición-acción), si se cumplen todas las condiciones se aplica la acción o regla. Presenta la desventaja de que las reglas no son secuenciales, lo que dificulta aislar pasos de intrusiones en el tiempo.
-- **Detección de firmas:** Realiza comparaciones entre los eventos que ocurren en el sistema y las firmas almacenadas en la base de datos en busca de similitudes.
-- **Análisis de transacción de estados:** Los ataques se representan como una secuencia de transiciones (máquina de estados finitos). Cuando se alcanza un estado considerado como intrusión se lanza una alarma.
-- **Híbridos:** Los IDS basados en firmas resultan más fiables y proporcionan mejores rendimientos frente a ataques conocidos, pero presentan una deficiencia ante nuevos ataques. Los IDS basados en anomalías presentan la capacidad de detectar ataques desconocidos, pero su rendimiento es inferior. Los sistemas híbridos serán una mezcla de ambos, y por lo tanto, pueden ajustarse para operar como ambos tipos de detectores, mejorando la funcionalidad, la detección de ataques y la mejora de rendimiento.
+Es necesario definir cuál es el comportamiento normal de un sistema mediante un proceso de aprendizaje de actividades, para clasificar como sospechosos los comportamientos que se desvíen de lo normal. Estos sistemas son propensos a dar falsos positivos cuando se dispara una alerta con actividad legítima, y su eficacia depende de la calidad del proceso de aprendizaje. Existen varias técnicas para realizar la detección de anomalías:
+
+- **Sistemas basados en métodos estadísticos**: utilizan perfiles de actividad definidos por el comportamiento del usuario respecto a ficheros, programas, registros, etc., mediante métricas y modelos estadísticos.
+- **Sistemas basados en aprendizaje automático**: son los más avanzados para el modelado de comportamientos normales y buscan mejorar la detección, reducir los falsos positivos y disminuir el tiempo de computación. Permiten extraer las características de un ataque y añadirlo a la base de datos como firma nueva, actualizando la base en poco tiempo.
+
+#### Detección por uso indebido (basada en firmas/reglas)
+
+Los sistemas basados en uso indebido monitorizan las actividades del sistema y las comparan con una base de datos de firmas de ataques. Cuando se encuentra una coincidencia, se genera una alarma. Resultan más fiables frente a ataques conocidos y son fáciles de adaptar: basta con actualizar la base de datos (escribiendo la nueva regla u obteniéndola de un tercero). Su principal limitación es la baja capacidad para detectar ataques desconocidos. Técnicas habituales:
+
+- **Sistemas basados en conocimiento (reglas)**: violaciones de seguridad detectadas mediante el uso de reglas predefinidas.
+- **Sistemas expertos**: conocimiento codificado mediante reglas de implicación (condición-acción); si se cumplen todas las condiciones, se aplica la acción. Su desventaja es que las reglas no son secuenciales, lo que dificulta aislar pasos de intrusión en el tiempo.
+- **Detección de firmas**: comparación directa entre los eventos del sistema y las firmas almacenadas en la base de datos en busca de similitudes.
+- **Análisis de transición de estados**: los ataques se representan como una secuencia de transiciones (máquina de estados finitos). Cuando se alcanza un estado considerado intrusión, se lanza una alarma.
+
+#### Sistemas híbridos
+
+Los IDS basados en firmas resultan más fiables frente a ataques conocidos, pero presentan deficiencias ante nuevos ataques. Los IDS basados en anomalías detectan ataques desconocidos, pero su rendimiento es inferior. Los sistemas híbridos combinan ambos enfoques y pueden ajustarse para operar como ambos tipos de detector, mejorando la cobertura y el rendimiento.
 
 ## En función del origen de los datos
 
