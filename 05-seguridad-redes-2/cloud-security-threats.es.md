@@ -48,7 +48,7 @@ Para mitigar este riesgo, las organizaciones deben gestionar sus procesos de cif
 
 ### **Ataques de Denegación de Servicio (DoS/DDoS)**
 
-La nube es crítica para muchas organizaciones, ya que almacenan datos importantes y ejecutan aplicaciones clave. Un ataque de denegación de servicio puede interrumpir estos servicios, afectando a múltiples empresas. Los ataques DoS, en los que los atacantes demandan un rescate para detener la interrupción, son una amenaza significativa para los recursos en la nube.
+La nube es crítica para muchas organizaciones, ya que almacenan datos importantes y ejecutan aplicaciones clave. Un ataque de denegación de servicio puede interrumpir estos servicios, afectando a múltiples empresas. Una variante específica conocida como **RDoS** (*Ransom DDoS*) consiste en exigir un rescate para detener un ataque DDoS sostenido, y es una amenaza significativa para los recursos en la nube.
 
 ### **Fuga de Datos**
 
