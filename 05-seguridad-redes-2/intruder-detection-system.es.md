@@ -48,13 +48,13 @@ Existen indicadores estadísticos de sensibilidad, especificidad y precisión qu
 - Falsos negativos (FN): existe una intrusión real pero el IDS no la detecta (alarma omitida).
 - Verdaderos negativos (TN): no existe intrusión y el IDS no genera alerta (comportamiento normal correctamente clasificado).
 
-### **Tipos de IDS**
+## Tipos de IDS
 
-Existen distintas clasificaciones de los IDS, según sea su enfoque, origen de datos, estructura y comportamiento
+Existen distintas clasificaciones de los IDS, según sea su enfoque, origen de datos, estructura y comportamiento.
 
 ![intrusion detection system clasification](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/3intrusion-detection-system-clasification.png?raw=true)
 
-## En función del enfoque
+### En función del enfoque
 
 Se presentan dos grupos: Los sistemas de detección de usos indebidos, que comparan las firmas con la información recogida; y los de detección de anomalías, que usan técnicas estadísticas para distinguir el comportamiento usual del anormal.
 
@@ -78,7 +78,7 @@ Los sistemas basados en uso indebido monitorizan las actividades del sistema y l
 
 Los IDS basados en firmas resultan más fiables frente a ataques conocidos, pero presentan deficiencias ante nuevos ataques. Los IDS basados en anomalías detectan ataques desconocidos, pero su rendimiento es inferior. Los sistemas híbridos combinan ambos enfoques y pueden ajustarse para operar como ambos tipos de detector, mejorando la cobertura y el rendimiento.
 
-## En función del origen de los datos
+### En función del origen de los datos
 
 Se encuentran tres tipos de IDS atendiendo a las fuentes de información que se utilicen:
 
@@ -90,7 +90,7 @@ Se encuentran tres tipos de IDS atendiendo a las fuentes de información que se 
 
 **IDS Híbridos:** Los sistemas híbridos recogen lo mejor de ambos tipos HIDS y NIDS. Permiten una detección local de los sistemas y un sensor en cada segmento de red se encarga de la vigilancia. De esta forma se cubren las necesidades HIDS con las del NIDS, permitiendo el aprovechamiento de las ventajas de ambas arquitecturas.
 
-## En función de su estructura
+### En función de su estructura
 
 Clasificación basada en las estrategias de control:
 
