@@ -6,7 +6,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-En un mundo cada vez más digital, las amenazas cibernéticas son una preocupación constante para las organizaciones. Los Sistemas de Prevención de Intrusos (IPS) son una respuesta crucial a este desafío, actuando como defensores proactivos en la seguridad de la red. A diferencia de los Sistemas de Detección de Intrusos (IDS), que sólo detectan y alertan sobre posibles amenazas, los IPS están diseñados para identificar y neutralizar intrusiones en tiempo real.
+En un mundo cada vez más digital, las amenazas cibernéticas son una preocupación constante para las organizaciones. Los Sistemas de Prevención de Intrusos (IPS) son una respuesta crucial a este desafío, actuando como defensores proactivos en la seguridad de la red. A diferencia de los IDS tradicionales (pasivos), que se limitan a detectar y alertar sobre posibles amenazas, los IPS se colocan **inline** en el flujo de tráfico y están diseñados para identificar y bloquear intrusiones en tiempo real.
 
 ## ¿Qué es un Sistema de Prevención de Intrusos?
 
@@ -14,7 +14,7 @@ Los IPS son dispositivos de hardware o software encargados de revisar el tráfic
 
 ### Diferencias entre IPS e IDS
 
-Mientras que un IDS se limita a detectar y notificar la intrusión al administrador del sistema, un IPS detecta y detiene la intrusión de manera predefinida. Esto se logra comprobando comportamientos de red previamente configurados como anómalos. Esta capacidad de acción inmediata distingue a los IPS como una evolución natural de los IDS, que simplemente observan y reportan.
+Mientras que un IDS pasivo se limita a detectar y notificar la intrusión al administrador del sistema (suele desplegarse out-of-band, sobre un puerto de espejo del switch), un IPS se despliega **inline** y puede detener la intrusión descartando paquetes o reseteando conexiones, según las reglas configuradas. Esta capacidad de acción inmediata sobre el flujo de tráfico distingue a los IPS como una evolución natural de los IDS.
 
 ## Funcionamiento de los Sistemas de Prevención de Intrusos
 
