@@ -30,9 +30,11 @@ Es importante que nuestro IDS actualice la información de forma habitual, para 
 
 Existen una serie de organizaciones, asociaciones y empresas que nos permiten estar al corriente de las evoluciones en materia de técnicas de intrusión y ataques. Las principales son:
 
-- Bugtraq: Es una lista de difusión dedicada a la publicación de vulnerabilidades, su uso y corrección. ( [https://www.securityfocus.com/](https://www.securityfocus.com/))
-- CERT: *Computer Emergency Response Team*. Se trata de una organización que estudia las vulnerabilidades, investiga las evaluaciones en términos de redes y seguridad y ofrece servicios relacionados con la seguridad. ([Entrada de Wikipedia al respecto](https://es.wikipedia.org/wiki/Equipo_de_Respuesta_ante_Emergencias_Inform%C3%A1ticas))
-- CIAC: Computer Incident Advisory Capability. Una organización de alerta e investigación gestionado por el departament de energía de Estados Unidos. ([https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center](https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center))
+- **NVD (NIST National Vulnerability Database)**: base de datos pública de vulnerabilidades con identificadores CVE y métricas CVSS ([https://nvd.nist.gov/](https://nvd.nist.gov/)).
+- **MITRE CVE**: catálogo oficial de identificadores CVE ([https://cve.mitre.org/](https://cve.mitre.org/)).
+- **CERT/CC** (*CERT Coordination Center*) en la Carnegie Mellon University: estudia vulnerabilidades, coordina la divulgación responsable y publica avisos de seguridad ([https://www.kb.cert.org/](https://www.kb.cert.org/)).
+- **oss-security** (mailing list de openwall.com): discusión pública sobre vulnerabilidades en software de código abierto.
+- **Bugtraq** fue históricamente una de las listas de referencia, pero quedó descontinuada en 2021 tras el cierre de SecurityFocus; ya no se mantiene.
 
 ### Tareas de un IDS
 
