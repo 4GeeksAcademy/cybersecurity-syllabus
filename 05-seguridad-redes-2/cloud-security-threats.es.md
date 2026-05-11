@@ -8,6 +8,8 @@ authors: ["blindma1den", "lorenagubaira"]
 
 Casi todas las empresas han integrado la computación en la nube en sus operaciones de alguna manera. Sin embargo, al hacerlo, es crucial que se aseguren de que su estrategia de seguridad en la nube pueda protegerlos contra las principales amenazas de seguridad en este entorno.
 
+## Principales amenazas de seguridad en la nube
+
 ### **Mala Configuración**
 
 Las configuraciones incorrectas de seguridad son una de las principales causas de brechas de datos en la nube. Muchas organizaciones no tienen estrategias adecuadas para gestionar la seguridad de su infraestructura en la nube.
