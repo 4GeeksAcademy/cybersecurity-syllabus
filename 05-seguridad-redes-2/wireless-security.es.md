@@ -24,7 +24,7 @@ A continuación se incluyen varios pasos sencillos que puedes seguir para proteg
 </aside>
 
 - **Cambia el nombre SSID del dispositivo:** Al igual que antes, es muy fácil para un hacker descubrir cuál es el nombre SSID predeterminado del fabricante del dispositivo y utilizarlo para localizar la red inalámbrica. Cambia el nombre SSID predeterminado del dispositivo e intenta evitar la utilización de un nombre que pueda adivinarse fácilmente.
-- **Cifra los datos:** En la configuración de la conexión, asegúrate de que activas el cifrado. Si el dispositivo es compatible con el cifrado WPA, utilízalo; en caso contrario, utiliza el cifrado WEP.
+- **Cifra los datos:** En la configuración de la conexión, activa siempre cifrado **WPA3** (o **WPA2** si tu hardware no soporta WPA3). **No utilices WEP bajo ninguna circunstancia**: está roto desde 2004 y se descifra en minutos. Si tu router solo soporta WEP, reemplázalo.
 - **Protección contra los ataques de malware e Internet:** Asegúrate de que instalas un programa antimalware eficaz en todos los ordenadores y demás dispositivos. Con el fin de mantener actualizada la protección antimalware, selecciona la opción de actualización automática en el producto.
 
 
