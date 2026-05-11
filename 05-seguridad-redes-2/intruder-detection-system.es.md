@@ -110,4 +110,4 @@ Encontramos dos tipos de IDS según si realizan la prevención escuchando el tr�
 
 **IDS Pasivo:** Sólo notifican al administrador de la red pero no actúan sobre el ataque. Únicamente procesan la información en busca de intrusiones, y una vez detectada se genera una alerta.
 
-**IDS Activos:** Es un tipo de IDS denominado Sistema de Prevención de Intrusión (IPS). A diferencia de los IDS, esta tecnología no se limita a escuchar el tráfico de la red y a mandar alertas, sino que permite establecer reglas, como se lo hace en los cortafuegos, para detener las intrusiones.
+**IDS Activos:** Es un tipo de IDS denominado Sistema de Prevención de Intrusión (IPS). A diferencia de los IDS pasivos, esta tecnología no se limita a escuchar el tráfico de la red y mandar alertas, sino que permite establecer reglas, como en los cortafuegos, para detener las intrusiones. Para profundizar en su funcionamiento y categorías consulta la lectura sobre [Sistemas de Prevención de Intrusos (IPS)](./intrusion-prevention-system.es.md).
