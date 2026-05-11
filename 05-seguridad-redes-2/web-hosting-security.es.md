@@ -103,7 +103,7 @@ Ningún proveedor puede **garantizar completamente** la seguridad de un sitio we
 Las amenazas más comunes incluyen:
 
 1. **Ataques de Inyección (SQL, XSS):**
-   - Exploitaciones que permiten a los atacantes inyectar código malicioso en aplicaciones vulnerables.
+   - Explotaciones que permiten a los atacantes inyectar código malicioso en aplicaciones vulnerables.
 
 2. **Ataques DDoS:**
    - Ataques que buscan saturar los recursos del servidor, provocando la caída del servicio.
