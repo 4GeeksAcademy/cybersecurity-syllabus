@@ -259,7 +259,9 @@ El filtrado MAC te permite crear una especie de lista de equipos de red permitid
 
 Dependiendo del modelo, también podremos hacer listas negras de equipos bloqueados, impidiendo así el acceso a dispositivos que sepamos a ciencia cierta son intrusos o gorrones de nuestra WiFi. En este artículo tenéis más detalles sobre cómo realizar correctamente este filtrado MAC con un caso concreto.
 
-### **Reduce los rangos de direcciones IP permitidas**
+### **Reduce los rangos de direcciones IP permitidas (capa cosmética)**
+
+> ⚠️ Esta medida **no protege contra un atacante real**: cualquier intruso con acceso a la WiFi puede configurar manualmente una IP estática dentro de la subred. Sólo dificulta la conexión por inercia de dispositivos legítimos no configurados.
 
 Si siempre vamos a tener los mismos equipos conectados a la red, podemos utilizar la opción de deshabilitar el funcionamiento automático del [servicio DHCP](https://es.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) (Dynamic Host Configuration Protocol) en el router que se encarga de asignar direcciones IP a cada equipo conectado a la red.
 
