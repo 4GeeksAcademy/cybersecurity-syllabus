@@ -1,7 +1,7 @@
 ## Dia 13
 
 - 📗 [Sistemas de detección de intruso](./intruder-detection-system.es.md)
-- 📗 [Sistemas prevención de intruso](./intrusion-prevention-system.md)
+- 📗 [Sistemas prevención de intruso](./intrusion-prevention-system.es.md)
 - 📗 [Herramientas de detección de intruso](./intruder-detection-system-tools.es.md)
 - 🧪 [Find the malicius user](https://github.com/breatheco-de/find-the-malicius-user)
 
@@ -15,7 +15,7 @@
 ## Dia 15 🔖
 
 - 📗 [Seguridad en la nube](./cloud-security.es.md)
-- 📗 [Amenazas de la seguridad en la nube](./cloud-security-threats.md)
+- 📗 [Amenazas de la seguridad en la nube](./cloud-security-threats.es.md)
 - 📗 [10 recomendaciones de seguridad en la nube](./10-recomendations-cloud-clients-security.es.md)
 - 📗 [Seguridad de WebHosting](./web-hosting-security.es.md)
 - 📗 [10 prácticas de seguridad en Webhosting](./10-web-hosting-security-practices.es.md)
