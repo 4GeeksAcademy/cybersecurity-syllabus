@@ -19,9 +19,7 @@ A continuación se incluyen varios pasos sencillos que puedes seguir para proteg
 
 - **Evita la utilización de la contraseña predeterminada:** Es muy fácil para un hacker descubrir cuál es la contraseña predeterminada del fabricante de tu router inalámbrico y utilizarla para acceder a la red inalámbrica. Por lo tanto, es conveniente que cambies la contraseña de administrador de tu router inalámbrico. A la hora de establecer la contraseña nueva, trata de elegir una serie compleja de números y letras, e intenta evitar la utilización de una contraseña que pueda adivinarse fácilmente.
 
-> ⚠️ **No permitas que el dispositivo inalámbrico indique su presencia - d**esactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea.
-
-</aside>
+> ⚠️ **No permitas que el dispositivo inalámbrico indique su presencia** — desactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea. (Ten en cuenta que ocultar el SSID es una medida cosmética: cualquier cliente que se conecte revela el SSID y un atacante con un sniffer lo detectará igualmente.)
 
 - **Cambia el nombre SSID del dispositivo:** Al igual que antes, es muy fácil para un hacker descubrir cuál es el nombre SSID predeterminado del fabricante del dispositivo y utilizarlo para localizar la red inalámbrica. Cambia el nombre SSID predeterminado del dispositivo e intenta evitar la utilización de un nombre que pueda adivinarse fácilmente.
 - **Cifra los datos:** En la configuración de la conexión, activa siempre cifrado **WPA3** (o **WPA2** si tu hardware no soporta WPA3). **No utilices WEP bajo ninguna circunstancia**: está roto desde 2004 y se descifra en minutos. Si tu router solo soporta WEP, reemplázalo.
