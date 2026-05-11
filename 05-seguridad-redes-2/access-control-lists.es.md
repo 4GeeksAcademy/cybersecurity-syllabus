@@ -93,9 +93,9 @@ Si lo que se busca es en la misma topología de la figura anterior, que se cumpl
 La lista de acceso sería:
 
 ```bash
-$ router(config)# access-list 101 permit ip host 133.11.1.3 any
-$ router(config)# access-list 101 permit tcp 155.15.11.1 any eq 23
-$ router(config)# access-list 101 permit ip 144.21.0.0 0.0.255.255 any
+router(config)# access-list 101 permit ip host 133.11.1.3 any
+router(config)# access-list 101 permit tcp host 155.15.1.1 any eq 23
+router(config)# access-list 101 permit ip 144.21.0.0 0.0.255.255 any
 ```
 
 Igual que antes, la condición implícita por defecto, no permite entrar más tráfico.
