@@ -157,11 +157,11 @@ Esperemos que esa inestimable cajita haga lo que debe y la eliminación de los v
 
 Aquí le explicamos cómo encontrar el protocolo de seguridad de Wi-Fi que está usando:
 
-1. Haz clic en el menú **Inicio** de Windows y seleccione **Configuración** (el icono del engranaje).
+1. Haz clic en el menú **Inicio** de Windows y selecciona **Configuración** (el icono del engranaje).
 2. Selecciona **Red e Internet**.
-3. Elije **Wi-Fi** en el panel de la izquierda.
-4. Haz clic en el nombre de la **red** inalámbrica a la que está conectado.
-5. Junto a **Tipo de seguridad** verás el protocolo de red inalámbrica que esté usando.
+3. Elige **Wi-Fi** en el panel de la izquierda.
+4. Haz clic en el nombre de la **red** inalámbrica a la que estás conectado.
+5. Junto a **Tipo de seguridad** verás el protocolo de red inalámbrica que estás usando.
 
 ![security protocol](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws1-security-protocol.png?raw=true)
 
