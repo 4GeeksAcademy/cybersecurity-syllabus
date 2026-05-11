@@ -38,7 +38,7 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 
 ### 1. **Filtros de Paquetes**
 
-- **Funcionamiento**: Operan en los niveles de red y transporte, filtrando paquetes IP basados en valores de algunos campos de las cabeceras de IP, TCP o UDP.
+- **Funcionamiento**: Operan en las capas de red (capa 3) y transporte (capa 4) del modelo OSI, filtrando paquetes IP en base a valores de algunos campos de las cabeceras de IP, TCP o UDP.
 - **Ventajas**:
   - Simplicidad y bajo costo.
   - Impacto mínimo en el rendimiento de la red.
