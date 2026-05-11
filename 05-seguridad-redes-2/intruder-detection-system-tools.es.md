@@ -49,7 +49,7 @@ OSSEC es un IDS basado en hosts (HIDS). Realiza análisis de logs, comprobación
 
 OSSEC se basa en nombrar a cada host como servidor o sensor, según sus características. Será necesario un sensor en cada zona que se quiera inspeccionar la red en busca de amenazas y al menos un servidor para poder leer los datos que llegan de los sensores.
 
-#### Arquitectura de OSSEC**
+#### Arquitectura de OSSEC
 
 OSSEC se compone de múltiples piezas:
 
