@@ -1,18 +1,18 @@
-## Dia 13
+## Día 13
 
 - 📗 [Sistemas de detección de intruso](./intruder-detection-system.es.md)
 - 📗 [Sistemas prevención de intruso](./intrusion-prevention-system.es.md)
 - 📗 [Herramientas de detección de intruso](./intruder-detection-system-tools.es.md)
-- 🧪 [Find the malicius user](https://github.com/breatheco-de/find-the-malicius-user)
+- 🧪 [Find the malicious user](https://github.com/breatheco-de/find-the-malicius-user)
 
-## Dia 14
+## Día 14
 
 - 📗 [Listas de control de acceso](./access-control-lists.es.md)
 - 📗 [Firewall](./firewall.es.md)
 - 📗 [Seguridad inalámbrica](./wireless-security.es.md)
 - 🧪 [Configurar un firewall, configurar un ACL.](https://github.com/breatheco-de/configuring-firewall-and-acl-exercise-tutorial)
 
-## Dia 15 🔖
+## Día 15 🔖
 
 - 📗 [Seguridad en la nube](./cloud-security.es.md)
 - 📗 [Amenazas de la seguridad en la nube](./cloud-security-threats.es.md)
