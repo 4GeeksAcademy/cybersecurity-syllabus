@@ -6,7 +6,7 @@ authors: ["alesanchezr"]
 
 ---
 
-En el entorno digital actual, la seguridad de las aplicaciones web es crucial, especialmente al elegir servicios de hosting compartido como Godaddy, WP Engine, Siteground, Hostinger, Vercel, Netlify, Heroku, Render, Hostinger, SiteGround, etc. Estos servicios modernos facilitan el desarrollo y despliegue de aplicaciones, pero también presentan desafíos en seguridad. 
+En el entorno digital actual, la seguridad de las aplicaciones web es crucial, especialmente al elegir servicios de hosting como GoDaddy, WP Engine, SiteGround, Hostinger, Vercel, Netlify, Heroku, Render, etc. Estos servicios modernos facilitan el desarrollo y despliegue de aplicaciones, pero también presentan desafíos en seguridad. 
 
 Este documento analiza las características de seguridad esenciales que deben buscarse en estos proveedores, las amenazas comunes a las que se enfrentan, y cómo un enfoque colaborativo entre proveedores y usuarios puede mitigar riesgos. Comprender estas dinámicas es vital para proteger datos sensibles y mantener la integridad del sistema en la nube.
 
