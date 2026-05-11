@@ -122,7 +122,7 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 ### Escenarios del Mundo Real y Estudios de Caso
 
 - **Ejemplo de Ataques Reales**: Discusión de ataques reales que podrían haberse mitigado o prevenido con configuraciones adecuadas de firewall.
-- **Incidentes Notables**: El gusano SQL Slammer, que explotó vulnerabilidades en configuraciones de firewall.
+- **Incidentes Notables**: El gusano SQL Slammer (2003) explotó un desbordamiento de búfer en Microsoft SQL Server 2000 (CVE-2002-0649) a través del puerto UDP 1434. Las redes que bloqueaban ese puerto en su firewall perimetral evitaron la propagación; el incidente ilustra el impacto de una política de firewall restrictiva, no un fallo del propio firewall.
 
 ### Limitaciones de los Firewalls y Medidas de Seguridad Complementarias
 
