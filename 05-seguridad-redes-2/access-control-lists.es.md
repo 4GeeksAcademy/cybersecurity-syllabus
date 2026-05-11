@@ -34,8 +34,8 @@ Existen dos tipos principales de ACL: **estándar** y **extendida**.
 Para aplicar la ACL a una interfaz concreta, en el caso de los encaminadores de Cisco, se debe pasar a «modo de configuración de la interfaz» y aplicar el comando ip access-group. La sintaxis es:
 
 ```bash
-$ router(config) # interface nombre-interface
-$ router(config-if) # ip access-group N {in|out}
+router(config)# interface nombre-interface
+router(config-if)# ip access-group N {in|out}
 ```
 
 `nombre-interface` es la sintaxis propia de Cisco. Ej: «ethernet-0», 
@@ -53,15 +53,15 @@ router(config)# access-list 1 permit any
 
 La segunda línea es obligatoria. Si no se incluye, se aplicará la regla implícita «por defecto», que, aunque no se vea, es:
 
-```bash 
-$ router(config)# access-list 1 deny any
+```bash
+router(config)# access-list 1 deny any
 ```
 
 Para aplicar la ACL a la interfaz ethernet-1, los comandos serían:
 
 ```bash
-$ router(config)# interface ethernet-1
-$ router(config-if)# ip access-group 1 in
+router(config)# interface ethernet-1
+router(config-if)# ip access-group 1 in
 ```
 
 Filtrando así, solamente, el tráfico entrante.
@@ -71,7 +71,7 @@ Filtrando así, solamente, el tráfico entrante.
 **Las ACLs de tipo extended,** comparten todas las demás características del **standard**, pero tienen una sintaxis más complicada, atendiendo a que permiten filtrar utilizando muchos otros criterios:
 
 ```bash
-$ router(config)# access-list N {permit|deny} protocolo dir.IP-fuente [máscara-fuente] [op puerto-fuente] dir.IP-destino [máscara-destino] [op puerto-destino]
+router(config)# access-list N {permit|deny} protocolo dir.IP-fuente [máscara-fuente] [op puerto-fuente] dir.IP-destino [máscara-destino] [op puerto-destino]
 ```
 
 En este caso, N es un número entre 100 y 199, para indicar que es una lista extended, protocolo es la referencia al campo de número de protocolo de la cabecera IP y op puede ser:
