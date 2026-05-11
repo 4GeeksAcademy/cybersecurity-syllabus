@@ -273,7 +273,7 @@ Es muy sencillo de hacer. Solo hay que buscar en el router la opción dentro de 
 
 ![Limita la potencia de emisión de antenas](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws5-emision-de-antenas.png?raw=true)
 
-## **Simulación de la potencia radiada por una señal WiFi**
+*Simulación de la potencia radiada por una señal WiFi.*
 
 Puede parecer obvio, pero es el método más eficaz para evitar una intrusión o el uso no permitido de tu red inalámbrica. Si no llega la señal, difícilmente alguien podrá localizar tu red y mucho menos conectarse a ella. La mayoría de los routers permiten gestionar de algún modo la potencia emitida por las antenas y así manejar el radio de cobertura de la red de forma aproximada. Lo habitual es que nos encontremos con alguna opción en la que se nos permita variar el porcentaje de nivel de señal o la potencia transmitida.
 
