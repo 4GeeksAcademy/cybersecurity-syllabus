@@ -279,7 +279,7 @@ Puede parecer obvio, pero es el método más eficaz para evitar una intrusión o
 
 Aquí debemos procurar bajar la intensidad para que sigamos pudiendo conectarnos a la red dentro de casa, pero para que la potencia decaiga mucho fuera de ella. Podemos ir comprobándolo simplemente moviéndonos con el móvil por la casa y sus alrededores y viendo qué cobertura WiFi tenemos.
 
-**¿Cuánto tengo que disminuirla?** Pues todo lo que puedas mientras no te perjudique ni se te corte la conexión. También puede resultar útil orientar las antenas del router, si es que nos permite hacerlo, hacia el interior de casa para ofrecer la máxima potencia dentro y que salga la menos posible hacia el exterior y ya si somos algo paranoicos utilizar algún reflector metálico para modificar la dirección del haz de energía o incluso usar algún tipo de pintura anti-radiación electromagnética en alguna de las paredes por donde no queramos que salga la señal WiFi.
+**¿Cuánto tengo que disminuirla?** Pues todo lo que puedas mientras no te perjudique ni se te corte la conexión. También puede resultar útil orientar las antenas del router, si es que nos permite hacerlo, hacia el interior de la vivienda para ofrecer la máxima potencia dentro y minimizar la propagación hacia el exterior.
 
 ## **Resumiendo**
 
