@@ -43,10 +43,10 @@ Un IDS realiza dos tareas fundamentales:
 
 Existen indicadores estadísticos de sensibilidad, especificidad y precisión que permiten comprobar la efectividad del IDS, se basan en los siguientes conceptos:
 
-- Verdaderos positivos (TP): Intrusión existente y correctamente detectada.
-- Falsos positivos (FP): Intrusión no existente e incorrectamente detectada.
-- Falsos negativos (FN): Intrusión existente y no detectada.
-- Verdaderos negativos (TN): Intrusión no existente y no detectada.
+- Verdaderos positivos (TP): existe una intrusión y el IDS la detecta correctamente.
+- Falsos positivos (FP): el IDS genera una alerta sin que exista una intrusión real (falsa alarma).
+- Falsos negativos (FN): existe una intrusión real pero el IDS no la detecta (alarma omitida).
+- Verdaderos negativos (TN): no existe intrusión y el IDS no genera alerta (comportamiento normal correctamente clasificado).
 
 ### **Tipos de IDS**
 
