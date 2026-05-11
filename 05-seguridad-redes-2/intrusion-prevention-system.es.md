@@ -8,7 +8,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 En un mundo cada vez más digital, las amenazas cibernéticas son una preocupación constante para las organizaciones. Los Sistemas de Prevención de Intrusos (IPS) son una respuesta crucial a este desafío, actuando como defensores proactivos en la seguridad de la red. A diferencia de los Sistemas de Detección de Intrusos (IDS), que sólo detectan y alertan sobre posibles amenazas, los IPS están diseñados para identificar y neutralizar intrusiones en tiempo real.
 
-## ¿Qué es un Sistemas De Prevencion De Instrusos?
+## ¿Qué es un Sistema de Prevención de Intrusos?
 
 Los IPS son dispositivos de hardware o software encargados de revisar el tráfico de red con el propósito de detectar y responder a posibles ataques o intrusiones. Su respuesta consiste en descartar o modificar los paquetes procedentes del ataque de tal manera que se anule su propósito. Este comportamiento los clasifica como dispositivos proactivos debido a su reacción automática a situaciones anómalas.
 
@@ -16,7 +16,7 @@ Los IPS son dispositivos de hardware o software encargados de revisar el tráfic
 
 Mientras que un IDS se limita a detectar y notificar la intrusión al administrador del sistema, un IPS detecta y detiene la intrusión de manera predefinida. Esto se logra comprobando comportamientos de red previamente configurados como anómalos. Esta capacidad de acción inmediata distingue a los IPS como una evolución natural de los IDS, que simplemente observan y reportan.
 
-## Funcionamiento de los Sistemas De Prevencion De Instrusos
+## Funcionamiento de los Sistemas de Prevención de Intrusos
 
 Los IPS se asemejan al comportamiento de los cortafuegos, ya que ambos toman decisiones sobre la aceptación de paquetes en un sistema. Sin embargo, los cortafuegos basan sus decisiones principalmente en los encabezados de los paquetes (capas de red y de transporte), mientras que los IPS consideran tanto los encabezados como el contenido de los datos del paquete. Esto permite una visión más exhaustiva de las operaciones de la red, proporcionando información sobre actividades maliciosas, malas conexiones, contenido inapropiado y otras funciones, con una mínima vigilancia.
 
@@ -33,7 +33,7 @@ Las principales características de los IPS incluyen:
 - **Protección de sistemas no parcheados.**
 - **Optimización en el rendimiento del tráfico de la red.**
 
-## Tipos de Sistemas De Prevencion De Instrusos
+## Tipos de Sistemas de Prevención de Intrusos
 
 Los diferentes tipos de IPS se distinguen principalmente por su ubicación y enfoque:
 
@@ -47,7 +47,7 @@ Los diferentes tipos de IPS se distinguen principalmente por su ubicación y enf
 - **HIPS**: Pueden manejar tráfico cifrado y sin cifrar, ya que analizan los datos después de que han sido descifrados en el host. Sin embargo, utilizan el procesador y la memoria del host, lo que puede impactar su rendimiento.
 - **NIPS**: Pueden detectar eventos dispersos a través de la red y reaccionar fácilmente, pero no impactan el rendimiento del host, ya que operan independientemente del hardware del mismo.
 
-## Evolución y categorías de los Sistemas De Prevencion De Instrusos
+## Evolución y categorías de los Sistemas de Prevención de Intrusos
 
 La evolución de los IPS ha seguido dos generaciones históricas:
 
