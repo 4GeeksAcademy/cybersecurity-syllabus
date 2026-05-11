@@ -47,11 +47,11 @@ En la figura. Se quiere dejar pasar hacia dentro todo el tráfico de las redes e
 ![Tabla de control de acceso](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/access-control-list/listas-de-control-de-acceso-image-1.jpg)
 
 ```bash
-$ router(config)# access-list 1 deny 144.21.0.0 0.0.255.255
-$ router(config)# access-list 1 permit any La segunda línea es obligatoria.
+router(config)# access-list 1 deny 144.21.0.0 0.0.255.255
+router(config)# access-list 1 permit any
 ```
 
-Si no se tiene en cuenta, funcionará la «por defecto» ya citada, que, aunque no se vea es:
+La segunda línea es obligatoria. Si no se incluye, se aplicará la regla implícita «por defecto», que, aunque no se vea, es:
 
 ```bash 
 $ router(config)# access-list 1 deny any
