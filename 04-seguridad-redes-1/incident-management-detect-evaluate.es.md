@@ -65,7 +65,9 @@ La prioridad de un incidente depende del valor o importancia dentro de la entida
 
 Luego de definir estas variables, se calcula la prioridad mediante la siguiente fórmula:
 
-\[ \text{Nivel de Prioridad} = (\text{Impacto Actual} \times 2.5) + (\text{Impacto Futuro} \times 2.5) + (\text{Criticidad del Sistema} \times 5) \]
+```text
+Nivel de Prioridad = (Impacto Actual × 2.5) + (Impacto Futuro × 2.5) + (Criticidad del Sistema × 5)
+```
 
 Los resultados se comparan con la siguiente tabla para determinar la prioridad de atención:
 

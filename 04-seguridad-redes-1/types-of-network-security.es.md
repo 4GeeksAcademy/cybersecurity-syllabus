@@ -104,6 +104,9 @@ Implementa redundancia, tolerancia a fallos y planes robustos de recuperación a
     - **Herramientas Comunes para Prevenir**: Análisis de Comportamiento de Usuarios y Entidades (UEBA) (e.g., Exabeam, Securonix), herramientas de análisis de tráfico de red.
     - **Herramientas Comunes para Solucionar**: Herramientas de detección de anomalías, plataformas de orquestación, automatización y respuesta de seguridad (SOAR).
 
-16. **Seguridad de Confianza Cero**
+16. **Seguridad de Confianza Cero (Zero Trust)**
     - **Descripción**: Un modelo de seguridad que requiere verificación estricta de cada usuario y dispositivo que intenta acceder a los recursos.
-    - **Herramientas Comunes para
+    - **Herramientas Comunes para Prevenir**: Marcos de Confianza Cero (e.g., Google BeyondCorp, Microsoft Zero Trust), herramientas de verificación de identidad.
+    - **Herramientas Comunes para Solucionar**: Herramientas de aplicación de políticas, herramientas de verificación continua.
+
+Esta lista exhaustiva cubre los aspectos clave de la seguridad de red, incluyendo herramientas de prevención y remediación, para ayudar a proteger las redes de manera efectiva.
