@@ -14,9 +14,9 @@ Un sistema de detección de intrusiones puede ser descrito como un proceso de de
 
 ## ¿En qué consiste un IDS y cómo funciona?
 
-Hemos de partir de la base que aunque tengamos el cortafuegos habilitado, por normal general, tendremos muchos puertos abiertos, como por ejemplo el 80 y el 443 para las aplicaciones web. Por lo que debemos tener un sistema adicional que nos ayude a controlar estas puertas abiertas. Por lo que para llevar un mayor control debemos de utilizar un sistema IDS, esto es, un sistema de detección de intrusos y también de vulnerabilidades. Existen los IDS activos y los pasivos. Con los primeros se genera entradas en el registro y se generan alertas. Con los segundos en cambio, además de realizar las mismas funciones que con el pasivo, también se generarían acciones, como bloquear direcciones IP o cerrar el acceso a puertos restringidos.
+Hemos de partir de la base que aunque tengamos el cortafuegos habilitado, por norma general, tendremos muchos puertos abiertos, como por ejemplo el 80 y el 443 para las aplicaciones web. Por lo que debemos tener un sistema adicional que nos ayude a controlar estas puertas abiertas. Para llevar un mayor control debemos utilizar un sistema IDS, esto es, un sistema de detección de intrusos y también de vulnerabilidades. Existen los IDS pasivos y los activos. Con los **pasivos** se generan entradas en el registro y alertas. Con los **activos**, además de realizar esas funciones, también se ejecutan acciones de respuesta, como bloquear direcciones IP o cerrar el acceso a puertos restringidos (a este tipo de IDS activo se le denomina habitualmente IPS).
 
-Además desde el punto de vista del programación (*software*) existen diferentes tipos de herramienta, los sistemas de detección de intrusos (HIDS), sistemas de detección de intrusos en red (IDPS), los sistemas de detección de intrusos basados en firmas (SIDS) y por último los sistemas de detección de intrusos basados en anomalías.
+Además, desde el punto de vista del software, existen diferentes tipos de herramienta: sistemas de detección de intrusos basados en host (**HIDS**, *Host-based IDS*), basados en red (**NIDS**, *Network-based IDS*), basados en firmas (*signature-based IDS*) y basados en anomalías (*anomaly-based IDS*).
 
 ![network intrusion detection](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/2network-intrusion-detection.png?raw=true)
 
@@ -30,9 +30,11 @@ Es importante que nuestro IDS actualice la información de forma habitual, para 
 
 Existen una serie de organizaciones, asociaciones y empresas que nos permiten estar al corriente de las evoluciones en materia de técnicas de intrusión y ataques. Las principales son:
 
-- Bugtraq: Es una lista de difusión dedicada a la publicación de vulnerabilidades, su uso y corrección. ( [https://www.securityfocus.com/](https://www.securityfocus.com/))
-- CERT: *Computer Emergency Response Team*. Se trata de una organización que estudia las vulnerabilidades, investiga las evaluaciones en términos de redes y seguridad y ofrece servicios relacionados con la seguridad. ([Entrada de Wikipedia al respecto](https://es.wikipedia.org/wiki/Equipo_de_Respuesta_ante_Emergencias_Inform%C3%A1ticas))
-- CIAC: Computer Incident Advisory Capability. Una organización de alerta e investigación gestionado por el departament de energía de Estados Unidos. ([https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center](https://www.energy.gov/cio/about-our-services/integrated-joint-cybersecurity-coordination-center))
+- **NVD (NIST National Vulnerability Database)**: base de datos pública de vulnerabilidades con identificadores CVE y métricas CVSS ([https://nvd.nist.gov/](https://nvd.nist.gov/)).
+- **MITRE CVE**: catálogo oficial de identificadores CVE ([https://cve.mitre.org/](https://cve.mitre.org/)).
+- **CERT/CC** (*CERT Coordination Center*) en la Carnegie Mellon University: estudia vulnerabilidades, coordina la divulgación responsable y publica avisos de seguridad ([https://www.kb.cert.org/](https://www.kb.cert.org/)).
+- **oss-security** (mailing list de openwall.com): discusión pública sobre vulnerabilidades en software de código abierto.
+- **Bugtraq** fue históricamente una de las listas de referencia, pero quedó descontinuada en 2021 tras el cierre de SecurityFocus; ya no se mantiene.
 
 ### Tareas de un IDS
 
@@ -43,33 +45,42 @@ Un IDS realiza dos tareas fundamentales:
 
 Existen indicadores estadísticos de sensibilidad, especificidad y precisión que permiten comprobar la efectividad del IDS, se basan en los siguientes conceptos:
 
-- Verdaderos positivos (TP): Intrusión existente y correctamente detectada.
-- Falsos positivos (FP): Intrusión no existente e incorrectamente detectada.
-- Falsos negativos (FN): Intrusión existente y no detectada.
-- Verdaderos negativos (TN): Intrusión no existente y no detectada.
+- Verdaderos positivos (TP): existe una intrusión y el IDS la detecta correctamente.
+- Falsos positivos (FP): el IDS genera una alerta sin que exista una intrusión real (falsa alarma).
+- Falsos negativos (FN): existe una intrusión real pero el IDS no la detecta (alarma omitida).
+- Verdaderos negativos (TN): no existe intrusión y el IDS no genera alerta (comportamiento normal correctamente clasificado).
 
-### **Tipos de IDS**
+## Tipos de IDS
 
-Existen distintas clasificaciones de los IDS, según sea su enfoque, origen de datos, estructura y comportamiento
+Existen distintas clasificaciones de los IDS, según sea su enfoque, origen de datos, estructura y comportamiento.
 
 ![intrusion detection system clasification](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/3intrusion-detection-system-clasification.png?raw=true)
 
-## En función del enfoque
+### En función del enfoque
 
 Se presentan dos grupos: Los sistemas de detección de usos indebidos, que comparan las firmas con la información recogida; y los de detección de anomalías, que usan técnicas estadísticas para distinguir el comportamiento usual del anormal.
 
-**Detección de anomalías:** Es necesario definir cuál es el comportamiento normal de un sistema por medio de un aprendizaje de actividades, para clasificar los comportamientos que se desvíen de lo normal como sospechosos. Estos sistemas son propensos a dar falsos positivos, que son producidos cuando se dispara una alerta con actividad normal. Tienen la desventaja de que depende de la calidad del proceso de aprendizaje. Existen tres técnicas diferentes para realizar la detección de anomalías en un sistema:
+#### Detección de anomalías
 
-- **Sistemas basados en conocimiento:** Representa el inicio en los IDS, y se basa en las violaciones de seguridad detectadas mediante el uso de reglas. Resultan más fiables y proporcionan mejores rendimientos frente a ataques conocidos, con el inconveniente de su baja capacidad para detectar nuevos ataques no incluidos en la base de datos de firmas.
-- **Sistemas basados en métodos estadísticos**: Basado en perfiles de actividad que vienen definidos por el comportamiento del usuario, con respecto a ficheros, programas, registros, etc. Se realiza mediante el establecimiento de métricas y modelos estadísticos.
-- **Sistemas basados en aprendizaje automático:** Son los más desarrollados para el modelado de comportamientos normales y buscan mejorar los resultados en cuanto a detección, reducción de falsos positivos y tiempo de computación. Una ventaja reside en recoger las características de un ataque y añadirlo a una base de datos como firmas nuevas, permitiendo actualizar la base de firmas en un breve lapso de tiempo.
-- **Detección de usos incorrectos (detección por firma/regla):** Los sistemas de detección basados en uso indebido monitorizan las actividades que ocurren en un sistema y las compara con una base de datos de firmas de ataques. Cuando se encuentra una actividad que coincide con una de estas firmas, se genera una alarma. Presentan una facilidad de adaptación ya que basta con actualizar la base de datos, ya sea, escribiendo la nueva regla u obteniéndola de un tercero.
-- **Sistemas Expertos:** Conocimiento codificado mediante reglas de implicación (condición-acción), si se cumplen todas las condiciones se aplica la acción o regla. Presenta la desventaja de que las reglas no son secuenciales, lo que dificulta aislar pasos de intrusiones en el tiempo.
-- **Detección de firmas:** Realiza comparaciones entre los eventos que ocurren en el sistema y las firmas almacenadas en la base de datos en busca de similitudes.
-- **Análisis de transacción de estados:** Los ataques se representan como una secuencia de transiciones (máquina de estados finitos). Cuando se alcanza un estado considerado como intrusión se lanza una alarma.
-- **Híbridos:** Los IDS basados en firmas resultan más fiables y proporcionan mejores rendimientos frente a ataques conocidos, pero presentan una deficiencia ante nuevos ataques. Los IDS basados en anomalías presentan la capacidad de detectar ataques desconocidos, pero su rendimiento es inferior. Los sistemas híbridos serán una mezcla de ambos, y por lo tanto, pueden ajustarse para operar como ambos tipos de detectores, mejorando la funcionalidad, la detección de ataques y la mejora de rendimiento.
+Es necesario definir cuál es el comportamiento normal de un sistema mediante un proceso de aprendizaje de actividades, para clasificar como sospechosos los comportamientos que se desvíen de lo normal. Estos sistemas son propensos a dar falsos positivos cuando se dispara una alerta con actividad legítima, y su eficacia depende de la calidad del proceso de aprendizaje. Existen varias técnicas para realizar la detección de anomalías:
 
-## En función del origen de los datos
+- **Sistemas basados en métodos estadísticos**: utilizan perfiles de actividad definidos por el comportamiento del usuario respecto a ficheros, programas, registros, etc., mediante métricas y modelos estadísticos.
+- **Sistemas basados en aprendizaje automático**: son los más avanzados para el modelado de comportamientos normales y buscan mejorar la detección, reducir los falsos positivos y disminuir el tiempo de computación. Permiten extraer las características de un ataque y añadirlo a la base de datos como firma nueva, actualizando la base en poco tiempo.
+
+#### Detección por uso indebido (basada en firmas/reglas)
+
+Los sistemas basados en uso indebido monitorizan las actividades del sistema y las comparan con una base de datos de firmas de ataques. Cuando se encuentra una coincidencia, se genera una alarma. Resultan más fiables frente a ataques conocidos y son fáciles de adaptar: basta con actualizar la base de datos (escribiendo la nueva regla u obteniéndola de un tercero). Su principal limitación es la baja capacidad para detectar ataques desconocidos. Técnicas habituales:
+
+- **Sistemas basados en conocimiento (reglas)**: violaciones de seguridad detectadas mediante el uso de reglas predefinidas.
+- **Sistemas expertos**: conocimiento codificado mediante reglas de implicación (condición-acción); si se cumplen todas las condiciones, se aplica la acción. Su desventaja es que las reglas no son secuenciales, lo que dificulta aislar pasos de intrusión en el tiempo.
+- **Detección de firmas**: comparación directa entre los eventos del sistema y las firmas almacenadas en la base de datos en busca de similitudes.
+- **Análisis de transición de estados**: los ataques se representan como una secuencia de transiciones (máquina de estados finitos). Cuando se alcanza un estado considerado intrusión, se lanza una alarma.
+
+#### Sistemas híbridos
+
+Los IDS basados en firmas resultan más fiables frente a ataques conocidos, pero presentan deficiencias ante nuevos ataques. Los IDS basados en anomalías detectan ataques desconocidos, pero su rendimiento es inferior. Los sistemas híbridos combinan ambos enfoques y pueden ajustarse para operar como ambos tipos de detector, mejorando la cobertura y el rendimiento.
+
+### En función del origen de los datos
 
 Se encuentran tres tipos de IDS atendiendo a las fuentes de información que se utilicen:
 
@@ -81,7 +92,7 @@ Se encuentran tres tipos de IDS atendiendo a las fuentes de información que se 
 
 **IDS Híbridos:** Los sistemas híbridos recogen lo mejor de ambos tipos HIDS y NIDS. Permiten una detección local de los sistemas y un sensor en cada segmento de red se encarga de la vigilancia. De esta forma se cubren las necesidades HIDS con las del NIDS, permitiendo el aprovechamiento de las ventajas de ambas arquitecturas.
 
-## En función de su estructura
+### En función de su estructura
 
 Clasificación basada en las estrategias de control:
 
@@ -99,4 +110,4 @@ Encontramos dos tipos de IDS según si realizan la prevención escuchando el tr�
 
 **IDS Pasivo:** Sólo notifican al administrador de la red pero no actúan sobre el ataque. Únicamente procesan la información en busca de intrusiones, y una vez detectada se genera una alerta.
 
-**IDS Activos:** Es un tipo de IDS denominado Sistema de Prevención de Intrusión (IPS). A diferencia de los IDS, esta tecnología no se limita a escuchar el tráfico de la red y a mandar alertas, sino que permite establecer reglas, como se lo hace en los cortafuegos, para detener las intrusiones.
+**IDS Activos:** Es un tipo de IDS denominado Sistema de Prevención de Intrusión (IPS). A diferencia de los IDS pasivos, esta tecnología no se limita a escuchar el tráfico de la red y mandar alertas, sino que permite establecer reglas, como en los cortafuegos, para detener las intrusiones. Para profundizar en su funcionamiento y categorías consulta la lectura sobre [Sistemas de Prevención de Intrusos (IPS)](./intrusion-prevention-system.es.md).
