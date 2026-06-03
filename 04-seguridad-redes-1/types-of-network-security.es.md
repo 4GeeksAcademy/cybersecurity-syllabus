@@ -106,4 +106,7 @@ Implementa redundancia, tolerancia a fallos y planes robustos de recuperación a
 
 16. **Seguridad de Confianza Cero**
     - **Descripción**: Un modelo de seguridad que requiere verificación estricta de cada usuario y dispositivo que intenta acceder a los recursos.
-    - **Herramientas Comunes para
+    - **Herramientas Comunes para prevenir: marcos de trabajo de Confianza Cero (Zero Trust) (p. ej., Google BeyondCorp, Microsoft Zero Trust), herramientas de verificación de identidad.
+    - Herramientas comunes para corregir: herramientas de aplicación de políticas, herramientas de verificación continua.
+      
+Esta lista integral abarca los aspectos clave de la seguridad de redes, incluidas las herramientas de prevención y remediación, para ayudar a proteger las redes de manera eficaz.
