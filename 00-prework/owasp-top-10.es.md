@@ -1,5 +1,5 @@
 ---
-title: 'OWASP Top 10: El Pilar de la Ciberseguridad'
+title: "OWASP Top 10: El Pilar de la Ciberseguridad"
 tags:
   - OWASP
   - ciberseguridad
@@ -11,45 +11,56 @@ description: >-
   Descubre el OWASP Top 10, el pilar de la ciberseguridad. Aprende sobre las
   vulnerabilidades críticas y cómo proteger tus aplicaciones web.
 ---
+
 El **OWASP Top 10** es lo más importante que tienes que saber de la ciberseguridad. Es el motivo por el que existe la ciberseguridad (para solucionarlo). Es el 99% de las cosas que debes aprender a investigar, prevenir, explorar, explotar, documentar y todos los demás verbos del diccionario terminados en `ar`. El castellano no tiene palabras para expresarte lo importante que es dominar el OWASP Top 10. 🚨
 
 ## 🔍 Pero, ¿qué es el OWASP Top 10?
 
 Existe una fundación sin fines de lucro llamada **OWASP** (Open Web Application Security Project) que se encarga de mantener y publicar una lista de cuáles son las vulnerabilidades más importantes del mundo, las más frecuentes en las organizaciones. En realidad, son varias listas, pero durante el bootcamp de ciberseguridad solo nos vamos a enfocar en la lista principal, y luego queda de tarea que puedas aprender sobre las demás.
 
-## 📋 Listado de vulnerabilidades del OWASP Top 10 para 2021
+## 📋 Listado de vulnerabilidades del OWASP Top 10 para 2025
 
-En el sitio web oficial de OWASP [puedes ver que la última lista de vulnerabilidades](https://owasp.org/www-project-top-ten/) que fue publicada en el 2021 y consiste en las siguientes categorías o grupos de vulnerabilidades:
+En el sitio web oficial de OWASP [puedes ver que la última lista de vulnerabilidades](https://owasp.org/Top10/2025/) fue publicada en 2025 y consiste en las siguientes categorías o grupos de vulnerabilidades:
 
-### 🔓 A01:2021 – Broken Access Control
+### 🔓 A01:2025 – Broken Access Control
+
 - **Descripción:** Esta categoría incluye fallos que permiten a los usuarios acceder a datos o funciones fuera de sus permisos intencionados. Es la vulnerabilidad más común y crítica, lo que conduce a accesos no autorizados y brechas de datos.
 
-### 🔐 A02:2021 – Cryptographic Failures (anteriormente conocida como Sensitive Data Exposure)
+### ⚙️ A02:2025 – Security Misconfiguration
+
+- **Descripción:** La mala configuración de seguridad incluye ajustes inseguros por defecto, endurecimiento incompleto, servicios en la nube expuestos, funciones innecesarias habilitadas y encabezados de seguridad débiles.
+
+### 🧩 A03:2025 – Software Supply Chain Failures
+
+- **Descripción:** Esta categoría se enfoca en riesgos dentro de dependencias, paquetes de terceros, herramientas de build y procesos CI/CD. Una cadena de suministro comprometida puede propagar vulnerabilidades a gran escala.
+
+### 🔐 A04:2025 – Cryptographic Failures
+
 - **Descripción:** Se refiere a debilidades en los procesos criptográficos que pueden llevar a la exposición de datos sensibles. Los problemas incluyen cifrado insuficiente, gestión insegura de claves y el uso de algoritmos débiles.
 
-### 💉 A03:2021 – Injection
+### 💉 A05:2025 – Injection
+
 - **Descripción:** Los fallos de inyección ocurren cuando se envían datos no confiables a un intérprete como parte de un comando o consulta. La [inyección SQL](https://4geeks.com/es/lesson/entendiendo-la-inyeccion-sql-la-segunda-vulnerabilidad-mas-critica-segun-owasp) es el ejemplo más conocido, pero también incluye inyección NoSQL, comandos del sistema operativo, entre otros.
 
-### 🏗️ A04:2021 – Insecure Design
-- **Descripción:** Esta categoría aborda los riesgos asociados con patrones de diseño inseguros y la falta de principios de diseño seguro, como una arquitectura segura y modelado de amenazas.
+### 🏗️ A06:2025 – Insecure Design
 
-### ⚙️ A05:2021 – Security Misconfiguration
-- **Descripción:** La mala configuración de seguridad es el resultado de configuraciones predeterminadas inseguras, configuraciones incompletas, almacenamiento en la nube abierto, encabezados HTTP mal configurados y mensajes de error detallados que revelan información sensible.
+- **Descripción:** Esta categoría aborda los riesgos asociados con patrones de diseño inseguros y la falta de principios de diseño seguro, como arquitectura segura y modelado de amenazas.
 
-### 🧩 A06:2021 – Vulnerable and Outdated Components
-- **Descripción:** Esto involucra el uso de componentes de software con vulnerabilidades conocidas que a menudo quedan sin parches o están desactualizados, lo que potencialmente lleva a una brecha de seguridad.
+### 🆔 A07:2025 – Authentication Failures
 
-### 🆔 A07:2021 – Identification and Authentication Failures
-- **Descripción:** Anteriormente conocida como Broken Authentication, esta categoría involucra fallos en el proceso de autenticación, como la implementación incorrecta de mecanismos de autenticación, lo que puede permitir a los atacantes obtener acceso no autorizado.
+- **Descripción:** Incluye controles débiles de autenticación y de sesiones, como políticas de contraseña pobres, manejo inseguro de credenciales y flujos de login/sesión vulnerables que pueden facilitar el secuestro de cuentas.
 
-### 🛠️ A08:2021 – Software and Data Integrity Failures
-- **Descripción:** Esta nueva categoría incluye problemas como la deserialización insegura, donde los datos no son validados adecuadamente antes de ser procesados, y vulnerabilidades relacionadas con pipelines de CI/CD.
+### 🛠️ A08:2025 – Software or Data Integrity Failures
 
-### 📉 A09:2021 – Security Logging and Monitoring Failures
-- **Descripción:** El registro y monitoreo insuficientes pueden prevenir la detección oportuna de brechas y ataques, lo que lleva a un acceso no autorizado prolongado y pérdida de datos.
+- **Descripción:** Incluye problemas como deserialización insegura, código o actualizaciones sin firma, y debilidades de integridad en datos o en la entrega de software que permiten manipular rutas de ejecución confiables.
 
-### 🌐 A10:2021 – Server-Side Request Forgery (SSRF)
-- **Descripción:** SSRF ocurre cuando una aplicación web es engañada para hacer solicitudes no autorizadas a otro servicio, lo que a menudo lleva a la exposición de servicios internos, datos sensibles u otros ataques.
+### 📉 A09:2025 – Security Logging and Alerting Failures
+
+- **Descripción:** El registro, monitoreo y alertado insuficientes pueden impedir la detección oportuna de brechas y ataques, provocando accesos no autorizados prolongados y mayor impacto del incidente.
+
+### 🌐 A10:2025 – Mishandling of Exceptional Conditions
+
+- **Descripción:** Esta categoría cubre el manejo inseguro de errores, excepciones y condiciones límite. Una mala gestión de fallos puede revelar información sensible, omitir controles o activar estados inseguros.
 
 ## 🔧 ¿Qué hacer con el OWASP Top 10?
 
