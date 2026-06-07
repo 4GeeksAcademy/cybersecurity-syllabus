@@ -39,6 +39,6 @@ Algunos protocolos de red que como pentester debes conocer son:
 - **DNS:** El Sistema de Nombres de Dominio (DNS) se encarga de traducir nombres de dominio en direcciones IP, lo que facilita la navegación en la web.
 - **FTP:** El Protocolo de Transferencia de Archivos (FTP) se usa para transferir archivos entre dispositivos en una red.
 
-1. **SNMP:** Para pruebas de seguridad en la administración de dispositivos de red.
-2. **BGP:** Para evaluar la seguridad de enrutamiento en redes.
-3. **ICMP:** Para el análisis de respuestas de ping y trazas de ruta, y también para detectar posibles problemas de red.
+- **SNMP:** Para pruebas de seguridad en la administración de dispositivos de red.
+- **BGP:** Para evaluar la seguridad de enrutamiento en redes.
+- **ICMP:** Para el análisis de respuestas de ping y trazas de ruta, y también para detectar posibles problemas de red.

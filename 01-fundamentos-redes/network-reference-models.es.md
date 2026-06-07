@@ -12,7 +12,7 @@ description: >-
 ---
 Los modelos de referencia de redes son marcos teóricos que se utilizan para describir y entender cómo funcionan las redes de comunicación y cómo se organizan los diferentes componentes que las componen. Estos modelos establecen una estructura conceptual que ayuda a los profesionales de redes y a los diseñadores a comprender mejor los procesos de comunicación y a desarrollar estándares y protocolos de manera coherente. Dos de los modelos de referencia más conocidos son el Modelo OSI (Open Systems Interconnection) y el Modelo TCP/IP (Transmission Control Protocol/Internet Protocol):
 
-### **Modelo OSI (Open Systems Interconnection):**
+## Modelo OSI (Open Systems Interconnection)
 
 El Modelo OSI fue desarrollado por la Organización Internacional de Normalización (ISO) en la década de 1980 y consta de siete capas, cada una con un conjunto específico de funciones. Estas capas, de la más baja a la más alta, son las siguientes:
 
@@ -65,7 +65,7 @@ El Modelo OSI (Open Systems Interconnection) es un marco conceptual que se utili
 
 Cada capa se comunica con las capas adyacentes mediante interfaces bien definidas y proporciona servicios a las capas superiores. El Modelo OSI es una referencia teórica ampliamente aceptada que ayuda a comprender cómo funcionan los protocolos de red y cómo se organizan en una pila de protocolos.
 
-### **Modelo TCP/IP (Transmission Control Protocol/Internet Protocol):**
+## Modelo TCP/IP (Transmission Control Protocol/Internet Protocol)
 
 El Modelo TCP/IP es un modelo de referencia práctico que se basa en el diseño de Internet y se utiliza para describir cómo se comunican los dispositivos en Internet. Aunque es menos detallado que el Modelo OSI, consta de cuatro capas principales:
 
