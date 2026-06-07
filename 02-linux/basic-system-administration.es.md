@@ -10,9 +10,9 @@ description: >-
   usuarios, grupos y optimizar la seguridad. ¡Descubre cómo mejorar tu sistema
   ahora!
 ---
-## Gestion de grupos y usuario
+## Gestión de grupos y usuarios
 
-Podemos denominar a Linux como un sistema operativo multiusuario, donde existen dos tipos de usuarios, el usuario root o administrador, y el resto de los usuario
+Podemos denominar a Linux como un sistema operativo multiusuario, donde existen dos tipos de usuarios: el usuario root o administrador, y el resto de los usuarios.
 
 El usuario root tiene la posibilidad de realizar todo tipo de labores respecto a la administración del sistema. Los cambios o modificaciones realizados con este usuario pueden causar inconvenientes en la seguridad del sistema completo, por lo que debemos tener en cuenta recomendaciones como utilizar este root solo cuando sea estrictamente necesario llevar a cabo una tarea de administración, y cuando terminemos, debemos volver a trabajar con nuestro usuario normal. Además, se sugiere que para acceder al usuario administrador, primero se haya iniciado sesión a través de una cuenta de usuario normal, esta medida previene trabajar con root de manera predeterminada.
 
@@ -40,17 +40,19 @@ Algunos comandos que podemos usar para la gestión de usuarios y grupos son
 
 Una de las ventajas de la configuración de red y conexión en linux es que fácilmente se puede hacer a través desde la terminal con varios comandos, veamos cuales son:
 
-- Si queremos saber si como esta configurada la **red TCP/IP** podemos usar el comando `ifconfig` o con `ip add`
+- Para consultar la configuración de la **red TCP/IP** usamos el comando `ip addr` (o su forma abreviada `ip a`). El comando `ifconfig` está deprecado en la mayoría de distribuciones modernas y ha sido sustituido por la suite `iproute2`.
 
-La respuesta del comando nos mostrara la ip de la máquina (inet), mascara de red (netmask) y dirección de difusión (broadcast).
+La respuesta del comando mostrará la dirección IP de la máquina (`inet`), la máscara de red en formato CIDR y la dirección de difusión (`brd`).
 
-- Si queremos cambiar la dirección de ip, usaremos el mismo comando `ifconfig`:
+- Para cambiar la dirección IP de una interfaz, usamos el comando `ip`:
 
 ```bash
-ifconfig eth0 192.168.1.100 netmask 255.255.255.0 broadcast 192.168.1.255
+sudo ip addr add 192.168.1.100/24 broadcast 192.168.1.255 dev eth0
 ```
 
-**`eth0`** es la interfaz de red que vamos a configurar
+> **Nota:** `ifconfig` aún puede estar disponible instalando el paquete `net-tools`, pero se recomienda usar `ip` en su lugar.
+
+**`eth0`** es la interfaz de red que vamos a configurar (en distribuciones modernas puede aparecer como `enp0s3`, `ens33`, etc.).
 
 - El comando `ping` nos sirve de mucha utilidad para medir la latencia y la conectividad de la red. A través de este comando se mandan paquetes de datos a la dirección puesta en el comando esperando por respuesta de dicha dirección.
 
@@ -64,7 +66,7 @@ Haciendo ping a dirección_ip con 32 bytes de datos:
 
 Respuesta desde 127.0.0.1: bytes=32 tiempo= <10 ms TTL=128
 
-> 💡 TTL= es el tiempo de vida del paquete enviado y su valor óptimo es 128
+> **TTL** (*Time To Live*) indica el número máximo de saltos (routers) que un paquete puede atravesar antes de ser descartado. Su valor inicial depende del sistema operativo de origen: 64 en Linux, 128 en Windows, 255 en algunos equipos de red. No existe un valor "óptimo" universal.
 
 **Netstat** es otra herramienta que podemos utilizar a través de la línea de comandos. Nos permite monitorizar las redes y también poder solucionar determinados problemas que puedan surgir.
 
