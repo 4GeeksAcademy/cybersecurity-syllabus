@@ -23,19 +23,19 @@ Existen dos tipos principales de ACL: **estándar** y **extendida**.
 **Las ACL estándar** filtran el tráfico basándose únicamente en las direcciones IP de origen. Son menos flexibles que las ACL extendidas y generalmente se aplican cerca del destino del tráfico.
 **Las ACL extendidas** Permiten un control más detallado al filtrar tráfico basándose en múltiples criterios, incluyendo direcciones IP de origen y destino, protocolos y números de puerto.
 
-## Cómo Funcionan las ACL?
+## ¿Cómo funcionan las ACL?
 
 - Operación Básica: Las ACL examinan las cabeceras de los paquetes y aplican reglas para permitir o denegar el tráfico según los criterios especificados.
 - Filtrado de Paquetes: Es cuando las ACL analizan los paquetes de datos y toman decisiones basadas en las reglas definidas.
 
 
-## Aplicacion de control de acceso para ACL estandar
+## Aplicación de control de acceso para ACL estándar
 
 Para aplicar la ACL a una interfaz concreta, en el caso de los encaminadores de Cisco, se debe pasar a «modo de configuración de la interfaz» y aplicar el comando ip access-group. La sintaxis es:
 
 ```bash
-$ router(config) # interface nombre-interface
-$ router(config-if) # ip access-group N {in|out}
+router(config)# interface nombre-interface
+router(config-if)# ip access-group N {in|out}
 ```
 
 `nombre-interface` es la sintaxis propia de Cisco. Ej: «ethernet-0», 
@@ -47,31 +47,31 @@ En la figura. Se quiere dejar pasar hacia dentro todo el tráfico de las redes e
 ![Tabla de control de acceso](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/05-seguridad-en-redes-2/access-control-list/listas-de-control-de-acceso-image-1.jpg)
 
 ```bash
-$ router(config)# access-list 1 deny 144.21.0.0 0.0.255.255
-$ router(config)# access-list 1 permit any La segunda línea es obligatoria.
+router(config)# access-list 1 deny 144.21.0.0 0.0.255.255
+router(config)# access-list 1 permit any
 ```
 
-Si no se tiene en cuenta, funcionará la «por defecto» ya citada, que, aunque no se vea es:
+La segunda línea es obligatoria. Si no se incluye, se aplicará la regla implícita «por defecto», que, aunque no se vea, es:
 
-```bash 
-$ router(config)# access-list 1 deny any
+```bash
+router(config)# access-list 1 deny any
 ```
 
 Para aplicar la ACL a la interfaz ethernet-1, los comandos serían:
 
 ```bash
-$ router(config)# interface ethernet-1
-$ router(config-if)# ip access-group 1 in
+router(config)# interface ethernet-1
+router(config-if)# ip access-group 1 in
 ```
 
 Filtrando así, solamente, el tráfico entrante.
 
-## Aplicacion de control de acceso para ACL extended
+## Aplicación de control de acceso para ACL extendidas
 
 **Las ACLs de tipo extended,** comparten todas las demás características del **standard**, pero tienen una sintaxis más complicada, atendiendo a que permiten filtrar utilizando muchos otros criterios:
 
 ```bash
-$ router(config)# access-list N {permit|deny} protocolo dir.IP-fuente [máscara-fuente] [op puerto-fuente] dir.IP-destino [máscara-destino] [op puerto-destino]
+router(config)# access-list N {permit|deny} protocolo dir.IP-fuente [máscara-fuente] [op puerto-fuente] dir.IP-destino [máscara-destino] [op puerto-destino]
 ```
 
 En este caso, N es un número entre 100 y 199, para indicar que es una lista extended, protocolo es la referencia al campo de número de protocolo de la cabecera IP y op puede ser:
@@ -93,9 +93,9 @@ Si lo que se busca es en la misma topología de la figura anterior, que se cumpl
 La lista de acceso sería:
 
 ```bash
-$ router(config)# access-list 101 permit ip host 133.11.1.3 any
-$ router(config)# access-list 101 permit tcp 155.15.11.1 any eq 23
-$ router(config)# access-list 101 permit ip 144.21.0.0 0.0.255.255 any
+router(config)# access-list 101 permit ip host 133.11.1.3 any
+router(config)# access-list 101 permit tcp host 155.15.1.1 any eq 23
+router(config)# access-list 101 permit ip 144.21.0.0 0.0.255.255 any
 ```
 
 Igual que antes, la condición implícita por defecto, no permite entrar más tráfico.
