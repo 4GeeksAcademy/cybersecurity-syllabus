@@ -43,14 +43,14 @@ La configuración de un cortafuegos y la protección de servicios son aspectos f
 - **Limitar el acceso**: Restringe el acceso a los servicios solo a las direcciones IP o rangos de IP necesarios. Esto ayuda a reducir la superficie de ataque y limitar la exposición a posibles amenazas.
 - **Herramientas de seguridad adicionales**: Además de un cortafuegos, existen otras herramientas de seguridad que se pueden utilizar para proteger los servicios en Linux. Por ejemplo, se pueden implementar sistemas de detección y prevención de intrusiones (IDS/IPS) para monitorear y bloquear actividades sospechosas. También se pueden utilizar herramientas de escaneo de vulnerabilidades para identificar posibles debilidades en los servicios.
 
-## Instalacion de iptables
+## Instalación de iptables
 
 **iptables** es una herramienta de firewall y filtrado de paquetes en sistemas Linux. Permite controlar y configurar las reglas de seguridad de red para proteger tu sistema y controlar el tráfico de red entrante y saliente.
 Con iptables, se puede definir reglas que determinen qué paquetes de red se permiten o bloquean en tu sistema. Estas reglas se basan en criterios como la dirección IP de origen o destino, el puerto de origen o destino, el protocolo utilizado y otras características de los paquetes.
 Las reglas de iptables se organizan en tablas, y cada tabla contiene cadenas de reglas. Las tablas más comunes son "filter", que se utiliza para filtrar paquetes, y "nat", que se utiliza para realizar traducción de direcciones de red (NAT).
 Dentro de cada tabla, hay diferentes cadenas predefinidas, como "INPUT" para el tráfico entrante, "OUTPUT" para el tráfico saliente y "FORWARD" para el tráfico que se reenvía a través del sistema. Puedes agregar reglas a estas cadenas para especificar qué hacer con los paquetes que coinciden con esas reglas, como aceptarlos, rechazarlos o redirigirlos.
 
-Para su instalacion debemos:
+Para su instalación debemos:
 
 1. **Verificar si iptables está instalado**
 
