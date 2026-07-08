@@ -16,7 +16,7 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 
 - Todo el tráfico de “dentro a fuera” y de “fuera a dentro” debe pasar por él.
 - Solo el tráfico autorizado basado en la política de seguridad puede continuar.
-- Debe ser completamente inatacable.
+- Debe estar diseñado para resistir intentos de compromiso (ningún firewall es invulnerable, pero su superficie de ataque debe minimizarse).
 
 ![firewall](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/05-seguridad-en-redes-2/firewall/how-a-firewall-works.es.jpg?raw=true)
 
@@ -38,7 +38,7 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 
 ### 1. **Filtros de Paquetes**
 
-- **Funcionamiento**: Operan en los niveles de red y transporte, filtrando paquetes IP basados en valores de algunos campos de las cabeceras de IP, TCP o UDP.
+- **Funcionamiento**: Operan en las capas de red (capa 3) y transporte (capa 4) del modelo OSI, filtrando paquetes IP en base a valores de algunos campos de las cabeceras de IP, TCP o UDP.
 - **Ventajas**:
   - Simplicidad y bajo costo.
   - Impacto mínimo en el rendimiento de la red.
@@ -122,7 +122,7 @@ Un cortafuego o firewall es una herramienta crucial que protege una red de siste
 ### Escenarios del Mundo Real y Estudios de Caso
 
 - **Ejemplo de Ataques Reales**: Discusión de ataques reales que podrían haberse mitigado o prevenido con configuraciones adecuadas de firewall.
-- **Incidentes Notables**: El gusano SQL Slammer, que explotó vulnerabilidades en configuraciones de firewall.
+- **Incidentes Notables**: El gusano SQL Slammer (2003) explotó un desbordamiento de búfer en Microsoft SQL Server 2000 (CVE-2002-0649) a través del puerto UDP 1434. Las redes que bloqueaban ese puerto en su firewall perimetral evitaron la propagación; el incidente ilustra el impacto de una política de firewall restrictiva, no un fallo del propio firewall.
 
 ### Limitaciones de los Firewalls y Medidas de Seguridad Complementarias
 

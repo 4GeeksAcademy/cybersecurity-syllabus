@@ -19,12 +19,10 @@ A continuación se incluyen varios pasos sencillos que puedes seguir para proteg
 
 - **Evita la utilización de la contraseña predeterminada:** Es muy fácil para un hacker descubrir cuál es la contraseña predeterminada del fabricante de tu router inalámbrico y utilizarla para acceder a la red inalámbrica. Por lo tanto, es conveniente que cambies la contraseña de administrador de tu router inalámbrico. A la hora de establecer la contraseña nueva, trata de elegir una serie compleja de números y letras, e intenta evitar la utilización de una contraseña que pueda adivinarse fácilmente.
 
-> ⚠️ **No permitas que el dispositivo inalámbrico indique su presencia - d**esactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea.
-
-</aside>
+> ⚠️ **No permitas que el dispositivo inalámbrico indique su presencia** — desactiva la difusión del identificador de red SSID (Service Set Identifier) para evitar que el dispositivo inalámbrico anuncie su presencia al mundo que te rodea. (Ten en cuenta que ocultar el SSID es una medida cosmética: cualquier cliente que se conecte revela el SSID y un atacante con un sniffer lo detectará igualmente.)
 
 - **Cambia el nombre SSID del dispositivo:** Al igual que antes, es muy fácil para un hacker descubrir cuál es el nombre SSID predeterminado del fabricante del dispositivo y utilizarlo para localizar la red inalámbrica. Cambia el nombre SSID predeterminado del dispositivo e intenta evitar la utilización de un nombre que pueda adivinarse fácilmente.
-- **Cifra los datos:** En la configuración de la conexión, asegúrate de que activas el cifrado. Si el dispositivo es compatible con el cifrado WPA, utilízalo; en caso contrario, utiliza el cifrado WEP.
+- **Cifra los datos:** En la configuración de la conexión, activa siempre cifrado **WPA3** (o **WPA2** si tu hardware no soporta WPA3). **No utilices WEP bajo ninguna circunstancia**: está roto desde 2004 y se descifra en minutos. Si tu router solo soporta WEP, reemplázalo.
 - **Protección contra los ataques de malware e Internet:** Asegúrate de que instalas un programa antimalware eficaz en todos los ordenadores y demás dispositivos. Con el fin de mantener actualizada la protección antimalware, selecciona la opción de actualización automática en el producto.
 
 
@@ -55,7 +53,6 @@ Ahora, ejecutar los cálculos necesarios para descifrar una clave WEP es una cue
 - La mayoría de los dispositivos reconocen WEP, lo que significa que fue sencillo de configurar y usar.
 - Su objetivo era igualar las ventajas de seguridad de las conexiones a Internet por cable.
 - Cuando se introdujo, el algoritmo de cifrado era lo suficientemente complejo como para mantener alejados a los usuarios desconocidos.
-- WEP protegía contra los ataques «man in the middle».
 
 **En contra:**
 
@@ -159,11 +156,11 @@ Esperemos que esa inestimable cajita haga lo que debe y la eliminación de los v
 
 Aquí le explicamos cómo encontrar el protocolo de seguridad de Wi-Fi que está usando:
 
-1. Haz clic en el menú **Inicio** de Windows y seleccione **Configuración** (el icono del engranaje).
+1. Haz clic en el menú **Inicio** de Windows y selecciona **Configuración** (el icono del engranaje).
 2. Selecciona **Red e Internet**.
-3. Elije **Wi-Fi** en el panel de la izquierda.
-4. Haz clic en el nombre de la **red** inalámbrica a la que está conectado.
-5. Junto a **Tipo de seguridad** verás el protocolo de red inalámbrica que esté usando.
+3. Elige **Wi-Fi** en el panel de la izquierda.
+4. Haz clic en el nombre de la **red** inalámbrica a la que estás conectado.
+5. Junto a **Tipo de seguridad** verás el protocolo de red inalámbrica que estás usando.
 
 ![security protocol](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws1-security-protocol.png?raw=true)
 
@@ -249,9 +246,11 @@ Por último tenemos [WPA2](https://es.wikipedia.org/wiki/WPA2), la evolución de
 
 Por supuesto, elijamos el que elijamos, debemos poner una clave lo suficientemente compleja como para que nadie pueda o por lo menos le resulte cómodo asaltarla por fuerza bruta, pero que nos sea relativamente fácil de recordar, sobre todo si vamos a querer usar nuevos dispositivos con frecuencia que requerirán de la inserción de la clave al conectarse por primera vez. Tampoco está de más cambiar esta contraseña de vez en cuando para evitar posibles intrusiones con ataques de fuerza bruta.
 
-### **Utiliza el filtrado MAC**
+### **Utiliza el filtrado MAC (capa cosmética)**
 
-Otra medida de seguridad que puede resultar útil es el llamado filtrado MAC (no se trata de no dejar conectarse a los equipos de Apple, no). Las [direcciones MAC](https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC) o también llamadas direcciones físicas son las que tiene asignada cada tarjeta de red grabada directamente en su hardware y que la identifican unívocamente del resto. Es algo así como una dirección IP pero de más bajo nivel y sólo se utiliza dentro de la misma subred.
+> ⚠️ El filtrado MAC y la ocultación del SSID **no son medidas de seguridad efectivas por sí solas**. Las direcciones MAC se pueden falsificar trivialmente con herramientas como `macchanger` o `ip link set ... address`, y un SSID oculto se revela en cualquier proceso de asociación de un cliente legítimo. Úsalo solo como capa adicional, nunca como sustituto del cifrado fuerte (WPA2/WPA3).
+
+Otra medida que puede aplicarse es el llamado filtrado MAC (no se trata de no dejar conectarse a los equipos de Apple, no). Las [direcciones MAC](https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC) o también llamadas direcciones físicas son las que tiene asignada cada tarjeta de red grabada directamente en su hardware y que la identifican unívocamente del resto. Es algo así como una dirección IP pero de más bajo nivel y sólo se utiliza dentro de la misma subred.
 
 El filtrado MAC te permite crear una especie de lista de equipos de red permitidos Está compuesta por 48 bits y se representa en 6 grupos de números hexadecimales separados por dos puntos o guiones. Es algo como esto: 01:23:45:67:89:AB o bien expresado como 01-23-45-67-89-AB.
 
@@ -259,7 +258,9 @@ El filtrado MAC te permite crear una especie de lista de equipos de red permitid
 
 Dependiendo del modelo, también podremos hacer listas negras de equipos bloqueados, impidiendo así el acceso a dispositivos que sepamos a ciencia cierta son intrusos o gorrones de nuestra WiFi. En este artículo tenéis más detalles sobre cómo realizar correctamente este filtrado MAC con un caso concreto.
 
-### **Reduce los rangos de direcciones IP permitidas**
+### **Reduce los rangos de direcciones IP permitidas (capa cosmética)**
+
+> ⚠️ Esta medida **no protege contra un atacante real**: cualquier intruso con acceso a la WiFi puede configurar manualmente una IP estática dentro de la subred. Sólo dificulta la conexión por inercia de dispositivos legítimos no configurados.
 
 Si siempre vamos a tener los mismos equipos conectados a la red, podemos utilizar la opción de deshabilitar el funcionamiento automático del [servicio DHCP](https://es.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) (Dynamic Host Configuration Protocol) en el router que se encarga de asignar direcciones IP a cada equipo conectado a la red.
 
@@ -271,13 +272,13 @@ Es muy sencillo de hacer. Solo hay que buscar en el router la opción dentro de 
 
 ![Limita la potencia de emisión de antenas](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/ws5-emision-de-antenas.png?raw=true)
 
-## **Simulación de la potencia radiada por una señal WiFi**
+*Simulación de la potencia radiada por una señal WiFi.*
 
 Puede parecer obvio, pero es el método más eficaz para evitar una intrusión o el uso no permitido de tu red inalámbrica. Si no llega la señal, difícilmente alguien podrá localizar tu red y mucho menos conectarse a ella. La mayoría de los routers permiten gestionar de algún modo la potencia emitida por las antenas y así manejar el radio de cobertura de la red de forma aproximada. Lo habitual es que nos encontremos con alguna opción en la que se nos permita variar el porcentaje de nivel de señal o la potencia transmitida.
 
 Aquí debemos procurar bajar la intensidad para que sigamos pudiendo conectarnos a la red dentro de casa, pero para que la potencia decaiga mucho fuera de ella. Podemos ir comprobándolo simplemente moviéndonos con el móvil por la casa y sus alrededores y viendo qué cobertura WiFi tenemos.
 
-**¿Cuánto tengo que disminuirla?** Pues todo lo que puedas mientras no te perjudique ni se te corte la conexión. También puede resultar útil orientar las antenas del router, si es que nos permite hacerlo, hacia el interior de casa para ofrecer la máxima potencia dentro y que salga la menos posible hacia el exterior y ya si somos algo paranoicos utilizar algún reflector metálico para modificar la dirección del haz de energía o incluso usar algún tipo de pintura anti-radiación electromagnética en alguna de las paredes por donde no queramos que salga la señal WiFi.
+**¿Cuánto tengo que disminuirla?** Pues todo lo que puedas mientras no te perjudique ni se te corte la conexión. También puede resultar útil orientar las antenas del router, si es que nos permite hacerlo, hacia el interior de la vivienda para ofrecer la máxima potencia dentro y minimizar la propagación hacia el exterior.
 
 ## **Resumiendo**
 

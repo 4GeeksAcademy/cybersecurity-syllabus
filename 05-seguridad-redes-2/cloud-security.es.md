@@ -37,7 +37,7 @@ La seguridad en la nube tiene ventajas ya que los grandes proveedores de nubes c
 - Seguridad de la Infraestructura: Segmentacion de red y monitoreo (deteccion de instrusos).
 - Seguridad de Aplicaciones: Pruebas de Vulnerabilidades, actualizaciones y parches.
 - Cumplimiento y Gobernanza: Politicas, regulaciones como GDPR, etc.
-- Continuidad del Negocio y Recuperación ante Desastres: Respados, planes de recuperacion.
+- Continuidad del Negocio y Recuperación ante Desastres: respaldos, planes de recuperación.
 
 ### Identidad
 
@@ -68,7 +68,7 @@ La seguridad de la infraestructura implica proteger los componentes físicos y v
   - Divide la red en segmentos más pequeños y seguros para aislar diferentes partes de la infraestructura. Esto limita el alcance de posibles ataques y facilita la implementación de medidas de seguridad específicas para cada segmento.
 
 - **Monitoreo y Detección de Intrusos:**
-  - Implementa sistemas que detectan actividades sospechosas o no autorizadas dentro de la infraestructura. Las soluciones de detección de intrusos (IDS) y prevención de intrusos (IPS) ayudan a identificar y mitigar amenazas antes de que causen daño.
+  - Implementa sistemas que detectan actividades sospechosas o no autorizadas dentro de la infraestructura. Las soluciones de [detección de intrusos (IDS)](./intruder-detection-system.es.md) y [prevención de intrusos (IPS)](./intrusion-prevention-system.es.md) ayudan a identificar y mitigar amenazas antes de que causen daño.
 
 ### Seguridad de Aplicaciones
 

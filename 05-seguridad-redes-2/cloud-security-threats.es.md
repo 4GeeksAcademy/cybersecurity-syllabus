@@ -8,6 +8,8 @@ authors: ["blindma1den", "lorenagubaira"]
 
 Casi todas las empresas han integrado la computación en la nube en sus operaciones de alguna manera. Sin embargo, al hacerlo, es crucial que se aseguren de que su estrategia de seguridad en la nube pueda protegerlos contra las principales amenazas de seguridad en este entorno.
 
+## Principales amenazas de seguridad en la nube
+
 ### **Mala Configuración**
 
 Las configuraciones incorrectas de seguridad son una de las principales causas de brechas de datos en la nube. Muchas organizaciones no tienen estrategias adecuadas para gestionar la seguridad de su infraestructura en la nube.
@@ -48,7 +50,7 @@ Para mitigar este riesgo, las organizaciones deben gestionar sus procesos de cif
 
 ### **Ataques de Denegación de Servicio (DoS/DDoS)**
 
-La nube es crítica para muchas organizaciones, ya que almacenan datos importantes y ejecutan aplicaciones clave. Un ataque de denegación de servicio puede interrumpir estos servicios, afectando a múltiples empresas. Los ataques DoS, en los que los atacantes demandan un rescate para detener la interrupción, son una amenaza significativa para los recursos en la nube.
+La nube es crítica para muchas organizaciones, ya que almacenan datos importantes y ejecutan aplicaciones clave. Un ataque de denegación de servicio puede interrumpir estos servicios, afectando a múltiples empresas. Una variante específica conocida como **RDoS** (*Ransom DDoS*) consiste en exigir un rescate para detener un ataque DDoS sostenido, y es una amenaza significativa para los recursos en la nube.
 
 ### **Fuga de Datos**
 

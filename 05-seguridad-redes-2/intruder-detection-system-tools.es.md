@@ -49,7 +49,7 @@ OSSEC es un IDS basado en hosts (HIDS). Realiza análisis de logs, comprobación
 
 OSSEC se basa en nombrar a cada host como servidor o sensor, según sus características. Será necesario un sensor en cada zona que se quiera inspeccionar la red en busca de amenazas y al menos un servidor para poder leer los datos que llegan de los sensores.
 
-#### Arquitectura de OSSEC**
+#### Arquitectura de OSSEC
 
 OSSEC se compone de múltiples piezas:
 
@@ -82,10 +82,10 @@ La Tabla 1 refleja una comparación de las características de algunos de los si
 
 | Características                | Zeek | Snort | Suricata | OSSEC | Wazuh |
 |--------------------------------|------|-------|----------|-------|-------|
-| Multi Hilo                     | No   | v3.0  | Sí       | No    | No    |
+| Multi Hilo                     | No   | Sí (v3.0+) | Sí       | No    | No    |
 | Soporte para IPv6              | Sí   | Sí    | Sí       | Sí    | Sí    |
 | Reputación IP                  | Parcial| No   | Sí       | No    | Sí    |
-| Detección Automática de Protocolos | Sí | v3.0  | Sí       | No    | No    |
+| Detección Automática de Protocolos | Sí | Sí (v3.0+) | Sí       | No    | No    |
 | Aceleración con GPU            | No   | No    | Sí       | No    | No    |
 | Variables globales/Flowbits    | Sí   | No    | Sí       | No    | No    |
 | GeoIP                          | Sí   | No    | Sí       | No    | No    |
