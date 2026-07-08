@@ -7,8 +7,8 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Master IP Address Management and enhance your network security skills. Learn
-  about IPv4, IPv6, and subnetting. Discover essential strategies now!
+  Domina la gestión de direcciones IP y mejora tus habilidades en seguridad de
+  redes. Aprende sobre IPv4, IPv6 y subnetting.
 ---
 Es fundamental que un profesional de redes y ciberseguridad sepa gestionar direcciones IP debido a que las direcciones IP son elementos esenciales en la infraestructura de cualquier red, y desempeñan un papel crítico en la ciberseguridad.
 
@@ -19,7 +19,7 @@ Es fundamental que un profesional de redes y ciberseguridad sepa gestionar direc
 
 Imagina que tienes una red doméstica con varios dispositivos, como tu computadora, tu teléfono y tu impresora. Cada uno de estos dispositivos tiene su propia dirección IP única, como una etiqueta de dirección para que los datos puedan llegar al destino correcto.
 
-## Subnetting: Cómo se confórman las redes
+## Subnetting: Cómo se conforman las redes
 
 - Subnetting es el proceso de dividir una red en subredes más pequeñas. Esto se hace por varias razones, incluida la mejora de la eficiencia de la red y la seguridad.
 - En ciberseguridad y pentesting, subnetting se utiliza para segmentar una red en partes más pequeñas, lo que puede ayudar a aislar y controlar el tráfico. Esto es crucial para proteger los recursos críticos y limitar la propagación de amenazas en una red.
@@ -65,7 +65,9 @@ Los dos tipos de dirección IP son:
 
 Este tipo de IP consta en una dirección de 32 bits separado en 4 octeto (grupo de 8 bits), limitadas a  4 294 967 296 direcciones únicas, muchas de ellas LAN. Desde el punto de vista técnico, son un código binario de 32 cifras entre 0 y 1. Generalmente se suele representar como una combinación de número decimales con valores entre 0 y 255 separados por puntos. Un ejemplo de una direccion IPv4 puede ser 192.168.178.31
 
-Actualmente esta asignación de direcciones IP pasa por una arquitectura de clases que consta de tres clases de direcciones IP que una organización puede recibir de parte de la Internet Corporation for Assigned Names and Numbers (ICANN).
+Históricamente, la asignación de direcciones IP se organizaba mediante una arquitectura de clases que constaba de tres clases principales de direcciones IP que una organización podía recibir de parte de la Internet Corporation for Assigned Names and Numbers (ICANN).
+
+> 📖 El sistema de clases (classful addressing) fue reemplazado en la práctica por **CIDR** (Classless Inter-Domain Routing, RFC 4632) en la década de 1990. CIDR permite asignar bloques de direcciones de cualquier tamaño usando notación de prefijo (por ejemplo, /20, /27), en lugar de limitarse a los bloques fijos de clase A, B o C. Hoy en día CIDR es el estándar universal, pero comprender las clases sigue siendo útil como base conceptual y porque aparecen en certificaciones y en la configuración de redes legacy.
 
 - **Red clase A**
 
@@ -85,11 +87,11 @@ En la siguiente tabla podemos ver cómo se diferencian cada uno de las clases de
 
 | Clase | Bits | N de redes | N direcciones por red | N hosts por red | Máscara de red |
 | --- | --- | --- | --- | --- | --- |
-| A | 0 | 0.0.0.0 - 127.255.255.255 | 224 = 16.777.216 | 224 - 2 16.777.214 | 255.0.0.0 |
-| B | 10 | 128.0.0.0 - 191.255.255.255 | 216 = 65.536 | 216  - 2 65.534 | 255.255.0.0 |
-| C | 110 | 192.0.0.0 - 233.255.255.255 | 28 = 256 | 28 - 2 254 | 255.255.255.0 |
-| D (Multicast) | 1110 | 224.0.0.0 - 239.255.255.255 |  |  |  |
-| E (Experimental) | 1111 | 240.0.0.0 - 255.255.255.254 |  |  |  |
+| A | 0 | 0.0.0.0 - 127.255.255.255 | 2²⁴ = 16.777.216 | 2²⁴ - 2 = 16.777.214 | 255.0.0.0 |
+| B | 10 | 128.0.0.0 - 191.255.255.255 | 2¹⁶ = 65.536 | 2¹⁶ - 2 = 65.534 | 255.255.0.0 |
+| C | 110 | 192.0.0.0 - 223.255.255.255 | 2⁸ = 256 | 2⁸ - 2 = 254 | 255.255.255.0 |
+| D (Multicast) | 1110 | 224.0.0.0 - 239.255.255.255 |  |  |  |
+| E (Experimental) | 1111 | 240.0.0.0 - 255.255.255.254 |  |  |  |
 
 ### Direcciones IPv6
 
@@ -98,13 +100,13 @@ Tienen la misma función de la dirección IPv4, esta consta de 128 bits y se exp
 El cambio más grande de IPv4 a IPv6 es la longitud de las direcciones de red, para la ipV6 fue asignada con 128 bits, el cual corresponde a 32 dígitos hexadecimales, en muchas ocasiones las direcciones IPv6 están compuestas por dos partes lógicas: un prefijo de 64 bits y otra parte de 64 bits que corresponde al identificador de interfaz, que casi siempre se genera automáticamente a partir de la dirección MAC de la interfaz a la que está asignada la dirección. Esta se escribe como 8 grupos de cuatro dígitos hexadecimales por ejemplo:
 
 ```bash
-2001:0db8:85a4:0000:15e2::a8e2:1380:7545
+2001:0db8:85a4:0000:15e2:a8e2:1380:7545
 ```
 
 Se puede comprimir un grupo de cuatro dígitos si tiene el valor de 0000.
 
 ```bash
-2001:0db8:85a4::15e2::a8e2:1380:7545
+2001:0db8:85a4::15e2:a8e2:1380:7545
 ```
 
 Siguiendo esta regla, si más de dos grupos consecutivos son nulos, también pueden comprimirse como "::". Si la dirección tiene más de una serie de grupos nulos consecutivos la compresión solamente se permite en uno de ellos. Así, las siguientes son representaciones posibles de una misma dirección:
@@ -129,7 +131,7 @@ Las redes se pueden subdividir más fácilmente en el límite de octeto /8, /16,
 
 | Longitud del prefijo | Máscara de subred | Máscara de red en binario | # hosts |
 | --- | --- | --- | --- |
-| /8 | 255.0.0.0 | 11111111.00000000.00000000.0000000 | 16.777.214 |
+| /8 | 255.0.0.0 | 11111111.00000000.00000000.00000000 | 16.777.214 |
 | /16 | 255.255.0.0 | 11111111.11111111.00000000.00000000 | 65534 |
 | /24 | 255.255.255.0 | 11111111.11111111.11111111.00000000 | 254 |
 
@@ -217,9 +219,9 @@ Este protocolo nos genera ciertas ventajas ya que este proceso esta automatizado
 
 >💡**Tema de discusión**
 >
->¿Cual es el motivo principal por el cual la ICAAN decidió sacar el protocolo de ipV6?
+>¿Cuál es el motivo principal por el cual se desarrolló el protocolo IPv6? ¿Qué organismo lo diseñó?
 >
->¿Que ventaja podemos tener al hacer una división de redes en una organización?
+>¿Qué ventaja podemos tener al hacer una división de redes en una organización?
 >
->¿Cual es la importancia de conocer la mascara de red en un proceso de división de redes?
+>¿Cuál es la importancia de conocer la máscara de red en un proceso de división de redes?
 >

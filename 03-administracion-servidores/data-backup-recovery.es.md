@@ -6,21 +6,24 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Learn essential strategies for data backup and recovery. Ensure your data's
-  security and availability with effective tools and practices. Discover more!
+  Aprende estrategias esenciales para el respaldo y la recuperación de datos.
+  Garantiza la seguridad y disponibilidad de tu información con herramientas y
+  prácticas efectivas. ¡Descubre más!
 ---
+
+## Planificación de respaldos y políticas de retención
+
+Como analistas de ciberseguridad y administradores de seguridad, la planificación de respaldos y las políticas de retención son aspectos críticos de nuestro trabajo, ya que garantizan la protección y la disponibilidad de los datos almacenados. Estas prácticas son fundamentales para asegurar la integridad de la información y la capacidad de recuperación ante posibles incidentes o pérdidas.
+
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen1.jpg)
 
 ![Planificación y ejecución de respaldos](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/respaldo-y-recuperacion/respaldo-y-recuperacion-imagen2.jpg)
 
-## Planificación de respaldos y políticas de retención.
-
-Como analistas de ciberseguridad y administradores de seguridad la planificación de respaldos y las políticas de retención son aspectos críticos en nuestro trabajo, ya que garantizan la protección y disponibilidad de los datos almacenados en ellos. Estas prácticas son fundamentales para asegurar la integridad de la información y la capacidad de recuperación ante posibles incidentes o pérdidas de datos.
-
 Unos aspectos importantes que tenemos que tomar en consideración cuando trabajemos en nuestros respaldos son:
 
-| Identificación de los datos críticos |  El primer paso es identificar los datos más importantes que se encuentran en el servidor Linux. Esto puede incluir archivos de configuración, bases de datos, archivos de registro y cualquier otro dato esencial para el funcionamiento de la infraestructura. Estos datos deben ser respaldados de manera prioritaria y frecuente. |
+| Aspecto | Descripción |
 | --- | --- |
+| Identificación de los datos críticos | El primer paso es identificar los datos más importantes que se encuentran en el servidor Linux. Esto puede incluir archivos de configuración, bases de datos, archivos de registro y cualquier otro dato esencial para el funcionamiento de la infraestructura. Estos datos deben ser respaldados de manera prioritaria y frecuente. |
 | Selección de la herramienta de respaldo | Existen varias herramientas de respaldo disponibles para servidores Linux, como rsync, tar, Bacula, entre otras. Es importante seleccionar una herramienta que se ajuste a las necesidades específicas de tu servidor y que permita realizar respaldos de manera eficiente y confiable. |
 | Definición de la estrategia de respaldo | La estrategia de respaldo puede incluir respaldos completos, incrementales o diferenciales. Los respaldos completos copian todos los datos seleccionados, mientras que los incrementales y diferenciales solo respaldan los cambios realizados desde el último respaldo. Es importante evaluar cuál estrategia se ajusta mejor a tus necesidades en términos de tiempo, espacio de almacenamiento y capacidad de recuperación. |
 | Programación de los respaldos | Es recomendable establecer una programación regular para los respaldos. Esto puede incluir respaldos diarios, semanales o mensuales, dependiendo de la criticidad de los datos y la frecuencia de cambios en el servidor. Además, es importante considerar el impacto en el rendimiento del servidor durante el proceso de respaldo. |
@@ -58,12 +61,8 @@ Las pruebas de verificación de los respaldos son una parte fundamental de la es
 
 A continuación, te presento algunos puntos clave a considerar al realizar pruebas de verificación de los respaldos en servidores Linux:
 
-1. Verificación de la integridad de los respaldos: Es importante asegurarse de que los respaldos estén completos y no hayan sufrido daños o corrupción durante el proceso de respaldo. Para ello, se pueden utilizar herramientas como md5sum o sha256sum para calcular el hash de los archivos respaldados y compararlos con los hashes originales. Si los hashes coinciden, es un indicativo de que los respaldos están íntegros.
-  
-3. Restauración de datos de prueba: Una forma efectiva de verificar los respaldos es realizar pruebas de restauración de datos en un entorno de prueba. Esto implica seleccionar algunos archivos o directorios de respaldo y restaurarlos en un servidor o máquina virtual separada. Al realizar esta prueba, se puede confirmar que los datos respaldados se pueden recuperar correctamente y que están en un estado utilizable.
-
-5. Verificación de la consistencia de los datos: Además de verificar la integridad de los respaldos, es importante asegurarse de que los datos respaldados sean consistentes y estén en un estado utilizable. Esto implica verificar que los archivos y directorios respaldados sean accesibles y que no haya errores o inconsistencias en su contenido.
-   
-7. Pruebas de recuperación ante desastres: Las pruebas de recuperación ante desastres son esenciales para evaluar la capacidad de recuperación de los respaldos en situaciones críticas. Estas pruebas implican simular un escenario de pérdida total del servidor y realizar la recuperación de los datos utilizando los respaldos. Al realizar estas pruebas, se puede evaluar la efectividad de los respaldos y los procedimientos de recuperación.
-
-8. Documentación y seguimiento: Es importante documentar y realizar un seguimiento de las pruebas de verificación de los respaldos. Esto incluye registrar los resultados de las pruebas, identificar cualquier problema o inconsistencia encontrada y tomar las medidas necesarias para corregirlos. Además, es recomendable establecer una programación regular para realizar pruebas de verificación de los respaldos y asegurarse de que se realicen de manera periódica.
+1. **Verificación de la integridad de los respaldos**: es importante asegurarse de que los respaldos estén completos y no hayan sufrido daños o corrupción durante el proceso. Para ello se pueden utilizar herramientas como `md5sum` o `sha256sum` para calcular el hash de los archivos respaldados y compararlos con los hashes originales. Si los hashes coinciden, es un indicativo de que los respaldos están íntegros.
+2. **Restauración de datos de prueba**: una forma efectiva de verificar los respaldos es realizar pruebas de restauración en un entorno de prueba. Esto implica seleccionar algunos archivos o directorios de respaldo y restaurarlos en un servidor o máquina virtual separada. Al realizar esta prueba, se puede confirmar que los datos respaldados se pueden recuperar correctamente y que están en un estado utilizable.
+3. **Verificación de la consistencia de los datos**: además de verificar la integridad de los respaldos, es importante asegurarse de que los datos respaldados sean consistentes y estén en un estado utilizable. Esto implica verificar que los archivos y directorios respaldados sean accesibles y que no haya errores o inconsistencias en su contenido.
+4. **Pruebas de recuperación ante desastres**: las pruebas de recuperación ante desastres son esenciales para evaluar la capacidad de recuperación de los respaldos en situaciones críticas. Estas pruebas implican simular un escenario de pérdida total del servidor y realizar la recuperación de los datos utilizando los respaldos. Al realizar estas pruebas, se puede evaluar la efectividad de los respaldos y los procedimientos de recuperación.
+5. **Documentación y seguimiento**: es importante documentar y realizar un seguimiento de las pruebas de verificación de los respaldos. Esto incluye registrar los resultados de las pruebas, identificar cualquier problema o inconsistencia encontrada y tomar las medidas necesarias para corregirlos. Además, es recomendable establecer una programación regular para realizar pruebas de verificación de los respaldos y asegurarse de que se realicen de manera periódica.

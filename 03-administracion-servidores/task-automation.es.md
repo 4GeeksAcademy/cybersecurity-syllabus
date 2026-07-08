@@ -1,10 +1,10 @@
 ---
-title: Ques el cron y como usarlo para programar tareas
+title: Qué es cron y cómo usarlo para programar tareas
 tags:
   - servidores
   - cron-jobs
-  - tareas de sistemas
-  - procesamiento de tareas
+  - tareas-de-sistema
+  - procesamiento-de-tareas
 authors:
   - blindma1den
   - lorenagubaira
@@ -18,7 +18,7 @@ La configuración de tareas en cron se realiza a través de archivos llamados "c
 
 El formato de un crontab consta de cinco campos separados por espacios: minutos, horas, día del mes, mes y día de la semana. Puedes utilizar números o asteriscos (*) para indicar todos los valores posibles en un campo. 
 
-Por ejemplo, si deseas que un script the python se ejecute todos los días a las 8:00 a.m., puedes configurar el crontab de la siguiente manera:
+Por ejemplo, si deseas que un script de Python se ejecute todos los días a las 8:00 a. m., puedes configurar el crontab de la siguiente manera:
 
 ```txt
 0 8 * * * python <ruta al archivo.py>
@@ -88,7 +88,7 @@ El archivo crontab tiene un formato específico que consta de cinco campos separ
 0 8 * * * comando
 ```
 
-En esta línea, "0" representa los minutos (en este caso, 0), "8" representa las horas (8:00 a.m.), y los asteriscos (*indican que cualquier valor es válido para los campos restantes.
+En esta línea, `0` representa los minutos (en este caso, 0), `8` representa las horas (8:00 a. m.), y los asteriscos (`*`) indican que cualquier valor es válido para los campos restantes.
 
 Además de los valores numéricos, también puedes utilizar expresiones especiales en los campos de tiempo. Por ejemplo, "@daily" se traduce en "0 0 * * *", lo que significa que la tarea se ejecutará todos los días a la medianoche. Otras expresiones útiles incluyen "@hourly", "@weekly" y "@monthly".
 

@@ -9,9 +9,9 @@ authors:
   - blindma1den
   - lorenagubaira
 description: >-
-  Master file and directory management in Linux! Learn essential commands and
-  best practices for navigating and manipulating files efficiently. Discover
-  more!
+  Domina la gestión de archivos y directorios en Linux. Aprende los comandos
+  esenciales y las mejores prácticas para navegar y manipular archivos de
+  forma eficiente.
 ---
 ## Navegación y manipulación de archivos y directorios.
 
@@ -21,33 +21,27 @@ Para comenzar, es importante comprender la estructura de directorios. El sistema
 
 Dentro de los comandos básicos tenemos:
 
-| Comando | Flags | Funcion |
+| Comando | Flags | Función |
 | --- | --- | --- |
-| pwd |  | Imprime el directorio actual de trabajo |
-| cd |  | Cambiar el directorio de trabajo |
-| ls |  | Listar contenido del directorio |
-|  | -R | Listara todos los archivos dentro de los subdirectorios |
-|  | -a | Mostrará todos los archivos ocultos |
-|  | -al | Mostrará la información detallada de los archivos y directorios |
-| head |  | Permite ver hasta las primeras 10 lineas de texto de un archivo |
-|  | -n o -lines | Nos imprime un numero de lineas personalizado (hasta 10) |
-| tail |  | Permite ver las ultimas 10 lineas de texto de un archivo |
-|  | -n o -lines | Nos permite ver un numero de lineas personalizado |
-| (hasta 10) |  |  |
-| cat |  | Concatena y escribe contenido de los archivos en su salida estanadar, tambien se puede usar para el contenido de los archivos |
-| cp |  | Copia archivos o directorios y su contenido. |
-| Se coloca el nombre del archivo a copiar y el directorio destino |  |  |
-| cp nombrearchivo.txt /inicio/nombredeusuario/Documentos |  |  |
-| mv |  | Mueve uno o mas archivos o directorio y su contenido a otro directorio |
-| Se coloca el nombre del archivo a mover y el directorio destino |  |  |
-| mv nombrearchivo.txt /inicio/nombredeusuario/Documentos. |  |  |
-| rm |  | Se utiliza para eliminar un archivo o directorio del sistema |
-|  | -i | Pide confirmacion del sistema antes de borrar un archivo |
-|  | -f | Permite al sistema eliminar sin confirmación |
-|  | -r | Borra archivos y directorios de forma recursivas |
-| touch |  | Crea un archivo en blanco |
-| mkdir |  | Crea un directorio |
-|  |  |  |
+| `pwd` | | Imprime el directorio actual de trabajo |
+| `cd` | | Cambia el directorio de trabajo |
+| `ls` | | Lista el contenido del directorio |
+| | `-R` | Lista todos los archivos dentro de los subdirectorios de forma recursiva |
+| | `-a` | Muestra todos los archivos, incluidos los ocultos |
+| | `-la` | Muestra información detallada de los archivos y directorios |
+| `head` | | Muestra las primeras 10 líneas de un archivo por defecto |
+| | `-n N` | Muestra las primeras N líneas |
+| `tail` | | Muestra las últimas 10 líneas de un archivo por defecto |
+| | `-n N` | Muestra las últimas N líneas |
+| `cat` | | Concatena y muestra el contenido de archivos en la salida estándar |
+| `cp` | | Copia archivos o directorios. Ejemplo: `cp archivo.txt /home/usuario/Documentos` |
+| `mv` | | Mueve o renombra archivos y directorios. Ejemplo: `mv archivo.txt /home/usuario/Documentos` |
+| `rm` | | Elimina un archivo o directorio del sistema |
+| | `-i` | Pide confirmación antes de borrar |
+| | `-f` | Elimina sin pedir confirmación |
+| | `-r` | Borra directorios y su contenido de forma recursiva |
+| `touch` | | Crea un archivo vacío o actualiza la fecha de modificación de uno existente |
+| `mkdir` | | Crea un directorio |
 
 > ⚠️ Es importante tener precaución al utilizar comandos de manipulación de archivos y directorios, ya que las acciones son irreversibles y pueden afectar los datos de manera permanente. Siempre asegúrate de tener copias de seguridad actualizadas y de verificar dos veces antes de ejecutar comandos que puedan tener consecuencias no deseadas.
 
@@ -92,13 +86,13 @@ Existen dos formas de asignar permisos:
 - `u`: usuario
 - `g`: grupo
 - `o`: otros
-- `a:` todos (all), si necesitas aplicar el mismo permiso a usuario, grupos y otros, usa «a» para ahorrar tiempo.
+- `a`: todos (all), si necesitas aplicar el mismo permiso a usuario, grupos y otros, usa `a` para ahorrar tiempo.
 
 Luego agregamos si queremos añadir o quitar permisos
 
-- `+:` añadir permisos
-- `:` quitar permisos
-- `=:` especifica los permisos fijados.
+- `+`: añadir permisos
+- `-`: quitar permisos
+- `=`: especifica los permisos fijados.
 
 Y después colocamos los permisos que queremos asignar
 
@@ -108,7 +102,7 @@ Y después colocamos los permisos que queremos asignar
 
 ![otorgando persmisos](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image37.jpg?raw=true)
 
-Según esta imagen tenemos un directorio IT y adentro hay un archivo llamado `script.sh`, el cual tiene permisos de lectura pero no de escritura ni de ejecucion para el grupo propietario , esto lo podemos cambiar usando el comando `chmod` y asignando los permisos mediante números basados en e formato octal de permisos de linux
+Según esta imagen tenemos un directorio IT y adentro hay un archivo llamado `script.sh`, el cual tiene permisos de lectura pero no de escritura ni de ejecución para el grupo propietario. Esto lo podemos cambiar usando el comando `chmod` y asignando los permisos mediante números basados en el formato octal de permisos de Linux
 
 ![como ver permisos en linux](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image38.jpg?raw=true)
 
@@ -124,9 +118,9 @@ Podemos realizar el mismo ejercicio anterior, esta vez cambiaremos los permisos 
 
 ![permisos de forma octal](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/linux-image39.jpg?raw=true)
 
-- Otro comando que aprenderemos es el `mkdir` el cual nos permitirá crear un directorio
-- `chown` nos permitirá cambiar el propietario del archivo o directorio
-- chgrp nos permitirá cambiar el grupo propietario del archivo o directorio
+- `mkdir`: permite crear un directorio.
+- `chown`: permite cambiar el propietario del archivo o directorio.
+- `chgrp`: permite cambiar el grupo propietario del archivo o directorio.
 
 ## Búsqueda y filtrado de archivos
 
@@ -156,4 +150,4 @@ En este ejemplo, buscamos si dentro del archivo [script.sh](http://script.sh/) h
 
 ### Comando `locate`
 
-Este comando utiliza una base de datos para realizar búsquedas rápidas de archivos en todo el sistema. Este comando se especialmente útil cuando necesitas buscar archivos de forma frecuente y en grandes volúmen
+Este comando utiliza una base de datos indexada para realizar búsquedas rápidas de archivos en todo el sistema. Es especialmente útil cuando necesitas buscar archivos de forma frecuente y en grandes volúmenes. La base de datos se actualiza periódicamente con el comando `updatedb`.

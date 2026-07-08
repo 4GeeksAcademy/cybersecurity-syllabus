@@ -1,5 +1,5 @@
 ---
-title: 'OWASP Top 10: The Pillar of Cybersecurity'
+title: "OWASP Top 10: The Pillar of Cybersecurity"
 tags:
   - OWASP
   - cybersecurity
@@ -12,45 +12,56 @@ description: >-
   Master the OWASP Top 10 vulnerabilities and enhance your cybersecurity skills.
   Discover essential insights for protecting web applications today!
 ---
+
 The **OWASP Top 10** is the most important thing you need to know about cybersecurity. It is the reason cybersecurity exists. It’s 99% of what you need to learn to investigate, prevent, explore, exploit, document, and every other verb ending in `ar` in the dictionary. The Spanish language doesn't have words to express how important it is to master the OWASP Top 10. 🚨
 
 ## 🔍 But, what is the OWASP Top 10?
 
 There is a non-profit foundation called **OWASP** (Open Web Application Security Project) that is responsible for maintaining and publishing a list of the world's most important and frequent vulnerabilities in organizations. In reality, there are several lists, but during the cybersecurity bootcamp, we will focus only on the main list, and then it’s up to you to learn about the others.
 
-## 📋 List of OWASP Top 10 Vulnerabilities for 2021
+## 📋 List of OWASP Top 10 Vulnerabilities for 2025
 
-On the official OWASP website, you can see that the latest list was published in 2021 and consists of the following categories or groups of vulnerabilities:
+On the official OWASP website, you can see that the latest list was published in 2025 and consists of the following categories or groups of vulnerabilities:
 
-### 🔓 A01:2021 – Broken Access Control
+### 🔓 A01:2025 – Broken Access Control
+
 - **Description:** This category includes flaws that allow users to access data or functions outside their intended permissions. It is the most common and critical vulnerability, leading to unauthorized access and data breaches.
 
-### 🔐 A02:2021 – Cryptographic Failures (formerly known as Sensitive Data Exposure)
+### ⚙️ A02:2025 – Security Misconfiguration
+
+- **Description:** Security misconfiguration includes insecure default settings, incomplete hardening, exposed cloud services, unnecessary features enabled, and weak security headers that leave applications open to attack.
+
+### 🧩 A03:2025 – Software Supply Chain Failures
+
+- **Description:** This category focuses on risks in dependencies, third-party packages, build tools, and CI/CD processes. A compromised software supply chain can spread vulnerabilities across many systems quickly.
+
+### 🔐 A04:2025 – Cryptographic Failures
+
 - **Description:** This refers to weaknesses in cryptographic processes that can lead to the exposure of sensitive data. Issues include insufficient encryption, insecure key management, and the use of weak algorithms.
 
-### 💉 A03:2021 – Injection
+### 💉 A05:2025 – Injection
+
 - **Description:** Injection flaws occur when untrusted data is sent to an interpreter as part of a command or query. SQL injection is the most well-known example, but it also includes NoSQL injection, OS command injection, and others.
 
-### 🏗️ A04:2021 – Insecure Design
+### 🏗️ A06:2025 – Insecure Design
+
 - **Description:** This category addresses the risks associated with insecure design patterns and a lack of secure design principles, such as secure architecture and threat modeling.
 
-### ⚙️ A05:2021 – Security Misconfiguration
-- **Description:** Security misconfiguration is the result of insecure default configurations, incomplete configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages that reveal sensitive information.
+### 🆔 A07:2025 – Authentication Failures
 
-### 🧩 A06:2021 – Vulnerable and Outdated Components
-- **Description:** This involves the use of software components with known vulnerabilities that are often left unpatched or are outdated, potentially leading to a breach.
+- **Description:** This category includes weak authentication and session management controls, such as weak password policies, insecure credential handling, and broken login or session workflows that can allow account takeover.
 
-### 🆔 A07:2021 – Identification and Authentication Failures
-- **Description:** Formerly known as Broken Authentication, this category involves failures in the authentication process, such as improper implementation of authentication mechanisms, which can allow attackers to gain unauthorized access.
+### 🛠️ A08:2025 – Software or Data Integrity Failures
 
-### 🛠️ A08:2021 – Software and Data Integrity Failures
-- **Description:** This new category includes issues like insecure deserialization, where data is not properly validated before being processed, and vulnerabilities related to Continuous Integration/Continuous Deployment (CI/CD) pipelines.
+- **Description:** This includes issues such as insecure deserialization, unsigned code or updates, and integrity weaknesses in data or software delivery that let attackers tamper with trusted execution paths.
 
-### 📉 A09:2021 – Security Logging and Monitoring Failures
-- **Description:** Insufficient logging and monitoring can prevent the timely detection of breaches and attacks, leading to prolonged unauthorized access and data loss.
+### 📉 A09:2025 – Security Logging and Alerting Failures
 
-### 🌐 A10:2021 – Server-Side Request Forgery (SSRF)
-- **Description:** SSRF occurs when a web application is tricked into making unauthorized requests to another service, often leading to the exposure of internal services, sensitive data, or other attacks.
+- **Description:** Insufficient logging, monitoring, and alerting can prevent the timely detection of breaches and attacks, leading to prolonged unauthorized access and larger incident impact.
+
+### 🌐 A10:2025 – Mishandling of Exceptional Conditions
+
+- **Description:** This category covers unsafe handling of errors, exceptions, and edge conditions. Poor failure management can reveal sensitive details, bypass controls, or trigger insecure states during unexpected runtime behavior.
 
 ## 🔧 What to do with the OWASP Top 10?
 
