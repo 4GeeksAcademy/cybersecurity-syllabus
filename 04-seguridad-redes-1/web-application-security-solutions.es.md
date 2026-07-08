@@ -7,22 +7,14 @@ authors: ["blindma1den", "lorenagubaira"]
 
 ---
 
-Cuando se trata de soluciones de seguridad para aplicaciones web, hay 10 estrategias clave a considerar. Después de una revisión exhaustiva, recomendamos las siguientes prácticas y herramientas para mejorar la seguridad de tu aplicación web:
+Cuando se trata de soluciones de seguridad para aplicaciones web, hay 12 estrategias clave a considerar. Después de una revisión exhaustiva, recomendamos las siguientes prácticas y herramientas para mejorar la seguridad de tu aplicación web:
 
 ## 1. Prácticas de Codificación Segura
 
 - Sigue las recomendaciones del [OWASP Top 10](https://4geeks.com/lesson/owasp-top-10) para evitar vulnerabilidades comunes en aplicaciones web.
 - Implementa la validación de entrada y la codificación de salida para prevenir ataques de inyección.
-- Utiliza marcos y bibliotecas de codificación segura, a continuación se muestra una lista de los marcos más utilizados y la frecuencia de actualizaciones y la última vulnerabilidad encontrada:
-  
-| Lenguaje de Programación | Framework       | Frecuencia de Actualizaciones | Última Vulnerabilidad Encontrada | Vulnerabilidad Reportada          |
-|--------------------------|-----------------|-------------------------------|----------------------------------|-----------------------------------|
-| PHP                      | Laravel         | Frecuente                     | Marzo 2022                       | Inyección SQL                     |
-| Python                   | Django          | Frecuente                     | Abril 2022                       | Cross-Site Scripting (XSS)        |
-| Node.js                  | Express         | Frecuente                     | Febrero 2022                     | Ejecución Remota de Código (RCE)  |
-| Java                     | Spring          | Frecuente                     | Enero 2022                       | Traversal de Directorios          |
-| Ruby                     | Rails           | Frecuente                     | Marzo 2022                       | Cross-Site Request Forgery (CSRF) |
-| Rust                     | Rocket          | Moderada                      | Diciembre 2021                   | Denegación de Servicio (DoS)      |
+- Utiliza marcos y bibliotecas de codificación segura mantenidos activamente (por ejemplo, Laravel para PHP, Django para Python, Express para Node.js, Spring para Java o Rails para Ruby) y mantente al día con sus boletines de seguridad oficiales.
+- Consulta regularmente bases de datos públicas como la [NVD](https://nvd.nist.gov/) y el [registro CVE](https://www.cve.org/) para conocer las vulnerabilidades reportadas en las versiones que utilizas y aplicar los parches correspondientes.
 
 ## 2. Firewall de Aplicación Web (WAF)
 

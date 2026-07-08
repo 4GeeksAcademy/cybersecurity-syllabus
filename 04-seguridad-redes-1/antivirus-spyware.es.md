@@ -3,8 +3,8 @@ title: "Qué es y cómo elegir un antispyware y antivirus para empresas"
 subtitle: "Un antivirus para empresa es diferente de un antivirus personal, conoce los 5 mas pupulares antivirus para empresas y que criterio utilizar para analizarlos como rendimiento, manejo centralizado, eficacia, etc."
 tags: ["antivirus", "cibersecurity"]
 authors: ["alesanchezr"]
-keyword: "business antivirus software - 26 400"
-keyword: "Antivirus para empresas - 1 40"
+keyword_us: "business antivirus software - 26 400"
+keyword_es: "Antivirus para empresas - 1 40"
 
 ---
 

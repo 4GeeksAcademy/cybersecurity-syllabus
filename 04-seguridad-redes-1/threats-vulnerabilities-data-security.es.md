@@ -37,15 +37,9 @@ Como lo vimos antes, el *ramsomware* sólo es una parte de esta gran familia de 
 
 ## Phishing
 
-Los correos electrónicos de phishing pueden ser difíciles de detectar. Por ejemplo, a menudo se dirigirán a vos por tu nombre para parecer legítimos, pero los ciberdelincuentes pueden encontrar fácilmente esta información en Internet. Por lo tanto, es importante mantenerse alerta y pensar antes de hacer clic. El phishing es muy común y, a menudo, funciona. Por ejemplo, en agosto de 2020, la marca de juegos de élite Razer sufrió una violación de datos que expuso la información personal de aproximadamente 100 000 clientes.
+Los correos electrónicos de phishing pueden ser difíciles de detectar. Por ejemplo, a menudo se dirigirán a ti por tu nombre para parecer legítimos, pero los ciberdelincuentes pueden encontrar fácilmente esta información en Internet. Por lo tanto, es importante mantenerse alerta y pensar antes de hacer clic.
 
-Un consultor de seguridad descubrió que un clúster en la nube (un grupo de servidores vinculados que proporcionan almacenamiento de datos, bases de datos, redes y software a través de Internet) estaba mal configurado y expuso un segmento de la infraestructura de Razer a la Internet pública, lo que provocó una fuga de datos. Razer tardó más de tres semanas en proteger la instancia en la nube del acceso público, tiempo durante el cual los ciberdelincuentes tuvieron acceso a la información de los clientes que podría haberse utilizado en ataques de ingeniería social y fraude, como la que acaba de descubrir.
-
-Los correos electrónicos de phishing pueden ser difíciles de detectar. Por ejemplo, a menudo se dirigirán por tu nombre para parecer legítimos, pero los ciberdelincuentes pueden encontrar fácilmente esta información en Internet. Por lo tanto, es importante mantenerse alerta y pensar antes de hacer clic. El phishing es muy común y, a menudo, funciona. Por ejemplo, en agosto de 2020, la marca de juegos de élite Razer sufrió una violación de datos que expuso la información personal de aproximadamente 100 000 clientes.
-
-Un consultor de seguridad descubrió que un clúster en la nube (un grupo de servidores vinculados que proporcionan almacenamiento de datos, bases de datos, redes y software a través de Internet) estaba mal configurado y expuso un segmento de la infraestructura de Razer a la Internet pública, lo que provocó una fuga de datos.
-
-Razer tardó más de tres semanas en proteger la instancia en la nube del acceso público, tiempo durante el cual los ciberdelincuentes tuvieron acceso a la información de los clientes que podría haberse utilizado en ataques de ingeniería social y fraude, como la que acaba de descubrir. Por lo tanto, las organizaciones deben adoptar un enfoque proactivo de la seguridad en la nube para garantizar que los datos confidenciales estén protegidos.
+El phishing es muy común y, a menudo, funciona. Por ejemplo, en agosto de 2020, la marca de juegos de élite Razer sufrió una violación de datos que expuso la información personal de aproximadamente 100 000 clientes. Un consultor de seguridad descubrió que un clúster en la nube (un grupo de servidores vinculados que proporcionan almacenamiento de datos, bases de datos, redes y software a través de Internet) estaba mal configurado y expuso un segmento de la infraestructura de Razer a la Internet pública, lo que provocó una fuga de datos. Razer tardó más de tres semanas en proteger la instancia en la nube del acceso público, tiempo durante el cual los ciberdelincuentes tuvieron acceso a la información de los clientes que podría haberse utilizado en ataques de ingeniería social y fraude. Por lo tanto, las organizaciones deben adoptar un enfoque proactivo de la seguridad en la nube para garantizar que los datos confidenciales estén protegidos.
 
 ## Denegación de servicio
 
@@ -220,12 +214,11 @@ Dar importancia a la seguridad de la Empresa es fundamental. Por ello es necesar
 
 ![Políticas de seguridad de la información ](https://github.com/4GeeksAcademy/cybersecurity-syllabus/blob/main/assets/04-seguridad-redes/threats-vulnerabilities-data/threats-vulnerabilities-data-security-image-5.jpg?raw=true)
 
+Implementar una política de seguridad de la información requiere innumerables tareas, muchas de ellas técnicas, pero otras relacionadas con la administración general de la organización: desde contar con el presupuesto adecuado para la implementación hasta vencer los reparos que, por distintos modelos mentales, existan sobre su uso.
 
-requiere de innumerables tareas, muchas de ellas técnicas. Pero otras relacionadas con la administración general de la organización, que van desde contar con el presupuesto adecuado para la implementación hasta vencer los reparos que por distintos modelos mentales existan sobre su uso.
+Los responsables deben asegurar que la política de seguridad de la información que se establezca sea la más conveniente para la organización dentro de los recursos disponibles y no resulte solamente un “maquillaje”.
 
-deben asegurar que la política de seguridad de la información a establecer sea la más conveniente para la organización dentro de los recursos con que se cuente y no resulte solamente un “maquillaje”.
-
-En general se adopten los criterios de la **Norma ISO 27002**, que establece los principios generales para el inicio, la implementación, el mantenimiento y la mejora continua de la gestión de la seguridad de la información en una organización.
+En general, se recomienda adoptar los criterios de la **Norma ISO/IEC 27002**, que establece los principios generales para el inicio, la implementación, el mantenimiento y la mejora continua de la gestión de la seguridad de la información en una organización.
 
 ### Monitorizar de redes y servicios
 

@@ -16,7 +16,7 @@ La seguridad de las aplicaciones se refiere al proceso de desarrollar, añadir y
 
 ### **¿Por qué es tan importante la seguridad de las aplicaciones?**
 
-La seguridad de las aplicaciones es importante porque las aplicaciones actuales suelen estar disponibles a través de varias redes y conectadas a la cloud, lo que aumenta las vulnerabilidades a los peligros y las amenazas a la seguridad. Cada vez hay más presión y más alicientes para garantizar la seguridad no solo a nivel de la red, sino también dentro de las propias aplicaciones. Uno de los motivos es que los hackers están más interesados que antes en atacar aplicaciones. Al realizar pruebas de la seguridad de las aplicaciones, se pueden desvelar puntos débiles de las aplicaciones y ayudar a evitar este tipo de ataques.
+La seguridad de las aplicaciones es importante porque las aplicaciones actuales suelen estar disponibles a través de varias redes y conectadas a la nube, lo que aumenta las vulnerabilidades a los peligros y las amenazas a la seguridad. Cada vez hay más presión y más alicientes para garantizar la seguridad no solo a nivel de la red, sino también dentro de las propias aplicaciones. Uno de los motivos es que los hackers están más interesados que antes en atacar aplicaciones. Al realizar pruebas de la seguridad de las aplicaciones, se pueden desvelar puntos débiles de las aplicaciones y ayudar a evitar este tipo de ataques.
 
 La seguridad de aplicaciones no es una tecnología única, sino un conjunto de mejores prácticas, funciones y/o características añadidas al software de una empresa para ayudar a prevenir y resolver las amenazas de cibercriminales, brechas de datos y otros peligros.
 
@@ -97,13 +97,13 @@ Los desarrolladores de software pueden integrar procedimientos de autenticación
 
 Una vez autenticado, puede autorizarse al usuario para acceder a la aplicación y a utilizarla. El sistema puede validar que el usuario tenga permiso para acceder a la aplicación comparando su identidad con una lista de usuarios autorizados. La autenticación se debe efectuar antes que la autorización para que la aplicación solo contraste las credenciales de usuario validadas con la lista de usuarios autorizados.
 
-Cuando el usuario esté autenticado y esté usando la aplicación, se pueden proteger los datos confidenciales con otras medidas de seguridad para que los ciberdelincuentes no los vean ni los usen. En las aplicaciones basadas en la cloud, en las que el tráfico que contiene datos confidenciales circula entre el usuario final y la cloud, ese tráfico se puede cifrar para proteger los datos.
+Cuando el usuario esté autenticado y esté usando la aplicación, se pueden proteger los datos confidenciales con otras medidas de seguridad para que los ciberdelincuentes no los vean ni los usen. En las aplicaciones basadas en la nube, en las que el tráfico que contiene datos confidenciales circula entre el usuario final y la nube, ese tráfico se puede cifrar para proteger los datos.
 
 Por último, si se vulnera la seguridad de una aplicación, el registro puede ayudar a identificar quién ha accedido a los datos y cómo. Los archivos de registro de la aplicación ofrecen un control con marcas de tiempo de los aspectos de la aplicación a los que se ha accedido y de la persona implicada. Es necesario probar la seguridad de las aplicaciones para asegurarse de que todos estos controles de seguridad funcionen correctamente.
 
-### **Seguridad de las aplicaciones en la cloud**
+### **Seguridad de las aplicaciones en la nube**
 
-La seguridad de las aplicaciones en la cloud plantea desafíos adicionales. Dado que los entornos de cloud ofrecen recursos compartidos, se debe comprobar con especial atención que los usuarios solo tengan acceso a los datos que están autorizados a consultar en las aplicaciones basadas en la cloud. Los datos confidenciales también son más vulnerables en las aplicaciones basadas en la cloud, puesto que los datos se transmiten por Internet del usuario a la aplicación y viceversa.
+La seguridad de las aplicaciones en la nube plantea desafíos adicionales. Dado que los entornos en la nube ofrecen recursos compartidos, se debe comprobar con especial atención que los usuarios solo tengan acceso a los datos que están autorizados a consultar en las aplicaciones basadas en la nube. Los datos confidenciales también son más vulnerables en las aplicaciones basadas en la nube, puesto que los datos se transmiten por Internet del usuario a la aplicación y viceversa.
 
 ### **Seguridad de las aplicaciones móviles**
 
@@ -142,4 +142,4 @@ Algunas de las principales vulnerabilidades en aplicaciones sólo pueden identif
 > Si bien SAST puede encubrir esto hasta cierto punto, una herramienta SCA independiente es mejor para un análisis en profundidad de todos los componentes de código abierto para el cumplimiento, las vulnerabilidades, etc.
  
 - **Pentesting:** En un alto nivel, Penetration Testing funciona de manera similar a DAST al atacar una aplicación desde el exterior para descubrir lagunas de seguridad. Pero si bien DAST es mayoritariamente automática y económica, las pruebas de penetración se realizan manualmente por expertos (hackers éticos) y es un asunto costoso. Aún así, hay Pentest para realizar una inspección automática, pero los resultados pueden carecer de profundidad en comparación con las pruebas manuales.
-- **RASP**: Aplicación en tiempo de ejecución Self-Protección (RASP), como lo demuestra su nombre, ayuda a Detectar problemas de seguridad en tiempo real. Los protocolos RASP están integrados en la aplicación para evitar vulnerabilidades que puedan falsificar otras medidas de seguridad.
+- **RASP:** la autoprotección de aplicaciones en tiempo de ejecución (Runtime Application Self-Protection, RASP), como su nombre indica, ayuda a detectar problemas de seguridad en tiempo real. Los componentes RASP están integrados en la aplicación para evitar vulnerabilidades que puedan eludir otras medidas de seguridad.

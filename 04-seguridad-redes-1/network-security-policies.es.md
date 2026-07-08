@@ -8,7 +8,7 @@ authors: ["blindma1den", "lorenagubaira"]
 
 En el mundo conectado de hoy en día, las empresas dependen de las redes informáticas para todo, desde realizar actividades cotidianas hasta ejecutar funciones críticas para el negocio. El principal objetivo es reducir costos y aumentar la comodidad. Esta dependencia excesiva de Internet tiene sus inconvenientes. Las malas prácticas de seguridad de red y la falta de coherencia entre los distintos equipos que operan en una red dejan a la organización vulnerable a más amenazas de seguridad de red.
 
-Para superarlo, las empresas crean una política de seguridad de la red: un conjunto de normas que deben seguirse en toda la organización para ofrecer un frente unificado contra las amenazas a la seguridad de la red. Las pérdidas derivadas de las violaciones de la seguridad de la red no hacen más que aumentar cada año y, sin una política estricta de seguridad de la red, una organización no hace más que agravarlas. Se espera que las pérdidas por incidentes de seguridad informática sean de 8 billones de dólares en 2023 y se prevé que crezcan hasta los 10,5 billones en 2025.
+Para superarlo, las empresas crean una política de seguridad de la red: un conjunto de normas que deben seguirse en toda la organización para ofrecer un frente unificado contra las amenazas a la seguridad de la red. Las pérdidas derivadas de las violaciones de la seguridad de la red no hacen más que aumentar cada año y, sin una política estricta de seguridad de la red, una organización no hace más que agravarlas. Según las proyecciones publicadas por Cybersecurity Ventures en 2023, los costes globales del cibercrimen alcanzarían los 8 billones de dólares ese año y crecerían hasta los 10,5 billones en 2025.
 
 ## ¿Qué es una política de seguridad de la red?
 
@@ -62,9 +62,9 @@ La siguiente ilustración representa un escenario de una empresa típica, donde 
 
 La gestión de seguridad de red ofrece una visibilidad completa de la red y genera datos para activos (agrupamientos y clasificaciones), firewalls, aplicaciones, puertos, protocolos, VPN y políticas de seguridad y dispositivos de proveedores. Esta información permite profundizar en los detalles de los dispositivos individuales y se analiza. Los datos se traducen en inteligencia que desencripta las transacciones de seguridad en información maleable y procesable bajo la forma de creación de políticas. Las políticas actualizadas se distribuyen a los puntos de aplicación (firewalls), lo que garantiza la protección de la red.
 
-Arquitectura de seguridad en redes
+## Arquitectura de seguridad en redes
 
-**Arquitectura base de sistemas de control**
+### Arquitectura base de sistemas de control
 
 La arquitectura base seleccionada está basada en la propuesta ofrecida por la norma IEC 62443. En ella se definen diferentes zonas asociadas a los niveles en los que se divide un sistema de control industrial. La arquitectura base presenta una segmentación basada en cortafuegos para separar las zonas de control y corporativa, contando además con dos DMZ para el intercambio de información entre ambas zonas. Las arquitecturas siguientes propuestas presentas arquitecturas de seguridad para asegurar las comunicaciones y los dispositivos situados en la parte de control de la red. La seguridad de la parte corporativa no se ha tenido en cuenta en este estudio al quedar fuera del ámbito del mismo.
 
