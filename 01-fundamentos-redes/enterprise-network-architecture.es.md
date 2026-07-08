@@ -14,7 +14,7 @@ Una **arquitectura de red** es un conjunto estructurado de componentes y protoco
 
 Las **arquitecturas de red** pueden variar significativamente en tamaño y complejidad, desde redes domésticas pequeñas hasta grandes redes empresariales y de telecomunicaciones. Aquí hay algunos elementos clave que suelen formar parte de una arquitectura de red:
 
-| Concepto | Definicion |
+| Concepto | Definición |
 | --- | --- |
 | Topología de red |  La topología de red se refiere a la disposición física y lógica de los dispositivos en la red y cómo están interconectados. Algunas topologías comunes incluyen la topología de estrella, de bus, de anillo y de malla, cada una con sus propias ventajas y desventajas. |
 | Componentes de red | Estos incluyen dispositivos como routers, switches, hubs, firewalls, servidores, estaciones de trabajo, dispositivos móviles y otros elementos que permiten la comunicación y el flujo de datos en la red. |
